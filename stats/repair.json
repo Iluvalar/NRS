@@ -1,0 +1,69 @@
+{
+    "AutoRepair": {
+        "id": "AutoRepair",
+        "location": "DEFAULT",
+        "name": "Auto Repair",
+        "repairPoints": 10,
+        "time": 75
+    },
+    "CyborgRepair": {
+        "buildPoints": 682.6666666666666,
+        "buildPower": 222.7834644294288,
+        "id": "CyborgRepair",
+        "droidType": "CYBORG_REPAIR",
+        "location": "TURRET",
+        "model": "cy_rep.pie",
+        "mountModel": "cybody.pie",
+        "name": "*Cyborg Mechanic*",
+        "repairPoints": 100,
+        "time": 7,
+        "weight": 583.3333333333334,
+        "constructPoints": 81.93553674235653,
+        "hitpoints": 0
+    },
+    "HeavyRepair": {
+        "buildPoints": 682.6666666666666,
+        "buildPower": 222.7834644294288,
+        "designable": 1,
+        "droidType": "DROID_REPAIR",
+        "id": "HeavyRepair",
+        "location": "TURRET",
+        "model": "GNMREPR2.PIE",
+        "mountModel": "TRMECM1.PIE",
+        "name": "Heavy Repair Turret",
+        "repairPoints": 300,
+        "time": 7,
+        "weight": 583.3333333333334,
+        "constructPoints": 84.81821965853008,
+        "hitpoints": 0
+    },
+    "LightRepair1": {
+        "buildPoints": 682.6666666666666,
+        "buildPower": 222.7834644294288,
+        "designable": 1,
+        "droidType": "DROID_REPAIR",
+        "id": "LightRepair1",
+        "location": "TURRET",
+        "model": "GNMREPAR.PIE",
+        "mountModel": "TRMECM1.PIE",
+        "name": "Repair Turret",
+        "repairPoints": 150,
+        "time": 7,
+        "weight": 583.3333333333334,
+        "constructPoints": 81.93553674235653,
+        "hitpoints": 0
+    },
+    "NEXUSrepair": {
+        "id": "NEXUSrepair",
+        "location": "DEFAULT",
+        "name": "*NEXUSrepair*",
+        "repairPoints": 100,
+        "time": 100
+    },
+    "ZNULLREPAIR": {
+        "id": "ZNULLREPAIR",
+        "location": "DEFAULT",
+        "name": "ZNULLREPAIR",
+        "time": 100
+    }
+}

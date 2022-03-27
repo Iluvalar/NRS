@@ -1,0 +1,11 @@
+{
+     "AI":
+     {
+          "js": "nb_generic.js",
+          "name": "NRS NULLBOT",
+          "tip": "Killed Nexus",
+          "easy_tip": "easy",
+		  "hard_tip": "DO NOT USE, build an honor hall in game if you deserve it.",
+          "insane_tip": "INSANE 1v2"
+     }
+}
