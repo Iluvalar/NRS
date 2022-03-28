@@ -198,7 +198,7 @@ foreach($mods as $no => $modname){
 }
 
 
-///// Economic structure definition... could hide...
+///// Economic structure definition... could hide... 
 	$resourcesNames2=['Work','Service','Electric', 'Pop','density','rich', 'environement','War','F','B','C'];
 	//"A0ComDroidControl","A0ResourceExtractor","A0BaBaPowerGenerator","A0PowerGenerator",
 	//"","","Heavywepslab-nrs","Rotarywepslab-nrs","Aerodynamicslab-nrs","Advmaterialslab-nrs",
@@ -322,17 +322,6 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgLightBody", 'in'=>'base', 'type'=> '
 Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'base', 'type'=> 'body', 'as' => ['med','AS','insta','exshort','Cyb','fake'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'2120', 'type'=> 'body', 'as' => ['hvy','AS','insta','exshort','Cyb','fake'] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "CCSensor", 'in'=>'base', 'type'=> 'sensor', 'as' => ['med','AW','lowtech'] ]);
-
-Fnrs_rlist('2120','R-Wpn-Cannon6TwinAslt');
-Fnrs_rlist('2120','R-Wpn-RailGun03');
-
-/*
-
-
-
-
-*/
-
 
 
 $fac='nexus';

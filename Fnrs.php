@@ -1,5 +1,5 @@
 <?php
-function newton($f,$zero,$g=1){
+function newton($f,$zero,$g=1){ //newton approximation find the zero of function of an arbitrary function.
 
 	$slice=.00000001;
 	echo '<br>newton('. $g .' && '. ($f($g)) .'-'. ($f($g-$slice)) .')'. $f($g);
@@ -14,20 +14,8 @@ function newton($f,$zero,$g=1){
 	echo ' to:('. $g .' && '. ($f($g)) .'-'. ($f($g-$slice)) .')'. $f($g);
 	return $g;
 }
-function Fnrs_rlist($in,$res){
-	global $sys;
-	$results=$sys['nrs'][$in]['research'][$res]['resultComponents'];
-	
-	foreach($results as $no =>$val){
-		if($no>0){
-			$ret.=',';
-		}
-		$ret.=$val;
-	}
-	echo 'results debug:'. $ret;
-	return $ret;
-}
-function Fnrs_genprop( $propname,$fac,$usename,$pts,$type='Wheeled'){
+
+function Fnrs_genprop( $propname,$fac,$usename,$pts,$type='Wheeled'){ //while x++<1 , now using upgrades...
 	global $sys;
 	while($x++<1){
 		$item=$sys['nrs']['base']['propulsion'][ $propname ];
@@ -48,7 +36,7 @@ function Fnrs_genprop( $propname,$fac,$usename,$pts,$type='Wheeled'){
 	//Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser3BEAMMk1,Cyb-Wpn-Laser,Laser3BEAM-VTOL', 'in'=>'base','type'=> 'weapons', 'as' => ['hvy','AP','hightech','longrange','weapon'] ]);
 }
 
-function Fnrs_add($info){
+function Fnrs_add($info){ //First store all the things to add in a neat array that Fnrs_generate will interpret later.
 	global $sys;
 	//print_r($info['in']);
 	$as=$info['as'];
@@ -78,7 +66,7 @@ function Fnrs_add($info){
 	$sys['nrs']['add'][ $info['faction'] ][ $weight ][ $target ][]=$info;
 }
 
-function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,$name=''){
+function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,$name=''){ //generate entire lines of upgrade
 	//$id=$filtername .'-'. $param .'-'. 1;
 	global $sys;
 	$x=0;
@@ -243,40 +231,8 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 	$sys['nrs']['nb']['temp']='"'. $req .'"';
 	
 };
-/*
-    "R-Vehicle-Metals01": {
-        "iconID": "IMAGE_RES_DROIDTECH",
-        "id": "R-Vehicle-Metals01",
-        "imdName": "icmolql.pie",
-        "keyTopic": 1,
-        "msgName": "RES_V_MET1",
-        "name": "Composite Alloys",
-        "requiredResearch": [
-            "R-Struc-Factory-Module",
-            "R-Struc-Research-Module"
-        ],
-        "researchPoints": 1800,
-        "researchPower": 56,
-        "results": [
-            {
-                "class": "Body",
-                "filterParameter": "BodyClass",
-                "filterValue": "Droids",
-                "parameter": "Armour",
-                "value": 30
-            },
-            {
-                "class": "Body",
-                "filterParameter": "BodyClass",
-                "filterValue": "Droids",
-                "parameter": "HitPointPct",
-                "value": 30
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG"
-    },
-	*/
-function Fnrs_generate(){
+
+function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in the appropriate files, evaluate it, balance it and build the tree
 	global $sys;
 	foreach($sys['nrs']['add'] as $nomfac => $val){
 		echo "Faction : ". $nomfac;
@@ -292,7 +248,6 @@ function Fnrs_generate(){
 		$temp['statID']='Sys-SensoTowerWS';
 		$temp['subgroupIconID']='IMAGE_RES_GRPDAM';
 		if($nomfac=='start'){
-			echo 'MAMAAMAMAMAMAMAMAMAM';
 			$sys['nrs']['file']['stat']['research'][$idfac]=$temp;
 		}
 	
@@ -398,7 +353,7 @@ function Fnrs_generate(){
 						//if( $itemname=='B1BaBaPerson01-nrs'){ $val3['type']='body'; echo 'BLLLLLLLLLLLLLLA';}
 
 						if($exp2[ count($exp2)-1 ]=='brain'){
-							echo 'brain shiit !!!'. $itemname;
+							echo 'brain!!!'. $itemname;
 							//$braindetect=1;
 							$sufix='';
 							$type='brain';
@@ -411,7 +366,7 @@ function Fnrs_generate(){
 						print_r($item);
 						$braindetect=0;
 						if($exp2[ count($exp2)-1 ]=='command'){
-							echo 'command shiit !!!';
+							echo 'command!!!';
 							$braindetect=1;
 							$sufix='';
 							$item['designable']=1;
@@ -974,7 +929,7 @@ function Fnrs_generate(){
 	}
 }
 
-function Fwz_NRS_dist(&$d,$var){
+function Fwz_NRS_dist(&$d,$var){ //scale distance of the whole mod.
 	if($var[1]!=1 or $var[2]!=1){
 		foreach($d['propulsion'] as $nom => $val){
 			Fwz_mult($d['propulsion'][$nom]['speed'],$var[1]*$var[2]);
@@ -1006,6 +961,7 @@ function Fwz_NRS_dist(&$d,$var){
 
 }
 
+//Make sure constant are initialized
 $sys['nrs']['dmgunit']=1;
 $sys['nrs']['powerunit']=1;
 $sys['nrs']['dmgscale']=1;
