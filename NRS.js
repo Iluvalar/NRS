@@ -612,7 +612,7 @@ function powerStuff(){
 		culture[playnum]=cultureToSet;
 		honor[playnum]+=(honorPow+( ndiff/maxPlayers-1.5)*500 )*5*1000;
 		powerGen[playnum]= Math.floor(income/10+restInc[playnum]); //
-		restInc[playnum]=income/10+restInc[playnum]-powerGen[playnum];
+		restInc[playnum]= Math.floor(income/10+restInc[playnum]-powerGen[playnum]*1000)/1000;
 		//powerLast[playnum]+=income;
 		var powMult=powertypefact/fractprop/foundsFact*(1-equity);
 		if(powMult<0){ powMult=0; }
