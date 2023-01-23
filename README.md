@@ -1,4 +1,5 @@
 # NRS
+```
 Next Research System for Warzone2100
 
 NRS is a whole remake of the techtree which gives you access to all component you'd want from the start. There is no branch to the tree other then the most obvious (DMG and ROF upgrades only after discovering the weapon...). Do not worry ! All weapons go trough the same weapon analyzer and are balanced using the same well tested formula. So rail guns while available from 2 minutes in the game won't be a game ending research.
@@ -16,8 +17,9 @@ New in NRS!!
 *Interest rate. Which stop you to have to rush to click stuff all the time and allows for actual thinking.
 *Improved balance ! I'm committed to make the most competitive version of WZ ever.
 And more new things coming...
-
-== You can do it!==
+```
+##You can do it!
+```
 This mod is noob friendly.
 Just get a weapon, design and build!
 You'll be plesantly surprised to see how well a mg viper on wheel rush can go.
@@ -25,8 +27,9 @@ DO NOT RESEARCH funny things.
 Just explore, 1 or 2 new things every game. And keep the game plan SIMPLE. 
 Just a few line of research every games IS WHAT YOU NEED!
 Focus on your current crazy plan and do not be overwhelmed by the amount of option for other crazy plans.
-
-== Become a pro! ==
+```
+##Become a pro!
+```
 Circle of weight : Light >outnumber> Medium >outnumber> Heavy >Can't feel> Light
 Circle of propulsion : Structure, Track, wheel, legs(personnal), Structure... 
 weapon modifier AS,AT,AW,AP each is weak against it opposite in the circle.
@@ -43,8 +46,9 @@ A rush is definitively possible and spending power in 4 labs at start while you 
 The power level now control the demand for oil and other resources. If you play high oil, the oil derrick will have the most focus in the game, if you play low oil, everyone should play sim city to produce power.
 
 The tech level will affect the starting power allowing you to research more things. However be careful ! The economical aid for all player will also be reduced. Higher tech level will be for more advanced player who want full control on their research.
-
-== Economy ==
+```
+##Economy
+```
 There is 3 lines of economy building. Eco1,eco2,eco3
 They all behave identically and they are randomly generated in each pack!
 Each of those buildings have different stats.
@@ -57,21 +61,24 @@ There are 8 "ressources" in game :
 
 Each buildings create those "ressources" by using others. 
 In other word : build a bit of everything! you should do just fine.
-
-=== Propaganda ===
+```
+### Propaganda
+```
 The propaganda reduce the total power in the map. 
 It is what make the difference between a low oil and an high oil game.
 It increase with work and population and it reduce with electricity.
 IF you prefer high oil games, focus on building power plants.
 Everyone gets to vote in essence for the power level.
-
-=== Special buildings ===
+```
+### Special buildings 
+```
 3x lab: yes it goes 3x faster, but it's expensive!
 banks: They give you power! and a debt.
 honor hall: Honor makes you win MORE! wow! You can win twice in the same game. It's designed as a taunt between players. It also make AIs much stronger. In single player FFA, it makes the late game much more fun.
 Financial center: I don't know. Does it reduce propaganda ?
-
-=== Economy data ===
+```
+### Economy data
+```
 this is only for the cazies amongst you who want to review the data
 I made it TOO complex to refrain anyone to memorize it.
 So don't file complains about this being too complex. That's the POINT!
@@ -114,7 +121,7 @@ $structureData = [
 		'Tree'=>			[0,0,0, 0,1,0, 2,-1,0,0,0],
 
 The scripts are not executable as they are now in the git. There is a lot of missing parts.
-
-== design ==
-Why ?
+```
+##design
+###Why ?
 Adding new content to a tech tree increase the value of the parts leading to it. And by shockwave effect increase the value of anything that those branches lead to. We can try to predict some of the outcome of our changes. but if, for example, Synaptic Link Data Analysis Mk3 become the 27th research in your research path instead of 26th, EVERYTHING that need the sensor to be researched will REQUIRE a rebalance. The only way I know to rebalance that is a 2 months community test trial followed by an hopeful balance patch that will only address half of the problems at best. In other words, we are constantly in test trial for the latest changes and those changes must come in a snail paces. Which segway nicely to the next part:
