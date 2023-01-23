@@ -1,12 +1,18 @@
 # NRS
 Next Research System for Warzone2100
 
+The scripts are not executable as they are now. There is a lot of missing parts.
+
 NRS is a whole remake of the techtree which gives you access to all component you'd want from the start. There is no branch to the tree other then the most obvious (DMG and ROF upgrades only after discovering the weapon...). Do not worry ! All weapons go trough the same weapon analyzer and are balanced using the same well tested formula. So rail guns while available from 2 minutes in the game won't be a game ending research.
+
+Why ?
+Adding new content to a tech tree increase the value of the parts leading to it. And by shockwave effect increase the value of anything that those branches lead to. We can try to predict some of the outcome of our changes. but if, for example, Synaptic Link Data Analysis Mk3 become the 27th research in your research path instead of 26th, EVERYTHING that need the sensor to be researched will REQUIRE a rebalance. The only way I know to rebalance that is a 2 months community test trial followed by an hopeful balance patch that will only address half of the problems at best. In other words, we are constantly in test trial for the latest changes and those changes must come in a snail paces. Which segway nicely to the next part:
 
 New in NRS!!
 *Humans. Squishy little bag of meat. Play as the helpless little humans fighting against giant mech !
 *Nuclear plant, housing and solar panel (power generation)
 *park, forest and tree (more power generation that take more space)
+*Propaganda tower, ruin everyone's economy
 *Quark cannon line (from 2120)
 *Med laser line (from 2120)
 *Heavy rocket line (from 2120)
@@ -16,15 +22,6 @@ New in NRS!!
 *Interest rate. Which stop you to have to rush to click stuff all the time and allows for actual thinking.
 *Improved balance ! I'm committed to make the most competitive version of WZ ever.
 And more new things coming...
-
-== You can do it!==
-This mod is noob friendly.
-Just get a weapon, design and build!
-You'll be plesantly surprised to see how well a mg viper on wheel rush can go.
-DO NOT RESEARCH funny things.
-Just explore, 1 or 2 new things every game. And keep the game plan SIMPLE. 
-Just a few line of research every games IS WHAT YOU NEED!
-Focus on your current crazy plan and do not be overwhelmed by the amount of option for other crazy plans.
 
 == Become a pro! ==
 Circle of weight : Light >outnumber> Medium >outnumber> Heavy >Can't feel> Light
@@ -112,9 +109,3 @@ $structureData = [
 		'Boulder1'=>		[0,0,0, 0,1,0, 2,0,-1,0,0],
 		'arizonabush3'=>	[0,1,0, -1,0,0, 2,-1,0,0,0],
 		'Tree'=>			[0,0,0, 0,1,0, 2,-1,0,0,0],
-
-The scripts are not executable as they are now in the git. There is a lot of missing parts.
-
-== design ==
-Why ?
-Adding new content to a tech tree increase the value of the parts leading to it. And by shockwave effect increase the value of anything that those branches lead to. We can try to predict some of the outcome of our changes. but if, for example, Synaptic Link Data Analysis Mk3 become the 27th research in your research path instead of 26th, EVERYTHING that need the sensor to be researched will REQUIRE a rebalance. The only way I know to rebalance that is a 2 months community test trial followed by an hopeful balance patch that will only address half of the problems at best. In other words, we are constantly in test trial for the latest changes and those changes must come in a snail paces. Which segway nicely to the next part:

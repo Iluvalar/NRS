@@ -7,7 +7,7 @@
 	
 	//var resources=[0,0,0,0,0,0,0,0,0,0];
 	var resourcesNames=['W','S','E','P','Hi','$','Env','war','food','cash'];
-	var resourcesNames2=['Work','Service','Electric','Pop','density','rich','environement','F','P','B','C'];
+	var resourcesNames2=['Work','Service','Electric','Population','density','luxury','environement','F','P','B','C'];
 	var totHonor=0;
 	//var powerLast=[0,0,0,0,0,0,0,0];
 	var totIncome=0;
