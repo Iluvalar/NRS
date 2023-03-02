@@ -1,6 +1,6 @@
 <?php
 
-error_reporting(E_ERROR | E_PARSE);
+//error_reporting(E_ERROR | E_PARSE);
 ini_set('memory_limit','1G');
 
 include('Fwz.php');
@@ -91,10 +91,10 @@ $basedir='./mp3.4/';
 $dir2120='./2120/';
 //$dirnrs='./8c-oligarchyNRSpV150/';
 //$savedir='C:\Users\patag\AppData\Roaming\Warzone 2100 Project\Warzone 2100 4.0\mods\multiplay\NRS';
-$savedir='./NRS/modfiles/';
+$savedir='./modfiles/';
 $sys['nrs']['dir']['base']='./mp3.4/';
 $sys['nrs']['dir']['2120']='./2120/';
-$sys['nrs']['dir']['save']='./NRS/modfiles/';
+$sys['nrs']['dir']['save']='./modfiles/';
 
 $str=file_get_contents($dir2120 .'stats/weapons.json');
 $sys['nrs']['2120']['weapons']= json_decode($str, TRUE);
@@ -141,7 +141,7 @@ $mods=['base','2120'];
 foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
-			//echo $nom .','. $val['name'] .' '.  $val['size'] .'<br>';
+			echo $nom .','. $val['name'] .' '.  $val['size'] .'<br>';
 			$sys['nrs'][$modname][$listtype][$nom]['armourKinetic']=0;
 			$sys['nrs'][$modname][$listtype][$nom]['armourHeat']=0;
 			
@@ -719,14 +719,14 @@ foreach($sys['nrs']['file']['stat'] as $nom => $val){
 //Generating scripts bits
 echo '<pre>';	
 $str=file_get_contents('./modelNRS/NRS.js');
-$str  = str_replace("//--NRSInterest", 'var interest='. ($sys['nrs']['interest']-1) .';',$str);
+$str  = str_replace("//--NRSInterest", 'var interest='. floor( ($sys['nrs']['interest']-1)*100000)/100000 .'; //int',$str);
 $str  = str_replace("//--NRSbasepower", 'var basepower='. floor($sys['nrs']['basepower']) .';',$str);
 $str  = str_replace("//--NRSstructureData", $sys['nrs']['structureData'],$str);
 file_put_contents($savedir .'\\multiplay\\script\\mods\\NRS.js',$str);
 
 echo print_r($sys['nrs']['nrs']['structure']);
 //--NRSInterest
-echo 'JS STR: <script>'. $str .'</script>';
+echo 'JS STR: '. $savedir  .' '. $str .'End script<br>';
 print_r($sys['nrs']['count']);
 echo $sys['nrs']['powstuff'];
 echo '<br>'. $sys['nrs']['powstuff2'];
