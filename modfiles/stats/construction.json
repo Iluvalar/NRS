@@ -32,6 +32,7 @@
         "mountModel": "cybody.pie",
         "name": "*Combat Engineer*",
         "sensorModel": "cy_con.pie",
+        "usageClass": "Cyborg",
         "weight": 250
     },
     "Spade1Mk1": {

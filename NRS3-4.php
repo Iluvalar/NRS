@@ -174,6 +174,7 @@ foreach($mods as $no => $modname){
 			$sys['nrs'][$modname][$listtype][$nom]['armour']=0;
 			$sys['nrs'][$modname][$listtype][$nom]['thermal']=0;
 			$sys['nrs'][$modname][$listtype][$nom]['flags']='ShootAir';
+			$sys['nrs'][$modname][$listtype][$nom]['splash radius']*=0.5/1.25; //will be multiplied by 1.25 in the scaledist code later.
 			
 			//        "flags": "ShootAir",
 	}
@@ -386,6 +387,10 @@ $sys['nrs']['file']['stat']['repair']['AutoRepair']['repairPoints']=10;
 
 
 $fac='BaBa';
+//"usageClass": "Cyborg",
+//"class": "Cyborgs",
+$sys['nrs']['base']['body']['B1BaBaPerson01-nrs']['usageClass']="Cyborg";
+$sys['nrs']['base']['body']['B1BaBaPerson01-nrs']['class']="Cyborgs";
 $sys['nrs']['file']['stat']['templates']['BaBaPeople']['available']=true;
 $sys['nrs']['base']['structure']['A0BaBaFactory']['productionPoints']=2*$sys['nrs']['powerunit'];
 

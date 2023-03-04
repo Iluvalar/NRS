@@ -17,6 +17,7 @@
         "name": "*Cyborg Mechanic*",
         "repairPoints": 100,
         "time": 7,
+        "usageClass": "Cyborg",
         "weight": 583.3333333333334,
         "constructPoints": 81.93553674235653,
         "hitpoints": 0

@@ -7,9 +7,6 @@
         "requiredResearch": [
             "R-Struc-CommandRelay"
         ],
-        "requiredStructures": [
-            "A0ComDroidControl"
-        ],
         "researchPoints": 1200,
         "researchPower": 37,
         "resultComponents": [
@@ -25,10 +22,8 @@
         "name": "Command Turret Upgrade",
         "requiredResearch": [
             "R-Comp-CommandTurret01",
+            "R-Sys-Sensor-Upgrade02",
             "R-Struc-Research-Upgrade07"
-        ],
-        "requiredStructures": [
-            "A0ComDroidControl"
         ],
         "researchPoints": 5000,
         "researchPower": 450,
@@ -859,7 +854,7 @@
     "R-Defense-HardcreteGate": {
         "iconID": "IMAGE_RES_DEFENCE",
         "id": "R-Defense-HardcreteGate",
-        "msgName": "RES_DF_HCW1",
+        "msgName": "RES_DF_HCW2",
         "name": "Hardcrete Gate",
         "requiredResearch": [
             "R-Defense-HardcreteWall"
@@ -2315,34 +2310,6 @@
         "requiredResearch": [
             "R-Defense-WallUpgrade01"
         ],
-        "researchPoints": 1200,
-        "researchPower": 37,
-        "results": [
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "Armour",
-                "value": 35
-            },
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "HitPoints",
-                "value": 30
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG"
-    },
-    "R-Struc-Materials02": {
-        "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials02",
-        "imdName": "icmolql.pie",
-        "name": "Reinforced Base Structure Materials Mk2",
-        "requiredResearch": [
-            "R-Struc-Materials01"
-        ],
         "researchPoints": 2400,
         "researchPower": 75,
         "results": [
@@ -2351,57 +2318,27 @@
                 "filterParameter": "Type",
                 "filterValue": "Structure",
                 "parameter": "Armour",
-                "value": 35
+                "value": 120
             },
             {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Structure",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 90
             }
         ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG",
-        "techCode": 1
+        "subgroupIconID": "IMAGE_RES_GRPUPG"
     },
-    "R-Struc-Materials03": {
+    "R-Struc-Materials02": {
         "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials03",
-        "imdName": "icmolql.pie",
-        "name": "Reinforced Base Structure Materials Mk3",
-        "requiredResearch": [
-            "R-Struc-Materials02"
-        ],
-        "researchPoints": 3600,
-        "researchPower": 112,
-        "results": [
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "Armour",
-                "value": 35
-            },
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "HitPoints",
-                "value": 30
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG",
-        "techCode": 1
-    },
-    "R-Struc-Materials04": {
-        "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials04",
+        "id": "R-Struc-Materials02",
         "imdName": "icmolql.pie",
         "msgName": "RES_ST_MAT4",
         "name": "Hardened Base Structure Materials",
         "requiredResearch": [
             "R-Defense-WallUpgrade04",
-            "R-Struc-Materials03"
+            "R-Struc-Materials01"
         ],
         "researchPoints": 6000,
         "researchPower": 187,
@@ -2411,85 +2348,27 @@
                 "filterParameter": "Type",
                 "filterValue": "Structure",
                 "parameter": "Armour",
-                "value": 35
+                "value": 120
             },
             {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Structure",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 90
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     },
-    "R-Struc-Materials05": {
+    "R-Struc-Materials03": {
         "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials05",
-        "imdName": "icmolql.pie",
-        "name": "Hardened Base Structure Materials Mk2",
-        "requiredResearch": [
-            "R-Struc-Materials04"
-        ],
-        "researchPoints": 8000,
-        "researchPower": 250,
-        "results": [
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "Armour",
-                "value": 35
-            },
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "HitPoints",
-                "value": 30
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG",
-        "techCode": 1
-    },
-    "R-Struc-Materials06": {
-        "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials06",
-        "imdName": "icmolql.pie",
-        "name": "Hardened Base Structure Materials Mk3",
-        "requiredResearch": [
-            "R-Struc-Materials05"
-        ],
-        "researchPoints": 10000,
-        "researchPower": 312,
-        "results": [
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "Armour",
-                "value": 35
-            },
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "HitPoints",
-                "value": 30
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG",
-        "techCode": 1
-    },
-    "R-Struc-Materials07": {
-        "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials07",
+        "id": "R-Struc-Materials03",
         "imdName": "icmolql.pie",
         "msgName": "RES_ST_MAT7",
         "name": "Advanced Base Structure Materials",
         "requiredResearch": [
             "R-Defense-WallUpgrade07",
-            "R-Struc-Materials06"
+            "R-Struc-Materials02"
         ],
         "researchPoints": 12000,
         "researchPower": 375,
@@ -2499,75 +2378,17 @@
                 "filterParameter": "Type",
                 "filterValue": "Structure",
                 "parameter": "Armour",
-                "value": 35
+                "value": 120
             },
             {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Structure",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 90
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
-    },
-    "R-Struc-Materials08": {
-        "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials08",
-        "imdName": "icmolql.pie",
-        "name": "Advanced Base Structure Materials Mk2",
-        "requiredResearch": [
-            "R-Struc-Materials07"
-        ],
-        "researchPoints": 14000,
-        "researchPower": 437,
-        "results": [
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "Armour",
-                "value": 35
-            },
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "HitPoints",
-                "value": 30
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG",
-        "techCode": 1
-    },
-    "R-Struc-Materials09": {
-        "iconID": "IMAGE_RES_STRUCTURETECH",
-        "id": "R-Struc-Materials09",
-        "imdName": "icmolql.pie",
-        "name": "Advanced Base Structure Materials Mk3",
-        "requiredResearch": [
-            "R-Struc-Materials08"
-        ],
-        "researchPoints": 16000,
-        "researchPower": 450,
-        "results": [
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "Armour",
-                "value": 35
-            },
-            {
-                "class": "Building",
-                "filterParameter": "Type",
-                "filterValue": "Structure",
-                "parameter": "HitPoints",
-                "value": 30
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG",
-        "techCode": 1
     },
     "R-Struc-Power-Upgrade01": {
         "iconID": "IMAGE_RES_POWERTECH",
@@ -3345,10 +3166,10 @@
         "msgName": "RES_SY_RC",
         "name": "Nexus Resistance Circuits",
         "requiredResearch": [
-            "R-Sys-Sensor-Upgrade03",
+            "R-Sys-SpyTurret",
             "R-Struc-Research-Upgrade09"
         ],
-        "researchPoints": 28800,
+        "researchPoints": 18000,
         "researchPower": 450,
         "results": [
             {
@@ -3569,10 +3390,10 @@
         "name": "Nexus Link Turret",
         "requiredResearch": [
             "R-Sys-Sensor-Upgrade03",
-            "R-Struc-Research-Upgrade09"
+            "R-Comp-CommandTurret02"
         ],
-        "researchPoints": 14400,
-        "researchPower": 450,
+        "researchPoints": 12000,
+        "researchPower": 375,
         "resultComponents": [
             "SpyTurret01"
         ],
@@ -4620,449 +4441,6 @@
         ],
         "statID": "wheeled01"
     },
-    "R-Wpn-AAGun-Accuracy01": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Accuracy01",
-        "msgName": "RES_W_AAAC1",
-        "name": "AA Thermal Imaging Sensor",
-        "requiredResearch": [
-            "R-Wpn-AAGun03",
-            "R-Wpn-RocketSlow-Accuracy02"
-        ],
-        "researchPoints": 6000,
-        "researchPower": 187,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "HitChance",
-                "value": 10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ShortHitChance",
-                "value": 10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPACC"
-    },
-    "R-Wpn-AAGun-Accuracy02": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Accuracy02",
-        "msgName": "RES_W_AAAC2",
-        "name": "AA Target Acquisition Shells",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Accuracy01",
-            "R-Wpn-Howitzer-Accuracy01"
-        ],
-        "researchPoints": 7200,
-        "researchPower": 225,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "HitChance",
-                "value": 10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ShortHitChance",
-                "value": 10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPACC"
-    },
-    "R-Wpn-AAGun-Accuracy03": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Accuracy03",
-        "msgName": "RES_W_AAAC3",
-        "name": "AA Target Prediction Computer",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Accuracy02",
-            "R-Struc-Research-Upgrade06"
-        ],
-        "researchPoints": 8400,
-        "researchPower": 262,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "HitChance",
-                "value": 10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ShortHitChance",
-                "value": 10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPACC"
-    },
-    "R-Wpn-AAGun-Damage01": {
-        "disabledWhen": 4,
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Damage01",
-        "msgName": "RES_W_AAD1",
-        "name": "AA HE Flak",
-        "requiredResearch": [
-            "R-Wpn-AAGun03"
-        ],
-        "researchPoints": 6000,
-        "researchPower": 187,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "Damage",
-                "value": 25
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "RadiusDamage",
-                "value": 25
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPDAM"
-    },
-    "R-Wpn-AAGun-Damage02": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Damage02",
-        "name": "AA HE Flak Mk2",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Damage01"
-        ],
-        "researchPoints": 7200,
-        "researchPower": 225,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "Damage",
-                "value": 25
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "RadiusDamage",
-                "value": 25
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPDAM",
-        "techCode": 1
-    },
-    "R-Wpn-AAGun-Damage03": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Damage03",
-        "name": "AA HE Flak Mk3",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Damage02"
-        ],
-        "researchPoints": 8400,
-        "researchPower": 262,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "Damage",
-                "value": 25
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "RadiusDamage",
-                "value": 25
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPDAM",
-        "techCode": 1
-    },
-    "R-Wpn-AAGun-Damage04": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Damage04",
-        "msgName": "RES_W_AAD4",
-        "name": "AA HEAP Flak",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Damage03",
-            "R-Wpn-Cannon-Damage07"
-        ],
-        "researchPoints": 9600,
-        "researchPower": 300,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "Damage",
-                "value": 25
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "RadiusDamage",
-                "value": 25
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPDAM"
-    },
-    "R-Wpn-AAGun-Damage05": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Damage05",
-        "name": "AA HEAP Flak Mk2",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Damage04"
-        ],
-        "researchPoints": 10800,
-        "researchPower": 337,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "Damage",
-                "value": 25
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "RadiusDamage",
-                "value": 25
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPDAM",
-        "techCode": 1
-    },
-    "R-Wpn-AAGun-Damage06": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-Damage06",
-        "name": "AA HEAP Flak Mk3",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Damage05"
-        ],
-        "researchPoints": 12000,
-        "researchPower": 375,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "Damage",
-                "value": 25
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "RadiusDamage",
-                "value": 25
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPDAM",
-        "techCode": 1
-    },
-    "R-Wpn-AAGun-ROF01": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-ROF01",
-        "msgName": "RES_W_AAROF1",
-        "name": "AA Ammunition Hopper",
-        "requiredResearch": [
-            "R-Wpn-AAGun-Damage01",
-            "R-Wpn-MG-ROF01"
-        ],
-        "researchPoints": 3600,
-        "researchPower": 112,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "FirePause",
-                "value": -10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ReloadTime",
-                "value": -10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPROF"
-    },
-    "R-Wpn-AAGun-ROF02": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-ROF02",
-        "name": "AA Ammunition Hopper Mk2",
-        "requiredResearch": [
-            "R-Wpn-AAGun-ROF01"
-        ],
-        "researchPoints": 4800,
-        "researchPower": 150,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "FirePause",
-                "value": -10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ReloadTime",
-                "value": -10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPROF",
-        "techCode": 1
-    },
-    "R-Wpn-AAGun-ROF03": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-ROF03",
-        "name": "AA Ammunition Hopper Mk3",
-        "requiredResearch": [
-            "R-Wpn-AAGun04",
-            "R-Wpn-AAGun-ROF02"
-        ],
-        "researchPoints": 6000,
-        "researchPower": 187,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "FirePause",
-                "value": -10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ReloadTime",
-                "value": -10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPROF",
-        "techCode": 1
-    },
-    "R-Wpn-AAGun-ROF04": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-ROF04",
-        "msgName": "RES_W_AAROF4",
-        "name": "AA Chainfeed Loader",
-        "requiredResearch": [
-            "R-Wpn-AAGun-ROF03",
-            "R-Wpn-Cannon-ROF04"
-        ],
-        "researchPoints": 8000,
-        "researchPower": 250,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "FirePause",
-                "value": -10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ReloadTime",
-                "value": -10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPROF"
-    },
-    "R-Wpn-AAGun-ROF05": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-ROF05",
-        "name": "AA Chainfeed Loader Mk2",
-        "requiredResearch": [
-            "R-Wpn-AAGun-ROF04"
-        ],
-        "researchPoints": 10000,
-        "researchPower": 312,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "FirePause",
-                "value": -10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ReloadTime",
-                "value": -10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPROF",
-        "techCode": 1
-    },
-    "R-Wpn-AAGun-ROF06": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-AAGun-ROF06",
-        "name": "AA Chainfeed Loader Mk3",
-        "requiredResearch": [
-            "R-Wpn-AAGun-ROF05"
-        ],
-        "researchPoints": 12000,
-        "researchPower": 375,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "FirePause",
-                "value": -10
-            },
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN",
-                "parameter": "ReloadTime",
-                "value": -10
-            }
-        ],
-        "statID": "QuadMg1AAGun",
-        "subgroupIconID": "IMAGE_RES_GRPROF",
-        "techCode": 1
-    },
     "R-Wpn-AAGun01": {
         "disabledWhen": 4,
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -5110,7 +4488,7 @@
         "msgName": "RES_W_AA3",
         "name": "Hurricane AA Turret",
         "requiredResearch": [
-            "R-Wpn-MG2Mk1"
+            "R-Wpn-MG-ROF02"
         ],
         "researchPoints": 3600,
         "researchPower": 112,
@@ -5128,11 +4506,12 @@
             "QuadMg1AAGun"
         ],
         "requiredResearch": [
-            "R-Wpn-MG4",
-            "R-Wpn-AAGun-Damage02"
+            "R-Wpn-MG-ROF03",
+            "R-Wpn-AAGun03",
+            "R-Struc-Research-Upgrade06"
         ],
-        "researchPoints": 9700,
-        "researchPower": 303,
+        "researchPoints": 10800,
+        "researchPower": 337,
         "resultComponents": [
             "QuadRotAAGun"
         ],
@@ -5141,7 +4520,7 @@
     "R-Wpn-AALaser": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-AALaser",
-        "msgName": "RES_W_MS_HvSAM1",
+        "msgName": "RES_W_AALAS",
         "name": "Stormbringer AA Laser",
         "requiredResearch": [
             "R-Wpn-Energy-ROF01"
@@ -5359,11 +4738,11 @@
         "msgName": "RES_W_BMB6",
         "name": "EMP Missile Launcher",
         "requiredResearch": [
-            "R-Wpn-EMPCannon",
-            "R-Wpn-Bomb04"
+            "R-Comp-CommandTurret02",
+            "R-Wpn-Bomb-Damage03"
         ],
-        "researchPoints": 25000,
-        "researchPower": 450,
+        "researchPoints": 8000,
+        "researchPower": 250,
         "resultComponents": [
             "Bomb6-VTOL-EMP"
         ],
@@ -5953,8 +5332,8 @@
         "requiredResearch": [
             "R-Wpn-Cannon-ROF01"
         ],
-        "researchPoints": 8000,
-        "researchPower": 250,
+        "researchPoints": 4800,
+        "researchPower": 150,
         "resultComponents": [
             "Cannon5VulcanMk1",
             "Cannon5Vulcan-VTOL"
@@ -5972,10 +5351,10 @@
         ],
         "requiredResearch": [
             "R-Wpn-Cannon5",
-            "R-Struc-Research-Upgrade05"
+            "R-Struc-Research-Upgrade06"
         ],
-        "researchPoints": 9600,
-        "researchPower": 300,
+        "researchPoints": 7050,
+        "researchPower": 225,
         "resultComponents": [
             "Cannon6TwinAslt"
         ],
@@ -5987,7 +5366,7 @@
         "msgName": "RES_EMP_CANT",
         "name": "EMP Cannon",
         "requiredResearch": [
-            "R-Sys-Sensor-Upgrade03",
+            "R-Comp-CommandTurret02",
             "R-Struc-Research-Upgrade08"
         ],
         "researchPoints": 14400,
@@ -6287,7 +5666,7 @@
         "requiredResearch": [
             "R-Wpn-Flamer-Damage02"
         ],
-        "researchPoints": 2400,
+        "researchPoints": 2500,
         "researchPower": 75,
         "results": [
             {
@@ -6809,11 +6188,10 @@
         "msgName": "RES_W_HOWD4",
         "name": "HEAP Howitzer Shells",
         "requiredResearch": [
-            "R-Wpn-HvyHowitzer",
             "R-Wpn-Howitzer-Damage03",
             "R-Wpn-Cannon-Damage07"
         ],
-        "researchPoints": 14400,
+        "researchPoints": 18800,
         "researchPower": 450,
         "results": [
             {
@@ -6936,9 +6314,9 @@
         "msgName": "RES_W_HOWRF1",
         "name": "Howitzer Autoloader",
         "requiredResearch": [
-            "R-Wpn-HvyHowitzer"
+            "R-Wpn-Howitzer-Damage03"
         ],
-        "researchPoints": 14400,
+        "researchPoints": 18800,
         "researchPower": 450,
         "results": [
             {
@@ -7074,7 +6452,6 @@
         "name": "Howitzer",
         "requiredResearch": [
             "R-Wpn-Mortar-Damage04",
-            "R-Wpn-Cannon-Damage05",
             "R-Sys-Sensor-Upgrade01"
         ],
         "researchPoints": 9000,
@@ -7112,7 +6489,8 @@
         "msgName": "RES_W_HH1",
         "name": "Heavy Howitzer - Ground Shaker",
         "requiredResearch": [
-            "R-Wpn-Howitzer-Damage02"
+            "R-Wpn-Howitzer-Damage02",
+            "R-Wpn-Mortar02Hvy"
         ],
         "researchPoints": 14400,
         "researchPower": 450,
@@ -7215,6 +6593,20 @@
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
                 "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
+                "value": 25
             }
         ],
         "statID": "MG1Mk1",
@@ -7237,6 +6629,20 @@
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
                 "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
+                "value": 25
             }
         ],
         "statID": "MG1Mk1",
@@ -7257,6 +6663,20 @@
                 "filterParameter": "ImpactClass",
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
                 "value": 25
             }
         ],
@@ -7280,6 +6700,20 @@
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
                 "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
+                "value": 25
             }
         ],
         "statID": "MG1Mk1",
@@ -7294,14 +6728,28 @@
             "R-Wpn-MG-Damage04",
             "R-Wpn-MG-ROF01"
         ],
-        "researchPoints": 7200,
-        "researchPower": 225,
+        "researchPoints": 6000,
+        "researchPower": 187,
         "results": [
             {
                 "class": "Weapon",
                 "filterParameter": "ImpactClass",
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
                 "value": 25
             }
         ],
@@ -7316,14 +6764,28 @@
         "requiredResearch": [
             "R-Wpn-MG-Damage05"
         ],
-        "researchPoints": 9000,
-        "researchPower": 281,
+        "researchPoints": 7800,
+        "researchPower": 243,
         "results": [
             {
                 "class": "Weapon",
                 "filterParameter": "ImpactClass",
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
                 "value": 25
             }
         ],
@@ -7338,14 +6800,28 @@
         "requiredResearch": [
             "R-Wpn-MG-Damage06"
         ],
-        "researchPoints": 10000,
-        "researchPower": 312,
+        "researchPoints": 8800,
+        "researchPower": 275,
         "results": [
             {
                 "class": "Weapon",
                 "filterParameter": "ImpactClass",
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
                 "value": 25
             }
         ],
@@ -7359,16 +6835,30 @@
         "name": "Depleted Uranium MG Bullets",
         "requiredResearch": [
             "R-Wpn-MG-Damage07",
-            "R-Struc-Research-Upgrade07"
+            "R-Struc-Research-Upgrade06"
         ],
-        "researchPoints": 11000,
-        "researchPower": 343,
+        "researchPoints": 10800,
+        "researchPower": 337,
         "results": [
             {
                 "class": "Weapon",
                 "filterParameter": "ImpactClass",
                 "filterValue": "MACHINE GUN",
                 "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "Damage",
+                "value": 25
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "RadiusDamage",
                 "value": 25
             }
         ],
@@ -7401,6 +6891,20 @@
                 "filterValue": "MACHINE GUN",
                 "parameter": "ReloadTime",
                 "value": -20
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "FirePause",
+                "value": -20
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "ReloadTime",
+                "value": -20
             }
         ],
         "statID": "MG1Mk1",
@@ -7430,6 +6934,20 @@
                 "filterValue": "MACHINE GUN",
                 "parameter": "ReloadTime",
                 "value": -18
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "FirePause",
+                "value": -18
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "ReloadTime",
+                "value": -18
             }
         ],
         "statID": "MG1Mk1",
@@ -7442,7 +6960,7 @@
         "msgName": "RES_W_MG_ROF3",
         "name": "Hyper Fire Chaingun Upgrade",
         "requiredResearch": [
-            "R-Wpn-MG-ROF02"
+            "R-Wpn-MG4"
         ],
         "researchPoints": 6000,
         "researchPower": 187,
@@ -7458,6 +6976,20 @@
                 "class": "Weapon",
                 "filterParameter": "ImpactClass",
                 "filterValue": "MACHINE GUN",
+                "parameter": "ReloadTime",
+                "value": -8
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
+                "parameter": "FirePause",
+                "value": -8
+            },
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "A-A GUN",
                 "parameter": "ReloadTime",
                 "value": -8
             }
@@ -7535,10 +7067,10 @@
         ],
         "requiredResearch": [
             "R-Wpn-MG3Mk1",
-            "R-Wpn-MG-ROF03"
+            "R-Wpn-MG-ROF02"
         ],
-        "researchPoints": 4800,
-        "researchPower": 150,
+        "researchPoints": 6000,
+        "researchPower": 187,
         "resultComponents": [
             "CyborgRotMG",
             "MG4ROTARY-VTOL",
@@ -7559,8 +7091,8 @@
             "R-Struc-Research-Upgrade06",
             "R-Wpn-MG4"
         ],
-        "researchPoints": 9000,
-        "researchPower": 281,
+        "researchPoints": 6000,
+        "researchPower": 187,
         "resultComponents": [
             "MG5TWINROTARY"
         ],
@@ -7579,7 +7111,7 @@
             "R-Wpn-Missile2A-T",
             "R-Wpn-Rocket02-MRL"
         ],
-        "researchPoints": 14400,
+        "researchPoints": 22000,
         "researchPower": 450,
         "resultComponents": [
             "Missile-MdArt"
@@ -7916,11 +7448,10 @@
         "msgName": "RES_W_M_AC2",
         "name": "Thermal Imaging Mortar Shells",
         "requiredResearch": [
-            "R-Wpn-Mortar-Acc01",
-            "R-Struc-Research-Upgrade04"
+            "R-Wpn-Mortar-Acc01"
         ],
-        "researchPoints": 5000,
-        "researchPower": 156,
+        "researchPoints": 4800,
+        "researchPower": 150,
         "results": [
             {
                 "class": "Weapon",
@@ -7947,11 +7478,10 @@
         "msgName": "RES_W_M_AC3",
         "name": "Target Acquisition Mortar Shells",
         "requiredResearch": [
-            "R-Struc-Research-Upgrade05",
             "R-Wpn-Mortar-Acc02"
         ],
-        "researchPoints": 8800,
-        "researchPower": 275,
+        "researchPoints": 6000,
+        "researchPower": 187,
         "results": [
             {
                 "class": "Weapon",
@@ -8194,11 +7724,11 @@
         "msgName": "RES_IMORT",
         "name": "Incendiary Mortar",
         "requiredResearch": [
-            "R-Wpn-Mortar-Damage03",
+            "R-Wpn-Mortar-Damage02",
             "R-Wpn-Flame2"
         ],
-        "researchPoints": 3600,
-        "researchPower": 112,
+        "researchPoints": 4800,
+        "researchPower": 150,
         "resultComponents": [
             "Mortar-Incendiary"
         ],
@@ -8381,7 +7911,9 @@
         "msgName": "RES_W_M2",
         "name": "EMP Mortar",
         "requiredResearch": [
-            "R-Wpn-EMPCannon"
+            "R-Comp-CommandTurret02",
+            "R-Sys-Sensor-Upgrade03",
+            "R-Struc-Research-Upgrade09"
         ],
         "researchPoints": 14400,
         "researchPower": 450,
@@ -8645,7 +8177,8 @@
         "requiredResearch": [
             "R-Wpn-Cannon4AMk1",
             "R-Struc-Research-Upgrade07",
-            "R-Wpn-Cannon-Damage07"
+            "R-Wpn-Cannon-Damage07",
+            "R-Wpn-Cannon-Accuracy02"
         ],
         "researchPoints": 14400,
         "researchPower": 450,
@@ -15708,7 +15241,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Laser3BEAMMk1",
+            "Laser3BEAMMk1-Cyb",
             "Laser3BEAM-VTOL",
+            "Laser3BEAM-VTOL-Cyb",
             "Cyb-Wpn-Laser",
             "Laser3BEAMMk1-command",
             "Laser3BEAMMk1-brain"
@@ -15730,7 +15265,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Laser2PULSEMk1",
+            "Laser2PULSEMk1-Cyb",
             "Laser2PULSE-VTOL",
+            "Laser2PULSE-VTOL-Cyb",
             "Laser2PULSEMk1-command",
             "Laser2PULSEMk1-brain"
         ],
@@ -15751,6 +15288,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "AAGunLaser",
+            "AAGunLaser-Cyb",
             "AAGunLaser-command",
             "AAGunLaser-brain"
         ],
@@ -15771,7 +15309,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Laser3BEAMMk1-2120",
+            "Laser3BEAMMk1-2120-Cyb",
             "Laser3BEAM-VTOL-2120",
+            "Laser3BEAM-VTOL-2120-Cyb",
             "Laser3BEAMMk1-2120-command",
             "Laser3BEAMMk1-2120-brain"
         ],
@@ -15792,6 +15332,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Laser4-PlasmaCannon",
+            "Laser4-PlasmaCannon-Cyb",
             "Laser4-PlasmaCannon-command",
             "Laser4-PlasmaCannon-brain"
         ],
@@ -15812,7 +15353,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "HeavyLaser",
+            "HeavyLaser-Cyb",
             "HeavyLaser-VTOL",
+            "HeavyLaser-VTOL-Cyb",
             "Cyb-Hvywpn-PulseLsr",
             "HeavyLaser-command",
             "HeavyLaser-brain"
@@ -16842,6 +16385,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun1Mk1",
+            "RailGun1Mk1-Cyb",
             "Cyb-Wpn-Rail1",
             "RailGun1Mk1-command",
             "RailGun1Mk1-brain"
@@ -16863,7 +16407,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun2Mk1",
+            "RailGun2Mk1-Cyb",
             "RailGun2-VTOL",
+            "RailGun2-VTOL-Cyb",
             "RailGun2Mk1-command",
             "RailGun2Mk1-brain"
         ],
@@ -16884,6 +16430,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun3Mk1",
+            "RailGun3Mk1-Cyb",
             "Cyb-Hvywpn-RailGunner",
             "RailGun3Mk1-command",
             "RailGun3Mk1-brain"
@@ -16905,6 +16452,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon4AUTOMk1-2120",
+            "Cannon4AUTOMk1-2120-Cyb",
             "CyborgCannon-2120",
             "Cannon4AUTOMk1-2120-command",
             "Cannon4AUTOMk1-2120-brain"
@@ -16926,7 +16474,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon5VulcanMk1-2120",
+            "Cannon5VulcanMk1-2120-Cyb",
             "Cannon5Vulcan-VTOL-2120",
+            "Cannon5Vulcan-VTOL-2120-Cyb",
             "Cyb-Hvywpn-HPV-2120",
             "Cannon5VulcanMk1-2120-command",
             "Cannon5VulcanMk1-2120-brain"
@@ -16948,7 +16498,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon775mmMk1-2120",
+            "Cannon775mmMk1-2120-Cyb",
             "Cannon7-VTOL-2120",
+            "Cannon7-VTOL-2120-Cyb",
             "Cyb-Hvywpn-Lcannon-2120",
             "Cannon775mmMk1-2120-command",
             "Cannon775mmMk1-2120-brain"
@@ -16970,6 +16522,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG5TWINROTARY-2120",
+            "MG5TWINROTARY-2120-Cyb",
             "Cyb-Hvywpn-Mcannon-2120",
             "MG5TWINROTARY-2120-command",
             "MG5TWINROTARY-2120-brain"
@@ -16991,6 +16544,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon6TwinAslt-2120",
+            "Cannon6TwinAslt-2120-Cyb",
             "Cyb-Wpn-RailHyp-2120",
             "Cannon6TwinAslt-2120-command",
             "Cannon6TwinAslt-2120-brain"
@@ -18110,6 +17664,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Mortar1Mk1",
+            "Mortar1Mk1-Cyb",
             "Cyb-Wpn-Grenade",
             "Mortar1Mk1-command",
             "Mortar1Mk1-brain"
@@ -18131,6 +17686,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Howitzer105Mk1",
+            "Howitzer105Mk1-Cyb",
             "Howitzer105Mk1-command",
             "Howitzer105Mk1-brain"
         ],
@@ -18151,6 +17707,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Mortar0Mk1-2120",
+            "Mortar0Mk1-2120-Cyb",
             "Mortar0Mk1-2120-command",
             "Mortar0Mk1-2120-brain"
         ],
@@ -18171,6 +17728,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Howitzer150Mk1",
+            "Howitzer150Mk1-Cyb",
             "Howitzer150Mk1-command",
             "Howitzer150Mk1-brain"
         ],
@@ -18191,6 +17749,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Mortar2Mk1",
+            "Mortar2Mk1-Cyb",
             "Mortar2Mk1-command",
             "Mortar2Mk1-brain"
         ],
@@ -18211,6 +17770,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Howitzer03-Rot",
+            "Howitzer03-Rot-Cyb",
             "Howitzer03-Rot-command",
             "Howitzer03-Rot-brain"
         ],
@@ -18231,6 +17791,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Mortar3ROTARYMk1",
+            "Mortar3ROTARYMk1-Cyb",
             "Mortar3ROTARYMk1-command",
             "Mortar3ROTARYMk1-brain"
         ],
@@ -18251,6 +17812,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Howitzer150Mk1-2120",
+            "Howitzer150Mk1-2120-Cyb",
             "Howitzer150Mk1-2120-command",
             "Howitzer150Mk1-2120-brain"
         ],
@@ -18271,6 +17833,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Mortar2Mk1-2120",
+            "Mortar2Mk1-2120-Cyb",
             "Cyb-Wpn-Grenade-2120",
             "Mortar2Mk1-2120-command",
             "Mortar2Mk1-2120-brain"
@@ -19495,7 +19058,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "BusCannon",
+            "BusCannon-Cyb",
             "bTrikeMG",
+            "bTrikeMG-Cyb",
             "BusCannon-command",
             "BusCannon-brain"
         ],
@@ -19516,6 +19081,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "BabaRocket",
+            "BabaRocket-Cyb",
             "BabaRocket-command",
             "BabaRocket-brain"
         ],
@@ -19536,6 +19102,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "BabaFlame",
+            "BabaFlame-Cyb",
             "BabaFlame-command",
             "BabaFlame-brain"
         ],
@@ -19556,6 +19123,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "BabaPitRocket",
+            "BabaPitRocket-Cyb",
             "BabaPitRocket-command",
             "BabaPitRocket-brain"
         ],
@@ -19576,6 +19144,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "BabaPitRocketAT",
+            "BabaPitRocketAT-Cyb",
             "BabaPitRocketAT-command",
             "BabaPitRocketAT-brain"
         ],
@@ -19596,6 +19165,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "ScavNEXUSlink",
+            "ScavNEXUSlink-Cyb",
             "ScavNEXUSlink-command",
             "ScavNEXUSlink-brain"
         ],
@@ -19616,6 +19186,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "BuggyMG",
+            "BuggyMG-Cyb",
             "BuggyMG-command",
             "BuggyMG-brain"
         ],
@@ -19633,6 +19204,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "BJeepMG",
+            "BJeepMG-Cyb",
             "BJeepMG-command",
             "BJeepMG-brain"
         ],
@@ -20658,7 +20230,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG1Mk1",
+            "MG1Mk1-Cyb",
             "MG1-VTOL",
+            "MG1-VTOL-Cyb",
             "CyborgChaingun",
             "MG1Mk1-command",
             "MG1Mk1-brain"
@@ -20680,7 +20254,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG2Mk1",
+            "MG2Mk1-Cyb",
             "MG2-VTOL",
+            "MG2-VTOL-Cyb",
             "MG2Mk1-command",
             "MG2Mk1-brain"
         ],
@@ -20701,7 +20277,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG3Mk1",
+            "MG3Mk1-Cyb",
             "MG3-VTOL",
+            "MG3-VTOL-Cyb",
             "MG3Mk1-command",
             "MG3Mk1-brain"
         ],
@@ -20722,7 +20300,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG4ROTARYMk1",
+            "MG4ROTARYMk1-Cyb",
             "MG4ROTARY-VTOL",
+            "MG4ROTARY-VTOL-Cyb",
             "MG4ROTARYMk1-command",
             "MG4ROTARYMk1-brain"
         ],
@@ -20743,6 +20323,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG5TWINROTARY",
+            "MG5TWINROTARY-Cyb",
             "CyborgRotMG",
             "MG5TWINROTARY-command",
             "MG5TWINROTARY-brain"
@@ -21772,7 +21353,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon1Mk1",
+            "Cannon1Mk1-Cyb",
             "Cannon1-VTOL",
+            "Cannon1-VTOL-Cyb",
             "Cannon1Mk1-command",
             "Cannon1Mk1-brain"
         ],
@@ -21793,6 +21376,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon2A-TMk1",
+            "Cannon2A-TMk1-Cyb",
             "Cyb-Hvywpn-Mcannon",
             "Cannon2A-TMk1-command",
             "Cannon2A-TMk1-brain"
@@ -21814,7 +21398,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon375mmMk1",
+            "Cannon375mmMk1-Cyb",
             "MG4ROTARY-VTOL",
+            "MG4ROTARY-VTOL-Cyb",
             "Cannon375mmMk1-command",
             "Cannon375mmMk1-brain"
         ],
@@ -21835,7 +21421,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon4AUTOMk1",
+            "Cannon4AUTOMk1-Cyb",
             "Cannon4AUTO-VTOL",
+            "Cannon4AUTO-VTOL-Cyb",
             "Cyb-Hvywpn-Acannon",
             "Cannon4AUTOMk1-command",
             "Cannon4AUTOMk1-brain"
@@ -21857,7 +21445,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon5VulcanMk1",
+            "Cannon5VulcanMk1-Cyb",
             "Cannon5Vulcan-VTOL",
+            "Cannon5Vulcan-VTOL-Cyb",
             "Cannon5VulcanMk1-command",
             "Cannon5VulcanMk1-brain"
         ],
@@ -21878,6 +21468,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Cannon6TwinAslt",
+            "Cannon6TwinAslt-Cyb",
             "Cyb-Hvywpn-HPV",
             "Cannon6TwinAslt-command",
             "Cannon6TwinAslt-brain"
@@ -22907,6 +22498,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Flame1Mk1",
+            "Flame1Mk1-Cyb",
             "CyborgFlamer01",
             "Flame1Mk1-command",
             "Flame1Mk1-brain"
@@ -22928,6 +22520,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Flame2",
+            "Flame2-Cyb",
             "Cyb-Wpn-Thermite",
             "Flame2-command",
             "Flame2-brain"
@@ -22949,6 +22542,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "PlasmiteFlamer",
+            "PlasmiteFlamer-Cyb",
             "PlasmiteFlamer-command",
             "PlasmiteFlamer-brain"
         ],
@@ -22969,6 +22563,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Flame1Mk1-2120",
+            "Flame1Mk1-2120-Cyb",
             "CyborgFlamer01-2120",
             "Flame1Mk1-2120-command",
             "Flame1Mk1-2120-brain"
@@ -22990,6 +22585,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Flame2-2120",
+            "Flame2-2120-Cyb",
             "Flame2-2120-command",
             "Flame2-2120-brain"
         ],
@@ -23010,6 +22606,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Flame3Mk1-2120",
+            "Flame3Mk1-2120-Cyb",
             "Cyb-Wpn-Thermite-2120",
             "Flame3Mk1-2120-command",
             "Flame3Mk1-2120-brain"
@@ -24160,6 +23757,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-Pod",
+            "Rocket-Pod-Cyb",
             "Rocket-Pod-command",
             "Rocket-Pod-brain"
         ],
@@ -24180,6 +23778,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-LtA-T",
+            "Rocket-LtA-T-Cyb",
             "Cyb-Wpn-Atmiss",
             "Rocket-LtA-T-command",
             "Rocket-LtA-T-brain"
@@ -24201,6 +23800,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-Pod-2120",
+            "Rocket-Pod-2120-Cyb",
             "Rocket-Pod-2120-command",
             "Rocket-Pod-2120-brain"
         ],
@@ -24221,6 +23821,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-HvyA-T",
+            "Rocket-HvyA-T-Cyb",
             "Cyb-Hvywpn-TK",
             "Rocket-HvyA-T-command",
             "Rocket-HvyA-T-brain"
@@ -24242,6 +23843,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Missile-A-T-2120",
+            "Missile-A-T-2120-Cyb",
             "Cyb-Wpn-Atmiss2-2120",
             "Missile-A-T-2120-command",
             "Missile-A-T-2120-brain"
@@ -25271,7 +24873,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun1Mk1-2120",
+            "RailGun1Mk1-2120-Cyb",
             "RailGun1-VTOL-2120",
+            "RailGun1-VTOL-2120-Cyb",
             "Cyb-Wpn-Rail1-2120",
             "RailGun1Mk1-2120-command",
             "RailGun1Mk1-2120-brain"
@@ -25293,7 +24897,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun2Mk1-2120",
+            "RailGun2Mk1-2120-Cyb",
             "RailGun002-VTOL-2120",
+            "RailGun002-VTOL-2120-Cyb",
             "Cyb-Hvywpn-RailGunner2-2120",
             "RailGun2Mk1-2120-command",
             "RailGun2Mk1-2120-brain"
@@ -25315,7 +24921,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun3Mk1-2120",
+            "RailGun3Mk1-2120-Cyb",
             "RailGun3-VTOL-2120",
+            "RailGun3-VTOL-2120-Cyb",
             "Cyb-Hvywpn-RailGunner-2120",
             "RailGun3Mk1-2120-command",
             "RailGun3Mk1-2120-brain"
@@ -25337,7 +24945,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun4Mk1-2120",
+            "RailGun4Mk1-2120-Cyb",
             "RailGun4-VTOL-2120",
+            "RailGun4-VTOL-2120-Cyb",
             "RailGun4Mk1-2120-command",
             "RailGun4Mk1-2120-brain"
         ],
@@ -25358,7 +24968,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun5Mk1-2120",
+            "RailGun5Mk1-2120-Cyb",
             "RailGun5-VTOL-2120",
+            "RailGun5-VTOL-2120-Cyb",
             "RailGun5Mk1-2120-command",
             "RailGun5Mk1-2120-brain"
         ],
@@ -25379,7 +24991,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "RailGun6Mk1-2120",
+            "RailGun6Mk1-2120-Cyb",
             "RailGun6-VTOL-2120",
+            "RailGun6-VTOL-2120-Cyb",
             "Cyb-Hvywpn-RailGunner-2120",
             "RailGun6Mk1-2120-command",
             "RailGun6Mk1-2120-brain"
@@ -26484,6 +26098,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-BB",
+            "Rocket-BB-Cyb",
             "Rocket-BB-command",
             "Rocket-BB-brain"
         ],
@@ -26504,6 +26119,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-Sunburst",
+            "Rocket-Sunburst-Cyb",
             "Rocket-Sunburst-command",
             "Rocket-Sunburst-brain"
         ],
@@ -26524,6 +26140,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-BB-2120",
+            "Rocket-BB-2120-Cyb",
             "Rocket-BB-2120-command",
             "Rocket-BB-2120-brain"
         ],
@@ -26544,6 +26161,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Missile-BB-2120",
+            "Missile-BB-2120-Cyb",
             "Missile-BB-2120-command",
             "Missile-BB-2120-brain"
         ],
@@ -27677,6 +27295,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-HvyA-T-2120",
+            "Rocket-HvyA-T-2120-Cyb",
             "Cyb-Hvywpn-A-T-2120",
             "Cyb-Hvywpn-Acannon-2120",
             "Rocket-HvyA-T-2120-command",
@@ -27699,6 +27318,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-HvyA-T2-2120",
+            "Rocket-HvyA-T2-2120-Cyb",
             "Cyb-Hvywpn-A-T2-2120",
             "Rocket-HvyA-T2-2120-command",
             "Rocket-HvyA-T2-2120-brain"
@@ -27720,6 +27340,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-MRL-2120",
+            "Rocket-MRL-2120-Cyb",
             "CyborgRocket-2120",
             "Rocket-MRL-2120-command",
             "Rocket-MRL-2120-brain"
@@ -27741,6 +27362,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-LtA-T-2120",
+            "Rocket-LtA-T-2120-Cyb",
             "Cyb-Wpn-Atmiss-2120",
             "Rocket-LtA-T-2120-command",
             "Rocket-LtA-T-2120-brain"
@@ -27762,6 +27384,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-LtA-T2-2120",
+            "Rocket-LtA-T2-2120-Cyb",
             "Rocket-LtA-T2-2120-command",
             "Rocket-LtA-T2-2120-brain"
         ],
@@ -28790,6 +28413,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-MRL",
+            "Rocket-MRL-Cyb",
             "Rocket-MRL-command",
             "Rocket-MRL-brain"
         ],
@@ -28810,6 +28434,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-IDF",
+            "Rocket-IDF-Cyb",
             "Rocket-IDF-command",
             "Rocket-IDF-brain"
         ],
@@ -28830,6 +28455,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Missile-MdArt",
+            "Missile-MdArt-Cyb",
             "Missile-MdArt-command",
             "Missile-MdArt-brain"
         ],
@@ -28850,6 +28476,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Rocket-IDF-2120",
+            "Rocket-IDF-2120-Cyb",
             "Rocket-IDF-2120-command",
             "Rocket-IDF-2120-brain"
         ],
@@ -28870,6 +28497,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Missile-HvyArt",
+            "Missile-HvyArt-Cyb",
             "Missile-HvyArt-command",
             "Missile-HvyArt-brain"
         ],
@@ -28890,6 +28518,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Missile-MdArt-2120",
+            "Missile-MdArt-2120-Cyb",
             "Missile-MdArt-2120-command",
             "Missile-MdArt-2120-brain"
         ],
@@ -28910,6 +28539,7 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Missile-HvyArt-2120",
+            "Missile-HvyArt-2120-Cyb",
             "Missile-HvyArt-2120-command",
             "Missile-HvyArt-2120-brain"
         ],
@@ -30133,7 +29763,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG1Mk1-2120",
+            "MG1Mk1-2120-Cyb",
             "MG1-VTOL-2120",
+            "MG1-VTOL-2120-Cyb",
             "CyborgChaingun-2120",
             "MG1Mk1-2120-command",
             "MG1Mk1-2120-brain"
@@ -30155,7 +29787,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG2Mk1-2120",
+            "MG2Mk1-2120-Cyb",
             "MG2-VTOL-2120",
+            "MG2-VTOL-2120-Cyb",
             "MG2Mk1-2120-command",
             "MG2Mk1-2120-brain"
         ],
@@ -30176,7 +29810,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG7LGTGATTLINGMk1-2120",
+            "MG7LGTGATTLINGMk1-2120-Cyb",
             "MG7LGTGATTLING-VTOL-2120",
+            "MG7LGTGATTLING-VTOL-2120-Cyb",
             "CyborgChaingunMed-2120",
             "MG7LGTGATTLINGMk1-2120-command",
             "MG7LGTGATTLINGMk1-2120-brain"
@@ -30198,7 +29834,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG3Mk1-2120",
+            "MG3Mk1-2120-Cyb",
             "MG3-VTOL-2120",
+            "MG3-VTOL-2120-Cyb",
             "MG3Mk1-2120-command",
             "MG3Mk1-2120-brain"
         ],
@@ -30219,7 +29857,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG7MEDGATTLINGMk1-2120",
+            "MG7MEDGATTLINGMk1-2120-Cyb",
             "MG7MEDGATTLING-VTOL-2120",
+            "MG7MEDGATTLING-VTOL-2120-Cyb",
             "MG7MEDGATTLINGMk1-2120-command",
             "MG7MEDGATTLINGMk1-2120-brain"
         ],
@@ -30240,7 +29880,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG4ROTARYMk1-2120",
+            "MG4ROTARYMk1-2120-Cyb",
             "MG4ROTARY-VTOL-2120",
+            "MG4ROTARY-VTOL-2120-Cyb",
             "Cyb-Wpn-Laser-2120",
             "MG4ROTARYMk1-2120-command",
             "MG4ROTARYMk1-2120-brain"
@@ -30262,7 +29904,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "MG7GATTLINGMk1-2120",
+            "MG7GATTLINGMk1-2120-Cyb",
             "MG7GATTLING-VTOL-2120",
+            "MG7GATTLING-VTOL-2120-Cyb",
             "MG7GATTLINGMk1-2120-command",
             "MG7GATTLINGMk1-2120-brain"
         ],
@@ -30283,7 +29927,9 @@
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
         "resultComponents": [
             "Laser2PULSEMk1-2120",
+            "Laser2PULSEMk1-2120-Cyb",
             "Laser2PULSE-VTOL-2120",
+            "Laser2PULSE-VTOL-2120-Cyb",
             "Cyb-Hvywpn-PulseLsr-2120",
             "Laser2PULSEMk1-2120-command",
             "Laser2PULSEMk1-2120-brain"
@@ -30419,34 +30065,19 @@
             "R-Fac-start"
         ]
     },
-    "R-NRS-SolarPower-eco1": {
+    "R-NRS-NuclearReactor-eco1": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "SolarPower-eco"
+            "NuclearReactor-eco"
         ],
-        "statID": "SolarPower-eco",
-        "id": "R-NRS-SolarPower-eco1",
-        "name": "[med-def]Solar panel-eco1 #1",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
+        "statID": "NuclearReactor-eco",
+        "id": "R-NRS-NuclearReactor-eco1",
+        "name": "[med-def]*NuclearReactor*-eco1 #1",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
             "R-Fac-start"
-        ]
-    },
-    "R-NRS-CoolingTower-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "CoolingTower-eco"
-        ],
-        "statID": "CoolingTower-eco",
-        "id": "R-NRS-CoolingTower-eco1",
-        "name": "[med-def]*CoolingTower*-eco1 #2",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-SolarPower-eco1"
         ]
     },
     "R-NRS-Propaganda-eco1": {
@@ -30457,311 +30088,11 @@
         ],
         "statID": "Propaganda-eco",
         "id": "R-NRS-Propaganda-eco1",
-        "name": "[med-def]Propaganda Tower-eco1 #3",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-CoolingTower-eco1"
-        ]
-    },
-    "R-NRS-BarbHUT-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbHUT-eco"
-        ],
-        "statID": "BarbHUT-eco",
-        "id": "R-NRS-BarbHUT-eco1",
-        "name": "[med-def]BarbHUT-eco1 #4",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Propaganda-eco1"
-        ]
-    },
-    "R-NRS-building10-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building10-eco"
-        ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco1",
-        "name": "[med-def]building10-eco1 #5",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-BarbHUT-eco1"
-        ]
-    },
-    "R-NRS-Tree-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Tree-eco"
-        ],
-        "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco1",
-        "name": "[med-def]Tree-eco1 #6",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-building10-eco1"
-        ]
-    },
-    "R-NRS-Boulder3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder3-eco"
-        ],
-        "statID": "Boulder3-eco",
-        "id": "R-NRS-Boulder3-eco1",
-        "name": "[med-def]Boulder3-eco1 #7",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Tree-eco1"
-        ]
-    },
-    "R-NRS-Powlab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Powlab-eco"
-        ],
-        "statID": "Powlab-eco",
-        "id": "R-NRS-Powlab-eco1",
-        "name": "[med-def]Powlab-eco1 #8",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Boulder3-eco1"
-        ]
-    },
-    "R-NRS-Boulder2-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder2-eco"
-        ],
-        "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco1",
-        "name": "[med-def]Boulder2-eco1 #9",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Powlab-eco1"
-        ]
-    },
-    "R-NRS-Advmaterialslab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Advmaterialslab-eco"
-        ],
-        "statID": "Advmaterialslab-eco",
-        "id": "R-NRS-Advmaterialslab-eco1",
-        "name": "[med-def]Advmaterialslab-eco1 #10",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Boulder2-eco1"
-        ]
-    },
-    "R-NRS-AirTrafficControl-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "AirTrafficControl-eco"
-        ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco1",
-        "name": "[med-def]AirTrafficControl-eco1 #11",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Advmaterialslab-eco1"
-        ]
-    },
-    "R-NRS-LogCabin3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "LogCabin3-eco"
-        ],
-        "statID": "LogCabin3-eco",
-        "id": "R-NRS-LogCabin3-eco1",
-        "name": "[med-def]LogCabin3-eco1 #12",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco1"
-        ]
-    },
-    "R-NRS-Heavywepslab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Heavywepslab-eco"
-        ],
-        "statID": "Heavywepslab-eco",
-        "id": "R-NRS-Heavywepslab-eco1",
-        "name": "[med-def]Heavywepslab-eco1 #13",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-LogCabin3-eco1"
-        ]
-    },
-    "R-NRS-Rotarywepslab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Rotarywepslab-eco"
-        ],
-        "statID": "Rotarywepslab-eco",
-        "id": "R-NRS-Rotarywepslab-eco1",
-        "name": "[med-def]Rotarywepslab-eco1 #14",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Heavywepslab-eco1"
-        ]
-    },
-    "R-NRS-NuclearReactor-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "NuclearReactor-eco"
-        ],
-        "statID": "NuclearReactor-eco",
-        "id": "R-NRS-NuclearReactor-eco1",
-        "name": "[med-def]*NuclearReactor*-eco1 #15",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco1"
-        ]
-    },
-    "R-NRS-Pickup-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Pickup-eco"
-        ],
-        "statID": "Pickup-eco",
-        "id": "R-NRS-Pickup-eco1",
-        "name": "[med-def]Pickup-eco1 #16",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
+        "name": "[med-def]Propaganda Tower-eco1 #2",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
             "R-NRS-NuclearReactor-eco1"
-        ]
-    },
-    "R-NRS-BarbWarehouse2-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse2-eco"
-        ],
-        "statID": "BarbWarehouse2-eco",
-        "id": "R-NRS-BarbWarehouse2-eco1",
-        "name": "[med-def]BarbWarehouse2-eco1 #17",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-Pickup-eco1"
-        ]
-    },
-    "R-NRS-cabin-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "cabin-eco"
-        ],
-        "statID": "cabin-eco",
-        "id": "R-NRS-cabin-eco1",
-        "name": "[med-def]cabin-eco1 #18",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse2-eco1"
-        ]
-    },
-    "R-NRS-road-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "road-eco"
-        ],
-        "statID": "road-eco",
-        "id": "R-NRS-road-eco1",
-        "name": "[med-def]road-eco1 #19",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-cabin-eco1"
-        ]
-    },
-    "R-NRS-OilTower-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "OilTower-eco"
-        ],
-        "statID": "OilTower-eco",
-        "id": "R-NRS-OilTower-eco1",
-        "name": "[med-def]OilTower-eco1 #20",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-road-eco1"
-        ]
-    },
-    "R-NRS-building3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building3-eco"
-        ],
-        "statID": "building3-eco",
-        "id": "R-NRS-building3-eco1",
-        "name": "[med-def]building3-eco1 #21",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-OilTower-eco1"
-        ]
-    },
-    "R-NRS-building2-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building2-eco"
-        ],
-        "statID": "building2-eco",
-        "id": "R-NRS-building2-eco1",
-        "name": "[med-def]building2-eco1 #22",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-building3-eco1"
-        ]
-    },
-    "R-NRS-BigForest-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BigForest-eco"
-        ],
-        "statID": "BigForest-eco",
-        "id": "R-NRS-BigForest-eco1",
-        "name": "[med-def]Big Forest-eco1 #23",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
-        "requiredResearch": [
-            "R-NRS-building2-eco1"
         ]
     },
     "R-NRS-A0ResourceExtractor-eco1": {
@@ -30772,11 +30103,131 @@
         ],
         "statID": "A0ResourceExtractor-eco",
         "id": "R-NRS-A0ResourceExtractor-eco1",
-        "name": "[med-def]Oil Derrick-eco1 #24",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
+        "name": "[med-def]Oil Derrick-eco1 #3",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
-            "R-NRS-BigForest-eco1"
+            "R-NRS-Propaganda-eco1"
+        ]
+    },
+    "R-NRS-Heavywepslab-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Heavywepslab-eco"
+        ],
+        "statID": "Heavywepslab-eco",
+        "id": "R-NRS-Heavywepslab-eco1",
+        "name": "[med-def]Heavywepslab-eco1 #4",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-A0ResourceExtractor-eco1"
+        ]
+    },
+    "R-NRS-Rotarywepslab-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Rotarywepslab-eco"
+        ],
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco1",
+        "name": "[med-def]Rotarywepslab-eco1 #5",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-Heavywepslab-eco1"
+        ]
+    },
+    "R-NRS-SolarPower-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "SolarPower-eco"
+        ],
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco1",
+        "name": "[med-def]Solar panel-eco1 #6",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-Rotarywepslab-eco1"
+        ]
+    },
+    "R-NRS-BarbWarehouse3-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse3-eco"
+        ],
+        "statID": "BarbWarehouse3-eco",
+        "id": "R-NRS-BarbWarehouse3-eco1",
+        "name": "[med-def]BarbWarehouse3-eco1 #7",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco1"
+        ]
+    },
+    "R-NRS-cabin-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "cabin-eco"
+        ],
+        "statID": "cabin-eco",
+        "id": "R-NRS-cabin-eco1",
+        "name": "[med-def]cabin-eco1 #8",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse3-eco1"
+        ]
+    },
+    "R-NRS-arizonabush3-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "arizonabush3-eco"
+        ],
+        "statID": "arizonabush3-eco",
+        "id": "R-NRS-arizonabush3-eco1",
+        "name": "[med-def]arizonabush3-eco1 #9",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-cabin-eco1"
+        ]
+    },
+    "R-NRS-BarbWarehouse1-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse1-eco"
+        ],
+        "statID": "BarbWarehouse1-eco",
+        "id": "R-NRS-BarbWarehouse1-eco1",
+        "name": "[med-def]BarbWarehouse1-eco1 #10",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-arizonabush3-eco1"
+        ]
+    },
+    "R-NRS-WaterTower-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "WaterTower-eco"
+        ],
+        "statID": "WaterTower-eco",
+        "id": "R-NRS-WaterTower-eco1",
+        "name": "[med-def]WaterTower-eco1 #11",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse1-eco1"
         ]
     },
     "R-NRS-Aerodynamicslab-eco1": {
@@ -30787,161 +30238,206 @@
         ],
         "statID": "Aerodynamicslab-eco",
         "id": "R-NRS-Aerodynamicslab-eco1",
-        "name": "[med-def]Aerodynamicslab-eco1 #25",
-        "researchPoints": 69.23076923076923,
-        "researchPower": 64.61538461538463,
+        "name": "[med-def]Aerodynamicslab-eco1 #12",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco1"
+            "R-NRS-WaterTower-eco1"
         ]
     },
-    "R-NRS-Park-eco1": {
+    "R-NRS-OilTower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Park-eco"
+            "OilTower-eco"
         ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco1",
-        "name": "[med-def]Park-eco1 #26",
-        "researchPoints": 34.615384615384606,
-        "researchPower": 32.30769230769231,
+        "statID": "OilTower-eco",
+        "id": "R-NRS-OilTower-eco1",
+        "name": "[med-def]OilTower-eco1 #13",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
             "R-NRS-Aerodynamicslab-eco1"
         ]
     },
-    "R-NRS-BarbWarehouse1-eco2": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
+    "R-NRS-BarbHUT-eco1": {
+        "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbWarehouse1-eco"
+            "BarbHUT-eco"
         ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco2",
-        "name": "[med-def]BarbWarehouse1-eco2 #1",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "statID": "BarbHUT-eco",
+        "id": "R-NRS-BarbHUT-eco1",
+        "name": "[med-def]BarbHUT-eco1 #14",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
-            "R-Fac-start"
+            "R-NRS-OilTower-eco1"
         ]
     },
-    "R-NRS-Tree-eco2": {
+    "R-NRS-Tree-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "Tree-eco"
         ],
         "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco2",
-        "name": "[med-def]Tree-eco2 #2",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "id": "R-NRS-Tree-eco1",
+        "name": "[med-def]Tree-eco1 #15",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
-            "R-NRS-BarbWarehouse1-eco2"
+            "R-NRS-BarbHUT-eco1"
         ]
     },
-    "R-NRS-Rotarywepslab-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Rotarywepslab-eco"
-        ],
-        "statID": "Rotarywepslab-eco",
-        "id": "R-NRS-Rotarywepslab-eco2",
-        "name": "[med-def]Rotarywepslab-eco2 #3",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
-        "requiredResearch": [
-            "R-NRS-Tree-eco2"
-        ]
-    },
-    "R-NRS-building12-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building12-eco"
-        ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco2",
-        "name": "[med-def]building12-eco2 #4",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
-        "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco2"
-        ]
-    },
-    "R-NRS-Forest-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Forest-eco"
-        ],
-        "statID": "Forest-eco",
-        "id": "R-NRS-Forest-eco2",
-        "name": "[med-def]Forest-eco2 #5",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
-        "requiredResearch": [
-            "R-NRS-building12-eco2"
-        ]
-    },
-    "R-NRS-Boulder1-eco2": {
+    "R-NRS-Boulder1-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "Boulder1-eco"
         ],
         "statID": "Boulder1-eco",
-        "id": "R-NRS-Boulder1-eco2",
-        "name": "[med-def]Boulder1-eco2 #6",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "id": "R-NRS-Boulder1-eco1",
+        "name": "[med-def]Boulder1-eco1 #16",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
-            "R-NRS-Forest-eco2"
+            "R-NRS-Tree-eco1"
         ]
     },
-    "R-NRS-arizonabush3-eco2": {
+    "R-NRS-Advmaterialslab-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "arizonabush3-eco"
+            "Advmaterialslab-eco"
         ],
-        "statID": "arizonabush3-eco",
-        "id": "R-NRS-arizonabush3-eco2",
-        "name": "[med-def]arizonabush3-eco2 #7",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco1",
+        "name": "[med-def]Advmaterialslab-eco1 #17",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
-            "R-NRS-Boulder1-eco2"
+            "R-NRS-Boulder1-eco1"
         ]
     },
-    "R-NRS-A0ResourceExtractor-eco2": {
+    "R-NRS-CoolingTower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "A0ResourceExtractor-eco"
+            "CoolingTower-eco"
         ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco2",
-        "name": "[med-def]Oil Derrick-eco2 #8",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco1",
+        "name": "[med-def]*CoolingTower*-eco1 #18",
+        "researchPoints": 94.73684210526318,
+        "researchPower": 88.42105263157896,
         "requiredResearch": [
-            "R-NRS-arizonabush3-eco2"
+            "R-NRS-Advmaterialslab-eco1"
+        ]
+    },
+    "R-NRS-building10-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building10-eco"
+        ],
+        "statID": "building10-eco",
+        "id": "R-NRS-building10-eco1",
+        "name": "[med-def]building10-eco1 #19",
+        "researchPoints": 47.368421052631575,
+        "researchPower": 44.21052631578947,
+        "requiredResearch": [
+            "R-NRS-CoolingTower-eco1"
         ]
     },
     "R-NRS-Ruin1-eco2": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "Ruin1-eco"
         ],
         "statID": "Ruin1-eco",
         "id": "R-NRS-Ruin1-eco2",
-        "name": "[med-def]Ruin1-eco2 #9",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "name": "[med-def]Ruin1-eco2 #1",
+        "researchPoints": 90,
+        "researchPower": 84,
         "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco2"
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Boulder3-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder3-eco"
+        ],
+        "statID": "Boulder3-eco",
+        "id": "R-NRS-Boulder3-eco2",
+        "name": "[med-def]Boulder3-eco2 #2",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-Ruin1-eco2"
+        ]
+    },
+    "R-NRS-BarbWarehouse2-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse2-eco"
+        ],
+        "statID": "BarbWarehouse2-eco",
+        "id": "R-NRS-BarbWarehouse2-eco2",
+        "name": "[med-def]BarbWarehouse2-eco2 #3",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-Boulder3-eco2"
+        ]
+    },
+    "R-NRS-Powlab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Powlab-eco"
+        ],
+        "statID": "Powlab-eco",
+        "id": "R-NRS-Powlab-eco2",
+        "name": "[med-def]Powlab-eco2 #4",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse2-eco2"
+        ]
+    },
+    "R-NRS-WaterTower-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "WaterTower-eco"
+        ],
+        "statID": "WaterTower-eco",
+        "id": "R-NRS-WaterTower-eco2",
+        "name": "[med-def]WaterTower-eco2 #5",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-Powlab-eco2"
+        ]
+    },
+    "R-NRS-building3-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building3-eco"
+        ],
+        "statID": "building3-eco",
+        "id": "R-NRS-building3-eco2",
+        "name": "[med-def]building3-eco2 #6",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-WaterTower-eco2"
         ]
     },
     "R-NRS-building11-eco2": {
@@ -30952,26 +30448,71 @@
         ],
         "statID": "building11-eco",
         "id": "R-NRS-building11-eco2",
-        "name": "[med-def]building11-eco2 #10",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "name": "[med-def]building11-eco2 #7",
+        "researchPoints": 90,
+        "researchPower": 84,
         "requiredResearch": [
-            "R-NRS-Ruin1-eco2"
+            "R-NRS-building3-eco2"
         ]
     },
-    "R-NRS-building2-eco2": {
+    "R-NRS-Tree-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building2-eco"
+            "Tree-eco"
         ],
-        "statID": "building2-eco",
-        "id": "R-NRS-building2-eco2",
-        "name": "[med-def]building2-eco2 #11",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco2",
+        "name": "[med-def]Tree-eco2 #8",
+        "researchPoints": 90,
+        "researchPower": 84,
         "requiredResearch": [
             "R-NRS-building11-eco2"
+        ]
+    },
+    "R-NRS-Aerodynamicslab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Aerodynamicslab-eco"
+        ],
+        "statID": "Aerodynamicslab-eco",
+        "id": "R-NRS-Aerodynamicslab-eco2",
+        "name": "[med-def]Aerodynamicslab-eco2 #9",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-Tree-eco2"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco2",
+        "name": "[med-def]AirTrafficControl-eco2 #10",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-Aerodynamicslab-eco2"
+        ]
+    },
+    "R-NRS-Park-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Park-eco"
+        ],
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco2",
+        "name": "[med-def]Park-eco2 #11",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-AirTrafficControl-eco2"
         ]
     },
     "R-NRS-NuclearReactor-eco2": {
@@ -30983,130 +30524,175 @@
         "statID": "NuclearReactor-eco",
         "id": "R-NRS-NuclearReactor-eco2",
         "name": "[med-def]*NuclearReactor*-eco2 #12",
-        "researchPoints": 138.46153846153845,
-        "researchPower": 129.23076923076925,
+        "researchPoints": 90,
+        "researchPower": 84,
         "requiredResearch": [
-            "R-NRS-building2-eco2"
+            "R-NRS-Park-eco2"
         ]
     },
-    "R-NRS-building10-eco2": {
+    "R-NRS-building2-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building10-eco"
+            "building2-eco"
         ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco2",
-        "name": "[med-def]building10-eco2 #13",
-        "researchPoints": 69.23076923076921,
-        "researchPower": 64.61538461538461,
+        "statID": "building2-eco",
+        "id": "R-NRS-building2-eco2",
+        "name": "[med-def]building2-eco2 #13",
+        "researchPoints": 90,
+        "researchPower": 84,
         "requiredResearch": [
             "R-NRS-NuclearReactor-eco2"
         ]
     },
-    "R-NRS-SolarPower-eco3": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "SolarPower-eco"
-        ],
-        "statID": "SolarPower-eco",
-        "id": "R-NRS-SolarPower-eco3",
-        "name": "[med-def]Solar panel-eco3 #1",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-BarbWarehouse2-eco3": {
+    "R-NRS-building12-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbWarehouse2-eco"
+            "building12-eco"
         ],
-        "statID": "BarbWarehouse2-eco",
-        "id": "R-NRS-BarbWarehouse2-eco3",
-        "name": "[med-def]BarbWarehouse2-eco3 #2",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco2",
+        "name": "[med-def]building12-eco2 #14",
+        "researchPoints": 90,
+        "researchPower": 84,
         "requiredResearch": [
-            "R-NRS-SolarPower-eco3"
+            "R-NRS-building2-eco2"
         ]
     },
-    "R-NRS-Powlab-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Powlab-eco"
-        ],
-        "statID": "Powlab-eco",
-        "id": "R-NRS-Powlab-eco3",
-        "name": "[med-def]Powlab-eco3 #3",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse2-eco3"
-        ]
-    },
-    "R-NRS-BarbWarehouse1-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse1-eco"
-        ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco3",
-        "name": "[med-def]BarbWarehouse1-eco3 #4",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-Powlab-eco3"
-        ]
-    },
-    "R-NRS-Boulder2-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder2-eco"
-        ],
-        "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco3",
-        "name": "[med-def]Boulder2-eco3 #5",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse1-eco3"
-        ]
-    },
-    "R-NRS-arizonabush3-eco3": {
+    "R-NRS-arizonabush3-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "arizonabush3-eco"
         ],
         "statID": "arizonabush3-eco",
-        "id": "R-NRS-arizonabush3-eco3",
-        "name": "[med-def]arizonabush3-eco3 #6",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
+        "id": "R-NRS-arizonabush3-eco2",
+        "name": "[med-def]arizonabush3-eco2 #15",
+        "researchPoints": 90,
+        "researchPower": 84,
         "requiredResearch": [
-            "R-NRS-Boulder2-eco3"
+            "R-NRS-building12-eco2"
         ]
     },
-    "R-NRS-WaterTower-eco3": {
+    "R-NRS-Advmaterialslab-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "WaterTower-eco"
+            "Advmaterialslab-eco"
         ],
-        "statID": "WaterTower-eco",
-        "id": "R-NRS-WaterTower-eco3",
-        "name": "[med-def]WaterTower-eco3 #7",
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco2",
+        "name": "[med-def]Advmaterialslab-eco2 #16",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-arizonabush3-eco2"
+        ]
+    },
+    "R-NRS-Rotarywepslab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Rotarywepslab-eco"
+        ],
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco2",
+        "name": "[med-def]Rotarywepslab-eco2 #17",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-Advmaterialslab-eco2"
+        ]
+    },
+    "R-NRS-CoolingTower-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "CoolingTower-eco"
+        ],
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco2",
+        "name": "[med-def]*CoolingTower*-eco2 #18",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-Rotarywepslab-eco2"
+        ]
+    },
+    "R-NRS-road-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "road-eco"
+        ],
+        "statID": "road-eco",
+        "id": "R-NRS-road-eco2",
+        "name": "[med-def]road-eco2 #19",
+        "researchPoints": 90,
+        "researchPower": 84,
+        "requiredResearch": [
+            "R-NRS-CoolingTower-eco2"
+        ]
+    },
+    "R-NRS-Boulder2-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder2-eco"
+        ],
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco2",
+        "name": "[med-def]Boulder2-eco2 #20",
+        "researchPoints": 44.99999999999999,
+        "researchPower": 41.99999999999999,
+        "requiredResearch": [
+            "R-NRS-road-eco2"
+        ]
+    },
+    "R-NRS-building11-eco3": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building11-eco"
+        ],
+        "statID": "building11-eco",
+        "id": "R-NRS-building11-eco3",
+        "name": "[med-def]building11-eco3 #1",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
-            "R-NRS-arizonabush3-eco3"
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-building10-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building10-eco"
+        ],
+        "statID": "building10-eco",
+        "id": "R-NRS-building10-eco3",
+        "name": "[med-def]building10-eco3 #2",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-building11-eco3"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco3",
+        "name": "[med-def]AirTrafficControl-eco3 #3",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-building10-eco3"
         ]
     },
     "R-NRS-BarbHUT-eco3": {
@@ -31117,11 +30703,41 @@
         ],
         "statID": "BarbHUT-eco",
         "id": "R-NRS-BarbHUT-eco3",
-        "name": "[med-def]BarbHUT-eco3 #8",
+        "name": "[med-def]BarbHUT-eco3 #4",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
-            "R-NRS-WaterTower-eco3"
+            "R-NRS-AirTrafficControl-eco3"
+        ]
+    },
+    "R-NRS-building12-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building12-eco"
+        ],
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco3",
+        "name": "[med-def]building12-eco3 #5",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-BarbHUT-eco3"
+        ]
+    },
+    "R-NRS-Boulder2-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder2-eco"
+        ],
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco3",
+        "name": "[med-def]Boulder2-eco3 #6",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-building12-eco3"
         ]
     },
     "R-NRS-Boulder1-eco3": {
@@ -31132,11 +30748,56 @@
         ],
         "statID": "Boulder1-eco",
         "id": "R-NRS-Boulder1-eco3",
-        "name": "[med-def]Boulder1-eco3 #9",
+        "name": "[med-def]Boulder1-eco3 #7",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
-            "R-NRS-BarbHUT-eco3"
+            "R-NRS-Boulder2-eco3"
+        ]
+    },
+    "R-NRS-A0ResourceExtractor-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "A0ResourceExtractor-eco"
+        ],
+        "statID": "A0ResourceExtractor-eco",
+        "id": "R-NRS-A0ResourceExtractor-eco3",
+        "name": "[med-def]Oil Derrick-eco3 #8",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-Boulder1-eco3"
+        ]
+    },
+    "R-NRS-SolarPower-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "SolarPower-eco"
+        ],
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco3",
+        "name": "[med-def]Solar panel-eco3 #9",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-A0ResourceExtractor-eco3"
+        ]
+    },
+    "R-NRS-building3-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building3-eco"
+        ],
+        "statID": "building3-eco",
+        "id": "R-NRS-building3-eco3",
+        "name": "[med-def]building3-eco3 #10",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco3"
         ]
     },
     "R-NRS-Heavywepslab-eco3": {
@@ -31147,101 +30808,26 @@
         ],
         "statID": "Heavywepslab-eco",
         "id": "R-NRS-Heavywepslab-eco3",
-        "name": "[med-def]Heavywepslab-eco3 #10",
+        "name": "[med-def]Heavywepslab-eco3 #11",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
-            "R-NRS-Boulder1-eco3"
+            "R-NRS-building3-eco3"
         ]
     },
-    "R-NRS-OilTower-eco3": {
+    "R-NRS-Propaganda-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "OilTower-eco"
+            "Propaganda-eco"
         ],
-        "statID": "OilTower-eco",
-        "id": "R-NRS-OilTower-eco3",
-        "name": "[med-def]OilTower-eco3 #11",
+        "statID": "Propaganda-eco",
+        "id": "R-NRS-Propaganda-eco3",
+        "name": "[med-def]Propaganda Tower-eco3 #12",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
             "R-NRS-Heavywepslab-eco3"
-        ]
-    },
-    "R-NRS-cabin-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "cabin-eco"
-        ],
-        "statID": "cabin-eco",
-        "id": "R-NRS-cabin-eco3",
-        "name": "[med-def]cabin-eco3 #12",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-OilTower-eco3"
-        ]
-    },
-    "R-NRS-LogCabin3-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "LogCabin3-eco"
-        ],
-        "statID": "LogCabin3-eco",
-        "id": "R-NRS-LogCabin3-eco3",
-        "name": "[med-def]LogCabin3-eco3 #13",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-cabin-eco3"
-        ]
-    },
-    "R-NRS-Forest-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Forest-eco"
-        ],
-        "statID": "Forest-eco",
-        "id": "R-NRS-Forest-eco3",
-        "name": "[med-def]Forest-eco3 #14",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-LogCabin3-eco3"
-        ]
-    },
-    "R-NRS-BigForest-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BigForest-eco"
-        ],
-        "statID": "BigForest-eco",
-        "id": "R-NRS-BigForest-eco3",
-        "name": "[med-def]Big Forest-eco3 #15",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-Forest-eco3"
-        ]
-    },
-    "R-NRS-Advmaterialslab-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Advmaterialslab-eco"
-        ],
-        "statID": "Advmaterialslab-eco",
-        "id": "R-NRS-Advmaterialslab-eco3",
-        "name": "[med-def]Advmaterialslab-eco3 #16",
-        "researchPoints": 85.71428571428572,
-        "researchPower": 80,
-        "requiredResearch": [
-            "R-NRS-BigForest-eco3"
         ]
     },
     "R-NRS-Pickup-eco3": {
@@ -31252,11 +30838,11 @@
         ],
         "statID": "Pickup-eco",
         "id": "R-NRS-Pickup-eco3",
-        "name": "[med-def]Pickup-eco3 #17",
+        "name": "[med-def]Pickup-eco3 #13",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
-            "R-NRS-Advmaterialslab-eco3"
+            "R-NRS-Propaganda-eco3"
         ]
     },
     "R-NRS-road-eco3": {
@@ -31267,7 +30853,7 @@
         ],
         "statID": "road-eco",
         "id": "R-NRS-road-eco3",
-        "name": "[med-def]road-eco3 #18",
+        "name": "[med-def]road-eco3 #14",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
@@ -31282,41 +30868,101 @@
         ],
         "statID": "BarbWarehouse3-eco",
         "id": "R-NRS-BarbWarehouse3-eco3",
-        "name": "[med-def]BarbWarehouse3-eco3 #19",
+        "name": "[med-def]BarbWarehouse3-eco3 #15",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
             "R-NRS-road-eco3"
         ]
     },
-    "R-NRS-AirTrafficControl-eco3": {
+    "R-NRS-OilTower-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "AirTrafficControl-eco"
+            "OilTower-eco"
         ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco3",
-        "name": "[med-def]AirTrafficControl-eco3 #20",
+        "statID": "OilTower-eco",
+        "id": "R-NRS-OilTower-eco3",
+        "name": "[med-def]OilTower-eco3 #16",
         "researchPoints": 85.71428571428572,
         "researchPower": 80,
         "requiredResearch": [
             "R-NRS-BarbWarehouse3-eco3"
         ]
     },
-    "R-NRS-building3-eco3": {
+    "R-NRS-cabin-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building3-eco"
+            "cabin-eco"
         ],
-        "statID": "building3-eco",
-        "id": "R-NRS-building3-eco3",
-        "name": "[med-def]building3-eco3 #21",
+        "statID": "cabin-eco",
+        "id": "R-NRS-cabin-eco3",
+        "name": "[med-def]cabin-eco3 #17",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-OilTower-eco3"
+        ]
+    },
+    "R-NRS-LogCabin3-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "LogCabin3-eco"
+        ],
+        "statID": "LogCabin3-eco",
+        "id": "R-NRS-LogCabin3-eco3",
+        "name": "[med-def]LogCabin3-eco3 #18",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-cabin-eco3"
+        ]
+    },
+    "R-NRS-Forest-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Forest-eco"
+        ],
+        "statID": "Forest-eco",
+        "id": "R-NRS-Forest-eco3",
+        "name": "[med-def]Forest-eco3 #19",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-LogCabin3-eco3"
+        ]
+    },
+    "R-NRS-BigForest-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BigForest-eco"
+        ],
+        "statID": "BigForest-eco",
+        "id": "R-NRS-BigForest-eco3",
+        "name": "[med-def]Big Forest-eco3 #20",
+        "researchPoints": 85.71428571428572,
+        "researchPower": 80,
+        "requiredResearch": [
+            "R-NRS-Forest-eco3"
+        ]
+    },
+    "R-NRS-Ruin1-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Ruin1-eco"
+        ],
+        "statID": "Ruin1-eco",
+        "id": "R-NRS-Ruin1-eco3",
+        "name": "[med-def]Ruin1-eco3 #21",
         "researchPoints": 42.85714285714285,
         "researchPower": 39.99999999999999,
         "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco3"
+            "R-NRS-BigForest-eco3"
         ]
     }
 }

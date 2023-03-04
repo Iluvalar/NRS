@@ -635,9 +635,6 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							
 							if($pos===FALSE){
 								$item['designable']=1;
-							}
-							else{
-								unset($item['designable']);
 								$item['usageClass']="Cyborg";
 							}
 							if($braindetect){
@@ -663,8 +660,6 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								}
 								else{
 									$template['weapons']=[$item['id']];
-									unset($item['designable']);
-									$item['usageClass']="Cyborg";
 								}
 								$prop= "CyborgLegs";
 								if($weight=='lgt'){	$template['body']="CyborgLightBody"; }

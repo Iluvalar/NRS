@@ -163,7 +163,7 @@ function powerStuff(){
 		ncult+=culture[playnum];
 		totHonor+=honor[playnum];
 		
-		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
+		//honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
 		
 		if(playerData[playnum].difficulty>0){
 			ndiff+=playerData[playnum].difficulty;
@@ -188,7 +188,7 @@ function powerStuff(){
 		}
 		//playPow=playerPower(playnum);	
 		playPow=0;
-
+		honorPow=0;
 		basePow=0;
 
 		income=0;
@@ -219,23 +219,20 @@ function powerStuff(){
 			honorValue=honor[playnum];
 			honorPlayer=playnum;
 		}
-		var fractprop=2**((totpropPow)/(basepower*(1.25-1)*maxPlayers));
+		var fractprop=Math.ceil((2**(totpropPow/(basepower*(1.25-1)*maxPlayers)))*100)/100;
 		//if(totpropPow!=0){
 		//	totPow+=totIncome*(1-(1/fractprop))*propPow/(totpropPow)/2;
 		//}
 
 		
-		if(income*maxPlayers<totIncome/4){
-			//basePow+=totIncome*(1-(1/fractprop))*.25/4;
-		}
 		
-		var equity=1*(((playPow+basePow)/(npow+nbase))**2);
+		var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
 		//dumpText+=".9*(("+ playPow +"+"+ basePow +")**3)/("+ npow +"+"+ nbase +")**3 ="+ equity;
 		var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
 		var foundsFact=3**(founds);
 		foundsFact=1;
 		
-		income=(playPow+basePow-energy2Pow)*(interest)*(1-equity)/foundsFact;
+		income=(playPow+basePow)*(interest)*(1-equity)/foundsFact;
 
 		
 
@@ -248,13 +245,13 @@ function powerStuff(){
 			var aiFact=tothonorPow/(500)/(maxPlayers*4);
 			//var factordif=2**playerData[playnum].difficulty-.5;
 			var factordif=3.5;
-			if(playerData[playnum].difficulty==1){ factordif=1.7+aiFact; }
-			if(playerData[playnum].difficulty==2){ factordif=2.20+aiFact; }
-			if(playerData[playnum].difficulty==3){ factordif=2.40+aiFact; }
-			if(playerData[playnum].difficulty==4){ factordif=3+aiFact; }
+			if(playerData[playnum].difficulty==1){ factordif=1.7; }
+			if(playerData[playnum].difficulty==2){ factordif=2.00; }
+			if(playerData[playnum].difficulty==3){ factordif=2.20; }
+			if(playerData[playnum].difficulty==4){ factordif=3; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);
-			income=income*factordif;
+			income=income*(factordif+aiFact-1/fractprop+1);
 		}
 		//var powerToSet=totPow+income-(basePow+totPow)*(1-tax);
 		var cultureToSet=culture[playnum]+cultPow*interest;

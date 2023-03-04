@@ -4,7 +4,7 @@
         "armourKinetic": 0,
         "buildPoints": 50,
         "buildPower": 25,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 140,
         "id": "B2crane1",
         "model": "cranebody1.pie",
@@ -19,7 +19,7 @@
         "armourKinetic": 0,
         "buildPoints": 50,
         "buildPower": 25,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 140,
         "id": "B2crane2",
         "model": "cranebody2.pie",
@@ -34,7 +34,7 @@
         "armourKinetic": 0,
         "buildPoints": 170,
         "buildPower": 55,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 316.38247455358305,
         "id": "B2tractor",
         "model": "tractor.pie",
@@ -50,7 +50,7 @@
         "armourKinetic": 0,
         "buildPoints": 170,
         "buildPower": 55,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 256.3072504812564,
         "id": "ScavCamperBody",
         "model": "camper.pie",
@@ -66,7 +66,7 @@
         "armourKinetic": 0,
         "buildPoints": 170,
         "buildPower": 55,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 274.6634063351939,
         "id": "ScavIcevanBody",
         "model": "icevan.pie",
@@ -82,7 +82,7 @@
         "armourKinetic": 0,
         "buildPoints": 65,
         "buildPower": 15,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 190,
         "id": "ScavTruckBody",
         "model": "scavtruck.pie",
@@ -97,7 +97,7 @@
         "armourKinetic": 0,
         "buildPoints": 300,
         "buildPower": 50,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 180,
         "id": "ScavNEXUSbody",
         "model": "scavnexus.pie",
@@ -112,7 +112,7 @@
         "armourKinetic": 0,
         "buildPoints": 170,
         "buildPower": 55,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 339.8182508587524,
         "id": "ScavNEXUStrack",
         "model": "nextrack.pie",
@@ -128,7 +128,7 @@
         "armourKinetic": 0,
         "buildPoints": 100,
         "buildPower": 40,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 130,
         "id": "ScavengerChopper",
         "model": "scavchop.pie",
@@ -136,10 +136,8 @@
         "powerOutput": 2000,
         "propulsionExtraModels": {
             "Helicopter": {
-                "left": "prlheli1.pie",
                 "moving": "chblades.pie",
-                "still": "mediumheli_rotor_stationary.pie",
-                "right": "prlheli1.pie"
+                "still": "mediumheli_rotor_stationary.pie"
             }
         },
         "size": "LIGHT",
@@ -151,7 +149,7 @@
         "armourKinetic": 0,
         "buildPoints": 110,
         "buildPower": 50,
-        "class": "Droids",
+        "class": "Babas",
         "hitpoints": 230,
         "id": "HeavyChopper",
         "model": "hvychop.pie",
@@ -159,10 +157,8 @@
         "powerOutput": 2100,
         "propulsionExtraModels": {
             "Helicopter": {
-                "left": "prmheli1.pie",
                 "moving": "hvyblades.pie",
-                "still": "hvyblades-still.pie",
-                "right": "prmheli1.pie"
+                "still": "hvyblades-still.pie"
             }
         },
         "size": "LIGHT",
@@ -370,8 +366,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -382,20 +377,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -416,8 +408,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -428,20 +419,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -462,8 +450,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -474,20 +461,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -508,8 +492,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -520,20 +503,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -554,8 +534,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -566,20 +545,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -600,8 +576,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -612,20 +587,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -646,8 +618,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -658,20 +629,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -692,8 +660,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -704,20 +671,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -738,8 +702,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -750,20 +713,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -784,8 +744,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -796,20 +755,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -830,8 +786,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -842,20 +797,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -876,8 +828,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -888,20 +839,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -922,8 +870,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -934,20 +881,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -968,8 +912,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -980,20 +923,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1026,13 +966,13 @@
         "name": "Cyborg Heavy Body [med]#2",
         "powerOutput": 1750,
         "size": "LIGHT",
+        "usageClass": "Cyborg",
         "weaponSlots": 1,
         "weight": 416.66666666666663,
         "designable": 0,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1043,20 +983,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1073,13 +1010,13 @@
         "name": "Cyborg Light Body [lgt]#1",
         "powerOutput": 1750,
         "size": "LIGHT",
+        "usageClass": "Cyborg",
         "weaponSlots": 1,
         "weight": 750,
         "designable": 0,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1090,20 +1027,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1157,8 +1091,13 @@
     },
     "ZNULLBODY": {
         "id": "ZNULLBODY",
-        "model": "mibnkbod.pie",
+        "model": "znullbody.pie",
         "name": "*Z NULL BODY*",
+        "propulsionExtraModels": {
+            "ZNULLPROP": {
+                "left": "znullfull.pie"
+            }
+        },
         "size": "LIGHT",
         "weaponSlots": 1,
         "armourKinetic": 0,
@@ -1180,10 +1119,10 @@
         "weaponSlots": 1,
         "weight": 250,
         "designable": 0,
+        "usageClass": "Cyborg",
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1194,20 +1133,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1216,7 +1152,7 @@
         "armourKinetic": 0,
         "buildPoints": 170,
         "buildPower": 55,
-        "class": "Babas",
+        "class": "Cyborgs",
         "droidType": "CYBORG",
         "hitpoints": 251.2375782968523,
         "id": "B1BaBaPerson01-nrs",
@@ -1225,7 +1161,9 @@
         "powerOutput": 1750,
         "size": "LIGHT",
         "weaponSlots": 1,
-        "weight": 583.3333333333333
+        "weight": 583.3333333333333,
+        "usageClass": "Cyborg",
+        "designable": 0
     },
     "Body3MBT-2120": {
         "armourHeat": 0,
@@ -1244,8 +1182,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1256,20 +1193,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1290,8 +1224,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -1302,20 +1235,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -1336,8 +1266,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1348,20 +1277,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1382,8 +1308,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1394,20 +1319,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1428,8 +1350,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1440,20 +1361,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1474,8 +1392,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1486,20 +1403,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1520,8 +1434,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1532,20 +1445,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1566,8 +1476,7 @@
         "weight": 750,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prllhtr1.pie",
-                "right": "prlrhtr1.pie"
+                "left": "prlhtr1.pie"
             },
             "Helicopter": {
                 "left": "prlheli1.pie",
@@ -1578,20 +1487,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prllvtl1.pie",
-                "right": "prlrvtl1.pie",
+                "left": "prlvtl1.pie",
                 "moving": "fxvtl01.pie"
             },
             "hover01": {
                 "left": "prlhov1.pie"
             },
             "tracked01": {
-                "left": "prlltrk1.pie",
-                "right": "prlrtrk1.pie"
+                "left": "prltrk1.pie"
             },
             "wheeled01": {
-                "left": "prllwhl1.pie",
-                "right": "prlrwhl1.pie"
+                "left": "prlwhl1.pie"
             }
         }
     },
@@ -1612,8 +1518,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1624,20 +1529,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1658,8 +1560,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1670,20 +1571,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1704,8 +1602,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1716,20 +1613,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1750,8 +1644,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1762,20 +1655,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1796,8 +1686,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -1808,20 +1697,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -1842,8 +1728,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1854,20 +1739,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1888,8 +1770,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1900,20 +1781,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1934,8 +1812,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1946,20 +1823,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -1980,8 +1854,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -1992,20 +1865,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -2026,8 +1896,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -2038,20 +1907,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -2072,8 +1938,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -2084,20 +1949,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -2118,8 +1980,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -2130,20 +1991,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -2164,8 +2022,7 @@
         "weight": 250,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prhlhtr3.pie",
-                "right": "prhrhtr3.pie"
+                "left": "prhhtr3.pie"
             },
             "Helicopter": {
                 "left": "prhheli3.pie",
@@ -2176,20 +2033,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prhlvtl3.pie",
-                "right": "prhrvtl3.pie",
+                "left": "prhvtl3.pie",
                 "moving": "fxvtl11.pie"
             },
             "hover01": {
                 "left": "prhhov1.pie"
             },
             "tracked01": {
-                "left": "prhltrk3.pie",
-                "right": "prhrtrk3.pie"
+                "left": "prhtrk3.pie"
             },
             "wheeled01": {
-                "left": "prhlwhl1.pie",
-                "right": "prhrwhl1.pie"
+                "left": "prhwhl1.pie"
             }
         }
     },
@@ -2210,8 +2064,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -2222,20 +2075,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -2256,8 +2106,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -2268,20 +2117,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -2302,8 +2148,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -2314,20 +2159,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -2348,8 +2190,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -2360,20 +2201,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -2394,8 +2232,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -2406,20 +2243,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     },
@@ -2440,8 +2274,7 @@
         "weight": 416.66666666666663,
         "propulsionExtraModels": {
             "HalfTrack": {
-                "left": "prmlhtr2.pie",
-                "right": "prmrhtr2.pie"
+                "left": "prmhtr2.pie"
             },
             "Helicopter": {
                 "left": "prmheli1.pie",
@@ -2452,20 +2285,17 @@
                 "left": "prhnaval1.pie"
             },
             "V-Tol": {
-                "left": "prmlvtl1.pie",
-                "right": "prmrvtl1.pie",
+                "left": "prmvtl1.pie",
                 "moving": "fxvtl5to8.pie"
             },
             "hover01": {
                 "left": "prmhov1.pie"
             },
             "tracked01": {
-                "left": "prmltrk2.pie",
-                "right": "prmrtrk2.pie"
+                "left": "prmtrk2.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmwhl1.pie"
             }
         }
     }
