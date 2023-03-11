@@ -18,7 +18,7 @@ New in NRS!!
 *Improved balance ! I'm committed to make the most competitive version of WZ ever.
 And more new things coming...
 ```
-##You can do it!
+## You can do it!
 ```
 This mod is noob friendly.
 Just get a weapon, design and build!
@@ -28,7 +28,7 @@ Just explore, 1 or 2 new things every game. And keep the game plan SIMPLE.
 Just a few line of research every games IS WHAT YOU NEED!
 Focus on your current crazy plan and do not be overwhelmed by the amount of option for other crazy plans.
 ```
-##Become a pro!
+## Become a pro!
 ```
 Circle of weight : Light >outnumber> Medium >outnumber> Heavy >Can't feel> Light
 Circle of propulsion : Structure, Track, wheel, legs(personnal), Structure... 
@@ -47,7 +47,7 @@ The power level now control the demand for oil and other resources. If you play 
 
 The tech level will affect the starting power allowing you to research more things. However be careful ! The economical aid for all player will also be reduced. Higher tech level will be for more advanced player who want full control on their research.
 ```
-##Economy
+## Economy
 ```
 There is 3 lines of economy building. Eco1,eco2,eco3
 They all behave identically and they are randomly generated in each pack!
@@ -122,6 +122,6 @@ $structureData = [
 
 The scripts are not executable as they are now in the git. There is a lot of missing parts.
 ```
-##design
-###Why ?
+## design
+### Why ?
 Adding new content to a tech tree increase the value of the parts leading to it. And by shockwave effect increase the value of anything that those branches lead to. We can try to predict some of the outcome of our changes. but if, for example, Synaptic Link Data Analysis Mk3 become the 27th research in your research path instead of 26th, EVERYTHING that need the sensor to be researched will REQUIRE a rebalance. The only way I know to rebalance that is a 2 months community test trial followed by an hopeful balance patch that will only address half of the problems at best. In other words, we are constantly in test trial for the latest changes and those changes must come in a snail paces. Which segway nicely to the next part:

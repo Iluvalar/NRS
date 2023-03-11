@@ -18,6 +18,10 @@ New in NRS!!
 *Improved balance ! I'm committed to make the most competitive version of WZ ever.
 And more new things coming...
 ```
+## Install
+```
+Simply download the last version of the file NRSXXX.wz and drop it in your /mods/4.3.3/autoload folder.
+```
 ## You can do it!
 ```
 This mod is noob friendly.
