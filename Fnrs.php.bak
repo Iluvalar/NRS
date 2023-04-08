@@ -423,6 +423,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$weightfact/=$fig;
 							$price/=$fig;
 							$pow*=$figbase/Fwz_fig($nbase  * $fig**1);
+							$pow*=1.1; //shouldnt be here but scavs are week in game...
 							$nbweight='ULTRALIGHT';
 							$nbweight2='ULTRALIGHT';
 							//$wepweight=1/16;
@@ -635,6 +636,9 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							
 							if($pos===FALSE){
 								$item['designable']=1;
+							}
+							else{
+								unset($item['designable']);
 								$item['usageClass']="Cyborg";
 							}
 							if($braindetect){
@@ -660,6 +664,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								}
 								else{
 									$template['weapons']=[$item['id']];
+									unset($item['designable']);
+									$item['usageClass']="Cyborg";
 								}
 								$prop= "CyborgLegs";
 								if($weight=='lgt'){	$template['body']="CyborgLightBody"; }

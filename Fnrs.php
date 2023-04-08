@@ -423,6 +423,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$weightfact/=$fig;
 							$price/=$fig;
 							$pow*=$figbase/Fwz_fig($nbase  * $fig**1);
+							$pow*=1.1; //shouldnt be here but scavs are week in game...
 							$nbweight='ULTRALIGHT';
 							$nbweight2='ULTRALIGHT';
 							//$wepweight=1/16;
@@ -669,7 +670,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$prop= "CyborgLegs";
 								if($weight=='lgt'){	$template['body']="CyborgLightBody"; }
 								else if($weight=='hvy'){	$template['body']="CyborgHeavyBody-2120"; }
-								else if($weight=='xlgt'){	$template['body']="B1BaBaPerson01-nrs"; $prop= "BaBaLegs"; }
+								else if($weight=='xlgt'){	$template['body']="B1BaBaPerson01-nrs"; /*$prop= "BaBaLegs";*/ }
 								else {	$template['body']="CyborgHeavyBody"; }
 								if(!$vtolshit){
 									$sys['nrs']['file']['stat']['templates'][$template['id']]=$template;
