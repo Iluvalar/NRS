@@ -632,7 +632,16 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	if($range!=0){
 		
 		//$obj['rangeMod']=($fac-.996**$range**2)/($fac-.996**6**2);
+		//DefaultSensor1Mk1
+		$sensorrange=1024/128;
+		if($sys['nrs']['scaleDist']){
+			$sensorrange*=$sys['nrs']['scaleDist'];
+		}
 		
+		if($range>$sensorrange){
+			$range=($range-$sensorrange)*.666+$sensorrange; //sensor range wall...
+			echo 'sensorrange:'. $sensorrange;
+		}
 		//$obj['rangeMod']=(1-pow(.996,pow($range+3/$sys['nrs']['dmgscale'],2)))/(1-pow(.996,pow(6+3/$sys['nrs']['dmgscale'],2)));
 		$obj['rangeMod']=(1-pow(.997,pow($range+3/$sys['nrs']['dmgscale'],2)))/(1-pow(.997,pow(6+3/$sys['nrs']['dmgscale'],2)));
 	}
