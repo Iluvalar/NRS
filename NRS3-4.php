@@ -82,17 +82,18 @@ $sys['nrs']['subclsses']=['',"CANNON","MORTARS","MISSILE","ROCKET","ENERGY","GAU
 //ELECTRONIC
 $sys['nrs']['startres']="R-Fac-start";
 echo "OL:". Fwz_fig(50)/Fwz_fig(30);
+echo "test:". Fwz_fig(92)/Fwz_fig(100);
 
 /// OK SETUP DONE ///
 /// We load the stats files in to the $sys['nrs'] array.
 
 $realbasedir='./base/';
-$basedir='./mp3.4/';
+$basedir='./mp4.3.5/';
 $dir2120='./2120/';
 //$dirnrs='./8c-oligarchyNRSpV150/';
 //$savedir='C:\Users\patag\AppData\Roaming\Warzone 2100 Project\Warzone 2100 4.0\mods\multiplay\NRS';
 $savedir='./modfiles/';
-$sys['nrs']['dir']['base']='./mp3.4/';
+$sys['nrs']['dir']['base']='./mp4.3.5/';
 $sys['nrs']['dir']['2120']='./2120/';
 $sys['nrs']['dir']['save']='./modfiles/';
 
@@ -527,6 +528,8 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-MRL", 'in'=>'base', 'type'=> 'weapo
 	Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-IDF", 'in'=>'base', 'type'=> 'weapons', 'as' => ['hvy','AS','',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Missile-MdArt", 'in'=>'base', 'type'=> 'weapons', 'as' => ['hvy','AS','',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-IDF", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['hvy','AS','',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-MRL-Hvy", 'in'=>'base', 'type'=> 'weapons', 'as' => ['hvy','AS','',''] ]);
+
 	Fnrs_add([ 'faction'=> $fac, 'use'=> "Missile-HvyArt", 'in'=>'base', 'type'=> 'weapons', 'as' => ['hvy','AS','',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Missile-MdArt", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['hvy','AS','',''] ]);
 	Fnrs_add([ 'faction'=> $fac, 'use'=> "Missile-HvyArt", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['hvy','AS','',''] ]);

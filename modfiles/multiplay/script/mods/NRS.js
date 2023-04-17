@@ -14,40 +14,40 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,131,],
-	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,132,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,131,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,134,],
+	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,134,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,132,],
 	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,130,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,137,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,130,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,133,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,138,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,132,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,131,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,130,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,131,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,134,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,135,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,135,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,133,],
 	"road":[0,75,0,0,-55,25,-55,0,0,0,0,133,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,135,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,137,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,137,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,133,],
 	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,138,],
-	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,133,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,132,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,130,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,134,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,134,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,135,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,135,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,137,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,131,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,137,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,135,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,136,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,138,],
-	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,136,],
-	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,137,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,132,],
+	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,135,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,131,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,134,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,130,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,137,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,136,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,136,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,131,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,138,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,132,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,132,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,131,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,132,],
+	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,137,],
+	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,138,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,135,],
 	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,139,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,137,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,135,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,136,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,136,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,139,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,133,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -238,7 +238,7 @@ function powerStuff(){
 		var p=playnum+1;
 		for (var j = 0; j < 10; j++){
 			if((resources[p][j] || 0)>0){
-				basePow+=resources[p][j]/1.1**((resources[0][j] || 0)/(basepower/5));
+				basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
 			}
 		}
 		
@@ -254,7 +254,7 @@ function powerStuff(){
 			honorValue=honor[playnum];
 			honorPlayer=playnum;
 		}
-		var fractprop=Math.ceil((2**(totpropPow/(basepower*(1.25-1)*maxPlayers)))*100)/100;
+		var fractprop=Math.ceil((2**Math.ceil(totpropPow/(basepower*(1.25-1)*maxPlayers)))*100)/100;
 		//if(totpropPow!=0){
 		//	totPow+=totIncome*(1-(1/fractprop))*propPow/(totpropPow)/2;
 		//}
@@ -264,8 +264,8 @@ function powerStuff(){
 		var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
 		//dumpText+=".9*(("+ playPow +"+"+ basePow +")**3)/("+ npow +"+"+ nbase +")**3 ="+ equity;
 		var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
-		var foundsFact=3**(founds);
-		foundsFact=1;
+		//var foundsFact=3**(founds);
+		var foundsFact=1;
 		
 		income=(playPow+basePow)*(interest)*(1-equity)/foundsFact;
 
@@ -302,7 +302,8 @@ function powerStuff(){
 		
 		//dumpText+=culture[playnum] +"/1.1**"+ totworkPow +"+"+ totpropPow +"-"+ ncult +"/basepower"; 
 
-		setExperienceModifier(playnum, 1000*1.41**((totenergyPow-totserPow)/basepower));
+		//setExperienceModifier(playnum, 1000*1.41**((totenergyPow-totserPow)/basepower));
+		setExperienceModifier(playnum, 1000);
 		
 		//setPower(2000, playnum);
 		conDeb+=Math.ceil(equity*100) +",";

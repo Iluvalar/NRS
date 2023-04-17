@@ -203,7 +203,7 @@ function powerStuff(){
 		var p=playnum+1;
 		for (var j = 0; j < 10; j++){
 			if((resources[p][j] || 0)>0){
-				basePow+=resources[p][j]/1.1**((resources[0][j] || 0)/(basepower/5));
+				basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
 			}
 		}
 		
@@ -219,7 +219,7 @@ function powerStuff(){
 			honorValue=honor[playnum];
 			honorPlayer=playnum;
 		}
-		var fractprop=Math.ceil((2**(totpropPow/(basepower*(1.25-1)*maxPlayers)))*100)/100;
+		var fractprop=Math.ceil((2**Math.ceil(totpropPow/(basepower*(1.25-1)*maxPlayers)))*100)/100;
 		//if(totpropPow!=0){
 		//	totPow+=totIncome*(1-(1/fractprop))*propPow/(totpropPow)/2;
 		//}
@@ -229,8 +229,8 @@ function powerStuff(){
 		var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
 		//dumpText+=".9*(("+ playPow +"+"+ basePow +")**3)/("+ npow +"+"+ nbase +")**3 ="+ equity;
 		var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
-		var foundsFact=3**(founds);
-		foundsFact=1;
+		//var foundsFact=3**(founds);
+		var foundsFact=1;
 		
 		income=(playPow+basePow)*(interest)*(1-equity)/foundsFact;
 
@@ -267,7 +267,8 @@ function powerStuff(){
 		
 		//dumpText+=culture[playnum] +"/1.1**"+ totworkPow +"+"+ totpropPow +"-"+ ncult +"/basepower"; 
 
-		setExperienceModifier(playnum, 1000*1.41**((totenergyPow-totserPow)/basepower));
+		//setExperienceModifier(playnum, 1000*1.41**((totenergyPow-totserPow)/basepower));
+		setExperienceModifier(playnum, 1000);
 		
 		//setPower(2000, playnum);
 		conDeb+=Math.ceil(equity*100) +",";

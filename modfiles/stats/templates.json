@@ -3918,10 +3918,21 @@
         "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
+    "Rocket-MRL-Hvy-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Rocket Array [hvy AS] #5 Cyb-Mk4",
+        "id": "Rocket-MRL-Hvy-Cyb",
+        "weapons": [
+            "Rocket-MRL-Hvy-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
     "Missile-HvyArt-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Archangel Missile [hvy AS] #5 Cyb-Mk4",
+        "name": "Archangel Missile [hvy AS] #6 Cyb-Mk5",
         "id": "Missile-HvyArt-Cyb",
         "weapons": [
             "Missile-HvyArt-Cyb"
@@ -3932,7 +3943,7 @@
     "Missile-MdArt-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Firestorm MML Array [hvy AS] #6 Cyb-Mk5",
+        "name": "Firestorm MML Array [hvy AS] #7 Cyb-Mk6",
         "id": "Missile-MdArt-2120-Cyb",
         "weapons": [
             "Missile-MdArt-2120-Cyb"
@@ -3943,7 +3954,7 @@
     "Missile-HvyArt-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Supernova MML Artillery [hvy AS] #7 Cyb-Mk6",
+        "name": "Supernova MML Artillery [hvy AS] #8 Cyb-Mk7",
         "id": "Missile-HvyArt-2120-Cyb",
         "weapons": [
             "Missile-HvyArt-2120-Cyb"

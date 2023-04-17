@@ -2290,6 +2290,37 @@
         ],
         "turret": "Rocket-IDF-2120-command"
     },
+    "Rocket-MRL-Hvy-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Rocket-MRL-Hvy-brain",
+        "maxDroids": 6,
+        "maxDroidsMult": 1,
+        "name": "Rocket-MRL-Hvy-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            2.7,
+            10,
+            29.2,
+            76.8,
+            190.4,
+            454.4,
+            1056
+        ],
+        "turret": "Rocket-MRL-Hvy-command"
+    },
     "Missile-HvyArt-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
