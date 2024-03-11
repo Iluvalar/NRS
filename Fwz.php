@@ -475,6 +475,7 @@ function Fwz_WeapMod($data,$type){
 function Fwz_eval34(&$obj,$type,$calibrate=1){
 	global $sys;
 	global $data;
+	//print_r($obj);
 	//echo 'TYPE--:' .$type;
 	if($type=='templates'){
 		$noBody=$data['body']['k']['ID'][ $obj['BODY'] ];
@@ -667,7 +668,7 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	else{
 		$slotmult=1;
 	}
-	$delta=$sys['wz']['mean'][$type]['buildPower']/$sys['wz']['eval']['currency']/$obj2['buildPower'];
+	$delta=$sys['wz']['mean'][$type]['buildPower']/$sys['wz']['eval']['currency']/($obj2['buildPower']+.01);
 	$delta=pow($delta,.5);
 	//$delta=min($delta,2);
 	if($sys['wz']['mean'][$type]!=''){
@@ -748,7 +749,7 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	$obj['Prevalue2']=$obj['FunctionVal']*$obj['HPfin'];
 	$obj['priceMod']=pow(Fwz_fig(150/((($obj2['buildPower']+.001)+$boost['buildPower'])*$sys['wz']['eval']['currency'])),1);
 	//echo $obj['ID'] .' price:'. (($obj2['buildPower']+$boost['buildPower'])*$sys['wz']['eval']['currency']);
-	$obj['prodMod']=pow(Fwz_fig(600/($obj2['buildPoints']+$boost['buildPoints'])),.1);
+	$obj['prodMod']=pow(Fwz_fig(600/($obj2['buildPoints']+$boost['buildPoints']+.0001)),.1);
 	//$obj['value']=$obj['Prevalue2']*pow(600/($obj['buildPoints']+$boost['buildPoints']),.2)*200/($obj['buildPower']*$sys['wz']['eval']['currency']+$boost['buildPower'])*$obj['weightMod']*$calibrate;
 	//$obj['value']=$obj['Prevalue2']*$calibrate;
 	$obj['value']=$obj['Prevalue2']*$obj['priceMod']*$obj['prodMod']*$obj['weightMod']*$obj['modMod']*$calibrate;
@@ -1493,100 +1494,108 @@ function Fwz_checkname(&$data,$id,$name){
 function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$prefix2=''){
 	global $sys;
 	foreach($comp as $id => $val){
-		$exp=explode('.',$val);
-		if(strtolower($exp[1])=='pie' or strtolower($exp[1])=='ogg'){
-			
-			$piename=strtolower($val);
-			$folders=explode(',','components/prop,components/weapons,components/bodies,effects,structs,audio/sfx/weapons');
-			foreach($folders as $no => $val){
-				$filename='/'. $val .'/'. $piename;
-				//echo '--'. $load.$filename.'<br/>';
-				if(file_exists($load.$filename)){
-					$folder=$val;
-					//echo '??'. $filename.'<br/>';
-					break;
+		print_r($val);
+		if(is_array($val)){
+			Fwz_pieSweap($data,$from,$type,$comp[$id],$sufix,$save,$load,$prefix,$prefix2);
+		}
+		else{
+				
+			echo 'val:'. $val;
+			$exp=explode('.',$val);
+			if(strtolower($exp[1])=='pie' or strtolower($exp[1])=='ogg'){
+				
+				$piename=strtolower($val);
+				$folders=explode(',','components/prop,components/weapons,components/bodies,effects,structs,audio/sfx/weapons');
+				foreach($folders as $no => $val){
+					$filename='/'. $val .'/'. $piename;
+					//echo '--'. $load.$filename.'<br/>';
+					if(file_exists($load.$filename)){
+						$folder=$val;
+						//echo '??'. $filename.'<br/>';
+						break;
+					}
 				}
-			}
-			if($folder=='structs'){
-				if(file_exists($save.$filename)){
-					unset($filename);
+				if($folder=='structs'){
+					if(file_exists($save.$filename)){
+						unset($filename);
+					}
 				}
-			}
-			//$filename='/'.$sys['wz']['pie'][$file] .'/'. strtolower($val);
-			echo '='. $filename .'</br>';;
-			if(file_exists($load.$filename) and isset($filename)){
-				$data['piestats']['c']=1;
-				//echo 'OMGPMG';
-				$nname=$prefix. strtolower($exp[0]) . $sufix.'.'. strtolower($exp[1]);
+				//$filename='/'.$sys['wz']['pie'][$file] .'/'. strtolower($val);
+				echo '='. $filename .'</br>';;
+				if(file_exists($load.$filename) and isset($filename)){
+					$data['piestats']['c']=1;
+					//echo 'OMGPMG';
+					$nname=$prefix. strtolower($exp[0]) . $sufix.'.'. strtolower($exp[1]);
 
-				$thatpie=@file($load.$filename);
-				if(strtolower($exp[1])=='pie'){
-					$exp=explode('.png',$thatpie[2]);
-					$exp2=explode(' ',$exp[0]);
-					$countexp=count($exp2);
-					$found=0;
-					$name=$exp2[$countexp-1] .'.png';
-					$texnewname=$exp2[$countexp-1] . $sufix .'.png';
-					if($name=='page-111-laboratories.png'){
-						$name='page-10-laboratories.png'; //should be an array or somehting...
-						$fix=1;
-					}
-					if ($handle = opendir($load .'/texpages')) {
-						while (false !== ($file = readdir($handle))) {
-							if( strpos($file,$name)!==FALSE){
-								echo "file tex: $nname $name .' '. $file\n";
-								$found=1;
-								$name=$file;
-							}
-						}				
-					closedir($handle);
-					}
-					if(!$found){
-						echo 'NOT FOUND! png'. $name;
-					}
-					else{
-						$thatpie[2]=str_replace($name, $texnewname, $thatpie[2]); 
-						//echo '<br>'. $comp[$id] .' '. $sufix .' '. $load .'/texpages/'. $name . ' to '. $save .'/texpages/'. $nname .' ?';
-						//echo print_r($thatpie);
-						copy($load .'/texpages/'. $name,$save .'/texpages/'.$texnewname);
-					}
-					foreach($exp2 as $no=> $val){
-						if($no==$countexp-1){
-							$finalline.=$name;
+					$thatpie=@file($load.$filename);
+					if(strtolower($exp[1])=='pie'){
+						$exp=explode('.png',$thatpie[2]);
+						$exp2=explode(' ',$exp[0]);
+						$countexp=count($exp2);
+						$found=0;
+						$name=$exp2[$countexp-1] .'.png';
+						$texnewname=$exp2[$countexp-1] . $sufix .'.png';
+						if($name=='page-111-laboratories.png'){
+							$name='page-10-laboratories.png'; //should be an array or somehting...
+							$fix=1;
+						}
+						if ($handle = opendir($load .'/texpages')) {
+							while (false !== ($file = readdir($handle))) {
+								if( strpos($file,$name)!==FALSE){
+									echo "file tex: $nname $name .' '. $file\n";
+									$found=1;
+									$name=$file;
+								}
+							}				
+						closedir($handle);
+						}
+						if(!$found){
+							echo 'NOT FOUND! png'. $name;
 						}
 						else{
-							$finalline.=$val .' ';
+							$thatpie[2]=str_replace($name, $texnewname, $thatpie[2]); 
+							//echo '<br>'. $comp[$id] .' '. $sufix .' '. $load .'/texpages/'. $name . ' to '. $save .'/texpages/'. $nname .' ?';
+							//echo print_r($thatpie);
+							copy($load .'/texpages/'. $name,$save .'/texpages/'.$texnewname);
 						}
+						foreach($exp2 as $no=> $val){
+							if($no==$countexp-1){
+								$finalline.=$name;
+							}
+							else{
+								$finalline.=$val .' ';
+							}
+						}
+						$finalline.=$exp[1];
+						if($fix){
+							$thatpie[2]=$finalline; //effective line 
+						}
+						//echo $exp2[$countexp-1] .' ||'. $finalline .'</br>';
+						$data['piestats'][]='directory	"'. $folder .'"
+	';
+						$data['piestats'][]='file		IMD	"'.  strtolower($nname) .'"
+	';
 					}
-					$finalline.=$exp[1];
-					if($fix){
-						$thatpie[2]=$finalline; //effective line 
-					}
-					//echo $exp2[$countexp-1] .' ||'. $finalline .'</br>';
-					$data['piestats'][]='directory	"'. $folder .'"
-';
-					$data['piestats'][]='file		IMD	"'.  strtolower($nname) .'"
-';
+					file_put_contents($save.'/'. $folder .'/'. $nname ,$thatpie);
+					$comp[$id]=$nname;
+					echo 'omg '. $exp[1] .' '. $id .'='. $val .' nname:'. $nname;
+					//echo 'file		IMD	"'.  strtolower($nname) .'"
+	//';
 				}
-				file_put_contents($save.'/'. $folder .'/'. $nname ,$thatpie);
-				$comp[$id]=$nname;
-				echo 'omg '. $exp[1] .' '. $id .'='. $val .' nname:'. $nname;
-				//echo 'file		IMD	"'.  strtolower($nname) .'"
-//';
 			}
-		}
-		if(strtolower($exp[1])=='ogg' and 1){
-			$nname=$prefix. strtolower($exp[0]) . $sufix.'.'. strtolower($exp[1]);
-			echo 'omg ogg:'. $val .' '.$comp['id'] .' ('. $type .')'. $nname;
-			//print_r($data[$type]);
-			//$comp2=Fwz_get($data['weaponsounds'],'ID',$comp['ID']);
-			$sound=$data[$type][$comp['id']][$id];
-			if($sound==''){
-				$sound="smlcan.ogg";
+			if(strtolower($exp[1])=='ogg' and 1){
+				$nname=$prefix. strtolower($exp[0]) . $sufix.'.'. strtolower($exp[1]);
+				echo 'omg ogg:'. $val .' '.$comp['id'] .' ('. $type .')'. $nname;
+				//print_r($data[$type]);
+				//$comp2=Fwz_get($data['weaponsounds'],'ID',$comp['ID']);
+				$sound=$data[$type][$comp['id']][$id];
+				if($sound==''){
+					$sound="smlcan.ogg";
+				}
+				$comp[$id]=$sound;
+				//echo '==>'. $comp2['ID'];
+				//$comp[$id]=$comp2[$id];
 			}
-			$comp[$id]=$sound;
-			//echo '==>'. $comp2['ID'];
-			//$comp[$id]=$comp2[$id];
 		}
 	}
 }

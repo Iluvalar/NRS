@@ -1,5 +1,6 @@
 function setupStructureLimit(player)	// inside hackNetOff()
 {
+	setStructureLimits("A2CommandCentre", 7, player);
 	//setStructureLimits("A0LightFactory", 5, player);
 	//setStructureLimits("A0PowerGenerator", 8, player);
 	//setStructureLimits("A0ResearchFacility", 5, player);

@@ -152,7 +152,7 @@ function powerStuff(){
 			banks[playnum]=nbank;
 			//culture[playnum]*=.9;
 		}
-		var powtoadd=playerPower(playnum)-basepower/5;
+		var powtoadd=playerPower(playnum)-basepower/5-(nbank-getMultiTechLevel())*basepower/5;
 		resources[playnum][9]+=powtoadd;
 		resources[0][9]+=powtoadd;
 		nbase+=powtoadd;
@@ -172,9 +172,9 @@ function powerStuff(){
 		
 		
 	}
-	totpropPow+=aiprop;
+	//totpropPow+=aiprop;
 
-	totpropPow+=-startprop+(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0)+npow;
+	totpropPow+=-startprop+(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0);
 
 	nbase+=basepower*maxPlayers;
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
@@ -232,8 +232,10 @@ function powerStuff(){
 		//var foundsFact=3**(founds);
 		var foundsFact=1;
 		
-		income=(playPow+basePow)*(interest)*(1-equity)/foundsFact;
-
+		income=(playPow+basePow)*(interest);
+		if(income>0){
+			income*=(1-equity);
+		}
 		
 
 		thisincome+=income;
@@ -295,7 +297,7 @@ function powerStuff(){
 	}if(tick%3==2){
 			//conText+="E W R:"+   Math.ceil(totresPow/basepower) +" C:"+  Math.ceil(totcultPow/basepower)  +" S:"+ Math.ceil(totserPow/basepower) +" E:"+  Math.ceil(totenergyPow/basepower-maxPlayers/2) +" W:"+  Math.ceil(totworkPow/basepower) +" R C";
 			for (var j = 0; j < 10; j++){
-				conText+=" "+  resourcesNames[j] +"="+   Math.ceil(resources[0][j]*10/(basepower/5));
+				conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";
 			}
 
 	}

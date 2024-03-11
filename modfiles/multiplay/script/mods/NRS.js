@@ -14,40 +14,40 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,134,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,130,],
 	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,134,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,132,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,131,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,136,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,130,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,138,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,133,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,130,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,133,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,131,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,133,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,131,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,137,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,133,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,131,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,134,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,130,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,134,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,132,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,130,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,131,],
 	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,135,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,131,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,133,],
 	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,135,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,139,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,133,],
 	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,136,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,138,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,134,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,132,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,133,],
 	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,135,],
 	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,135,],
 	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,130,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,138,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,131,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,135,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,132,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,136,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,137,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,137,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,138,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,138,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,138,],
 	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,136,],
-	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,137,],
+	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,136,],
 	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,139,],
-	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,133,],
+	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,138,],
 	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,132,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,130,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,137,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,131,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,139,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -187,7 +187,7 @@ function powerStuff(){
 			banks[playnum]=nbank;
 			//culture[playnum]*=.9;
 		}
-		var powtoadd=playerPower(playnum)-basepower/5;
+		var powtoadd=playerPower(playnum)-basepower/5-(nbank-getMultiTechLevel())*basepower/5;
 		resources[playnum][9]+=powtoadd;
 		resources[0][9]+=powtoadd;
 		nbase+=powtoadd;
@@ -267,8 +267,10 @@ function powerStuff(){
 		//var foundsFact=3**(founds);
 		var foundsFact=1;
 		
-		income=(playPow+basePow)*(interest)*(1-equity)/foundsFact;
-
+		income=(playPow+basePow)*(interest);
+		if(income>0){
+			income*=(1-equity);
+		}
 		
 
 		thisincome+=income;
@@ -330,7 +332,7 @@ function powerStuff(){
 	}if(tick%3==2){
 			//conText+="E W R:"+   Math.ceil(totresPow/basepower) +" C:"+  Math.ceil(totcultPow/basepower)  +" S:"+ Math.ceil(totserPow/basepower) +" E:"+  Math.ceil(totenergyPow/basepower-maxPlayers/2) +" W:"+  Math.ceil(totworkPow/basepower) +" R C";
 			for (var j = 0; j < 10; j++){
-				conText+=" "+  resourcesNames[j] +"="+   Math.ceil(resources[0][j]*10/(basepower/5));
+				conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";
 			}
 
 	}
