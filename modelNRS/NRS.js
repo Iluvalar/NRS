@@ -101,6 +101,7 @@ function powerStuff(){
 	for (var j = 0; j < 10; j++){
 		resources[0][j]=-(2-powerType)*basepower/5;
 	}
+	resources[0][2]+=(1-powerType)*3*basepower/5;
 	var startprop=(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0);
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		var list;
@@ -157,7 +158,7 @@ function powerStuff(){
 		resources[0][9]+=powtoadd;
 		nbase+=powtoadd;
 	}
-	resources[0][2]+=(1-powerType)*3*basepower/5;
+
 
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		ncult+=culture[playnum];
@@ -219,7 +220,7 @@ function powerStuff(){
 			honorValue=honor[playnum];
 			honorPlayer=playnum;
 		}
-		var fractprop=Math.ceil((2**Math.ceil(totpropPow/(basepower*(1.25-1)*maxPlayers)))*100)/100;
+		var fractprop=Math.ceil((2**(Math.ceil(totpropPow/(basepower*(1.25-1)*maxPlayers)*100)/100))*100)/100;
 		//if(totpropPow!=0){
 		//	totPow+=totIncome*(1-(1/fractprop))*propPow/(totpropPow)/2;
 		//}

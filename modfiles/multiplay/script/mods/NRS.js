@@ -14,39 +14,39 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,130,],
-	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,134,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,131,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,137,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,133,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,131,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,134,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,130,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,134,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,132,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,130,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,137,],
+	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,135,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,130,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,132,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,130,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,134,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,136,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,132,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,133,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,138,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,135,],
 	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,131,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,135,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,133,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,138,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,134,],
 	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,135,],
 	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,133,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,136,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,132,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,133,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,135,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,135,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,130,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,137,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,137,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,138,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,138,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,138,],
-	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,136,],
-	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,136,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,139,],
-	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,138,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,132,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,131,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,131,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,138,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,137,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,136,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,136,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,134,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,131,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,131,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,132,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,132,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,131,],
+	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,137,],
+	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,137,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,134,],
+	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,135,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,133,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,132,],
 	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,139,],
 	};
 	setTimer("powerStuff", 5000);
@@ -136,6 +136,7 @@ function powerStuff(){
 	for (var j = 0; j < 10; j++){
 		resources[0][j]=-(2-powerType)*basepower/5;
 	}
+	resources[0][2]+=(1-powerType)*3*basepower/5;
 	var startprop=(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0);
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		var list;
@@ -192,7 +193,7 @@ function powerStuff(){
 		resources[0][9]+=powtoadd;
 		nbase+=powtoadd;
 	}
-	resources[0][2]+=(1-powerType)*3*basepower/5;
+
 
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		ncult+=culture[playnum];
@@ -207,9 +208,9 @@ function powerStuff(){
 		
 		
 	}
-	totpropPow+=aiprop;
+	//totpropPow+=aiprop;
 
-	totpropPow+=-startprop+(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0)+npow;
+	totpropPow+=-startprop+(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0);
 
 	nbase+=basepower*maxPlayers;
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
@@ -254,7 +255,7 @@ function powerStuff(){
 			honorValue=honor[playnum];
 			honorPlayer=playnum;
 		}
-		var fractprop=Math.ceil((2**Math.ceil(totpropPow/(basepower*(1.25-1)*maxPlayers)))*100)/100;
+		var fractprop=Math.ceil((2**(Math.ceil(totpropPow/(basepower*(1.25-1)*maxPlayers)*100)/100))*100)/100;
 		//if(totpropPow!=0){
 		//	totPow+=totIncome*(1-(1/fractprop))*propPow/(totpropPow)/2;
 		//}
