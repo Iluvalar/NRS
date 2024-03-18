@@ -1,0 +1,1 @@
+This mod is a modded mod see https://github.com/Iluvalar/NRS for more information
