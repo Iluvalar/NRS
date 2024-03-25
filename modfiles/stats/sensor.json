@@ -9,7 +9,7 @@
         "mountModel": "trlrcktg.pie",
         "name": "*BaBa Sensor*",
         "power": 1000,
-        "range": 1920,
+        "range": 768,
         "sensorModel": "gnlsnsr1.pie",
         "type": "STANDARD",
         "weight": 100
@@ -22,7 +22,7 @@
         "location": "DEFAULT",
         "name": "*BaBa Default Sensor*",
         "power": 100,
-        "range": 800,
+        "range": 320,
         "type": "STANDARD",
         "weight": 1
     },
@@ -35,7 +35,7 @@
         "mountModel": "TRLSNSR1.PIE",
         "name": "*CC Sensor*",
         "power": 1000,
-        "range": 2880,
+        "range": 1152,
         "sensorModel": "misensor.PIE",
         "type": "STANDARD",
         "weight": 1
@@ -46,7 +46,7 @@
         "location": "DEFAULT",
         "name": "*Default Sensor*",
         "power": 500,
-        "range": 1280,
+        "range": 512,
         "type": "STANDARD"
     },
     "FortressSensor": {
@@ -54,7 +54,7 @@
         "location": "DEFAULT",
         "name": "*Fortress Sensor*",
         "power": 500,
-        "range": 1920,
+        "range": 768,
         "type": "STANDARD"
     },
     "NavGunSensor": {
@@ -62,7 +62,7 @@
         "location": "DEFAULT",
         "name": "*Nexus Sensor*",
         "power": 500,
-        "range": 2560,
+        "range": 1024,
         "type": "STANDARD"
     },
     "RadarDetector": {
@@ -75,7 +75,7 @@
         "mountModel": "TRMECM2.PIE",
         "name": "Radar Detector",
         "power": 500,
-        "range": 1600,
+        "range": 640,
         "sensorModel": "RADARSENSOR.PIE",
         "type": "RADAR DETECTOR",
         "weight": 100
@@ -91,7 +91,7 @@
         "mountModel": "TRHSNSR3.PIE",
         "name": "Wide Spectrum Sensor",
         "power": 100,
-        "range": 3531,
+        "range": 1412,
         "sensorModel": "GNHSNSR4.PIE",
         "type": "SUPER",
         "weight": 100
@@ -105,7 +105,7 @@
         "mountModel": "TRMSNSR2.PIE",
         "name": "Hardened Sensor Tower",
         "power": 100,
-        "range": 3200,
+        "range": 1280,
         "sensorModel": "GNLSNSR1.PIE",
         "type": "STANDARD",
         "weight": 100,
@@ -122,7 +122,7 @@
         "mountModel": "TRLSNSR1.PIE",
         "name": "Sensor Turret",
         "power": 1000,
-        "range": 1920,
+        "range": 768,
         "sensorModel": "GNLSNSR1.PIE",
         "type": "STANDARD",
         "weight": 100
@@ -136,7 +136,7 @@
         "mountModel": "TRMSNSR2.PIE",
         "name": "*CB Tower*",
         "power": 1000,
-        "range": 2560,
+        "range": 1024,
         "sensorModel": "GNMECM2.PIE",
         "type": "INDIRECT CB",
         "weight": 100
@@ -152,7 +152,7 @@
         "mountModel": "TRMSNSR2.PIE",
         "name": "CB Radar Turret",
         "power": 1000,
-        "range": 3200,
+        "range": 1280,
         "sensorModel": "GNMECM2.PIE",
         "type": "INDIRECT CB",
         "weight": 100
@@ -166,7 +166,7 @@
         "mountModel": "TRHSNSR3.PIE",
         "name": "VTOL CB Radar Tower",
         "power": 1000,
-        "range": 3200,
+        "range": 1280,
         "sensorModel": "GNHSNSR3.PIE",
         "type": "VTOL CB",
         "weight": 100,
@@ -183,7 +183,7 @@
         "mountModel": "TRHSNSR3.PIE",
         "name": "VTOL CB Radar Turret",
         "power": 1000,
-        "range": 3200,
+        "range": 1280,
         "sensorModel": "GNHSNSR3.PIE",
         "type": "VTOL CB",
         "weight": 100
@@ -197,7 +197,7 @@
         "mountModel": "TRMECM2.PIE",
         "name": "VTOL Radar Tower",
         "power": 1000,
-        "range": 3200,
+        "range": 1280,
         "sensorModel": "GNMSNSR2.PIE",
         "type": "VTOL INTERCEPT",
         "weight": 100,
@@ -213,7 +213,7 @@
         "mountModel": "TRLSNSR1.PIE",
         "name": "VTOL Strike Turret",
         "power": 1000,
-        "range": 3200,
+        "range": 1280,
         "sensorModel": "GNMSNSR2.PIE",
         "type": "VTOL INTERCEPT",
         "weight": 100,
@@ -224,7 +224,7 @@
         "location": "DEFAULT",
         "name": "*Tower Sensor*",
         "power": 500,
-        "range": 1600,
+        "range": 640,
         "type": "STANDARD"
     },
     "UplinkSensor": {
@@ -236,7 +236,7 @@
         "mountModel": "TRLSNSR1.PIE",
         "name": "Uplink Sensor",
         "power": 1000,
-        "range": 2880,
+        "range": 1152,
         "sensorModel": "miupdish.PIE",
         "type": "SUPER",
         "weight": 1
@@ -247,7 +247,7 @@
         "mountModel": "trlsnsr1.PIE",
         "name": "ZNULLSENSOR",
         "power": 500,
-        "range": 1280,
+        "range": 512,
         "sensorModel": "gnlsnsr1.PIE",
         "type": "STANDARD"
     }

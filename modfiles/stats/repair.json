@@ -19,7 +19,7 @@
         "time": 7,
         "usageClass": "Cyborg",
         "weight": 583.3333333333334,
-        "constructPoints": 81.93553674235653,
+        "constructPoints": 97.65967275855249,
         "hitpoints": 0
     },
     "HeavyRepair": {
@@ -35,7 +35,7 @@
         "repairPoints": 300,
         "time": 7,
         "weight": 583.3333333333334,
-        "constructPoints": 84.81821965853008,
+        "constructPoints": 121.08872319518228,
         "hitpoints": 0
     },
     "LightRepair1": {
@@ -51,7 +51,7 @@
         "repairPoints": 150,
         "time": 7,
         "weight": 583.3333333333334,
-        "constructPoints": 81.93553674235653,
+        "constructPoints": 97.65967275855249,
         "hitpoints": 0
     },
     "NEXUSrepair": {

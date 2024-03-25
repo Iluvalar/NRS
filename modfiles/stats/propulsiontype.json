@@ -1,30 +1,30 @@
 {
     "Half-Tracked": {
         "flightName": "GROUND",
-        "multiplier": 100
+        "multiplier": 40
     },
     "Hover": {
         "flightName": "GROUND",
-        "multiplier": 150
+        "multiplier": 60
     },
     "Legged": {
         "flightName": "GROUND",
-        "multiplier": 125
+        "multiplier": 50
     },
     "Lift": {
         "flightName": "AIR",
-        "multiplier": 162
+        "multiplier": 65
     },
     "Propellor": {
         "flightName": "GROUND",
-        "multiplier": 125
+        "multiplier": 50
     },
     "Tracked": {
         "flightName": "GROUND",
-        "multiplier": 100
+        "multiplier": 40
     },
     "Wheeled": {
         "flightName": "GROUND",
-        "multiplier": 100
+        "multiplier": 40
     }
 }

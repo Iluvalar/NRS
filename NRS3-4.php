@@ -12,10 +12,10 @@ $modder="ilu";
 $sys['nrs']['oilpf']=7;
 $sys['nrs']['derrickprice']=400;
 
-$sys['nrs']['scaleTime']=1; //??
-$sys['nrs']['scaleDist']=1.25; //Scale all distance in the mod.
+$sys['nrs']['scaleTime']=1*2.5; //??
+$sys['nrs']['scaleDist']=1.25/$sys['nrs']['scaleTime']; //Scale all distance in the mod.
 $sys['nrs']['time']=30*60*($sys['nrs']['scaleTime']); //time to research the last component.
-$sys['nrs']['trtime']=120*($sys['nrs']['scaleTime']); //Truck time between bases
+$sys['nrs']['trtime']=100*$sys['nrs']['scaleDist']; //Truck time between bases
 $sys['nrs']['wepmod']=1.25; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually)
 $sys['nrs']['powerpersec']=300/100; //mean power per second
 $sys['nrs']['armysize']=35; //medium units;
