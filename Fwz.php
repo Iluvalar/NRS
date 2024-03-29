@@ -1347,6 +1347,7 @@ function Fwz_Fleau($restime,$inv=False){
 	global $sys;
 	//$p1=1.167; //standard prog
 	$p1=1.15;
+	$p1=$sys['nrs']['wepmod'];
 	$p2=1.02; //spec
 	//$scale=230; //truck time ... must = 1.167 bcoz figure count of defender & 30% wep mod (x^2+x)-0.3/x-1=0
 	$scale=$sys['wz']['fleauscale'];

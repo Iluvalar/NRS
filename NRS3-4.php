@@ -11,12 +11,13 @@ $modder="ilu";
 
 $sys['nrs']['oilpf']=7;
 $sys['nrs']['derrickprice']=400;
+//$sys['nrs']['wepmod']=1.25; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually)
+$sys['nrs']['wepmod']=1.33; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually
 
-$sys['nrs']['scaleTime']=1*2.5; //??
-$sys['nrs']['scaleDist']=1.25/$sys['nrs']['scaleTime']; //Scale all distance in the mod.
+$sys['nrs']['scaleTime']=1; //?? //Fnrs line 91
+$sys['nrs']['scaleDist']=1.25; //Scale all distance in the mod.
 $sys['nrs']['time']=30*60*($sys['nrs']['scaleTime']); //time to research the last component.
-$sys['nrs']['trtime']=100*$sys['nrs']['scaleDist']; //Truck time between bases
-$sys['nrs']['wepmod']=1.25; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually)
+$sys['nrs']['trtime']=120/$sys['nrs']['scaleDist']; //Truck time between bases
 $sys['nrs']['powerpersec']=300/100; //mean power per second
 $sys['nrs']['armysize']=35; //medium units;
 $sys['nrs']['dmgscale']=1.5;
@@ -61,12 +62,13 @@ echo 'nfig:'. $nfig .' '.Fwz_fig($nfig) .'/'. Fwz_fig($nfig+1).' med:'. $medpric
 $sys['nrs']['percent']=.2; //max 66 * .08 :( = 5.28 or 90 *.06 (633) ||now: .05 and 120
 $sys['nrs']['unitprice']=$medprice/2;
 $sys['nrs']['structureHPScale']=$sys['nrs']['dmgunit']*Fwz_fig($sys['nrs']['armysize'])/Fwz_fig(40)*.9; //scale structures hp with army size.
-$trpower=$sys['nrs']['ttpower']/2/$sys['nrs']['percent'];
-$sys['nrs']['armypower']=$trpower;
-$sys['wz']['fleauscale']=$sys['nrs']['ttpower']/1.5; //was 2 assume scouting now ?
+#$trpower=$sys['nrs']['ttpower']/2/$sys['nrs']['percent'];
+#$sys['nrs']['armypower']=$trpower;
+$sys['nrs']['armypower']=$sys['nrs']['ttpower']/($sys['nrs']['wepmod']-1);
+$sys['wz']['fleauscale']=$sys['nrs']['ttpower']; //was 2 assume scouting now ?
 $sys['nrs']['rpoint']=$sys['nrs']['powerpersec']*$sys['nrs']['time']/5*$sys['nrs']['powerunit'];
 $sys['nrs']['rspeed']=ceil($rpoint/$sys['nrs']['time']);
-$testfleau=Fwz_fleau($sys['nrs']['ttpower']);
+$testfleau=Fwz_fleau($sys['nrs']['ttpower']); 
 
 echo '<B> WELCOME TO NRS :D </B>tf:'. $testfleau .'!';
  $sys['nrs']['bankval']=$trpower*1/5;

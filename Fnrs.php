@@ -88,7 +88,7 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 		$temp['researchPoints']='3000';
 		$temp['researchPower']=$sys['nrs']['rpoint']/9;
 
-		$temp['researchPoints']=$sys['nrs']['time']/9*10; //1000 * 6 = 6000
+		$temp['researchPoints']=$sys['nrs']['time']/9*14; //1000 * 6 = 6000
 		//$temp['statID']=$id;
 		$temp['subgroupIconID']="IMAGE_RES_GRPUPG";
 		if($param=='PowerPoints'){
@@ -929,7 +929,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if($val3['replacedComponents']!=''){
 						$temp['replacedComponents']=$val3['replacedComponents'];
 					}
-					$temp['researchPoints']=$sys['nrs']['time']/count($val4)*10*$resfrac*$timefac;
+					$temp['researchPoints']=$sys['nrs']['time']/count($val4)*14*$resfrac*$timefac;
 					$temp['researchPower']=$respower;
 					
 					if($lastres!=$sys['nrs']['startres']){

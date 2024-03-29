@@ -1,8 +1,8 @@
 {
     "scavCrane1": {
         "buildPoints": 170.66666666666666,
-        "buildPower": 55.6958661073572,
-        "constructPoints": 48.328416522905385,
+        "buildPower": 53.21608858348927,
+        "constructPoints": 35.43069003923246,
         "droidType": "DROID_CONSTRUCT",
         "hitpoints": 0,
         "id": "scavCrane1",
@@ -24,7 +24,7 @@
     },
     "CyborgSpade": {
         "buildPoints": 341.3333333333333,
-        "buildPower": 111.3917322147144,
+        "buildPower": 106.43217716697853,
         "constructPoints": 60,
         "droidType": "CYBORG_CONSTRUCT",
         "hitpoints": 0,
@@ -37,8 +37,8 @@
     },
     "Spade1Mk1": {
         "buildPoints": 682.6666666666666,
-        "buildPower": 222.7834644294288,
-        "constructPoints": 118.83779372431644,
+        "buildPower": 212.86435433395707,
+        "constructPoints": 119.2523131035493,
         "designable": 1,
         "droidType": "DROID_CONSTRUCT",
         "hitpoints": 0,
