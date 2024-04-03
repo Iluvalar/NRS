@@ -249,7 +249,7 @@ function powerStuff(){
 			//var factordif=2**playerData[playnum].difficulty-.5;
 			var factordif=3.5;
 			if(playerData[playnum].difficulty==1){ factordif=1.5; }
-			if(playerData[playnum].difficulty==2){ factordif=1.80; }
+			if(playerData[playnum].difficulty==2){ factordif=1.75; }
 			if(playerData[playnum].difficulty==3){ factordif=2.00; }
 			if(playerData[playnum].difficulty==4){ factordif=3; }
 			//propPow=playerData[playnum].difficulty*basepower;

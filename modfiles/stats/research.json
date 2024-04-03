@@ -30010,319 +30010,34 @@
             "R-Fac-start"
         ]
     },
-    "R-NRS-BarbWarehouse1-eco1": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse1-eco"
-        ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco1",
-        "name": "[med-def]BarbWarehouse1-eco1 #1",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-arizonabush3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "arizonabush3-eco"
-        ],
-        "statID": "arizonabush3-eco",
-        "id": "R-NRS-arizonabush3-eco1",
-        "name": "[med-def]arizonabush3-eco1 #2",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse1-eco1"
-        ]
-    },
-    "R-NRS-AirTrafficControl-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "AirTrafficControl-eco"
-        ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco1",
-        "name": "[med-def]AirTrafficControl-eco1 #3",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-arizonabush3-eco1"
-        ]
-    },
-    "R-NRS-BarbHUT-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbHUT-eco"
-        ],
-        "statID": "BarbHUT-eco",
-        "id": "R-NRS-BarbHUT-eco1",
-        "name": "[med-def]BarbHUT-eco1 #4",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco1"
-        ]
-    },
-    "R-NRS-building3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building3-eco"
-        ],
-        "statID": "building3-eco",
-        "id": "R-NRS-building3-eco1",
-        "name": "[med-def]building3-eco1 #5",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-BarbHUT-eco1"
-        ]
-    },
-    "R-NRS-Park-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Park-eco"
-        ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco1",
-        "name": "[med-def]Park-eco1 #6",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-building3-eco1"
-        ]
-    },
-    "R-NRS-Boulder2-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder2-eco"
-        ],
-        "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco1",
-        "name": "[med-def]Boulder2-eco1 #7",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Park-eco1"
-        ]
-    },
-    "R-NRS-A0ResourceExtractor-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "A0ResourceExtractor-eco"
-        ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco1",
-        "name": "[med-def]Oil Derrick-eco1 #8",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Boulder2-eco1"
-        ]
-    },
-    "R-NRS-road-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "road-eco"
-        ],
-        "statID": "road-eco",
-        "id": "R-NRS-road-eco1",
-        "name": "[med-def]road-eco1 #9",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco1"
-        ]
-    },
-    "R-NRS-BigForest-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BigForest-eco"
-        ],
-        "statID": "BigForest-eco",
-        "id": "R-NRS-BigForest-eco1",
-        "name": "[med-def]Big Forest-eco1 #10",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-road-eco1"
-        ]
-    },
     "R-NRS-Heavywepslab-eco1": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "Heavywepslab-eco"
         ],
         "statID": "Heavywepslab-eco",
         "id": "R-NRS-Heavywepslab-eco1",
-        "name": "[med-def]Heavywepslab-eco1 #11",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]Heavywepslab-eco1 #1",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-BigForest-eco1"
+            "R-Fac-start"
         ]
     },
-    "R-NRS-Forest-eco1": {
+    "R-NRS-Advmaterialslab-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Forest-eco"
+            "Advmaterialslab-eco"
         ],
-        "statID": "Forest-eco",
-        "id": "R-NRS-Forest-eco1",
-        "name": "[med-def]Forest-eco1 #12",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco1",
+        "name": "[med-def]Advmaterialslab-eco1 #2",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Heavywepslab-eco1"
-        ]
-    },
-    "R-NRS-Aerodynamicslab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Aerodynamicslab-eco"
-        ],
-        "statID": "Aerodynamicslab-eco",
-        "id": "R-NRS-Aerodynamicslab-eco1",
-        "name": "[med-def]Aerodynamicslab-eco1 #13",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Forest-eco1"
-        ]
-    },
-    "R-NRS-Pickup-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Pickup-eco"
-        ],
-        "statID": "Pickup-eco",
-        "id": "R-NRS-Pickup-eco1",
-        "name": "[med-def]Pickup-eco1 #14",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Aerodynamicslab-eco1"
-        ]
-    },
-    "R-NRS-WaterTower-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "WaterTower-eco"
-        ],
-        "statID": "WaterTower-eco",
-        "id": "R-NRS-WaterTower-eco1",
-        "name": "[med-def]WaterTower-eco1 #15",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Pickup-eco1"
-        ]
-    },
-    "R-NRS-Ruin1-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Ruin1-eco"
-        ],
-        "statID": "Ruin1-eco",
-        "id": "R-NRS-Ruin1-eco1",
-        "name": "[med-def]Ruin1-eco1 #16",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-WaterTower-eco1"
-        ]
-    },
-    "R-NRS-building2-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building2-eco"
-        ],
-        "statID": "building2-eco",
-        "id": "R-NRS-building2-eco1",
-        "name": "[med-def]building2-eco1 #17",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Ruin1-eco1"
-        ]
-    },
-    "R-NRS-Rotarywepslab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Rotarywepslab-eco"
-        ],
-        "statID": "Rotarywepslab-eco",
-        "id": "R-NRS-Rotarywepslab-eco1",
-        "name": "[med-def]Rotarywepslab-eco1 #18",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-building2-eco1"
-        ]
-    },
-    "R-NRS-NuclearReactor-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "NuclearReactor-eco"
-        ],
-        "statID": "NuclearReactor-eco",
-        "id": "R-NRS-NuclearReactor-eco1",
-        "name": "[med-def]*NuclearReactor*-eco1 #19",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco1"
-        ]
-    },
-    "R-NRS-BarbWarehouse2-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse2-eco"
-        ],
-        "statID": "BarbWarehouse2-eco",
-        "id": "R-NRS-BarbWarehouse2-eco1",
-        "name": "[med-def]BarbWarehouse2-eco1 #20",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-NuclearReactor-eco1"
-        ]
-    },
-    "R-NRS-LogCabin3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "LogCabin3-eco"
-        ],
-        "statID": "LogCabin3-eco",
-        "id": "R-NRS-LogCabin3-eco1",
-        "name": "[med-def]LogCabin3-eco1 #21",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse2-eco1"
         ]
     },
     "R-NRS-building10-eco1": {
@@ -30333,11 +30048,101 @@
         ],
         "statID": "building10-eco",
         "id": "R-NRS-building10-eco1",
-        "name": "[med-def]building10-eco1 #22",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]building10-eco1 #3",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-LogCabin3-eco1"
+            "R-NRS-Advmaterialslab-eco1"
+        ]
+    },
+    "R-NRS-Park-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Park-eco"
+        ],
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco1",
+        "name": "[med-def]Park-eco1 #4",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-building10-eco1"
+        ]
+    },
+    "R-NRS-Forest-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Forest-eco"
+        ],
+        "statID": "Forest-eco",
+        "id": "R-NRS-Forest-eco1",
+        "name": "[med-def]Forest-eco1 #5",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Park-eco1"
+        ]
+    },
+    "R-NRS-arizonabush3-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "arizonabush3-eco"
+        ],
+        "statID": "arizonabush3-eco",
+        "id": "R-NRS-arizonabush3-eco1",
+        "name": "[med-def]arizonabush3-eco1 #6",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Forest-eco1"
+        ]
+    },
+    "R-NRS-Aerodynamicslab-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Aerodynamicslab-eco"
+        ],
+        "statID": "Aerodynamicslab-eco",
+        "id": "R-NRS-Aerodynamicslab-eco1",
+        "name": "[med-def]Aerodynamicslab-eco1 #7",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-arizonabush3-eco1"
+        ]
+    },
+    "R-NRS-Propaganda-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Propaganda-eco"
+        ],
+        "statID": "Propaganda-eco",
+        "id": "R-NRS-Propaganda-eco1",
+        "name": "[med-def]Propaganda Tower-eco1 #8",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Aerodynamicslab-eco1"
+        ]
+    },
+    "R-NRS-BarbHUT-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbHUT-eco"
+        ],
+        "statID": "BarbHUT-eco",
+        "id": "R-NRS-BarbHUT-eco1",
+        "name": "[med-def]BarbHUT-eco1 #9",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Propaganda-eco1"
         ]
     },
     "R-NRS-Tree-eco1": {
@@ -30348,116 +30153,266 @@
         ],
         "statID": "Tree-eco",
         "id": "R-NRS-Tree-eco1",
-        "name": "[med-def]Tree-eco1 #23",
-        "researchPoints": 54.782608695652165,
-        "researchPower": 56.63615560640733,
+        "name": "[med-def]Tree-eco1 #10",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-building10-eco1"
+            "R-NRS-BarbHUT-eco1"
         ]
     },
-    "R-NRS-A0ResourceExtractor-eco2": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "A0ResourceExtractor-eco"
-        ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco2",
-        "name": "[med-def]Oil Derrick-eco2 #1",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Propaganda-eco2": {
+    "R-NRS-SolarPower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Propaganda-eco"
+            "SolarPower-eco"
         ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco2",
-        "name": "[med-def]Propaganda Tower-eco2 #2",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco1",
+        "name": "[med-def]Solar panel-eco1 #11",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco2"
+            "R-NRS-Tree-eco1"
         ]
     },
-    "R-NRS-BarbWarehouse3-eco2": {
+    "R-NRS-Pickup-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Pickup-eco"
+        ],
+        "statID": "Pickup-eco",
+        "id": "R-NRS-Pickup-eco1",
+        "name": "[med-def]Pickup-eco1 #12",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco1"
+        ]
+    },
+    "R-NRS-road-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "road-eco"
+        ],
+        "statID": "road-eco",
+        "id": "R-NRS-road-eco1",
+        "name": "[med-def]road-eco1 #13",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Pickup-eco1"
+        ]
+    },
+    "R-NRS-BarbWarehouse3-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "BarbWarehouse3-eco"
         ],
         "statID": "BarbWarehouse3-eco",
-        "id": "R-NRS-BarbWarehouse3-eco2",
-        "name": "[med-def]BarbWarehouse3-eco2 #3",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "id": "R-NRS-BarbWarehouse3-eco1",
+        "name": "[med-def]BarbWarehouse3-eco1 #14",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-Propaganda-eco2"
+            "R-NRS-road-eco1"
         ]
     },
-    "R-NRS-building3-eco2": {
+    "R-NRS-OilTower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building3-eco"
+            "OilTower-eco"
         ],
-        "statID": "building3-eco",
-        "id": "R-NRS-building3-eco2",
-        "name": "[med-def]building3-eco2 #4",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "statID": "OilTower-eco",
+        "id": "R-NRS-OilTower-eco1",
+        "name": "[med-def]OilTower-eco1 #15",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-BarbWarehouse3-eco2"
+            "R-NRS-BarbWarehouse3-eco1"
         ]
     },
-    "R-NRS-Tree-eco2": {
+    "R-NRS-WaterTower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Tree-eco"
+            "WaterTower-eco"
         ],
-        "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco2",
-        "name": "[med-def]Tree-eco2 #5",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "statID": "WaterTower-eco",
+        "id": "R-NRS-WaterTower-eco1",
+        "name": "[med-def]WaterTower-eco1 #16",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-building3-eco2"
+            "R-NRS-OilTower-eco1"
         ]
     },
-    "R-NRS-building11-eco2": {
+    "R-NRS-Ruin1-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Ruin1-eco"
+        ],
+        "statID": "Ruin1-eco",
+        "id": "R-NRS-Ruin1-eco1",
+        "name": "[med-def]Ruin1-eco1 #17",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-WaterTower-eco1"
+        ]
+    },
+    "R-NRS-building11-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "building11-eco"
         ],
         "statID": "building11-eco",
-        "id": "R-NRS-building11-eco2",
-        "name": "[med-def]building11-eco2 #6",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "id": "R-NRS-building11-eco1",
+        "name": "[med-def]building11-eco1 #18",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-Tree-eco2"
+            "R-NRS-Ruin1-eco1"
         ]
     },
-    "R-NRS-building12-eco2": {
+    "R-NRS-Boulder2-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building12-eco"
+            "Boulder2-eco"
         ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco2",
-        "name": "[med-def]building12-eco2 #7",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco1",
+        "name": "[med-def]Boulder2-eco1 #19",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-building11-eco2"
+            "R-NRS-building11-eco1"
+        ]
+    },
+    "R-NRS-CoolingTower-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "CoolingTower-eco"
+        ],
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco1",
+        "name": "[med-def]*CoolingTower*-eco1 #20",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Boulder2-eco1"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco1",
+        "name": "[med-def]AirTrafficControl-eco1 #21",
+        "researchPoints": 59.99999999999999,
+        "researchPower": 62.03007518796993,
+        "requiredResearch": [
+            "R-NRS-CoolingTower-eco1"
+        ]
+    },
+    "R-NRS-Rotarywepslab-eco2": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Rotarywepslab-eco"
+        ],
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco2",
+        "name": "[med-def]Rotarywepslab-eco2 #1",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-BarbWarehouse1-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse1-eco"
+        ],
+        "statID": "BarbWarehouse1-eco",
+        "id": "R-NRS-BarbWarehouse1-eco2",
+        "name": "[med-def]BarbWarehouse1-eco2 #2",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-NRS-Rotarywepslab-eco2"
+        ]
+    },
+    "R-NRS-Ruin1-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Ruin1-eco"
+        ],
+        "statID": "Ruin1-eco",
+        "id": "R-NRS-Ruin1-eco2",
+        "name": "[med-def]Ruin1-eco2 #3",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse1-eco2"
+        ]
+    },
+    "R-NRS-LogCabin3-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "LogCabin3-eco"
+        ],
+        "statID": "LogCabin3-eco",
+        "id": "R-NRS-LogCabin3-eco2",
+        "name": "[med-def]LogCabin3-eco2 #4",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-NRS-Ruin1-eco2"
+        ]
+    },
+    "R-NRS-building2-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building2-eco"
+        ],
+        "statID": "building2-eco",
+        "id": "R-NRS-building2-eco2",
+        "name": "[med-def]building2-eco2 #5",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-NRS-LogCabin3-eco2"
+        ]
+    },
+    "R-NRS-BarbWarehouse2-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse2-eco"
+        ],
+        "statID": "BarbWarehouse2-eco",
+        "id": "R-NRS-BarbWarehouse2-eco2",
+        "name": "[med-def]BarbWarehouse2-eco2 #6",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-NRS-building2-eco2"
         ]
     },
     "R-NRS-Boulder1-eco2": {
@@ -30468,11 +30423,26 @@
         ],
         "statID": "Boulder1-eco",
         "id": "R-NRS-Boulder1-eco2",
-        "name": "[med-def]Boulder1-eco2 #8",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "name": "[med-def]Boulder1-eco2 #7",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
         "requiredResearch": [
-            "R-NRS-building12-eco2"
+            "R-NRS-BarbWarehouse2-eco2"
+        ]
+    },
+    "R-NRS-A0ResourceExtractor-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "A0ResourceExtractor-eco"
+        ],
+        "statID": "A0ResourceExtractor-eco",
+        "id": "R-NRS-A0ResourceExtractor-eco2",
+        "name": "[med-def]Oil Derrick-eco2 #8",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-NRS-Boulder1-eco2"
         ]
     },
     "R-NRS-Advmaterialslab-eco2": {
@@ -30484,10 +30454,10 @@
         "statID": "Advmaterialslab-eco",
         "id": "R-NRS-Advmaterialslab-eco2",
         "name": "[med-def]Advmaterialslab-eco2 #9",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
         "requiredResearch": [
-            "R-NRS-Boulder1-eco2"
+            "R-NRS-A0ResourceExtractor-eco2"
         ]
     },
     "R-NRS-BarbHUT-eco2": {
@@ -30499,10 +30469,25 @@
         "statID": "BarbHUT-eco",
         "id": "R-NRS-BarbHUT-eco2",
         "name": "[med-def]BarbHUT-eco2 #10",
-        "researchPoints": 229.09090909090912,
-        "researchPower": 236.84210526315798,
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
         "requiredResearch": [
             "R-NRS-Advmaterialslab-eco2"
+        ]
+    },
+    "R-NRS-Tree-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Tree-eco"
+        ],
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco2",
+        "name": "[med-def]Tree-eco2 #11",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
+        "requiredResearch": [
+            "R-NRS-BarbHUT-eco2"
         ]
     },
     "R-NRS-Boulder3-eco2": {
@@ -30513,161 +30498,101 @@
         ],
         "statID": "Boulder3-eco",
         "id": "R-NRS-Boulder3-eco2",
-        "name": "[med-def]Boulder3-eco2 #11",
-        "researchPoints": 114.54545454545453,
-        "researchPower": 118.42105263157896,
+        "name": "[med-def]Boulder3-eco2 #12",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
         "requiredResearch": [
-            "R-NRS-BarbHUT-eco2"
+            "R-NRS-Tree-eco2"
         ]
     },
-    "R-NRS-CoolingTower-eco3": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "CoolingTower-eco"
-        ],
-        "statID": "CoolingTower-eco",
-        "id": "R-NRS-CoolingTower-eco3",
-        "name": "[med-def]*CoolingTower*-eco3 #1",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-building2-eco3": {
+    "R-NRS-arizonabush3-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building2-eco"
+            "arizonabush3-eco"
         ],
-        "statID": "building2-eco",
-        "id": "R-NRS-building2-eco3",
-        "name": "[med-def]building2-eco3 #2",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "arizonabush3-eco",
+        "id": "R-NRS-arizonabush3-eco2",
+        "name": "[med-def]arizonabush3-eco2 #13",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
         "requiredResearch": [
-            "R-NRS-CoolingTower-eco3"
+            "R-NRS-Boulder3-eco2"
         ]
     },
-    "R-NRS-Boulder1-eco3": {
+    "R-NRS-road-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Boulder1-eco"
+            "road-eco"
         ],
-        "statID": "Boulder1-eco",
-        "id": "R-NRS-Boulder1-eco3",
-        "name": "[med-def]Boulder1-eco3 #3",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "road-eco",
+        "id": "R-NRS-road-eco2",
+        "name": "[med-def]road-eco2 #14",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
         "requiredResearch": [
-            "R-NRS-building2-eco3"
+            "R-NRS-arizonabush3-eco2"
         ]
     },
-    "R-NRS-Aerodynamicslab-eco3": {
+    "R-NRS-building12-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Aerodynamicslab-eco"
+            "building12-eco"
         ],
-        "statID": "Aerodynamicslab-eco",
-        "id": "R-NRS-Aerodynamicslab-eco3",
-        "name": "[med-def]Aerodynamicslab-eco3 #4",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco2",
+        "name": "[med-def]building12-eco2 #15",
+        "researchPoints": 157.5,
+        "researchPower": 162.8289473684211,
         "requiredResearch": [
-            "R-NRS-Boulder1-eco3"
+            "R-NRS-road-eco2"
         ]
     },
-    "R-NRS-Powlab-eco3": {
+    "R-NRS-BigForest-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Powlab-eco"
+            "BigForest-eco"
         ],
-        "statID": "Powlab-eco",
-        "id": "R-NRS-Powlab-eco3",
-        "name": "[med-def]Powlab-eco3 #5",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "BigForest-eco",
+        "id": "R-NRS-BigForest-eco2",
+        "name": "[med-def]Big Forest-eco2 #16",
+        "researchPoints": 78.74999999999999,
+        "researchPower": 81.41447368421053,
         "requiredResearch": [
-            "R-NRS-Aerodynamicslab-eco3"
+            "R-NRS-building12-eco2"
         ]
     },
     "R-NRS-SolarPower-eco3": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "SolarPower-eco"
         ],
         "statID": "SolarPower-eco",
         "id": "R-NRS-SolarPower-eco3",
-        "name": "[med-def]Solar panel-eco3 #6",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]Solar panel-eco3 #1",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-Powlab-eco3"
+            "R-Fac-start"
         ]
     },
-    "R-NRS-WaterTower-eco3": {
+    "R-NRS-building12-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "WaterTower-eco"
+            "building12-eco"
         ],
-        "statID": "WaterTower-eco",
-        "id": "R-NRS-WaterTower-eco3",
-        "name": "[med-def]WaterTower-eco3 #7",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco3",
+        "name": "[med-def]building12-eco3 #2",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-SolarPower-eco3"
-        ]
-    },
-    "R-NRS-building11-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building11-eco"
-        ],
-        "statID": "building11-eco",
-        "id": "R-NRS-building11-eco3",
-        "name": "[med-def]building11-eco3 #8",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-WaterTower-eco3"
-        ]
-    },
-    "R-NRS-Propaganda-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Propaganda-eco"
-        ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco3",
-        "name": "[med-def]Propaganda Tower-eco3 #9",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-building11-eco3"
-        ]
-    },
-    "R-NRS-Park-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Park-eco"
-        ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco3",
-        "name": "[med-def]Park-eco3 #10",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-Propaganda-eco3"
         ]
     },
     "R-NRS-Boulder3-eco3": {
@@ -30678,11 +30603,56 @@
         ],
         "statID": "Boulder3-eco",
         "id": "R-NRS-Boulder3-eco3",
-        "name": "[med-def]Boulder3-eco3 #11",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]Boulder3-eco3 #3",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-Park-eco3"
+            "R-NRS-building12-eco3"
+        ]
+    },
+    "R-NRS-building11-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building11-eco"
+        ],
+        "statID": "building11-eco",
+        "id": "R-NRS-building11-eco3",
+        "name": "[med-def]building11-eco3 #4",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Boulder3-eco3"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco3",
+        "name": "[med-def]AirTrafficControl-eco3 #5",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-building11-eco3"
+        ]
+    },
+    "R-NRS-Boulder2-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder2-eco"
+        ],
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco3",
+        "name": "[med-def]Boulder2-eco3 #6",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-AirTrafficControl-eco3"
         ]
     },
     "R-NRS-Heavywepslab-eco3": {
@@ -30693,41 +30663,41 @@
         ],
         "statID": "Heavywepslab-eco",
         "id": "R-NRS-Heavywepslab-eco3",
-        "name": "[med-def]Heavywepslab-eco3 #12",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]Heavywepslab-eco3 #7",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-Boulder3-eco3"
+            "R-NRS-Boulder2-eco3"
         ]
     },
-    "R-NRS-Advmaterialslab-eco3": {
+    "R-NRS-Powlab-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Advmaterialslab-eco"
+            "Powlab-eco"
         ],
-        "statID": "Advmaterialslab-eco",
-        "id": "R-NRS-Advmaterialslab-eco3",
-        "name": "[med-def]Advmaterialslab-eco3 #13",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "Powlab-eco",
+        "id": "R-NRS-Powlab-eco3",
+        "name": "[med-def]Powlab-eco3 #8",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Heavywepslab-eco3"
         ]
     },
-    "R-NRS-BarbWarehouse2-eco3": {
+    "R-NRS-NuclearReactor-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbWarehouse2-eco"
+            "NuclearReactor-eco"
         ],
-        "statID": "BarbWarehouse2-eco",
-        "id": "R-NRS-BarbWarehouse2-eco3",
-        "name": "[med-def]BarbWarehouse2-eco3 #14",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "NuclearReactor-eco",
+        "id": "R-NRS-NuclearReactor-eco3",
+        "name": "[med-def]*NuclearReactor*-eco3 #9",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-Advmaterialslab-eco3"
+            "R-NRS-Powlab-eco3"
         ]
     },
     "R-NRS-BarbWarehouse3-eco3": {
@@ -30738,11 +30708,11 @@
         ],
         "statID": "BarbWarehouse3-eco",
         "id": "R-NRS-BarbWarehouse3-eco3",
-        "name": "[med-def]BarbWarehouse3-eco3 #15",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]BarbWarehouse3-eco3 #10",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-BarbWarehouse2-eco3"
+            "R-NRS-NuclearReactor-eco3"
         ]
     },
     "R-NRS-OilTower-eco3": {
@@ -30753,9 +30723,9 @@
         ],
         "statID": "OilTower-eco",
         "id": "R-NRS-OilTower-eco3",
-        "name": "[med-def]OilTower-eco3 #16",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]OilTower-eco3 #11",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-BarbWarehouse3-eco3"
         ]
@@ -30768,9 +30738,9 @@
         ],
         "statID": "cabin-eco",
         "id": "R-NRS-cabin-eco3",
-        "name": "[med-def]cabin-eco3 #17",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]cabin-eco3 #12",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-OilTower-eco3"
         ]
@@ -30783,26 +30753,11 @@
         ],
         "statID": "LogCabin3-eco",
         "id": "R-NRS-LogCabin3-eco3",
-        "name": "[med-def]LogCabin3-eco3 #18",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]LogCabin3-eco3 #13",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-cabin-eco3"
-        ]
-    },
-    "R-NRS-building10-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building10-eco"
-        ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco3",
-        "name": "[med-def]building10-eco3 #19",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
-        "requiredResearch": [
-            "R-NRS-LogCabin3-eco3"
         ]
     },
     "R-NRS-Forest-eco3": {
@@ -30813,11 +30768,11 @@
         ],
         "statID": "Forest-eco",
         "id": "R-NRS-Forest-eco3",
-        "name": "[med-def]Forest-eco3 #20",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]Forest-eco3 #14",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-building10-eco3"
+            "R-NRS-LogCabin3-eco3"
         ]
     },
     "R-NRS-BigForest-eco3": {
@@ -30828,41 +30783,101 @@
         ],
         "statID": "BigForest-eco",
         "id": "R-NRS-BigForest-eco3",
-        "name": "[med-def]Big Forest-eco3 #21",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "name": "[med-def]Big Forest-eco3 #15",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Forest-eco3"
         ]
     },
-    "R-NRS-NuclearReactor-eco3": {
+    "R-NRS-Boulder1-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "NuclearReactor-eco"
+            "Boulder1-eco"
         ],
-        "statID": "NuclearReactor-eco",
-        "id": "R-NRS-NuclearReactor-eco3",
-        "name": "[med-def]*NuclearReactor*-eco3 #22",
-        "researchPoints": 109.56521739130436,
-        "researchPower": 113.27231121281469,
+        "statID": "Boulder1-eco",
+        "id": "R-NRS-Boulder1-eco3",
+        "name": "[med-def]Boulder1-eco3 #16",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-BigForest-eco3"
         ]
     },
-    "R-NRS-road-eco3": {
+    "R-NRS-Rotarywepslab-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "road-eco"
+            "Rotarywepslab-eco"
         ],
-        "statID": "road-eco",
-        "id": "R-NRS-road-eco3",
-        "name": "[med-def]road-eco3 #23",
-        "researchPoints": 54.782608695652165,
-        "researchPower": 56.63615560640733,
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco3",
+        "name": "[med-def]Rotarywepslab-eco3 #17",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
-            "R-NRS-NuclearReactor-eco3"
+            "R-NRS-Boulder1-eco3"
+        ]
+    },
+    "R-NRS-CoolingTower-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "CoolingTower-eco"
+        ],
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco3",
+        "name": "[med-def]*CoolingTower*-eco3 #18",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Rotarywepslab-eco3"
+        ]
+    },
+    "R-NRS-BarbWarehouse2-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse2-eco"
+        ],
+        "statID": "BarbWarehouse2-eco",
+        "id": "R-NRS-BarbWarehouse2-eco3",
+        "name": "[med-def]BarbWarehouse2-eco3 #19",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-CoolingTower-eco3"
+        ]
+    },
+    "R-NRS-building3-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building3-eco"
+        ],
+        "statID": "building3-eco",
+        "id": "R-NRS-building3-eco3",
+        "name": "[med-def]building3-eco3 #20",
+        "researchPoints": 120,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse2-eco3"
+        ]
+    },
+    "R-NRS-Park-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Park-eco"
+        ],
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco3",
+        "name": "[med-def]Park-eco3 #21",
+        "researchPoints": 59.99999999999999,
+        "researchPower": 62.03007518796993,
+        "requiredResearch": [
+            "R-NRS-building3-eco3"
         ]
     }
 }
