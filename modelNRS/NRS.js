@@ -260,7 +260,7 @@ function powerStuff(){
 		var cultureToSet=culture[playnum]+cultPow*interest;
 		if(cultureToSet>100000){ income+=cultureToSet-100000; cultureToSet=100000; }
 		culture[playnum]=cultureToSet;
-		honor[playnum]+=(honorPow+( ndiff/maxPlayers-1.5)*500 )*5*1000;
+		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-1.5)*500 )*5*1000;
 		powerGen[playnum]= Math.floor(income/10+restInc[playnum]); //
 		restInc[playnum]= Math.floor((income/10+restInc[playnum]-powerGen[playnum])*1000)/1000;
 		//powerLast[playnum]+=income;

@@ -1,0 +1,48 @@
+{
+	"challenge": {
+		"bases": 2,
+		"description": "Machine gun, viper on wheel and upgrades. OK how hard can it be? CHALLENGE: How about HVY-AP lasers?",
+		"difficulty": "Intro",
+		"map": "Sk-MizaMaze",
+		"maxPlayers": 8,
+		"name": "NRS-1-Basics",
+		"powerLevel": 1,
+		"scavengers": 0,
+		"techLevel": 1,
+		"version": 2
+	},
+	"locked": {
+		"position": "true"
+	},
+	"player_0": {
+		"team": 0
+	},
+	"player_1": {
+		"difficulty": "Easy",
+		"team": 1
+	},
+	"player_2": {
+		"difficulty": "Easy",
+		"team": 2
+	},
+	"player_3": {
+		"difficulty": "Easy",
+		"team": 3
+	},
+	"player_4": {
+		"difficulty": "Easy",
+		"team": 4
+	},
+	"player_5": {
+		"difficulty": "Easy",
+		"team": 5
+	},
+	"player_6": {
+		"difficulty": "Easy",
+		"team": 6
+	},
+	"player_7": {
+		"difficulty": "Easy",
+		"team": 7
+	}
+}
