@@ -1,0 +1,48 @@
+{
+	"challenge": {
+		"bases": 1,
+		"description": "I don't think you can do it honestly. Challenge: How many honor halls can you build on top of this?",
+		"difficulty": "Insane",
+		"map": "citadel",
+		"maxPlayers": 8,
+		"name": "NRS-9-LastMission",
+		"powerLevel": 1,
+		"scavengers": 0,
+		"techLevel": 2,
+		"version": 2
+	},
+	"locked": {
+		"position": "true"
+	},
+	"player_0": {
+		"team": 0
+	},
+	"player_1": {
+		"difficulty": "Hard",
+		"team": 1
+	},
+	"player_2": {
+		"difficulty": "Insane",
+		"team": 2
+	},
+	"player_3": {
+		"difficulty": "Easy",
+		"team": 3
+	},
+	"player_4": {
+		"difficulty": "Insane",
+		"team": 4
+	},
+	"player_5": {
+		"difficulty": "Easy",
+		"team": 5
+	},
+	"player_6": {
+		"difficulty": "Insane",
+		"team": 6
+	},
+	"player_7": {
+		"difficulty": "Hard",
+		"team": 7
+	}
+}

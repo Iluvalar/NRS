@@ -81,6 +81,25 @@ echo '<br>ttpower'. $sys['nrs']['ttpower'] .' armypower:'.  $sys['nrs']['armypow
 echo '<br><b>structureHPScale:'. $sys['nrs']['structureHPScale'] .'</b>';
 echo '<br>INTEREST PER 5='. $sys['nrs']['interest'];
 $sys['nrs']['subclsses']=['',"CANNON","MORTARS","MISSILE","ROCKET","ENERGY","GAUSS","FLAME","HOWITZERS","MACHINE GUN","A-A GUN","SLOW MISSILE","SLOW ROCKET","BOMB","COMMAND","EMP","LAS_SAT",];
+$sys['nrs']['subclssesEffect']=['','AP','AW','AS','AN','AP','AW','AT','AT','AW','AS','AT','AS','AP']; //I hate doing that manually. But i need a functionning prototype in my lifetime.
+$sys['nrs']['subclssesWeight']=['','hvy','hvy','med','xlgt','lgt','lgt','lgt','med','med','lgt','hvy','hvy','med'];
+/*    It's even more stupid that i generate this cheat sheet at the end of the code. XD . But saddly it doesnt happen in the right sequence
+	[CANNON] => ANTI PERSONNEL hvy
+    [MORTARS] => ALL ROUNDER hvy
+    [MISSILE] => ARTILLERY ROUND med
+    [ROCKET] => FLAMER xlgt
+    [ENERGY] => ANTI PERSONNEL lgt
+    [GAUSS] => ALL ROUNDER lgt
+    [FLAME] => ANTI TANK lgt
+    [HOWITZERS] => ANTI TANK med
+    [MACHINE GUN] => ALL ROUNDER med
+    [A-A GUN] => ARTILLERY ROUND lgt
+    [SLOW MISSILE] => ANTI TANK hvy
+    [SLOW ROCKET] => ARTILLERY ROUND hvy
+    [BOMB] => ANTI PERSONNEL med
+	*/
+
+
 //ELECTRONIC
 $sys['nrs']['startres']="R-Fac-start";
 echo "OL:". Fwz_fig(50)/Fwz_fig(30);
@@ -292,8 +311,8 @@ Fnrs_genprop('HalfTrack',$fac,'HalfTrack',115,"Tracked");
 
 
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "A0CyborgFactory", 'in'=>'base', 'type'=> 'structure', 'as' => ['lgt','insta','',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "A0RepairCentre3", 'in'=>'base', 'type'=> 'structure', 'as' => ['med','hitech','vshort',''] ]); //the garage first make more sens, but confuse noobs.
 Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavRepairCentre", 'in'=>'base', 'type'=> 'structure', 'as' => ['med','hitech','vshort',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "A0RepairCentre3", 'in'=>'base', 'type'=> 'structure', 'as' => ['med','hitech','vshort',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Crane", 'in'=>'nrs', 'type'=> 'structure', 'as' => ['med','hitech','vshort',''] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "niceCrane", 'in'=>'nrs', 'type'=> 'structure', 'as' => ['med','hitech','short',''] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "goodRepair", 'in'=>'nrs', 'type'=> 'structure', 'as' => ['med','hitech','short',''] ]);
@@ -813,6 +832,8 @@ foreach($sys['nrs']['file']['stat']['weapons'] as $nom=>$item){
 	Fwz_eval34($item,'weapons');
 	echo '<br>'. $item['name'] .' '. $item['Prevalue'] .' '. $item['evalStr'];
 }
+
+print_r($sys['nrs']['subclssesCheat']);
 
 //Attempts to zip automatically failed so far...
 /*

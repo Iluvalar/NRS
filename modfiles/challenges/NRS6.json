@@ -1,0 +1,48 @@
+{
+	"challenge": {
+		"bases": 1,
+		"description": "NRS allows for a lot of playstyle . Challenge: Position your base on a side.",
+		"difficulty": "Medium",
+		"map": "truckBowlV02-T1",
+		"maxPlayers": 8,
+		"name": "NRS-6-truckBowl",
+		"powerLevel": 1,
+		"scavengers": 0,
+		"techLevel": 2,
+		"version": 2
+	},
+	"locked": {
+		"position": "true"
+	},
+	"player_0": {
+		"team": 0
+	},
+	"player_1": {
+		"difficulty": "Medium",
+		"team": 1
+	},
+	"player_2": {
+		"difficulty": "Hard",
+		"team": 2
+	},
+	"player_3": {
+		"difficulty": "Medium",
+		"team": 3
+	},
+	"player_4": {
+		"difficulty": "Medium",
+		"team": 4
+	},
+	"player_5": {
+		"difficulty": "Hard",
+		"team": 5
+	},
+	"player_6": {
+		"difficulty": "Medium",
+		"team": 6
+	},
+	"player_7": {
+		"difficulty": "Medium",
+		"team": 7
+	}
+}

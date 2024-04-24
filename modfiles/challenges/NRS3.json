@@ -44,5 +44,13 @@
 	"player_7": {
 		"difficulty": "Medium",
 		"team": 3
+	},
+	"player_8": {
+		"difficulty": "Medium",
+		"team": 4
+	},
+	"player_9": {
+		"difficulty": "Medium",
+		"team": 4
 	}
 }

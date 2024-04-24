@@ -1,0 +1,48 @@
+{
+	"challenge": {
+		"bases": 1,
+		"description": "One of my first map. Challenge: Why would you play track in a large map like this? are you masochist?",
+		"difficulty": "Medium",
+		"map": "ilu-8split-lowV1-T1",
+		"maxPlayers": 8,
+		"name": "NRS-8-8split",
+		"powerLevel": 1,
+		"scavengers": 0,
+		"techLevel": 2,
+		"version": 2
+	},
+	"locked": {
+		"position": "true"
+	},
+	"player_0": {
+		"team": 0
+	},
+	"player_1": {
+		"difficulty": "Hard",
+		"team": 1
+	},
+	"player_2": {
+		"difficulty": "Hard",
+		"team": 2
+	},
+	"player_3": {
+		"difficulty": "Hard",
+		"team": 3
+	},
+	"player_4": {
+		"difficulty": "Hard",
+		"team": 4
+	},
+	"player_5": {
+		"difficulty": "Hard",
+		"team": 5
+	},
+	"player_6": {
+		"difficulty": "Hard",
+		"team": 6
+	},
+	"player_7": {
+		"difficulty": "Hard",
+		"team": 7
+	}
+}

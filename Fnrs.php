@@ -152,14 +152,35 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$temp['results'][]=$r;
 			$r['parameter']='ReloadTime';
 			$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="Damage" ){
 			$totvalue=$totexp;
-			$r['value']=$totvalue-$lastvalue;
+			$value=$totvalue-$lastvalue;
+			//$r['value']=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
-			$r['value']=floor($r['value']);
-			$temp['results'][]=$r;
-			$r['parameter']='RadiusDamage';
+			
+			
+			foreach($sys['nrs']['subclsses'] as $no=>$classeName){
+				$factor=1;
+				$subclssesno=array_search($filtername,$sys['nrs']['subclsses']);
+				if($sys['nrs']['subclssesEffect'][$subclssesno]!=$sys['nrs']['subclssesEffect'][$no]){
+					$factor*=.85;
+				}
+				if($sys['nrs']['subclssesWeight'][$subclssesno]!=$sys['nrs']['subclssesWeight'][$no]){
+					$factor*=.85;
+				}
+				if($classeName==$filtername){$factor=1;}				
+				$r['filterValue']=$classeName;
+				$r['parameter']='Damage';
+				$r['value']=floor($value*$factor);
+				$temp['results'][]=$r;
+				$r['parameter']='RadiusDamage';
+				$r['value']=floor($value*$factor);
+				$temp['results'][]=$r;
+				echo $classeName .' '. $filtername .' ' . 	$subclssesno ;
+			}
 		}
 		if($param=="buildPower" ){
 			$totvalue=$totexp;
@@ -168,16 +189,22 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$r['value']=floor($r['value']);
 			//$temp['results'][]=$r;
 			//$r['parameter']='RadiusDamage';
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="PowerPoints"){
 			$totvalue=$totexp;
 			$r['value']=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="HitPoints"){ //walls
 			$totvalue=$totexp;
 			$r['value']=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="ConstructorPoints" ){ 
 			$totvalue=$totexp;
@@ -185,11 +212,15 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$totvalue=pow($totvalue,.5); //both building and healing
 			$r['value']=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="Range"){
 			$totvalue=$totexp;
 			$r['value']=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="ResearchPoints" or $param=="ProductionPoints"){
 			//$valfunc=floor(Fwz_fig($value,1)*100)-100;
@@ -197,6 +228,8 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$totvalue=floor(Fwz_fig(($totexp+100)/100,1)*100)-100;
 			$r['value']=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="HitPointPct"){
 			$totvalue=$totexp;
@@ -208,6 +241,8 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$r['filterValue']='Cyborgs';
 			$temp['results'][]=$r;
 			$r['filterValue']='PERSON';
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
 		if($param=="HitpointPctOfBody"){
 			$statval=$sys['nrs']['file']['stat']['propulsion'][ $temp['statID'] ];
@@ -218,9 +253,10 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			//$totvalue=$totexp;
 			$r['value']=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
+			$r['value']=floor($r['value']);
+			$temp['results'][]=$r;
 		}
-		$r['value']=floor($r['value']);
-		$temp['results'][]=$r;
+		
 
 		$temp['name'].=' '. floor($r['value']) .'%';
 		echo '<br>'. $temp['statID'] .' '. $temp['name'] .'wiwiwiw'. $statval['hitpointPctOfBody'] .'t:'. $tempval .' '. $totvalue .' '. $totexp;
@@ -577,6 +613,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							if(!isset($subclass)){
 								$subclass=$sys['nrs']['subclsses'][ ++$sys['nrs']['subclssescount']];
 							}
+							
 							if (in_array("AW", $val3['as'] )) {$hooman='AW';$weaponEffect="ALL ROUNDER"; $nbroles='[ 0.4, 0.3, 0.1, 0.2 ]'; }
 							if (in_array("AS", $val3['as'] )) {$hooman='AS';$weaponEffect="ARTILLERY ROUND"; $nbroles='[ 0.1, 0.2, 0.5, 0.2 ]'; }
 							if (in_array("AT", $val3['as'] )) {$hooman='AT';$weaponEffect="ANTI TANK"; $nbroles='[ 0.5, 0.1, 0.2, 0.2 ]'; }
@@ -584,8 +621,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							if (in_array("AN", $val3['as'] )) {$hooman='AN';$weaponEffect="FLAMER"; $nbroles='[ 0.3, 0.3, 0.3, 0.3 ]'; }
 							if (in_array("brain", $val3['as'])  or $braindetect ) {$price*=2; $wephp+=2; $item2['Prevalue']*=3; echo '<br><b>brain weap</b>';}
 							if (in_array("FOM", $val3['as'] )) { $item['fireOnMove']=1; }
+							$sys['nrs']['subclssesCheat'][$subclass]=$weaponEffect .' '. $weight; 
 							#fireOnMove
-							
 							$sys['nrs']['nb'][$linename]['roles']=$nbroles;
 							$item['buildPower']=floor($price);
 							$item['buildPoints']=floor($price*$sys['nrs']['produnit']);
