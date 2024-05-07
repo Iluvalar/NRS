@@ -1,8 +1,8 @@
 {
 	"challenge": {
 		"bases": 1,
-		"description": "Propulsion upgrades are slightly OP and AI do not really adapt to it. Use your T4 money to get propuplsion upgrades.",
-		"difficulty": "Challenge: LaserOptic lab (x3) are rarely a good move. But at least you can try using the T4 start!",
+		"description": "Propulsion upgrades are slightly OP and AI do not really adapt to it. Use your T4 money to get propuplsion upgrades. Challenge: LaserOptic lab (x3) are rarely a good move. But at least you can try using the T4 start!",
+		"difficulty": "Medium",
 		"map": "Sk-Mountain",
 		"maxPlayers": 4,
 		"name": "NRS-4-ShinyNewTech",
@@ -15,18 +15,19 @@
 		"position": "true"
 	},
 	"player_0": {
-		"difficulty": "Hard",
 		"team": 1
 	},
 	"player_1": {
-		"difficulty": "Medium",
-		"team": 1
-	},
-	"player_2": {
-		"difficulty": "Medium",
+		"difficulty": "Hard",
 		"team": 2
 	},
+	"player_2": {
+		"difficulty": "Hard",
+		"team": 3
+	},
 	"player_3": {
-		"team": 0
+		"difficulty": "Medium",
+		"team": 4
+
 	}
 }

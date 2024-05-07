@@ -146,14 +146,39 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 		//$totexp=20*$x;
 		if($param=="FirePause"){
 			$totvalue=floor(100*100/($totexp+100))-100;
-			$r['value']=$totvalue-$lastvalue;
+			//$r['value']=$totvalue-$lastvalue;
+			$value=$totvalue-$lastvalue;
 			$lastvalue=$totvalue;
+			/*
 			$r['value']=floor($r['value']);
 			$temp['results'][]=$r;
 			$r['parameter']='ReloadTime';
-			$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+			
 			$r['value']=floor($r['value']);
-			$temp['results'][]=$r;
+			*/
+			//$temp['results'][]=$r;
+			foreach($sys['nrs']['subclsses'] as $no=>$classeName){
+				if($classeName!=''){
+					$factor=1;
+					$subclssesno=array_search($filtername,$sys['nrs']['subclsses']);
+					if($sys['nrs']['subclssesEffect'][$subclssesno]!=$sys['nrs']['subclssesEffect'][$no]){
+						$factor*=.85;
+					}
+					if($sys['nrs']['subclssesWeight'][$subclssesno]!=$sys['nrs']['subclssesWeight'][$no]){
+						$factor*=.85;
+					}
+					if($classeName==$filtername){$factor=1;}				
+					$r['filterValue']=$classeName;
+					$r['parameter']='FirePause';
+					$r['value']=ceil($value*$factor);
+					$temp['results'][]=$r;
+					$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+					$r['parameter']='ReloadTime';
+					$r['value']=ceil($value*$factor);
+					$temp['results'][]=$r;
+					echo $classeName .' '. $filtername .' ' . 	$subclssesno ;
+				}
+			}
 		}
 		if($param=="Damage" ){
 			$totvalue=$totexp;
@@ -163,23 +188,25 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			
 			
 			foreach($sys['nrs']['subclsses'] as $no=>$classeName){
-				$factor=1;
-				$subclssesno=array_search($filtername,$sys['nrs']['subclsses']);
-				if($sys['nrs']['subclssesEffect'][$subclssesno]!=$sys['nrs']['subclssesEffect'][$no]){
-					$factor*=.85;
+				if($classeName!=''){
+					$factor=1;
+					$subclssesno=array_search($filtername,$sys['nrs']['subclsses']);
+					if($sys['nrs']['subclssesEffect'][$subclssesno]!=$sys['nrs']['subclssesEffect'][$no]){
+						$factor*=.85;
+					}
+					if($sys['nrs']['subclssesWeight'][$subclssesno]!=$sys['nrs']['subclssesWeight'][$no]){
+						$factor*=.85;
+					}
+					if($classeName==$filtername){$factor=1;}				
+					$r['filterValue']=$classeName;
+					$r['parameter']='Damage';
+					$r['value']=floor($value*$factor);
+					$temp['results'][]=$r;
+					$r['parameter']='RadiusDamage';
+					$r['value']=floor($value*$factor);
+					$temp['results'][]=$r;
+					echo $classeName .' '. $filtername .' ' . 	$subclssesno ;
 				}
-				if($sys['nrs']['subclssesWeight'][$subclssesno]!=$sys['nrs']['subclssesWeight'][$no]){
-					$factor*=.85;
-				}
-				if($classeName==$filtername){$factor=1;}				
-				$r['filterValue']=$classeName;
-				$r['parameter']='Damage';
-				$r['value']=floor($value*$factor);
-				$temp['results'][]=$r;
-				$r['parameter']='RadiusDamage';
-				$r['value']=floor($value*$factor);
-				$temp['results'][]=$r;
-				echo $classeName .' '. $filtername .' ' . 	$subclssesno ;
 			}
 		}
 		if($param=="buildPower" ){

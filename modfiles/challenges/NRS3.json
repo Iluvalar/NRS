@@ -4,7 +4,7 @@
 		"description": "You make interest out of unused power. Keep your power at 15000 to abuse of the AI and beat the hard nemesis. Challenge: can you add 2 honor halls to your start base?",
 		"difficulty": "Easy",
 		"map": "Emergence",
-		"maxPlayers": 8,
+		"maxPlayers": 10,
 		"name": "NRS-3-Interest",
 		"powerLevel": 1,
 		"scavengers": 0,
