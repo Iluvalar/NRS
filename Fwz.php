@@ -699,8 +699,9 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	}else{
 		$obj['weightMod']=1;
 	}
-	if($obj['Engine power']>0){
-		$obj['weightMod']*=pow(($obj['Engine power']/15000),.3);
+	if($obj['powerOutput']>0){
+		$obj['weightMod']*=pow(($obj['powerOutput']/15000),.3);
+		if($obj['weightMod']>0.94){ $obj['weightMod']=0.94; } //appear to be the max?
 	}
 
 

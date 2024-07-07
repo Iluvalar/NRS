@@ -96,13 +96,13 @@ const fundamentalResearch = [
 	//"R-NRS-NuclearReactor",
 	//"R-NRS-Park-nrs",
 	"R-NRS-BigForest-eco3",
-	"R--ResearchPoints-3",
-	"R--ProductionPoints-3",
+	"R--ResearchPoints--3",
+	"R--ProductionPoints--3",
 	"R-NRS-LogCabin3-eco3",
-	"R--ResearchPoints-6",
-	"R--ProductionPoints-6",
-	"R--ResearchPoints-9",
-	"R--ProductionPoints-9",	
+	"R--ResearchPoints--6",
+	"R--ProductionPoints--6",
+	"R--ResearchPoints--9",
+	"R--ProductionPoints--9",	
 	"R-Sys-Autorepair-General",
 	"R-NRS-Heavywepslab-eco3",
 	//"R-hover01-HitpointPctOfBody-9",
@@ -129,7 +129,7 @@ const fundamentalResearch = [
 ];
 
 const fastestResearch = [
-	"R--ResearchPoints-9",
+	"R--ResearchPoints--9",
 ];
 
 // body and propulsion arrays don't affect fixed template droids
@@ -150,7 +150,8 @@ const bodyStats = [
 			*/
 			{ res: "R-NRS-A0BaBaFactory", stat: "B1BaBaPerson01", weight: WEIGHT.ULTRALIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
 			{ res: "R-NRS-Body5REC", stat: "Body5REC", weight: WEIGHT.MEDIUM , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
-			{ res: "R-NRS-Body11ABT", stat: "Body11ABT", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
+			{ res: "R-NRS-Body23SUP-contingency", stat: "Body23SUP-contingency", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
+			//{ res: "R-NRS-Body11ABT", stat: "Body11ABT", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
 			//{ res: "R-NRS-Body9REC", stat: "Body9REC", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
 			{ res: "R-NRS-ScavCamperBody", stat: "ScavCamperBody", weight: WEIGHT.ULTRALIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
 			{ res: "R-NRS-ScavIcevanBody", stat: "ScavIcevanBody", weight: WEIGHT.ULTRALIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
@@ -163,6 +164,11 @@ const bodyStats = [
 			{ res: "R-NRS-B4body-sml-trike01-Ultimate", stat: "B4body-sml-trike01-Ultimate", weight: WEIGHT.ULTRALIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
 			{ res: "R-NRS-B3bodyRKbuggy01-Ultimate", stat: "B3bodyRKbuggy01", weight: WEIGHT.ULTRALIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
 			{ res: "R-NRS-Body1REC", stat: "Body1REC", weight: WEIGHT.LIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
+			{ res: "R-NRS-Body24SUP-contingency", stat: "Body24SUP-contingency", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
+			{ res: "R-NRS-Body25SUP-contingency", stat: "Body25SUP-contingency", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
+			{ res: "R-NRS-Body26SUP-contingency", stat: "Body26SUP-contingency", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
+			{ res: "R-NRS-Body27SUP-contingency", stat: "Body27SUP-contingency", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
+			{ res: "R-NRS-Body28SUP-contingency", stat: "Body28SUP-contingency", weight: WEIGHT.HEAVY , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.THERMAL },
 			/*
 			{ res: "R-NRS-Body4ABT", stat: "Body4ABT", weight: WEIGHT.LIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },
 			{ res: "R-NRS-Body2SUP", stat: "Body2SUP", weight: WEIGHT.LIGHT , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.KINETIC },

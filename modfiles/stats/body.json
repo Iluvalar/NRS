@@ -32,10 +32,10 @@
     "B2tractor": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 388.72507232913097,
+        "hitpoints": 38.87250723291309,
         "id": "B2tractor",
         "model": "tractor.pie",
         "name": "*tractor* [xlgt]#4",
@@ -48,10 +48,10 @@
     "ScavCamperBody": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 272.08571501864674,
+        "hitpoints": 27.208571501864675,
         "id": "ScavCamperBody",
         "model": "camper.pie",
         "name": "*scavenger camper* [xlgt]#1",
@@ -64,10 +64,10 @@
     "ScavIcevanBody": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 305.91391843915767,
+        "hitpoints": 30.591391843915765,
         "id": "ScavIcevanBody",
         "model": "icevan.pie",
         "name": "*scavenger ice van* [xlgt]#2",
@@ -110,10 +110,10 @@
     "ScavNEXUStrack": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 438.7536164308166,
+        "hitpoints": 43.87536164308166,
         "id": "ScavNEXUStrack",
         "model": "nextrack.pie",
         "name": "*scavenger nexus track* [xlgt]#5",
@@ -215,10 +215,10 @@
     "B2JeepBody-Ultimate": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 559.8512498573957,
+        "hitpoints": 55.985124985739574,
         "id": "B2JeepBody-Ultimate",
         "model": "exjeep.pie",
         "name": "*Ultimate Baba Jeep Body* [xlgt]#7",
@@ -276,10 +276,10 @@
     "B3body-sml-buggy01-Ultimate": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 344.65697446582203,
+        "hitpoints": 34.465697446582205,
         "id": "B3body-sml-buggy01-Ultimate",
         "model": "exbuggy.pie",
         "name": "*Ultimate Buggy Body* [xlgt]#3",
@@ -292,10 +292,10 @@
     "B3bodyRKbuggy01": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 809.248068131576,
+        "hitpoints": 80.9248068131576,
         "id": "B3bodyRKbuggy01",
         "model": "exbugrk.pie",
         "name": "*Ultimate Rocket Buggy Body* [xlgt]#10",
@@ -337,10 +337,10 @@
     "B4body-sml-trike01-Ultimate": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 715.5014726728405,
+        "hitpoints": 71.55014726728405,
         "id": "B4body-sml-trike01-Ultimate",
         "model": "extrike.pie",
         "name": "*Ultimate Trike Body* [xlgt]#9",
@@ -350,20 +350,20 @@
         "weight": 583.3333333333333
     },
     "Body10MBT": {
-        "armourHeat": 10000,
+        "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
+        "buildPoints": 96,
+        "buildPower": 30,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 2377.1932187072516,
+        "hitpoints": 211.6242105076233,
         "id": "Body10MBT",
         "model": "drhbod10.pie",
-        "name": "Vengeance [hvy]#4",
+        "name": "Vengeance [MH]#4",
         "powerOutput": 1750,
         "size": "LIGHT",
         "weaponSlots": 1,
-        "weight": 250,
+        "weight": 312.5,
         "propulsionExtraModels": {
             "HalfTrack": {
                 "left": "prhhtr3.pie"
@@ -392,20 +392,20 @@
         }
     },
     "Body11ABT": {
-        "armourHeat": 10000,
+        "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
+        "buildPoints": 96,
+        "buildPower": 30,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1308.8659067663011,
+        "hitpoints": 116.51880545511247,
         "id": "Body11ABT",
         "model": "drhbod11.pie",
-        "name": "Python [hvy]#1",
+        "name": "Python [MH]#1",
         "powerOutput": 1750,
         "size": "LIGHT",
         "weaponSlots": 1,
-        "weight": 250,
+        "weight": 312.5,
         "propulsionExtraModels": {
             "HalfTrack": {
                 "left": "prhhtr3.pie"
@@ -434,20 +434,20 @@
         }
     },
     "Body12SUP": {
-        "armourHeat": 10000,
+        "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
+        "buildPoints": 96,
+        "buildPower": 30,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1590.0378239768197,
+        "hitpoints": 141.54949481108716,
         "id": "Body12SUP",
         "model": "drhbod12.pie",
-        "name": "Mantis [hvy]#2",
+        "name": "Mantis [MH]#2",
         "powerOutput": 1750,
         "size": "LIGHT",
         "weaponSlots": 1,
-        "weight": 250,
+        "weight": 312.5,
         "propulsionExtraModels": {
             "HalfTrack": {
                 "left": "prhhtr3.pie"
@@ -476,20 +476,20 @@
         }
     },
     "Body13SUP": {
-        "armourHeat": 10000,
+        "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
+        "buildPoints": 96,
+        "buildPower": 30,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 2913.722666131566,
+        "hitpoints": 259.3875222282446,
         "id": "Body13SUP",
         "model": "drmbod13.pie",
-        "name": "Wyvern [hvy]#5",
+        "name": "Wyvern [MH]#5",
         "powerOutput": 1750,
         "size": "LIGHT",
         "weaponSlots": 1,
-        "weight": 250,
+        "weight": 312.5,
         "propulsionExtraModels": {
             "HalfTrack": {
                 "left": "prhhtr3.pie"
@@ -518,20 +518,20 @@
         }
     },
     "Body14SUP": {
-        "armourHeat": 10000,
+        "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
+        "buildPoints": 96,
+        "buildPower": 30,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 4390.05082247989,
+        "hitpoints": 390.8142729352365,
         "id": "Body14SUP",
         "model": "drhbod14.pie",
-        "name": "Dragon [hvy]#6",
+        "name": "Dragon [MH]#6",
         "powerOutput": 1750,
         "size": "LIGHT",
         "weaponSlots": 1,
-        "weight": 250,
+        "weight": 312.5,
         "propulsionExtraModels": {
             "HalfTrack": {
                 "left": "prhhtr3.pie"
@@ -562,11 +562,11 @@
     "Body1REC": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 500,
+        "hitpoints": 50,
         "id": "Body1REC",
         "model": "drlbod01.pie",
         "name": "Viper [lgt]#1",
@@ -604,11 +604,11 @@
     "Body2SUP": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 804.2336055023715,
+        "hitpoints": 80.42336055023715,
         "id": "Body2SUP",
         "model": "drlbod02.pie",
         "name": "Leopard [lgt]#3",
@@ -646,11 +646,11 @@
     "Body3MBT": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1025.9101319920983,
+        "hitpoints": 102.5910131992098,
         "id": "Body3MBT",
         "model": "drlbod03.pie",
         "name": "Retaliation [lgt]#4",
@@ -688,11 +688,11 @@
     "Body4ABT": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 632.0555387570098,
+        "hitpoints": 63.20555387570097,
         "id": "Body4ABT",
         "model": "drlbod04.pie",
         "name": "Bug [lgt]#2",
@@ -730,11 +730,11 @@
     "Body5REC": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 993.769275862911,
+        "hitpoints": 99.37692758629109,
         "id": "Body5REC",
         "model": "drmbod05.pie",
         "name": "Cobra [med]#1",
@@ -772,11 +772,11 @@
     "Body6SUPP": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1598.4452955294194,
+        "hitpoints": 159.84452955294194,
         "id": "Body6SUPP",
         "model": "drmbod06.pie",
         "name": "Panther [med]#3",
@@ -814,11 +814,11 @@
     "Body7ABT": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 2039.0359379404217,
+        "hitpoints": 203.9035937940421,
         "id": "Body7ABT",
         "model": "drmbod07.pie",
         "name": "Retribution [med]#4",
@@ -856,11 +856,11 @@
     "Body8MBT": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1256.2347501113913,
+        "hitpoints": 125.6234750111391,
         "id": "Body8MBT",
         "model": "drmbod08.pie",
         "name": "Scorpion [med]#2",
@@ -896,20 +896,20 @@
         }
     },
     "Body9REC": {
-        "armourHeat": 10000,
+        "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
+        "buildPoints": 96,
+        "buildPower": 30,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1942.1342672708743,
+        "hitpoints": 172.89407851941826,
         "id": "Body9REC",
         "model": "drhbod09.pie",
-        "name": "Tiger [hvy]#3",
+        "name": "Tiger [MH]#3",
         "powerOutput": 1750,
         "size": "LIGHT",
         "weaponSlots": 1,
-        "weight": 250,
+        "weight": 312.5,
         "propulsionExtraModels": {
             "HalfTrack": {
                 "left": "prhhtr3.pie"
@@ -940,10 +940,10 @@
     "BusBody": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 495.50292830801493,
+        "hitpoints": 49.550292830801496,
         "id": "BusBody",
         "model": "exschool.pie",
         "name": "*School Bus Body* [xlgt]#6",
@@ -956,11 +956,11 @@
     "CyborgHeavyBody": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Cyborgs",
         "droidType": "CYBORG_SUPER",
-        "hitpoints": 1031.9356584166994,
+        "hitpoints": 103.19356584166995,
         "id": "CyborgHeavyBody",
         "model": "scbd_std.pie",
         "name": "Cyborg Heavy Body [med]#2",
@@ -1000,11 +1000,11 @@
     "CyborgLightBody": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Cyborgs",
         "droidType": "CYBORG",
-        "hitpoints": 500,
+        "hitpoints": 50,
         "id": "CyborgLightBody",
         "model": "cybd_std.pie",
         "name": "Cyborg Light Body [lgt]#1",
@@ -1044,10 +1044,10 @@
     "FireBody": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Babas",
-        "hitpoints": 632.802801683694,
+        "hitpoints": 63.2802801683694,
         "id": "FireBody",
         "model": "exfire.pie",
         "name": "*Fire Engine Body* [xlgt]#8",
@@ -1106,11 +1106,11 @@
     "CyborgHeavyBody-2120": {
         "armourHeat": 10000,
         "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
+        "buildPoints": 136,
+        "buildPower": 42,
         "class": "Cyborgs",
         "droidType": "CYBORG_SUPER",
-        "hitpoints": 1175.3767810703787,
+        "hitpoints": 117.53767810703788,
         "id": "CyborgHeavyBody-2120",
         "model": "scbd_std-2120.pie",
         "name": "Cyborg Super Heavy Body [hvy]#3",
@@ -1147,14 +1147,518 @@
             }
         }
     },
+    "Body17LGT-contingency": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 48,
+        "buildPower": 15,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 70.52718130239846,
+        "id": "Body17LGT-contingency",
+        "model": "drlbod17-contingency.pie",
+        "name": "Falcon [LM]#1",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 500,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prlhtr1.pie"
+            },
+            "Helicopter": {
+                "left": "prlheli1.pie",
+                "still": "lightheli_rotor_stationary.pie",
+                "moving": "fxheli01.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prlvtl1.pie",
+                "moving": "fxvtl01.pie"
+            },
+            "hover01": {
+                "left": "prlhov1.pie"
+            },
+            "tracked01": {
+                "left": "prltrk1.pie"
+            },
+            "wheeled01": {
+                "left": "prlwhl1.pie"
+            }
+        }
+    },
+    "Body16MED-contingency": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 48,
+        "buildPower": 15,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 85.67790276266025,
+        "id": "Body16MED-contingency",
+        "model": "drmbod16-contingency.pie",
+        "name": "Salamander [LM]#2",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 500,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prmhtr2.pie"
+            },
+            "Helicopter": {
+                "left": "prmheli1.pie",
+                "still": "mediumheli_rotor_stationary.pie",
+                "moving": "fxheli5to8.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prmvtl1.pie",
+                "moving": "fxvtl5to8.pie"
+            },
+            "hover01": {
+                "left": "prmhov1.pie"
+            },
+            "tracked01": {
+                "left": "prmtrk2.pie"
+            },
+            "wheeled01": {
+                "left": "prmwhl1.pie"
+            }
+        }
+    },
+    "Body18MED-contingency": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 48,
+        "buildPower": 15,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 104.65033497573592,
+        "id": "Body18MED-contingency",
+        "model": "drmbod18-contingency.pie",
+        "name": "Warhawk [LM]#3",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 500,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prmhtr2.pie"
+            },
+            "Helicopter": {
+                "left": "prmheli1.pie",
+                "still": "mediumheli_rotor_stationary.pie",
+                "moving": "fxheli5to8.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prmvtl1.pie",
+                "moving": "fxvtl5to8.pie"
+            },
+            "hover01": {
+                "left": "prmhov1.pie"
+            },
+            "tracked01": {
+                "left": "prmtrk2.pie"
+            },
+            "wheeled01": {
+                "left": "prmwhl1.pie"
+            }
+        }
+    },
+    "Body20LGT-contingency": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 48,
+        "buildPower": 15,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 128.09313487339062,
+        "id": "Body20LGT-contingency",
+        "model": "drlbod20-contingency.pie",
+        "name": "Gladius [LM]#4",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 500,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prlhtr1.pie"
+            },
+            "Helicopter": {
+                "left": "prlheli1.pie",
+                "still": "lightheli_rotor_stationary.pie",
+                "moving": "fxheli01.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prlvtl1.pie",
+                "moving": "fxvtl01.pie"
+            },
+            "hover01": {
+                "left": "prlhov1.pie"
+            },
+            "tracked01": {
+                "left": "prltrk1.pie"
+            },
+            "wheeled01": {
+                "left": "prlwhl1.pie"
+            }
+        }
+    },
+    "Body21MED-contingency": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 48,
+        "buildPower": 15,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 157.00359041887725,
+        "id": "Body21MED-contingency",
+        "model": "drmbod21-contingency.pie",
+        "name": "Longsword [LM]#5",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 500,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prmhtr2.pie"
+            },
+            "Helicopter": {
+                "left": "prmheli1.pie",
+                "still": "mediumheli_rotor_stationary.pie",
+                "moving": "fxheli5to8.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prmvtl1.pie",
+                "moving": "fxvtl5to8.pie"
+            },
+            "hover01": {
+                "left": "prmhov1.pie"
+            },
+            "tracked01": {
+                "left": "prmtrk2.pie"
+            },
+            "wheeled01": {
+                "left": "prmwhl1.pie"
+            }
+        }
+    },
+    "Body22HVY-contingency": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 48,
+        "buildPower": 15,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 236.55433966396777,
+        "id": "Body22HVY-contingency",
+        "model": "drhbod22-contingency.pie",
+        "name": "Claymore [LM]#6",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 500,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body23SUP-contingency": {
+        "armourHeat": 10000,
+        "armourKinetic": 0,
+        "buildPoints": 136,
+        "buildPower": 42,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 130.8865906766301,
+        "id": "Body23SUP-contingency",
+        "model": "drsbod23-contingency.pie",
+        "name": "Couatl [hvy]#1",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 250,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body24SUP-contingency": {
+        "armourHeat": 10000,
+        "armourKinetic": 0,
+        "buildPoints": 136,
+        "buildPower": 42,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 159.00378239768196,
+        "id": "Body24SUP-contingency",
+        "model": "drsbod24-contingency.pie",
+        "name": "Abaddon [hvy]#2",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 250,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body25SUP-contingency": {
+        "armourHeat": 10000,
+        "armourKinetic": 0,
+        "buildPoints": 136,
+        "buildPower": 42,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 194.21342672708744,
+        "id": "Body25SUP-contingency",
+        "model": "drsbod25-contingency.pie",
+        "name": "Sabretooth [hvy]#3",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 250,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body26SUP-contingency": {
+        "armourHeat": 10000,
+        "armourKinetic": 0,
+        "buildPoints": 136,
+        "buildPower": 42,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 237.7193218707252,
+        "id": "Body26SUP-contingency",
+        "model": "drsbod26-contingency.pie",
+        "name": "Phoenix [hvy]#4",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 250,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body27SUP-contingency": {
+        "armourHeat": 10000,
+        "armourKinetic": 0,
+        "buildPoints": 136,
+        "buildPower": 42,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 291.37226661315657,
+        "id": "Body27SUP-contingency",
+        "model": "drsbod27-contingency.pie",
+        "name": "Excalibur [hvy]#5",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 250,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body28SUP-contingency": {
+        "armourHeat": 10000,
+        "armourKinetic": 0,
+        "buildPoints": 136,
+        "buildPower": 42,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 439.00508224798915,
+        "id": "Body28SUP-contingency",
+        "model": "drsbod28-contingency.pie",
+        "name": "Nemesis [hvy]#6",
+        "powerOutput": 1750,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 250,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
     "B1BaBaPerson01-nrs": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 170,
-        "buildPower": 53,
+        "buildPoints": 17,
+        "buildPower": 5,
         "class": "Cyborgs",
         "droidType": "CYBORG",
-        "hitpoints": 263.03067516967843,
+        "hitpoints": 26.303067516967843,
         "id": "B1BaBaPerson01-nrs",
         "model": "exbloke.pie",
         "name": "*BaBa Body* [xlgt]#1",
@@ -1168,11 +1672,11 @@
     "Body3MBT-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 666.0721990958724,
+        "hitpoints": 66.60721990958724,
         "id": "Body3MBT-2120",
         "model": "drlbod03-2120.pie",
         "name": "Lizard [lgt]#3",
@@ -1210,11 +1714,11 @@
     "Body7ALT-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 938.8402061493997,
+        "hitpoints": 93.88402061493997,
         "id": "Body7ALT-2120",
         "model": "salamander-2120.pie",
         "name": "Salamander [med]#1",
@@ -1252,11 +1756,11 @@
     "Body1UPG-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 472.3632682919206,
+        "hitpoints": 47.23632682919206,
         "id": "Body1UPG-2120",
         "model": "resurgence-2120.pie",
         "name": "Resurgence [lgt]#1",
@@ -1294,11 +1798,11 @@
     "Body2SUP-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 560.4133153087328,
+        "hitpoints": 56.04133153087328,
         "id": "Body2SUP-2120",
         "model": "drlbod02-2120.pie",
         "name": "Opal [lgt]#2",
@@ -1336,11 +1840,11 @@
     "Body3SUP-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 792.5845241237026,
+        "hitpoints": 79.25845241237027,
         "id": "Body3SUP-2120",
         "model": "shark-2120.pie",
         "name": "Shark [lgt]#4",
@@ -1378,11 +1882,11 @@
     "Body3ALT-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 943.9575193206173,
+        "hitpoints": 94.39575193206174,
         "id": "Body3ALT-2120",
         "model": "wyrmling-2120.pie",
         "name": "Wyrmling [lgt]#5",
@@ -1420,11 +1924,11 @@
     "Body4ABT-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1125.0338575496132,
+        "hitpoints": 112.50338575496136,
         "id": "Body4ABT-2120",
         "model": "drlbod04-2120.pie",
         "name": "Bee [lgt]#6",
@@ -1462,11 +1966,11 @@
     "Body4UPG-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 341,
-        "buildPower": 106,
+        "buildPoints": 34,
+        "buildPower": 10,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1341.6350138803753,
+        "hitpoints": 134.16350138803756,
         "id": "Body4UPG-2120",
         "model": "stingray-2120.pie",
         "name": "Stingray [lgt]#7",
@@ -1501,560 +2005,14 @@
             }
         }
     },
-    "Body9REC-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 1143.9111236566239,
-        "id": "Body9REC-2120",
-        "model": "drhbod09-2120.pie",
-        "name": "Diamond [hvy]#1",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body10REC-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 1252.7710575115743,
-        "id": "Body10REC-2120",
-        "model": "sharkwhale-2120.pie",
-        "name": "SharkWhale [hvy]#2",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body12SUPP-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 1373.3026444579505,
-        "id": "Body12SUPP-2120",
-        "model": "bluewhale-2120.pie",
-        "name": "BlueWhale [hvy]#3",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body10ALT-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 1506.373935081494,
-        "id": "Body10ALT-2120",
-        "model": "komodo-2120.pie",
-        "name": "Komodo Dragon [hvy]#4",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body7ABT-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 1653.1139815851946,
-        "id": "Body7ABT-2120",
-        "model": "drmbod07-2120.pie",
-        "name": "Drake [hvy]#5",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prmhtr2.pie"
-            },
-            "Helicopter": {
-                "left": "prmheli1.pie",
-                "still": "mediumheli_rotor_stationary.pie",
-                "moving": "fxheli5to8.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prmvtl1.pie",
-                "moving": "fxvtl5to8.pie"
-            },
-            "hover01": {
-                "left": "prmhov1.pie"
-            },
-            "tracked01": {
-                "left": "prmtrk2.pie"
-            },
-            "wheeled01": {
-                "left": "prmwhl1.pie"
-            }
-        }
-    },
-    "Body11UPG-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 1814.8289416062075,
-        "id": "Body11UPG-2120",
-        "model": "armageddon-2120.pie",
-        "name": "Armageddon [hvy]#6",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body12SUP-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 1992.9874194281867,
-        "id": "Body12SUP-2120",
-        "model": "drhbod12-2120.pie",
-        "name": "Hornet [hvy]#7",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body12UPG-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 2189.2238789273397,
-        "id": "Body12UPG-2120",
-        "model": "raymantis-2120.pie",
-        "name": "Raymantis [hvy]#8",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body14SUP-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 2405.3492999011173,
-        "id": "Body14SUP-2120",
-        "model": "drhbod14-2120.pie",
-        "name": "NightWing [hvy]#9",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body13SUP-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 2643.365870461174,
-        "id": "Body13SUP-2120",
-        "model": "drmbod13-2120.pie",
-        "name": "Horror Wyvern [hvy]#10",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body17SUUP-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 2905.4846166141365,
-        "id": "Body17SUUP-2120",
-        "model": "gigahornet-2120.pie",
-        "name": "GiGaHornet [hvy]#11",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body26SUP-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 3194.1456048291934,
-        "id": "Body26SUP-2120",
-        "model": "gigadiamond-2120.pie",
-        "name": "Titanium Diamond [hvy]#12",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
-    "Body27SUP-2120": {
-        "armourHeat": 10000,
-        "armourKinetic": 0,
-        "buildPoints": 1365,
-        "buildPower": 425,
-        "class": "Droids",
-        "designable": 1,
-        "hitpoints": 3512.040657983912,
-        "id": "Body27SUP-2120",
-        "model": "masshornet-2120.pie",
-        "name": "Mass Hornet [hvy]#13",
-        "powerOutput": 2450,
-        "size": "LIGHT",
-        "weaponSlots": 1,
-        "weight": 250,
-        "propulsionExtraModels": {
-            "HalfTrack": {
-                "left": "prhhtr3.pie"
-            },
-            "Helicopter": {
-                "left": "prhheli3.pie",
-                "still": "heavyheli_rotor_stationary.pie",
-                "moving": "fxheli11.pie"
-            },
-            "Naval": {
-                "left": "prhnaval1-2120.pie"
-            },
-            "V-Tol": {
-                "left": "prhvtl3.pie",
-                "moving": "fxvtl11.pie"
-            },
-            "hover01": {
-                "left": "prhhov1.pie"
-            },
-            "tracked01": {
-                "left": "prhtrk3.pie"
-            },
-            "wheeled01": {
-                "left": "prhwhl1.pie"
-            }
-        }
-    },
     "Body8MBT-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1113.8430690765852,
+        "hitpoints": 111.38430690765853,
         "id": "Body8MBT-2120",
         "model": "drmbod08-2120.pie",
         "name": "Wasp [med]#2",
@@ -2092,11 +2050,11 @@
     "Body8UPG-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1323.8441739358434,
+        "hitpoints": 132.38441739358436,
         "id": "Body8UPG-2120",
         "model": "mantisb-2120.pie",
         "name": "MantisB [med]#3",
@@ -2134,11 +2092,11 @@
     "Body16MBTT-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1575.2922971971238,
+        "hitpoints": 157.5292297197124,
         "id": "Body16MBTT-2120",
         "model": "dolichovespula-2120.pie",
         "name": "Dolichovespula [med]#4",
@@ -2176,11 +2134,11 @@
     "Body25DKD-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 1876.151960841199,
+        "hitpoints": 187.61519608411993,
         "id": "Body25DKD-2120",
         "model": "darkdrake-2120.pie",
         "name": "Nightmare Drake [med]#5",
@@ -2218,11 +2176,11 @@
     "Body6SUPP-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 2236.0481638766723,
+        "hitpoints": 223.60481638766734,
         "id": "Body6SUPP-2120",
         "model": "drmbod06-2120.pie",
         "name": "Crystal [med]#6",
@@ -2260,11 +2218,11 @@
     "Body7SUPP-2120": {
         "armourHeat": 0,
         "armourKinetic": 0,
-        "buildPoints": 682,
-        "buildPower": 212,
+        "buildPoints": 68,
+        "buildPower": 21,
         "class": "Droids",
         "designable": 1,
-        "hitpoints": 2666.5513124324534,
+        "hitpoints": 266.6551312432454,
         "id": "Body7SUPP-2120",
         "model": "hammerhead-2120.pie",
         "name": "HammerHead [med]#7",
@@ -2296,6 +2254,552 @@
             },
             "wheeled01": {
                 "left": "prmwhl1.pie"
+            }
+        }
+    },
+    "Body9REC-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 101.83408169335391,
+        "id": "Body9REC-2120",
+        "model": "drhbod09-2120.pie",
+        "name": "Diamond [MH]#1",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body10REC-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 111.52508929705807,
+        "id": "Body10REC-2120",
+        "model": "sharkwhale-2120.pie",
+        "name": "SharkWhale [MH]#2",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body12SUPP-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 122.25513922654135,
+        "id": "Body12SUPP-2120",
+        "model": "bluewhale-2120.pie",
+        "name": "BlueWhale [MH]#3",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body10ALT-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 134.10150770758227,
+        "id": "Body10ALT-2120",
+        "model": "komodo-2120.pie",
+        "name": "Komodo Dragon [MH]#4",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body7ABT-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 147.16470604031392,
+        "id": "Body7ABT-2120",
+        "model": "drmbod07-2120.pie",
+        "name": "Drake [MH]#5",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prmhtr2.pie"
+            },
+            "Helicopter": {
+                "left": "prmheli1.pie",
+                "still": "mediumheli_rotor_stationary.pie",
+                "moving": "fxheli5to8.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prmvtl1.pie",
+                "moving": "fxvtl5to8.pie"
+            },
+            "hover01": {
+                "left": "prmhov1.pie"
+            },
+            "tracked01": {
+                "left": "prmtrk2.pie"
+            },
+            "wheeled01": {
+                "left": "prmwhl1.pie"
+            }
+        }
+    },
+    "Body11UPG-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 161.56101193265934,
+        "id": "Body11UPG-2120",
+        "model": "armageddon-2120.pie",
+        "name": "Armageddon [MH]#6",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body12SUP-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 177.42116453515558,
+        "id": "Body12SUP-2120",
+        "model": "drhbod12-2120.pie",
+        "name": "Hornet [MH]#7",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body12UPG-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 194.89066827070098,
+        "id": "Body12UPG-2120",
+        "model": "raymantis-2120.pie",
+        "name": "Raymantis [MH]#8",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body14SUP-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 214.13074148993897,
+        "id": "Body14SUP-2120",
+        "model": "drhbod14-2120.pie",
+        "name": "NightWing [MH]#9",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body13SUP-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 235.31962442806872,
+        "id": "Body13SUP-2120",
+        "model": "drmbod13-2120.pie",
+        "name": "Horror Wyvern [MH]#10",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body17SUUP-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 258.6541486381093,
+        "id": "Body17SUUP-2120",
+        "model": "gigahornet-2120.pie",
+        "name": "GiGaHornet [MH]#11",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body26SUP-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 284.3515354784529,
+        "id": "Body26SUP-2120",
+        "model": "gigadiamond-2120.pie",
+        "name": "Titanium Diamond [MH]#12",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        }
+    },
+    "Body27SUP-2120": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 96,
+        "buildPower": 30,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 312.65141834818905,
+        "id": "Body27SUP-2120",
+        "model": "masshornet-2120.pie",
+        "name": "Mass Hornet [MH]#13",
+        "powerOutput": 2450,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 312.5,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1-2120.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl3.pie",
+                "moving": "fxvtl11.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
             }
         }
     }

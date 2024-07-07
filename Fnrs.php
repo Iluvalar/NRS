@@ -56,8 +56,12 @@ function Fnrs_add($info){ //First store all the things to add in a neat array th
 	if (in_array("hvy", $as )) { $weight="hvy"; }
 	if (in_array("lgt", $as )) { $weight="lgt"; }
 	if (in_array("xlgt", $as )) { $weight="xlgt"; }
+	if (in_array("LM", $as )) {$weight='LM';}
+	if (in_array("MH", $as )) {$weight='MH';}
+	
 	if (in_array("prop", $as )) { $weight="prop"; }
 	if (in_array("Cyb", $as )) { $weight="Cyb"; }
+	
 	
 	$exp=explode(',',$info['use']);
 	$info['id']=$exp[0];
@@ -66,7 +70,7 @@ function Fnrs_add($info){ //First store all the things to add in a neat array th
 	$sys['nrs']['add'][ $info['faction'] ][ $weight ][ $target ][]=$info;
 }
 
-function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,$name=''){ //generate entire lines of upgrade
+function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,$name='',$sufix=''){ //generate entire lines of upgrade
 	//$id=$filtername .'-'. $param .'-'. 1;
 	global $sys;
 	$x=0;
@@ -79,7 +83,7 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$temp['iconID']='IMAGE_RES_POWERTECH';
 		}
 		
-		$temp['id']='R-'. $filtername .'-'. $param .'-'. $x;
+		$temp['id']='R-'. $filtername .'-'. $param .'-'. $sufix .'-'. $x;
 		if($name==''){
 			$name=$temp['id'];
 		}
@@ -157,30 +161,108 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$r['value']=floor($r['value']);
 			*/
 			//$temp['results'][]=$r;
+			$subclssesno=array_search($filtername,$sys['nrs']['subclsses']);
 			foreach($sys['nrs']['subclsses'] as $no=>$classeName){
 				if($classeName!=''){
+					
+					
 					$factor=1;
-					$subclssesno=array_search($filtername,$sys['nrs']['subclsses']);
-					if($sys['nrs']['subclssesEffect'][$subclssesno]!=$sys['nrs']['subclssesEffect'][$no]){
-						$factor*=.85;
+					
+					#if($sys['nrs']['subclssesEffect'][$subclssesno]==$sys['nrs']['subclssesEffect'][$no]){
+					#	$factor*=.85;
+					#}
+					if($sys['nrs']['subclssesWeight'][$subclssesno]==$sys['nrs']['subclssesWeight'][$no]){
+						$factor=.2;
+						$r['filterValue']=$classeName;
+						$r['parameter']='FirePause';
+						$r['value']=ceil($value*$factor);
+						$temp['results'][]=$r;
+						$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+						$r['parameter']='ReloadTime';
+						$r['value']=ceil($value*$factor);
+						$temp['results'][]=$r;
+						
 					}
-					if($sys['nrs']['subclssesWeight'][$subclssesno]!=$sys['nrs']['subclssesWeight'][$no]){
-						$factor*=.85;
-					}
-					if($classeName==$filtername){$factor=1;}				
-					$r['filterValue']=$classeName;
-					$r['parameter']='FirePause';
-					$r['value']=ceil($value*$factor);
-					$temp['results'][]=$r;
-					$temp['subgroupIconID']="IMAGE_RES_GRPROF";
-					$r['parameter']='ReloadTime';
-					$r['value']=ceil($value*$factor);
-					$temp['results'][]=$r;
+					//if($classeName==$filtername){$factor=1;}				
+					
+					
 					echo $classeName .' '. $filtername .' ' . 	$subclssesno ;
 				}
 			}
+			$r['filterParameter']='Effect';
+			$r['filterValue']=$sys['nrs']['weaponEffect'][$sys['nrs']['subclssesEffect'][$subclssesno]];
+			$factor=.2;
+			$r['parameter']='FirePause';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+			$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+			$r['parameter']='ReloadTime';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+			unset($r['filterParameter']);
+			unset($r['filterValue']);
+			$factor=.6;
+			$r['parameter']='FirePause';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+			$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+			$r['parameter']='ReloadTime';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
 		}
-		if($param=="Damage" ){
+		if($param=="Damage"){
+			$totvalue=$totexp;
+			$value=$totvalue-$lastvalue;
+			$lastvalue=$totvalue;
+
+			$subclssesno=array_search($filtername,$sys['nrs']['subclsses']);
+			foreach($sys['nrs']['subclsses'] as $no=>$classeName){
+				if($classeName!=''){
+									
+
+					if($sys['nrs']['subclssesWeight'][$subclssesno]==$sys['nrs']['subclssesWeight'][$no]){
+						$factor=.2;
+						$r['filterValue']=$classeName;
+						$r['parameter']='Damage';
+						$r['value']=ceil($value*$factor);
+						$temp['results'][]=$r;
+						$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+						$r['parameter']='RadiusDamage';
+						$r['value']=ceil($value*$factor);
+						$temp['results'][]=$r;
+						
+					}
+					//if($classeName==$filtername){$factor=1;}				
+					
+					
+					echo $classeName .' '. $filtername .' ' . 	$subclssesno ;
+				}
+			}
+			$r['filterParameter']='Effect';
+			$r['filterValue']=$sys['nrs']['weaponEffect'][$sys['nrs']['subclssesEffect'][$subclssesno]];
+			$factor=.2;
+			$r['parameter']='Damage';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+			$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+			$r['parameter']='RadiusDamage';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+			unset($r['filterParameter']);
+			unset($r['filterValue']);
+			$factor=.6;
+			$r['parameter']='Damage';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+			$temp['subgroupIconID']="IMAGE_RES_GRPROF";
+			$r['parameter']='RadiusDamage';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+			$r['parameter']='BuildPower';
+			$r['value']=ceil($value*$factor);
+			$temp['results'][]=$r;
+		}
+		if($param=="Damage2" ){
 			$totvalue=$totexp;
 			$value=$totvalue-$lastvalue;
 			//$r['value']=$totvalue-$lastvalue;
@@ -354,6 +436,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("xlgt", $val3['as'] )) {$weight='xlgt';}
 					if (in_array("lgt", $val3['as'] )) {$weight='lgt';}
 					if (in_array("hvy", $val3['as'] )) {$weight='hvy';}
+					if (in_array("LM", $val3['as'] )) {$weight='LM';}
+					if (in_array("MH", $val3['as'] )) {$weight='MH';}
 
 					if (in_array("insta", $val3['as'] )) {$resstartfrac=0; }
 					if (in_array("joke", $val3['as'] )) {$resstartfrac=.1; }
@@ -499,6 +583,15 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$nbweight='LIGHT';
 							$nbweight2='LIGHT';
 						}
+						if($weight=="LM"){
+							$weightfact*=$fig**.5;
+							$price*=$fig**.5;
+							$pow*=$figbase/Fwz_fig($nbase * $fig**-0.5);
+							$bodhp*=$bodyMod**1.5;
+							$wepweight=4/8;
+							$nbweight='MEDIUM';
+							$nbweight2='MEDIUM';
+						}
 						if($weight=="med"){
 							$weightfact*=$fig;
 							$price*=$fig;
@@ -507,6 +600,16 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$wepweight=7/12;
 							$nbweight='MEDIUM';
 							$nbweight2='MEDIUM';
+						}
+						if($weight=="MH"){
+							$weightfact*=$fig**1.5;
+							$price*=$fig**1.5;
+							$pow*=$figbase/Fwz_fig($nbase * $fig**-1.5);
+							$bodhp*=$bodyMod**0.5;
+							$wepweight=5.5/8;
+							$wephp=1/6;
+							$nbweight='HEAVY';
+							$nbweight2='HEAVY';
 						}
 						if($weight=="hvy"){
 							$weightfact*=$fig*$fig;
@@ -637,18 +740,35 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						
 						if($type=='weapons'){
 							$temp['subgroupIconID']="IMAGE_RES_WEAPONTECH";
-							if(!isset($subclass)){
-								$subclass=$sys['nrs']['subclsses'][ ++$sys['nrs']['subclssescount']];
-							}
+
 							
-							if (in_array("AW", $val3['as'] )) {$hooman='AW';$weaponEffect="ALL ROUNDER"; $nbroles='[ 0.4, 0.3, 0.1, 0.2 ]'; }
-							if (in_array("AS", $val3['as'] )) {$hooman='AS';$weaponEffect="ARTILLERY ROUND"; $nbroles='[ 0.1, 0.2, 0.5, 0.2 ]'; }
-							if (in_array("AT", $val3['as'] )) {$hooman='AT';$weaponEffect="ANTI TANK"; $nbroles='[ 0.5, 0.1, 0.2, 0.2 ]'; }
-							if (in_array("AP", $val3['as'] )) {$hooman='AP';$weaponEffect="ANTI PERSONNEL"; $nbroles='[ 0.1, 0.5, 0.2, 0.2 ]'; }
-							if (in_array("AN", $val3['as'] )) {$hooman='AN';$weaponEffect="FLAMER"; $nbroles='[ 0.3, 0.3, 0.3, 0.3 ]'; }
+							if (in_array("AW", $val3['as'] )) {$nocl=0;$hooman='AW';$weaponEffect="ALL ROUNDER"; $nbroles='[ 0.4, 0.3, 0.1, 0.2 ]'; }
+							if (in_array("AS", $val3['as'] )) {$nocl=1;$hooman='AS';$weaponEffect="ARTILLERY ROUND"; $nbroles='[ 0.1, 0.2, 0.5, 0.2 ]'; }
+							if (in_array("AT", $val3['as'] )) {$nocl=2;$hooman='AT';$weaponEffect="ANTI TANK"; $nbroles='[ 0.5, 0.1, 0.2, 0.2 ]'; }
+							if (in_array("AP", $val3['as'] )) {$nocl=3;$hooman='AP';$weaponEffect="ANTI PERSONNEL"; $nbroles='[ 0.1, 0.5, 0.2, 0.2 ]'; }
+							if (in_array("AN", $val3['as'] )) {$nocl=4;$hooman='AN';$weaponEffect="FLAMER"; $nbroles='[ 0.3, 0.3, 0.3, 0.3 ]'; }
 							if (in_array("brain", $val3['as'])  or $braindetect ) {$price*=2; $wephp+=2; $item2['Prevalue']*=3; echo '<br><b>brain weap</b>';}
 							if (in_array("FOM", $val3['as'] )) { $item['fireOnMove']=1; }
 							$sys['nrs']['subclssesCheat'][$subclass]=$weaponEffect .' '. $weight; 
+							$noclf=($nocl*3)+1;
+							if($weight=="med"){$noclf+=1;}
+							if($weight=="hvy"){$noclf+=2;}
+							
+						
+							
+							if(!isset($subclass)){
+								$subclass=$sys['nrs']['subclsses'][$noclf];
+								echo 'noclf:'. $item['id'] .'--'. $nocl .' '. $noclf .' '. $subclass .'<br>';
+								
+								/*
+								if (in_array("NRSp", $val3['as'] )) {
+									$subclass='BOMB';
+								}
+								else{
+									$subclass=$sys['nrs']['subclsses'][ ++$sys['nrs']['subclssescount']];
+								}
+								*/
+							}
 							#fireOnMove
 							$sys['nrs']['nb'][$linename]['roles']=$nbroles;
 							$item['buildPower']=floor($price);
@@ -776,10 +896,10 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								if($no==0){
 									$thisname='';
 									if($val3['call']!=''){	$thisname=$val3['call'] .' damage';	}
-									Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'Damage',$exp[0] .$sufix,$id,1,$thisname);
+									Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'Damage',$exp[0] .$sufix,$id,1,$thisname,$sufix);
 									$sys['nrs']['nb'][$linename]['extras'][]=$sys['nrs']['nb']['temp'];
 									if($val3['call']!=''){	$thisname=$val3['call'] .' ROF';	}
-									Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'FirePause',$exp[0] .$sufix,$id,1,$thisname);
+									Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'FirePause',$exp[0] .$sufix,$id,1,$thisname,$sufix);
 									$sys['nrs']['nb'][$linename]['extras'][]=$sys['nrs']['nb']['temp'];
 									#if($val3['call']!=''){	$thisname=$val3['call'] .' power';	}
 									#Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'buildPower',$exp[0] .$sufix,$id,1,$thisname);
@@ -1049,3 +1169,16 @@ function Fwz_NRS_dist(&$d,$var){ //scale distance of the whole mod.
 $sys['nrs']['dmgunit']=1;
 $sys['nrs']['powerunit']=1;
 $sys['nrs']['dmgscale']=1;
+$sys['nrs']['weaponEffect']['AW']="ALL ROUNDER";
+$sys['nrs']['weaponEffect']['AS']="ARTILLERY ROUND";
+$sys['nrs']['weaponEffect']['AT']="ANTI TANK";
+$sys['nrs']['weaponEffect']['AP']="ANTI PERSONNEL";
+$sys['nrs']['weaponEffect']['AN']="FLAMER";
+
+/*
+							if (in_array("AW", $val3['as'] )) {$hooman='AW';$weaponEffect="ALL ROUNDER"; $nbroles='[ 0.4, 0.3, 0.1, 0.2 ]'; }
+							if (in_array("AS", $val3['as'] )) {$hooman='AS';$weaponEffect="ARTILLERY ROUND"; $nbroles='[ 0.1, 0.2, 0.5, 0.2 ]'; }
+							if (in_array("AT", $val3['as'] )) {$hooman='AT';$weaponEffect="ANTI TANK"; $nbroles='[ 0.5, 0.1, 0.2, 0.2 ]'; }
+							if (in_array("AP", $val3['as'] )) {$hooman='AP';$weaponEffect="ANTI PERSONNEL"; $nbroles='[ 0.1, 0.5, 0.2, 0.2 ]'; }
+							if (in_array("AN", $val3['as'] )) {$hooman='AN';$weaponEffect="FLAMER"; $nbroles='[ 0.3, 0.3, 0.3, 0.3 ]'; }
+							*/

@@ -2764,6 +2764,335 @@
             "Missile-A-T"
         ]
     },
+    "Laser-AP1-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Light Laser [med AP] #1 Cyb-Mk0",
+        "id": "Laser-AP1-contingency-Cyb",
+        "weapons": [
+            "Laser-AP1-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody"
+    },
+    "Laser-AP2-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Laser [med AP] #2 Cyb-Mk1",
+        "id": "Laser-AP2-contingency-Cyb",
+        "weapons": [
+            "Laser-AP2-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-AP3-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Flashlight Laser [med AP] #3 Cyb-Mk2",
+        "id": "Laser-AP3-contingency-Cyb",
+        "weapons": [
+            "Laser-AP3-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-AP4-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Hyperion Laser [med AP] #4 Cyb-Mk3",
+        "id": "Laser-AP4-contingency-Cyb",
+        "weapons": [
+            "Laser-AP4-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-AA2-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Tempest AA Laser [med AP] #5 Cyb-Mk4",
+        "id": "Laser-AA2-contingency-Cyb",
+        "weapons": [
+            "Laser-AA2-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-Sonic-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Sonic Disrupter [med AP] #6 Cyb-Mk5",
+        "id": "Laser-Sonic-contingency-Cyb",
+        "weapons": [
+            "Laser-Sonic-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-AT1-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Laser Cannon [med AT] #1 Cyb-Mk0",
+        "id": "Laser-AT1-contingency-Cyb",
+        "weapons": [
+            "Laser-AT1-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-AT2-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Laser Cannon [med AT] #2 Cyb-Mk1",
+        "id": "Laser-AT2-contingency-Cyb",
+        "weapons": [
+            "Laser-AT2-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-AT3-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Pulse Laser Cannon [med AT] #3 Cyb-Mk2",
+        "id": "Laser-AT3-contingency-Cyb",
+        "weapons": [
+            "Laser-AT3-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-AT4-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Pulse Laser Cannon [med AT] #4 Cyb-Mk3",
+        "id": "Laser-AT4-contingency-Cyb",
+        "weapons": [
+            "Laser-AT4-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-TankDest2Lgt-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Tankbuster Laser [med AT] #5 Cyb-Mk4",
+        "id": "Laser-TankDest2Lgt-contingency-Cyb",
+        "weapons": [
+            "Laser-TankDest2Lgt-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Laser-TankDestLgt-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Tankbuster Pulse Laser [med AT] #6 Cyb-Mk5",
+        "id": "Laser-TankDestLgt-contingency-Cyb",
+        "weapons": [
+            "Laser-TankDestLgt-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-Gauss-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gauss Mortar [med AS] #1 Cyb-Mk0",
+        "id": "Mortar-Gauss-contingency-Cyb",
+        "weapons": [
+            "Mortar-Gauss-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-GaussHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gauss Bombard [med AS] #2 Cyb-Mk1",
+        "id": "Mortar-GaussHvy-contingency-Cyb",
+        "weapons": [
+            "Mortar-GaussHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-GaussRamjet-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Longshot Mortar [med AS] #3 Cyb-Mk2",
+        "id": "Mortar-GaussRamjet-contingency-Cyb",
+        "weapons": [
+            "Mortar-GaussRamjet-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-GaussHvyPlas-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gauss Plasmite Bombard [med AS] #4 Cyb-Mk3",
+        "id": "Mortar-GaussHvyPlas-contingency-Cyb",
+        "weapons": [
+            "Mortar-GaussHvyPlas-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-GaussRot-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gauss Pepperpot [med AS] #5 Cyb-Mk4",
+        "id": "Mortar-GaussRot-contingency-Cyb",
+        "weapons": [
+            "Mortar-GaussRot-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-Ramjet-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Sureshot Mortar [med AS] #6 Cyb-Mk5",
+        "id": "Mortar-Ramjet-contingency-Cyb",
+        "weapons": [
+            "Mortar-Ramjet-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-GaussRotPlas-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gauss Plasmite Pepperpot [med AS] #7 Cyb-Mk6",
+        "id": "Mortar-GaussRotPlas-contingency-Cyb",
+        "weapons": [
+            "Mortar-GaussRotPlas-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-GaussRamjetHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Longshot Bombard [med AS] #8 Cyb-Mk7",
+        "id": "Mortar-GaussRamjetHvy-contingency-Cyb",
+        "weapons": [
+            "Mortar-GaussRamjetHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-RamjetRot-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Sureshot Pepperpot [med AS] #9 Cyb-Mk8",
+        "id": "Mortar-RamjetRot-contingency-Cyb",
+        "weapons": [
+            "Mortar-RamjetRot-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Mortar-RamjetHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Sureshot Bombard [med AS] #10 Cyb-Mk9",
+        "id": "Mortar-RamjetHvy-contingency-Cyb",
+        "weapons": [
+            "Mortar-RamjetHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-Shotgun-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Blunderbuss [med AW] #1 Cyb-Mk0",
+        "id": "Cannon-Shotgun-contingency-Cyb",
+        "weapons": [
+            "Cannon-Shotgun-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-HPVAslt-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Hyper-Velocity Assault Cannon [med AW] #2 Cyb-Mk1",
+        "id": "Cannon-HPVAslt-contingency-Cyb",
+        "weapons": [
+            "Cannon-HPVAslt-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-HPVGattling-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Shredder Cannon [med AW] #3 Cyb-Mk2",
+        "id": "Cannon-HPVGattling-contingency-Cyb",
+        "weapons": [
+            "Cannon-HPVGattling-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-HPVHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Hyper-Velocity Cannon [med AW] #4 Cyb-Mk3",
+        "id": "Cannon-HPVHvy-contingency-Cyb",
+        "weapons": [
+            "Cannon-HPVHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-HPVLgt-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Light Hyper-Velocity Cannon [med AW] #5 Cyb-Mk4",
+        "id": "Cannon-HPVLgt-contingency-Cyb",
+        "weapons": [
+            "Cannon-HPVLgt-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-HPVTankDestLgt-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "HPV Tankbuster Cannon [med AW] #6 Cyb-Mk5",
+        "id": "Cannon-HPVTankDestLgt-contingency-Cyb",
+        "weapons": [
+            "Cannon-HPVTankDestLgt-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-HPVTwinAslt-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Twin HPV Assault Cannon [med AW] #7 Cyb-Mk6",
+        "id": "Cannon-HPVTwinAslt-contingency-Cyb",
+        "weapons": [
+            "Cannon-HPVTwinAslt-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-Sniper-Bunker-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Sniper's Favorite Camping Spot [med AW] #8 Cyb-Mk7",
+        "id": "Cannon-Sniper-Bunker-contingency-Cyb",
+        "weapons": [
+            "Cannon-Sniper-Bunker-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
     "Laser3BEAMMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
@@ -2772,7 +3101,8 @@
         "weapons": [
             "Laser3BEAMMk1-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120"
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
     },
     "Cyb-Wpn-Laser-Cyb": {
         "type": "CYBORG",

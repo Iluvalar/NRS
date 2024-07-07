@@ -289,7 +289,14 @@ function powerStuff(){
 		}else if(tick%12==4){
 			//conText+=" Light outnumber Medium which outnumber Heavy which can't even feel Light";
 		}else if(tick%12==7){
-			conText+=" Structure <> Wheel , Track <> Personnal. H>L>M>H>L";
+			
+			var input=playerData[richestPlayer].name;
+			var output = 0;
+			for (let i = 0; i < input.length; i++) {
+				output += input[i].charCodeAt(0)*(26**i);
+			}
+			
+			conText+=" Structure <> Wheel , Track <> Personnal. H>L>M>H>L"+ output;
 		}else{
 			conText+=" Don't try anything ! This mod is made to be boring. Always Follow the rules !";
 		}
