@@ -258,9 +258,6 @@ function Fnrs_upgradeline($class,$filter,$filtername,$param,$id,$req,$resmult=1,
 			$r['parameter']='RadiusDamage';
 			$r['value']=ceil($value*$factor);
 			$temp['results'][]=$r;
-			$r['parameter']='BuildPower';
-			$r['value']=ceil($value*$factor);
-			$temp['results'][]=$r;
 		}
 		if($param=="Damage2" ){
 			$totvalue=$totexp;

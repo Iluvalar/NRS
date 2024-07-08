@@ -14243,11 +14243,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -14341,11 +14336,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -14441,11 +14431,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -14539,11 +14524,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -14639,11 +14619,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -14737,11 +14712,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -14837,11 +14807,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -14935,11 +14900,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -15035,11 +14995,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -15133,11 +15088,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -15233,11 +15183,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -15331,11 +15276,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -15431,11 +15371,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -15529,11 +15464,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -15629,11 +15559,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -15727,11 +15652,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -15827,11 +15747,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -15925,11 +15840,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -17843,11 +17753,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -17941,11 +17846,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -18041,11 +17941,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -18139,11 +18034,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -18239,11 +18129,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -18337,11 +18222,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -18437,11 +18317,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -18535,11 +18410,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -18635,11 +18505,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -18733,11 +18598,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -18833,11 +18693,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -18931,11 +18786,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -19031,11 +18881,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -19129,11 +18974,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -19229,11 +19069,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -19327,11 +19162,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -19427,11 +19257,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -19525,11 +19350,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -21443,11 +21263,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -21541,11 +21356,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -21641,11 +21451,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -21739,11 +21544,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -21839,11 +21639,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -21937,11 +21732,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -22037,11 +21827,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -22135,11 +21920,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -22235,11 +22015,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -22333,11 +22108,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -22433,11 +22203,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -22531,11 +22296,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -22631,11 +22391,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -22729,11 +22484,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -22829,11 +22579,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -22927,11 +22672,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -23027,11 +22767,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -23125,11 +22860,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -25127,11 +24857,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -25225,11 +24950,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -25325,11 +25045,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -25423,11 +25138,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -25523,11 +25233,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -25621,11 +25326,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -25721,11 +25421,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -25819,11 +25514,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -25919,11 +25609,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -26017,11 +25702,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -26117,11 +25797,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -26215,11 +25890,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -26315,11 +25985,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -26413,11 +26078,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -26513,11 +26173,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -26611,11 +26266,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -26711,11 +26361,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -26809,11 +26454,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -28949,11 +28589,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -29047,11 +28682,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -29147,11 +28777,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -29245,11 +28870,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -29345,11 +28965,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -29443,11 +29058,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -29543,11 +29153,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -29641,11 +29246,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -29741,11 +29341,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -29839,11 +29434,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -29939,11 +29529,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -30037,11 +29622,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -30137,11 +29717,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -30235,11 +29810,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -30335,11 +29905,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -30433,11 +29998,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -30533,11 +30093,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -30631,11 +30186,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -32559,11 +32109,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -32657,11 +32202,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -32757,11 +32297,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -32855,11 +32390,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -32955,11 +32485,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -33053,11 +32578,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -33153,11 +32673,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -33251,11 +32766,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -33351,11 +32861,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -33449,11 +32954,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -33549,11 +33049,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -33647,11 +33142,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -33747,11 +33237,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -33845,11 +33330,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -33945,11 +33425,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -34043,11 +33518,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -34143,11 +33613,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -34241,11 +33706,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -36214,11 +35674,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -36312,11 +35767,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -36412,11 +35862,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -36510,11 +35955,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -36610,11 +36050,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -36708,11 +36143,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -36808,11 +36238,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -36906,11 +36331,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -37006,11 +36426,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -37104,11 +36519,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -37204,11 +36614,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -37302,11 +36707,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -37402,11 +36802,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -37500,11 +36895,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -37600,11 +36990,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -37698,11 +37083,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -37798,11 +37178,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -37896,11 +37271,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -40122,11 +39492,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -40178,11 +39543,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -40236,11 +39596,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -40292,11 +39647,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -40350,11 +39700,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -40406,11 +39751,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -40464,11 +39804,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -40520,11 +39855,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -40578,11 +39908,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -40634,11 +39959,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -40692,11 +40012,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -40748,11 +40063,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -40806,11 +40116,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -40862,11 +40167,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -40920,11 +40220,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -40976,11 +40271,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -41034,11 +40324,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -41090,11 +40375,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -42290,11 +41570,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -42388,11 +41663,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -42488,11 +41758,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -42586,11 +41851,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -42686,11 +41946,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -42784,11 +42039,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -42884,11 +42134,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -42982,11 +42227,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -43082,11 +42322,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -43180,11 +42415,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -43280,11 +42510,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -43378,11 +42603,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -43478,11 +42698,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -43576,11 +42791,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -43676,11 +42886,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -43774,11 +42979,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -43874,11 +43074,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -43972,11 +43167,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -45879,11 +45069,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -45977,11 +45162,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -46077,11 +45257,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -46175,11 +45350,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -46275,11 +45445,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -46373,11 +45538,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -46473,11 +45633,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -46571,11 +45726,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -46671,11 +45821,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -46769,11 +45914,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -46869,11 +46009,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -46967,11 +46102,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -47067,11 +46197,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -47165,11 +46290,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -47265,11 +46385,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -47363,11 +46478,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -47463,11 +46573,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -47561,11 +46666,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -49490,11 +48590,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -49588,11 +48683,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -49688,11 +48778,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -49786,11 +48871,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -49886,11 +48966,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -49984,11 +49059,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -50084,11 +49154,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -50182,11 +49247,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -50282,11 +49342,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -50380,11 +49435,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -50480,11 +49530,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -50578,11 +49623,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -50678,11 +49718,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -50776,11 +49811,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -50876,11 +49906,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -50974,11 +49999,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -51074,11 +50094,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -51172,11 +50187,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -53215,11 +52225,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -53313,11 +52318,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -53413,11 +52413,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -53511,11 +52506,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -53611,11 +52601,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -53709,11 +52694,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -53809,11 +52789,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -53907,11 +52882,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -54007,11 +52977,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -54105,11 +53070,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -54205,11 +53165,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -54303,11 +53258,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -54403,11 +53353,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -54501,11 +53446,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -54601,11 +53541,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -54699,11 +53634,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -54799,11 +53729,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -54897,11 +53822,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -56797,11 +55717,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -56895,11 +55810,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -56995,11 +55905,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -57093,11 +55998,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -57193,11 +56093,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -57291,11 +56186,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -57391,11 +56281,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -57489,11 +56374,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -57589,11 +56469,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -57687,11 +56562,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -57787,11 +56657,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -57885,11 +56750,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -57985,11 +56845,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -58083,11 +56938,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -58183,11 +57033,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -58281,11 +57126,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -58381,11 +57221,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -58479,11 +57314,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -60488,11 +59318,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -60586,11 +59411,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -60686,11 +59506,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -60784,11 +59599,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -60884,11 +59694,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -60982,11 +59787,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -61082,11 +59882,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -61180,11 +59975,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -61280,11 +60070,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -61378,11 +60163,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -61478,11 +60258,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -61576,11 +60351,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -61676,11 +60446,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -61774,11 +60539,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -61874,11 +60634,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -61972,11 +60727,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -62072,11 +60822,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -62170,11 +60915,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -64151,11 +62891,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -64249,11 +62984,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -64349,11 +63079,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -64447,11 +63172,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -64547,11 +63267,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -64645,11 +63360,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -64745,11 +63455,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -64843,11 +63548,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -64943,11 +63643,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -65041,11 +63736,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -65141,11 +63831,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -65239,11 +63924,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -65339,11 +64019,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -65437,11 +64112,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -65537,11 +64207,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -65635,11 +64300,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -65735,11 +64395,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -65833,11 +64488,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -67735,11 +66385,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -67833,11 +66478,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -67933,11 +66573,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -68031,11 +66666,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -68131,11 +66761,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -68229,11 +66854,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -68329,11 +66949,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -68427,11 +67042,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -68527,11 +67137,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -68625,11 +67230,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -68725,11 +67325,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -68823,11 +67418,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -68923,11 +67513,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -69021,11 +67606,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -69121,11 +67701,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -69219,11 +67794,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -69319,11 +67889,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -69417,11 +67982,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -71377,11 +69937,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 8
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 8
             }
         ]
     },
@@ -71475,11 +70030,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 9
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 9
             }
         ]
@@ -71575,11 +70125,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 10
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 10
             }
         ]
     },
@@ -71673,11 +70218,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 12
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 12
             }
         ]
@@ -71773,11 +70313,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 13
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 13
             }
         ]
     },
@@ -71871,11 +70406,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 15
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 15
             }
         ]
@@ -71971,11 +70501,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 17
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 17
             }
         ]
     },
@@ -72069,11 +70594,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 19
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 19
             }
         ]
@@ -72169,11 +70689,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 22
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 22
             }
         ]
     },
@@ -72267,11 +70782,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 24
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 24
             }
         ]
@@ -72367,11 +70877,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 28
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 28
             }
         ]
     },
@@ -72465,11 +70970,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 31
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 31
             }
         ]
@@ -72565,11 +71065,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 35
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 35
             }
         ]
     },
@@ -72663,11 +71158,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 40
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 40
             }
         ]
@@ -72763,11 +71253,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 46
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 46
             }
         ]
     },
@@ -72861,11 +71346,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 52
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 52
             }
         ]
@@ -72961,11 +71441,6 @@
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
                 "value": 59
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
-                "value": 59
             }
         ]
     },
@@ -73059,11 +71534,6 @@
             {
                 "class": "Weapon",
                 "parameter": "RadiusDamage",
-                "value": 66
-            },
-            {
-                "class": "Weapon",
-                "parameter": "BuildPower",
                 "value": 66
             }
         ]
@@ -75262,49 +73732,79 @@
             "R-Fac-start"
         ]
     },
-    "R-NRS-Rotarywepslab-eco1": {
+    "R-NRS-Aerodynamicslab-eco1": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Rotarywepslab-eco"
+            "Aerodynamicslab-eco"
         ],
-        "statID": "Rotarywepslab-eco",
-        "id": "R-NRS-Rotarywepslab-eco1",
-        "name": "[med-def]Rotarywepslab-eco1 #1",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Aerodynamicslab-eco",
+        "id": "R-NRS-Aerodynamicslab-eco1",
+        "name": "[med-def]Aerodynamicslab-eco1 #1",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
             "R-Fac-start"
         ]
     },
-    "R-NRS-CoolingTower-eco1": {
+    "R-NRS-BarbWarehouse1-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "CoolingTower-eco"
+            "BarbWarehouse1-eco"
         ],
-        "statID": "CoolingTower-eco",
-        "id": "R-NRS-CoolingTower-eco1",
-        "name": "[med-def]*CoolingTower*-eco1 #2",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "BarbWarehouse1-eco",
+        "id": "R-NRS-BarbWarehouse1-eco1",
+        "name": "[med-def]BarbWarehouse1-eco1 #2",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco1"
+            "R-NRS-Aerodynamicslab-eco1"
         ]
     },
-    "R-NRS-Pickup-eco1": {
+    "R-NRS-BarbWarehouse3-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Pickup-eco"
+            "BarbWarehouse3-eco"
         ],
-        "statID": "Pickup-eco",
-        "id": "R-NRS-Pickup-eco1",
-        "name": "[med-def]Pickup-eco1 #3",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "BarbWarehouse3-eco",
+        "id": "R-NRS-BarbWarehouse3-eco1",
+        "name": "[med-def]BarbWarehouse3-eco1 #3",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-CoolingTower-eco1"
+            "R-NRS-BarbWarehouse1-eco1"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco1",
+        "name": "[med-def]AirTrafficControl-eco1 #4",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse3-eco1"
+        ]
+    },
+    "R-NRS-building12-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building12-eco"
+        ],
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco1",
+        "name": "[med-def]building12-eco1 #5",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
+        "requiredResearch": [
+            "R-NRS-AirTrafficControl-eco1"
         ]
     },
     "R-NRS-Forest-eco1": {
@@ -75315,86 +73815,86 @@
         ],
         "statID": "Forest-eco",
         "id": "R-NRS-Forest-eco1",
-        "name": "[med-def]Forest-eco1 #4",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[med-def]Forest-eco1 #6",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-Pickup-eco1"
+            "R-NRS-building12-eco1"
         ]
     },
-    "R-NRS-NuclearReactor-eco1": {
+    "R-NRS-arizonabush3-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "NuclearReactor-eco"
+            "arizonabush3-eco"
         ],
-        "statID": "NuclearReactor-eco",
-        "id": "R-NRS-NuclearReactor-eco1",
-        "name": "[med-def]*NuclearReactor*-eco1 #5",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "arizonabush3-eco",
+        "id": "R-NRS-arizonabush3-eco1",
+        "name": "[med-def]arizonabush3-eco1 #7",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
             "R-NRS-Forest-eco1"
         ]
     },
-    "R-NRS-Boulder3-eco1": {
+    "R-NRS-Tree-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Boulder3-eco"
+            "Tree-eco"
         ],
-        "statID": "Boulder3-eco",
-        "id": "R-NRS-Boulder3-eco1",
-        "name": "[med-def]Boulder3-eco1 #6",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco1",
+        "name": "[med-def]Tree-eco1 #8",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-NuclearReactor-eco1"
+            "R-NRS-arizonabush3-eco1"
         ]
     },
-    "R-NRS-A0ResourceExtractor-eco1": {
+    "R-NRS-Heavywepslab-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "A0ResourceExtractor-eco"
+            "Heavywepslab-eco"
         ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco1",
-        "name": "[med-def]Oil Derrick-eco1 #7",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Heavywepslab-eco",
+        "id": "R-NRS-Heavywepslab-eco1",
+        "name": "[med-def]Heavywepslab-eco1 #9",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-Boulder3-eco1"
+            "R-NRS-Tree-eco1"
         ]
     },
-    "R-NRS-Aerodynamicslab-eco1": {
+    "R-NRS-Advmaterialslab-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Aerodynamicslab-eco"
+            "Advmaterialslab-eco"
         ],
-        "statID": "Aerodynamicslab-eco",
-        "id": "R-NRS-Aerodynamicslab-eco1",
-        "name": "[med-def]Aerodynamicslab-eco1 #8",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco1",
+        "name": "[med-def]Advmaterialslab-eco1 #10",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco1"
+            "R-NRS-Heavywepslab-eco1"
         ]
     },
-    "R-NRS-SolarPower-eco1": {
+    "R-NRS-Propaganda-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "SolarPower-eco"
+            "Propaganda-eco"
         ],
-        "statID": "SolarPower-eco",
-        "id": "R-NRS-SolarPower-eco1",
-        "name": "[med-def]Solar panel-eco1 #9",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Propaganda-eco",
+        "id": "R-NRS-Propaganda-eco1",
+        "name": "[med-def]Propaganda Tower-eco1 #11",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-Aerodynamicslab-eco1"
+            "R-NRS-Advmaterialslab-eco1"
         ]
     },
     "R-NRS-road-eco1": {
@@ -75405,41 +73905,11 @@
         ],
         "statID": "road-eco",
         "id": "R-NRS-road-eco1",
-        "name": "[med-def]road-eco1 #10",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[med-def]road-eco1 #12",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-SolarPower-eco1"
-        ]
-    },
-    "R-NRS-Ruin1-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Ruin1-eco"
-        ],
-        "statID": "Ruin1-eco",
-        "id": "R-NRS-Ruin1-eco1",
-        "name": "[med-def]Ruin1-eco1 #11",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-road-eco1"
-        ]
-    },
-    "R-NRS-BarbHUT-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbHUT-eco"
-        ],
-        "statID": "BarbHUT-eco",
-        "id": "R-NRS-BarbHUT-eco1",
-        "name": "[med-def]BarbHUT-eco1 #12",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Ruin1-eco1"
+            "R-NRS-Propaganda-eco1"
         ]
     },
     "R-NRS-building11-eco1": {
@@ -75451,70 +73921,70 @@
         "statID": "building11-eco",
         "id": "R-NRS-building11-eco1",
         "name": "[med-def]building11-eco1 #13",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-BarbHUT-eco1"
+            "R-NRS-road-eco1"
         ]
     },
-    "R-NRS-Tree-eco1": {
+    "R-NRS-Park-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Tree-eco"
+            "Park-eco"
         ],
-        "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco1",
-        "name": "[med-def]Tree-eco1 #14",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco1",
+        "name": "[med-def]Park-eco1 #14",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
             "R-NRS-building11-eco1"
         ]
     },
-    "R-NRS-Powlab-eco1": {
+    "R-NRS-Boulder2-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Powlab-eco"
+            "Boulder2-eco"
         ],
-        "statID": "Powlab-eco",
-        "id": "R-NRS-Powlab-eco1",
-        "name": "[med-def]Powlab-eco1 #15",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco1",
+        "name": "[med-def]Boulder2-eco1 #15",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-Tree-eco1"
+            "R-NRS-Park-eco1"
         ]
     },
-    "R-NRS-BarbWarehouse3-eco1": {
+    "R-NRS-Rotarywepslab-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbWarehouse3-eco"
+            "Rotarywepslab-eco"
         ],
-        "statID": "BarbWarehouse3-eco",
-        "id": "R-NRS-BarbWarehouse3-eco1",
-        "name": "[med-def]BarbWarehouse3-eco1 #16",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco1",
+        "name": "[med-def]Rotarywepslab-eco1 #16",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-Powlab-eco1"
+            "R-NRS-Boulder2-eco1"
         ]
     },
-    "R-NRS-building12-eco1": {
+    "R-NRS-WaterTower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building12-eco"
+            "WaterTower-eco"
         ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco1",
-        "name": "[med-def]building12-eco1 #17",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "WaterTower-eco",
+        "id": "R-NRS-WaterTower-eco1",
+        "name": "[med-def]WaterTower-eco1 #17",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-BarbWarehouse3-eco1"
+            "R-NRS-Rotarywepslab-eco1"
         ]
     },
     "R-NRS-Boulder1-eco1": {
@@ -75526,55 +73996,70 @@
         "statID": "Boulder1-eco",
         "id": "R-NRS-Boulder1-eco1",
         "name": "[med-def]Boulder1-eco1 #18",
-        "researchPoints": 69.99999999999999,
-        "researchPower": 7.236842105263159,
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
         "requiredResearch": [
-            "R-NRS-building12-eco1"
+            "R-NRS-WaterTower-eco1"
         ]
     },
-    "R-NRS-Pickup-eco2": {
+    "R-NRS-SolarPower-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "SolarPower-eco"
+        ],
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco1",
+        "name": "[med-def]Solar panel-eco1 #19",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
+        "requiredResearch": [
+            "R-NRS-Boulder1-eco1"
+        ]
+    },
+    "R-NRS-building10-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building10-eco"
+        ],
+        "statID": "building10-eco",
+        "id": "R-NRS-building10-eco1",
+        "name": "[med-def]building10-eco1 #20",
+        "researchPoints": 120,
+        "researchPower": 12.406015037593988,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco1"
+        ]
+    },
+    "R-NRS-BigForest-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BigForest-eco"
+        ],
+        "statID": "BigForest-eco",
+        "id": "R-NRS-BigForest-eco1",
+        "name": "[med-def]Big Forest-eco1 #21",
+        "researchPoints": 59.99999999999999,
+        "researchPower": 6.203007518796992,
+        "requiredResearch": [
+            "R-NRS-building10-eco1"
+        ]
+    },
+    "R-NRS-Aerodynamicslab-eco2": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Pickup-eco"
+            "Aerodynamicslab-eco"
         ],
-        "statID": "Pickup-eco",
-        "id": "R-NRS-Pickup-eco2",
-        "name": "[med-def]Pickup-eco2 #1",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
+        "statID": "Aerodynamicslab-eco",
+        "id": "R-NRS-Aerodynamicslab-eco2",
+        "name": "[med-def]Aerodynamicslab-eco2 #1",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
             "R-Fac-start"
-        ]
-    },
-    "R-NRS-A0ResourceExtractor-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "A0ResourceExtractor-eco"
-        ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco2",
-        "name": "[med-def]Oil Derrick-eco2 #2",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Pickup-eco2"
-        ]
-    },
-    "R-NRS-WaterTower-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "WaterTower-eco"
-        ],
-        "statID": "WaterTower-eco",
-        "id": "R-NRS-WaterTower-eco2",
-        "name": "[med-def]WaterTower-eco2 #3",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco2"
         ]
     },
     "R-NRS-AirTrafficControl-eco2": {
@@ -75585,221 +74070,11 @@
         ],
         "statID": "AirTrafficControl-eco",
         "id": "R-NRS-AirTrafficControl-eco2",
-        "name": "[med-def]AirTrafficControl-eco2 #4",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
+        "name": "[med-def]AirTrafficControl-eco2 #2",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-WaterTower-eco2"
-        ]
-    },
-    "R-NRS-Ruin1-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Ruin1-eco"
-        ],
-        "statID": "Ruin1-eco",
-        "id": "R-NRS-Ruin1-eco2",
-        "name": "[med-def]Ruin1-eco2 #5",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco2"
-        ]
-    },
-    "R-NRS-building10-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building10-eco"
-        ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco2",
-        "name": "[med-def]building10-eco2 #6",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Ruin1-eco2"
-        ]
-    },
-    "R-NRS-Boulder2-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder2-eco"
-        ],
-        "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco2",
-        "name": "[med-def]Boulder2-eco2 #7",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-building10-eco2"
-        ]
-    },
-    "R-NRS-Tree-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Tree-eco"
-        ],
-        "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco2",
-        "name": "[med-def]Tree-eco2 #8",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Boulder2-eco2"
-        ]
-    },
-    "R-NRS-Advmaterialslab-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Advmaterialslab-eco"
-        ],
-        "statID": "Advmaterialslab-eco",
-        "id": "R-NRS-Advmaterialslab-eco2",
-        "name": "[med-def]Advmaterialslab-eco2 #9",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Tree-eco2"
-        ]
-    },
-    "R-NRS-BarbWarehouse2-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse2-eco"
-        ],
-        "statID": "BarbWarehouse2-eco",
-        "id": "R-NRS-BarbWarehouse2-eco2",
-        "name": "[med-def]BarbWarehouse2-eco2 #10",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Advmaterialslab-eco2"
-        ]
-    },
-    "R-NRS-BarbWarehouse3-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse3-eco"
-        ],
-        "statID": "BarbWarehouse3-eco",
-        "id": "R-NRS-BarbWarehouse3-eco2",
-        "name": "[med-def]BarbWarehouse3-eco2 #11",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse2-eco2"
-        ]
-    },
-    "R-NRS-Park-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Park-eco"
-        ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco2",
-        "name": "[med-def]Park-eco2 #12",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse3-eco2"
-        ]
-    },
-    "R-NRS-Heavywepslab-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Heavywepslab-eco"
-        ],
-        "statID": "Heavywepslab-eco",
-        "id": "R-NRS-Heavywepslab-eco2",
-        "name": "[med-def]Heavywepslab-eco2 #13",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Park-eco2"
-        ]
-    },
-    "R-NRS-NuclearReactor-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "NuclearReactor-eco"
-        ],
-        "statID": "NuclearReactor-eco",
-        "id": "R-NRS-NuclearReactor-eco2",
-        "name": "[med-def]*NuclearReactor*-eco2 #14",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Heavywepslab-eco2"
-        ]
-    },
-    "R-NRS-Propaganda-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Propaganda-eco"
-        ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco2",
-        "name": "[med-def]Propaganda Tower-eco2 #15",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-NuclearReactor-eco2"
-        ]
-    },
-    "R-NRS-BarbWarehouse1-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse1-eco"
-        ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco2",
-        "name": "[med-def]BarbWarehouse1-eco2 #16",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-Propaganda-eco2"
-        ]
-    },
-    "R-NRS-SolarPower-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "SolarPower-eco"
-        ],
-        "statID": "SolarPower-eco",
-        "id": "R-NRS-SolarPower-eco2",
-        "name": "[med-def]Solar panel-eco2 #17",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse1-eco2"
-        ]
-    },
-    "R-NRS-cabin-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "cabin-eco"
-        ],
-        "statID": "cabin-eco",
-        "id": "R-NRS-cabin-eco2",
-        "name": "[med-def]cabin-eco2 #18",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
-        "requiredResearch": [
-            "R-NRS-SolarPower-eco2"
+            "R-NRS-Aerodynamicslab-eco2"
         ]
     },
     "R-NRS-building2-eco2": {
@@ -75810,11 +74085,26 @@
         ],
         "statID": "building2-eco",
         "id": "R-NRS-building2-eco2",
-        "name": "[med-def]building2-eco2 #19",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
+        "name": "[med-def]building2-eco2 #3",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-cabin-eco2"
+            "R-NRS-AirTrafficControl-eco2"
+        ]
+    },
+    "R-NRS-Boulder2-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder2-eco"
+        ],
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco2",
+        "name": "[med-def]Boulder2-eco2 #4",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-building2-eco2"
         ]
     },
     "R-NRS-Boulder1-eco2": {
@@ -75825,161 +74115,206 @@
         ],
         "statID": "Boulder1-eco",
         "id": "R-NRS-Boulder1-eco2",
-        "name": "[med-def]Boulder1-eco2 #20",
-        "researchPoints": 120,
-        "researchPower": 12.406015037593988,
+        "name": "[med-def]Boulder1-eco2 #5",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-building2-eco2"
+            "R-NRS-Boulder2-eco2"
         ]
     },
-    "R-NRS-arizonabush3-eco2": {
+    "R-NRS-NuclearReactor-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "arizonabush3-eco"
+            "NuclearReactor-eco"
         ],
-        "statID": "arizonabush3-eco",
-        "id": "R-NRS-arizonabush3-eco2",
-        "name": "[med-def]arizonabush3-eco2 #21",
-        "researchPoints": 59.99999999999999,
-        "researchPower": 6.203007518796992,
+        "statID": "NuclearReactor-eco",
+        "id": "R-NRS-NuclearReactor-eco2",
+        "name": "[med-def]*NuclearReactor*-eco2 #6",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
             "R-NRS-Boulder1-eco2"
         ]
     },
-    "R-NRS-AirTrafficControl-eco3": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "AirTrafficControl-eco"
-        ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco3",
-        "name": "[med-def]AirTrafficControl-eco3 #1",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-BarbHUT-eco3": {
+    "R-NRS-LogCabin3-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbHUT-eco"
+            "LogCabin3-eco"
         ],
-        "statID": "BarbHUT-eco",
-        "id": "R-NRS-BarbHUT-eco3",
-        "name": "[med-def]BarbHUT-eco3 #2",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "LogCabin3-eco",
+        "id": "R-NRS-LogCabin3-eco2",
+        "name": "[med-def]LogCabin3-eco2 #7",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco3"
+            "R-NRS-NuclearReactor-eco2"
         ]
     },
-    "R-NRS-building2-eco3": {
+    "R-NRS-CoolingTower-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building2-eco"
+            "CoolingTower-eco"
         ],
-        "statID": "building2-eco",
-        "id": "R-NRS-building2-eco3",
-        "name": "[med-def]building2-eco3 #3",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco2",
+        "name": "[med-def]*CoolingTower*-eco2 #8",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-BarbHUT-eco3"
+            "R-NRS-LogCabin3-eco2"
         ]
     },
-    "R-NRS-building11-eco3": {
+    "R-NRS-cabin-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building11-eco"
+            "cabin-eco"
         ],
-        "statID": "building11-eco",
-        "id": "R-NRS-building11-eco3",
-        "name": "[med-def]building11-eco3 #4",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "cabin-eco",
+        "id": "R-NRS-cabin-eco2",
+        "name": "[med-def]cabin-eco2 #9",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-building2-eco3"
+            "R-NRS-CoolingTower-eco2"
         ]
     },
-    "R-NRS-building10-eco3": {
+    "R-NRS-Advmaterialslab-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building10-eco"
+            "Advmaterialslab-eco"
         ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco3",
-        "name": "[med-def]building10-eco3 #5",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco2",
+        "name": "[med-def]Advmaterialslab-eco2 #10",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-building11-eco3"
+            "R-NRS-cabin-eco2"
         ]
     },
-    "R-NRS-Boulder2-eco3": {
+    "R-NRS-BarbWarehouse2-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Boulder2-eco"
+            "BarbWarehouse2-eco"
         ],
-        "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco3",
-        "name": "[med-def]Boulder2-eco3 #6",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "BarbWarehouse2-eco",
+        "id": "R-NRS-BarbWarehouse2-eco2",
+        "name": "[med-def]BarbWarehouse2-eco2 #11",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-building10-eco3"
+            "R-NRS-Advmaterialslab-eco2"
         ]
     },
-    "R-NRS-Rotarywepslab-eco3": {
+    "R-NRS-building3-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Rotarywepslab-eco"
+            "building3-eco"
         ],
-        "statID": "Rotarywepslab-eco",
-        "id": "R-NRS-Rotarywepslab-eco3",
-        "name": "[med-def]Rotarywepslab-eco3 #7",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "building3-eco",
+        "id": "R-NRS-building3-eco2",
+        "name": "[med-def]building3-eco2 #12",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-Boulder2-eco3"
+            "R-NRS-BarbWarehouse2-eco2"
         ]
     },
-    "R-NRS-Propaganda-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Propaganda-eco"
-        ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco3",
-        "name": "[med-def]Propaganda Tower-eco3 #8",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco3"
-        ]
-    },
-    "R-NRS-Boulder3-eco3": {
+    "R-NRS-Boulder3-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "Boulder3-eco"
         ],
         "statID": "Boulder3-eco",
-        "id": "R-NRS-Boulder3-eco3",
-        "name": "[med-def]Boulder3-eco3 #9",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "id": "R-NRS-Boulder3-eco2",
+        "name": "[med-def]Boulder3-eco2 #13",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-Propaganda-eco3"
+            "R-NRS-building3-eco2"
+        ]
+    },
+    "R-NRS-Powlab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Powlab-eco"
+        ],
+        "statID": "Powlab-eco",
+        "id": "R-NRS-Powlab-eco2",
+        "name": "[med-def]Powlab-eco2 #14",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-Boulder3-eco2"
+        ]
+    },
+    "R-NRS-Pickup-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Pickup-eco"
+        ],
+        "statID": "Pickup-eco",
+        "id": "R-NRS-Pickup-eco2",
+        "name": "[med-def]Pickup-eco2 #15",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-Powlab-eco2"
+        ]
+    },
+    "R-NRS-Ruin1-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Ruin1-eco"
+        ],
+        "statID": "Ruin1-eco",
+        "id": "R-NRS-Ruin1-eco2",
+        "name": "[med-def]Ruin1-eco2 #16",
+        "researchPoints": 78.74999999999999,
+        "researchPower": 8.141447368421053,
+        "requiredResearch": [
+            "R-NRS-Pickup-eco2"
+        ]
+    },
+    "R-NRS-Rotarywepslab-eco3": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Rotarywepslab-eco"
+        ],
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco3",
+        "name": "[med-def]Rotarywepslab-eco3 #1",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-road-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "road-eco"
+        ],
+        "statID": "road-eco",
+        "id": "R-NRS-road-eco3",
+        "name": "[med-def]road-eco3 #2",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-Rotarywepslab-eco3"
         ]
     },
     "R-NRS-building3-eco3": {
@@ -75990,26 +74325,101 @@
         ],
         "statID": "building3-eco",
         "id": "R-NRS-building3-eco3",
-        "name": "[med-def]building3-eco3 #10",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[med-def]building3-eco3 #3",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
-            "R-NRS-Boulder3-eco3"
+            "R-NRS-road-eco3"
         ]
     },
-    "R-NRS-Park-eco3": {
+    "R-NRS-building2-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Park-eco"
+            "building2-eco"
         ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco3",
-        "name": "[med-def]Park-eco3 #11",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "building2-eco",
+        "id": "R-NRS-building2-eco3",
+        "name": "[med-def]building2-eco3 #4",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
             "R-NRS-building3-eco3"
+        ]
+    },
+    "R-NRS-building11-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building11-eco"
+        ],
+        "statID": "building11-eco",
+        "id": "R-NRS-building11-eco3",
+        "name": "[med-def]building11-eco3 #5",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-building2-eco3"
+        ]
+    },
+    "R-NRS-building12-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building12-eco"
+        ],
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco3",
+        "name": "[med-def]building12-eco3 #6",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-building11-eco3"
+        ]
+    },
+    "R-NRS-building10-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building10-eco"
+        ],
+        "statID": "building10-eco",
+        "id": "R-NRS-building10-eco3",
+        "name": "[med-def]building10-eco3 #7",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-building12-eco3"
+        ]
+    },
+    "R-NRS-SolarPower-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "SolarPower-eco"
+        ],
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco3",
+        "name": "[med-def]Solar panel-eco3 #8",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-building10-eco3"
+        ]
+    },
+    "R-NRS-NuclearReactor-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "NuclearReactor-eco"
+        ],
+        "statID": "NuclearReactor-eco",
+        "id": "R-NRS-NuclearReactor-eco3",
+        "name": "[med-def]*NuclearReactor*-eco3 #9",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco3"
         ]
     },
     "R-NRS-Heavywepslab-eco3": {
@@ -76020,26 +74430,41 @@
         ],
         "statID": "Heavywepslab-eco",
         "id": "R-NRS-Heavywepslab-eco3",
-        "name": "[med-def]Heavywepslab-eco3 #12",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[med-def]Heavywepslab-eco3 #10",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
-            "R-NRS-Park-eco3"
+            "R-NRS-NuclearReactor-eco3"
         ]
     },
-    "R-NRS-CoolingTower-eco3": {
+    "R-NRS-BarbWarehouse2-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "CoolingTower-eco"
+            "BarbWarehouse2-eco"
         ],
-        "statID": "CoolingTower-eco",
-        "id": "R-NRS-CoolingTower-eco3",
-        "name": "[med-def]*CoolingTower*-eco3 #13",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "BarbWarehouse2-eco",
+        "id": "R-NRS-BarbWarehouse2-eco3",
+        "name": "[med-def]BarbWarehouse2-eco3 #11",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
             "R-NRS-Heavywepslab-eco3"
+        ]
+    },
+    "R-NRS-BarbWarehouse1-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse1-eco"
+        ],
+        "statID": "BarbWarehouse1-eco",
+        "id": "R-NRS-BarbWarehouse1-eco3",
+        "name": "[med-def]BarbWarehouse1-eco3 #12",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse2-eco3"
         ]
     },
     "R-NRS-OilTower-eco3": {
@@ -76050,11 +74475,11 @@
         ],
         "statID": "OilTower-eco",
         "id": "R-NRS-OilTower-eco3",
-        "name": "[med-def]OilTower-eco3 #14",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[med-def]OilTower-eco3 #13",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
-            "R-NRS-CoolingTower-eco3"
+            "R-NRS-BarbWarehouse1-eco3"
         ]
     },
     "R-NRS-cabin-eco3": {
@@ -76065,9 +74490,9 @@
         ],
         "statID": "cabin-eco",
         "id": "R-NRS-cabin-eco3",
-        "name": "[med-def]cabin-eco3 #15",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[med-def]cabin-eco3 #14",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
             "R-NRS-OilTower-eco3"
         ]
@@ -76080,26 +74505,11 @@
         ],
         "statID": "LogCabin3-eco",
         "id": "R-NRS-LogCabin3-eco3",
-        "name": "[med-def]LogCabin3-eco3 #16",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[med-def]LogCabin3-eco3 #15",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
             "R-NRS-cabin-eco3"
-        ]
-    },
-    "R-NRS-building12-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building12-eco"
-        ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco3",
-        "name": "[med-def]building12-eco3 #17",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-LogCabin3-eco3"
         ]
     },
     "R-NRS-Forest-eco3": {
@@ -76110,11 +74520,11 @@
         ],
         "statID": "Forest-eco",
         "id": "R-NRS-Forest-eco3",
-        "name": "[med-def]Forest-eco3 #18",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[med-def]Forest-eco3 #16",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
-            "R-NRS-building12-eco3"
+            "R-NRS-LogCabin3-eco3"
         ]
     },
     "R-NRS-BigForest-eco3": {
@@ -76125,26 +74535,86 @@
         ],
         "statID": "BigForest-eco",
         "id": "R-NRS-BigForest-eco3",
-        "name": "[med-def]Big Forest-eco3 #19",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[med-def]Big Forest-eco3 #17",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
             "R-NRS-Forest-eco3"
         ]
     },
-    "R-NRS-BarbWarehouse1-eco3": {
+    "R-NRS-Tree-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbWarehouse1-eco"
+            "Tree-eco"
         ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco3",
-        "name": "[med-def]BarbWarehouse1-eco3 #20",
-        "researchPoints": 62.99999999999999,
-        "researchPower": 6.5131578947368425,
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco3",
+        "name": "[med-def]Tree-eco3 #18",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
         "requiredResearch": [
             "R-NRS-BigForest-eco3"
+        ]
+    },
+    "R-NRS-A0ResourceExtractor-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "A0ResourceExtractor-eco"
+        ],
+        "statID": "A0ResourceExtractor-eco",
+        "id": "R-NRS-A0ResourceExtractor-eco3",
+        "name": "[med-def]Oil Derrick-eco3 #19",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-Tree-eco3"
+        ]
+    },
+    "R-NRS-Pickup-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Pickup-eco"
+        ],
+        "statID": "Pickup-eco",
+        "id": "R-NRS-Pickup-eco3",
+        "name": "[med-def]Pickup-eco3 #20",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-A0ResourceExtractor-eco3"
+        ]
+    },
+    "R-NRS-BarbWarehouse3-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse3-eco"
+        ],
+        "statID": "BarbWarehouse3-eco",
+        "id": "R-NRS-BarbWarehouse3-eco3",
+        "name": "[med-def]BarbWarehouse3-eco3 #21",
+        "researchPoints": 114.54545454545456,
+        "researchPower": 11.842105263157897,
+        "requiredResearch": [
+            "R-NRS-Pickup-eco3"
+        ]
+    },
+    "R-NRS-BarbHUT-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbHUT-eco"
+        ],
+        "statID": "BarbHUT-eco",
+        "id": "R-NRS-BarbHUT-eco3",
+        "name": "[med-def]BarbHUT-eco3 #22",
+        "researchPoints": 57.272727272727266,
+        "researchPower": 5.921052631578948,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse3-eco3"
         ]
     },
     "_config_": {

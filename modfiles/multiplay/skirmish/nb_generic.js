@@ -226,6 +226,50 @@ var subpersonalities = {
 		maxPower: 700,
 		repairAt: 50, 
 	},
+	ContL: {
+		chatalias: "ContL",
+		weaponPaths: [
+			weaponStats.extralasers, 
+			weaponStats.ATlasers, 
+		],
+		earlyResearch: [ 
+			"R-NRS-Laser-AP1-contingency",
+		],
+		minTanks: 1, 
+		becomeHarder: 1,
+		maxTanks: 10,
+		minTrucks: 2, 
+		minHoverTrucks: 3, 
+		maxSensors: 1,
+		minMiscTanks: 1,
+		maxMiscTanks: 10, 
+		vtolness: 0,
+		defensiveness: 65, 
+		maxPower: 700,
+		repairAt: 50, 
+	},
+	ContC: {
+		chatalias: "ContC",
+		weaponPaths: [
+			weaponStats.contmortars, 
+			weaponStats.contcannons, 
+		],
+		earlyResearch: [ 
+			"R-NRS-Cannon-Shotgun-contingency",
+		],
+		minTanks: 1, 
+		becomeHarder: 1,
+		maxTanks: 10,
+		minTrucks: 2, 
+		minHoverTrucks: 3, 
+		maxSensors: 1,
+		minMiscTanks: 1,
+		maxMiscTanks: 10, 
+		vtolness: 0,
+		defensiveness: 65, 
+		maxPower: 700,
+		repairAt: 50, 
+	},
 
 };
 
