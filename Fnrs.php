@@ -435,6 +435,17 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("hvy", $val3['as'] )) {$weight='hvy';}
 					if (in_array("LM", $val3['as'] )) {$weight='LM';}
 					if (in_array("MH", $val3['as'] )) {$weight='MH';}
+					
+					$quality=0;
+					if (in_array("cheap", $val3['as'] )) {$quality=-1;}
+					if (in_array("good", $val3['as'] )) {$quality=1;}
+					
+					$engineClass=0;
+					if (in_array("heavy", $val3['as'] )) {$engineClass=1;}
+					
+					$type='O';
+					if (in_array("typeA", $val3['as'] )) {$type='A';}
+					if (in_array("typeE", $val3['as'] )) {$type='E';}
 
 					if (in_array("insta", $val3['as'] )) {$resstartfrac=0; }
 					if (in_array("joke", $val3['as'] )) {$resstartfrac=.1; }
@@ -546,14 +557,14 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						}
 						Fwz_eval34($item2,$val['type']);
 						print_r($item2);
-						$price=$sys['nrs']['unitprice']/3; //(weapon + propulsion) * 1.5x (wheel) = 3 things.
+						$fig=2;
+						$price=$sys['nrs']['unitprice']/3/$fig; //(weapon + body) * 1.5x (wheel) = 3 things.
 						$pow=1;
-						$nbase=$sys['nrs']['armypower']/($price*2)/pow(2,1/3);
+						$nbase=$sys['nrs']['armypower']/($price*3)/pow(2,1/3);
 						$figbase=Fwz_fig($nbase);
 						//$fig=3.7320;
 						//$fig=2.26423;
-						$bodyMod=1.10;
-						$fig=2;
+						$bodyMod=1.10;		
 						$weightfact=1;
 						$bodhp=1;
 						$bodkin=0;
@@ -563,6 +574,30 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						$wepclass='KINETIC';
 						$bodyclass='KINETIC';
 						$wephp=0;
+						
+						/*
+						if($type=='weapons'){
+							$priceclass=log(($item['buildPower']**.7)/($sys['nrs']['unitprice']/3),2)+3;
+						}
+						else{
+							$priceclass=log($item['buildPower']/($sys['nrs']['unitprice']/3),2)+3;
+						}
+						$priceclass=max(0,$priceclass);
+						if(!$priceclassR){
+							$priceclassR=floor($priceclass); //for research, pick the first item.
+							
+						}
+						$weightfact*=$fig**$priceclass;
+						$pow*=$figbase/Fwz_fig($nbase  * $fig**-$priceclass);
+						$price=$sys['nrs']['unitprice']/3*2**$priceclass;
+						$priceclass=floor($priceclass); //puny humans dont need details...
+						#NEED A fix
+						$nbweight='LIGHT';
+						$nbweight2='LIGHT';
+						
+						echo 'priceclass:'.  $item['id'] .' '. $item['buildPower'] .'='. $priceclass;
+						*/
+						
 						if($weight=="xlgt"){
 							$weightfact/=$fig;
 							$price/=$fig;
@@ -620,6 +655,12 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$bodyclass='THERMAL';
 							$bodheat=1;
 						}
+						
+						$priceclass=$weight;
+						$priceclassR=$weight;
+						
+						/**/
+						
 						$pow=pow($pow,.5);
 						echo '<br/>'. $id .' '. $itemname .' '. $item['id'] .' '. $item['name'] .' '. $val3['type'] .' nbase'. $nbase .'pow:<b>'. $pow .'</b> power: '. $power .' price:'. $price .' restot:'. $totrestime .' '. $weight;
 						if($val3['type']=='body'){
@@ -633,7 +674,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['hitpoints']=50*$pow*$power*(1-$wephp)*$sys['nrs']['dmgunit'];
 							$item['armourHeat']=10000*$bodheat;
 							$item['armourKinetic']=10000*$bodkin;
-							$item['name'].=" [$weight]#". ($no+1);
+							//$item['name'].=" [$weight]#". ($no+1);
+							$item['name'].=" [". $priceclass ." $hooman] #". ($no+1);
 							$item['weaponSlots']=1;
 							if (!in_array("baba", $val3['as'] )) {
 								$item['designable']=1;
@@ -795,7 +837,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$item['name']='commander '. $item['name'];
 							}
 							else{
-								$item['name'].=" [$weight $hooman] #". ($no+1);
+								$item['name'].=" [". $priceclass ." $hooman] #". ($no+1);
 							}
 							
 							if($val3['in']!="base"){
@@ -1103,7 +1145,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 
 					$temp['id']=$id;
 
-					$temp['name']='['. $weight .'-'. $target .']'. $name .'-'. $nomfac .' #'. ($no+1) ;
+					$temp['name']='['. $priceclassR .'-'. $target .']'. $name .'-'. $nomfac .' #'. ($no+1) ;
 
 					
 					//$respower=$sys['nrs']['stdrpoint']/count($val4);

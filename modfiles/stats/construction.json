@@ -2,7 +2,7 @@
     "scavCrane1": {
         "buildPoints": 17.083333333333336,
         "buildPower": 5.3216088583489265,
-        "constructPoints": 3.543069003923246,
+        "constructPoints": 3.548582973967627,
         "droidType": "DROID_CONSTRUCT",
         "hitpoints": 0,
         "id": "scavCrane1",
@@ -38,7 +38,7 @@
     "Spade1Mk1": {
         "buildPoints": 68.33333333333334,
         "buildPower": 21.286435433395706,
-        "constructPoints": 11.925231310354931,
+        "constructPoints": 11.889055352519405,
         "designable": 1,
         "droidType": "DROID_CONSTRUCT",
         "hitpoints": 0,

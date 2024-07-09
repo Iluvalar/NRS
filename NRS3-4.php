@@ -60,7 +60,7 @@ $per=Fwz_fig($sys['nrs']['armysize']+$nfig)/Fwz_fig($sys['nrs']['armysize']);
 $startpow=$sys['nrs']['ttpower']*($sys['nrs']['wepmod']/($sys['nrs']['wepmod']-1));
 echo 'nfig:'. $nfig .' '.Fwz_fig($nfig) .'/'. Fwz_fig($nfig+1).' med:'. $medprice .' per:'.  $per .' truck time power:'. $sys['nrs']['ttpower'] .' suggStart:'. $startpow;
 $sys['nrs']['percent']=.2; //max 66 * .08 :( = 5.28 or 90 *.06 (633) ||now: .05 and 120
-$sys['nrs']['unitprice']=$medprice/2;
+$sys['nrs']['unitprice']=$medprice;
 $sys['nrs']['structureHPScale']=$sys['nrs']['dmgunit']*Fwz_fig($sys['nrs']['armysize'])/Fwz_fig(40)*1; //scale structures hp with army size.
 #$trpower=$sys['nrs']['ttpower']/2/$sys['nrs']['percent'];
 #$sys['nrs']['armypower']=$trpower;
@@ -437,7 +437,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar2Mk1", 'in'=>'base', 'type'=> 'weapo
 	Fnrs_add([ 'faction'=> $fac, 'use'=> "Howitzer03-Rot", 'in'=>'base', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'base', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 	Fnrs_add([ 'faction'=> $fac, 'use'=> "Howitzer150Mk1", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar2Mk1,Cyb-Wpn-Grenade", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
+#Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar2Mk1,Cyb-Wpn-Grenade", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]); //besiege have "invalid shadowpoints" and cause critical crash as of 4.5.1
 //	Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1,Cyb-Wpn-Grenade", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 
@@ -771,8 +771,8 @@ foreach($structureData as $id=>$values){
 }
 
 //few dirty fixes...
-$sys['nrs']['file']['stat']['weapons']['Mortar2Mk1-2120']['fireOnMove']=0;
-$sys['nrs']['file']['stat']['weapons']['Mortar2Mk1-2120']['recoilValue']=25;
+#$sys['nrs']['file']['stat']['weapons']['Mortar2Mk1-2120']['fireOnMove']=0;
+#$sys['nrs']['file']['stat']['weapons']['Mortar2Mk1-2120']['recoilValue']=25;
 
 $sys['nrs']['file']['stat']['propulsion']['BaBaLegs']['designable']=false;
 //$sys['nrs']['file']['stat']['structure']['A0BaBaFactory']['type']="CYBORG FACTORY";
@@ -805,7 +805,14 @@ foreach($sys['nrs']['file']['stat']['structure'] as $nom=>$item){
   },
 	*/
 $sys['nrs']['file']['stat']['research']['_config_']['calculationMode']="improved";
-$sys['nrs']['file']['stat']['structur']['_config_']['baseStructDamageExpLevel']="0";
+$sys['nrs']['file']['stat']['structure']['_config_']['baseStructDamageExpLevel']="0";
+
+foreach($sys['nrs']['file']['stat']['body'] as $nom=>$item){
+	$sys['nrs']['file']['stat']['body'][$nom]['propulsionExtraModels']['Naval']['left']="prhnaval1.pie";
+	echo '<br>'. $item['name'] .' '. $item['Prevalue'] .' '. $item['evalStr'];
+
+}
+
 foreach($sys['nrs']['file']['stat'] as $nom => $val){
 		unset($val['']); //propulsion bug ?
 		$dump=json_encode($val,JSON_PRETTY_PRINT);
@@ -899,7 +906,25 @@ foreach($sys['nrs']['nb'] as $nom =>$nb){
 foreach($sys['nrs']['file']['stat']['weapons'] as $nom=>$item){
 	Fwz_eval34($item,'weapons');
 	echo '<br>'. $item['name'] .' '. $item['Prevalue'] .' '. $item['evalStr'];
+	if($item["weaponClass"]!='KINETIC' and $item["weaponClass"]!='HEAT'){
+		echo '<br>WTF!';
+	}
 }
+
+
+/*
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli3.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli11.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+				*/
 
 print_r($sys['nrs']['subclssesCheat']);
 

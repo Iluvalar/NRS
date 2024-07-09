@@ -1670,37 +1670,6 @@
         ],
         "turret": "Howitzer150Mk1-2120-command"
     },
-    "Mortar2Mk1-2120-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Mortar2Mk1-2120-brain",
-        "maxDroids": 7,
-        "maxDroidsMult": 2,
-        "name": "Mortar2Mk1-2120-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            3.4,
-            12,
-            34.4,
-            89.6,
-            220.8,
-            524.8,
-            1216
-        ],
-        "turret": "Mortar2Mk1-2120-command"
-    },
     "BusCannon-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",

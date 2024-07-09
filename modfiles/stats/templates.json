@@ -3445,28 +3445,6 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Mortar2Mk1-2120-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Besiege GSM [med AS] #9 Cyb-Mk8",
-        "id": "Mortar2Mk1-2120-Cyb",
-        "weapons": [
-            "Mortar2Mk1-2120-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
-    "Cyb-Wpn-Grenade-2120-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Bombard GSM Cyborg Weapon [med AS] #9 Cyb-Mk8",
-        "id": "Cyb-Wpn-Grenade-2120-Cyb",
-        "weapons": [
-            "Cyb-Wpn-Grenade-2120"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "BusCannon-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
