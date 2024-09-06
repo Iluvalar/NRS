@@ -18,8 +18,8 @@
         "repairPoints": 10,
         "time": 7,
         "usageClass": "Cyborg",
-        "weight": 583.3333333333334,
-        "constructPoints": 8.390861807569488,
+        "weight": 416.6666666666667,
+        "constructPoints": 4.234581247428401,
         "hitpoints": 0
     },
     "HeavyRepair": {
@@ -34,8 +34,8 @@
         "name": "Heavy Repair Turret",
         "repairPoints": 30,
         "time": 7,
-        "weight": 583.3333333333334,
-        "constructPoints": 8.89709145526376,
+        "weight": 416.6666666666667,
+        "constructPoints": 4.490058053289347,
         "hitpoints": 0
     },
     "LightRepair1": {
@@ -50,8 +50,8 @@
         "name": "Repair Turret",
         "repairPoints": 15,
         "time": 7,
-        "weight": 583.3333333333334,
-        "constructPoints": 8.390861807569488,
+        "weight": 416.6666666666667,
+        "constructPoints": 4.234581247428401,
         "hitpoints": 0
     },
     "NEXUSrepair": {

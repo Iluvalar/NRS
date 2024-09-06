@@ -52,7 +52,7 @@ function Fnrs_add($info){ //First store all the things to add in a neat array th
 	if (in_array("AT", $as )) { $target="AT"; }
 	if (in_array("AS", $as )) { $target="AS"; }
 	if (in_array("AN", $as )) { $target="AN"; }
-	if( $info['type']=='body'){$target='body';}
+	if( $info['type']=='body'){ $target.='body';}
 	if (in_array("hvy", $as )) { $weight="hvy"; }
 	if (in_array("lgt", $as )) { $weight="lgt"; }
 	if (in_array("xlgt", $as )) { $weight="xlgt"; }
@@ -396,12 +396,16 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 		//print_r($val);
 		foreach($val as $class => $val2){			
 			foreach($val2 as $target => $val4){
+				
 				//$lastres=$idfac;
 				$lastres=$sys['nrs']['startres'];
+
 				$totrespower=0;
 				echo '<br/><b>'. $nomfac .'-'. $class .'-'. $target .'</b>';
 				unset($subclass);
 				foreach($val4 as $no => $val3){
+					unset($priceclassR);
+					unset($hooman2);
 					//print_r($val3);
 					if($no==0){
 						$linename=$val3['call'];
@@ -436,16 +440,23 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("LM", $val3['as'] )) {$weight='LM';}
 					if (in_array("MH", $val3['as'] )) {$weight='MH';}
 					
+
+					
+					$typeW='O';
+					if (in_array("typeA", $val3['as'] )) {$typeW='A';}
+					if (in_array("typeE", $val3['as'] )) {$typeW='E';}
+					
 					$quality=0;
-					if (in_array("cheap", $val3['as'] )) {$quality=-1;}
-					if (in_array("good", $val3['as'] )) {$quality=1;}
+					if (in_array("cheap", $val3['as'] )) {$quality=-1;$hooman2.='C';}
+					if (in_array("good", $val3['as'] )) {$quality=1;$hooman2.='G';}
+					if($quality==0){ $hooman2.='R'; }
+						
+		
 					
 					$engineClass=0;
-					if (in_array("heavy", $val3['as'] )) {$engineClass=1;}
-					
-					$type='O';
-					if (in_array("typeA", $val3['as'] )) {$type='A';}
-					if (in_array("typeE", $val3['as'] )) {$type='E';}
+					if (in_array("strong", $val3['as'] )) {$engineClass=1;$hooman2.='S';}
+					if (in_array("heavy", $val3['as'] )) {$engineClass=-1;$hooman2.='H';}
+					if($engineClass==0){ $hooman2.='N'; }
 
 					if (in_array("insta", $val3['as'] )) {$resstartfrac=0; }
 					if (in_array("joke", $val3['as'] )) {$resstartfrac=.1; }
@@ -574,30 +585,32 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						$wepclass='KINETIC';
 						$bodyclass='KINETIC';
 						$wephp=0;
+						$priceclass=0;
 						
-						/*
+						$checkprice=$item['buildPower']*(1-$quality*.2-$engineClass*0.1)/2;
 						if($type=='weapons'){
-							$priceclass=log(($item['buildPower']**.7)/($sys['nrs']['unitprice']/3),2)+3;
+							$wephp=.25+.25*$quality;
+							$priceclass=log(($checkprice**.7)/($sys['nrs']['unitprice']/3),2);
 						}
-						else{
-							$priceclass=log($item['buildPower']/($sys['nrs']['unitprice']/3),2)+3;
+						elseif($type=='body'){
+							$bodhp=.75+.25*$quality;
+							$priceclass=log($checkprice/($sys['nrs']['unitprice']/3),2);
 						}
-						$priceclass=max(0,$priceclass);
+						$priceclass=max(-4,$priceclass);
 						if(!$priceclassR){
-							$priceclassR=floor($priceclass); //for research, pick the first item.
+							$priceclassR=floor($priceclass+4).$typeW.$hooman2; //for research, pick the first item.
 							
 						}
 						$weightfact*=$fig**$priceclass;
 						$pow*=$figbase/Fwz_fig($nbase  * $fig**-$priceclass);
-						$price=$sys['nrs']['unitprice']/3*2**$priceclass;
-						$priceclass=floor($priceclass); //puny humans dont need details...
+						$price=$sys['nrs']['unitprice']/3*2**$priceclass*(1+$quality*.2+$engineClass*0.1);
 						#NEED A fix
 						$nbweight='LIGHT';
 						$nbweight2='LIGHT';
 						
-						echo 'priceclass:'.  $item['id'] .' '. $item['buildPower'] .'='. $priceclass;
-						*/
-						
+						echo 'priceclass:'.  $item['id'] .' '. $checkprice .'/'. $sys['nrs']['unitprice']/3 .'='. $priceclass .' pow:'. $pow .' n:'. $nbase*$fig**-$priceclass .'/'. $nbase;
+						/**/
+						/*
 						if($weight=="xlgt"){
 							$weightfact/=$fig;
 							$price/=$fig;
@@ -675,15 +688,16 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['armourHeat']=10000*$bodheat;
 							$item['armourKinetic']=10000*$bodkin;
 							//$item['name'].=" [$weight]#". ($no+1);
-							$item['name'].=" [". $priceclass ." $hooman] #". ($no+1);
+							$item['name'].=" [". $priceclassR ." $hooman] #". ($no+1);
 							$item['weaponSlots']=1;
 							if (!in_array("baba", $val3['as'] )) {
 								$item['designable']=1;
 							}
 							//if($weight=='xlgt'){ $item['designable']=0;}
 							
-							$item['weight']=1000*(1-$wepweight);
-							$item['powerOutput']=1750;
+							//$item['weight']=1000*(1-$wepweight);
+							$item['weight']=1000*1.3**$priceclass*(1-.5*$engineClass);
+							$item['powerOutput']=2625*1.3**$priceclass*(1-.5*$engineClass);;
 							if( $item['class']=='Cyborgs'){
 								$item['designable']=0;
 								$item['usageClass']="Cyborg";
@@ -822,7 +836,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['damage']*=$scale;
 							$item['radiusDamage']*=$scale;
 							$item['periodicalDamage']*=$scale;
-							$item['weight']=1000*$wepweight;
+							#$item['weight']=1000*$wepweight;
+							$item['weight']=1000*1.3**$priceclass*(.5-.5*$engineClass);
 							$item['recoilValue']=min(150,$item['recoilValue']);
 							
 							$item['periodicalDamageWeaponClass']=$wepclass;
@@ -837,7 +852,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$item['name']='commander '. $item['name'];
 							}
 							else{
-								$item['name'].=" [". $priceclass ." $hooman] #". ($no+1);
+								$item['name'].=" [". $priceclassR ." $hooman] #". ($no+1);
 							}
 							
 							if($val3['in']!="base"){
@@ -932,7 +947,9 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$temp['resultStructures'][]=$t2['id'];
 								$sys['nrs']['nb'][$linename]['defenses'][]='{ res: "'. $id .'", stat: "'. $t2['id'] .'", defrole: DEFROLE.STANDALONE }';
 								//{ res: "R-NRS-MG1Mk1", stat: "walltower-MG1Mk1", defrole: DEFROLE.GATEWAY }, 
+								
 								if($no==0){
+									/*
 									$thisname='';
 									if($val3['call']!=''){	$thisname=$val3['call'] .' damage';	}
 									Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'Damage',$exp[0] .$sufix,$id,1,$thisname,$sufix);
@@ -943,6 +960,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 									#if($val3['call']!=''){	$thisname=$val3['call'] .' power';	}
 									#Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'buildPower',$exp[0] .$sufix,$id,1,$thisname);
 									#$sys['nrs']['nb'][$linename]['extras'][]=$sys['nrs']['nb']['temp'];
+									*/
 									$sys['nrs']['nb'][$linename]['micro']='MICRO.RANGED';
 									if($item['longRange']<500){
 										$sys['nrs']['nb'][$linename]['micro']='MICRO.MELEE';

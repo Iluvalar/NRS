@@ -12237,7 +12237,7 @@
         ],
         "statID": "CyborgLightBody",
         "id": "R-NRS-CyborgLegs",
-        "name": "[med-def]CyborgLegs-start #1",
+        "name": "[4ORS-def]CyborgLegs-start #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -12247,7 +12247,7 @@
     "R-wheeled01-HitpointPctOfBody--1": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--1",
-        "name": "wheeled01 HP #1 45%",
+        "name": "wheeled01 HP #1 30%",
         "requiredResearch": [
             "R-NRS-wheeled01"
         ],
@@ -12261,14 +12261,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 45
+                "value": 30
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--2": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--2",
-        "name": "wheeled01 HP #2 54%",
+        "name": "wheeled01 HP #2 36%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--1"
         ],
@@ -12282,14 +12282,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 54
+                "value": 36
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--3": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--3",
-        "name": "wheeled01 HP #3 63%",
+        "name": "wheeled01 HP #3 42%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--2"
         ],
@@ -12303,14 +12303,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 63
+                "value": 42
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--4": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--4",
-        "name": "wheeled01 HP #4 73%",
+        "name": "wheeled01 HP #4 49%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--3"
         ],
@@ -12324,14 +12324,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 73
+                "value": 49
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--5": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--5",
-        "name": "wheeled01 HP #5 86%",
+        "name": "wheeled01 HP #5 57%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--4"
         ],
@@ -12345,14 +12345,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 86
+                "value": 57
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--6": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--6",
-        "name": "wheeled01 HP #6 100%",
+        "name": "wheeled01 HP #6 66%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--5"
         ],
@@ -12366,14 +12366,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 100
+                "value": 66
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--7": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--7",
-        "name": "wheeled01 HP #7 116%",
+        "name": "wheeled01 HP #7 77%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--6"
         ],
@@ -12387,14 +12387,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 116
+                "value": 77
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--8": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--8",
-        "name": "wheeled01 HP #8 135%",
+        "name": "wheeled01 HP #8 90%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--7"
         ],
@@ -12408,14 +12408,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 135
+                "value": 90
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--9": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--9",
-        "name": "wheeled01 HP #9 158%",
+        "name": "wheeled01 HP #9 105%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--8"
         ],
@@ -12429,14 +12429,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 158
+                "value": 105
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--10": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--10",
-        "name": "wheeled01 HP #10 184%",
+        "name": "wheeled01 HP #10 123%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--9"
         ],
@@ -12450,14 +12450,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 184
+                "value": 123
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--11": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--11",
-        "name": "wheeled01 HP #11 214%",
+        "name": "wheeled01 HP #11 143%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--10"
         ],
@@ -12471,14 +12471,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 214
+                "value": 143
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--12": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--12",
-        "name": "wheeled01 HP #12 249%",
+        "name": "wheeled01 HP #12 166%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--11"
         ],
@@ -12492,14 +12492,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 249
+                "value": 166
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--13": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--13",
-        "name": "wheeled01 HP #13 290%",
+        "name": "wheeled01 HP #13 194%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--12"
         ],
@@ -12513,14 +12513,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 290
+                "value": 194
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--14": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--14",
-        "name": "wheeled01 HP #14 338%",
+        "name": "wheeled01 HP #14 226%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--13"
         ],
@@ -12534,14 +12534,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 338
+                "value": 226
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--15": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--15",
-        "name": "wheeled01 HP #15 394%",
+        "name": "wheeled01 HP #15 263%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--14"
         ],
@@ -12555,14 +12555,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 394
+                "value": 263
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--16": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--16",
-        "name": "wheeled01 HP #16 459%",
+        "name": "wheeled01 HP #16 307%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--15"
         ],
@@ -12576,14 +12576,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 459
+                "value": 307
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--17": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--17",
-        "name": "wheeled01 HP #17 535%",
+        "name": "wheeled01 HP #17 357%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--16"
         ],
@@ -12597,14 +12597,14 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 535
+                "value": 357
             }
         ]
     },
     "R-wheeled01-HitpointPctOfBody--18": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-wheeled01-HitpointPctOfBody--18",
-        "name": "wheeled01 HP #18 624%",
+        "name": "wheeled01 HP #18 416%",
         "requiredResearch": [
             "R-wheeled01-HitpointPctOfBody--17"
         ],
@@ -12618,7 +12618,7 @@
                 "filterParameter": "Id",
                 "filterValue": "wheeled01",
                 "parameter": "HitpointPctOfBody",
-                "value": 624
+                "value": 416
             }
         ]
     },
@@ -12630,7 +12630,7 @@
         ],
         "statID": "wheeled01",
         "id": "R-NRS-wheeled01",
-        "name": "[med-def]wheeled01-start #2",
+        "name": "[4ORS-def]wheeled01-start #2",
         "researchPoints": 504,
         "researchPower": 52.105263157894754,
         "requiredResearch": [
@@ -12640,7 +12640,7 @@
     "R-tracked01-HitpointPctOfBody--1": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-tracked01-HitpointPctOfBody--1",
-        "name": "tracked01 HP #1 52%",
+        "name": "tracked01 HP #1 34%",
         "requiredResearch": [
             "R-NRS-tracked01"
         ],
@@ -12654,14 +12654,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 52
+                "value": 34
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--2": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--2",
-        "name": "tracked01 HP #2 62%",
+        "name": "tracked01 HP #2 40%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--1"
         ],
@@ -12675,14 +12675,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 62
+                "value": 40
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--3": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--3",
-        "name": "tracked01 HP #3 73%",
+        "name": "tracked01 HP #3 47%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--2"
         ],
@@ -12696,14 +12696,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 73
+                "value": 47
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--4": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--4",
-        "name": "tracked01 HP #4 85%",
+        "name": "tracked01 HP #4 55%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--3"
         ],
@@ -12717,14 +12717,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 85
+                "value": 55
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--5": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--5",
-        "name": "tracked01 HP #5 99%",
+        "name": "tracked01 HP #5 64%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--4"
         ],
@@ -12738,14 +12738,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 99
+                "value": 64
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--6": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--6",
-        "name": "tracked01 HP #6 115%",
+        "name": "tracked01 HP #6 74%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--5"
         ],
@@ -12759,14 +12759,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 115
+                "value": 74
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--7": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--7",
-        "name": "tracked01 HP #7 134%",
+        "name": "tracked01 HP #7 87%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--6"
         ],
@@ -12780,14 +12780,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 134
+                "value": 87
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--8": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--8",
-        "name": "tracked01 HP #8 156%",
+        "name": "tracked01 HP #8 101%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--7"
         ],
@@ -12801,14 +12801,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 156
+                "value": 101
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--9": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--9",
-        "name": "tracked01 HP #9 182%",
+        "name": "tracked01 HP #9 117%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--8"
         ],
@@ -12822,14 +12822,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 182
+                "value": 117
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--10": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--10",
-        "name": "tracked01 HP #10 212%",
+        "name": "tracked01 HP #10 137%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--9"
         ],
@@ -12843,14 +12843,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 212
+                "value": 137
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--11": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--11",
-        "name": "tracked01 HP #11 247%",
+        "name": "tracked01 HP #11 159%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--10"
         ],
@@ -12864,14 +12864,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 247
+                "value": 159
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--12": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--12",
-        "name": "tracked01 HP #12 288%",
+        "name": "tracked01 HP #12 186%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--11"
         ],
@@ -12885,14 +12885,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 288
+                "value": 186
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--13": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--13",
-        "name": "tracked01 HP #13 335%",
+        "name": "tracked01 HP #13 216%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--12"
         ],
@@ -12906,14 +12906,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 335
+                "value": 216
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--14": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--14",
-        "name": "tracked01 HP #14 390%",
+        "name": "tracked01 HP #14 252%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--13"
         ],
@@ -12927,14 +12927,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 390
+                "value": 252
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--15": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--15",
-        "name": "tracked01 HP #15 455%",
+        "name": "tracked01 HP #15 294%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--14"
         ],
@@ -12948,14 +12948,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 455
+                "value": 294
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--16": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--16",
-        "name": "tracked01 HP #16 530%",
+        "name": "tracked01 HP #16 342%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--15"
         ],
@@ -12969,14 +12969,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 530
+                "value": 342
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--17": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--17",
-        "name": "tracked01 HP #17 618%",
+        "name": "tracked01 HP #17 399%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--16"
         ],
@@ -12990,14 +12990,14 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 618
+                "value": 399
             }
         ]
     },
     "R-tracked01-HitpointPctOfBody--18": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-tracked01-HitpointPctOfBody--18",
-        "name": "tracked01 HP #18 720%",
+        "name": "tracked01 HP #18 465%",
         "requiredResearch": [
             "R-tracked01-HitpointPctOfBody--17"
         ],
@@ -13011,7 +13011,7 @@
                 "filterParameter": "Id",
                 "filterValue": "tracked01",
                 "parameter": "HitpointPctOfBody",
-                "value": 720
+                "value": 465
             }
         ]
     },
@@ -13023,7 +13023,7 @@
         ],
         "statID": "tracked01",
         "id": "R-NRS-tracked01",
-        "name": "[med-def]tracked01-start #3",
+        "name": "[4ORS-def]tracked01-start #3",
         "researchPoints": 504,
         "researchPower": 52.105263157894754,
         "requiredResearch": [
@@ -13033,7 +13033,7 @@
     "R-hover01-HitpointPctOfBody--1": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-hover01-HitpointPctOfBody--1",
-        "name": "hover01 HP #1 40%",
+        "name": "hover01 HP #1 28%",
         "requiredResearch": [
             "R-NRS-hover01"
         ],
@@ -13047,14 +13047,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 40
+                "value": 28
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--2": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--2",
-        "name": "hover01 HP #2 48%",
+        "name": "hover01 HP #2 33%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--1"
         ],
@@ -13068,14 +13068,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 48
+                "value": 33
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--3": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--3",
-        "name": "hover01 HP #3 56%",
+        "name": "hover01 HP #3 38%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--2"
         ],
@@ -13089,14 +13089,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 56
+                "value": 38
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--4": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--4",
-        "name": "hover01 HP #4 66%",
+        "name": "hover01 HP #4 45%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--3"
         ],
@@ -13110,14 +13110,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 66
+                "value": 45
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--5": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--5",
-        "name": "hover01 HP #5 76%",
+        "name": "hover01 HP #5 52%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--4"
         ],
@@ -13131,14 +13131,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 76
+                "value": 52
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--6": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--6",
-        "name": "hover01 HP #6 89%",
+        "name": "hover01 HP #6 61%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--5"
         ],
@@ -13152,14 +13152,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 89
+                "value": 61
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--7": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--7",
-        "name": "hover01 HP #7 104%",
+        "name": "hover01 HP #7 71%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--6"
         ],
@@ -13173,14 +13173,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 104
+                "value": 71
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--8": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--8",
-        "name": "hover01 HP #8 121%",
+        "name": "hover01 HP #8 83%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--7"
         ],
@@ -13194,14 +13194,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 121
+                "value": 83
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--9": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--9",
-        "name": "hover01 HP #9 141%",
+        "name": "hover01 HP #9 97%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--8"
         ],
@@ -13215,14 +13215,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 141
+                "value": 97
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--10": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--10",
-        "name": "hover01 HP #10 164%",
+        "name": "hover01 HP #10 113%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--9"
         ],
@@ -13236,14 +13236,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 164
+                "value": 113
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--11": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--11",
-        "name": "hover01 HP #11 191%",
+        "name": "hover01 HP #11 131%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--10"
         ],
@@ -13257,14 +13257,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 191
+                "value": 131
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--12": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--12",
-        "name": "hover01 HP #12 223%",
+        "name": "hover01 HP #12 153%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--11"
         ],
@@ -13278,14 +13278,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 223
+                "value": 153
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--13": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--13",
-        "name": "hover01 HP #13 259%",
+        "name": "hover01 HP #13 178%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--12"
         ],
@@ -13299,14 +13299,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 259
+                "value": 178
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--14": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--14",
-        "name": "hover01 HP #14 302%",
+        "name": "hover01 HP #14 208%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--13"
         ],
@@ -13320,14 +13320,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 302
+                "value": 208
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--15": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--15",
-        "name": "hover01 HP #15 352%",
+        "name": "hover01 HP #15 242%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--14"
         ],
@@ -13341,14 +13341,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 352
+                "value": 242
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--16": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--16",
-        "name": "hover01 HP #16 410%",
+        "name": "hover01 HP #16 282%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--15"
         ],
@@ -13362,14 +13362,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 410
+                "value": 282
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--17": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--17",
-        "name": "hover01 HP #17 478%",
+        "name": "hover01 HP #17 329%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--16"
         ],
@@ -13383,14 +13383,14 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 478
+                "value": 329
             }
         ]
     },
     "R-hover01-HitpointPctOfBody--18": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-hover01-HitpointPctOfBody--18",
-        "name": "hover01 HP #18 557%",
+        "name": "hover01 HP #18 383%",
         "requiredResearch": [
             "R-hover01-HitpointPctOfBody--17"
         ],
@@ -13404,7 +13404,7 @@
                 "filterParameter": "Id",
                 "filterValue": "hover01",
                 "parameter": "HitpointPctOfBody",
-                "value": 557
+                "value": 383
             }
         ]
     },
@@ -13416,7 +13416,7 @@
         ],
         "statID": "hover01",
         "id": "R-NRS-hover01",
-        "name": "[med-def]hover01-start #4",
+        "name": "[4ORS-def]hover01-start #4",
         "researchPoints": 504,
         "researchPower": 52.105263157894754,
         "requiredResearch": [
@@ -13426,7 +13426,7 @@
     "R-HalfTrack-HitpointPctOfBody--1": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--1",
-        "name": "HalfTrack HP #1 52%",
+        "name": "HalfTrack HP #1 33%",
         "requiredResearch": [
             "R-NRS-HalfTrack"
         ],
@@ -13440,14 +13440,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 52
+                "value": 33
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--2": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--2",
-        "name": "HalfTrack HP #2 62%",
+        "name": "HalfTrack HP #2 40%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--1"
         ],
@@ -13461,14 +13461,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 62
+                "value": 40
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--3": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--3",
-        "name": "HalfTrack HP #3 72%",
+        "name": "HalfTrack HP #3 47%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--2"
         ],
@@ -13482,14 +13482,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 72
+                "value": 47
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--4": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--4",
-        "name": "HalfTrack HP #4 84%",
+        "name": "HalfTrack HP #4 54%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--3"
         ],
@@ -13503,14 +13503,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 84
+                "value": 54
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--5": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--5",
-        "name": "HalfTrack HP #5 98%",
+        "name": "HalfTrack HP #5 63%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--4"
         ],
@@ -13524,14 +13524,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 98
+                "value": 63
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--6": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--6",
-        "name": "HalfTrack HP #6 114%",
+        "name": "HalfTrack HP #6 74%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--5"
         ],
@@ -13545,14 +13545,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 114
+                "value": 74
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--7": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--7",
-        "name": "HalfTrack HP #7 133%",
+        "name": "HalfTrack HP #7 86%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--6"
         ],
@@ -13566,14 +13566,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 133
+                "value": 86
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--8": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--8",
-        "name": "HalfTrack HP #8 155%",
+        "name": "HalfTrack HP #8 100%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--7"
         ],
@@ -13587,14 +13587,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 155
+                "value": 100
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--9": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--9",
-        "name": "HalfTrack HP #9 181%",
+        "name": "HalfTrack HP #9 117%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--8"
         ],
@@ -13608,14 +13608,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 181
+                "value": 117
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--10": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--10",
-        "name": "HalfTrack HP #10 210%",
+        "name": "HalfTrack HP #10 136%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--9"
         ],
@@ -13629,14 +13629,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 210
+                "value": 136
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--11": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--11",
-        "name": "HalfTrack HP #11 245%",
+        "name": "HalfTrack HP #11 159%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--10"
         ],
@@ -13650,14 +13650,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 245
+                "value": 159
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--12": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--12",
-        "name": "HalfTrack HP #12 286%",
+        "name": "HalfTrack HP #12 185%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--11"
         ],
@@ -13671,14 +13671,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 286
+                "value": 185
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--13": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--13",
-        "name": "HalfTrack HP #13 333%",
+        "name": "HalfTrack HP #13 215%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--12"
         ],
@@ -13692,14 +13692,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 333
+                "value": 215
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--14": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--14",
-        "name": "HalfTrack HP #14 388%",
+        "name": "HalfTrack HP #14 251%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--13"
         ],
@@ -13713,14 +13713,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 388
+                "value": 251
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--15": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--15",
-        "name": "HalfTrack HP #15 452%",
+        "name": "HalfTrack HP #15 292%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--14"
         ],
@@ -13734,14 +13734,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 452
+                "value": 292
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--16": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--16",
-        "name": "HalfTrack HP #16 526%",
+        "name": "HalfTrack HP #16 340%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--15"
         ],
@@ -13755,14 +13755,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 526
+                "value": 340
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--17": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--17",
-        "name": "HalfTrack HP #17 613%",
+        "name": "HalfTrack HP #17 397%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--16"
         ],
@@ -13776,14 +13776,14 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 613
+                "value": 397
             }
         ]
     },
     "R-HalfTrack-HitpointPctOfBody--18": {
         "iconID": "IMAGE_RES_COMPUTERTECH",
         "id": "R-HalfTrack-HitpointPctOfBody--18",
-        "name": "HalfTrack HP #18 715%",
+        "name": "HalfTrack HP #18 462%",
         "requiredResearch": [
             "R-HalfTrack-HitpointPctOfBody--17"
         ],
@@ -13797,7 +13797,7 @@
                 "filterParameter": "Id",
                 "filterValue": "HalfTrack",
                 "parameter": "HitpointPctOfBody",
-                "value": 715
+                "value": 462
             }
         ]
     },
@@ -13809,7 +13809,7 @@
         ],
         "statID": "HalfTrack",
         "id": "R-NRS-HalfTrack",
-        "name": "[med-def]HalfTrack-start #5",
+        "name": "[4ORS-def]HalfTrack-start #5",
         "researchPoints": 1512,
         "researchPower": 156.31578947368428,
         "requiredResearch": [
@@ -13824,7 +13824,7 @@
         ],
         "statID": "A0RepairCentre3",
         "id": "R-NRS-A0RepairCentre3",
-        "name": "[med-def]Repair Facility-start #1",
+        "name": "[4ORN-def]Repair Facility-start #1",
         "researchPoints": 2100,
         "researchPower": 217.1052631578948,
         "requiredResearch": [
@@ -13839,7 +13839,7 @@
         ],
         "statID": "ScavRepairCentre",
         "id": "R-NRS-ScavRepairCentre",
-        "name": "[med-def]Scavenger Repair Center-start #2",
+        "name": "[4ORN-def]Scavenger Repair Center-start #2",
         "researchPoints": 2100,
         "researchPower": 217.1052631578948,
         "requiredResearch": [
@@ -13854,7 +13854,7 @@
         ],
         "statID": "Crane-nrs",
         "id": "R-NRS-Crane-nrs",
-        "name": "[med-def]Crane-start #3",
+        "name": "[4ORN-def]Crane-start #3",
         "researchPoints": 2100,
         "researchPower": 217.1052631578948,
         "requiredResearch": [
@@ -13869,7 +13869,7 @@
         ],
         "statID": "epicRepair-nrs",
         "id": "R-NRS-epicRepair-nrs",
-        "name": "[med-def]Pylon-start #4",
+        "name": "[4ORN-def]Pylon-start #4",
         "researchPoints": 1049.9999999999995,
         "researchPower": 108.55263157894737,
         "requiredResearch": [
@@ -13887,7 +13887,7 @@
         ],
         "statID": "SensorTower2Mk1",
         "id": "R-NRS-SensorTower2Mk1",
-        "name": "[med-AW]Hardened Sensor Tower-start #1",
+        "name": "[4ORN-AW]Hardened Sensor Tower-start #1",
         "researchPoints": 1512,
         "researchPower": 156.31578947368425,
         "requiredResearch": [
@@ -13905,7 +13905,7 @@
         ],
         "statID": "Sys-CBTurret01",
         "id": "R-NRS-Sys-CBTurret01",
-        "name": "[med-AW]CB Radar Turret-start #2",
+        "name": "[4ORN-AW]CB Radar Turret-start #2",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -13926,7 +13926,7 @@
         ],
         "statID": "Sys-VTOLCBTower01",
         "id": "R-NRS-Sys-VTOLCBTower01",
-        "name": "[med-AW]VTOL CB Radar Tower-start #3",
+        "name": "[4ORN-AW]VTOL CB Radar Tower-start #3",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -13944,7 +13944,7 @@
         ],
         "statID": "RadarDetector",
         "id": "R-NRS-RadarDetector",
-        "name": "[med-AW]Radar Detector-start #4",
+        "name": "[4ORN-AW]Radar Detector-start #4",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -13962,7 +13962,7 @@
         ],
         "statID": "Sensor-WideSpec",
         "id": "R-NRS-Sensor-WideSpec",
-        "name": "[med-AW]Wide Spectrum Sensor-start #5",
+        "name": "[4ORN-AW]Wide Spectrum Sensor-start #5",
         "researchPoints": 11340,
         "researchPower": 1172.368421052632,
         "requiredResearch": [
@@ -13977,7 +13977,7 @@
         ],
         "statID": "Spade1Mk1",
         "id": "R-NRS-Spade1Mk1",
-        "name": "[med-AP]Truck-start #1",
+        "name": "[4ORN-AP]Truck-start #1",
         "researchPoints": 0,
         "researchPower": 0
     },
@@ -13989,7 +13989,7 @@
         ],
         "statID": "A0TankTrap",
         "id": "R-NRS-A0TankTrap",
-        "name": "[hvy-def]Tank Traps-start #1",
+        "name": "[4ORN-def]Tank Traps-start #1",
         "researchPoints": 252,
         "researchPower": 26.052631578947377,
         "requiredResearch": [
@@ -14004,7 +14004,7 @@
         ],
         "statID": "A0BaBaHorizontalWall",
         "id": "R-NRS-A0BaBaHorizontalWall",
-        "name": "[hvy-def]Scavenger Horizontal Wall-start #2",
+        "name": "[4ORN-def]Scavenger Horizontal Wall-start #2",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -14019,7 +14019,7 @@
         ],
         "statID": "barrier-nrs",
         "id": "R-NRS-barrier-nrs",
-        "name": "[hvy-def]barrier-start #3",
+        "name": "[4ORN-def]barrier-start #3",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -14034,7 +14034,7 @@
         ],
         "statID": "A0HardcreteMk1Wall",
         "id": "R-NRS-A0HardcreteMk1Wall",
-        "name": "[hvy-def]Hardcrete Wall-start #4",
+        "name": "[4ORN-def]Hardcrete Wall-start #4",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -14049,7 +14049,7 @@
         ],
         "statID": "A0HardcreteMk1Gate",
         "id": "R-NRS-A0HardcreteMk1Gate",
-        "name": "[hvy-def]Hardcrete Gate-start #5",
+        "name": "[4ORN-def]Hardcrete Gate-start #5",
         "researchPoints": 6929.999999999999,
         "researchPower": 716.4473684210527,
         "requiredResearch": [
@@ -14064,7 +14064,7 @@
         ],
         "statID": "A0CommandCentre",
         "id": "R-NRS-A0CommandCentre",
-        "name": "[hvy-AP]Command Center-start #1",
+        "name": "[4ORN-AP]Command Center-start #1",
         "researchPoints": 0,
         "researchPower": 0
     },
@@ -14076,7 +14076,7 @@
         ],
         "statID": "A1CommandCentre",
         "id": "R-NRS-A1CommandCentre",
-        "name": "[hvy-AP]Financial center-start #2",
+        "name": "[4ORN-AP]Financial center-start #2",
         "researchPoints": 630,
         "researchPower": 65.13157894736844
     },
@@ -14088,7 +14088,7 @@
         ],
         "statID": "A2CommandCentre",
         "id": "R-NRS-A2CommandCentre",
-        "name": "[hvy-AP]Bank-start #3",
+        "name": "[4ORN-AP]Bank-start #3",
         "researchPoints": 630,
         "researchPower": 65.13157894736844
     },
@@ -14100,7 +14100,7 @@
         ],
         "statID": "A3CommandCentre",
         "id": "R-NRS-A3CommandCentre",
-        "name": "[hvy-AP]Honor hall-start #4",
+        "name": "[4ORN-AP]Honor hall-start #4",
         "researchPoints": 1890,
         "researchPower": 195.39473684210532
     },
@@ -14112,7 +14112,7 @@
         ],
         "statID": "CyborgSpade",
         "id": "R-NRS-CyborgSpade",
-        "name": "[lgt-AP]*Combat Engineer*-start #1",
+        "name": "[4ORN-AP]*Combat Engineer*-start #1",
         "researchPoints": 0,
         "researchPower": 0
     },
@@ -14124,7 +14124,7 @@
         ],
         "statID": "CyborgLightBody",
         "id": "R-NRS-CyborgLightBody",
-        "name": "[lgt-body]Cyborg Light Body-start #1",
+        "name": "[3ORN-ASbody]Cyborg Light Body-start #1",
         "researchPoints": 0,
         "researchPower": 0
     },
@@ -14136,7 +14136,7 @@
         ],
         "statID": "CyborgHeavyBody",
         "id": "R-NRS-CyborgHeavyBody",
-        "name": "[med-body]Cyborg Heavy Body-start #2",
+        "name": "[4ORN-ASbody]Cyborg Heavy Body-start #2",
         "researchPoints": 840,
         "researchPower": 86.84210526315792
     },
@@ -14148,7 +14148,7 @@
         ],
         "statID": "CyborgHeavyBody-2120",
         "id": "R-NRS-CyborgHeavyBody-2120",
-        "name": "[hvy-body]Cyborg Super Heavy Body-start #3",
+        "name": "[4ORN-ASbody]Cyborg Super Heavy Body-start #3",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376
     },
@@ -17550,7 +17550,7 @@
         ],
         "statID": "Laser-AP1-contingency",
         "id": "R-NRS-Laser-AP1-contingency",
-        "name": "[med-AP]Light Laser-NRSP #1",
+        "name": "[1OCN-AP]Light Laser-NRSP #1",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -17571,7 +17571,7 @@
         ],
         "statID": "Laser-AP2-contingency",
         "id": "R-NRS-Laser-AP2-contingency",
-        "name": "[med-AP]Heavy Laser-NRSP #2",
+        "name": "[3OCN-AP]Heavy Laser-NRSP #2",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -17592,7 +17592,7 @@
         ],
         "statID": "Laser-AP3-contingency",
         "id": "R-NRS-Laser-AP3-contingency",
-        "name": "[med-AP]Flashlight Laser-NRSP #3",
+        "name": "[1OCN-AP]Flashlight Laser-NRSP #3",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -17613,7 +17613,7 @@
         ],
         "statID": "Laser-AP4-contingency",
         "id": "R-NRS-Laser-AP4-contingency",
-        "name": "[med-AP]Hyperion Laser-NRSP #4",
+        "name": "[3OCN-AP]Hyperion Laser-NRSP #4",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -17634,7 +17634,7 @@
         ],
         "statID": "Laser-AA2-contingency",
         "id": "R-NRS-Laser-AA2-contingency",
-        "name": "[med-AP]Tempest AA Laser-NRSP #5",
+        "name": "[3OCN-AP]Tempest AA Laser-NRSP #5",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -17655,7 +17655,7 @@
         ],
         "statID": "Laser-Sonic-contingency",
         "id": "R-NRS-Laser-Sonic-contingency",
-        "name": "[med-AP]Sonic Disrupter-NRSP #6",
+        "name": "[4OCN-AP]Sonic Disrupter-NRSP #6",
         "researchPoints": 2099.9999999999995,
         "researchPower": 217.10526315789474,
         "requiredResearch": [
@@ -21060,7 +21060,7 @@
         ],
         "statID": "Laser-AT1-contingency",
         "id": "R-NRS-Laser-AT1-contingency",
-        "name": "[med-AT]Laser Cannon-NRSP #1",
+        "name": "[1ORN-AT]Laser Cannon-NRSP #1",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -21081,7 +21081,7 @@
         ],
         "statID": "Laser-AT2-contingency",
         "id": "R-NRS-Laser-AT2-contingency",
-        "name": "[med-AT]Heavy Laser Cannon-NRSP #2",
+        "name": "[3ORN-AT]Heavy Laser Cannon-NRSP #2",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -21102,7 +21102,7 @@
         ],
         "statID": "Laser-AT3-contingency",
         "id": "R-NRS-Laser-AT3-contingency",
-        "name": "[med-AT]Pulse Laser Cannon-NRSP #3",
+        "name": "[1ORN-AT]Pulse Laser Cannon-NRSP #3",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -21123,7 +21123,7 @@
         ],
         "statID": "Laser-AT4-contingency",
         "id": "R-NRS-Laser-AT4-contingency",
-        "name": "[med-AT]Heavy Pulse Laser Cannon-NRSP #4",
+        "name": "[3ORN-AT]Heavy Pulse Laser Cannon-NRSP #4",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -21144,7 +21144,7 @@
         ],
         "statID": "Laser-TankDest2Lgt-contingency",
         "id": "R-NRS-Laser-TankDest2Lgt-contingency",
-        "name": "[med-AT]Tankbuster Laser-NRSP #5",
+        "name": "[2ORN-AT]Tankbuster Laser-NRSP #5",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -21165,7 +21165,7 @@
         ],
         "statID": "Laser-TankDestLgt-contingency",
         "id": "R-NRS-Laser-TankDestLgt-contingency",
-        "name": "[med-AT]Tankbuster Pulse Laser-NRSP #6",
+        "name": "[2ORN-AT]Tankbuster Pulse Laser-NRSP #6",
         "researchPoints": 2099.9999999999995,
         "researchPower": 217.10526315789474,
         "requiredResearch": [
@@ -24570,7 +24570,7 @@
         ],
         "statID": "Mortar-Gauss-contingency",
         "id": "R-NRS-Mortar-Gauss-contingency",
-        "name": "[med-AS]Gauss Mortar-NRSP #1",
+        "name": "[2ORN-AS]Gauss Mortar-NRSP #1",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24591,7 +24591,7 @@
         ],
         "statID": "Mortar-GaussHvy-contingency",
         "id": "R-NRS-Mortar-GaussHvy-contingency",
-        "name": "[med-AS]Gauss Bombard-NRSP #2",
+        "name": "[3ORN-AS]Gauss Bombard-NRSP #2",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24612,7 +24612,7 @@
         ],
         "statID": "Mortar-GaussRamjet-contingency",
         "id": "R-NRS-Mortar-GaussRamjet-contingency",
-        "name": "[med-AS]Longshot Mortar-NRSP #3",
+        "name": "[2ORN-AS]Longshot Mortar-NRSP #3",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24633,7 +24633,7 @@
         ],
         "statID": "Mortar-GaussHvyPlas-contingency",
         "id": "R-NRS-Mortar-GaussHvyPlas-contingency",
-        "name": "[med-AS]Gauss Plasmite Bombard-NRSP #4",
+        "name": "[3ORN-AS]Gauss Plasmite Bombard-NRSP #4",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24654,7 +24654,7 @@
         ],
         "statID": "Mortar-GaussRot-contingency",
         "id": "R-NRS-Mortar-GaussRot-contingency",
-        "name": "[med-AS]Gauss Pepperpot-NRSP #5",
+        "name": "[3ORN-AS]Gauss Pepperpot-NRSP #5",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24675,7 +24675,7 @@
         ],
         "statID": "Mortar-Ramjet-contingency",
         "id": "R-NRS-Mortar-Ramjet-contingency",
-        "name": "[med-AS]Sureshot Mortar-NRSP #6",
+        "name": "[2ORN-AS]Sureshot Mortar-NRSP #6",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24696,7 +24696,7 @@
         ],
         "statID": "Mortar-GaussRotPlas-contingency",
         "id": "R-NRS-Mortar-GaussRotPlas-contingency",
-        "name": "[med-AS]Gauss Plasmite Pepperpot-NRSP #7",
+        "name": "[3ORN-AS]Gauss Plasmite Pepperpot-NRSP #7",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24717,7 +24717,7 @@
         ],
         "statID": "Mortar-GaussRamjetHvy-contingency",
         "id": "R-NRS-Mortar-GaussRamjetHvy-contingency",
-        "name": "[med-AS]Longshot Bombard-NRSP #8",
+        "name": "[3ORN-AS]Longshot Bombard-NRSP #8",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24738,7 +24738,7 @@
         ],
         "statID": "Mortar-RamjetRot-contingency",
         "id": "R-NRS-Mortar-RamjetRot-contingency",
-        "name": "[med-AS]Sureshot Pepperpot-NRSP #9",
+        "name": "[3ORN-AS]Sureshot Pepperpot-NRSP #9",
         "researchPoints": 2520,
         "researchPower": 260.52631578947376,
         "requiredResearch": [
@@ -24759,7 +24759,7 @@
         ],
         "statID": "Mortar-RamjetHvy-contingency",
         "id": "R-NRS-Mortar-RamjetHvy-contingency",
-        "name": "[med-AS]Sureshot Bombard-NRSP #10",
+        "name": "[3ORN-AS]Sureshot Bombard-NRSP #10",
         "researchPoints": 1259.9999999999998,
         "researchPower": 130.26315789473685,
         "requiredResearch": [
@@ -28164,7 +28164,7 @@
         ],
         "statID": "Cannon-Shotgun-contingency",
         "id": "R-NRS-Cannon-Shotgun-contingency",
-        "name": "[med-AW]Blunderbuss-NRSP #1",
+        "name": "[2ORH-AW]Blunderbuss-NRSP #1",
         "researchPoints": 945,
         "researchPower": 97.69736842105266,
         "requiredResearch": [
@@ -28185,7 +28185,7 @@
         ],
         "statID": "Cannon-HPVAslt-contingency",
         "id": "R-NRS-Cannon-HPVAslt-contingency",
-        "name": "[med-AW]Hyper-Velocity Assault Cannon-NRSP #2",
+        "name": "[2ORH-AW]Hyper-Velocity Assault Cannon-NRSP #2",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -28206,7 +28206,7 @@
         ],
         "statID": "Cannon-HPVGattling-contingency",
         "id": "R-NRS-Cannon-HPVGattling-contingency",
-        "name": "[med-AW]Shredder Cannon-NRSP #3",
+        "name": "[4ORH-AW]Shredder Cannon-NRSP #3",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -28227,7 +28227,7 @@
         ],
         "statID": "Cannon-HPVHvy-contingency",
         "id": "R-NRS-Cannon-HPVHvy-contingency",
-        "name": "[med-AW]Heavy Hyper-Velocity Cannon-NRSP #4",
+        "name": "[3ORH-AW]Heavy Hyper-Velocity Cannon-NRSP #4",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -28248,7 +28248,7 @@
         ],
         "statID": "Cannon-HPVLgt-contingency",
         "id": "R-NRS-Cannon-HPVLgt-contingency",
-        "name": "[med-AW]Light Hyper-Velocity Cannon-NRSP #5",
+        "name": "[1ORH-AW]Light Hyper-Velocity Cannon-NRSP #5",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -28269,7 +28269,7 @@
         ],
         "statID": "Cannon-HPVTankDestLgt-contingency",
         "id": "R-NRS-Cannon-HPVTankDestLgt-contingency",
-        "name": "[med-AW]HPV Tankbuster Cannon-NRSP #6",
+        "name": "[2ORH-AW]HPV Tankbuster Cannon-NRSP #6",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -28290,7 +28290,7 @@
         ],
         "statID": "Cannon-HPVTwinAslt-contingency",
         "id": "R-NRS-Cannon-HPVTwinAslt-contingency",
-        "name": "[med-AW]Twin HPV Assault Cannon-NRSP #7",
+        "name": "[3ORH-AW]Twin HPV Assault Cannon-NRSP #7",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -28311,7 +28311,7 @@
         ],
         "statID": "Cannon-Sniper-Bunker-contingency",
         "id": "R-NRS-Cannon-Sniper-Bunker-contingency",
-        "name": "[med-AW]Sniper's Favorite Camping Spot-NRSP #8",
+        "name": "[3ORH-AW]Sniper's Favorite Camping Spot-NRSP #8",
         "researchPoints": 7087.5,
         "researchPower": 732.7302631578949,
         "requiredResearch": [
@@ -28326,7 +28326,7 @@
         ],
         "statID": "Body17LGT-contingency",
         "id": "R-NRS-Body17LGT-contingency",
-        "name": "[LM-body]Falcon-NRSP #1",
+        "name": "[2ORN-AWbody]Falcon-NRSP #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -28341,9 +28341,9 @@
         ],
         "statID": "Body16MED-contingency",
         "id": "R-NRS-Body16MED-contingency",
-        "name": "[LM-body]Salamander-NRSP #2",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[4ORN-AWbody]Salamander-NRSP #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
         "requiredResearch": [
             "R-NRS-Body17LGT-contingency"
         ]
@@ -28356,26 +28356,26 @@
         ],
         "statID": "Body18MED-contingency",
         "id": "R-NRS-Body18MED-contingency",
-        "name": "[LM-body]Warhawk-NRSP #3",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[3ORN-AWbody]Warhawk-NRSP #3",
+        "researchPoints": 8400,
+        "researchPower": 868.4210526315791,
         "requiredResearch": [
             "R-NRS-Body16MED-contingency"
         ]
     },
     "R-NRS-Body20LGT-contingency": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_RES_DROIDTECH",
         "resultComponents": [
             "Body20LGT-contingency"
         ],
         "statID": "Body20LGT-contingency",
         "id": "R-NRS-Body20LGT-contingency",
-        "name": "[LM-body]Gladius-NRSP #4",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[2OCN-ATbody]Gladius-NRSP #1",
+        "researchPoints": 0,
+        "researchPower": 0,
         "requiredResearch": [
-            "R-NRS-Body18MED-contingency"
+            "R-Fac-start"
         ]
     },
     "R-NRS-Body21MED-contingency": {
@@ -28386,9 +28386,9 @@
         ],
         "statID": "Body21MED-contingency",
         "id": "R-NRS-Body21MED-contingency",
-        "name": "[LM-body]Longsword-NRSP #5",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[4OCN-ATbody]Longsword-NRSP #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
         "requiredResearch": [
             "R-NRS-Body20LGT-contingency"
         ]
@@ -28401,9 +28401,9 @@
         ],
         "statID": "Body22HVY-contingency",
         "id": "R-NRS-Body22HVY-contingency",
-        "name": "[LM-body]Claymore-NRSP #6",
-        "researchPoints": 12600,
-        "researchPower": 1302.6315789473688,
+        "name": "[5OCN-ATbody]Claymore-NRSP #3",
+        "researchPoints": 8400,
+        "researchPower": 868.4210526315791,
         "requiredResearch": [
             "R-NRS-Body21MED-contingency"
         ]
@@ -28416,7 +28416,7 @@
         ],
         "statID": "Body23SUP-contingency",
         "id": "R-NRS-Body23SUP-contingency",
-        "name": "[hvy-body]Couatl-NRSP #1",
+        "name": "[5OGN-AWbody]Couatl-NRSP #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -28431,9 +28431,9 @@
         ],
         "statID": "Body24SUP-contingency",
         "id": "R-NRS-Body24SUP-contingency",
-        "name": "[hvy-body]Abaddon-NRSP #2",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[5OGN-AWbody]Abaddon-NRSP #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
         "requiredResearch": [
             "R-NRS-Body23SUP-contingency"
         ]
@@ -28446,26 +28446,26 @@
         ],
         "statID": "Body25SUP-contingency",
         "id": "R-NRS-Body25SUP-contingency",
-        "name": "[hvy-body]Sabretooth-NRSP #3",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[5OGN-AWbody]Sabretooth-NRSP #3",
+        "researchPoints": 8400,
+        "researchPower": 868.4210526315791,
         "requiredResearch": [
             "R-NRS-Body24SUP-contingency"
         ]
     },
     "R-NRS-Body26SUP-contingency": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_RES_DROIDTECH",
         "resultComponents": [
             "Body26SUP-contingency"
         ],
         "statID": "Body26SUP-contingency",
         "id": "R-NRS-Body26SUP-contingency",
-        "name": "[hvy-body]Phoenix-NRSP #4",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[5ORN-ATbody]Phoenix-NRSP #1",
+        "researchPoints": 0,
+        "researchPower": 0,
         "requiredResearch": [
-            "R-NRS-Body25SUP-contingency"
+            "R-Fac-start"
         ]
     },
     "R-NRS-Body27SUP-contingency": {
@@ -28476,9 +28476,9 @@
         ],
         "statID": "Body27SUP-contingency",
         "id": "R-NRS-Body27SUP-contingency",
-        "name": "[hvy-body]Excalibur-NRSP #5",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[6ORN-ATbody]Excalibur-NRSP #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
         "requiredResearch": [
             "R-NRS-Body26SUP-contingency"
         ]
@@ -28491,9 +28491,9 @@
         ],
         "statID": "Body28SUP-contingency",
         "id": "R-NRS-Body28SUP-contingency",
-        "name": "[hvy-body]Nemesis-NRSP #6",
-        "researchPoints": 12600,
-        "researchPower": 1302.6315789473688,
+        "name": "[6ORN-ATbody]Nemesis-NRSP #3",
+        "researchPoints": 8400,
+        "researchPower": 868.4210526315791,
         "requiredResearch": [
             "R-NRS-Body27SUP-contingency"
         ]
@@ -31899,7 +31899,7 @@
         ],
         "statID": "Laser3BEAMMk1",
         "id": "R-NRS-Laser3BEAMMk1",
-        "name": "[hvy-AP]Flashlight-nexus #1",
+        "name": "[3ORN-AP]Flashlight-nexus #1",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -31922,7 +31922,7 @@
         ],
         "statID": "Laser2PULSEMk1",
         "id": "R-NRS-Laser2PULSEMk1",
-        "name": "[hvy-AP]Pulse Laser-nexus #2",
+        "name": "[4ORN-AP]Pulse Laser-nexus #2",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -31943,7 +31943,7 @@
         ],
         "statID": "AAGunLaser",
         "id": "R-NRS-AAGunLaser",
-        "name": "[hvy-AP]Stormbringer AA Laser-nexus #3",
+        "name": "[4ORN-AP]Stormbringer AA Laser-nexus #3",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -31966,7 +31966,7 @@
         ],
         "statID": "Laser3BEAMMk1-2120",
         "id": "R-NRS-Laser3BEAMMk1-2120",
-        "name": "[hvy-AP]Hyper Flashlight-nexus #4",
+        "name": "[5ORN-AP]Hyper Flashlight-nexus #4",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -31987,7 +31987,7 @@
         ],
         "statID": "Laser4-PlasmaCannon",
         "id": "R-NRS-Laser4-PlasmaCannon",
-        "name": "[hvy-AP]Plasma Cannon-nexus #5",
+        "name": "[4ORN-AP]Plasma Cannon-nexus #5",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -32011,7 +32011,7 @@
         ],
         "statID": "HeavyLaser",
         "id": "R-NRS-HeavyLaser",
-        "name": "[hvy-AP]Heavy Laser-nexus #6",
+        "name": "[4ORN-AP]Heavy Laser-nexus #6",
         "researchPoints": 2099.9999999999995,
         "researchPower": 217.10526315789474,
         "requiredResearch": [
@@ -35417,7 +35417,7 @@
         ],
         "statID": "RailGun1Mk1",
         "id": "R-NRS-RailGun1Mk1",
-        "name": "[hvy-AW]Needle Gun-nexus #1",
+        "name": "[4ORN-AW]Needle Gun-nexus #1",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -35440,7 +35440,7 @@
         ],
         "statID": "RailGun2Mk1",
         "id": "R-NRS-RailGun2Mk1",
-        "name": "[hvy-AW]Rail Gun-nexus #2",
+        "name": "[4ORN-AW]Rail Gun-nexus #2",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -35462,7 +35462,7 @@
         ],
         "statID": "RailGun3Mk1",
         "id": "R-NRS-RailGun3Mk1",
-        "name": "[hvy-AW]Gauss Cannon-nexus #3",
+        "name": "[4ORN-AW]Gauss Cannon-nexus #3",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -35484,7 +35484,7 @@
         ],
         "statID": "Cannon4AUTOMk1-2120",
         "id": "R-NRS-Cannon4AUTOMk1-2120",
-        "name": "[hvy-AW]Particle Gun-nexus #4",
+        "name": "[5ORN-AW]Particle Gun-nexus #4",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -35508,7 +35508,7 @@
         ],
         "statID": "Cannon5VulcanMk1-2120",
         "id": "R-NRS-Cannon5VulcanMk1-2120",
-        "name": "[hvy-AW]Rail Cannon-nexus #5",
+        "name": "[5ORN-AW]Rail Cannon-nexus #5",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -35532,7 +35532,7 @@
         ],
         "statID": "Cannon775mmMk1-2120",
         "id": "R-NRS-Cannon775mmMk1-2120",
-        "name": "[hvy-AW]Hadron Cannon-nexus #6",
+        "name": "[5ORN-AW]Hadron Cannon-nexus #6",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -35554,7 +35554,7 @@
         ],
         "statID": "MG5TWINROTARY-2120",
         "id": "R-NRS-MG5TWINROTARY-2120",
-        "name": "[hvy-AW]Mass Driver Cannon-nexus #7",
+        "name": "[6ORN-AW]Mass Driver Cannon-nexus #7",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -35576,7 +35576,7 @@
         ],
         "statID": "Cannon6TwinAslt-2120",
         "id": "R-NRS-Cannon6TwinAslt-2120",
-        "name": "[hvy-AW]Hyper Cannon-nexus #8",
+        "name": "[6ORN-AW]Hyper Cannon-nexus #8",
         "researchPoints": 1574.9999999999995,
         "researchPower": 162.82894736842107,
         "requiredResearch": [
@@ -38982,7 +38982,7 @@
         ],
         "statID": "Mortar1Mk1",
         "id": "R-NRS-Mortar1Mk1",
-        "name": "[med-AS]Mortar-nexus #1",
+        "name": "[3ORN-AS]Mortar-nexus #1",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -39003,7 +39003,7 @@
         ],
         "statID": "Howitzer105Mk1",
         "id": "R-NRS-Howitzer105Mk1",
-        "name": "[med-AS]Howitzer-nexus #2",
+        "name": "[4ORN-AS]Howitzer-nexus #2",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -39024,7 +39024,7 @@
         ],
         "statID": "Mortar0Mk1-2120",
         "id": "R-NRS-Mortar0Mk1-2120",
-        "name": "[med-AS]Striker GSM-nexus #3",
+        "name": "[4ORN-AS]Striker GSM-nexus #3",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -39045,7 +39045,7 @@
         ],
         "statID": "Howitzer150Mk1",
         "id": "R-NRS-Howitzer150Mk1",
-        "name": "[med-AS]Ground Shaker-nexus #4",
+        "name": "[5ORN-AS]Ground Shaker-nexus #4",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -39066,7 +39066,7 @@
         ],
         "statID": "Mortar2Mk1",
         "id": "R-NRS-Mortar2Mk1",
-        "name": "[med-AS]Bombard-nexus #5",
+        "name": "[4ORN-AS]Bombard-nexus #5",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -39087,7 +39087,7 @@
         ],
         "statID": "Howitzer03-Rot",
         "id": "R-NRS-Howitzer03-Rot",
-        "name": "[med-AS]Hellstorm-nexus #6",
+        "name": "[4ORN-AS]Hellstorm-nexus #6",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -39108,7 +39108,7 @@
         ],
         "statID": "Mortar3ROTARYMk1",
         "id": "R-NRS-Mortar3ROTARYMk1",
-        "name": "[med-AS]Pepperpot-nexus #7",
+        "name": "[4ORN-AS]Pepperpot-nexus #7",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -39129,7 +39129,7 @@
         ],
         "statID": "Howitzer150Mk1-2120",
         "id": "R-NRS-Howitzer150Mk1-2120",
-        "name": "[med-AS]Earthquake-nexus #8",
+        "name": "[5ORN-AS]Earthquake-nexus #8",
         "researchPoints": 1574.9999999999995,
         "researchPower": 162.82894736842107,
         "requiredResearch": [
@@ -39144,7 +39144,7 @@
         ],
         "statID": "Body11ABT",
         "id": "R-NRS-Body11ABT",
-        "name": "[MH-body]Python-nexus #1",
+        "name": "[4ORN-defbody]Python-nexus #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -39159,9 +39159,9 @@
         ],
         "statID": "Body12SUP",
         "id": "R-NRS-Body12SUP",
-        "name": "[MH-body]Mantis-nexus #2",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[4ORN-defbody]Mantis-nexus #2",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body11ABT"
         ]
@@ -39174,9 +39174,9 @@
         ],
         "statID": "Body9REC",
         "id": "R-NRS-Body9REC",
-        "name": "[MH-body]Tiger-nexus #3",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[4ORN-defbody]Tiger-nexus #3",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body12SUP"
         ]
@@ -39189,9 +39189,9 @@
         ],
         "statID": "Body10MBT",
         "id": "R-NRS-Body10MBT",
-        "name": "[MH-body]Vengeance-nexus #4",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[4ORN-defbody]Vengeance-nexus #4",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body9REC"
         ]
@@ -39204,9 +39204,9 @@
         ],
         "statID": "Body13SUP",
         "id": "R-NRS-Body13SUP",
-        "name": "[MH-body]Wyvern-nexus #5",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
+        "name": "[5ORN-defbody]Wyvern-nexus #5",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body10MBT"
         ]
@@ -39219,9 +39219,9 @@
         ],
         "statID": "Body14SUP",
         "id": "R-NRS-Body14SUP",
-        "name": "[MH-body]Dragon-nexus #6",
-        "researchPoints": 12600,
-        "researchPower": 1302.6315789473688,
+        "name": "[5ORN-defbody]Dragon-nexus #6",
+        "researchPoints": 4200,
+        "researchPower": 434.21052631578954,
         "requiredResearch": [
             "R-NRS-Body13SUP"
         ]
@@ -39234,7 +39234,7 @@
         ],
         "statID": "A0Sat-linkCentre",
         "id": "R-NRS-A0Sat-linkCentre",
-        "name": "[lgt-def]Satellite Uplink Center-nexus #1",
+        "name": "[4ORN-def]Satellite Uplink Center-nexus #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -39255,7 +39255,7 @@
         ],
         "statID": "A0BaBaFactory",
         "id": "R-NRS-A0BaBaFactory",
-        "name": "[xlgt-AS]Scavenger Factory-BaBa #1",
+        "name": "[4ORN-AS]Scavenger Factory-BaBa #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -39270,7 +39270,7 @@
         ],
         "statID": "scavCrane1",
         "id": "R-NRS-scavCrane1",
-        "name": "[xlgt-AS]Crane1-BaBa #2",
+        "name": "[4ORN-AS]Crane1-BaBa #2",
         "researchPoints": 3780,
         "researchPower": 390.78947368421063,
         "requiredResearch": [
@@ -39285,9 +39285,9 @@
         ],
         "statID": "ScavCamperBody",
         "id": "R-NRS-ScavCamperBody",
-        "name": "[xlgt-body]*scavenger camper*-BaBa #1",
-        "researchPoints": 756,
-        "researchPower": 78.15789473684212,
+        "name": "[2ORN-defbody]*scavenger camper*-BaBa #1",
+        "researchPoints": 840,
+        "researchPower": 86.8421052631579,
         "requiredResearch": [
             "R-Fac-start"
         ]
@@ -39300,26 +39300,11 @@
         ],
         "statID": "ScavIcevanBody",
         "id": "R-NRS-ScavIcevanBody",
-        "name": "[xlgt-body]*scavenger ice van*-BaBa #2",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376,
+        "name": "[2ORN-defbody]*scavenger ice van*-BaBa #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
         "requiredResearch": [
             "R-NRS-ScavCamperBody"
-        ]
-    },
-    "R-NRS-B3body-sml-buggy01-Ultimate": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "B3body-sml-buggy01-Ultimate"
-        ],
-        "statID": "B3body-sml-buggy01-Ultimate",
-        "id": "R-NRS-B3body-sml-buggy01-Ultimate",
-        "name": "[xlgt-body]*Ultimate Buggy Body*-BaBa #3",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376,
-        "requiredResearch": [
-            "R-NRS-ScavIcevanBody"
         ]
     },
     "R-NRS-B2tractor": {
@@ -39330,26 +39315,26 @@
         ],
         "statID": "B2tractor",
         "id": "R-NRS-B2tractor",
-        "name": "[xlgt-body]*tractor*-BaBa #4",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376,
+        "name": "[1ORN-defbody]*tractor*-BaBa #3",
+        "researchPoints": 1399.9999999999995,
+        "researchPower": 144.73684210526315,
         "requiredResearch": [
-            "R-NRS-B3body-sml-buggy01-Ultimate"
+            "R-NRS-ScavIcevanBody"
         ]
     },
     "R-NRS-ScavNEXUStrack": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_RES_DROIDTECH",
         "resultComponents": [
             "ScavNEXUStrack"
         ],
         "statID": "ScavNEXUStrack",
         "id": "R-NRS-ScavNEXUStrack",
-        "name": "[xlgt-body]*scavenger nexus track*-BaBa #5",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376,
+        "name": "[3OCN-ATbody]*scavenger nexus track*-BaBa #1",
+        "researchPoints": 2100,
+        "researchPower": 217.1052631578948,
         "requiredResearch": [
-            "R-NRS-B2tractor"
+            "R-Fac-start"
         ]
     },
     "R-NRS-BusBody": {
@@ -39360,26 +39345,11 @@
         ],
         "statID": "BusBody",
         "id": "R-NRS-BusBody",
-        "name": "[xlgt-body]*School Bus Body*-BaBa #6",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376,
+        "name": "[0OCN-ATbody]*School Bus Body*-BaBa #2",
+        "researchPoints": 2100,
+        "researchPower": 217.1052631578948,
         "requiredResearch": [
             "R-NRS-ScavNEXUStrack"
-        ]
-    },
-    "R-NRS-B2JeepBody-Ultimate": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "B2JeepBody-Ultimate"
-        ],
-        "statID": "B2JeepBody-Ultimate",
-        "id": "R-NRS-B2JeepBody-Ultimate",
-        "name": "[xlgt-body]*Ultimate Baba Jeep Body*-BaBa #7",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376,
-        "requiredResearch": [
-            "R-NRS-BusBody"
         ]
     },
     "R-NRS-FireBody": {
@@ -39390,11 +39360,41 @@
         ],
         "statID": "FireBody",
         "id": "R-NRS-FireBody",
-        "name": "[xlgt-body]*Fire Engine Body*-BaBa #8",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376,
+        "name": "[0OCN-ATbody]*Fire Engine Body*-BaBa #3",
+        "researchPoints": 2100,
+        "researchPower": 217.1052631578948,
         "requiredResearch": [
-            "R-NRS-B2JeepBody-Ultimate"
+            "R-NRS-BusBody"
+        ]
+    },
+    "R-NRS-B2JeepBody-Ultimate": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2JeepBody-Ultimate"
+        ],
+        "statID": "B2JeepBody-Ultimate",
+        "id": "R-NRS-B2JeepBody-Ultimate",
+        "name": "[2OCN-ATbody]*Ultimate Baba Jeep Body*-BaBa #4",
+        "researchPoints": 1049.9999999999995,
+        "researchPower": 108.55263157894737,
+        "requiredResearch": [
+            "R-NRS-FireBody"
+        ]
+    },
+    "R-NRS-B3body-sml-buggy01-Ultimate": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B3body-sml-buggy01-Ultimate"
+        ],
+        "statID": "B3body-sml-buggy01-Ultimate",
+        "id": "R-NRS-B3body-sml-buggy01-Ultimate",
+        "name": "[2OCN-APbody]*Ultimate Buggy Body*-BaBa #1",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
+        "requiredResearch": [
+            "R-Fac-start"
         ]
     },
     "R-NRS-B4body-sml-trike01-Ultimate": {
@@ -39405,9 +39405,12 @@
         ],
         "statID": "B4body-sml-trike01-Ultimate",
         "id": "R-NRS-B4body-sml-trike01-Ultimate",
-        "name": "[xlgt-body]*Ultimate Trike Body*-BaBa #9",
-        "researchPoints": 2520,
-        "researchPower": 260.52631578947376
+        "name": "[2OCN-APbody]*Ultimate Trike Body*-BaBa #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
+        "requiredResearch": [
+            "R-NRS-B3body-sml-buggy01-Ultimate"
+        ]
     },
     "R-NRS-B3bodyRKbuggy01-Ultimate": {
         "iconID": "IMAGE_CANNON",
@@ -39417,9 +39420,12 @@
         ],
         "statID": "B3bodyRKbuggy01-Ultimate",
         "id": "R-NRS-B3bodyRKbuggy01-Ultimate",
-        "name": "[xlgt-body]*Ultimate Rocket Buggy Body*-BaBa #10",
-        "researchPoints": 1259.9999999999998,
-        "researchPower": 130.26315789473685
+        "name": "[2OCN-APbody]*Ultimate Rocket Buggy Body*-BaBa #3",
+        "researchPoints": 1399.9999999999995,
+        "researchPower": 144.73684210526315,
+        "requiredResearch": [
+            "R-NRS-B4body-sml-trike01-Ultimate"
+        ]
     },
     "R-BOMB-Damage--1": {
         "iconID": "IMAGE_RES_POWERTECH",
@@ -41309,7 +41315,7 @@
         ],
         "statID": "BusCannon",
         "id": "R-NRS-BusCannon",
-        "name": "[xlgt-AN]*BusCannon*-BaBa #1",
+        "name": "[1ORN-AN]*BusCannon*-BaBa #1",
         "researchPoints": 945,
         "researchPower": 97.69736842105266,
         "requiredResearch": [
@@ -41330,7 +41336,7 @@
         ],
         "statID": "BabaRocket",
         "id": "R-NRS-BabaRocket",
-        "name": "[xlgt-AN]*BabaRocket*-BaBa #2",
+        "name": "[1ORN-AN]*BabaRocket*-BaBa #2",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -41351,7 +41357,7 @@
         ],
         "statID": "BabaFlame",
         "id": "R-NRS-BabaFlame",
-        "name": "[xlgt-AN]*Flamer*-BaBa #3",
+        "name": "[2ORN-AN]*Flamer*-BaBa #3",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -41372,7 +41378,7 @@
         ],
         "statID": "BabaPitRocket",
         "id": "R-NRS-BabaPitRocket",
-        "name": "[xlgt-AN]*Baba Rocket Pit Launcher*-BaBa #4",
+        "name": "[3ORN-AN]*Baba Rocket Pit Launcher*-BaBa #4",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -41393,7 +41399,7 @@
         ],
         "statID": "BabaPitRocketAT",
         "id": "R-NRS-BabaPitRocketAT",
-        "name": "[xlgt-AN]*AT Rocket Pit*-BaBa #5",
+        "name": "[3ORN-AN]*AT Rocket Pit*-BaBa #5",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -41414,7 +41420,7 @@
         ],
         "statID": "ScavNEXUSlink",
         "id": "R-NRS-ScavNEXUSlink",
-        "name": "[xlgt-AN]scavengernexuslinkturret-BaBa #6",
+        "name": "[3ORN-AN]scavengernexuslinkturret-BaBa #6",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -41435,7 +41441,7 @@
         ],
         "statID": "BuggyMG",
         "id": "R-NRS-BuggyMG",
-        "name": "[xlgt-AN]*Buggy MG*-BaBa #7",
+        "name": "[0ORN-AN]*Buggy MG*-BaBa #7",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422
     },
@@ -41453,7 +41459,7 @@
         ],
         "statID": "BJeepMG",
         "id": "R-NRS-BJeepMG",
-        "name": "[xlgt-AN]*Jeep MG*-BaBa #8",
+        "name": "[0ORN-AN]*Jeep MG*-BaBa #8",
         "researchPoints": 7087.5,
         "researchPower": 732.7302631578949
     },
@@ -44858,7 +44864,7 @@
         ],
         "statID": "MG1Mk1",
         "id": "R-NRS-MG1Mk1",
-        "name": "[lgt-AP]Machinegun-project #1",
+        "name": "[1ORN-AP]Machinegun-project #1",
         "researchPoints": 1512,
         "researchPower": 156.31578947368425,
         "requiredResearch": [
@@ -44881,7 +44887,7 @@
         ],
         "statID": "MG2Mk1",
         "id": "R-NRS-MG2Mk1",
-        "name": "[lgt-AP]Twin Machinegun-project #2",
+        "name": "[2ORN-AP]Twin Machinegun-project #2",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -44904,7 +44910,7 @@
         ],
         "statID": "MG3Mk1",
         "id": "R-NRS-MG3Mk1",
-        "name": "[lgt-AP]Heavy Machinegun-project #3",
+        "name": "[2ORN-AP]Heavy Machinegun-project #3",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -44927,7 +44933,7 @@
         ],
         "statID": "MG4ROTARYMk1",
         "id": "R-NRS-MG4ROTARYMk1",
-        "name": "[lgt-AP]Assault Gun-project #4",
+        "name": "[3ORN-AP]Assault Gun-project #4",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -44949,7 +44955,7 @@
         ],
         "statID": "MG5TWINROTARY",
         "id": "R-NRS-MG5TWINROTARY",
-        "name": "[lgt-AP]Twin Assault Gun-project #5",
+        "name": "[3ORN-AP]Twin Assault Gun-project #5",
         "researchPoints": 15120,
         "researchPower": 1563.1578947368425,
         "requiredResearch": [
@@ -48356,7 +48362,7 @@
         ],
         "statID": "Cannon1Mk1",
         "id": "R-NRS-Cannon1Mk1",
-        "name": "[lgt-AW]Light Cannon-project #1",
+        "name": "[3ORN-AW]Light Cannon-project #1",
         "researchPoints": 1260,
         "researchPower": 130.26315789473688,
         "requiredResearch": [
@@ -48378,7 +48384,7 @@
         ],
         "statID": "Cannon2A-TMk1",
         "id": "R-NRS-Cannon2A-TMk1",
-        "name": "[lgt-AW]Medium Cannon-project #2",
+        "name": "[3ORN-AW]Medium Cannon-project #2",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -48401,7 +48407,7 @@
         ],
         "statID": "Cannon375mmMk1",
         "id": "R-NRS-Cannon375mmMk1",
-        "name": "[lgt-AW]Heavy Cannon-project #3",
+        "name": "[4ORN-AW]Heavy Cannon-project #3",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -48425,7 +48431,7 @@
         ],
         "statID": "Cannon4AUTOMk1",
         "id": "R-NRS-Cannon4AUTOMk1",
-        "name": "[lgt-AW]Hyper Velocity Cannon-project #4",
+        "name": "[4ORN-AW]Hyper Velocity Cannon-project #4",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -48448,7 +48454,7 @@
         ],
         "statID": "Cannon5VulcanMk1",
         "id": "R-NRS-Cannon5VulcanMk1",
-        "name": "[lgt-AW]Assault Cannon-project #5",
+        "name": "[3ORN-AW]Assault Cannon-project #5",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -48470,7 +48476,7 @@
         ],
         "statID": "Cannon6TwinAslt",
         "id": "R-NRS-Cannon6TwinAslt",
-        "name": "[lgt-AW]Twin Assault Cannon-project #6",
+        "name": "[4ORN-AW]Twin Assault Cannon-project #6",
         "researchPoints": 9450,
         "researchPower": 976.9736842105266,
         "requiredResearch": [
@@ -51876,7 +51882,7 @@
         ],
         "statID": "Flame1Mk1",
         "id": "R-NRS-Flame1Mk1",
-        "name": "[lgt-AT]Flamer-project #1",
+        "name": "[3ORN-AT]Flamer-project #1",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -51898,7 +51904,7 @@
         ],
         "statID": "Flame2",
         "id": "R-NRS-Flame2",
-        "name": "[lgt-AT]Inferno-project #2",
+        "name": "[3ORN-AT]Inferno-project #2",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -51919,7 +51925,7 @@
         ],
         "statID": "PlasmiteFlamer",
         "id": "R-NRS-PlasmiteFlamer",
-        "name": "[lgt-AT]Plasmite Flamer-project #3",
+        "name": "[4ORN-AT]Plasmite Flamer-project #3",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -51941,7 +51947,7 @@
         ],
         "statID": "Flame1Mk1-2120",
         "id": "R-NRS-Flame1Mk1-2120",
-        "name": "[lgt-AT]Hellfire-project #4",
+        "name": "[4ORN-AT]Hellfire-project #4",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -51962,7 +51968,7 @@
         ],
         "statID": "Flame2-2120",
         "id": "R-NRS-Flame2-2120",
-        "name": "[lgt-AT]Hellraiser-project #5",
+        "name": "[5ORN-AT]Hellraiser-project #5",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -51984,7 +51990,7 @@
         ],
         "statID": "Flame3Mk1-2120",
         "id": "R-NRS-Flame3Mk1-2120",
-        "name": "[lgt-AT]Plasmiteraiser-project #6",
+        "name": "[5ORN-AT]Plasmiteraiser-project #6",
         "researchPoints": 2099.9999999999995,
         "researchPower": 217.10526315789474,
         "requiredResearch": [
@@ -51999,7 +52005,7 @@
         ],
         "statID": "Body1REC",
         "id": "R-NRS-Body1REC",
-        "name": "[lgt-body]Viper-project #1",
+        "name": "[3ORN-defbody]Viper-project #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -52014,9 +52020,9 @@
         ],
         "statID": "Body4ABT",
         "id": "R-NRS-Body4ABT",
-        "name": "[lgt-body]Bug-project #2",
-        "researchPoints": 5040,
-        "researchPower": 521.0526315789475,
+        "name": "[3ORN-defbody]Bug-project #2",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
         "requiredResearch": [
             "R-NRS-Body1REC"
         ]
@@ -52029,9 +52035,9 @@
         ],
         "statID": "Body2SUP",
         "id": "R-NRS-Body2SUP",
-        "name": "[lgt-body]Leopard-project #3",
-        "researchPoints": 5040,
-        "researchPower": 521.0526315789475,
+        "name": "[3ORN-defbody]Leopard-project #3",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
         "requiredResearch": [
             "R-NRS-Body4ABT"
         ]
@@ -52044,9 +52050,9 @@
         ],
         "statID": "Body3MBT",
         "id": "R-NRS-Body3MBT",
-        "name": "[lgt-body]Retaliation-project #4",
-        "researchPoints": 5040,
-        "researchPower": 521.0526315789475,
+        "name": "[4ORN-defbody]Retaliation-project #4",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
         "requiredResearch": [
             "R-NRS-Body2SUP"
         ]
@@ -52059,9 +52065,9 @@
         ],
         "statID": "Body3MBT-2120",
         "id": "R-NRS-Body3MBT-2120",
-        "name": "[lgt-body]Lizard-Paradigm #3",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[4ORS-defbody]Lizard-Paradigm #3",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body2SUP-2120"
         ]
@@ -52074,7 +52080,7 @@
         ],
         "statID": "A0PowMod1",
         "id": "R-NRS-A0PowMod1",
-        "name": "[lgt-def]Power Module-project #1",
+        "name": "[4ORN-def]Power Module-project #1",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -52090,7 +52096,7 @@
         ],
         "statID": "LightRepair1",
         "id": "R-NRS-LightRepair1",
-        "name": "[med-AW]Repair Turret-project #1",
+        "name": "[4ORN-AW]Repair Turret-project #1",
         "researchPoints": 1260,
         "researchPower": 130.26315789473688,
         "requiredResearch": [
@@ -52105,7 +52111,7 @@
         ],
         "statID": "HeavyRepair",
         "id": "R-NRS-HeavyRepair",
-        "name": "[med-AW]Heavy Repair Turret-project #2",
+        "name": "[4ORN-AW]Heavy Repair Turret-project #2",
         "researchPoints": 629.9999999999999,
         "researchPower": 65.13157894736842,
         "requiredResearch": [
@@ -55510,7 +55516,7 @@
         ],
         "statID": "Rocket-Pod",
         "id": "R-NRS-Rocket-Pod",
-        "name": "[med-AT]Mini-Rocket Pod-Paradigm #1",
+        "name": "[3ORN-AT]Mini-Rocket Pod-Paradigm #1",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -55532,7 +55538,7 @@
         ],
         "statID": "Rocket-LtA-T",
         "id": "R-NRS-Rocket-LtA-T",
-        "name": "[med-AT]Lancer-Paradigm #2",
+        "name": "[3ORN-AT]Lancer-Paradigm #2",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -55553,7 +55559,7 @@
         ],
         "statID": "Rocket-Pod-2120",
         "id": "R-NRS-Rocket-Pod-2120",
-        "name": "[med-AT]Hydra Rocket Pod-Paradigm #3",
+        "name": "[4ORN-AT]Hydra Rocket Pod-Paradigm #3",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -55575,7 +55581,7 @@
         ],
         "statID": "Rocket-HvyA-T",
         "id": "R-NRS-Rocket-HvyA-T",
-        "name": "[med-AT]Tank Killer-Paradigm #4",
+        "name": "[4ORN-AT]Tank Killer-Paradigm #4",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -55597,7 +55603,7 @@
         ],
         "statID": "Missile-A-T-2120",
         "id": "R-NRS-Missile-A-T-2120",
-        "name": "[hvy-AT]Warthog ATGM-allon #6",
+        "name": "[5ORN-AT]Warthog ATGM-allon #6",
         "researchPoints": 2099.9999999999995,
         "researchPower": 217.10526315789474,
         "requiredResearch": [
@@ -59005,7 +59011,7 @@
         ],
         "statID": "RailGun1Mk1-2120",
         "id": "R-NRS-RailGun1Mk1-2120",
-        "name": "[med-AW]Pulse Gun-Paradigm #1",
+        "name": "[5ORN-AW]Pulse Gun-Paradigm #1",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -59029,7 +59035,7 @@
         ],
         "statID": "RailGun2Mk1-2120",
         "id": "R-NRS-RailGun2Mk1-2120",
-        "name": "[med-AW]Plasma Gun-Paradigm #2",
+        "name": "[5ORN-AW]Plasma Gun-Paradigm #2",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -59053,7 +59059,7 @@
         ],
         "statID": "RailGun3Mk1-2120",
         "id": "R-NRS-RailGun3Mk1-2120",
-        "name": "[med-AW]Quark Cannon-Paradigm #3",
+        "name": "[6ORN-AW]Quark Cannon-Paradigm #3",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -59076,7 +59082,7 @@
         ],
         "statID": "RailGun4Mk1-2120",
         "id": "R-NRS-RailGun4Mk1-2120",
-        "name": "[med-AW]Dark Pulse Cannon-Paradigm #4",
+        "name": "[5ORN-AW]Dark Pulse Cannon-Paradigm #4",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -59099,7 +59105,7 @@
         ],
         "statID": "RailGun5Mk1-2120",
         "id": "R-NRS-RailGun5Mk1-2120",
-        "name": "[med-AW]Dark Plasma Cannon-Paradigm #5",
+        "name": "[6ORN-AW]Dark Plasma Cannon-Paradigm #5",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -59123,7 +59129,7 @@
         ],
         "statID": "RailGun6Mk1-2120",
         "id": "R-NRS-RailGun6Mk1-2120",
-        "name": "[med-AW]Dark Quark Cannon-Paradigm #6",
+        "name": "[6ORN-AW]Dark Quark Cannon-Paradigm #6",
         "researchPoints": 2099.9999999999995,
         "researchPower": 217.10526315789474,
         "requiredResearch": [
@@ -59138,7 +59144,7 @@
         ],
         "statID": "Body5REC",
         "id": "R-NRS-Body5REC",
-        "name": "[med-body]Cobra-Paradigm #1",
+        "name": "[4ORN-defbody]Cobra-Paradigm #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
@@ -59153,9 +59159,9 @@
         ],
         "statID": "Body8MBT",
         "id": "R-NRS-Body8MBT",
-        "name": "[med-body]Scorpion-Paradigm #2",
-        "researchPoints": 5040,
-        "researchPower": 521.0526315789475,
+        "name": "[3ORN-defbody]Scorpion-Paradigm #2",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
         "requiredResearch": [
             "R-NRS-Body5REC"
         ]
@@ -59168,9 +59174,9 @@
         ],
         "statID": "Body6SUPP",
         "id": "R-NRS-Body6SUPP",
-        "name": "[med-body]Panther-Paradigm #3",
-        "researchPoints": 5040,
-        "researchPower": 521.0526315789475,
+        "name": "[4ORN-defbody]Panther-Paradigm #3",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
         "requiredResearch": [
             "R-NRS-Body8MBT"
         ]
@@ -59183,9 +59189,9 @@
         ],
         "statID": "Body7ABT",
         "id": "R-NRS-Body7ABT",
-        "name": "[med-body]Retribution-Paradigm #4",
-        "researchPoints": 5040,
-        "researchPower": 521.0526315789475,
+        "name": "[4ORN-defbody]Retribution-Paradigm #4",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
         "requiredResearch": [
             "R-NRS-Body6SUPP"
         ]
@@ -59198,9 +59204,9 @@
         ],
         "statID": "Body7ALT-2120",
         "id": "R-NRS-Body7ALT-2120",
-        "name": "[med-body]Salamander-allon #1",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[5ORS-defbody]Salamander-allon #1",
+        "researchPoints": 0,
+        "researchPower": 0,
         "requiredResearch": [
             "R-Fac-start"
         ]
@@ -62603,7 +62609,7 @@
         ],
         "statID": "Rocket-BB",
         "id": "R-NRS-Rocket-BB",
-        "name": "[lgt-AS]Bunker Buster-Paradigm #1",
+        "name": "[3ORN-AS]Bunker Buster-Paradigm #1",
         "researchPoints": 6300,
         "researchPower": 651.3157894736844,
         "requiredResearch": [
@@ -62624,7 +62630,7 @@
         ],
         "statID": "Rocket-Sunburst",
         "id": "R-NRS-Rocket-Sunburst",
-        "name": "[lgt-AS]Sunburst AA-Paradigm #2",
+        "name": "[4ORN-AS]Sunburst AA-Paradigm #2",
         "researchPoints": 6300,
         "researchPower": 651.3157894736844,
         "requiredResearch": [
@@ -62645,7 +62651,7 @@
         ],
         "statID": "Rocket-BB-2120",
         "id": "R-NRS-Rocket-BB-2120",
-        "name": "[lgt-AS]Devastator ASGM-Paradigm #3",
+        "name": "[5ORN-AS]Devastator ASGM-Paradigm #3",
         "researchPoints": 6300,
         "researchPower": 651.3157894736844,
         "requiredResearch": [
@@ -62666,7 +62672,7 @@
         ],
         "statID": "Missile-BB-2120",
         "id": "R-NRS-Missile-BB-2120",
-        "name": "[lgt-AS]Domination ASGM-Paradigm #4",
+        "name": "[6ORN-AS]Domination ASGM-Paradigm #4",
         "researchPoints": 3149.999999999999,
         "researchPower": 325.65789473684214,
         "requiredResearch": [
@@ -62681,7 +62687,7 @@
         ],
         "statID": "A0FacMod1",
         "id": "R-NRS-A0FacMod1",
-        "name": "[lgt-def]Factory Module-Paradigm #1",
+        "name": "[4ORN-def]Factory Module-Paradigm #1",
         "researchPoints": 5040,
         "researchPower": 521.0526315789475,
         "requiredResearch": [
@@ -62696,9 +62702,9 @@
         ],
         "statID": "Body1UPG-2120",
         "id": "R-NRS-Body1UPG-2120",
-        "name": "[lgt-body]Resurgence-Paradigm #1",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[3ORS-defbody]Resurgence-Paradigm #1",
+        "researchPoints": 0,
+        "researchPower": 0,
         "requiredResearch": [
             "R-Fac-start"
         ]
@@ -62711,9 +62717,9 @@
         ],
         "statID": "Body2SUP-2120",
         "id": "R-NRS-Body2SUP-2120",
-        "name": "[lgt-body]Opal-Paradigm #2",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[3ORS-defbody]Opal-Paradigm #2",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body1UPG-2120"
         ]
@@ -62726,9 +62732,9 @@
         ],
         "statID": "Body3SUP-2120",
         "id": "R-NRS-Body3SUP-2120",
-        "name": "[lgt-body]Shark-Paradigm #4",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[4ORS-defbody]Shark-Paradigm #4",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body3MBT-2120"
         ]
@@ -62741,9 +62747,9 @@
         ],
         "statID": "Body3ALT-2120",
         "id": "R-NRS-Body3ALT-2120",
-        "name": "[lgt-body]Wyrmling-Paradigm #5",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[4ORS-defbody]Wyrmling-Paradigm #5",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body3SUP-2120"
         ]
@@ -62756,9 +62762,9 @@
         ],
         "statID": "Body4ABT-2120",
         "id": "R-NRS-Body4ABT-2120",
-        "name": "[lgt-body]Bee-Paradigm #6",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[3ORS-defbody]Bee-Paradigm #6",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body3ALT-2120"
         ]
@@ -62771,9 +62777,9 @@
         ],
         "statID": "Body4UPG-2120",
         "id": "R-NRS-Body4UPG-2120",
-        "name": "[lgt-body]Stingray-Paradigm #7",
-        "researchPoints": 1799.9999999999998,
-        "researchPower": 186.0902255639098,
+        "name": "[3ORS-defbody]Stingray-Paradigm #7",
+        "researchPoints": 3600.0000000000005,
+        "researchPower": 372.18045112781965,
         "requiredResearch": [
             "R-NRS-Body4ABT-2120"
         ]
@@ -66178,7 +66184,7 @@
         ],
         "statID": "Rocket-HvyA-T-2120",
         "id": "R-NRS-Rocket-HvyA-T-2120",
-        "name": "[hvy-AT]Explorer ATGM-allon #1",
+        "name": "[5ORN-AT]Explorer ATGM-allon #1",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -66200,7 +66206,7 @@
         ],
         "statID": "Rocket-HvyA-T2-2120",
         "id": "R-NRS-Rocket-HvyA-T2-2120",
-        "name": "[hvy-AT]Tank Killer-allon #2",
+        "name": "[2ORN-AT]Tank Killer-allon #2",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -66222,7 +66228,7 @@
         ],
         "statID": "Rocket-MRL-2120",
         "id": "R-NRS-Rocket-MRL-2120",
-        "name": "[hvy-AT]Angel MRL Array-allon #3",
+        "name": "[4ORN-AT]Angel MRL Array-allon #3",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -66244,7 +66250,7 @@
         ],
         "statID": "Rocket-LtA-T-2120",
         "id": "R-NRS-Rocket-LtA-T-2120",
-        "name": "[hvy-AT]Scourge ATGM-allon #4",
+        "name": "[4ORN-AT]Scourge ATGM-allon #4",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -66265,7 +66271,7 @@
         ],
         "statID": "Rocket-LtA-T2-2120",
         "id": "R-NRS-Rocket-LtA-T2-2120",
-        "name": "[hvy-AT]2120 lancer-allon #5",
+        "name": "[2ORN-AT]2120 lancer-allon #5",
         "researchPoints": 4200,
         "researchPower": 434.2105263157896,
         "requiredResearch": [
@@ -69670,7 +69676,7 @@
         ],
         "statID": "Rocket-MRL",
         "id": "R-NRS-Rocket-MRL",
-        "name": "[hvy-AS]Mini-Rocket Array-allon #1",
+        "name": "[3ORN-AS]Mini-Rocket Array-allon #1",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -69691,7 +69697,7 @@
         ],
         "statID": "Rocket-IDF",
         "id": "R-NRS-Rocket-IDF",
-        "name": "[hvy-AS]Ripple Rockets-allon #2",
+        "name": "[4ORN-AS]Ripple Rockets-allon #2",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -69712,7 +69718,7 @@
         ],
         "statID": "Missile-MdArt",
         "id": "R-NRS-Missile-MdArt",
-        "name": "[hvy-AS]Seraph Missile Array-allon #3",
+        "name": "[4ORN-AS]Seraph Missile Array-allon #3",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -69733,7 +69739,7 @@
         ],
         "statID": "Rocket-IDF-2120",
         "id": "R-NRS-Rocket-IDF-2120",
-        "name": "[hvy-AS]Archangel MRL Artillery-allon #4",
+        "name": "[5ORN-AS]Archangel MRL Artillery-allon #4",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -69754,7 +69760,7 @@
         ],
         "statID": "Rocket-MRL-Hvy",
         "id": "R-NRS-Rocket-MRL-Hvy",
-        "name": "[hvy-AS]Heavy Rocket Array-allon #5",
+        "name": "[3ORN-AS]Heavy Rocket Array-allon #5",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -69775,7 +69781,7 @@
         ],
         "statID": "Missile-HvyArt",
         "id": "R-NRS-Missile-HvyArt",
-        "name": "[hvy-AS]Archangel Missile-allon #6",
+        "name": "[5ORN-AS]Archangel Missile-allon #6",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -69796,7 +69802,7 @@
         ],
         "statID": "Missile-MdArt-2120",
         "id": "R-NRS-Missile-MdArt-2120",
-        "name": "[hvy-AS]Firestorm MML Array-allon #7",
+        "name": "[5ORN-AS]Firestorm MML Array-allon #7",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -69817,7 +69823,7 @@
         ],
         "statID": "Missile-HvyArt-2120",
         "id": "R-NRS-Missile-HvyArt-2120",
-        "name": "[hvy-AS]Supernova MML Artillery-allon #8",
+        "name": "[5ORN-AS]Supernova MML Artillery-allon #8",
         "researchPoints": 1574.9999999999995,
         "researchPower": 162.82894736842107,
         "requiredResearch": [
@@ -73225,7 +73231,7 @@
         ],
         "statID": "MG1Mk1-2120",
         "id": "R-NRS-MG1Mk1-2120",
-        "name": "[med-AP]Flashlight-allon #1",
+        "name": "[3ORN-AP]Flashlight-allon #1",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -73248,7 +73254,7 @@
         ],
         "statID": "MG2Mk1-2120",
         "id": "R-NRS-MG2Mk1-2120",
-        "name": "[med-AP]Light Laser-allon #2",
+        "name": "[4ORN-AP]Light Laser-allon #2",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -73272,7 +73278,7 @@
         ],
         "statID": "MG7LGTGATTLINGMk1-2120",
         "id": "R-NRS-MG7LGTGATTLINGMk1-2120",
-        "name": "[med-AP]Gattling Light Laser-allon #3",
+        "name": "[5ORN-AP]Gattling Light Laser-allon #3",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -73295,7 +73301,7 @@
         ],
         "statID": "MG3Mk1-2120",
         "id": "R-NRS-MG3Mk1-2120",
-        "name": "[med-AP]Medium Laser-allon #4",
+        "name": "[5ORN-AP]Medium Laser-allon #4",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -73318,7 +73324,7 @@
         ],
         "statID": "MG7MEDGATTLINGMk1-2120",
         "id": "R-NRS-MG7MEDGATTLINGMk1-2120",
-        "name": "[med-AP]Gattling Medium Laser-allon #5",
+        "name": "[5ORN-AP]Gattling Medium Laser-allon #5",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -73342,7 +73348,7 @@
         ],
         "statID": "MG4ROTARYMk1-2120",
         "id": "R-NRS-MG4ROTARYMk1-2120",
-        "name": "[med-AP]Heavy Laser-allon #6",
+        "name": "[5ORN-AP]Heavy Laser-allon #6",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -73365,7 +73371,7 @@
         ],
         "statID": "MG7GATTLINGMk1-2120",
         "id": "R-NRS-MG7GATTLINGMk1-2120",
-        "name": "[med-AP]Gattling Heavy Laser-allon #7",
+        "name": "[5ORN-AP]Gattling Heavy Laser-allon #7",
         "researchPoints": 3150,
         "researchPower": 325.6578947368422,
         "requiredResearch": [
@@ -73389,7 +73395,7 @@
         ],
         "statID": "Laser2PULSEMk1-2120",
         "id": "R-NRS-Laser2PULSEMk1-2120",
-        "name": "[med-AP]Hyper Pulse Laser-allon #8",
+        "name": "[5ORN-AP]Hyper Pulse Laser-allon #8",
         "researchPoints": 1574.9999999999995,
         "researchPower": 162.82894736842107,
         "requiredResearch": [
@@ -73404,9 +73410,9 @@
         ],
         "statID": "Body8MBT-2120",
         "id": "R-NRS-Body8MBT-2120",
-        "name": "[med-body]Wasp-allon #2",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[4ORS-defbody]Wasp-allon #2",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body7ALT-2120"
         ]
@@ -73419,9 +73425,9 @@
         ],
         "statID": "Body8UPG-2120",
         "id": "R-NRS-Body8UPG-2120",
-        "name": "[med-body]MantisB-allon #3",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[4ORS-defbody]MantisB-allon #3",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body8MBT-2120"
         ]
@@ -73434,9 +73440,9 @@
         ],
         "statID": "Body16MBTT-2120",
         "id": "R-NRS-Body16MBTT-2120",
-        "name": "[med-body]Dolichovespula-allon #4",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[6ORS-defbody]Dolichovespula-allon #4",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body8UPG-2120"
         ]
@@ -73449,9 +73455,9 @@
         ],
         "statID": "Body25DKD-2120",
         "id": "R-NRS-Body25DKD-2120",
-        "name": "[med-body]Nightmare Drake-allon #5",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[5ORS-defbody]Nightmare Drake-allon #5",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body16MBTT-2120"
         ]
@@ -73464,9 +73470,9 @@
         ],
         "statID": "Body6SUPP-2120",
         "id": "R-NRS-Body6SUPP-2120",
-        "name": "[med-body]Crystal-allon #6",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
+        "name": "[4ORS-defbody]Crystal-allon #6",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body25DKD-2120"
         ]
@@ -73479,9 +73485,9 @@
         ],
         "statID": "Body7SUPP-2120",
         "id": "R-NRS-Body7SUPP-2120",
-        "name": "[med-body]HammerHead-allon #7",
-        "researchPoints": 1799.9999999999998,
-        "researchPower": 186.0902255639098,
+        "name": "[4ORS-defbody]HammerHead-allon #7",
+        "researchPoints": 3600.0000000000005,
+        "researchPower": 372.18045112781965,
         "requiredResearch": [
             "R-NRS-Body6SUPP-2120"
         ]
@@ -73494,9 +73500,9 @@
         ],
         "statID": "Body9REC-2120",
         "id": "R-NRS-Body9REC-2120",
-        "name": "[MH-body]Diamond-allon #1",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[4ORN-defbody]Diamond-allon #1",
+        "researchPoints": 0,
+        "researchPower": 0,
         "requiredResearch": [
             "R-Fac-start"
         ]
@@ -73509,9 +73515,9 @@
         ],
         "statID": "Body10REC-2120",
         "id": "R-NRS-Body10REC-2120",
-        "name": "[MH-body]SharkWhale-allon #2",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[5ORN-defbody]SharkWhale-allon #2",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body9REC-2120"
         ]
@@ -73524,9 +73530,9 @@
         ],
         "statID": "Body12SUPP-2120",
         "id": "R-NRS-Body12SUPP-2120",
-        "name": "[MH-body]BlueWhale-allon #3",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[5ORN-defbody]BlueWhale-allon #3",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body10REC-2120"
         ]
@@ -73539,9 +73545,9 @@
         ],
         "statID": "Body10ALT-2120",
         "id": "R-NRS-Body10ALT-2120",
-        "name": "[MH-body]Komodo Dragon-allon #4",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[5ORN-defbody]Komodo Dragon-allon #4",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body12SUPP-2120"
         ]
@@ -73554,9 +73560,9 @@
         ],
         "statID": "Body7ABT-2120",
         "id": "R-NRS-Body7ABT-2120",
-        "name": "[MH-body]Drake-allon #5",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[5ORN-defbody]Drake-allon #5",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body10ALT-2120"
         ]
@@ -73569,9 +73575,9 @@
         ],
         "statID": "Body11UPG-2120",
         "id": "R-NRS-Body11UPG-2120",
-        "name": "[MH-body]Armageddon-allon #6",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[5ORN-defbody]Armageddon-allon #6",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
         "requiredResearch": [
             "R-NRS-Body7ABT-2120"
         ]
@@ -73584,26 +73590,26 @@
         ],
         "statID": "Body12SUP-2120",
         "id": "R-NRS-Body12SUP-2120",
-        "name": "[MH-body]Hornet-allon #7",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[4ORN-defbody]Hornet-allon #7",
+        "researchPoints": 3600.0000000000005,
+        "researchPower": 372.18045112781965,
         "requiredResearch": [
             "R-NRS-Body11UPG-2120"
         ]
     },
     "R-NRS-Body12UPG-2120": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_RES_DROIDTECH",
         "resultComponents": [
             "Body12UPG-2120"
         ],
         "statID": "Body12UPG-2120",
         "id": "R-NRS-Body12UPG-2120",
-        "name": "[MH-body]Raymantis-allon #8",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[4OGN-ATbody]Raymantis-allon #1",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
-            "R-NRS-Body12SUP-2120"
+            "R-Fac-start"
         ]
     },
     "R-NRS-Body14SUP-2120": {
@@ -73614,9 +73620,9 @@
         ],
         "statID": "Body14SUP-2120",
         "id": "R-NRS-Body14SUP-2120",
-        "name": "[MH-body]NightWing-allon #9",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[6OGN-ATbody]NightWing-allon #2",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body12UPG-2120"
         ]
@@ -73629,9 +73635,9 @@
         ],
         "statID": "Body13SUP-2120",
         "id": "R-NRS-Body13SUP-2120",
-        "name": "[MH-body]Horror Wyvern-allon #10",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[6OGN-ATbody]Horror Wyvern-allon #3",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body14SUP-2120"
         ]
@@ -73644,9 +73650,9 @@
         ],
         "statID": "Body17SUUP-2120",
         "id": "R-NRS-Body17SUUP-2120",
-        "name": "[MH-body]GiGaHornet-allon #11",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[5OGN-ATbody]GiGaHornet-allon #4",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body13SUP-2120"
         ]
@@ -73659,9 +73665,9 @@
         ],
         "statID": "Body26SUP-2120",
         "id": "R-NRS-Body26SUP-2120",
-        "name": "[MH-body]Titanium Diamond-allon #12",
-        "researchPoints": 1938.4615384615383,
-        "researchPower": 200.4048582995952,
+        "name": "[5OGN-ATbody]Titanium Diamond-allon #5",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
         "requiredResearch": [
             "R-NRS-Body17SUUP-2120"
         ]
@@ -73674,9 +73680,9 @@
         ],
         "statID": "Body27SUP-2120",
         "id": "R-NRS-Body27SUP-2120",
-        "name": "[MH-body]Mass Hornet-allon #13",
-        "researchPoints": 969.2307692307689,
-        "researchPower": 100.20242914979757,
+        "name": "[5OGN-ATbody]Mass Hornet-allon #6",
+        "researchPoints": 699.9999999999998,
+        "researchPower": 72.36842105263158,
         "requiredResearch": [
             "R-NRS-Body26SUP-2120"
         ]
@@ -73691,7 +73697,7 @@
         ],
         "statID": "A0PowerGenerator",
         "id": "R-NRS-A0PowerGenerator",
-        "name": "[med-AP]Power Generator-energy #1",
+        "name": "[4ORN-AP]Power Generator-energy #1",
         "researchPoints": 0,
         "researchPower": 0
     },
@@ -73703,206 +73709,56 @@
         ],
         "statID": "A0ComDroidControl",
         "id": "R-NRS-A0ComDroidControl",
-        "name": "[hvy-AT]Command Relay Center-ai #1",
+        "name": "[4ORN-AT]Command Relay Center-ai #1",
         "researchPoints": 0,
         "researchPower": 0,
         "requiredResearch": [
             "R-Fac-start"
         ]
     },
-    "R-NRS-BarbWarehouse1-eco1": {
+    "R-NRS-Aerodynamicslab-eco1": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbWarehouse1-eco"
+            "Aerodynamicslab-eco"
         ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco1",
-        "name": "[med-def]BarbWarehouse1-eco1 #1",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Aerodynamicslab-eco",
+        "id": "R-NRS-Aerodynamicslab-eco1",
+        "name": "[4ORN-def]Aerodynamicslab-eco1 #1",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
             "R-Fac-start"
         ]
     },
-    "R-NRS-LogCabin3-eco1": {
+    "R-NRS-Rotarywepslab-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "LogCabin3-eco"
+            "Rotarywepslab-eco"
         ],
-        "statID": "LogCabin3-eco",
-        "id": "R-NRS-LogCabin3-eco1",
-        "name": "[med-def]LogCabin3-eco1 #2",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco1",
+        "name": "[4ORN-def]Rotarywepslab-eco1 #2",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-NRS-BarbWarehouse1-eco1"
+            "R-NRS-Aerodynamicslab-eco1"
         ]
     },
-    "R-NRS-building10-eco1": {
+    "R-NRS-NuclearReactor-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building10-eco"
+            "NuclearReactor-eco"
         ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco1",
-        "name": "[med-def]building10-eco1 #3",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "statID": "NuclearReactor-eco",
+        "id": "R-NRS-NuclearReactor-eco1",
+        "name": "[4ORN-def]*NuclearReactor*-eco1 #3",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-NRS-LogCabin3-eco1"
-        ]
-    },
-    "R-NRS-Forest-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Forest-eco"
-        ],
-        "statID": "Forest-eco",
-        "id": "R-NRS-Forest-eco1",
-        "name": "[med-def]Forest-eco1 #4",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-building10-eco1"
-        ]
-    },
-    "R-NRS-cabin-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "cabin-eco"
-        ],
-        "statID": "cabin-eco",
-        "id": "R-NRS-cabin-eco1",
-        "name": "[med-def]cabin-eco1 #5",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Forest-eco1"
-        ]
-    },
-    "R-NRS-building12-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building12-eco"
-        ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco1",
-        "name": "[med-def]building12-eco1 #6",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-cabin-eco1"
-        ]
-    },
-    "R-NRS-A0ResourceExtractor-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "A0ResourceExtractor-eco"
-        ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco1",
-        "name": "[med-def]Oil Derrick-eco1 #7",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-building12-eco1"
-        ]
-    },
-    "R-NRS-Propaganda-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Propaganda-eco"
-        ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco1",
-        "name": "[med-def]Propaganda Tower-eco1 #8",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco1"
-        ]
-    },
-    "R-NRS-AirTrafficControl-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "AirTrafficControl-eco"
-        ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco1",
-        "name": "[med-def]AirTrafficControl-eco1 #9",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Propaganda-eco1"
-        ]
-    },
-    "R-NRS-Boulder3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder3-eco"
-        ],
-        "statID": "Boulder3-eco",
-        "id": "R-NRS-Boulder3-eco1",
-        "name": "[med-def]Boulder3-eco1 #10",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco1"
-        ]
-    },
-    "R-NRS-arizonabush3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "arizonabush3-eco"
-        ],
-        "statID": "arizonabush3-eco",
-        "id": "R-NRS-arizonabush3-eco1",
-        "name": "[med-def]arizonabush3-eco1 #11",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Boulder3-eco1"
-        ]
-    },
-    "R-NRS-Tree-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Tree-eco"
-        ],
-        "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco1",
-        "name": "[med-def]Tree-eco1 #12",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-arizonabush3-eco1"
-        ]
-    },
-    "R-NRS-Advmaterialslab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Advmaterialslab-eco"
-        ],
-        "statID": "Advmaterialslab-eco",
-        "id": "R-NRS-Advmaterialslab-eco1",
-        "name": "[med-def]Advmaterialslab-eco1 #13",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Tree-eco1"
+            "R-NRS-Rotarywepslab-eco1"
         ]
     },
     "R-NRS-BarbWarehouse3-eco1": {
@@ -73913,41 +73769,11 @@
         ],
         "statID": "BarbWarehouse3-eco",
         "id": "R-NRS-BarbWarehouse3-eco1",
-        "name": "[med-def]BarbWarehouse3-eco1 #14",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]BarbWarehouse3-eco1 #4",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-NRS-Advmaterialslab-eco1"
-        ]
-    },
-    "R-NRS-Powlab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Powlab-eco"
-        ],
-        "statID": "Powlab-eco",
-        "id": "R-NRS-Powlab-eco1",
-        "name": "[med-def]Powlab-eco1 #15",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse3-eco1"
-        ]
-    },
-    "R-NRS-OilTower-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "OilTower-eco"
-        ],
-        "statID": "OilTower-eco",
-        "id": "R-NRS-OilTower-eco1",
-        "name": "[med-def]OilTower-eco1 #16",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Powlab-eco1"
+            "R-NRS-NuclearReactor-eco1"
         ]
     },
     "R-NRS-building2-eco1": {
@@ -73958,26 +73784,236 @@
         ],
         "statID": "building2-eco",
         "id": "R-NRS-building2-eco1",
-        "name": "[med-def]building2-eco1 #17",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]building2-eco1 #5",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-NRS-OilTower-eco1"
+            "R-NRS-BarbWarehouse3-eco1"
         ]
     },
-    "R-NRS-Boulder1-eco1": {
+    "R-NRS-building12-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Boulder1-eco"
+            "building12-eco"
         ],
-        "statID": "Boulder1-eco",
-        "id": "R-NRS-Boulder1-eco1",
-        "name": "[med-def]Boulder1-eco1 #18",
-        "researchPoints": 69.99999999999999,
-        "researchPower": 7.236842105263159,
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco1",
+        "name": "[4ORN-def]building12-eco1 #6",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
             "R-NRS-building2-eco1"
+        ]
+    },
+    "R-NRS-building10-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building10-eco"
+        ],
+        "statID": "building10-eco",
+        "id": "R-NRS-building10-eco1",
+        "name": "[4ORN-def]building10-eco1 #7",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-building12-eco1"
+        ]
+    },
+    "R-NRS-building3-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building3-eco"
+        ],
+        "statID": "building3-eco",
+        "id": "R-NRS-building3-eco1",
+        "name": "[4ORN-def]building3-eco1 #8",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-building10-eco1"
+        ]
+    },
+    "R-NRS-Tree-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Tree-eco"
+        ],
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco1",
+        "name": "[4ORN-def]Tree-eco1 #9",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-building3-eco1"
+        ]
+    },
+    "R-NRS-BarbWarehouse2-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse2-eco"
+        ],
+        "statID": "BarbWarehouse2-eco",
+        "id": "R-NRS-BarbWarehouse2-eco1",
+        "name": "[4ORN-def]BarbWarehouse2-eco1 #10",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Tree-eco1"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco1",
+        "name": "[4ORN-def]AirTrafficControl-eco1 #11",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse2-eco1"
+        ]
+    },
+    "R-NRS-Advmaterialslab-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Advmaterialslab-eco"
+        ],
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco1",
+        "name": "[4ORN-def]Advmaterialslab-eco1 #12",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-AirTrafficControl-eco1"
+        ]
+    },
+    "R-NRS-SolarPower-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "SolarPower-eco"
+        ],
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco1",
+        "name": "[4ORN-def]Solar panel-eco1 #13",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Advmaterialslab-eco1"
+        ]
+    },
+    "R-NRS-CoolingTower-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "CoolingTower-eco"
+        ],
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco1",
+        "name": "[4ORN-def]*CoolingTower*-eco1 #14",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco1"
+        ]
+    },
+    "R-NRS-Forest-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Forest-eco"
+        ],
+        "statID": "Forest-eco",
+        "id": "R-NRS-Forest-eco1",
+        "name": "[4ORN-def]Forest-eco1 #15",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-CoolingTower-eco1"
+        ]
+    },
+    "R-NRS-Boulder2-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder2-eco"
+        ],
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco1",
+        "name": "[4ORN-def]Boulder2-eco1 #16",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Forest-eco1"
+        ]
+    },
+    "R-NRS-arizonabush3-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "arizonabush3-eco"
+        ],
+        "statID": "arizonabush3-eco",
+        "id": "R-NRS-arizonabush3-eco1",
+        "name": "[4ORN-def]arizonabush3-eco1 #17",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Boulder2-eco1"
+        ]
+    },
+    "R-NRS-A0ResourceExtractor-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "A0ResourceExtractor-eco"
+        ],
+        "statID": "A0ResourceExtractor-eco",
+        "id": "R-NRS-A0ResourceExtractor-eco1",
+        "name": "[4ORN-def]Oil Derrick-eco1 #18",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-arizonabush3-eco1"
+        ]
+    },
+    "R-NRS-road-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "road-eco"
+        ],
+        "statID": "road-eco",
+        "id": "R-NRS-road-eco1",
+        "name": "[4ORN-def]road-eco1 #19",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-A0ResourceExtractor-eco1"
+        ]
+    },
+    "R-NRS-building11-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building11-eco"
+        ],
+        "statID": "building11-eco",
+        "id": "R-NRS-building11-eco1",
+        "name": "[4ORN-def]building11-eco1 #20",
+        "researchPoints": 62.99999999999999,
+        "researchPower": 6.5131578947368425,
+        "requiredResearch": [
+            "R-NRS-road-eco1"
         ]
     },
     "R-NRS-Aerodynamicslab-eco2": {
@@ -73988,191 +74024,11 @@
         ],
         "statID": "Aerodynamicslab-eco",
         "id": "R-NRS-Aerodynamicslab-eco2",
-        "name": "[med-def]Aerodynamicslab-eco2 #1",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
+        "name": "[4ORN-def]Aerodynamicslab-eco2 #1",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
             "R-Fac-start"
-        ]
-    },
-    "R-NRS-NuclearReactor-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "NuclearReactor-eco"
-        ],
-        "statID": "NuclearReactor-eco",
-        "id": "R-NRS-NuclearReactor-eco2",
-        "name": "[med-def]*NuclearReactor*-eco2 #2",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Aerodynamicslab-eco2"
-        ]
-    },
-    "R-NRS-CoolingTower-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "CoolingTower-eco"
-        ],
-        "statID": "CoolingTower-eco",
-        "id": "R-NRS-CoolingTower-eco2",
-        "name": "[med-def]*CoolingTower*-eco2 #3",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-NuclearReactor-eco2"
-        ]
-    },
-    "R-NRS-AirTrafficControl-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "AirTrafficControl-eco"
-        ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco2",
-        "name": "[med-def]AirTrafficControl-eco2 #4",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-CoolingTower-eco2"
-        ]
-    },
-    "R-NRS-building2-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building2-eco"
-        ],
-        "statID": "building2-eco",
-        "id": "R-NRS-building2-eco2",
-        "name": "[med-def]building2-eco2 #5",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco2"
-        ]
-    },
-    "R-NRS-Boulder1-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder1-eco"
-        ],
-        "statID": "Boulder1-eco",
-        "id": "R-NRS-Boulder1-eco2",
-        "name": "[med-def]Boulder1-eco2 #6",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-building2-eco2"
-        ]
-    },
-    "R-NRS-Pickup-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Pickup-eco"
-        ],
-        "statID": "Pickup-eco",
-        "id": "R-NRS-Pickup-eco2",
-        "name": "[med-def]Pickup-eco2 #7",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Boulder1-eco2"
-        ]
-    },
-    "R-NRS-WaterTower-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "WaterTower-eco"
-        ],
-        "statID": "WaterTower-eco",
-        "id": "R-NRS-WaterTower-eco2",
-        "name": "[med-def]WaterTower-eco2 #8",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Pickup-eco2"
-        ]
-    },
-    "R-NRS-Park-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Park-eco"
-        ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco2",
-        "name": "[med-def]Park-eco2 #9",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-WaterTower-eco2"
-        ]
-    },
-    "R-NRS-BarbWarehouse3-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse3-eco"
-        ],
-        "statID": "BarbWarehouse3-eco",
-        "id": "R-NRS-BarbWarehouse3-eco2",
-        "name": "[med-def]BarbWarehouse3-eco2 #10",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Park-eco2"
-        ]
-    },
-    "R-NRS-Ruin1-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Ruin1-eco"
-        ],
-        "statID": "Ruin1-eco",
-        "id": "R-NRS-Ruin1-eco2",
-        "name": "[med-def]Ruin1-eco2 #11",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse3-eco2"
-        ]
-    },
-    "R-NRS-Tree-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Tree-eco"
-        ],
-        "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco2",
-        "name": "[med-def]Tree-eco2 #12",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Ruin1-eco2"
-        ]
-    },
-    "R-NRS-A0ResourceExtractor-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "A0ResourceExtractor-eco"
-        ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco2",
-        "name": "[med-def]Oil Derrick-eco2 #13",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Tree-eco2"
         ]
     },
     "R-NRS-Rotarywepslab-eco2": {
@@ -74183,86 +74039,11 @@
         ],
         "statID": "Rotarywepslab-eco",
         "id": "R-NRS-Rotarywepslab-eco2",
-        "name": "[med-def]Rotarywepslab-eco2 #14",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
+        "name": "[4ORN-def]Rotarywepslab-eco2 #2",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco2"
-        ]
-    },
-    "R-NRS-SolarPower-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "SolarPower-eco"
-        ],
-        "statID": "SolarPower-eco",
-        "id": "R-NRS-SolarPower-eco2",
-        "name": "[med-def]Solar panel-eco2 #15",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco2"
-        ]
-    },
-    "R-NRS-Propaganda-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Propaganda-eco"
-        ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco2",
-        "name": "[med-def]Propaganda Tower-eco2 #16",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-SolarPower-eco2"
-        ]
-    },
-    "R-NRS-building12-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building12-eco"
-        ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco2",
-        "name": "[med-def]building12-eco2 #17",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-Propaganda-eco2"
-        ]
-    },
-    "R-NRS-building10-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building10-eco"
-        ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco2",
-        "name": "[med-def]building10-eco2 #18",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-building12-eco2"
-        ]
-    },
-    "R-NRS-road-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "road-eco"
-        ],
-        "statID": "road-eco",
-        "id": "R-NRS-road-eco2",
-        "name": "[med-def]road-eco2 #19",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-building10-eco2"
+            "R-NRS-Aerodynamicslab-eco2"
         ]
     },
     "R-NRS-BarbHUT-eco2": {
@@ -74273,26 +74054,11 @@
         ],
         "statID": "BarbHUT-eco",
         "id": "R-NRS-BarbHUT-eco2",
-        "name": "[med-def]BarbHUT-eco2 #20",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
+        "name": "[4ORN-def]BarbHUT-eco2 #3",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-NRS-road-eco2"
-        ]
-    },
-    "R-NRS-Boulder2-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder2-eco"
-        ],
-        "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco2",
-        "name": "[med-def]Boulder2-eco2 #21",
-        "researchPoints": 114.54545454545456,
-        "researchPower": 11.842105263157897,
-        "requiredResearch": [
-            "R-NRS-BarbHUT-eco2"
+            "R-NRS-Rotarywepslab-eco2"
         ]
     },
     "R-NRS-building3-eco2": {
@@ -74303,41 +74069,341 @@
         ],
         "statID": "building3-eco",
         "id": "R-NRS-building3-eco2",
-        "name": "[med-def]building3-eco2 #22",
-        "researchPoints": 57.272727272727266,
-        "researchPower": 5.921052631578948,
+        "name": "[4ORN-def]building3-eco2 #4",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-NRS-Boulder2-eco2"
+            "R-NRS-BarbHUT-eco2"
         ]
     },
-    "R-NRS-BarbWarehouse2-eco3": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
+    "R-NRS-SolarPower-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "SolarPower-eco"
+        ],
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco2",
+        "name": "[4ORN-def]Solar panel-eco2 #5",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-building3-eco2"
+        ]
+    },
+    "R-NRS-OilTower-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "OilTower-eco"
+        ],
+        "statID": "OilTower-eco",
+        "id": "R-NRS-OilTower-eco2",
+        "name": "[4ORN-def]OilTower-eco2 #6",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco2"
+        ]
+    },
+    "R-NRS-Ruin1-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Ruin1-eco"
+        ],
+        "statID": "Ruin1-eco",
+        "id": "R-NRS-Ruin1-eco2",
+        "name": "[4ORN-def]Ruin1-eco2 #7",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-OilTower-eco2"
+        ]
+    },
+    "R-NRS-building12-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building12-eco"
+        ],
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco2",
+        "name": "[4ORN-def]building12-eco2 #8",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Ruin1-eco2"
+        ]
+    },
+    "R-NRS-Powlab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Powlab-eco"
+        ],
+        "statID": "Powlab-eco",
+        "id": "R-NRS-Powlab-eco2",
+        "name": "[4ORN-def]Powlab-eco2 #9",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-building12-eco2"
+        ]
+    },
+    "R-NRS-WaterTower-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "WaterTower-eco"
+        ],
+        "statID": "WaterTower-eco",
+        "id": "R-NRS-WaterTower-eco2",
+        "name": "[4ORN-def]WaterTower-eco2 #10",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Powlab-eco2"
+        ]
+    },
+    "R-NRS-building10-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building10-eco"
+        ],
+        "statID": "building10-eco",
+        "id": "R-NRS-building10-eco2",
+        "name": "[4ORN-def]building10-eco2 #11",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-WaterTower-eco2"
+        ]
+    },
+    "R-NRS-Advmaterialslab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Advmaterialslab-eco"
+        ],
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco2",
+        "name": "[4ORN-def]Advmaterialslab-eco2 #12",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-building10-eco2"
+        ]
+    },
+    "R-NRS-Pickup-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Pickup-eco"
+        ],
+        "statID": "Pickup-eco",
+        "id": "R-NRS-Pickup-eco2",
+        "name": "[4ORN-def]Pickup-eco2 #13",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Advmaterialslab-eco2"
+        ]
+    },
+    "R-NRS-BarbWarehouse2-eco2": {
+        "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "BarbWarehouse2-eco"
         ],
         "statID": "BarbWarehouse2-eco",
-        "id": "R-NRS-BarbWarehouse2-eco3",
-        "name": "[med-def]BarbWarehouse2-eco3 #1",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "id": "R-NRS-BarbWarehouse2-eco2",
+        "name": "[4ORN-def]BarbWarehouse2-eco2 #14",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
         "requiredResearch": [
-            "R-Fac-start"
+            "R-NRS-Pickup-eco2"
         ]
     },
-    "R-NRS-Boulder2-eco3": {
+    "R-NRS-LogCabin3-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "LogCabin3-eco"
+        ],
+        "statID": "LogCabin3-eco",
+        "id": "R-NRS-LogCabin3-eco2",
+        "name": "[4ORN-def]LogCabin3-eco2 #15",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse2-eco2"
+        ]
+    },
+    "R-NRS-Boulder1-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder1-eco"
+        ],
+        "statID": "Boulder1-eco",
+        "id": "R-NRS-Boulder1-eco2",
+        "name": "[4ORN-def]Boulder1-eco2 #16",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-LogCabin3-eco2"
+        ]
+    },
+    "R-NRS-Heavywepslab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Heavywepslab-eco"
+        ],
+        "statID": "Heavywepslab-eco",
+        "id": "R-NRS-Heavywepslab-eco2",
+        "name": "[4ORN-def]Heavywepslab-eco2 #17",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Boulder1-eco2"
+        ]
+    },
+    "R-NRS-building2-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building2-eco"
+        ],
+        "statID": "building2-eco",
+        "id": "R-NRS-building2-eco2",
+        "name": "[4ORN-def]building2-eco2 #18",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-Heavywepslab-eco2"
+        ]
+    },
+    "R-NRS-Park-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Park-eco"
+        ],
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco2",
+        "name": "[4ORN-def]Park-eco2 #19",
+        "researchPoints": 126,
+        "researchPower": 13.026315789473689,
+        "requiredResearch": [
+            "R-NRS-building2-eco2"
+        ]
+    },
+    "R-NRS-Boulder2-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "Boulder2-eco"
         ],
         "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco3",
-        "name": "[med-def]Boulder2-eco3 #2",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "id": "R-NRS-Boulder2-eco2",
+        "name": "[4ORN-def]Boulder2-eco2 #20",
+        "researchPoints": 62.99999999999999,
+        "researchPower": 6.5131578947368425,
         "requiredResearch": [
-            "R-NRS-BarbWarehouse2-eco3"
+            "R-NRS-Park-eco2"
+        ]
+    },
+    "R-NRS-NuclearReactor-eco3": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "NuclearReactor-eco"
+        ],
+        "statID": "NuclearReactor-eco",
+        "id": "R-NRS-NuclearReactor-eco3",
+        "name": "[4ORN-def]*NuclearReactor*-eco3 #1",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-BarbWarehouse3-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse3-eco"
+        ],
+        "statID": "BarbWarehouse3-eco",
+        "id": "R-NRS-BarbWarehouse3-eco3",
+        "name": "[4ORN-def]BarbWarehouse3-eco3 #2",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-NuclearReactor-eco3"
+        ]
+    },
+    "R-NRS-Boulder3-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder3-eco"
+        ],
+        "statID": "Boulder3-eco",
+        "id": "R-NRS-Boulder3-eco3",
+        "name": "[4ORN-def]Boulder3-eco3 #3",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse3-eco3"
+        ]
+    },
+    "R-NRS-A0ResourceExtractor-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "A0ResourceExtractor-eco"
+        ],
+        "statID": "A0ResourceExtractor-eco",
+        "id": "R-NRS-A0ResourceExtractor-eco3",
+        "name": "[4ORN-def]Oil Derrick-eco3 #4",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-Boulder3-eco3"
+        ]
+    },
+    "R-NRS-CoolingTower-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "CoolingTower-eco"
+        ],
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco3",
+        "name": "[4ORN-def]*CoolingTower*-eco3 #5",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-A0ResourceExtractor-eco3"
+        ]
+    },
+    "R-NRS-Park-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Park-eco"
+        ],
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco3",
+        "name": "[4ORN-def]Park-eco3 #6",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-CoolingTower-eco3"
         ]
     },
     "R-NRS-arizonabush3-eco3": {
@@ -74348,41 +74414,11 @@
         ],
         "statID": "arizonabush3-eco",
         "id": "R-NRS-arizonabush3-eco3",
-        "name": "[med-def]arizonabush3-eco3 #3",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]arizonabush3-eco3 #7",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
-            "R-NRS-Boulder2-eco3"
-        ]
-    },
-    "R-NRS-building11-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building11-eco"
-        ],
-        "statID": "building11-eco",
-        "id": "R-NRS-building11-eco3",
-        "name": "[med-def]building11-eco3 #4",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-arizonabush3-eco3"
-        ]
-    },
-    "R-NRS-NuclearReactor-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "NuclearReactor-eco"
-        ],
-        "statID": "NuclearReactor-eco",
-        "id": "R-NRS-NuclearReactor-eco3",
-        "name": "[med-def]*NuclearReactor*-eco3 #5",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-building11-eco3"
+            "R-NRS-Park-eco3"
         ]
     },
     "R-NRS-Heavywepslab-eco3": {
@@ -74393,41 +74429,11 @@
         ],
         "statID": "Heavywepslab-eco",
         "id": "R-NRS-Heavywepslab-eco3",
-        "name": "[med-def]Heavywepslab-eco3 #6",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]Heavywepslab-eco3 #8",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
-            "R-NRS-NuclearReactor-eco3"
-        ]
-    },
-    "R-NRS-Rotarywepslab-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Rotarywepslab-eco"
-        ],
-        "statID": "Rotarywepslab-eco",
-        "id": "R-NRS-Rotarywepslab-eco3",
-        "name": "[med-def]Rotarywepslab-eco3 #7",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Heavywepslab-eco3"
-        ]
-    },
-    "R-NRS-road-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "road-eco"
-        ],
-        "statID": "road-eco",
-        "id": "R-NRS-road-eco3",
-        "name": "[med-def]road-eco3 #8",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco3"
+            "R-NRS-arizonabush3-eco3"
         ]
     },
     "R-NRS-BarbWarehouse1-eco3": {
@@ -74438,11 +74444,11 @@
         ],
         "statID": "BarbWarehouse1-eco",
         "id": "R-NRS-BarbWarehouse1-eco3",
-        "name": "[med-def]BarbWarehouse1-eco3 #9",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]BarbWarehouse1-eco3 #9",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
-            "R-NRS-road-eco3"
+            "R-NRS-Heavywepslab-eco3"
         ]
     },
     "R-NRS-OilTower-eco3": {
@@ -74453,9 +74459,9 @@
         ],
         "statID": "OilTower-eco",
         "id": "R-NRS-OilTower-eco3",
-        "name": "[med-def]OilTower-eco3 #10",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]OilTower-eco3 #10",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
             "R-NRS-BarbWarehouse1-eco3"
         ]
@@ -74468,9 +74474,9 @@
         ],
         "statID": "BarbHUT-eco",
         "id": "R-NRS-BarbHUT-eco3",
-        "name": "[med-def]BarbHUT-eco3 #11",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]BarbHUT-eco3 #11",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
             "R-NRS-OilTower-eco3"
         ]
@@ -74483,9 +74489,9 @@
         ],
         "statID": "cabin-eco",
         "id": "R-NRS-cabin-eco3",
-        "name": "[med-def]cabin-eco3 #12",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]cabin-eco3 #12",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
             "R-NRS-BarbHUT-eco3"
         ]
@@ -74498,9 +74504,9 @@
         ],
         "statID": "LogCabin3-eco",
         "id": "R-NRS-LogCabin3-eco3",
-        "name": "[med-def]LogCabin3-eco3 #13",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]LogCabin3-eco3 #13",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
             "R-NRS-cabin-eco3"
         ]
@@ -74513,9 +74519,9 @@
         ],
         "statID": "Forest-eco",
         "id": "R-NRS-Forest-eco3",
-        "name": "[med-def]Forest-eco3 #14",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]Forest-eco3 #14",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
             "R-NRS-LogCabin3-eco3"
         ]
@@ -74528,11 +74534,56 @@
         ],
         "statID": "BigForest-eco",
         "id": "R-NRS-BigForest-eco3",
-        "name": "[med-def]Big Forest-eco3 #15",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]Big Forest-eco3 #15",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
         "requiredResearch": [
             "R-NRS-Forest-eco3"
+        ]
+    },
+    "R-NRS-Tree-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Tree-eco"
+        ],
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco3",
+        "name": "[4ORN-def]Tree-eco3 #16",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-BigForest-eco3"
+        ]
+    },
+    "R-NRS-Boulder1-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder1-eco"
+        ],
+        "statID": "Boulder1-eco",
+        "id": "R-NRS-Boulder1-eco3",
+        "name": "[4ORN-def]Boulder1-eco3 #17",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-Tree-eco3"
+        ]
+    },
+    "R-NRS-Propaganda-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Propaganda-eco"
+        ],
+        "statID": "Propaganda-eco",
+        "id": "R-NRS-Propaganda-eco3",
+        "name": "[4ORN-def]Propaganda Tower-eco3 #18",
+        "researchPoints": 132.63157894736844,
+        "researchPower": 13.711911357340725,
+        "requiredResearch": [
+            "R-NRS-Boulder1-eco3"
         ]
     },
     "R-NRS-WaterTower-eco3": {
@@ -74543,41 +74594,11 @@
         ],
         "statID": "WaterTower-eco",
         "id": "R-NRS-WaterTower-eco3",
-        "name": "[med-def]WaterTower-eco3 #16",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
+        "name": "[4ORN-def]WaterTower-eco3 #19",
+        "researchPoints": 66.3157894736842,
+        "researchPower": 6.855955678670361,
         "requiredResearch": [
-            "R-NRS-BigForest-eco3"
-        ]
-    },
-    "R-NRS-building3-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building3-eco"
-        ],
-        "statID": "building3-eco",
-        "id": "R-NRS-building3-eco3",
-        "name": "[med-def]building3-eco3 #17",
-        "researchPoints": 140,
-        "researchPower": 14.473684210526322,
-        "requiredResearch": [
-            "R-NRS-WaterTower-eco3"
-        ]
-    },
-    "R-NRS-Boulder3-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder3-eco"
-        ],
-        "statID": "Boulder3-eco",
-        "id": "R-NRS-Boulder3-eco3",
-        "name": "[med-def]Boulder3-eco3 #18",
-        "researchPoints": 69.99999999999999,
-        "researchPower": 7.236842105263159,
-        "requiredResearch": [
-            "R-NRS-building3-eco3"
+            "R-NRS-Propaganda-eco3"
         ]
     },
     "_config_": {

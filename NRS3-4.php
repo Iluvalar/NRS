@@ -173,7 +173,9 @@ $mods=['base','2120','contingency'];
 foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
-			echo $nom .','. $val['name'] .' '.  $val['size'] .'<br>';
+	
+							
+			echo $nom .','. $val['name'] .' '.  $val['size'] .' Power:'. $val['powerOutput']/(100+$val['weight'])/(1+$val['buildPower']**.5) .' hp:'.  $val['hitpoints']/(1+$val['buildPower']**.5).'<br>';
 			$sys['nrs'][$modname][$listtype][$nom]['armourKinetic']=0;
 			$sys['nrs'][$modname][$listtype][$nom]['armourHeat']=0;
 			
@@ -358,12 +360,12 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'2120', 'type'=> '
 
 
 $fac='NRSP';
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP1', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp'], 'call'=>'extralasers' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP2', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp'], 'call'=>'extralasers' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP3', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp'], 'call'=>'extralasers' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP4', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp'], 'call'=>'extralasers' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AA2', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp'], 'call'=>'extralasers' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-Sonic', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp'], 'call'=>'extralasers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP1', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','cheap'], 'call'=>'extralasers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP2', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','cheap'], 'call'=>'extralasers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP3', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','cheap'], 'call'=>'extralasers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP4', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','cheap'], 'call'=>'extralasers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AA2', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','cheap'], 'call'=>'extralasers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-Sonic', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','cheap'], 'call'=>'extralasers' ]);
 
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AT1', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AT','hightech','longrange','weapon','NRSp'], 'call'=>'ATlasers' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AT2', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AT','hightech','longrange','weapon','NRSp'], 'call'=>'ATlasers' ]);
@@ -383,28 +385,30 @@ Fnrs_add([ 'faction'=> $fac, 'use'=>'Mortar-GaussRamjetHvy', 'in'=>'contingency'
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Mortar-RamjetRot', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','longrange','weapon','NRSp'], 'call'=>'contmortars' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Mortar-RamjetHvy', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','longrange','weapon','NRSp'], 'call'=>'contmortars' ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-Shotgun', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVAslt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVGattling', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVHvy', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVLgt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVTankDestLgt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVTwinAslt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-Sniper-Bunker', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-Shotgun', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVAslt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVGattling', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVHvy', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVLgt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVTankDestLgt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-HPVTwinAslt', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon-Sniper-Bunker', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','lowtech','weapon','NRSp','heavy'], 'call'=>'contcannons' ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body17LGT', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body16MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body18MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body20LGT', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body21MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body22HVY', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body17LGT', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','vshort','NRSp'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body16MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','vshort','NRSp'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body18MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','vshort','NRSp'], 'call'=>'contcannons' ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body23SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body24SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body25SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body26SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body27SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Body28SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','body','NRSp'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body20LGT', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AT','insta','vshort','NRSp','cheap'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body21MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AT','insta','vshort','NRSp','cheap'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body22HVY', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AT','insta','vshort','NRSp','cheap'], 'call'=>'contcannons' ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body23SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','vshort','NRSp','good'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body24SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','vshort','NRSp','good'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body25SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AW','insta','vshort','NRSp','good'], 'call'=>'contcannons' ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body26SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AT','insta','vshort','NRSp'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body27SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AT','insta','vshort','NRSp'], 'call'=>'contcannons' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Body28SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AT','insta','vshort','NRSp'], 'call'=>'contcannons' ]);
 
 
 
@@ -442,12 +446,12 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'base', 'type'=> 
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1,Cyb-Wpn-Grenade", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body11ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body9REC", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body10MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body13SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body14SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','',''] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body11ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','vshort',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','vshort',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body9REC", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','vshort',''] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body10MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','vshort',''] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body13SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','vshort',''] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body14SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','vshort',''] ]);	
 
 
 //$sys['nrs']['base']['structure']['A0Sat-linkCentre']['buildPower']=2;
@@ -481,17 +485,18 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "A0BaBaFactory,BaBaLegs,B1BaBaPerson01-nrs,
 Fnrs_add([ 'faction'=> $fac, 'use'=> "scavCrane1", 'in'=>'base', 'type'=> 'construction', 'as' => ['xlgt','AS','insta','exshort','designable'] ]);
 
 //
-Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavCamperBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable','lowtech'] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavIcevanBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "B3body-sml-buggy01-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "B2tractor", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavNEXUStrack", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "BusBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "B2JeepBody-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "FireBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavCamperBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable','lowtech','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavIcevanBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "B2tractor", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable','vshort'] ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "B4body-sml-trike01-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','lowtech','fake'] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "B3bodyRKbuggy01-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','fake',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavNEXUStrack", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AT','baba','designable','vshort','cheap'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "BusBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AT','baba','designable','vshort','cheap'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "FireBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AT','baba','designable','vshort','cheap'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "B3body-sml-buggy01-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AP','baba','designable','vshort','cheap'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "B4body-sml-trike01-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AP','baba','lowtech','vshort','cheap'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "B3bodyRKbuggy01-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AP','baba','vshort','cheap'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "B2JeepBody-Ultimate", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AT','baba','designable','vshort','cheap'] ]);
 
 Fnrs_add([ 'faction'=> $fac, 'use'=> "BusCannon,bTrikeMG", 'in'=>'base', 'type'=> 'weapons', 'as' => ['xlgt','AN','lowtech','designable'], 'call'=>'scavenger']);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "BabaRocket", 'in'=>'base', 'type'=> 'weapons', 'as' => ['xlgt','AN','designable','FOM'] ]);
@@ -533,11 +538,11 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Flame3Mk1,Cyb-Wpn-Thermite", 'in'=>'2120',
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "CommandBrain01", 'in'=>'base', 'type'=> 'brain', 'as' => ['hvy','AW','joke',''] ]);
 
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1REC", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body4ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body2SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','insta','',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1REC", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body4ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body2SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
 
 
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A0PowMod1", 'in'=>'base', 'type'=> 'structure', 'as' => ['lgt','early','weak',''] ]);
@@ -573,19 +578,19 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> 'Missile-BB', 'in'=>'2120', 'type'=> 'weapo
 
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A0FacMod1", 'in'=>'base', 'type'=> 'structure', 'as' => ['lgt','early','',''] ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body2SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body4ABT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body4UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','','',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body2SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body4ABT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body4UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body5REC", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body6SUPP", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','insta','',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body5REC", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body6SUPP", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
 
 
 
@@ -626,27 +631,28 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "MG4ROTARYMk1,MG4ROTARY-VTOL,Cyb-Wpn-Laser"
 		Fnrs_add([ 'faction'=> $fac, 'use'=> "Laser2PULSEMk1,Laser2PULSE-VTOL,Cyb-Hvywpn-PulseLsr", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AP','',''] ]);
 
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body16MBTT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body25DKD", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body6SUPP", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7SUPP", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','','',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body16MBTT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body25DKD", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body6SUPP", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7SUPP", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
 	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body9REC", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body10REC", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUPP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body10ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ABT", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body11UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body14SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body13SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body17SUUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);	
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body26SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Body27SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','',''] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body9REC", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body10REC", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','','insta','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUPP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','','insta','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body10ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','','insta','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ABT", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','','insta','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body11UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','','insta','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','','','insta','vshort'] ]);
+	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body14SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body13SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body17SUUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);	
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body26SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Body27SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);
 
 
 
