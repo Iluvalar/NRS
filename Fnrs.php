@@ -399,7 +399,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 				
 				//$lastres=$idfac;
 				$lastres=$sys['nrs']['startres'];
-
+				$lastvalue=100;
 				$totrespower=0;
 				echo '<br/><b>'. $nomfac .'-'. $class .'-'. $target .'</b>';
 				unset($subclass);
@@ -433,6 +433,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("vshort", $val3['as'] )) {$timefac/=3; }
 					if (in_array("short", $val3['as'] )) {$timefac/=2; }
 					if (in_array("long", $val3['as'] )) {$timefac*=2;}
+					//if (in_array("NRSp", $val3['as'] )) {$timefac/=2; }
 					
 					if (in_array("xlgt", $val3['as'] )) {$weight='xlgt';}
 					if (in_array("lgt", $val3['as'] )) {$weight='lgt';}
@@ -442,14 +443,17 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					
 
 					
-					$typeW='O';
+					$typeW='O';$wepclass='KINETIC';
 					if (in_array("typeA", $val3['as'] )) {$typeW='A';}
-					if (in_array("typeE", $val3['as'] )) {$typeW='E';}
+					if (in_array("typeAE", $val3['as'] )) {$typeW='AE';}
+					if (in_array("typeE", $val3['as'] )) {$typeW='E';$wepclass='HEAT';}
 					
 					$quality=0;
-					if (in_array("cheap", $val3['as'] )) {$quality=-1;$hooman2.='C';}
-					if (in_array("good", $val3['as'] )) {$quality=1;$hooman2.='G';}
-					if($quality==0){ $hooman2.='R'; }
+					if (in_array("cheap", $val3['as'] )) {$quality=1;$hooman2.='¥';}
+					if (in_array("¥", $val3['as'] )) {$quality=1;$hooman2.='¥';}
+					if (in_array("good", $val3['as'] )) {$quality=-1;$hooman2.='$';}
+					if (in_array("$", $val3['as'] )) {$quality=-1;$hooman2.='$';}
+					if($quality==0){ $hooman2.='₽'; }
 						
 		
 					
@@ -466,6 +470,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("hitech", $val3['as'] )) {$resstartfrac=1; }
 					if (in_array("strong", $val3['as'] )) {$resmult=1.2; }
 					if (in_array("weak", $val3['as'] )) {$resmult=0.7; }
+					$nrsp=0;
+					if (in_array("NRSp", $val3['as'] )) {$resstartfrac=0.25;$nrsp=1;}
 					
 					if (in_array("fake", $val3['as'] )) {$fake=1; }
 					if (in_array("eco", $val3['as'] )) {$eco=1; }
@@ -482,9 +488,11 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					//$restime=($no+$resstartfrac)*$respowerslice;
 					$punish=2+.5;
 					if($no==count($val4)-1 && $no!=0){
+						if(!$nrsp){			
+							$resfrac=((1+.5/$punish)-$resstartfrac)*$punish;
+							$resfrac2=2-$resstartfrac;
+						}
 
-						$resfrac=((1+.5/$punish)-$resstartfrac)*$punish;
-						$resfrac2=2-$resstartfrac;
 						//$restime+=$respowerslice*.5;
 					}					
 					//$totrestime+=$sys['nrs']['time']/count($val4)*($resfrac2)*$resmult*$timefac;
@@ -582,7 +590,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						$bodheat=0;
 						$wepmin=1;
 						$wepweight=5/12;
-						$wepclass='KINETIC';
+						//$wepclass='KINETIC';
 						$bodyclass='KINETIC';
 						$wephp=0;
 						$priceclass=0;
@@ -590,20 +598,20 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						$checkprice=$item['buildPower']*(1-$quality*.2-$engineClass*0.1)/2;
 						if($type=='weapons'){
 							$wephp=.25+.25*$quality;
-							$priceclass=log(($checkprice**.7)/($sys['nrs']['unitprice']/3),2);
+							$priceclass=log(($checkprice**.85)/($sys['nrs']['unitprice']/3),2);
 						}
 						elseif($type=='body'){
-							$bodhp=.75+.25*$quality;
+							$bodhp=.75+.25*$quality*-1;
 							$priceclass=log($checkprice/($sys['nrs']['unitprice']/3),2);
 						}
 						$priceclass=max(-4,$priceclass);
 						if(!$priceclassR){
-							$priceclassR=floor($priceclass+4).$typeW.$hooman2; //for research, pick the first item.
+							$priceclassR=floor($priceclass+4).$hooman2; //for research, pick the first item.
 							
 						}
 						$weightfact*=$fig**$priceclass;
 						$pow*=$figbase/Fwz_fig($nbase  * $fig**-$priceclass);
-						$price=$sys['nrs']['unitprice']/3*2**$priceclass*(1+$quality*.2+$engineClass*0.1);
+						$price=$sys['nrs']['unitprice']/3*2**($priceclass+1)*(1+$quality*.2+$engineClass*0.1);
 						#NEED A fix
 						$nbweight='LIGHT';
 						$nbweight2='LIGHT';
@@ -677,6 +685,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						$pow=pow($pow,.5);
 						echo '<br/>'. $id .' '. $itemname .' '. $item['id'] .' '. $item['name'] .' '. $val3['type'] .' nbase'. $nbase .'pow:<b>'. $pow .'</b> power: '. $power .' price:'. $price .' restot:'. $totrestime .' '. $weight;
 						if($val3['type']=='body'){
+							
 							//print_r($item2);
 							
 							$temp['subgroupIconID']="IMAGE_RES_DROIDTECH";
@@ -684,11 +693,17 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							//$item['model']="cybd_std.pie";
 							$item['buildPower']=floor($price);
 							$item['buildPoints']=floor($price*$sys['nrs']['produnit']);
-							$item['hitpoints']=50*$pow*$power*(1-$wephp)*$sys['nrs']['dmgunit'];
-							$item['armourHeat']=10000*$bodheat;
-							$item['armourKinetic']=10000*$bodkin;
+							#$item['hitpoints']=50*$pow*$power*(1-$wephp)*$sys['nrs']['dmgunit'];
+							$item['hitpoints']=50*$pow*(1-$wephp)*$sys['nrs']['dmgunit'];
+							if($typeW=='A' or $typeW=='AE'){
+								$item['armourHeat']=10000*$bodheat;
+							}
+							if($typeW=='E' or $typeW=='AE'){
+								$item['armourKinetic']=10000*$bodkin;
+							}
 							//$item['name'].=" [$weight]#". ($no+1);
-							$item['name'].=" [". $priceclassR ." $hooman] #". ($no+1);
+							$item['name'].=" [". $priceclassR ."-". $typeW ."*] #". ($no+1);
+							$target=$typeW;
 							$item['weaponSlots']=1;
 							if (!in_array("baba", $val3['as'] )) {
 								$item['designable']=1;
@@ -826,11 +841,13 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$sys['nrs']['nb'][$linename]['roles']=$nbroles;
 							$item['buildPower']=floor($price);
 							$item['buildPoints']=floor($price*$sys['nrs']['produnit']);
-							$item['hitpoints']=50*$pow*$power*$wephp*$sys['nrs']['dmgunit'];
+							#$item['hitpoints']=50*$pow*$power*$wephp*$sys['nrs']['dmgunit'];
+							$item['hitpoints']=50*$pow*$wephp*$sys['nrs']['dmgunit'];
 							
 							//$scale=2.09*$pow*$power/$item2['Prevalue'];
 							//1.50 for a while. then structures were buffed What range mod ?
-							$scale=1.5*$pow*$power/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
+							#$scale=1.5*$pow*$power/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
+							$scale=1.5*$pow/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
 							echo 'scale:'. $scale;
 							echo '<br>pv:'. $item2['Prevalue'] .'<br>';
 							$item['damage']*=$scale;
@@ -852,9 +869,10 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$item['name']='commander '. $item['name'];
 							}
 							else{
-								$item['name'].=" [". $priceclassR ." $hooman] #". ($no+1);
+								#$item['name'].=" [". $priceclassR ." $hooman] #". ($no+1);
+								$item['name'].=" [". $priceclassR ."-$hooman". $typeW ."] #". ($no+1);
 							}
-							
+							$target.=$typeW;
 							if($val3['in']!="base"){
 								Fwz_pieSweap($sys['nrs']['base'],$sys['nrs']['base'],'weapons',$item,'-'. $val3['in'] ,$sys['nrs']['dir']['save'],$sys['nrs']['dir'][ $val3['in'] ],'','');
 							}
@@ -947,6 +965,89 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$temp['resultStructures'][]=$t2['id'];
 								$sys['nrs']['nb'][$linename]['defenses'][]='{ res: "'. $id .'", stat: "'. $t2['id'] .'", defrole: DEFROLE.STANDALONE }';
 								//{ res: "R-NRS-MG1Mk1", stat: "walltower-MG1Mk1", defrole: DEFROLE.GATEWAY }, 
+								
+								//---------------------------new upgrade-----------------------------------------------------------------
+								$totvalue=100*$power;
+								$value=$totvalue-$lastvalue;
+								$lastvalue=$totvalue;
+								$r['class']='Weapon';
+								$r['filterParameter']='ImpactClass';
+								$subclssesno=array_search($subclass,$sys['nrs']['subclsses']);
+								foreach($sys['nrs']['subclsses'] as $no=>$classeName){
+									if($classeName!=''){
+														
+										$factor=0;
+										##if($sys['nrs']['subclassesStrenght'][$subclssesno]==$sys['nrs']['subclssesWeight'][$no]){
+										if($sys['nrs']['subclassesStrenght'][$no]==$engineClass){
+											$factor+=.2;
+										}
+										if($sys['nrs']['subclassesRegion'][$no]==$quality){
+											$factor+=.2;
+										}
+										#if($wepclass=='KINETIC'){
+										if($typeW=='O'){
+											if($sys['nrs']['subclassesType'][$no]!=$typeW){
+												$factor-=.2;
+											}
+										}
+										if($factor){	
+											$r['filterValue']=$classeName;
+											$r['parameter']='Damage';
+											$r['value']=ceil($value*$factor);
+											$temp['results'][]=$r;
+											$r['parameter']='RadiusDamage';
+											$r['value']=ceil($value*$factor);
+											$temp['results'][]=$r;
+											
+										}
+										//if($classeName==$filtername){$factor=1;}				
+										
+										
+										echo '<br>upgrades:'. $classeName .' '. $subclass .' ' . 	$subclssesno .' '. $sys['nrs']['subclassesStrenght'][$no].'=?'. $engineClass;
+									}
+								}
+								$r['filterParameter']='Effect';
+								$r['filterValue']=$sys['nrs']['weaponEffect'][$sys['nrs']['subclssesEffect'][$subclssesno]];
+								$factor=.2;
+								$r['parameter']='Damage';
+								$r['value']=ceil($value*$factor);
+								$temp['results'][]=$r;
+								$r['parameter']='RadiusDamage';
+								$r['value']=ceil($value*$factor);
+								$temp['results'][]=$r;
+								
+								if($typeW=='O'){
+									$r['filterParameter']='ImpactType';
+									$r['filterValue']='HEAT';
+									$factor=.2;
+									$r['parameter']='Damage';
+									$r['value']=ceil($value*$factor);
+									$temp['results'][]=$r;
+									$r['parameter']='RadiusDamage';
+									$r['value']=ceil($value*$factor);
+									$temp['results'][]=$r;
+								}
+								
+								$r['filterParameter']='ImpactType';
+								$r['filterValue']=$wepclass;
+								$factor=.2;
+								$r['parameter']='Damage';
+								$r['value']=ceil($value*$factor);
+								$temp['results'][]=$r;
+								$r['parameter']='RadiusDamage';
+								$r['value']=ceil($value*$factor);
+								$temp['results'][]=$r;
+								
+								unset($r['filterParameter']);
+								unset($r['filterValue']);
+								$factor=.4;
+								$r['parameter']='Damage';
+								$r['value']=ceil($value*$factor);
+								#$temp['results'][]=$r;
+								$r['parameter']='RadiusDamage';
+								$r['value']=ceil($value*$factor);
+								#$temp['results'][]=$r;
+								
 								
 								if($no==0){
 									/*

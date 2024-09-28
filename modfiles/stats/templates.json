@@ -2767,7 +2767,7 @@
     "Laser-AP1-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Light Laser [1OCN AP] #1 Cyb-Mk0",
+        "name": "Light Laser [1\u00a5N-APE] #1 Cyb-Mk0",
         "id": "Laser-AP1-contingency-Cyb",
         "weapons": [
             "Laser-AP1-contingency-Cyb"
@@ -2777,7 +2777,7 @@
     "Laser-AP2-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Laser [3OCN AP] #2 Cyb-Mk1",
+        "name": "Heavy Laser [3\u00a5N-APE] #2 Cyb-Mk1",
         "id": "Laser-AP2-contingency-Cyb",
         "weapons": [
             "Laser-AP2-contingency-Cyb"
@@ -2788,7 +2788,7 @@
     "Laser-AP3-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Flashlight Laser [1OCN AP] #3 Cyb-Mk2",
+        "name": "Flashlight Laser [1\u00a5N-APE] #3 Cyb-Mk2",
         "id": "Laser-AP3-contingency-Cyb",
         "weapons": [
             "Laser-AP3-contingency-Cyb"
@@ -2799,7 +2799,7 @@
     "Laser-AP4-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hyperion Laser [3OCN AP] #4 Cyb-Mk3",
+        "name": "Hyperion Laser [4\u00a5N-APE] #4 Cyb-Mk3",
         "id": "Laser-AP4-contingency-Cyb",
         "weapons": [
             "Laser-AP4-contingency-Cyb"
@@ -2810,7 +2810,7 @@
     "Laser-AA2-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Tempest AA Laser [3OCN AP] #5 Cyb-Mk4",
+        "name": "Tempest AA Laser [4\u00a5N-APE] #5 Cyb-Mk4",
         "id": "Laser-AA2-contingency-Cyb",
         "weapons": [
             "Laser-AA2-contingency-Cyb"
@@ -2821,7 +2821,7 @@
     "Laser-Sonic-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Sonic Disrupter [4OCN AP] #6 Cyb-Mk5",
+        "name": "Sonic Disrupter [5\u00a5N-APE] #6 Cyb-Mk5",
         "id": "Laser-Sonic-contingency-Cyb",
         "weapons": [
             "Laser-Sonic-contingency-Cyb"
@@ -2832,7 +2832,7 @@
     "Laser-AT1-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Laser Cannon [1ORN AT] #1 Cyb-Mk0",
+        "name": "Laser Cannon [1\u20bdN-ATE] #1 Cyb-Mk0",
         "id": "Laser-AT1-contingency-Cyb",
         "weapons": [
             "Laser-AT1-contingency-Cyb"
@@ -2843,7 +2843,7 @@
     "Laser-AT2-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Laser Cannon [3ORN AT] #2 Cyb-Mk1",
+        "name": "Heavy Laser Cannon [3\u20bdN-ATE] #2 Cyb-Mk1",
         "id": "Laser-AT2-contingency-Cyb",
         "weapons": [
             "Laser-AT2-contingency-Cyb"
@@ -2854,7 +2854,7 @@
     "Laser-AT3-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Pulse Laser Cannon [1ORN AT] #3 Cyb-Mk2",
+        "name": "Pulse Laser Cannon [2\u20bdN-ATE] #3 Cyb-Mk2",
         "id": "Laser-AT3-contingency-Cyb",
         "weapons": [
             "Laser-AT3-contingency-Cyb"
@@ -2865,7 +2865,7 @@
     "Laser-AT4-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Pulse Laser Cannon [3ORN AT] #4 Cyb-Mk3",
+        "name": "Heavy Pulse Laser Cannon [4\u20bdN-ATE] #4 Cyb-Mk3",
         "id": "Laser-AT4-contingency-Cyb",
         "weapons": [
             "Laser-AT4-contingency-Cyb"
@@ -2876,7 +2876,7 @@
     "Laser-TankDest2Lgt-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Tankbuster Laser [2ORN AT] #5 Cyb-Mk4",
+        "name": "Tankbuster Laser [2\u20bdN-ATE] #5 Cyb-Mk4",
         "id": "Laser-TankDest2Lgt-contingency-Cyb",
         "weapons": [
             "Laser-TankDest2Lgt-contingency-Cyb"
@@ -2887,7 +2887,7 @@
     "Laser-TankDestLgt-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Tankbuster Pulse Laser [2ORN AT] #6 Cyb-Mk5",
+        "name": "Tankbuster Pulse Laser [2\u20bdN-ATE] #6 Cyb-Mk5",
         "id": "Laser-TankDestLgt-contingency-Cyb",
         "weapons": [
             "Laser-TankDestLgt-contingency-Cyb"
@@ -2898,7 +2898,7 @@
     "Mortar-Gauss-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gauss Mortar [2ORN AS] #1 Cyb-Mk0",
+        "name": "Gauss Mortar [3\u20bdN-ASO] #1 Cyb-Mk0",
         "id": "Mortar-Gauss-contingency-Cyb",
         "weapons": [
             "Mortar-Gauss-contingency-Cyb"
@@ -2909,7 +2909,7 @@
     "Mortar-GaussHvy-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gauss Bombard [3ORN AS] #2 Cyb-Mk1",
+        "name": "Gauss Bombard [4\u20bdN-ASO] #2 Cyb-Mk1",
         "id": "Mortar-GaussHvy-contingency-Cyb",
         "weapons": [
             "Mortar-GaussHvy-contingency-Cyb"
@@ -2920,7 +2920,7 @@
     "Mortar-GaussRamjet-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Longshot Mortar [2ORN AS] #3 Cyb-Mk2",
+        "name": "Longshot Mortar [3\u20bdN-ASO] #3 Cyb-Mk2",
         "id": "Mortar-GaussRamjet-contingency-Cyb",
         "weapons": [
             "Mortar-GaussRamjet-contingency-Cyb"
@@ -2931,7 +2931,7 @@
     "Mortar-GaussHvyPlas-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gauss Plasmite Bombard [3ORN AS] #4 Cyb-Mk3",
+        "name": "Gauss Plasmite Bombard [4\u20bdN-ASO] #4 Cyb-Mk3",
         "id": "Mortar-GaussHvyPlas-contingency-Cyb",
         "weapons": [
             "Mortar-GaussHvyPlas-contingency-Cyb"
@@ -2942,7 +2942,7 @@
     "Mortar-GaussRot-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gauss Pepperpot [3ORN AS] #5 Cyb-Mk4",
+        "name": "Gauss Pepperpot [4\u20bdN-ASO] #5 Cyb-Mk4",
         "id": "Mortar-GaussRot-contingency-Cyb",
         "weapons": [
             "Mortar-GaussRot-contingency-Cyb"
@@ -2950,21 +2950,10 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Mortar-Ramjet-contingency-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Sureshot Mortar [2ORN AS] #6 Cyb-Mk5",
-        "id": "Mortar-Ramjet-contingency-Cyb",
-        "weapons": [
-            "Mortar-Ramjet-contingency-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "Mortar-GaussRotPlas-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gauss Plasmite Pepperpot [3ORN AS] #7 Cyb-Mk6",
+        "name": "Gauss Plasmite Pepperpot [4\u20bdN-ASO] #6 Cyb-Mk5",
         "id": "Mortar-GaussRotPlas-contingency-Cyb",
         "weapons": [
             "Mortar-GaussRotPlas-contingency-Cyb"
@@ -2972,13 +2961,13 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Mortar-GaussRamjetHvy-contingency-Cyb": {
+    "Mortar-Ramjet-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Longshot Bombard [3ORN AS] #8 Cyb-Mk7",
-        "id": "Mortar-GaussRamjetHvy-contingency-Cyb",
+        "name": "Sureshot Mortar [3$N-ASO] #7 Cyb-Mk6",
+        "id": "Mortar-Ramjet-contingency-Cyb",
         "weapons": [
-            "Mortar-GaussRamjetHvy-contingency-Cyb"
+            "Mortar-Ramjet-contingency-Cyb"
         ],
         "body": "CyborgHeavyBody",
         "available": "true"
@@ -2986,7 +2975,7 @@
     "Mortar-RamjetRot-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Sureshot Pepperpot [3ORN AS] #9 Cyb-Mk8",
+        "name": "Sureshot Pepperpot [4$N-ASO] #8 Cyb-Mk7",
         "id": "Mortar-RamjetRot-contingency-Cyb",
         "weapons": [
             "Mortar-RamjetRot-contingency-Cyb"
@@ -2997,7 +2986,7 @@
     "Mortar-RamjetHvy-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Sureshot Bombard [3ORN AS] #10 Cyb-Mk9",
+        "name": "Sureshot Bombard [4$N-ASO] #9 Cyb-Mk8",
         "id": "Mortar-RamjetHvy-contingency-Cyb",
         "weapons": [
             "Mortar-RamjetHvy-contingency-Cyb"
@@ -3005,10 +2994,21 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
+    "Mortar-GaussRamjetHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Longshot Bombard [4$N-ASO] #10 Cyb-Mk9",
+        "id": "Mortar-GaussRamjetHvy-contingency-Cyb",
+        "weapons": [
+            "Mortar-GaussRamjetHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
     "Cannon-Shotgun-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Blunderbuss [2ORH AW] #1 Cyb-Mk0",
+        "name": "Blunderbuss [3\u20bdH-AWA] #1 Cyb-Mk0",
         "id": "Cannon-Shotgun-contingency-Cyb",
         "weapons": [
             "Cannon-Shotgun-contingency-Cyb"
@@ -3019,7 +3019,7 @@
     "Cannon-HPVAslt-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hyper-Velocity Assault Cannon [2ORH AW] #2 Cyb-Mk1",
+        "name": "Hyper-Velocity Assault Cannon [3\u20bdH-AWA] #2 Cyb-Mk1",
         "id": "Cannon-HPVAslt-contingency-Cyb",
         "weapons": [
             "Cannon-HPVAslt-contingency-Cyb"
@@ -3030,7 +3030,7 @@
     "Cannon-HPVGattling-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Shredder Cannon [4ORH AW] #3 Cyb-Mk2",
+        "name": "Shredder Cannon [5\u20bdH-AWA] #3 Cyb-Mk2",
         "id": "Cannon-HPVGattling-contingency-Cyb",
         "weapons": [
             "Cannon-HPVGattling-contingency-Cyb"
@@ -3038,13 +3038,13 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Cannon-HPVHvy-contingency-Cyb": {
+    "Cannon-Sniper-Bunker-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Hyper-Velocity Cannon [3ORH AW] #4 Cyb-Mk3",
-        "id": "Cannon-HPVHvy-contingency-Cyb",
+        "name": "Sniper's Favorite Camping Spot [4\u20bdH-AWA] #4 Cyb-Mk3",
+        "id": "Cannon-Sniper-Bunker-contingency-Cyb",
         "weapons": [
-            "Cannon-HPVHvy-contingency-Cyb"
+            "Cannon-Sniper-Bunker-contingency-Cyb"
         ],
         "body": "CyborgHeavyBody",
         "available": "true"
@@ -3052,7 +3052,7 @@
     "Cannon-HPVLgt-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Light Hyper-Velocity Cannon [1ORH AW] #5 Cyb-Mk4",
+        "name": "Light Hyper-Velocity Cannon [1\u00a5H-AWA] #5 Cyb-Mk4",
         "id": "Cannon-HPVLgt-contingency-Cyb",
         "weapons": [
             "Cannon-HPVLgt-contingency-Cyb"
@@ -3060,10 +3060,21 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
+    "Cannon-HPVHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Hyper-Velocity Cannon [3\u00a5H-AWA] #6 Cyb-Mk5",
+        "id": "Cannon-HPVHvy-contingency-Cyb",
+        "weapons": [
+            "Cannon-HPVHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
     "Cannon-HPVTankDestLgt-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "HPV Tankbuster Cannon [2ORH AW] #6 Cyb-Mk5",
+        "name": "HPV Tankbuster Cannon [2\u00a5H-AWA] #7 Cyb-Mk6",
         "id": "Cannon-HPVTankDestLgt-contingency-Cyb",
         "weapons": [
             "Cannon-HPVTankDestLgt-contingency-Cyb"
@@ -3074,7 +3085,7 @@
     "Cannon-HPVTwinAslt-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Twin HPV Assault Cannon [3ORH AW] #7 Cyb-Mk6",
+        "name": "Twin HPV Assault Cannon [3\u00a5H-AWA] #8 Cyb-Mk7",
         "id": "Cannon-HPVTwinAslt-contingency-Cyb",
         "weapons": [
             "Cannon-HPVTwinAslt-contingency-Cyb"
@@ -3082,21 +3093,450 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Cannon-Sniper-Bunker-contingency-Cyb": {
+    "Cannon-Inc-contingency-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Sniper's Favorite Camping Spot [3ORH AW] #8 Cyb-Mk7",
-        "id": "Cannon-Sniper-Bunker-contingency-Cyb",
+        "name": "Incendiary Cannon [3\u20bdN-AWE] #1 Cyb-Mk0",
+        "id": "Cannon-Inc-contingency-Cyb",
         "weapons": [
-            "Cannon-Sniper-Bunker-contingency-Cyb"
+            "Cannon-Inc-contingency-Cyb"
         ],
         "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-IncTankDest-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Fixed-Mounted Incendiary Cannon [3\u20bdN-AWE] #2 Cyb-Mk1",
+        "id": "Cannon-IncTankDest-contingency-Cyb",
+        "weapons": [
+            "Cannon-IncTankDest-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-Plas-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Thermite Cannon [3\u20bdN-AWE] #3 Cyb-Mk2",
+        "id": "Cannon-Plas-contingency-Cyb",
+        "weapons": [
+            "Cannon-Plas-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Cannon-PlasTankDest-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Fixed-Mounted Thermite Cannon [3\u20bdN-AWE] #4 Cyb-Mk3",
+        "id": "Cannon-PlasTankDest-contingency-Cyb",
+        "weapons": [
+            "Cannon-PlasTankDest-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "MG3Twin-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Twin Heavy Machinegun [2$N-APO] #1 Cyb-Mk0",
+        "id": "MG3Twin-contingency-Cyb",
+        "weapons": [
+            "MG3Twin-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "MG-AntiTankGss-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Hellfury Gauss Minigun [3$N-APO] #2 Cyb-Mk1",
+        "id": "MG-AntiTankGss-contingency-Cyb",
+        "weapons": [
+            "MG-AntiTankGss-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "MG-AntiTankGssTwin-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Twin Hellfury Gauss Minigun [4$N-APO] #3 Cyb-Mk2",
+        "id": "MG-AntiTankGssTwin-contingency-Cyb",
+        "weapons": [
+            "MG-AntiTankGssTwin-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Flame1Hvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Flamer [3\u20bdH-ATO] #1 Cyb-Mk0",
+        "id": "Flame1Hvy-contingency-Cyb",
+        "weapons": [
+            "Flame1Hvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Flame1Med-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Medium Flamer [2\u20bdH-ATO] #2 Cyb-Mk1",
+        "id": "Flame1Med-contingency-Cyb",
+        "weapons": [
+            "Flame1Med-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Flame2Hvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Thermite Flamer [4\u20bdH-ATO] #3 Cyb-Mk2",
+        "id": "Flame2Hvy-contingency-Cyb",
+        "weapons": [
+            "Flame2Hvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Flame2Med-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Medium Thermite Flamer [3\u20bdH-ATO] #4 Cyb-Mk3",
+        "id": "Flame2Med-contingency-Cyb",
+        "weapons": [
+            "Flame2Med-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Flamer-PlasCan-TankDest-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Fixed-Mounted Plasma Cannon [5\u20bdH-ATO] #5 Cyb-Mk4",
+        "id": "Flamer-PlasCan-TankDest-contingency-Cyb",
+        "weapons": [
+            "Flamer-PlasCan-TankDest-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "Flamer-PlasmaCannon-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Plasma Cannon [5\u20bdH-ATO] #6 Cyb-Mk5",
+        "id": "Flamer-PlasmaCannon-contingency-Cyb",
+        "weapons": [
+            "Flamer-PlasmaCannon-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "MG3Inc-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Incendiary Machinegun [1\u20bdN-APO] #1 Cyb-Mk0",
+        "id": "MG3Inc-contingency-Cyb",
+        "weapons": [
+            "MG3Inc-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MG3IncTwin-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Twin Incendiary Machinegun [2\u20bdN-APO] #2 Cyb-Mk1",
+        "id": "MG3IncTwin-contingency-Cyb",
+        "weapons": [
+            "MG3IncTwin-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MG4Inc-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Hellspitter Machinegun [1\u20bdN-APO] #3 Cyb-Mk2",
+        "id": "MG4Inc-contingency-Cyb",
+        "weapons": [
+            "MG4Inc-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MG4IncTwin-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Twin Hellspitter Machinegun [2\u20bdN-APO] #4 Cyb-Mk3",
+        "id": "MG4IncTwin-contingency-Cyb",
+        "weapons": [
+            "MG4IncTwin-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MGPlasSuper-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Super Hellspitter [5\u20bdN-APO] #5 Cyb-Mk4",
+        "id": "MGPlasSuper-contingency-Cyb",
+        "weapons": [
+            "MGPlasSuper-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MG-AntiTank-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Vulcan Gattling Gun [2$N-ATO] #1 Cyb-Mk0",
+        "id": "MG-AntiTank-contingency-Cyb",
+        "weapons": [
+            "MG-AntiTank-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MG-AntiTankTwin-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Twin Vulcan Gattling Gun [3$N-ATO] #2 Cyb-Mk1",
+        "id": "MG-AntiTankTwin-contingency-Cyb",
+        "weapons": [
+            "MG-AntiTankTwin-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MG-AntiTank2-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Punisher Gattling Gun [3$N-ATO] #3 Cyb-Mk2",
+        "id": "MG-AntiTank2-contingency-Cyb",
+        "weapons": [
+            "MG-AntiTank2-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "MG-AntiTank2Twin-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Twin Punisher Gattling Gun [4$N-ATO] #4 Cyb-Mk3",
+        "id": "MG-AntiTank2Twin-contingency-Cyb",
+        "weapons": [
+            "MG-AntiTank2Twin-contingency-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "Howitzer150Mk1-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Howitzer [4$H-ASO] #1 Cyb-Mk0",
+        "id": "Howitzer150Mk1-contingency-Cyb",
+        "weapons": [
+            "Howitzer150Mk1-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGattling-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gattling Howitzer [5$H-ASO] #2 Cyb-Mk1",
+        "id": "HowitzerGattling-contingency-Cyb",
+        "weapons": [
+            "HowitzerGattling-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussBB-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Meteor Launcher [4$H-ASO] #3 Cyb-Mk2",
+        "id": "HowitzerGaussBB-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussBB-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGattlingGauss-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Shellstorm [5$H-ASO] #4 Cyb-Mk3",
+        "id": "HowitzerGattlingGauss-contingency-Cyb",
+        "weapons": [
+            "HowitzerGattlingGauss-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGauss-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gauss Howitzer [3$H-ASO] #5 Cyb-Mk4",
+        "id": "HowitzerGauss-contingency-Cyb",
+        "weapons": [
+            "HowitzerGauss-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Gauss Howitzer [4$H-ASO] #6 Cyb-Mk5",
+        "id": "HowitzerGaussHvy-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussRot-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Rotary Gauss Howitzer [4$H-ASO] #7 Cyb-Mk6",
+        "id": "HowitzerGaussRot-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussRot-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerRamjet-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Sureshot Howitzer [3$H-ATO] #1 Cyb-Mk0",
+        "id": "HowitzerRamjet-contingency-Cyb",
+        "weapons": [
+            "HowitzerRamjet-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerRamjetHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Sureshot Howitzer [4$H-ATO] #2 Cyb-Mk1",
+        "id": "HowitzerRamjetHvy-contingency-Cyb",
+        "weapons": [
+            "HowitzerRamjetHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerRamjetRot-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Rotary Sureshot Howitzer [4$H-ATO] #3 Cyb-Mk2",
+        "id": "HowitzerRamjetRot-contingency-Cyb",
+        "weapons": [
+            "HowitzerRamjetRot-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussRamjet-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Longshot Howitzer [3$H-ATO] #4 Cyb-Mk3",
+        "id": "HowitzerGaussRamjet-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussRamjet-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussRamjetHvy-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Longshot Howitzer [4$H-ATO] #5 Cyb-Mk4",
+        "id": "HowitzerGaussRamjetHvy-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussRamjetHvy-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussRamjetRot-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Rotary Longshot Howitzer [4$H-ATO] #6 Cyb-Mk5",
+        "id": "HowitzerGaussRamjetRot-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussRamjetRot-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerHvyPlas-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Heavy Plasmite Howitzer [4$H-APE] #1 Cyb-Mk0",
+        "id": "HowitzerHvyPlas-contingency-Cyb",
+        "weapons": [
+            "HowitzerHvyPlas-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerRotPlas-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Rotary Plasmite Howitzer [4$H-APE] #2 Cyb-Mk1",
+        "id": "HowitzerRotPlas-contingency-Cyb",
+        "weapons": [
+            "HowitzerRotPlas-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussInc-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gauss Incendiary Howitzer [3$H-APE] #3 Cyb-Mk2",
+        "id": "HowitzerGaussInc-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussInc-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussHvyPlas-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Ragnarok Howitzer [4$H-APE] #4 Cyb-Mk3",
+        "id": "HowitzerGaussHvyPlas-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussHvyPlas-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
+        "available": "true"
+    },
+    "HowitzerGaussRotPlas-contingency-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Hellstorm [4$H-APE] #5 Cyb-Mk4",
+        "id": "HowitzerGaussRotPlas-contingency-Cyb",
+        "weapons": [
+            "HowitzerGaussRotPlas-contingency-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Laser3BEAMMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Flashlight [3ORN AP] #1 Cyb-Mk0",
+        "name": "Flashlight [4\u20bdN-APO] #1 Cyb-Mk0",
         "id": "Laser3BEAMMk1-Cyb",
         "weapons": [
             "Laser3BEAMMk1-Cyb"
@@ -3107,7 +3547,7 @@
     "Cyb-Wpn-Laser-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-Laser* [3ORN AP] #1 Cyb-Mk0",
+        "name": "*Cyb-Wpn-Laser* [4\u20bdN-APO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Laser-Cyb",
         "weapons": [
             "Cyb-Wpn-Laser"
@@ -3118,7 +3558,7 @@
     "Laser2PULSEMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Pulse Laser [4ORN AP] #2 Cyb-Mk1",
+        "name": "Pulse Laser [5\u20bdN-APO] #2 Cyb-Mk1",
         "id": "Laser2PULSEMk1-Cyb",
         "weapons": [
             "Laser2PULSEMk1-Cyb"
@@ -3129,7 +3569,7 @@
     "AAGunLaser-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Stormbringer AA Laser [4ORN AP] #3 Cyb-Mk2",
+        "name": "Stormbringer AA Laser [5\u20bdN-APO] #3 Cyb-Mk2",
         "id": "AAGunLaser-Cyb",
         "weapons": [
             "AAGunLaser-Cyb"
@@ -3140,7 +3580,7 @@
     "Laser3BEAMMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hyper Flashlight [5ORN AP] #4 Cyb-Mk3",
+        "name": "Hyper Flashlight [7\u20bdN-APO] #4 Cyb-Mk3",
         "id": "Laser3BEAMMk1-2120-Cyb",
         "weapons": [
             "Laser3BEAMMk1-2120-Cyb"
@@ -3151,7 +3591,7 @@
     "Laser4-PlasmaCannon-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Plasma Cannon [4ORN AP] #5 Cyb-Mk4",
+        "name": "Plasma Cannon [6\u20bdN-APO] #5 Cyb-Mk4",
         "id": "Laser4-PlasmaCannon-Cyb",
         "weapons": [
             "Laser4-PlasmaCannon-Cyb"
@@ -3162,7 +3602,7 @@
     "HeavyLaser-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Laser [4ORN AP] #6 Cyb-Mk5",
+        "name": "Heavy Laser [6\u20bdN-APO] #6 Cyb-Mk5",
         "id": "HeavyLaser-Cyb",
         "weapons": [
             "HeavyLaser-Cyb"
@@ -3173,7 +3613,7 @@
     "Cyb-Hvywpn-PulseLsr-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Pulse Laser Cyborg [4ORN AP] #6 Cyb-Mk5",
+        "name": "Super Pulse Laser Cyborg [6\u20bdN-APO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-PulseLsr-Cyb",
         "weapons": [
             "Cyb-Hvywpn-PulseLsr"
@@ -3184,7 +3624,7 @@
     "RailGun1Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Needle Gun [4ORN AW] #1 Cyb-Mk0",
+        "name": "Needle Gun [5\u20bdN-AWO] #1 Cyb-Mk0",
         "id": "RailGun1Mk1-Cyb",
         "weapons": [
             "RailGun1Mk1-Cyb"
@@ -3195,7 +3635,7 @@
     "Cyb-Wpn-Rail1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-Rail1* [4ORN AW] #1 Cyb-Mk0",
+        "name": "*Cyb-Wpn-Rail1* [5\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Rail1-Cyb",
         "weapons": [
             "Cyb-Wpn-Rail1"
@@ -3206,7 +3646,7 @@
     "RailGun2Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Rail Gun [4ORN AW] #2 Cyb-Mk1",
+        "name": "Rail Gun [5\u20bdN-AWO] #2 Cyb-Mk1",
         "id": "RailGun2Mk1-Cyb",
         "weapons": [
             "RailGun2Mk1-Cyb"
@@ -3217,7 +3657,7 @@
     "RailGun3Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gauss Cannon [4ORN AW] #3 Cyb-Mk2",
+        "name": "Gauss Cannon [6\u20bdN-AWO] #3 Cyb-Mk2",
         "id": "RailGun3Mk1-Cyb",
         "weapons": [
             "RailGun3Mk1-Cyb"
@@ -3228,7 +3668,7 @@
     "Cyb-Hvywpn-RailGunner-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Rail-Gunner [4ORN AW] #3 Cyb-Mk2",
+        "name": "Super Rail-Gunner [6\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-RailGunner-Cyb",
         "weapons": [
             "Cyb-Hvywpn-RailGunner"
@@ -3239,7 +3679,7 @@
     "Cannon4AUTOMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Particle Gun [5ORN AW] #4 Cyb-Mk3",
+        "name": "Particle Gun [6\u20bdN-AWO] #4 Cyb-Mk3",
         "id": "Cannon4AUTOMk1-2120-Cyb",
         "weapons": [
             "Cannon4AUTOMk1-2120-Cyb"
@@ -3250,7 +3690,7 @@
     "CyborgCannon-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Lgt Rail Gunner [5ORN AW] #4 Cyb-Mk3",
+        "name": "Lgt Rail Gunner [6\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "CyborgCannon-2120-Cyb",
         "weapons": [
             "CyborgCannon-2120"
@@ -3261,7 +3701,7 @@
     "Cannon5VulcanMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Rail Cannon [5ORN AW] #5 Cyb-Mk4",
+        "name": "Rail Cannon [6\u20bdN-AWO] #5 Cyb-Mk4",
         "id": "Cannon5VulcanMk1-2120-Cyb",
         "weapons": [
             "Cannon5VulcanMk1-2120-Cyb"
@@ -3272,7 +3712,7 @@
     "Cyb-Hvywpn-HPV-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mega Rail Can Gunner [5ORN AW] #5 Cyb-Mk4",
+        "name": "Mega Rail Can Gunner [6\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-HPV-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-HPV-2120"
@@ -3283,7 +3723,7 @@
     "Cannon775mmMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hadron Cannon [5ORN AW] #6 Cyb-Mk5",
+        "name": "Hadron Cannon [7\u20bdN-AWO] #6 Cyb-Mk5",
         "id": "Cannon775mmMk1-2120-Cyb",
         "weapons": [
             "Cannon775mmMk1-2120-Cyb"
@@ -3294,7 +3734,7 @@
     "Cyb-Hvywpn-Lcannon-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Rail-Gunner [5ORN AW] #6 Cyb-Mk5",
+        "name": "Super Rail-Gunner [7\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-Lcannon-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-Lcannon-2120"
@@ -3305,7 +3745,7 @@
     "MG5TWINROTARY-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mass Driver Cannon [6ORN AW] #7 Cyb-Mk6",
+        "name": "Mass Driver Cannon [7\u20bdN-AWO] #7 Cyb-Mk6",
         "id": "MG5TWINROTARY-2120-Cyb",
         "weapons": [
             "MG5TWINROTARY-2120-Cyb"
@@ -3316,7 +3756,7 @@
     "Cyb-Hvywpn-Mcannon-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mega Gauss-Gunner [6ORN AW] #7 Cyb-Mk6",
+        "name": "Mega Gauss-Gunner [7\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-Mcannon-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-Mcannon-2120"
@@ -3327,7 +3767,7 @@
     "Cannon6TwinAslt-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hyper Cannon [6ORN AW] #8 Cyb-Mk7",
+        "name": "Hyper Cannon [7\u20bdN-AWO] #8 Cyb-Mk7",
         "id": "Cannon6TwinAslt-2120-Cyb",
         "weapons": [
             "Cannon6TwinAslt-2120-Cyb"
@@ -3338,7 +3778,7 @@
     "Cyb-Wpn-RailHyp-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-RailHyp* [6ORN AW] #8 Cyb-Mk7",
+        "name": "*Cyb-Wpn-RailHyp* [7\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-RailHyp-2120-Cyb",
         "weapons": [
             "Cyb-Wpn-RailHyp-2120"
@@ -3349,29 +3789,62 @@
     "Mortar1Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mortar [3ORN AS] #1 Cyb-Mk0",
+        "name": "Mortar [4\u20bdH-ASO] #1 Cyb-Mk0",
         "id": "Mortar1Mk1-Cyb",
         "weapons": [
             "Mortar1Mk1-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "Cyb-Wpn-Grenade-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyborg Grenade Weapon* [3ORN AS] #1 Cyb-Mk0",
+        "name": "*Cyborg Grenade Weapon* [4\u20bdH-ASO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Grenade-Cyb",
         "weapons": [
             "Cyb-Wpn-Grenade"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "Mortar0Mk1-2120-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Striker GSM [5\u20bdH-ASO] #2 Cyb-Mk1",
+        "id": "Mortar0Mk1-2120-Cyb",
+        "weapons": [
+            "Mortar0Mk1-2120-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "Mortar2Mk1-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Bombard [5\u20bdH-ASO] #3 Cyb-Mk2",
+        "id": "Mortar2Mk1-Cyb",
+        "weapons": [
+            "Mortar2Mk1-Cyb"
+        ],
+        "body": "CyborgLightBody",
+        "available": "true"
+    },
+    "Mortar3ROTARYMk1-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Pepperpot [5\u20bdH-ASO] #4 Cyb-Mk3",
+        "id": "Mortar3ROTARYMk1-Cyb",
+        "weapons": [
+            "Mortar3ROTARYMk1-Cyb"
+        ],
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "Howitzer105Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Howitzer [4ORN AS] #2 Cyb-Mk1",
+        "name": "Howitzer [5\u20bdH-ASO] #1 Cyb-Mk0",
         "id": "Howitzer105Mk1-Cyb",
         "weapons": [
             "Howitzer105Mk1-Cyb"
@@ -3379,21 +3852,10 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Mortar0Mk1-2120-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Striker GSM [4ORN AS] #3 Cyb-Mk2",
-        "id": "Mortar0Mk1-2120-Cyb",
-        "weapons": [
-            "Mortar0Mk1-2120-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "Howitzer150Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Ground Shaker [5ORN AS] #4 Cyb-Mk3",
+        "name": "Ground Shaker [6\u20bdH-ASO] #2 Cyb-Mk1",
         "id": "Howitzer150Mk1-Cyb",
         "weapons": [
             "Howitzer150Mk1-Cyb"
@@ -3401,21 +3863,10 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Mortar2Mk1-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Bombard [4ORN AS] #5 Cyb-Mk4",
-        "id": "Mortar2Mk1-Cyb",
-        "weapons": [
-            "Mortar2Mk1-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "Howitzer03-Rot-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hellstorm [4ORN AS] #6 Cyb-Mk5",
+        "name": "Hellstorm [6\u20bdH-ASO] #3 Cyb-Mk2",
         "id": "Howitzer03-Rot-Cyb",
         "weapons": [
             "Howitzer03-Rot-Cyb"
@@ -3423,21 +3874,10 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "Mortar3ROTARYMk1-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Pepperpot [4ORN AS] #7 Cyb-Mk6",
-        "id": "Mortar3ROTARYMk1-Cyb",
-        "weapons": [
-            "Mortar3ROTARYMk1-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "Howitzer150Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Earthquake [5ORN AS] #8 Cyb-Mk7",
+        "name": "Earthquake [6\u20bdH-ASO] #4 Cyb-Mk3",
         "id": "Howitzer150Mk1-2120-Cyb",
         "weapons": [
             "Howitzer150Mk1-2120-Cyb"
@@ -3448,7 +3888,7 @@
     "BusCannon-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*BusCannon* [1ORN AN] #1 Cyb-Mk0",
+        "name": "*BusCannon* [1\u20bdN-ANO] #1 Cyb-Mk0",
         "id": "BusCannon-Cyb",
         "weapons": [
             "BusCannon-Cyb"
@@ -3459,7 +3899,7 @@
     "bTrikeMG-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Trike MG* [1ORN AN] #1 Cyb-Mk0",
+        "name": "*Trike MG* [1\u20bdN-ANO] #17 Cyb-Mk16",
         "id": "bTrikeMG-Cyb",
         "weapons": [
             "bTrikeMG-Cyb"
@@ -3470,7 +3910,7 @@
     "BabaRocket-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*BabaRocket* [1ORN AN] #2 Cyb-Mk1",
+        "name": "*BabaRocket* [1\u20bdN-ANO] #2 Cyb-Mk1",
         "id": "BabaRocket-Cyb",
         "weapons": [
             "BabaRocket-Cyb"
@@ -3481,7 +3921,7 @@
     "BabaFlame-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Flamer* [2ORN AN] #3 Cyb-Mk2",
+        "name": "*Flamer* [3\u20bdN-ANO] #3 Cyb-Mk2",
         "id": "BabaFlame-Cyb",
         "weapons": [
             "BabaFlame-Cyb"
@@ -3492,7 +3932,7 @@
     "BabaPitRocket-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Baba Rocket Pit Launcher* [3ORN AN] #4 Cyb-Mk3",
+        "name": "*Baba Rocket Pit Launcher* [4\u20bdN-ANO] #4 Cyb-Mk3",
         "id": "BabaPitRocket-Cyb",
         "weapons": [
             "BabaPitRocket-Cyb"
@@ -3503,7 +3943,7 @@
     "BabaPitRocketAT-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*AT Rocket Pit* [3ORN AN] #5 Cyb-Mk4",
+        "name": "*AT Rocket Pit* [4\u20bdN-ANO] #5 Cyb-Mk4",
         "id": "BabaPitRocketAT-Cyb",
         "weapons": [
             "BabaPitRocketAT-Cyb"
@@ -3514,7 +3954,7 @@
     "ScavNEXUSlink-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "scavengernexuslinkturret [3ORN AN] #6 Cyb-Mk5",
+        "name": "scavengernexuslinkturret [4\u20bdN-ANO] #6 Cyb-Mk5",
         "id": "ScavNEXUSlink-Cyb",
         "weapons": [
             "ScavNEXUSlink-Cyb"
@@ -3525,7 +3965,7 @@
     "BuggyMG-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Buggy MG* [0ORN AN] #7 Cyb-Mk6",
+        "name": "*Buggy MG* [0\u20bdN-ANO] #7 Cyb-Mk6",
         "id": "BuggyMG-Cyb",
         "weapons": [
             "BuggyMG-Cyb"
@@ -3536,7 +3976,7 @@
     "BJeepMG-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Jeep MG* [0ORN AN] #8 Cyb-Mk7",
+        "name": "*Jeep MG* [0\u20bdN-ANO] #8 Cyb-Mk7",
         "id": "BJeepMG-Cyb",
         "weapons": [
             "BJeepMG-Cyb"
@@ -3547,7 +3987,7 @@
     "MG1Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Machinegun [1ORN AP] #1 Cyb-Mk0",
+        "name": "Machinegun [1\u20bdN-APO] #1 Cyb-Mk0",
         "id": "MG1Mk1-Cyb",
         "weapons": [
             "MG1Mk1-Cyb"
@@ -3558,7 +3998,7 @@
     "CyborgChaingun-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Machinegunner [1ORN AP] #1 Cyb-Mk0",
+        "name": "Machinegunner [1\u20bdN-APO] #17 Cyb-Mk16",
         "id": "CyborgChaingun-Cyb",
         "weapons": [
             "CyborgChaingun"
@@ -3569,7 +4009,7 @@
     "MG2Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Twin Machinegun [2ORN AP] #2 Cyb-Mk1",
+        "name": "Twin Machinegun [2\u20bdN-APO] #2 Cyb-Mk1",
         "id": "MG2Mk1-Cyb",
         "weapons": [
             "MG2Mk1-Cyb"
@@ -3580,7 +4020,7 @@
     "MG3Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Machinegun [2ORN AP] #3 Cyb-Mk2",
+        "name": "Heavy Machinegun [3\u20bdN-APO] #3 Cyb-Mk2",
         "id": "MG3Mk1-Cyb",
         "weapons": [
             "MG3Mk1-Cyb"
@@ -3591,7 +4031,7 @@
     "MG4ROTARYMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Assault Gun [3ORN AP] #4 Cyb-Mk3",
+        "name": "Assault Gun [4\u20bdN-APO] #4 Cyb-Mk3",
         "id": "MG4ROTARYMk1-Cyb",
         "weapons": [
             "MG4ROTARYMk1-Cyb"
@@ -3602,7 +4042,7 @@
     "MG5TWINROTARY-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Twin Assault Gun [3ORN AP] #5 Cyb-Mk4",
+        "name": "Twin Assault Gun [4\u20bdN-APO] #5 Cyb-Mk4",
         "id": "MG5TWINROTARY-Cyb",
         "weapons": [
             "MG5TWINROTARY-Cyb"
@@ -3613,7 +4053,7 @@
     "CyborgRotMG-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*CyborgRotMG* [3ORN AP] #5 Cyb-Mk4",
+        "name": "*CyborgRotMG* [4\u20bdN-APO] #17 Cyb-Mk16",
         "id": "CyborgRotMG-Cyb",
         "weapons": [
             "CyborgRotMG"
@@ -3624,7 +4064,7 @@
     "Cannon1Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Light Cannon [3ORN AW] #1 Cyb-Mk0",
+        "name": "Light Cannon [4\u20bdN-AWO] #1 Cyb-Mk0",
         "id": "Cannon1Mk1-Cyb",
         "weapons": [
             "Cannon1Mk1-Cyb"
@@ -3635,7 +4075,7 @@
     "Cannon2A-TMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Medium Cannon [3ORN AW] #2 Cyb-Mk1",
+        "name": "Medium Cannon [4\u20bdN-AWO] #2 Cyb-Mk1",
         "id": "Cannon2A-TMk1-Cyb",
         "weapons": [
             "Cannon2A-TMk1-Cyb"
@@ -3646,7 +4086,7 @@
     "Cyb-Hvywpn-Mcannon-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Heavy-Gunner [3ORN AW] #2 Cyb-Mk1",
+        "name": "Super Heavy-Gunner [4\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-Mcannon-Cyb",
         "weapons": [
             "Cyb-Hvywpn-Mcannon"
@@ -3657,7 +4097,7 @@
     "Cannon375mmMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Cannon [4ORN AW] #3 Cyb-Mk2",
+        "name": "Heavy Cannon [5\u20bdN-AWO] #3 Cyb-Mk2",
         "id": "Cannon375mmMk1-Cyb",
         "weapons": [
             "Cannon375mmMk1-Cyb"
@@ -3668,7 +4108,7 @@
     "Cannon4AUTOMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hyper Velocity Cannon [4ORN AW] #4 Cyb-Mk3",
+        "name": "Hyper Velocity Cannon [5\u20bdN-AWO] #4 Cyb-Mk3",
         "id": "Cannon4AUTOMk1-Cyb",
         "weapons": [
             "Cannon4AUTOMk1-Cyb"
@@ -3679,7 +4119,7 @@
     "Cyb-Hvywpn-Acannon-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Auto-Cannon Cyborg [4ORN AW] #4 Cyb-Mk3",
+        "name": "Super Auto-Cannon Cyborg [5\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-Acannon-Cyb",
         "weapons": [
             "Cyb-Hvywpn-Acannon"
@@ -3690,7 +4130,7 @@
     "Cannon5VulcanMk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Assault Cannon [3ORN AW] #5 Cyb-Mk4",
+        "name": "Assault Cannon [4\u20bdN-AWO] #5 Cyb-Mk4",
         "id": "Cannon5VulcanMk1-Cyb",
         "weapons": [
             "Cannon5VulcanMk1-Cyb"
@@ -3701,7 +4141,7 @@
     "Cannon6TwinAslt-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Twin Assault Cannon [4ORN AW] #6 Cyb-Mk5",
+        "name": "Twin Assault Cannon [5\u20bdN-AWO] #6 Cyb-Mk5",
         "id": "Cannon6TwinAslt-Cyb",
         "weapons": [
             "Cannon6TwinAslt-Cyb"
@@ -3712,7 +4152,7 @@
     "Cyb-Hvywpn-HPV-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super HVC Cyborg [4ORN AW] #6 Cyb-Mk5",
+        "name": "Super HVC Cyborg [5\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-HPV-Cyb",
         "weapons": [
             "Cyb-Hvywpn-HPV"
@@ -3723,7 +4163,7 @@
     "Flame1Mk1-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Flamer [3ORN AT] #1 Cyb-Mk0",
+        "name": "Flamer [3\u20bdN-ATE] #1 Cyb-Mk0",
         "id": "Flame1Mk1-Cyb",
         "weapons": [
             "Flame1Mk1-Cyb"
@@ -3734,7 +4174,7 @@
     "CyborgFlamer01-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Cyborg Flamer [3ORN AT] #1 Cyb-Mk0",
+        "name": "Cyborg Flamer [3\u20bdN-ATE] #17 Cyb-Mk16",
         "id": "CyborgFlamer01-Cyb",
         "weapons": [
             "CyborgFlamer01"
@@ -3745,7 +4185,7 @@
     "Flame2-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Inferno [3ORN AT] #2 Cyb-Mk1",
+        "name": "Inferno [4\u20bdN-ATE] #2 Cyb-Mk1",
         "id": "Flame2-Cyb",
         "weapons": [
             "Flame2-Cyb"
@@ -3756,7 +4196,7 @@
     "Cyb-Wpn-Thermite-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyborg Thermite Weapon* [3ORN AT] #2 Cyb-Mk1",
+        "name": "*Cyborg Thermite Weapon* [4\u20bdN-ATE] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Thermite-Cyb",
         "weapons": [
             "Cyb-Wpn-Thermite"
@@ -3767,7 +4207,7 @@
     "PlasmiteFlamer-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Plasmite Flamer [4ORN AT] #3 Cyb-Mk2",
+        "name": "Plasmite Flamer [4\u20bdN-ATE] #3 Cyb-Mk2",
         "id": "PlasmiteFlamer-Cyb",
         "weapons": [
             "PlasmiteFlamer-Cyb"
@@ -3778,7 +4218,7 @@
     "Flame1Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hellfire [4ORN AT] #4 Cyb-Mk3",
+        "name": "Hellfire [5\u20bdN-ATE] #4 Cyb-Mk3",
         "id": "Flame1Mk1-2120-Cyb",
         "weapons": [
             "Flame1Mk1-2120-Cyb"
@@ -3789,7 +4229,7 @@
     "CyborgFlamer01-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hellfire [4ORN AT] #4 Cyb-Mk3",
+        "name": "Hellfire [5\u20bdN-ATE] #17 Cyb-Mk16",
         "id": "CyborgFlamer01-2120-Cyb",
         "weapons": [
             "CyborgFlamer01-2120"
@@ -3800,7 +4240,7 @@
     "Flame2-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hellraiser [5ORN AT] #5 Cyb-Mk4",
+        "name": "Hellraiser [6\u20bdN-ATE] #5 Cyb-Mk4",
         "id": "Flame2-2120-Cyb",
         "weapons": [
             "Flame2-2120-Cyb"
@@ -3811,7 +4251,7 @@
     "Flame3Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Plasmiteraiser [5ORN AT] #6 Cyb-Mk5",
+        "name": "Plasmiteraiser [6\u20bdN-ATE] #6 Cyb-Mk5",
         "id": "Flame3Mk1-2120-Cyb",
         "weapons": [
             "Flame3Mk1-2120-Cyb"
@@ -3822,7 +4262,7 @@
     "Cyb-Wpn-Thermite-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyborg HellRaiser Weapon* [5ORN AT] #6 Cyb-Mk5",
+        "name": "*Cyborg HellRaiser Weapon* [6\u20bdN-ATE] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Thermite-2120-Cyb",
         "weapons": [
             "Cyb-Wpn-Thermite-2120"
@@ -3833,7 +4273,7 @@
     "Rocket-Pod-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mini-Rocket Pod [3ORN AT] #1 Cyb-Mk0",
+        "name": "Mini-Rocket Pod [3\u20bdN-ATO] #1 Cyb-Mk0",
         "id": "Rocket-Pod-Cyb",
         "weapons": [
             "Rocket-Pod-Cyb"
@@ -3844,7 +4284,7 @@
     "Rocket-LtA-T-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Lancer [3ORN AT] #2 Cyb-Mk1",
+        "name": "Lancer [4\u20bdN-ATO] #2 Cyb-Mk1",
         "id": "Rocket-LtA-T-Cyb",
         "weapons": [
             "Rocket-LtA-T-Cyb"
@@ -3855,7 +4295,7 @@
     "Cyb-Wpn-Atmiss-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-Atmiss* [3ORN AT] #2 Cyb-Mk1",
+        "name": "*Cyb-Wpn-Atmiss* [4\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Atmiss-Cyb",
         "weapons": [
             "Cyb-Wpn-Atmiss"
@@ -3866,7 +4306,7 @@
     "Rocket-Pod-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hydra Rocket Pod [4ORN AT] #3 Cyb-Mk2",
+        "name": "Hydra Rocket Pod [5\u20bdN-ATO] #3 Cyb-Mk2",
         "id": "Rocket-Pod-2120-Cyb",
         "weapons": [
             "Rocket-Pod-2120-Cyb"
@@ -3877,7 +4317,7 @@
     "Rocket-HvyA-T-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Tank Killer [4ORN AT] #4 Cyb-Mk3",
+        "name": "Tank Killer [5\u20bdN-ATO] #4 Cyb-Mk3",
         "id": "Rocket-HvyA-T-Cyb",
         "weapons": [
             "Rocket-HvyA-T-Cyb"
@@ -3888,7 +4328,7 @@
     "Cyb-Hvywpn-TK-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Tank-Killer Cyborg [4ORN AT] #4 Cyb-Mk3",
+        "name": "Super Tank-Killer Cyborg [5\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-TK-Cyb",
         "weapons": [
             "Cyb-Hvywpn-TK"
@@ -3899,7 +4339,7 @@
     "Missile-A-T-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Warthog ATGM [5ORN AT] #6 Cyb-Mk5",
+        "name": "Warthog ATGM [7\u20bdN-ATO] #6 Cyb-Mk5",
         "id": "Missile-A-T-2120-Cyb",
         "weapons": [
             "Missile-A-T-2120-Cyb"
@@ -3910,7 +4350,7 @@
     "Cyb-Hvywpn-TK-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Explorer Cyborg (Unused) [5ORN AT] #5 Cyb-Mk4",
+        "name": "Super Explorer Cyborg (Unused) [7\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-TK-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-TK-2120"
@@ -3921,7 +4361,7 @@
     "RailGun1Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Pulse Gun [5ORN AW] #1 Cyb-Mk0",
+        "name": "Pulse Gun [6\u20bdN-AWO] #1 Cyb-Mk0",
         "id": "RailGun1Mk1-2120-Cyb",
         "weapons": [
             "RailGun1Mk1-2120-Cyb"
@@ -3932,7 +4372,7 @@
     "Cyb-Wpn-Rail1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-Rail1* [5ORN AW] #1 Cyb-Mk0",
+        "name": "*Cyb-Wpn-Rail1* [6\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Rail1-2120-Cyb",
         "weapons": [
             "Cyb-Wpn-Rail1-2120"
@@ -3943,7 +4383,7 @@
     "RailGun2Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Plasma Gun [5ORN AW] #2 Cyb-Mk1",
+        "name": "Plasma Gun [7\u20bdN-AWO] #2 Cyb-Mk1",
         "id": "RailGun2Mk1-2120-Cyb",
         "weapons": [
             "RailGun2Mk1-2120-Cyb"
@@ -3954,7 +4394,7 @@
     "Cyb-Hvywpn-RailGunner2-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Plasma-Gunner [5ORN AW] #2 Cyb-Mk1",
+        "name": "Super Plasma-Gunner [7\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-RailGunner2-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-RailGunner2-2120"
@@ -3965,7 +4405,7 @@
     "RailGun3Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Quark Cannon [6ORN AW] #3 Cyb-Mk2",
+        "name": "Quark Cannon [7\u20bdN-AWO] #3 Cyb-Mk2",
         "id": "RailGun3Mk1-2120-Cyb",
         "weapons": [
             "RailGun3Mk1-2120-Cyb"
@@ -3976,7 +4416,7 @@
     "Cyb-Hvywpn-RailGunner-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mega Quark-Gunner [6ORN AW] #6 Cyb-Mk5",
+        "name": "Mega Quark-Gunner [7\u20bdN-AWO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-RailGunner-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-RailGunner-2120"
@@ -3987,7 +4427,7 @@
     "RailGun4Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Dark Pulse Cannon [5ORN AW] #4 Cyb-Mk3",
+        "name": "Dark Pulse Cannon [7\u20bdN-AWO] #4 Cyb-Mk3",
         "id": "RailGun4Mk1-2120-Cyb",
         "weapons": [
             "RailGun4Mk1-2120-Cyb"
@@ -3998,7 +4438,7 @@
     "RailGun5Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Dark Plasma Cannon [6ORN AW] #5 Cyb-Mk4",
+        "name": "Dark Plasma Cannon [7\u20bdN-AWO] #5 Cyb-Mk4",
         "id": "RailGun5Mk1-2120-Cyb",
         "weapons": [
             "RailGun5Mk1-2120-Cyb"
@@ -4009,7 +4449,7 @@
     "RailGun6Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Dark Quark Cannon [6ORN AW] #6 Cyb-Mk5",
+        "name": "Dark Quark Cannon [7\u20bdN-AWO] #6 Cyb-Mk5",
         "id": "RailGun6Mk1-2120-Cyb",
         "weapons": [
             "RailGun6Mk1-2120-Cyb"
@@ -4020,7 +4460,7 @@
     "Rocket-BB-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Bunker Buster [3ORN AS] #1 Cyb-Mk0",
+        "name": "Bunker Buster [4\u20bdN-ASO] #1 Cyb-Mk0",
         "id": "Rocket-BB-Cyb",
         "weapons": [
             "Rocket-BB-Cyb"
@@ -4031,7 +4471,7 @@
     "Rocket-Sunburst-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Sunburst AA [4ORN AS] #2 Cyb-Mk1",
+        "name": "Sunburst AA [5\u20bdN-ASO] #2 Cyb-Mk1",
         "id": "Rocket-Sunburst-Cyb",
         "weapons": [
             "Rocket-Sunburst-Cyb"
@@ -4042,7 +4482,7 @@
     "Rocket-BB-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Devastator ASGM [5ORN AS] #3 Cyb-Mk2",
+        "name": "Devastator ASGM [6\u20bdN-ASO] #3 Cyb-Mk2",
         "id": "Rocket-BB-2120-Cyb",
         "weapons": [
             "Rocket-BB-2120-Cyb"
@@ -4053,7 +4493,7 @@
     "Missile-BB-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Domination ASGM [6ORN AS] #4 Cyb-Mk3",
+        "name": "Domination ASGM [7\u20bdN-ASO] #4 Cyb-Mk3",
         "id": "Missile-BB-2120-Cyb",
         "weapons": [
             "Missile-BB-2120-Cyb"
@@ -4064,7 +4504,7 @@
     "Rocket-HvyA-T-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Explorer ATGM [5ORN AT] #1 Cyb-Mk0",
+        "name": "Explorer ATGM [6\u20bdN-ATO] #1 Cyb-Mk0",
         "id": "Rocket-HvyA-T-2120-Cyb",
         "weapons": [
             "Rocket-HvyA-T-2120-Cyb"
@@ -4075,7 +4515,7 @@
     "Cyb-Hvywpn-A-T-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mega Warthog Cyborg [5ORN AT] #1 Cyb-Mk0",
+        "name": "Mega Warthog Cyborg [6\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-A-T-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-A-T-2120"
@@ -4086,7 +4526,7 @@
     "Cyb-Hvywpn-Acannon-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mega Devastator Cyborg [5ORN AT] #1 Cyb-Mk0",
+        "name": "Mega Devastator Cyborg [6\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-Acannon-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-Acannon-2120"
@@ -4097,7 +4537,7 @@
     "Rocket-HvyA-T2-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Tank Killer [2ORN AT] #2 Cyb-Mk1",
+        "name": "Tank Killer [3\u20bdN-ATO] #2 Cyb-Mk1",
         "id": "Rocket-HvyA-T2-2120-Cyb",
         "weapons": [
             "Rocket-HvyA-T2-2120-Cyb"
@@ -4108,7 +4548,7 @@
     "Cyb-Hvywpn-A-T2-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Super Scourge Cyborg [2ORN AT] #2 Cyb-Mk1",
+        "name": "Super Scourge Cyborg [3\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-A-T2-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-A-T2-2120"
@@ -4119,7 +4559,7 @@
     "Rocket-MRL-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Angel MRL Array [4ORN AT] #3 Cyb-Mk2",
+        "name": "Angel MRL Array [6\u20bdN-ATO] #3 Cyb-Mk2",
         "id": "Rocket-MRL-2120-Cyb",
         "weapons": [
             "Rocket-MRL-2120-Cyb"
@@ -4130,7 +4570,7 @@
     "CyborgRocket-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Scourge Cyborg [4ORN AT] #3 Cyb-Mk2",
+        "name": "Scourge Cyborg [6\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "CyborgRocket-2120-Cyb",
         "weapons": [
             "CyborgRocket-2120"
@@ -4141,7 +4581,7 @@
     "Rocket-LtA-T-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Scourge ATGM [4ORN AT] #4 Cyb-Mk3",
+        "name": "Scourge ATGM [5\u20bdN-ATO] #4 Cyb-Mk3",
         "id": "Rocket-LtA-T-2120-Cyb",
         "weapons": [
             "Rocket-LtA-T-2120-Cyb"
@@ -4152,7 +4592,7 @@
     "Cyb-Wpn-Atmiss-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-Atmiss* [4ORN AT] #4 Cyb-Mk3",
+        "name": "*Cyb-Wpn-Atmiss* [5\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Atmiss-2120-Cyb",
         "weapons": [
             "Cyb-Wpn-Atmiss-2120"
@@ -4163,7 +4603,7 @@
     "Rocket-LtA-T2-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "2120 lancer [2ORN AT] #5 Cyb-Mk4",
+        "name": "2120 lancer [3\u20bdN-ATO] #5 Cyb-Mk4",
         "id": "Rocket-LtA-T2-2120-Cyb",
         "weapons": [
             "Rocket-LtA-T2-2120-Cyb"
@@ -4174,7 +4614,7 @@
     "Cyb-Wpn-Atmiss2-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-Atmiss2* [5ORN AT] #6 Cyb-Mk5",
+        "name": "*Cyb-Wpn-Atmiss2* [7\u20bdN-ATO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Atmiss2-2120-Cyb",
         "weapons": [
             "Cyb-Wpn-Atmiss2-2120"
@@ -4185,7 +4625,7 @@
     "Rocket-MRL-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mini-Rocket Array [3ORN AS] #1 Cyb-Mk0",
+        "name": "Mini-Rocket Array [4\u20bdN-ASO] #1 Cyb-Mk0",
         "id": "Rocket-MRL-Cyb",
         "weapons": [
             "Rocket-MRL-Cyb"
@@ -4196,7 +4636,7 @@
     "Rocket-IDF-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Ripple Rockets [4ORN AS] #2 Cyb-Mk1",
+        "name": "Ripple Rockets [5\u20bdN-ASO] #2 Cyb-Mk1",
         "id": "Rocket-IDF-Cyb",
         "weapons": [
             "Rocket-IDF-Cyb"
@@ -4207,7 +4647,7 @@
     "Missile-MdArt-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Seraph Missile Array [4ORN AS] #3 Cyb-Mk2",
+        "name": "Seraph Missile Array [6\u20bdN-ASO] #3 Cyb-Mk2",
         "id": "Missile-MdArt-Cyb",
         "weapons": [
             "Missile-MdArt-Cyb"
@@ -4218,7 +4658,7 @@
     "Rocket-IDF-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Archangel MRL Artillery [5ORN AS] #4 Cyb-Mk3",
+        "name": "Archangel MRL Artillery [6\u20bdN-ASO] #4 Cyb-Mk3",
         "id": "Rocket-IDF-2120-Cyb",
         "weapons": [
             "Rocket-IDF-2120-Cyb"
@@ -4229,7 +4669,7 @@
     "Rocket-MRL-Hvy-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Rocket Array [3ORN AS] #5 Cyb-Mk4",
+        "name": "Heavy Rocket Array [4\u20bdN-ASO] #5 Cyb-Mk4",
         "id": "Rocket-MRL-Hvy-Cyb",
         "weapons": [
             "Rocket-MRL-Hvy-Cyb"
@@ -4240,7 +4680,7 @@
     "Missile-HvyArt-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Archangel Missile [5ORN AS] #6 Cyb-Mk5",
+        "name": "Archangel Missile [6\u20bdN-ASO] #6 Cyb-Mk5",
         "id": "Missile-HvyArt-Cyb",
         "weapons": [
             "Missile-HvyArt-Cyb"
@@ -4251,7 +4691,7 @@
     "Missile-MdArt-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Firestorm MML Array [5ORN AS] #7 Cyb-Mk6",
+        "name": "Firestorm MML Array [7\u20bdN-ASO] #7 Cyb-Mk6",
         "id": "Missile-MdArt-2120-Cyb",
         "weapons": [
             "Missile-MdArt-2120-Cyb"
@@ -4262,7 +4702,7 @@
     "Missile-HvyArt-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Supernova MML Artillery [5ORN AS] #8 Cyb-Mk7",
+        "name": "Supernova MML Artillery [7\u20bdN-ASO] #8 Cyb-Mk7",
         "id": "Missile-HvyArt-2120-Cyb",
         "weapons": [
             "Missile-HvyArt-2120-Cyb"
@@ -4273,7 +4713,7 @@
     "MG1Mk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Flashlight [3ORN AP] #1 Cyb-Mk0",
+        "name": "Flashlight [5$N-APO] #1 Cyb-Mk0",
         "id": "MG1Mk1-2120-Cyb",
         "weapons": [
             "MG1Mk1-2120-Cyb"
@@ -4284,7 +4724,7 @@
     "CyborgChaingun-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Flashlight Laser Gunner [3ORN AP] #1 Cyb-Mk0",
+        "name": "Flashlight Laser Gunner [5$N-APO] #17 Cyb-Mk16",
         "id": "CyborgChaingun-2120-Cyb",
         "weapons": [
             "CyborgChaingun-2120"
@@ -4292,21 +4732,10 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "MG2Mk1-2120-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Light Laser [4ORN AP] #2 Cyb-Mk1",
-        "id": "MG2Mk1-2120-Cyb",
-        "weapons": [
-            "MG2Mk1-2120-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "MG7LGTGATTLINGMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gattling Light Laser [5ORN AP] #3 Cyb-Mk2",
+        "name": "Gattling Light Laser [6$N-APO] #2 Cyb-Mk1",
         "id": "MG7LGTGATTLINGMk1-2120-Cyb",
         "weapons": [
             "MG7LGTGATTLINGMk1-2120-Cyb"
@@ -4317,7 +4746,7 @@
     "CyborgChaingunMed-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Light Laser Gunner [5ORN AP] #3 Cyb-Mk2",
+        "name": "Light Laser Gunner [6$N-APO] #17 Cyb-Mk16",
         "id": "CyborgChaingunMed-2120-Cyb",
         "weapons": [
             "CyborgChaingunMed-2120"
@@ -4325,21 +4754,10 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "MG3Mk1-2120-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Medium Laser [5ORN AP] #4 Cyb-Mk3",
-        "id": "MG3Mk1-2120-Cyb",
-        "weapons": [
-            "MG3Mk1-2120-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "MG7MEDGATTLINGMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Gattling Medium Laser [5ORN AP] #5 Cyb-Mk4",
+        "name": "Gattling Medium Laser [6$N-APO] #3 Cyb-Mk2",
         "id": "MG7MEDGATTLINGMk1-2120-Cyb",
         "weapons": [
             "MG7MEDGATTLINGMk1-2120-Cyb"
@@ -4347,10 +4765,43 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
+    "MG7GATTLINGMk1-2120-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Gattling Heavy Laser [7$N-APO] #4 Cyb-Mk3",
+        "id": "MG7GATTLINGMk1-2120-Cyb",
+        "weapons": [
+            "MG7GATTLINGMk1-2120-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "MG2Mk1-2120-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Light Laser [5\u20bdN-APO] #1 Cyb-Mk0",
+        "id": "MG2Mk1-2120-Cyb",
+        "weapons": [
+            "MG2Mk1-2120-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
+    "MG3Mk1-2120-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "name": "Medium Laser [6\u20bdN-APO] #2 Cyb-Mk1",
+        "id": "MG3Mk1-2120-Cyb",
+        "weapons": [
+            "MG3Mk1-2120-Cyb"
+        ],
+        "body": "CyborgHeavyBody",
+        "available": "true"
+    },
     "MG4ROTARYMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Heavy Laser [5ORN AP] #6 Cyb-Mk5",
+        "name": "Heavy Laser [6\u20bdN-APO] #3 Cyb-Mk2",
         "id": "MG4ROTARYMk1-2120-Cyb",
         "weapons": [
             "MG4ROTARYMk1-2120-Cyb"
@@ -4361,7 +4812,7 @@
     "Cyb-Wpn-Laser-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "*Cyb-Wpn-Laser* [5ORN AP] #6 Cyb-Mk5",
+        "name": "*Cyb-Wpn-Laser* [6\u20bdN-APO] #17 Cyb-Mk16",
         "id": "Cyb-Wpn-Laser-2120-Cyb",
         "weapons": [
             "Cyb-Wpn-Laser-2120"
@@ -4369,21 +4820,10 @@
         "body": "CyborgHeavyBody",
         "available": "true"
     },
-    "MG7GATTLINGMk1-2120-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "name": "Gattling Heavy Laser [5ORN AP] #7 Cyb-Mk6",
-        "id": "MG7GATTLINGMk1-2120-Cyb",
-        "weapons": [
-            "MG7GATTLINGMk1-2120-Cyb"
-        ],
-        "body": "CyborgHeavyBody",
-        "available": "true"
-    },
     "Laser2PULSEMk1-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Hyper Pulse Laser [5ORN AP] #8 Cyb-Mk7",
+        "name": "Hyper Pulse Laser [7\u20bdN-APO] #4 Cyb-Mk3",
         "id": "Laser2PULSEMk1-2120-Cyb",
         "weapons": [
             "Laser2PULSEMk1-2120-Cyb"
@@ -4394,7 +4834,7 @@
     "Cyb-Hvywpn-PulseLsr-2120-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
-        "name": "Mega Hyper Heavy Laser Cyborg [5ORN AP] #8 Cyb-Mk7",
+        "name": "Mega Hyper Heavy Laser Cyborg [7\u20bdN-APO] #17 Cyb-Mk16",
         "id": "Cyb-Hvywpn-PulseLsr-2120-Cyb",
         "weapons": [
             "Cyb-Hvywpn-PulseLsr-2120"
