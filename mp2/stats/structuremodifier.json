@@ -1,18 +1,18 @@
 {
 	"ALL ROUNDER": {
-		"BUNKER": 75,
+		"BUNKER": 35,
 		"HARD": 100,
 		"MEDIUM": 100,
 		"SOFT": 130
 	},
 	"ANTI PERSONNEL": {
-		"BUNKER": 50,
+		"BUNKER": 20,
 		"HARD": 40,
 		"MEDIUM": 65,
 		"SOFT": 160
 	},
 	"ANTI TANK": {
-		"BUNKER": 60,
+		"BUNKER": 30,
 		"HARD": 25,
 		"MEDIUM": 50,
 		"SOFT": 75

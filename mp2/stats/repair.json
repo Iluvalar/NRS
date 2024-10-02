@@ -21,8 +21,8 @@
 		"weight": 150
 	},
 	"HeavyRepair": {
-		"buildPoints": 300,
-		"buildPower": 70,
+		"buildPoints": 30,
+		"buildPower": 10,
 		"designable": 1,
 		"droidType": "DROID_REPAIR",
 		"id": "HeavyRepair",
@@ -30,9 +30,9 @@
 		"model": "GNMREPR2.PIE",
 		"mountModel": "TRMECM1.PIE",
 		"name": "Heavy Repair Turret",
-		"repairPoints": 30,
+		"repairPoints": 333,
 		"time": 7,
-		"weight": 3000
+		"weight": 100
 	},
 	"LightRepair1": {
 		"buildPoints": 125,
