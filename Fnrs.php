@@ -458,7 +458,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 		
 					
 					$engineClass=0;
-					if (in_array("strong", $val3['as'] )) {$engineClass=1;$hooman2.='S';}
+					if (in_array("strong", $val3['as'] )) {$engineClass=1;$hooman2.='H';}
 					if (in_array("heavy", $val3['as'] )) {$engineClass=-1;$hooman2.='H';}
 					if($engineClass==0){ $hooman2.='N'; }
 
@@ -739,6 +739,58 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							//$sys['nrs']['nb'][$linename]['body'][]='{ res: "'. $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'.$nbweight.' }';
 							$sys['nrs']['nb']['body']['extras'][]='{ res: "'.  $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'.$nbweight2.' , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.'. $bodyclass .' }';
+							
+				//====================new upgrade=====
+								$totvalue=100*$power;
+								$value=$totvalue-$lastvalue;
+								$lastvalue=$totvalue;
+								$r['class']='Body';
+								//$r['filterParameter']='HitPointPct';
+								unset($r['filterParameter']);
+								/*
+								$subclssesno=array_search($subclass,$sys['nrs']['subclsses']);
+								foreach($sys['nrs']['subclsses'] as $no=>$classeName){
+									if($classeName!=''){
+														
+										$factor=0;
+										##if($sys['nrs']['subclassesStrenght'][$subclssesno]==$sys['nrs']['subclssesWeight'][$no]){
+										if($sys['nrs']['subclassesStrenght'][$no]==$engineClass){
+											$factor+=.2;
+										}
+										if($sys['nrs']['subclassesRegion'][$no]==$quality){
+											$factor+=.2;
+										}
+										#if($wepclass=='KINETIC'){
+										if($typeW=='O'){
+											if($sys['nrs']['subclassesType'][$no]!=$typeW){
+												$factor-=.2;
+											}
+										}
+										if($factor){	
+											*/
+											$factor=1;
+											$r['filterValue']=$classeName;
+											unset($r['filterValue']);
+											
+											$r['parameter']='HitPointPct';
+											$r['value']=ceil($value*$factor);
+											$temp['results'][]=$r;
+											
+											/*
+											$r['parameter']='RadiusDamage';
+											$r['value']=ceil($value*$factor);
+											$temp['results'][]=$r;
+											
+										}
+										
+										//if($classeName==$filtername){$factor=1;}				
+										
+										
+										echo '<br>upgrades:'. $classeName .' '. $subclass .' ' . 	$subclssesno .' '. $sys['nrs']['subclassesStrenght'][$no].'=?'. $engineClass;
+									}
+									
+								}
+								*/
 						}
 						if($val3['type']=='propulsion'){
 							//print_r($item2);
@@ -768,12 +820,13 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								Fwz_pieSweap($sys['nrs']['base'],$sys['nrs']['base'],'body',$item,'-'. $val3['in'] ,$sys['nrs']['dir']['save'],$sys['nrs']['dir'][ $val3['in'] ],'','');
 							}
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
-
+							$sys['nrs']['nb']['propulsion']['extras'][]='"'. $id .'"';
 							//if($no==0){
 								//Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'Damage',$exp[0] .$sufix,$id);
 								Fnrs_upgradeline("Propulsion","Id",$item['id'],'HitpointPctOfBody',$exp[0],$id,$resmult,$item['name'] .' HP');
 							//}
-							$sys['nrs']['nb']['propulsion']['extras'][]='"'. $id .'"';
+							
+
 						}
 						if($val3['type']=='sensor'){
 							$temp['subgroupIconID']="IMAGE_RES_SYSTEMTECH";
@@ -872,7 +925,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								#$item['name'].=" [". $priceclassR ." $hooman] #". ($no+1);
 								$item['name'].=" [". $priceclassR ."-$hooman". $typeW ."] #". ($no+1);
 							}
-							$target.=$typeW;
+							$target=$hooman . $typeW;
 							if($val3['in']!="base"){
 								Fwz_pieSweap($sys['nrs']['base'],$sys['nrs']['base'],'weapons',$item,'-'. $val3['in'] ,$sys['nrs']['dir']['save'],$sys['nrs']['dir'][ $val3['in'] ],'','');
 							}
@@ -966,7 +1019,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$sys['nrs']['nb'][$linename]['defenses'][]='{ res: "'. $id .'", stat: "'. $t2['id'] .'", defrole: DEFROLE.STANDALONE }';
 								//{ res: "R-NRS-MG1Mk1", stat: "walltower-MG1Mk1", defrole: DEFROLE.GATEWAY }, 
 								
-								//---------------------------new upgrade-----------------------------------------------------------------
+								
+				//====================new upgrade=====
 								$totvalue=100*$power;
 								$value=$totvalue-$lastvalue;
 								$lastvalue=$totvalue;

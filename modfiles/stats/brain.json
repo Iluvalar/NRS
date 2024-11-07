@@ -2662,130 +2662,6 @@
         ],
         "turret": "Cannon6TwinAslt-2120-command"
     },
-    "Mortar1Mk1-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Mortar1Mk1-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Mortar1Mk1-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Mortar1Mk1-command"
-    },
-    "Mortar0Mk1-2120-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Mortar0Mk1-2120-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Mortar0Mk1-2120-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Mortar0Mk1-2120-command"
-    },
-    "Mortar2Mk1-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Mortar2Mk1-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Mortar2Mk1-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Mortar2Mk1-command"
-    },
-    "Mortar3ROTARYMk1-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Mortar3ROTARYMk1-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Mortar3ROTARYMk1-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Mortar3ROTARYMk1-command"
-    },
     "Howitzer105Mk1-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
@@ -2910,6 +2786,130 @@
         ],
         "turret": "Howitzer150Mk1-2120-command"
     },
+    "Mortar1Mk1-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Mortar1Mk1-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Mortar1Mk1-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Mortar1Mk1-command"
+    },
+    "Mortar0Mk1-2120-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Mortar0Mk1-2120-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Mortar0Mk1-2120-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Mortar0Mk1-2120-command"
+    },
+    "Mortar2Mk1-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Mortar2Mk1-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Mortar2Mk1-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Mortar2Mk1-command"
+    },
+    "Mortar3ROTARYMk1-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Mortar3ROTARYMk1-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Mortar3ROTARYMk1-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Mortar3ROTARYMk1-command"
+    },
     "BusCannon-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
@@ -2971,37 +2971,6 @@
             2944
         ],
         "turret": "BabaRocket-command"
-    },
-    "BabaFlame-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "BabaFlame-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "BabaFlame-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "BabaFlame-command"
     },
     "BabaPitRocket-brain": {
         "designable": 1,
@@ -3065,37 +3034,6 @@
         ],
         "turret": "BabaPitRocketAT-command"
     },
-    "ScavNEXUSlink-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "ScavNEXUSlink-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "ScavNEXUSlink-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "ScavNEXUSlink-command"
-    },
     "BuggyMG-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
@@ -3157,6 +3095,68 @@
             2944
         ],
         "turret": "BJeepMG-command"
+    },
+    "BabaFlame-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "BabaFlame-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "BabaFlame-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "BabaFlame-command"
+    },
+    "ScavNEXUSlink-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "ScavNEXUSlink-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "ScavNEXUSlink-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "ScavNEXUSlink-command"
     },
     "MG1Mk1-brain": {
         "designable": 1,
@@ -3406,99 +3406,6 @@
         ],
         "turret": "Cannon375mmMk1-command"
     },
-    "Cannon4AUTOMk1-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Cannon4AUTOMk1-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Cannon4AUTOMk1-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Cannon4AUTOMk1-command"
-    },
-    "Cannon5VulcanMk1-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Cannon5VulcanMk1-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Cannon5VulcanMk1-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Cannon5VulcanMk1-command"
-    },
-    "Cannon6TwinAslt-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Cannon6TwinAslt-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Cannon6TwinAslt-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Cannon6TwinAslt-command"
-    },
     "Flame1Mk1-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
@@ -3591,6 +3498,99 @@
             2944
         ],
         "turret": "PlasmiteFlamer-command"
+    },
+    "Cannon4AUTOMk1-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Cannon4AUTOMk1-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Cannon4AUTOMk1-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Cannon4AUTOMk1-command"
+    },
+    "Cannon5VulcanMk1-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Cannon5VulcanMk1-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Cannon5VulcanMk1-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Cannon5VulcanMk1-command"
+    },
+    "Cannon6TwinAslt-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Cannon6TwinAslt-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Cannon6TwinAslt-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Cannon6TwinAslt-command"
     },
     "Flame1Mk1-2120-brain": {
         "designable": 1,
@@ -4243,6 +4243,130 @@
         ],
         "turret": "Rocket-MRL-2120-command"
     },
+    "MG2Mk1-2120-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "MG2Mk1-2120-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "MG2Mk1-2120-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "MG2Mk1-2120-command"
+    },
+    "MG3Mk1-2120-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "MG3Mk1-2120-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "MG3Mk1-2120-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "MG3Mk1-2120-command"
+    },
+    "MG4ROTARYMk1-2120-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "MG4ROTARYMk1-2120-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "MG4ROTARYMk1-2120-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "MG4ROTARYMk1-2120-command"
+    },
+    "Laser2PULSEMk1-2120-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Laser2PULSEMk1-2120-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Laser2PULSEMk1-2120-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Laser2PULSEMk1-2120-command"
+    },
     "Rocket-LtA-T-2120-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
@@ -4335,37 +4459,6 @@
             2944
         ],
         "turret": "Rocket-MRL-command"
-    },
-    "Rocket-IDF-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Rocket-IDF-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Rocket-IDF-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Rocket-IDF-command"
     },
     "Missile-MdArt-brain": {
         "designable": 1,
@@ -4460,37 +4553,6 @@
         ],
         "turret": "Rocket-MRL-Hvy-command"
     },
-    "Missile-HvyArt-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Missile-HvyArt-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Missile-HvyArt-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Missile-HvyArt-command"
-    },
     "Missile-MdArt-2120-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
@@ -4521,6 +4583,68 @@
             2944
         ],
         "turret": "Missile-MdArt-2120-command"
+    },
+    "Rocket-IDF-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Rocket-IDF-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Rocket-IDF-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Rocket-IDF-command"
+    },
+    "Missile-HvyArt-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Missile-HvyArt-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 3,
+        "name": "Missile-HvyArt-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.6,
+            28,
+            81.6,
+            214.4,
+            531.2,
+            1267.2,
+            2944
+        ],
+        "turret": "Missile-HvyArt-command"
     },
     "Missile-HvyArt-2120-brain": {
         "designable": 1,
@@ -4676,129 +4800,5 @@
             2944
         ],
         "turret": "MG7GATTLINGMk1-2120-command"
-    },
-    "MG2Mk1-2120-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "MG2Mk1-2120-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "MG2Mk1-2120-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "MG2Mk1-2120-command"
-    },
-    "MG3Mk1-2120-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "MG3Mk1-2120-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "MG3Mk1-2120-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "MG3Mk1-2120-command"
-    },
-    "MG4ROTARYMk1-2120-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "MG4ROTARYMk1-2120-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "MG4ROTARYMk1-2120-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "MG4ROTARYMk1-2120-command"
-    },
-    "Laser2PULSEMk1-2120-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Laser2PULSEMk1-2120-brain",
-        "maxDroids": 16,
-        "maxDroidsMult": 3,
-        "name": "Laser2PULSEMk1-2120-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
-        ],
-        "turret": "Laser2PULSEMk1-2120-command"
     }
 }
