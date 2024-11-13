@@ -774,8 +774,8 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	//$obj['evalStr'].='*?'. floor(100*$propDmg)/100;
 	//$obj['evalStr'].='--'. floor(100*$delta)/100;
 	$obj['evalStr'].='=><i>'. floor(10*$obj['Prevalue'])/10;
-	//$obj['evalStr'].='=><i>'. floor(10*$obj['FunctionVal'])/10;
-	//$obj['evalStr'].='</i>*'. floor($obj['HPmod']*10)/10;
+	$obj['evalStr'].='=><u>'. floor(10*$obj['FunctionVal'])/10 .'';
+	$obj['evalStr'].='*'. floor($obj['HPmod']*10)/10 .'</u>';
 	$obj['evalStr'].='</i>×'. floor($hp2*10)/10;
 	//$obj['evalStr'].='</i>*'. floor($bodyval*10)/10;
 	$obj['evalStr'].='×'. floor($obj['bodyval']*100)/100;
@@ -2206,3 +2206,5 @@ $nom='player7.vlo';
 $sys['wz']['file'][$nom]['posload']='/multiplay/skirmish/player0.vlo';
 $sys['wz']['file'][$nom]['pos']='/multiplay/skirmish/player7.vlo';
 $sys['wz']['file'][$nom]['type']='sfile';
+
+$sys['nrs']['dmgscale']=1; //should be wz but compatibility... this is used in NRS
