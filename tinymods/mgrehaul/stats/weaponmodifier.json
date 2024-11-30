@@ -1,35 +1,35 @@
 {
     "ALL ROUNDER": {
-        "Half-Tracked": 115,
-        "Hover": 120,
-        "Legged": 65,
-        "Lift": 40,
-        "Tracked": 105,
-        "Wheeled": 125
+        "Half-Tracked": 123,
+        "Hover": 107,
+        "Legged": 64,
+        "Lift": 86,
+        "Tracked": 132,
+        "Wheeled": 119
     },
     "ANTI PERSONNEL": {
-        "Half-Tracked": 65,
-        "Hover": 110,
-        "Legged": 150,
-        "Lift": 60,
-        "Tracked": 55,
-        "Wheeled": 100
+        "Half-Tracked": 64,
+        "Hover": 98,
+        "Legged": 148,
+        "Lift": 130,
+        "Tracked": 63,
+        "Wheeled": 95
     },
     "ANTI TANK": {
-        "Half-Tracked": 125,
-        "Hover": 90,
-        "Legged": 30,
-        "Lift": 80,
-        "Tracked": 120,
-        "Wheeled": 100
+        "Half-Tracked": 134,
+        "Hover": 80,
+        "Legged": 29,
+        "Lift": 173,
+        "Tracked": 151,
+        "Wheeled": 95
     },
     "ARTILLERY ROUND": {
-        "Half-Tracked": 65,
-        "Hover": 110,
-        "Legged": 130,
-        "Lift": 25,
-        "Tracked": 30,
-        "Wheeled": 90
+        "Half-Tracked": 69,
+        "Hover": 98,
+        "Legged": 128,
+        "Lift": 54,
+        "Tracked": 37,
+        "Wheeled": 85
     },
     "BUNKER BUSTER": {
         "Half-Tracked": 40,
@@ -40,11 +40,11 @@
         "Wheeled": 30
     },
     "FLAMER": {
-        "Half-Tracked": 100,
-        "Hover": 130,
-        "Legged": 130,
-        "Lift": 25,
-        "Tracked": 90,
-        "Wheeled": 110
+        "Half-Tracked": 107,
+        "Hover": 116,
+        "Legged": 128,
+        "Lift": 54,
+        "Tracked": 113,
+        "Wheeled": 104
     }
 }

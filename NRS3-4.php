@@ -1012,9 +1012,12 @@ echo 'JS STR: '. $savedir  .' '. $str .'End script<br>';
 print_r($sys['nrs']['count']);
 echo $sys['nrs']['powstuff'];
 echo '<br>'. $sys['nrs']['powstuff2'];
+
+$str=file_get_contents('./modelNRS/standard.js');
 foreach($sys['nrs']['nb'] as $nom =>$nb){
+	unset($bodymsg);
 	if($nom!='count' && $nom!='temp' && $nom!=''){
-		$msg= $nom.' : {
+		$msg=''. $nom.' : {
 	';
 		$msg.='	roles : '. $nb['roles'] .',
 	';
@@ -1069,6 +1072,8 @@ foreach($sys['nrs']['nb'] as $nom =>$nb){
 		foreach( (array) $nb['extras'] as $no => $val){
 			$msg.='		'. $val .',
 	';
+			$bodymsg.='		'. $val .',
+	';
 		}
 		$msg.='	],
 	';
@@ -1078,7 +1083,66 @@ foreach($sys['nrs']['nb'] as $nom =>$nb){
 		echo $msg;
 		//print_r($val);
 	}
+	if($nom=='body'){
+		$str  = str_replace("//--bodylist", $bodymsg,$str);
+		
+	}
+	elseif($nom !='body' && $nom !='propulsion' && $nom !='temp' && $nom !='count'){
+		$msgtot.=$msg .'';
+		
+		//$nom='AWA00';
+		unset($perso);
+		foreach($sys['nrs']['nb'] as $nom2 =>$nb2){
+			$xs=0; $diff=0;
+			while($xs< strlen($nom)){
+				//echo $nom[$xs-1] .'Ð';
+
+				if($nom[$xs]!=$nom2[$xs]){
+					$diff++;
+				}
+				$xs++;
+			}
+			echo '<br>'.$nom .' '. $nom2 .' '. $diff;
+			$perso[$diff].='			weaponStats.'. $nom2 .', 
+		';	
+		}
+		echo $perso[0].$perso[1].$perso[2];
+		$fullperso='	'. $nom .': {
+				chatalias: "'. $nom .'",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+		'. $perso[0].$perso[1].$perso[2] .'
+				],
+				earlyResearch: [ // fixed research path for the early game
+					"R-NRS-MG1Mk1",
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+		';
+$persos.=$fullperso;
+	}
 }
+echo $persos;
+
+	$str  = str_replace("//--weaponstats", $msgtot,$str);
+	$str  = str_replace("//--bodyKinetic", $sys['nrs']['nb2']['bodyKinetic'],$str);
+	$str  = str_replace("//--bodyThermal", $sys['nrs']['nb2']['bodyThermal'],$str);
+	
+	file_put_contents($savedir .'\\multiplay\\skirmish\\nb_rulesets\\standard.js',$str);
+	
+	$str=file_get_contents('./modelNRS/nb_generic.js');
+	$str  = str_replace("//--persos", $persos,$str);
+	file_put_contents($savedir .'\\multiplay\\skirmish\\nb_generic.js',$str);
 
 //Just for debug purpose
 foreach($sys['nrs']['file']['stat']['weapons'] as $nom=>$item){

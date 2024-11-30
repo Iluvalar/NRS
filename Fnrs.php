@@ -613,8 +613,41 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						$pow*=$figbase/Fwz_fig($nbase  * $fig**-$priceclass);
 						$price=$sys['nrs']['unitprice']/3*2**($priceclass+1)*(1+$quality*.2+$engineClass*0.1);
 						#NEED A fix
-						$nbweight='LIGHT';
-						$nbweight2='LIGHT';
+						//$nbweight='LIGHT';
+						//$nbweight2='LIGHT';
+						if($priceclass+4<=2){
+							$nbweight='ULTRALIGHT';
+							$nbweight2='ULTRALIGHT';
+						}
+						elseif($priceclass+4<=3){
+							$nbweight='LIGHT';
+							$nbweight2='LIGHT';
+							
+						}
+						elseif($priceclass+4<=4){
+							$nbweight='MEDIUM';
+							$nbweight2='MEDIUM';
+							
+						}
+						elseif($priceclass+4<=6){
+							$nbweight='HEAVY';
+							$nbweight2='HEAVY';
+							
+						}
+						else{
+							$nbweight='ULTRAHEAVY';
+							$nbweight2='ULTRAHEAVY';
+						}
+						if($typeW=='E'){
+							$bodyclass='THERMAL';
+						}
+						/*
+							ULTRALIGHT: 0,
+	LIGHT: 1,
+	MEDIUM: 2,
+	HEAVY: 3,
+	ULTRAHEAVY: 4,
+	*/
 						
 						echo 'priceclass:'.  $item['id'] .' '. $checkprice .'/'. $sys['nrs']['unitprice']/3 .'='. $priceclass .' pow:'. $pow .' n:'. $nbase*$fig**-$priceclass .'/'. $nbase;
 						/**/
@@ -739,6 +772,17 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							//$sys['nrs']['nb'][$linename]['body'][]='{ res: "'. $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'.$nbweight.' }';
 							$sys['nrs']['nb']['body']['extras'][]='{ res: "'.  $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'.$nbweight2.' , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.'. $bodyclass .' }';
+							if(!$fake){
+								if($typeW=='E'){
+									$sys['nrs']['nb2']['bodyThermal'].="			\"$id\",
+";
+								}
+								else{
+								
+									$sys['nrs']['nb2']['bodyKinetic'].="			\"$id\",
+";
+								}
+							}
 							
 				//====================new upgrade=====
 								$totvalue=100*$power;
@@ -891,6 +935,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								*/
 							}
 							#fireOnMove
+							$linename=$hooman. $typeW.($quality+1).($engineClass+1);
 							$sys['nrs']['nb'][$linename]['roles']=$nbroles;
 							$item['buildPower']=floor($price);
 							$item['buildPoints']=floor($price*$sys['nrs']['produnit']);
@@ -995,6 +1040,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							//print_r($item);
 							if($no2==0){
 								$sys['nrs']['nb'][$linename]['weapons'][]='{ res: "'. $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'. $nbweight .' }';
+								//$sys['nrs']['nb'][$target.$hooman2]['weapons'][]='{ res: "'. $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'. $nbweight .' }';
 								
 								$t2['id']='walltower-'. $item['id'];
 								$t2['thermal']=10000*$bodheat;
@@ -1027,20 +1073,20 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$r['class']='Weapon';
 								$r['filterParameter']='ImpactClass';
 								$subclssesno=array_search($subclass,$sys['nrs']['subclsses']);
-								foreach($sys['nrs']['subclsses'] as $no=>$classeName){
+								foreach($sys['nrs']['subclsses'] as $no3=>$classeName){
 									if($classeName!=''){
 														
 										$factor=0;
 										##if($sys['nrs']['subclassesStrenght'][$subclssesno]==$sys['nrs']['subclssesWeight'][$no]){
-										if($sys['nrs']['subclassesStrenght'][$no]==$engineClass){
+										if($sys['nrs']['subclassesStrenght'][$no3]==$engineClass){
 											$factor+=.2;
 										}
-										if($sys['nrs']['subclassesRegion'][$no]==$quality){
+										if($sys['nrs']['subclassesRegion'][$no3]==$quality){
 											$factor+=.2;
 										}
 										#if($wepclass=='KINETIC'){
 										if($typeW=='O'){
-											if($sys['nrs']['subclassesType'][$no]!=$typeW){
+											if($sys['nrs']['subclassesType'][$no3]!=$typeW){
 												$factor-=.2;
 											}
 										}
@@ -1102,7 +1148,14 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$r['value']=ceil($value*$factor);
 								#$temp['results'][]=$r;
 								
-								
+									$sys['nrs']['nb'][$linename]['micro']='MICRO.RANGED';
+									if($item['longRange']<500){
+										$sys['nrs']['nb'][$linename]['micro']='MICRO.MELEE';
+									}
+									if($item['fireOnMove']===0){
+										$sys['nrs']['nb'][$linename]['micro']='MICRO.DUMB';
+									}
+									$sys['nrs']['nb'][$linename]['chatalias']=++$sys['nrs']['nb']['count'];								
 								if($no==0){
 									/*
 									$thisname='';
@@ -1116,14 +1169,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 									#Fnrs_upgradeline("Weapon","ImpactClass",$subclass,'buildPower',$exp[0] .$sufix,$id,1,$thisname);
 									#$sys['nrs']['nb'][$linename]['extras'][]=$sys['nrs']['nb']['temp'];
 									*/
-									$sys['nrs']['nb'][$linename]['micro']='MICRO.RANGED';
-									if($item['longRange']<500){
-										$sys['nrs']['nb'][$linename]['micro']='MICRO.MELEE';
-									}
-									if($item['fireOnMove']===0){
-										$sys['nrs']['nb'][$linename]['micro']='MICRO.DUMB';
-									}
-									$sys['nrs']['nb'][$linename]['chatalias']=++$sys['nrs']['nb']['count'];
+
 									//chatalias: "mg",
 									//baba shit
 									//	$weightfact=1/$fig;
@@ -1293,7 +1339,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$temparr[]=$expi;
 							}
 							$item['thresholds']=$temparr;
-							echo 'B calc'. $target .' m:'. $max .' d:'. $diff .' N='. $min .' +'. $step;
+							echo 'B calc'. $target .' '. $hooman2 .' m:'. $max .' d:'. $diff .' N='. $min .' +'. $step;
 							//$item['id']=$id;
 							//$nname=$item['id'].'-BABA';
 							$sys['nrs']['file']['stat'][  $type ][$item['id'] ]=$item;
