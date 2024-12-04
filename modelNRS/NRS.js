@@ -247,11 +247,11 @@ function powerStuff(){
 		if(playerData[playnum].difficulty>0){
 			var aiFact=tothonorPow/(500)/(maxPlayers*4);
 			//var factordif=2**playerData[playnum].difficulty-.5;
-			var factordif=3.5;
-			if(playerData[playnum].difficulty==1){ factordif=1.5; }
-			if(playerData[playnum].difficulty==2){ factordif=1.75; }
-			if(playerData[playnum].difficulty==3){ factordif=2.00; }
-			if(playerData[playnum].difficulty==4){ factordif=3; }
+			var factordif=1.5;
+			if(playerData[playnum].difficulty==1){ factordif=1.0; }
+			if(playerData[playnum].difficulty==2){ factordif=1.15; }
+			if(playerData[playnum].difficulty==3){ factordif=1.35; }
+			if(playerData[playnum].difficulty==4){ factordif=1.70; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);
 			income=income*(factordif+aiFact-1/fractprop+1);

@@ -1110,7 +1110,7 @@ foreach($sys['nrs']['nb'] as $nom =>$nb){
 		$fullperso='	'. $nom .': {
 				chatalias: "'. $nom .'",
 				weaponPaths: [ // weapons to use; put late-game paths below!
-		'. $perso[0].$perso[1].$perso[2] .'
+		'. $perso[0].$perso[1].$perso[2].$perso[3].'
 				],
 				earlyResearch: [ // fixed research path for the early game
 					"R-NRS-MG1Mk1",
@@ -1147,7 +1147,7 @@ echo $persos;
 //Just for debug purpose
 foreach($sys['nrs']['file']['stat']['weapons'] as $nom=>$item){
 	Fwz_eval34($item,'weapons');
-	echo '<br>'. $item['name'] .' '. $item['Prevalue'] .' '. $item['evalStr'];
+	echo '<br>'. $countweap++ .':'. $item['name'] .' '. $item['Prevalue'] .' '. $item['evalStr'];
 	if($item["weaponClass"]!='KINETIC' and $item["weaponClass"]!='HEAT'){
 		echo '<br>WTF!';
 	}
