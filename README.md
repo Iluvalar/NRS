@@ -21,6 +21,7 @@ And more new things coming...
 ## Install
 ```
 Simply download the last version of the file NRSXXX.wz and drop it in your /mods/4.3.3/autoload folder.
+Edit: (NRS+) We are now at NRSpXXX.wz The current one as I write this is NRSp404.wz
 ```
 ## You can do it!
 ```
