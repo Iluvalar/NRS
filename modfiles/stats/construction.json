@@ -2,7 +2,7 @@
     "scavCrane1": {
         "buildPoints": 136.66666666666669,
         "buildPower": 42.57287086679141,
-        "constructPoints": 20.205261239802063,
+        "constructPoints": 20.450250000000004,
         "droidType": "DROID_CONSTRUCT",
         "hitpoints": 0,
         "id": "scavCrane1",

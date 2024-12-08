@@ -1353,6 +1353,25 @@ function Fwz_Fleau($restime,$inv=False){
 	//$scale=230; //truck time ... must = 1.167 bcoz figure count of defender & 30% wep mod (x^2+x)-0.3/x-1=0
 	$scale=$sys['wz']['fleauscale'];
 	if($inv){
+		#$expect=log($restime)/log($p1); //fleau
+		#$expect=pow($expect,1/$p2)*$scale;
+		$expect=($restime1-1)/($p1-1)*$scale;
+	}
+	else{
+		#$expect=pow($p1,pow($restime/$scale,$p2)); //fleau
+		$expect=1+($p1-1)*$restime/$scale; //fleau
+	}
+	return $expect;
+}
+function Fwz_FleauTRUE($restime,$inv=False){
+	global $sys;
+	//$p1=1.167; //standard prog
+	$p1=1.15;
+	$p1=$sys['nrs']['wepmod'];
+	$p2=1.02; //spec
+	//$scale=230; //truck time ... must = 1.167 bcoz figure count of defender & 30% wep mod (x^2+x)-0.3/x-1=0
+	$scale=$sys['wz']['fleauscale'];
+	if($inv){
 		$expect=log($restime)/log($p1); //fleau
 		$expect=pow($expect,1/$p2)*$scale;
 	}
