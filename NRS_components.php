@@ -1,5 +1,5 @@
 <?php
-$ecoscale=20; //was 20;
+$ecoscale=10*$sys['nrs']['dmgscale']; //10 = Factory(1000)/100 power;
 $t2=$sys['nrs']['file']['stat']['structure']['A0RepairCentre3'];
 $t1['id']='Crane'; $t2['id']=$t1['id'];
 $t2["type"]=  "REPAIR FACILITY";

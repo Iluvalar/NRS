@@ -10,7 +10,7 @@ $modder="ilu";
 
 
 $sys['nrs']['oilpf']=7;
-$sys['nrs']['derrickprice']=400;
+$sys['nrs']['derrickprice']=400; //not actually just the derrick 2/5 goes in baseinterest and 1/5 to derricks and 2/5 to powergens
 //$sys['nrs']['wepmod']=1.25; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually)
 $sys['nrs']['wepmod']=1.33; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually
 
@@ -76,7 +76,7 @@ echo '<B> WELCOME TO NRS :D </B>tf:'. $testfleau .'!';
 $sys['nrs']['interest']=pow($testfleau,5/$sys['nrs']['trtime']); //these 2 get injected in NRS.js
 $sys['nrs']['basepower']=$sys['nrs']['ttpower']*($sys['nrs']['wepmod']/($sys['nrs']['wepmod']-1));
 
-echo 'rpoint:'. $sys['nrs']['rpoint'] .' '. $sys['nrs']['trtime'] .' '. $testfleau .' startpower'. $trpower*3/5  .' bank amount'.  $sys['nrs']['bankval'];
+echo 'rpoint:'. $sys['nrs']['rpoint'] .' '. $sys['nrs']['trtime'] .' '. $testfleau .' startpower'. $trpower*3/5  .' bank amount'.  $sys['nrs']['bankval'] .' basepower:'. $sys['nrs']['basepower'];
 echo '<br>ttpower'. $sys['nrs']['ttpower'] .' armypower:'.  $sys['nrs']['armypower'] .' '. $sys['nrs']['trtime'] .' '. $testfleau .' basepower:'. $sys['nrs']['basepower'] .' bank amount'.  $sys['nrs']['bankval'];
 echo '<br><b>structureHPScale:'. $sys['nrs']['structureHPScale'] .'</b>';
 echo '<br>INTEREST PER 5='. $sys['nrs']['interest'];
@@ -179,8 +179,48 @@ foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
 	
-							
-			echo $nom .','. $val['name'] .' '.  $val['size'] .' '. $modname .' Power:'. $val['powerOutput']/(100+$val['weight'])/(1+$val['buildPower']**.5) .' hp:'.  $val['hitpoints']/(1+$val['buildPower']**.5).'<br>';
+			$armorPow=($val['armourKinetic']+$val['armourHeat'])/($val['hitpoints']+0.1);
+			$armorRatio=($val['armourKinetic']+1)/($val['armourHeat']+1);
+			$enginePow=$val['powerOutput']/(100+$val['weight'])/(1+$val['buildPower']**.5);
+			$hpRatio=$val['hitpoints']/(1+$val['buildPower']**.5);
+			//¥₽$
+			if($hpRatio<20){
+				$region='¥';
+			}
+			elseif($hpRatio<30){
+				$region='₽';
+			}
+			else{
+				$region='$';
+			}
+			if($armorPow<0.15){
+				$type='O';
+			}
+			elseif($armorRatio<1.05){
+				$type='E';
+			}
+			elseif($armorRatio>1.3){
+				$type='A';
+			}
+			else{
+				$type='AE';
+			}
+			$engineClass='N';
+			if($enginePow>1){
+				$engineClass='H';
+			}
+			$priceCheck=log($val['buildPower']/($sys['nrs']['unitprice']/3),2);
+			$priceclass=floor($priceCheck/2);
+			if(!$bodyDone[$nom]){
+				unset($temp);
+				$temp['id']=$nom;
+				$temp['from']=$modname;
+				$temp['type']=$type;
+				$temp['name']=$val['name'];
+				$bodySort[$priceclass][$engineClass][$region][]=$temp;
+				$bodyDone[$nom]=1;
+			}
+			echo $nom .','. $val['name'] .' '.  $val['size'] .' '. $modname .' armor power:'. $armorPow .' ratio:'. $armorRatio .' engineClass:'. $engineClass.' hp:'.  $hpRatio . $region .' price class:'. $priceclass .'<br>';			
 			$sys['nrs'][$modname][$listtype][$nom]['armourKinetic']=0;
 			$sys['nrs'][$modname][$listtype][$nom]['armourHeat']=0;
 			
@@ -202,7 +242,7 @@ foreach($mods as $no => $modname){
 			//$sys['nrs'][$modname][$listtype][$nom]['repairPoints']*=$sys['nrs']['dmgunit'];
 			
 			if( $sys['nrs'][$modname][$listtype][$nom]['type']!="DEFENSE"){
-				$sys['nrs'][$modname][$listtype][$nom]['hitpoints']*=2*$sys['nrs']['structureHPScale'];
+				$sys['nrs'][$modname][$listtype][$nom]['hitpoints']*=$sys['nrs']['dmgscale']*$sys['nrs']['structureHPScale'];
 			}
 			//$sys['nrs'][$modname][$listtype][$nom]['hitpoints']*=$sys['nrs']['dmgunit'];
 			
@@ -236,8 +276,36 @@ foreach($mods as $no => $modname){
 	//foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
 	//}
 }
+echo '<pre>';
+echo 'bodysort!';
+#print_r($bodySort);
 
-
+foreach($bodySort as $priceclass =>$val){
+	 
+		foreach($val as $engineClass =>$val2){
+			//print_r($val2);
+			foreach($val2 as $region =>$val3){
+				$fac=(($priceclass+2)*2) . $region . $engineClass;
+				echo '<br>' . $fac;
+				foreach($val3 as $no => $item){
+					
+					$pos = strpos($item['id'],'Cyb');
+					$pos2 = strpos($item['id'],'BaBa');
+					$strenght='normal';
+					if($engineClass=='H'){
+						$strenght='strong';
+					}
+					if($pos===FALSE && $pos2===FALSE){
+						echo '<br>'. $item['id'] .'('. $item['name']  .') from '. $item['from'] .' type'. $item['type'];
+						Fnrs_add([ 'faction'=> $fac, 'use'=>  $item['id'], 'in'=>$item['from'], 'type'=> 'body', 'as' => ['lgt',$strenght,'type'. $item['type'],$region,'insta','vshort'] ]);
+					}
+				}
+				//print_r($val3);
+			}
+		}
+}
+echo '</pre>';
+//Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
 ///// Economic structure definition... could hide... 
 	$resourcesNames2=['Work','Service','Electric', 'Pop','density','rich', 'environement','War','F','B','C'];
 	//"A0ComDroidControl","A0ResourceExtractor","A0BaBaPowerGenerator","A0PowerGenerator",
@@ -285,8 +353,8 @@ foreach($mods as $no => $modname){
 	//print_r($structureData);
 	
 
-	$sys['nrs']['base']['structure']['A0ResourceExtractor']['buildPower']=40;
-	$sys['nrs']['base']['structure']['A0ResourceExtractor']['buildPoints']=240;	
+	$sys['nrs']['base']['structure']['A0ResourceExtractor']['buildPower']=$sys['nrs']['derrickprice']*1/5;
+	$sys['nrs']['base']['structure']['A0ResourceExtractor']['buildPoints']=$sys['nrs']['derrickprice'];	
 	$id='A0ResourceExtractor'; $t2=$sys['nrs']['base']['structure'][$id];
 	$sys['nrs']['nrs']['structure'][$id]=$t2;
 	$id='NuclearReactor'; $t2=$sys['nrs']['base']['structure'][$id];
@@ -550,7 +618,7 @@ TBM-Precision,contingency,Oblivion TBM Launcher MISSILE
 
 
 */
-
+/*
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Body17LGT', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','','NRSp'], 'call'=>'contcannons' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Body16MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','','NRSp'], 'call'=>'contcannons' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Body18MED', 'in'=>'contingency','type'=> 'body', 'as' => ['LM','AW','insta','','NRSp'], 'call'=>'contcannons' ]);
@@ -568,7 +636,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=>'Body25SUP', 'in'=>'contingency','type'=> 'b
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Body26SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AT','insta','','NRSp'], 'call'=>'contcannons' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Body27SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AT','insta','','NRSp'], 'call'=>'contcannons' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Body28SUP', 'in'=>'contingency','type'=> 'body', 'as' => ['hvy','AT','insta','','NRSp'], 'call'=>'contcannons' ]);
-
+*/
 
 
 
@@ -608,14 +676,14 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'base', 'type'=> 
 //	Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1,Cyb-Wpn-Grenade", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 
-
+/*
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body11ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body9REC", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);	
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body10MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);	
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body13SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);	
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body14SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);	
-
+*/
 
 //$sys['nrs']['base']['structure']['A0Sat-linkCentre']['buildPower']=2;
 $sys['nrs']['base']['structure']['A0Sat-linkCentre']['buildPoints']=600;
@@ -648,6 +716,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "A0BaBaFactory,BaBaLegs,B1BaBaPerson01-nrs,
 Fnrs_add([ 'faction'=> $fac, 'use'=> "scavCrane1", 'in'=>'base', 'type'=> 'construction', 'as' => ['xlgt','AS','insta','exshort','designable'] ]);
 
 //
+/*
 Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavCamperBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable','lowtech','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavIcevanBody", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "B2tractor", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','baba','designable','vshort'] ]);
@@ -671,7 +740,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "BuggyMG", 'in'=>'base', 'type'=> 'weapons'
 Fnrs_add([ 'faction'=> $fac, 'use'=> "BJeepMG", 'in'=>'base', 'type'=> 'weapons', 'as' => ['xlgt','AP','lowtech','fake','¥','NRSp'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "BabaFlame", 'in'=>'base', 'type'=> 'weapons', 'as' => ['xlgt','AP','designable','FOM','¥','NRSp'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavNEXUSlink", 'in'=>'base', 'type'=> 'weapons', 'as' => ['xlgt','AP','designable','FOM','¥','NRSp'] ]);
-
+*/
 
 
 $fac='project';
@@ -704,12 +773,13 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Flame3Mk1,Cyb-Wpn-Thermite", 'in'=>'2120',
 
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "CommandBrain01", 'in'=>'base', 'type'=> 'brain', 'as' => ['hvy','AW','joke',''] ]);
 
-
+/*
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1REC", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body4ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body2SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','insta','vshort'] ]);
+*/
 
 
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A0PowMod1", 'in'=>'base', 'type'=> 'structure', 'as' => ['lgt','early','weak',''] ]);
@@ -746,6 +816,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> 'Missile-BB', 'in'=>'2120', 'type'=> 'weapo
 
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A0FacMod1", 'in'=>'base', 'type'=> 'structure', 'as' => ['lgt','early','',''] ]);
 
+/*
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body2SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body3MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
@@ -760,7 +831,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8MBT", 'in'=>'base', 'type'=> 'body', 
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body6SUPP", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','insta','','vshort'] ]);
-
+*/
 
 
 
@@ -802,7 +873,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "MG4ROTARYMk1,MG4ROTARY-VTOL,Cyb-Wpn-Laser"
 	Fnrs_add([ 'faction'=> $fac, 'use'=> "MG7GATTLINGMk1,MG7GATTLING-VTOL", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['MH','AP','$','NRSp'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Laser2PULSEMk1,Laser2PULSE-VTOL,Cyb-Hvywpn-PulseLsr", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AP','','NRSp'] ]);
 
-
+/*
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body7ALT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8MBT", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body8UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['med','strong','','insta','vshort'] ]);
@@ -825,7 +896,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Body13SUP", 'in'=>'2120', 'type'=> 'body',
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body17SUUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);	
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body26SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body27SUP", 'in'=>'2120', 'type'=> 'body', 'as' => ['MH','good','AT','vshort'] ]);
-
+*/
 
 
 //$sys['nrs']['base']['structure']['A0ResearchFacility']['buildPower']=0;
@@ -843,15 +914,18 @@ unset($t2);
 
 //$powerscale=.25;
 //$sys['nrs']['file']['stat']['structure']['A0BaBaPowerGenerator']["buildPower"]=$powerscale*$sys['nrs']['bankval']*5/$sys['nrs']['oilpf']*3+10;
-$sys['nrs']['base']['structure']['A0BaBaPowerGenerator']["buildPower"]=200;
+$sys['nrs']['base']['structure']['A0BaBaPowerGenerator']["buildPower"]=$sys['nrs']['derrickprice']*1/5*4*2;
 //$sys['nrs']['file']['stat']['structure']['A0BaBaPowerGenerator']["buildPoints"]=1;
 //$sys['nrs']['file']['stat']['structure']['A0BaBaPowerGenerator']["powerPoints"]=$powerscale*50;
-$sys['nrs']['base']['structure']['A0BaBaPowerGenerator']["powerPoints"]=20000*1.5*($sys['nrs']['interest']-1);
+$sys['nrs']['base']['structure']['A0BaBaPowerGenerator']["powerPoints"]=25*$sys['nrs']['base']['structure']['A0BaBaPowerGenerator']["buildPower"]/5*1.3*($sys['nrs']['interest']-1);
 //$sys['nrs']['file']['stat']['structure']['A0PowerGenerator']["buildPower"]=$powerscale*$sys['nrs']['bankval']*5/4*3;
-$sys['nrs']['base']['structure']['A0PowerGenerator']["buildPower"]=50;
+$sys['nrs']['base']['structure']['A0PowerGenerator']["buildPower"]=$sys['nrs']['derrickprice']*1/5*4;
+$sys['nrs']['base']['structure']['A0PowMod1']["buildPower"]=$sys['nrs']['derrickprice']*1/5*4;
+
 //$sys['nrs']['base']['structure']['A0PowerGenerator']["buildPoints"]=100;
-$sys['nrs']['base']['structure']['A0PowerGenerator']["powerPoints"]=5000*1.3*($sys['nrs']['interest']-1);
-//$sys['nrs']['file']['stat']['structure']['A0PowerGenerator']["modulePowerPoints"]=$powerscale*55*.201; //see "power hack"
+$sys['nrs']['base']['structure']['A0PowerGenerator']["powerPoints"]=25*$sys['nrs']['base']['structure']['A0PowerGenerator']["buildPower"]/5*1.3*($sys['nrs']['interest']-1);
+//$sys['nrs']['base']['structure']['A0PowerGenerator']["powerPoints"]=5000*1.3*($sys['nrs']['interest']-1);
+$sys['nrs']['base']['structure']['A0PowerGenerator']["modulePowerPoints"]=$sys['nrs']['base']['structure']['A0PowerGenerator']["powerPoints"]; //see "power hack"
  
 
 $sys['nrs']['nrs']['structure']['NuclearReactor']['buildPower']= 100;

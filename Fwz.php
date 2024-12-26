@@ -1556,22 +1556,25 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 						$found=0;
 						$name=$exp2[$countexp-1] .'.png';
 						$texnewname=$exp2[$countexp-1] . $sufix .'.png';
-						if($name=='page-111-laboratories.png'){
+						if($name=='page-111-laboratories.png' or $name=='page-10-labratories.png'){
 							$name='page-10-laboratories.png'; //should be an array or somehting...
 							$fix=1;
 						}
 						if ($handle = opendir($load .'/texpages')) {
 							while (false !== ($file = readdir($handle))) {
 								if( strpos($file,$name)!==FALSE){
-									echo "file tex: $nname $name .' '. $file\n";
+									echo "<b>file tex: $nname $name =$file\n</b>";
 									$found=1;
 									$name=$file;
+								}
+								else{
+									echo "file tex: $nname $name .' '. $file\n";
 								}
 							}				
 						closedir($handle);
 						}
 						if(!$found){
-							echo 'NOT FOUND! png'. $name;
+							echo 'NOT FOUND! png('. $load .'/texpages/'. $name .')';
 						}
 						else{
 							$thatpie[2]=str_replace($name, $texnewname, $thatpie[2]); 

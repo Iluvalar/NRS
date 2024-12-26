@@ -11212,6 +11212,1854 @@
             }
         ]
     },
+    "R-NRS-B2crane1": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2crane1"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "B2crane1",
+        "id": "R-NRS-B2crane1",
+        "name": "[3\u20bdN-O]*crane1*-4\u20bdN #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-B2crane2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2crane2"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 6
+            }
+        ],
+        "statID": "B2crane2",
+        "id": "R-NRS-B2crane2",
+        "name": "[3\u20bdN-O]*crane2*-4\u20bdN #2",
+        "researchPoints": 933.3333333333333,
+        "researchPower": 96.49122807017547,
+        "requiredResearch": [
+            "R-NRS-B2crane1"
+        ]
+    },
+    "R-NRS-ScavNEXUSbody": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ScavNEXUSbody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 6
+            }
+        ],
+        "statID": "ScavNEXUSbody",
+        "id": "R-NRS-ScavNEXUSbody",
+        "name": "[4\u20bdN-O]*scavenger nexus tank*-4\u20bdN #3",
+        "researchPoints": 933.3333333333333,
+        "researchPower": 96.49122807017547,
+        "requiredResearch": [
+            "R-NRS-B2crane2"
+        ]
+    },
+    "R-NRS-HeavyChopper": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "HeavyChopper"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 6
+            }
+        ],
+        "statID": "HeavyChopper",
+        "id": "R-NRS-HeavyChopper",
+        "name": "[4\u20bdN-O]*heavy chopper*-4\u20bdN #4",
+        "researchPoints": 933.3333333333333,
+        "researchPower": 96.49122807017547,
+        "requiredResearch": [
+            "R-NRS-ScavNEXUSbody"
+        ]
+    },
+    "R-NRS-Body11ABT": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body11ABT"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 6
+            }
+        ],
+        "statID": "Body11ABT",
+        "id": "R-NRS-Body11ABT",
+        "name": "[4\u20bdN-O]Python-4\u20bdN #5",
+        "researchPoints": 933.3333333333333,
+        "researchPower": 96.49122807017547,
+        "requiredResearch": [
+            "R-NRS-HeavyChopper"
+        ]
+    },
+    "R-NRS-Body6SUPP": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body6SUPP"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 6
+            }
+        ],
+        "statID": "Body6SUPP",
+        "id": "R-NRS-Body6SUPP",
+        "name": "[4\u20bdN-O]Panther-4\u20bdN #6",
+        "researchPoints": 933.3333333333333,
+        "researchPower": 96.49122807017547,
+        "requiredResearch": [
+            "R-NRS-Body11ABT"
+        ]
+    },
+    "R-NRS-Body7SUPP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body7SUPP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 6
+            }
+        ],
+        "statID": "Body7SUPP-2120",
+        "id": "R-NRS-Body7SUPP-2120",
+        "name": "[4\u20bdN-AE]HammerHead-4\u20bdN #7",
+        "researchPoints": 933.3333333333333,
+        "researchPower": 96.49122807017547,
+        "requiredResearch": [
+            "R-NRS-Body6SUPP"
+        ]
+    },
+    "R-NRS-Body16MED-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body16MED-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 6
+            }
+        ],
+        "statID": "Body16MED-contingency",
+        "id": "R-NRS-Body16MED-contingency",
+        "name": "[4\u20bdN-E]Salamander-4\u20bdN #8",
+        "researchPoints": 933.3333333333333,
+        "researchPower": 96.49122807017547,
+        "requiredResearch": [
+            "R-NRS-Body7SUPP-2120"
+        ]
+    },
+    "R-NRS-Body21MED-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body21MED-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 11
+            }
+        ],
+        "statID": "Body21MED-contingency",
+        "id": "R-NRS-Body21MED-contingency",
+        "name": "[3\u20bdN-E]Longsword-4\u20bdN #9",
+        "researchPoints": 2800,
+        "researchPower": 289.4736842105264,
+        "requiredResearch": [
+            "R-NRS-Body16MED-contingency"
+        ]
+    },
+    "R-NRS-ScavengerChopper": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ScavengerChopper"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "ScavengerChopper",
+        "id": "R-NRS-ScavengerChopper",
+        "name": "[3\u00a5N-O]*scavenger chopper*-4\u00a5N #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body5REC": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body5REC"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "Body5REC",
+        "id": "R-NRS-Body5REC",
+        "name": "[3\u00a5N-A]Cobra-4\u00a5N #2",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-ScavengerChopper"
+        ]
+    },
+    "R-NRS-ZNULLBODY": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ZNULLBODY"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "ZNULLBODY",
+        "id": "R-NRS-ZNULLBODY",
+        "name": "[0\u00a5N-O]*Z NULL BODY*-4\u00a5N #3",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-Body5REC"
+        ]
+    },
+    "R-NRS-Body21SUP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body21SUP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "Body21SUP-2120",
+        "id": "R-NRS-Body21SUP-2120",
+        "name": "[2\u00a5N-A]Leopard-4\u00a5N #4",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-ZNULLBODY"
+        ]
+    },
+    "R-NRS-Body15LGT-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body15LGT-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 19
+            }
+        ],
+        "statID": "Body15LGT-contingency",
+        "id": "R-NRS-Body15LGT-contingency",
+        "name": "[2\u00a5N-E]Wyrmling-4\u00a5N #5",
+        "researchPoints": 5040,
+        "researchPower": 521.0526315789475,
+        "requiredResearch": [
+            "R-NRS-Body21SUP-2120"
+        ]
+    },
+    "R-NRS-Body10MBT": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body10MBT"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body10MBT",
+        "id": "R-NRS-Body10MBT",
+        "name": "[5$N-AE]Vengeance-4$N #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body9REC": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body9REC"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 16
+            }
+        ],
+        "statID": "Body9REC",
+        "id": "R-NRS-Body9REC",
+        "name": "[5$N-O]Tiger-4$N #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
+        "requiredResearch": [
+            "R-NRS-Body10MBT"
+        ]
+    },
+    "R-NRS-ChinookBody-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ChinookBody-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 31
+            }
+        ],
+        "statID": "ChinookBody-2120",
+        "id": "R-NRS-ChinookBody-2120",
+        "name": "[4$N-E]chinook-4$N #3",
+        "researchPoints": 8400,
+        "researchPower": 868.4210526315791,
+        "requiredResearch": [
+            "R-NRS-Body9REC"
+        ]
+    },
+    "R-NRS-ScavNEXUStrack": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ScavNEXUStrack"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "ScavNEXUStrack",
+        "id": "R-NRS-ScavNEXUStrack",
+        "name": "[3$H-O]*scavenger nexus track*-4$H #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body8UPG-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body8UPG-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 50
+            }
+        ],
+        "statID": "Body8UPG-2120",
+        "id": "R-NRS-Body8UPG-2120",
+        "name": "[4$H-O]MantisB-4$H #2",
+        "researchPoints": 12600,
+        "researchPower": 1302.6315789473688,
+        "requiredResearch": [
+            "R-NRS-ScavNEXUStrack"
+        ]
+    },
+    "R-NRS-Body12SUP": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body12SUP"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body12SUP",
+        "id": "R-NRS-Body12SUP",
+        "name": "[4\u20bdH-E]Mantis-4\u20bdH #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body7ABT": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body7ABT"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body7ABT",
+        "id": "R-NRS-Body7ABT",
+        "name": "[4\u20bdH-AE]Retribution-4\u20bdH #2",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body12SUP"
+        ]
+    },
+    "R-NRS-Body3ALT-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body3ALT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body3ALT-2120",
+        "id": "R-NRS-Body3ALT-2120",
+        "name": "[4\u20bdH-E]Wyrmling-4\u20bdH #3",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body7ABT"
+        ]
+    },
+    "R-NRS-Body1UPG-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body1UPG-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body1UPG-2120",
+        "id": "R-NRS-Body1UPG-2120",
+        "name": "[3\u20bdH-AE]Resurgence-4\u20bdH #4",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body3ALT-2120"
+        ]
+    },
+    "R-NRS-Body4UPG-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body4UPG-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body4UPG-2120",
+        "id": "R-NRS-Body4UPG-2120",
+        "name": "[3\u20bdH-A]Stingray-4\u20bdH #5",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body1UPG-2120"
+        ]
+    },
+    "R-NRS-Body17SUP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body17SUP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body17SUP-2120",
+        "id": "R-NRS-Body17SUP-2120",
+        "name": "[3\u20bdH-E]Mantis-4\u20bdH #6",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body4UPG-2120"
+        ]
+    },
+    "R-NRS-Body19REC-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body19REC-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body19REC-2120",
+        "id": "R-NRS-Body19REC-2120",
+        "name": "[3\u20bdH-A]Cobra-4\u20bdH #7",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body17SUP-2120"
+        ]
+    },
+    "R-NRS-Body20ABT-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body20ABT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body20ABT-2120",
+        "id": "R-NRS-Body20ABT-2120",
+        "name": "[3\u20bdH-O]Python-4\u20bdH #8",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body19REC-2120"
+        ]
+    },
+    "R-NRS-Body22SUPP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body22SUPP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body22SUPP-2120",
+        "id": "R-NRS-Body22SUPP-2120",
+        "name": "[3\u20bdH-A]Panther-4\u20bdH #9",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body20ABT-2120"
+        ]
+    },
+    "R-NRS-Body23REC-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body23REC-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body23REC-2120",
+        "id": "R-NRS-Body23REC-2120",
+        "name": "[3\u20bdH-A]Tiger-4\u20bdH #10",
+        "researchPoints": 763.6363636363636,
+        "researchPower": 78.94736842105264,
+        "requiredResearch": [
+            "R-NRS-Body22SUPP-2120"
+        ]
+    },
+    "R-NRS-Body19HVY-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body19HVY-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 9
+            }
+        ],
+        "statID": "Body19HVY-contingency",
+        "id": "R-NRS-Body19HVY-contingency",
+        "name": "[4\u20bdH-E]Eagle-4\u20bdH #11",
+        "researchPoints": 2290.909090909091,
+        "researchPower": 236.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body23REC-2120"
+        ]
+    },
+    "R-NRS-Body1REC": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body1REC"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body1REC",
+        "id": "R-NRS-Body1REC",
+        "name": "[2\u00a5H-A]Viper-4\u00a5H #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body2SUP": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body2SUP"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "Body2SUP",
+        "id": "R-NRS-Body2SUP",
+        "name": "[3\u00a5H-A]Leopard-4\u00a5H #2",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body1REC"
+        ]
+    },
+    "R-NRS-Body3MBT": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body3MBT"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "Body3MBT",
+        "id": "R-NRS-Body3MBT",
+        "name": "[3\u00a5H-A]Retaliation-4\u00a5H #3",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body2SUP"
+        ]
+    },
+    "R-NRS-Body4ABT": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body4ABT"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "Body4ABT",
+        "id": "R-NRS-Body4ABT",
+        "name": "[2\u00a5H-E]Bug-4\u00a5H #4",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body3MBT"
+        ]
+    },
+    "R-NRS-Body8MBT": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body8MBT"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "Body8MBT",
+        "id": "R-NRS-Body8MBT",
+        "name": "[3\u00a5H-E]Scorpion-4\u00a5H #5",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body4ABT"
+        ]
+    },
+    "R-NRS-Body3SUP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body3SUP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "Body3SUP-2120",
+        "id": "R-NRS-Body3SUP-2120",
+        "name": "[3\u00a5H-A]Shark-4\u00a5H #6",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body8MBT"
+        ]
+    },
+    "R-NRS-Body18MED-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body18MED-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 15
+            }
+        ],
+        "statID": "Body18MED-contingency",
+        "id": "R-NRS-Body18MED-contingency",
+        "name": "[2\u00a5H-E]Warhawk-4\u00a5H #7",
+        "researchPoints": 3600.0000000000005,
+        "researchPower": 372.18045112781965,
+        "requiredResearch": [
+            "R-NRS-Body3SUP-2120"
+        ]
+    },
+    "R-NRS-B2tractor": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2tractor"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "B2tractor",
+        "id": "R-NRS-B2tractor",
+        "name": "[2$N-O]*tractor*-2$N #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-ScavIcevanBody": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ScavIcevanBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "ScavIcevanBody",
+        "id": "R-NRS-ScavIcevanBody",
+        "name": "[2$N-O]*scavenger ice van*-2$N #2",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-B2tractor"
+        ]
+    },
+    "R-NRS-ScavTruckBody": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ScavTruckBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "ScavTruckBody",
+        "id": "R-NRS-ScavTruckBody",
+        "name": "[2$N-O]*scavenger truck*-2$N #3",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-ScavIcevanBody"
+        ]
+    },
+    "R-NRS-B2JeepBody-Ultimate": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2JeepBody-Ultimate"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "B2JeepBody-Ultimate",
+        "id": "R-NRS-B2JeepBody-Ultimate",
+        "name": "[2$N-O]*Ultimate Baba Jeep Body*-2$N #4",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-ScavTruckBody"
+        ]
+    },
+    "R-NRS-B2RKJeepBody-Ultimate": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2RKJeepBody-Ultimate"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 19
+            }
+        ],
+        "statID": "B2RKJeepBody-Ultimate",
+        "id": "R-NRS-B2RKJeepBody-Ultimate",
+        "name": "[2$N-O]*Ultimate Baba Jeep Body*-2$N #5",
+        "researchPoints": 5040,
+        "researchPower": 521.0526315789475,
+        "requiredResearch": [
+            "R-NRS-B2JeepBody-Ultimate"
+        ]
+    },
+    "R-NRS-ScavCamperBody": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ScavCamperBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "ScavCamperBody",
+        "id": "R-NRS-ScavCamperBody",
+        "name": "[2\u20bdN-O]*scavenger camper*-2\u20bdN #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-B3body-sml-buggy01-Ultimate": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B3body-sml-buggy01-Ultimate"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 12
+            }
+        ],
+        "statID": "B3body-sml-buggy01-Ultimate",
+        "id": "R-NRS-B3body-sml-buggy01-Ultimate",
+        "name": "[1\u20bdN-O]*Ultimate Buggy Body*-2\u20bdN #2",
+        "researchPoints": 2100,
+        "researchPower": 217.1052631578948,
+        "requiredResearch": [
+            "R-NRS-ScavCamperBody"
+        ]
+    },
+    "R-NRS-B3bodyRKbuggy01-Ultimate": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B3bodyRKbuggy01-Ultimate"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 12
+            }
+        ],
+        "statID": "B3bodyRKbuggy01-Ultimate",
+        "id": "R-NRS-B3bodyRKbuggy01-Ultimate",
+        "name": "[1\u20bdN-O]*Ultimate Rocket Buggy Body*-2\u20bdN #3",
+        "researchPoints": 2100,
+        "researchPower": 217.1052631578948,
+        "requiredResearch": [
+            "R-NRS-B3body-sml-buggy01-Ultimate"
+        ]
+    },
+    "R-NRS-B4body-sml-trike01-Ultimate": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B4body-sml-trike01-Ultimate"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 23
+            }
+        ],
+        "statID": "B4body-sml-trike01-Ultimate",
+        "id": "R-NRS-B4body-sml-trike01-Ultimate",
+        "name": "[1\u20bdN-O]*Ultimate Trike Body*-2\u20bdN #4",
+        "researchPoints": 6300,
+        "researchPower": 651.3157894736844,
+        "requiredResearch": [
+            "R-NRS-B3bodyRKbuggy01-Ultimate"
+        ]
+    },
+    "R-NRS-Body15ABT-2120": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body15ABT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body15ABT-2120",
+        "id": "R-NRS-Body15ABT-2120",
+        "name": "[1\u00a5H-E]Bug-2\u00a5H #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body18REC-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body18REC-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "Body18REC-2120",
+        "id": "R-NRS-Body18REC-2120",
+        "name": "[1\u00a5H-A]Viper-2\u00a5H #2",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-Body15ABT-2120"
+        ]
+    },
+    "R-NRS-ScavengerChopper2-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "ScavengerChopper2-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "ScavengerChopper2-contingency",
+        "id": "R-NRS-ScavengerChopper2-contingency",
+        "name": "[2\u00a5H-E]heavychopper-2\u00a5H #3",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-Body18REC-2120"
+        ]
+    },
+    "R-NRS-Body17LGT-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body17LGT-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "Body17LGT-contingency",
+        "id": "R-NRS-Body17LGT-contingency",
+        "name": "[1\u00a5H-E]Falcon-2\u00a5H #4",
+        "researchPoints": 1680,
+        "researchPower": 173.68421052631584,
+        "requiredResearch": [
+            "R-NRS-ScavengerChopper2-contingency"
+        ]
+    },
+    "R-NRS-Body20LGT-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body20LGT-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 20
+            }
+        ],
+        "statID": "Body20LGT-contingency",
+        "id": "R-NRS-Body20LGT-contingency",
+        "name": "[2\u00a5H-E]Gladius-2\u00a5H #5",
+        "researchPoints": 5040,
+        "researchPower": 521.0526315789475,
+        "requiredResearch": [
+            "R-NRS-Body17LGT-contingency"
+        ]
+    },
+    "R-NRS-Body16MBT-2120": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body16MBT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body16MBT-2120",
+        "id": "R-NRS-Body16MBT-2120",
+        "name": "[2\u20bdH-E]Scorpion-2\u20bdH #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Superbody-2120": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Superbody-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Superbody-2120",
+        "id": "R-NRS-Superbody-2120",
+        "name": "[2$H-E]*Kev's Super Body*-2$H #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-B2JeepBody": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2JeepBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "B2JeepBody",
+        "id": "R-NRS-B2JeepBody",
+        "name": "[0$N-O]*Baba Jeep Body*-0$N #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-B2RKJeepBody": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B2RKJeepBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "B2RKJeepBody",
+        "id": "R-NRS-B2RKJeepBody",
+        "name": "[0$N-O]*Baba Jeep Body*-0$N #2",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
+        "requiredResearch": [
+            "R-NRS-B2JeepBody"
+        ]
+    },
+    "R-NRS-B3body-sml-buggy01": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B3body-sml-buggy01"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "B3body-sml-buggy01",
+        "id": "R-NRS-B3body-sml-buggy01",
+        "name": "[0$N-O]*Buggy Body*-0$N #3",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
+        "requiredResearch": [
+            "R-NRS-B2RKJeepBody"
+        ]
+    },
+    "R-NRS-B3bodyRKbuggy01": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B3bodyRKbuggy01"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "B3bodyRKbuggy01",
+        "id": "R-NRS-B3bodyRKbuggy01",
+        "name": "[0$N-O]*Rocket Buggy Body*-0$N #4",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
+        "requiredResearch": [
+            "R-NRS-B3body-sml-buggy01"
+        ]
+    },
+    "R-NRS-BusBody": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "BusBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 8
+            }
+        ],
+        "statID": "BusBody",
+        "id": "R-NRS-BusBody",
+        "name": "[0$N-O]*School Bus Body*-0$N #5",
+        "researchPoints": 1400,
+        "researchPower": 144.73684210526318,
+        "requiredResearch": [
+            "R-NRS-B3bodyRKbuggy01"
+        ]
+    },
+    "R-NRS-FireBody": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "FireBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 16
+            }
+        ],
+        "statID": "FireBody",
+        "id": "R-NRS-FireBody",
+        "name": "[0$N-O]*Fire Engine Body*-0$N #6",
+        "researchPoints": 4200,
+        "researchPower": 434.21052631578954,
+        "requiredResearch": [
+            "R-NRS-BusBody"
+        ]
+    },
+    "R-NRS-B4body-sml-trike01": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "B4body-sml-trike01"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "B4body-sml-trike01",
+        "id": "R-NRS-B4body-sml-trike01",
+        "name": "[0$H-O]*Trike Body*-0$H #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body13SUP": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body13SUP"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body13SUP",
+        "id": "R-NRS-Body13SUP",
+        "name": "[5$N-E]Wyvern-6$N #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body14SUP": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body14SUP"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 7
+            }
+        ],
+        "statID": "Body14SUP",
+        "id": "R-NRS-Body14SUP",
+        "name": "[5$N-E]Dragon-6$N #2",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body13SUP"
+        ]
+    },
+    "R-NRS-Body17SUUP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body17SUUP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 7
+            }
+        ],
+        "statID": "Body17SUUP-2120",
+        "id": "R-NRS-Body17SUUP-2120",
+        "name": "[6$N-AE]GiGaHornet-6$N #3",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body14SUP"
+        ]
+    },
+    "R-NRS-Body25DKD-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body25DKD-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 7
+            }
+        ],
+        "statID": "Body25DKD-2120",
+        "id": "R-NRS-Body25DKD-2120",
+        "name": "[5$N-AE]Nightmare Drake-6$N #4",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body17SUUP-2120"
+        ]
+    },
+    "R-NRS-Body10REC-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body10REC-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 7
+            }
+        ],
+        "statID": "Body10REC-2120",
+        "id": "R-NRS-Body10REC-2120",
+        "name": "[5$N-E]SharkWhale-6$N #5",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body25DKD-2120"
+        ]
+    },
+    "R-NRS-Body23SUP-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body23SUP-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 7
+            }
+        ],
+        "statID": "Body23SUP-contingency",
+        "id": "R-NRS-Body23SUP-contingency",
+        "name": "[5$N-O]Couatl-6$N #6",
+        "researchPoints": 1200,
+        "researchPower": 124.06015037593988,
+        "requiredResearch": [
+            "R-NRS-Body10REC-2120"
+        ]
+    },
+    "R-NRS-Body25SUP-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body25SUP-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 13
+            }
+        ],
+        "statID": "Body25SUP-contingency",
+        "id": "R-NRS-Body25SUP-contingency",
+        "name": "[6$N-O]Sabretooth-6$N #7",
+        "researchPoints": 3600.0000000000005,
+        "researchPower": 372.18045112781965,
+        "requiredResearch": [
+            "R-NRS-Body23SUP-contingency"
+        ]
+    },
+    "R-NRS-TransporterBody": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "TransporterBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "TransporterBody",
+        "id": "R-NRS-TransporterBody",
+        "name": "[6\u00a5N-O]Transport Body-6\u00a5N #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body15ABTT-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body15ABTT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 46
+            }
+        ],
+        "statID": "Body15ABTT-2120",
+        "id": "R-NRS-Body15ABTT-2120",
+        "name": "[5\u00a5N-AE]BumbleBee-6\u00a5N #2",
+        "researchPoints": 12600,
+        "researchPower": 1302.6315789473688,
+        "requiredResearch": [
+            "R-NRS-TransporterBody"
+        ]
+    },
+    "R-NRS-Body16MBTT-2120": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body16MBTT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body16MBTT-2120",
+        "id": "R-NRS-Body16MBTT-2120",
+        "name": "[6\u20bdN-A]Dolichovespula-6\u20bdN #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body24DKL-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body24DKL-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 16
+            }
+        ],
+        "statID": "Body24DKL-2120",
+        "id": "R-NRS-Body24DKL-2120",
+        "name": "[5\u20bdN-AE]Dark Lizard-6\u20bdN #2",
+        "researchPoints": 2800,
+        "researchPower": 289.47368421052636,
+        "requiredResearch": [
+            "R-NRS-Body16MBTT-2120"
+        ]
+    },
+    "R-NRS-Body22HVY-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body22HVY-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 31
+            }
+        ],
+        "statID": "Body22HVY-contingency",
+        "id": "R-NRS-Body22HVY-contingency",
+        "name": "[5\u20bdN-E]Claymore-6\u20bdN #3",
+        "researchPoints": 8400,
+        "researchPower": 868.4210526315791,
+        "requiredResearch": [
+            "R-NRS-Body24DKL-2120"
+        ]
+    },
+    "R-NRS-Body13ABT-2120": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body13ABT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "Body13ABT-2120",
+        "id": "R-NRS-Body13ABT-2120",
+        "name": "[6$H-E]Dragon-6$H #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-Body10ALT-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body10ALT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body10ALT-2120",
+        "id": "R-NRS-Body10ALT-2120",
+        "name": "[5$H-E]Komodo Dragon-6$H #2",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body13ABT-2120"
+        ]
+    },
+    "R-NRS-Body7ALT-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body7ALT-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body7ALT-2120",
+        "id": "R-NRS-Body7ALT-2120",
+        "name": "[5$H-E]Salamander-6$H #3",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body10ALT-2120"
+        ]
+    },
+    "R-NRS-Body11UPG-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body11UPG-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body11UPG-2120",
+        "id": "R-NRS-Body11UPG-2120",
+        "name": "[5$H-O]Armageddon-6$H #4",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body7ALT-2120"
+        ]
+    },
+    "R-NRS-Body12UPG-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body12UPG-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body12UPG-2120",
+        "id": "R-NRS-Body12UPG-2120",
+        "name": "[5$H-O]Raymantis-6$H #5",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body11UPG-2120"
+        ]
+    },
+    "R-NRS-Body12SUPP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body12SUPP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body12SUPP-2120",
+        "id": "R-NRS-Body12SUPP-2120",
+        "name": "[6$H-E]BlueWhale-6$H #6",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body12UPG-2120"
+        ]
+    },
+    "R-NRS-Body26SUP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body26SUP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body26SUP-2120",
+        "id": "R-NRS-Body26SUP-2120",
+        "name": "[5$H-E]Titanium Diamond-6$H #7",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body12SUPP-2120"
+        ]
+    },
+    "R-NRS-Body27SUP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body27SUP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body27SUP-2120",
+        "id": "R-NRS-Body27SUP-2120",
+        "name": "[5$H-E]Mass Hornet-6$H #8",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body26SUP-2120"
+        ]
+    },
+    "R-NRS-Body28SUP-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body28SUP-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 5
+            }
+        ],
+        "statID": "Body28SUP-2120",
+        "id": "R-NRS-Body28SUP-2120",
+        "name": "[5$H-E]Revenge-6$H #9",
+        "researchPoints": 840,
+        "researchPower": 86.84210526315792,
+        "requiredResearch": [
+            "R-NRS-Body27SUP-2120"
+        ]
+    },
+    "R-NRS-Body24SUP-contingency": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "Body24SUP-contingency"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 10
+            }
+        ],
+        "statID": "Body24SUP-contingency",
+        "id": "R-NRS-Body24SUP-contingency",
+        "name": "[5$H-O]Abaddon-6$H #10",
+        "researchPoints": 2520,
+        "researchPower": 260.52631578947376,
+        "requiredResearch": [
+            "R-NRS-Body28SUP-2120"
+        ]
+    },
+    "R-NRS-SuperTransportBody": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "SuperTransportBody"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 0
+            }
+        ],
+        "statID": "SuperTransportBody",
+        "id": "R-NRS-SuperTransportBody",
+        "name": "[7\u20bdN-O]Super Transport Body-8\u20bdN #1",
+        "researchPoints": 0,
+        "researchPower": 0,
+        "requiredResearch": [
+            "R-Fac-start"
+        ]
+    },
+    "R-NRS-GunshipBody-2120": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_RES_DROIDTECH",
+        "resultComponents": [
+            "GunshipBody-2120"
+        ],
+        "results": [
+            {
+                "class": "Body",
+                "parameter": "HitPointPct",
+                "value": 46
+            }
+        ],
+        "statID": "GunshipBody-2120",
+        "id": "R-NRS-GunshipBody-2120",
+        "name": "[8\u20bdN-O]Gunship Body-8\u20bdN #2",
+        "researchPoints": 12600,
+        "researchPower": 1302.6315789473688,
+        "requiredResearch": [
+            "R-NRS-SuperTransportBody"
+        ]
+    },
     "R-Fac-start": {
         "id": "R-Fac-start",
         "name": "start Faction",
@@ -26339,292 +28187,6 @@
             "R-NRS-HowitzerGaussHvyPlas-contingency"
         ]
     },
-    "R-NRS-Body17LGT-contingency": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body17LGT-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 9
-            }
-        ],
-        "statID": "Body17LGT-contingency",
-        "id": "R-NRS-Body17LGT-contingency",
-        "name": "[2\u20bdN-O]Falcon-NRSP3 #1",
-        "researchPoints": 1575,
-        "researchPower": 162.8289473684211,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body16MED-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body16MED-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 35
-            }
-        ],
-        "statID": "Body16MED-contingency",
-        "id": "R-NRS-Body16MED-contingency",
-        "name": "[4\u20bdN-O]Salamander-NRSP3 #2",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-Body17LGT-contingency"
-        ]
-    },
-    "R-NRS-Body18MED-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body18MED-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 35
-            }
-        ],
-        "statID": "Body18MED-contingency",
-        "id": "R-NRS-Body18MED-contingency",
-        "name": "[3\u20bdN-O]Warhawk-NRSP3 #3",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-Body16MED-contingency"
-        ]
-    },
-    "R-NRS-Body15LGT-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body15LGT-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 35
-            }
-        ],
-        "statID": "Body15LGT-contingency",
-        "id": "R-NRS-Body15LGT-contingency",
-        "name": "[3\u20bdN-O]Wyrmling-NRSP3 #4",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-Body18MED-contingency"
-        ]
-    },
-    "R-NRS-Body20LGT-contingency": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body20LGT-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 12
-            }
-        ],
-        "statID": "Body20LGT-contingency",
-        "id": "R-NRS-Body20LGT-contingency",
-        "name": "[2\u00a5N-O]Gladius-NRSP3 #1",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body21MED-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body21MED-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "Body21MED-contingency",
-        "id": "R-NRS-Body21MED-contingency",
-        "name": "[3\u00a5N-O]Longsword-NRSP3 #2",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-Body20LGT-contingency"
-        ]
-    },
-    "R-NRS-Body22HVY-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body22HVY-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "Body22HVY-contingency",
-        "id": "R-NRS-Body22HVY-contingency",
-        "name": "[4\u00a5N-O]Claymore-NRSP3 #3",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-Body21MED-contingency"
-        ]
-    },
-    "R-NRS-Body23SUP-contingency": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body23SUP-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 12
-            }
-        ],
-        "statID": "Body23SUP-contingency",
-        "id": "R-NRS-Body23SUP-contingency",
-        "name": "[5$N-O]Couatl-NRSP3 #1",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body24SUP-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body24SUP-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "Body24SUP-contingency",
-        "id": "R-NRS-Body24SUP-contingency",
-        "name": "[5$N-O]Abaddon-NRSP3 #2",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-Body23SUP-contingency"
-        ]
-    },
-    "R-NRS-Body25SUP-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body25SUP-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "Body25SUP-contingency",
-        "id": "R-NRS-Body25SUP-contingency",
-        "name": "[6$N-O]Sabretooth-NRSP3 #3",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-Body24SUP-contingency"
-        ]
-    },
-    "R-NRS-Body26SUP-contingency": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body26SUP-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 12
-            }
-        ],
-        "statID": "Body26SUP-contingency",
-        "id": "R-NRS-Body26SUP-contingency",
-        "name": "[5\u20bdN-O]Phoenix-NRSP3 #1",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body27SUP-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body27SUP-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "Body27SUP-contingency",
-        "id": "R-NRS-Body27SUP-contingency",
-        "name": "[6\u20bdN-O]Excalibur-NRSP3 #2",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-Body26SUP-contingency"
-        ]
-    },
-    "R-NRS-Body28SUP-contingency": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body28SUP-contingency"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "Body28SUP-contingency",
-        "id": "R-NRS-Body28SUP-contingency",
-        "name": "[6\u20bdN-O]Nemesis-NRSP3 #3",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-Body27SUP-contingency"
-        ]
-    },
     "R-NRS-Laser3BEAMMk1": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
@@ -31090,138 +32652,6 @@
             "R-Fac-start"
         ]
     },
-    "R-NRS-Body11ABT": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body11ABT"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 6
-            }
-        ],
-        "statID": "Body11ABT",
-        "id": "R-NRS-Body11ABT",
-        "name": "[4\u20bdN-O]Python-nexus #1",
-        "researchPoints": 1050,
-        "researchPower": 108.5526315789474,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body12SUP": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body12SUP"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 23
-            }
-        ],
-        "statID": "Body12SUP",
-        "id": "R-NRS-Body12SUP",
-        "name": "[4\u20bdN-O]Mantis-nexus #2",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
-        "requiredResearch": [
-            "R-NRS-Body11ABT"
-        ]
-    },
-    "R-NRS-Body9REC": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body9REC"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 23
-            }
-        ],
-        "statID": "Body9REC",
-        "id": "R-NRS-Body9REC",
-        "name": "[4\u20bdN-O]Tiger-nexus #3",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
-        "requiredResearch": [
-            "R-NRS-Body12SUP"
-        ]
-    },
-    "R-NRS-Body10MBT": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body10MBT"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 23
-            }
-        ],
-        "statID": "Body10MBT",
-        "id": "R-NRS-Body10MBT",
-        "name": "[4\u20bdN-O]Vengeance-nexus #4",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
-        "requiredResearch": [
-            "R-NRS-Body9REC"
-        ]
-    },
-    "R-NRS-Body13SUP": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body13SUP"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 23
-            }
-        ],
-        "statID": "Body13SUP",
-        "id": "R-NRS-Body13SUP",
-        "name": "[5\u20bdN-O]Wyvern-nexus #5",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
-        "requiredResearch": [
-            "R-NRS-Body10MBT"
-        ]
-    },
-    "R-NRS-Body14SUP": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body14SUP"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 23
-            }
-        ],
-        "statID": "Body14SUP",
-        "id": "R-NRS-Body14SUP",
-        "name": "[5\u20bdN-O]Dragon-nexus #6",
-        "researchPoints": 4200,
-        "researchPower": 434.2105263157896,
-        "requiredResearch": [
-            "R-NRS-Body13SUP"
-        ]
-    },
     "R-NRS-A0BaBaFactory": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_RES_DROIDTECH",
@@ -31273,1638 +32703,6 @@
         "researchPower": 390.78947368421063,
         "requiredResearch": [
             "R-NRS-A0BaBaFactory"
-        ]
-    },
-    "R-NRS-ScavCamperBody": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "ScavCamperBody"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 5
-            }
-        ],
-        "statID": "ScavCamperBody",
-        "id": "R-NRS-ScavCamperBody",
-        "name": "[2\u20bdN-O]*scavenger camper*-BaBa #1",
-        "researchPoints": 840,
-        "researchPower": 86.8421052631579,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-ScavIcevanBody": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "ScavIcevanBody"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 16
-            }
-        ],
-        "statID": "ScavIcevanBody",
-        "id": "R-NRS-ScavIcevanBody",
-        "name": "[2\u20bdN-O]*scavenger ice van*-BaBa #2",
-        "researchPoints": 2800,
-        "researchPower": 289.47368421052636,
-        "requiredResearch": [
-            "R-NRS-ScavCamperBody"
-        ]
-    },
-    "R-NRS-B2tractor": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "B2tractor"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 16
-            }
-        ],
-        "statID": "B2tractor",
-        "id": "R-NRS-B2tractor",
-        "name": "[1\u20bdN-O]*tractor*-BaBa #3",
-        "researchPoints": 1399.9999999999995,
-        "researchPower": 144.73684210526315,
-        "requiredResearch": [
-            "R-NRS-ScavIcevanBody"
-        ]
-    },
-    "R-NRS-ScavNEXUStrack": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "ScavNEXUStrack"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 13
-            }
-        ],
-        "statID": "ScavNEXUStrack",
-        "id": "R-NRS-ScavNEXUStrack",
-        "name": "[3\u20bdH-O]*scavenger nexus track*-BaBa #1",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-BusBody": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "BusBody"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 13
-            }
-        ],
-        "statID": "BusBody",
-        "id": "R-NRS-BusBody",
-        "name": "[0\u20bdH-O]*School Bus Body*-BaBa #2",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-NRS-ScavNEXUStrack"
-        ]
-    },
-    "R-NRS-FireBody": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "FireBody"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 13
-            }
-        ],
-        "statID": "FireBody",
-        "id": "R-NRS-FireBody",
-        "name": "[0\u20bdH-O]*Fire Engine Body*-BaBa #3",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-NRS-BusBody"
-        ]
-    },
-    "R-NRS-B2JeepBody-Ultimate": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "B2JeepBody-Ultimate"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 35
-            }
-        ],
-        "statID": "B2JeepBody-Ultimate",
-        "id": "R-NRS-B2JeepBody-Ultimate",
-        "name": "[1\u00a5N-O]*Ultimate Baba Jeep Body*-BaBa #4",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-FireBody"
-        ]
-    },
-    "R-NRS-B3body-sml-buggy01-Ultimate": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "B3body-sml-buggy01-Ultimate"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 12
-            }
-        ],
-        "statID": "B3body-sml-buggy01-Ultimate",
-        "id": "R-NRS-B3body-sml-buggy01-Ultimate",
-        "name": "[1\u00a5N-O]*Ultimate Buggy Body*-BaBa #1",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-B4body-sml-trike01-Ultimate": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "B4body-sml-trike01-Ultimate"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "B4body-sml-trike01-Ultimate",
-        "id": "R-NRS-B4body-sml-trike01-Ultimate",
-        "name": "[1\u00a5N-O]*Ultimate Trike Body*-BaBa #2",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-B3body-sml-buggy01-Ultimate"
-        ]
-    },
-    "R-NRS-B3bodyRKbuggy01-Ultimate": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "B3bodyRKbuggy01-Ultimate"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 46
-            }
-        ],
-        "statID": "B3bodyRKbuggy01-Ultimate",
-        "id": "R-NRS-B3bodyRKbuggy01-Ultimate",
-        "name": "[1\u00a5N-O]*Ultimate Rocket Buggy Body*-BaBa #3",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315792,
-        "requiredResearch": [
-            "R-NRS-B4body-sml-trike01-Ultimate"
-        ]
-    },
-    "R-NRS-BusCannon": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "BusCannon",
-            "BusCannon-Cyb",
-            "bTrikeMG",
-            "bTrikeMG-Cyb",
-            "BusCannon-command",
-            "BusCannon-brain"
-        ],
-        "resultStructures": [
-            "walltower-BusCannon"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 4,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 4,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "BusCannon",
-        "id": "R-NRS-BusCannon",
-        "name": "[1\u00a5N-ATO]*BusCannon*-BaBa #1",
-        "researchPoints": 1575,
-        "researchPower": 162.8289473684211,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-BabaRocket": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "BabaRocket",
-            "BabaRocket-Cyb",
-            "BabaRocket-command",
-            "BabaRocket-brain"
-        ],
-        "resultStructures": [
-            "walltower-BabaRocket"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "BabaRocket",
-        "id": "R-NRS-BabaRocket",
-        "name": "[1\u00a5N-ATO]*BabaRocket*-BaBa #2",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-BusCannon"
-        ]
-    },
-    "R-NRS-BabaPitRocket": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "BabaPitRocket",
-            "BabaPitRocket-Cyb",
-            "BabaPitRocket-command",
-            "BabaPitRocket-brain"
-        ],
-        "resultStructures": [
-            "walltower-BabaPitRocket"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "BabaPitRocket",
-        "id": "R-NRS-BabaPitRocket",
-        "name": "[3\u00a5N-ATO]*Baba Rocket Pit Launcher*-BaBa #3",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-BabaRocket"
-        ]
-    },
-    "R-NRS-BabaPitRocketAT": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "BabaPitRocketAT",
-            "BabaPitRocketAT-Cyb",
-            "BabaPitRocketAT-command",
-            "BabaPitRocketAT-brain"
-        ],
-        "resultStructures": [
-            "walltower-BabaPitRocketAT"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI TANK"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "BabaPitRocketAT",
-        "id": "R-NRS-BabaPitRocketAT",
-        "name": "[4\u00a5N-ATO]*AT Rocket Pit*-BaBa #4",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-BabaPitRocket"
-        ]
-    },
-    "R-NRS-BuggyMG": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "BuggyMG",
-            "BuggyMG-Cyb",
-            "BuggyMG-command",
-            "BuggyMG-brain"
-        ],
-        "resultStructures": [
-            "walltower-BuggyMG"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 4,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 4,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -1,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 2,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "BuggyMG",
-        "id": "R-NRS-BuggyMG",
-        "name": "[0\u00a5N-APO]*Buggy MG*-BaBa #1",
-        "researchPoints": 1575,
-        "researchPower": 162.8289473684211
-    },
-    "R-NRS-BJeepMG": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "BJeepMG",
-            "BJeepMG-Cyb",
-            "BJeepMG-command",
-            "BJeepMG-brain"
-        ],
-        "resultStructures": [
-            "walltower-BJeepMG"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "BJeepMG",
-        "id": "R-NRS-BJeepMG",
-        "name": "[0\u00a5N-APO]*Jeep MG*-BaBa #2",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844
-    },
-    "R-NRS-BabaFlame": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "BabaFlame",
-            "BabaFlame-Cyb",
-            "BabaFlame-command",
-            "BabaFlame-brain"
-        ],
-        "resultStructures": [
-            "walltower-BabaFlame"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "BabaFlame",
-        "id": "R-NRS-BabaFlame",
-        "name": "[2\u00a5N-APO]*Flamer*-BaBa #3",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-BJeepMG"
-        ]
-    },
-    "R-NRS-ScavNEXUSlink": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_WEAPONTECH",
-        "resultComponents": [
-            "ScavNEXUSlink",
-            "ScavNEXUSlink-Cyb",
-            "ScavNEXUSlink-command",
-            "ScavNEXUSlink-brain"
-        ],
-        "resultStructures": [
-            "walltower-ScavNEXUSlink"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MORTARS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MISSILE"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "GAUSS"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "FLAME"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 14,
-                "filterParameter": "ImpactClass",
-                "filterValue": "A-A GUN"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactClass",
-                "filterValue": "SLOW ROCKET"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": -6,
-                "filterParameter": "ImpactClass",
-                "filterValue": "BOMB"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "Effect",
-                "filterValue": "ANTI PERSONNEL"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "HEAT"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "Damage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            },
-            {
-                "class": "Weapon",
-                "parameter": "RadiusDamage",
-                "value": 7,
-                "filterParameter": "ImpactType",
-                "filterValue": "KINETIC"
-            }
-        ],
-        "statID": "ScavNEXUSlink",
-        "id": "R-NRS-ScavNEXUSlink",
-        "name": "[4\u00a5N-APO]scavengernexuslinkturret-BaBa #4",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-BabaFlame"
         ]
     },
     "R-NRS-MG1Mk1": {
@@ -35261,116 +35059,6 @@
         "researchPower": 868.4210526315792,
         "requiredResearch": [
             "R-NRS-Flame2"
-        ]
-    },
-    "R-NRS-Body1REC": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body1REC"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 0
-            }
-        ],
-        "statID": "Body1REC",
-        "id": "R-NRS-Body1REC",
-        "name": "[3\u20bdN-O]Viper-project #1",
-        "researchPoints": 0,
-        "researchPower": 0,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body4ABT": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body4ABT"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 10
-            }
-        ],
-        "statID": "Body4ABT",
-        "id": "R-NRS-Body4ABT",
-        "name": "[3\u20bdN-O]Bug-project #2",
-        "researchPoints": 1680,
-        "researchPower": 173.68421052631584,
-        "requiredResearch": [
-            "R-NRS-Body1REC"
-        ]
-    },
-    "R-NRS-Body2SUP": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body2SUP"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 10
-            }
-        ],
-        "statID": "Body2SUP",
-        "id": "R-NRS-Body2SUP",
-        "name": "[3\u20bdN-O]Leopard-project #3",
-        "researchPoints": 1680,
-        "researchPower": 173.68421052631584,
-        "requiredResearch": [
-            "R-NRS-Body4ABT"
-        ]
-    },
-    "R-NRS-Body3MBT": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body3MBT"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 10
-            }
-        ],
-        "statID": "Body3MBT",
-        "id": "R-NRS-Body3MBT",
-        "name": "[4\u20bdN-O]Retaliation-project #4",
-        "researchPoints": 1680,
-        "researchPower": 173.68421052631584,
-        "requiredResearch": [
-            "R-NRS-Body2SUP"
-        ]
-    },
-    "R-NRS-Body3MBT-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body3MBT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 13
-            }
-        ],
-        "statID": "Body3MBT-2120",
-        "id": "R-NRS-Body3MBT-2120",
-        "name": "[4\u20bdH-O]Lizard-Paradigm #3",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-NRS-Body2SUP-2120"
         ]
     },
     "R-NRS-A0PowMod1": {
@@ -38889,116 +38577,6 @@
             "R-NRS-RailGun5Mk1-2120"
         ]
     },
-    "R-NRS-Body5REC": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body5REC"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 0
-            }
-        ],
-        "statID": "Body5REC",
-        "id": "R-NRS-Body5REC",
-        "name": "[4\u20bdN-O]Cobra-Paradigm #1",
-        "researchPoints": 0,
-        "researchPower": 0,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body8MBT": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body8MBT"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 10
-            }
-        ],
-        "statID": "Body8MBT",
-        "id": "R-NRS-Body8MBT",
-        "name": "[3\u20bdN-O]Scorpion-Paradigm #2",
-        "researchPoints": 1680,
-        "researchPower": 173.68421052631584,
-        "requiredResearch": [
-            "R-NRS-Body5REC"
-        ]
-    },
-    "R-NRS-Body6SUPP": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body6SUPP"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 10
-            }
-        ],
-        "statID": "Body6SUPP",
-        "id": "R-NRS-Body6SUPP",
-        "name": "[4\u20bdN-O]Panther-Paradigm #3",
-        "researchPoints": 1680,
-        "researchPower": 173.68421052631584,
-        "requiredResearch": [
-            "R-NRS-Body8MBT"
-        ]
-    },
-    "R-NRS-Body7ABT": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body7ABT"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 10
-            }
-        ],
-        "statID": "Body7ABT",
-        "id": "R-NRS-Body7ABT",
-        "name": "[4\u20bdN-O]Retribution-Paradigm #4",
-        "researchPoints": 1680,
-        "researchPower": 173.68421052631584,
-        "requiredResearch": [
-            "R-NRS-Body6SUPP"
-        ]
-    },
-    "R-NRS-Body7ALT-2120": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body7ALT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 0
-            }
-        ],
-        "statID": "Body7ALT-2120",
-        "id": "R-NRS-Body7ALT-2120",
-        "name": "[5\u20bdH-O]Salamander-allon #1",
-        "researchPoints": 0,
-        "researchPower": 0,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
     "R-NRS-Rocket-BB": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_RES_WEAPONTECH",
@@ -39832,138 +39410,6 @@
         "researchPower": 521.0526315789475,
         "requiredResearch": [
             "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body1UPG-2120": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body1UPG-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 0
-            }
-        ],
-        "statID": "Body1UPG-2120",
-        "id": "R-NRS-Body1UPG-2120",
-        "name": "[3\u20bdH-O]Resurgence-Paradigm #1",
-        "researchPoints": 0,
-        "researchPower": 0,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body2SUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body2SUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 13
-            }
-        ],
-        "statID": "Body2SUP-2120",
-        "id": "R-NRS-Body2SUP-2120",
-        "name": "[3\u20bdH-O]Opal-Paradigm #2",
-        "researchPoints": 2100,
-        "researchPower": 217.1052631578948,
-        "requiredResearch": [
-            "R-NRS-Body1UPG-2120"
-        ]
-    },
-    "R-NRS-Body3SUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body3SUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 25
-            }
-        ],
-        "statID": "Body3SUP-2120",
-        "id": "R-NRS-Body3SUP-2120",
-        "name": "[4\u20bdH-O]Shark-Paradigm #4",
-        "researchPoints": 6300,
-        "researchPower": 651.3157894736844,
-        "requiredResearch": [
-            "R-NRS-Body3MBT-2120"
-        ]
-    },
-    "R-NRS-Body3ALT-2120": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body3ALT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 0
-            }
-        ],
-        "statID": "Body3ALT-2120",
-        "id": "R-NRS-Body3ALT-2120",
-        "name": "[4$H-O]Wyrmling-Paradigm #1",
-        "researchPoints": 0,
-        "researchPower": 0,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body4ABT-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body4ABT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 17
-            }
-        ],
-        "statID": "Body4ABT-2120",
-        "id": "R-NRS-Body4ABT-2120",
-        "name": "[3$H-O]Bee-Paradigm #2",
-        "researchPoints": 2800,
-        "researchPower": 289.47368421052636,
-        "requiredResearch": [
-            "R-NRS-Body3ALT-2120"
-        ]
-    },
-    "R-NRS-Body4UPG-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body4UPG-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 33
-            }
-        ],
-        "statID": "Body4UPG-2120",
-        "id": "R-NRS-Body4UPG-2120",
-        "name": "[4$H-O]Stingray-Paradigm #3",
-        "researchPoints": 8400,
-        "researchPower": 868.4210526315791,
-        "requiredResearch": [
-            "R-NRS-Body4ABT-2120"
         ]
     },
     "R-NRS-Rocket-HvyA-T-2120": {
@@ -41329,138 +40775,6 @@
         "researchPower": 651.3157894736844,
         "requiredResearch": [
             "R-NRS-MG4ROTARYMk1-2120"
-        ]
-    },
-    "R-NRS-Body8MBT-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body8MBT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body8MBT-2120",
-        "id": "R-NRS-Body8MBT-2120",
-        "name": "[4\u20bdH-O]Wasp-allon #2",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body7ALT-2120"
-        ]
-    },
-    "R-NRS-Body8UPG-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body8UPG-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body8UPG-2120",
-        "id": "R-NRS-Body8UPG-2120",
-        "name": "[4\u20bdH-O]MantisB-allon #3",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body8MBT-2120"
-        ]
-    },
-    "R-NRS-Body16MBTT-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body16MBTT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body16MBTT-2120",
-        "id": "R-NRS-Body16MBTT-2120",
-        "name": "[6\u20bdH-O]Dolichovespula-allon #4",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body8UPG-2120"
-        ]
-    },
-    "R-NRS-Body25DKD-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body25DKD-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body25DKD-2120",
-        "id": "R-NRS-Body25DKD-2120",
-        "name": "[5\u20bdH-O]Nightmare Drake-allon #5",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body16MBTT-2120"
-        ]
-    },
-    "R-NRS-Body6SUPP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body6SUPP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body6SUPP-2120",
-        "id": "R-NRS-Body6SUPP-2120",
-        "name": "[4\u20bdH-O]Crystal-allon #6",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body25DKD-2120"
-        ]
-    },
-    "R-NRS-Body7SUPP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body7SUPP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 15
-            }
-        ],
-        "statID": "Body7SUPP-2120",
-        "id": "R-NRS-Body7SUPP-2120",
-        "name": "[4\u20bdH-O]HammerHead-allon #7",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
-        "requiredResearch": [
-            "R-NRS-Body6SUPP-2120"
         ]
     },
     "R-NRS-Rocket-LtA-T-2120": {
@@ -44064,292 +43378,6 @@
             "R-NRS-MG7MEDGATTLINGMk1-2120"
         ]
     },
-    "R-NRS-Body9REC-2120": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body9REC-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 0
-            }
-        ],
-        "statID": "Body9REC-2120",
-        "id": "R-NRS-Body9REC-2120",
-        "name": "[4\u20bdN-O]Diamond-allon #1",
-        "researchPoints": 0,
-        "researchPower": 0,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body10REC-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body10REC-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 7
-            }
-        ],
-        "statID": "Body10REC-2120",
-        "id": "R-NRS-Body10REC-2120",
-        "name": "[5\u20bdN-O]SharkWhale-allon #2",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body9REC-2120"
-        ]
-    },
-    "R-NRS-Body12SUPP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body12SUPP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 7
-            }
-        ],
-        "statID": "Body12SUPP-2120",
-        "id": "R-NRS-Body12SUPP-2120",
-        "name": "[5\u20bdN-O]BlueWhale-allon #3",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body10REC-2120"
-        ]
-    },
-    "R-NRS-Body10ALT-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body10ALT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 7
-            }
-        ],
-        "statID": "Body10ALT-2120",
-        "id": "R-NRS-Body10ALT-2120",
-        "name": "[5\u20bdN-O]Komodo Dragon-allon #4",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body12SUPP-2120"
-        ]
-    },
-    "R-NRS-Body7ABT-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body7ABT-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 7
-            }
-        ],
-        "statID": "Body7ABT-2120",
-        "id": "R-NRS-Body7ABT-2120",
-        "name": "[5\u20bdN-O]Drake-allon #5",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body10ALT-2120"
-        ]
-    },
-    "R-NRS-Body11UPG-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body11UPG-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 7
-            }
-        ],
-        "statID": "Body11UPG-2120",
-        "id": "R-NRS-Body11UPG-2120",
-        "name": "[5\u20bdN-O]Armageddon-allon #6",
-        "researchPoints": 1200,
-        "researchPower": 124.06015037593988,
-        "requiredResearch": [
-            "R-NRS-Body7ABT-2120"
-        ]
-    },
-    "R-NRS-Body12SUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body12SUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 13
-            }
-        ],
-        "statID": "Body12SUP-2120",
-        "id": "R-NRS-Body12SUP-2120",
-        "name": "[4\u20bdN-O]Hornet-allon #7",
-        "researchPoints": 3600.0000000000005,
-        "researchPower": 372.18045112781965,
-        "requiredResearch": [
-            "R-NRS-Body11UPG-2120"
-        ]
-    },
-    "R-NRS-Body12UPG-2120": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body12UPG-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body12UPG-2120",
-        "id": "R-NRS-Body12UPG-2120",
-        "name": "[5$N-O]Raymantis-allon #1",
-        "researchPoints": 1400,
-        "researchPower": 144.73684210526318,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-Body14SUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body14SUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body14SUP-2120",
-        "id": "R-NRS-Body14SUP-2120",
-        "name": "[7$N-O]NightWing-allon #2",
-        "researchPoints": 1400,
-        "researchPower": 144.73684210526318,
-        "requiredResearch": [
-            "R-NRS-Body12UPG-2120"
-        ]
-    },
-    "R-NRS-Body13SUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body13SUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body13SUP-2120",
-        "id": "R-NRS-Body13SUP-2120",
-        "name": "[6$N-O]Horror Wyvern-allon #3",
-        "researchPoints": 1400,
-        "researchPower": 144.73684210526318,
-        "requiredResearch": [
-            "R-NRS-Body14SUP-2120"
-        ]
-    },
-    "R-NRS-Body17SUUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body17SUUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body17SUUP-2120",
-        "id": "R-NRS-Body17SUUP-2120",
-        "name": "[6$N-O]GiGaHornet-allon #4",
-        "researchPoints": 1400,
-        "researchPower": 144.73684210526318,
-        "requiredResearch": [
-            "R-NRS-Body13SUP-2120"
-        ]
-    },
-    "R-NRS-Body26SUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body26SUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body26SUP-2120",
-        "id": "R-NRS-Body26SUP-2120",
-        "name": "[5$N-O]Titanium Diamond-allon #5",
-        "researchPoints": 1400,
-        "researchPower": 144.73684210526318,
-        "requiredResearch": [
-            "R-NRS-Body17SUUP-2120"
-        ]
-    },
-    "R-NRS-Body27SUP-2120": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_RES_DROIDTECH",
-        "resultComponents": [
-            "Body27SUP-2120"
-        ],
-        "results": [
-            {
-                "class": "Body",
-                "parameter": "HitPointPct",
-                "value": 8
-            }
-        ],
-        "statID": "Body27SUP-2120",
-        "id": "R-NRS-Body27SUP-2120",
-        "name": "[5$N-O]Mass Hornet-allon #6",
-        "researchPoints": 699.9999999999998,
-        "researchPower": 72.36842105263158,
-        "requiredResearch": [
-            "R-NRS-Body26SUP-2120"
-        ]
-    },
     "R-NRS-A0PowerGenerator": {
         "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
@@ -44379,169 +43407,64 @@
             "R-Fac-start"
         ]
     },
-    "R-NRS-building11-eco1": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building11-eco"
-        ],
-        "statID": "building11-eco",
-        "id": "R-NRS-building11-eco1",
-        "name": "[4\u20bdN-def]building11-eco1 #1",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-arizonabush3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "arizonabush3-eco"
-        ],
-        "statID": "arizonabush3-eco",
-        "id": "R-NRS-arizonabush3-eco1",
-        "name": "[4\u20bdN-def]arizonabush3-eco1 #2",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-building11-eco1"
-        ]
-    },
-    "R-NRS-Heavywepslab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Heavywepslab-eco"
-        ],
-        "statID": "Heavywepslab-eco",
-        "id": "R-NRS-Heavywepslab-eco1",
-        "name": "[4\u20bdN-def]Heavywepslab-eco1 #3",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-arizonabush3-eco1"
-        ]
-    },
-    "R-NRS-Powlab-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Powlab-eco"
-        ],
-        "statID": "Powlab-eco",
-        "id": "R-NRS-Powlab-eco1",
-        "name": "[4\u20bdN-def]Powlab-eco1 #4",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Heavywepslab-eco1"
-        ]
-    },
     "R-NRS-NuclearReactor-eco1": {
-        "iconID": "IMAGE_CANNON",
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "NuclearReactor-eco"
         ],
         "statID": "NuclearReactor-eco",
         "id": "R-NRS-NuclearReactor-eco1",
-        "name": "[4\u20bdN-def]*NuclearReactor*-eco1 #5",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]*NuclearReactor*-eco1 #1",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
-            "R-NRS-Powlab-eco1"
+            "R-Fac-start"
         ]
     },
-    "R-NRS-BarbHUT-eco1": {
+    "R-NRS-Boulder3-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbHUT-eco"
+            "Boulder3-eco"
         ],
-        "statID": "BarbHUT-eco",
-        "id": "R-NRS-BarbHUT-eco1",
-        "name": "[4\u20bdN-def]BarbHUT-eco1 #6",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "Boulder3-eco",
+        "id": "R-NRS-Boulder3-eco1",
+        "name": "[4\u20bdN-def]Boulder3-eco1 #2",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
             "R-NRS-NuclearReactor-eco1"
         ]
     },
-    "R-NRS-Advmaterialslab-eco1": {
+    "R-NRS-CoolingTower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Advmaterialslab-eco"
+            "CoolingTower-eco"
         ],
-        "statID": "Advmaterialslab-eco",
-        "id": "R-NRS-Advmaterialslab-eco1",
-        "name": "[4\u20bdN-def]Advmaterialslab-eco1 #7",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "CoolingTower-eco",
+        "id": "R-NRS-CoolingTower-eco1",
+        "name": "[4\u20bdN-def]*CoolingTower*-eco1 #3",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
-            "R-NRS-BarbHUT-eco1"
+            "R-NRS-Boulder3-eco1"
         ]
     },
-    "R-NRS-Propaganda-eco1": {
+    "R-NRS-WaterTower-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Propaganda-eco"
+            "WaterTower-eco"
         ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco1",
-        "name": "[4\u20bdN-def]Propaganda Tower-eco1 #8",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "WaterTower-eco",
+        "id": "R-NRS-WaterTower-eco1",
+        "name": "[4\u20bdN-def]WaterTower-eco1 #4",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
-            "R-NRS-Advmaterialslab-eco1"
-        ]
-    },
-    "R-NRS-building10-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building10-eco"
-        ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco1",
-        "name": "[4\u20bdN-def]building10-eco1 #9",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Propaganda-eco1"
-        ]
-    },
-    "R-NRS-BarbWarehouse1-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse1-eco"
-        ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco1",
-        "name": "[4\u20bdN-def]BarbWarehouse1-eco1 #10",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-building10-eco1"
-        ]
-    },
-    "R-NRS-Ruin1-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Ruin1-eco"
-        ],
-        "statID": "Ruin1-eco",
-        "id": "R-NRS-Ruin1-eco1",
-        "name": "[4\u20bdN-def]Ruin1-eco1 #11",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse1-eco1"
+            "R-NRS-CoolingTower-eco1"
         ]
     },
     "R-NRS-cabin-eco1": {
@@ -44552,9 +43475,129 @@
         ],
         "statID": "cabin-eco",
         "id": "R-NRS-cabin-eco1",
-        "name": "[4\u20bdN-def]cabin-eco1 #12",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]cabin-eco1 #5",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-WaterTower-eco1"
+        ]
+    },
+    "R-NRS-Boulder1-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder1-eco"
+        ],
+        "statID": "Boulder1-eco",
+        "id": "R-NRS-Boulder1-eco1",
+        "name": "[4\u20bdN-def]Boulder1-eco1 #6",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-cabin-eco1"
+        ]
+    },
+    "R-NRS-Rotarywepslab-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Rotarywepslab-eco"
+        ],
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco1",
+        "name": "[4\u20bdN-def]Rotarywepslab-eco1 #7",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-Boulder1-eco1"
+        ]
+    },
+    "R-NRS-Powlab-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Powlab-eco"
+        ],
+        "statID": "Powlab-eco",
+        "id": "R-NRS-Powlab-eco1",
+        "name": "[4\u20bdN-def]Powlab-eco1 #8",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-Rotarywepslab-eco1"
+        ]
+    },
+    "R-NRS-BarbWarehouse3-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse3-eco"
+        ],
+        "statID": "BarbWarehouse3-eco",
+        "id": "R-NRS-BarbWarehouse3-eco1",
+        "name": "[4\u20bdN-def]BarbWarehouse3-eco1 #9",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-Powlab-eco1"
+        ]
+    },
+    "R-NRS-Park-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Park-eco"
+        ],
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco1",
+        "name": "[4\u20bdN-def]Park-eco1 #10",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse3-eco1"
+        ]
+    },
+    "R-NRS-BigForest-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BigForest-eco"
+        ],
+        "statID": "BigForest-eco",
+        "id": "R-NRS-BigForest-eco1",
+        "name": "[4\u20bdN-def]Big Forest-eco1 #11",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-Park-eco1"
+        ]
+    },
+    "R-NRS-Ruin1-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Ruin1-eco"
+        ],
+        "statID": "Ruin1-eco",
+        "id": "R-NRS-Ruin1-eco1",
+        "name": "[4\u20bdN-def]Ruin1-eco1 #12",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-BigForest-eco1"
+        ]
+    },
+    "R-NRS-BarbHUT-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbHUT-eco"
+        ],
+        "statID": "BarbHUT-eco",
+        "id": "R-NRS-BarbHUT-eco1",
+        "name": "[4\u20bdN-def]BarbHUT-eco1 #13",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
             "R-NRS-Ruin1-eco1"
         ]
@@ -44567,26 +43610,101 @@
         ],
         "statID": "LogCabin3-eco",
         "id": "R-NRS-LogCabin3-eco1",
-        "name": "[4\u20bdN-def]LogCabin3-eco1 #13",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]LogCabin3-eco1 #14",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
-            "R-NRS-cabin-eco1"
+            "R-NRS-BarbHUT-eco1"
         ]
     },
-    "R-NRS-Boulder1-eco1": {
+    "R-NRS-building11-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Boulder1-eco"
+            "building11-eco"
         ],
-        "statID": "Boulder1-eco",
-        "id": "R-NRS-Boulder1-eco1",
-        "name": "[4\u20bdN-def]Boulder1-eco1 #14",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "building11-eco",
+        "id": "R-NRS-building11-eco1",
+        "name": "[4\u20bdN-def]building11-eco1 #15",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
             "R-NRS-LogCabin3-eco1"
+        ]
+    },
+    "R-NRS-Boulder2-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder2-eco"
+        ],
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco1",
+        "name": "[4\u20bdN-def]Boulder2-eco1 #16",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-building11-eco1"
+        ]
+    },
+    "R-NRS-A0ResourceExtractor-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "A0ResourceExtractor-eco"
+        ],
+        "statID": "A0ResourceExtractor-eco",
+        "id": "R-NRS-A0ResourceExtractor-eco1",
+        "name": "[4\u20bdN-def]Oil Derrick-eco1 #17",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-Boulder2-eco1"
+        ]
+    },
+    "R-NRS-BarbWarehouse1-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse1-eco"
+        ],
+        "statID": "BarbWarehouse1-eco",
+        "id": "R-NRS-BarbWarehouse1-eco1",
+        "name": "[4\u20bdN-def]BarbWarehouse1-eco1 #18",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-A0ResourceExtractor-eco1"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco1",
+        "name": "[4\u20bdN-def]AirTrafficControl-eco1 #19",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse1-eco1"
+        ]
+    },
+    "R-NRS-building10-eco1": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building10-eco"
+        ],
+        "statID": "building10-eco",
+        "id": "R-NRS-building10-eco1",
+        "name": "[4\u20bdN-def]building10-eco1 #20",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
+        "requiredResearch": [
+            "R-NRS-AirTrafficControl-eco1"
         ]
     },
     "R-NRS-BarbWarehouse2-eco1": {
@@ -44597,221 +43715,71 @@
         ],
         "statID": "BarbWarehouse2-eco",
         "id": "R-NRS-BarbWarehouse2-eco1",
-        "name": "[4\u20bdN-def]BarbWarehouse2-eco1 #15",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]BarbWarehouse2-eco1 #21",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
-            "R-NRS-Boulder1-eco1"
+            "R-NRS-building10-eco1"
         ]
     },
-    "R-NRS-BigForest-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BigForest-eco"
-        ],
-        "statID": "BigForest-eco",
-        "id": "R-NRS-BigForest-eco1",
-        "name": "[4\u20bdN-def]Big Forest-eco1 #16",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse2-eco1"
-        ]
-    },
-    "R-NRS-Boulder3-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder3-eco"
-        ],
-        "statID": "Boulder3-eco",
-        "id": "R-NRS-Boulder3-eco1",
-        "name": "[4\u20bdN-def]Boulder3-eco1 #17",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-BigForest-eco1"
-        ]
-    },
-    "R-NRS-CoolingTower-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "CoolingTower-eco"
-        ],
-        "statID": "CoolingTower-eco",
-        "id": "R-NRS-CoolingTower-eco1",
-        "name": "[4\u20bdN-def]*CoolingTower*-eco1 #18",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Boulder3-eco1"
-        ]
-    },
-    "R-NRS-Pickup-eco1": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Pickup-eco"
-        ],
-        "statID": "Pickup-eco",
-        "id": "R-NRS-Pickup-eco1",
-        "name": "[4\u20bdN-def]Pickup-eco1 #19",
-        "researchPoints": 66.3157894736842,
-        "researchPower": 6.855955678670361,
-        "requiredResearch": [
-            "R-NRS-CoolingTower-eco1"
-        ]
-    },
-    "R-NRS-Aerodynamicslab-eco2": {
-        "iconID": "IMAGE_RES_QUESTIONMARK",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Aerodynamicslab-eco"
-        ],
-        "statID": "Aerodynamicslab-eco",
-        "id": "R-NRS-Aerodynamicslab-eco2",
-        "name": "[4\u20bdN-def]Aerodynamicslab-eco2 #1",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-Fac-start"
-        ]
-    },
-    "R-NRS-AirTrafficControl-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "AirTrafficControl-eco"
-        ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco2",
-        "name": "[4\u20bdN-def]AirTrafficControl-eco2 #2",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Aerodynamicslab-eco2"
-        ]
-    },
-    "R-NRS-building2-eco2": {
+    "R-NRS-building2-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
             "building2-eco"
         ],
         "statID": "building2-eco",
-        "id": "R-NRS-building2-eco2",
-        "name": "[4\u20bdN-def]building2-eco2 #3",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "id": "R-NRS-building2-eco1",
+        "name": "[4\u20bdN-def]building2-eco1 #22",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco2"
+            "R-NRS-BarbWarehouse2-eco1"
         ]
     },
-    "R-NRS-Powlab-eco2": {
+    "R-NRS-Tree-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Powlab-eco"
+            "Tree-eco"
         ],
-        "statID": "Powlab-eco",
-        "id": "R-NRS-Powlab-eco2",
-        "name": "[4\u20bdN-def]Powlab-eco2 #4",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco1",
+        "name": "[4\u20bdN-def]Tree-eco1 #23",
+        "researchPoints": 105,
+        "researchPower": 10.85526315789474,
         "requiredResearch": [
-            "R-NRS-building2-eco2"
+            "R-NRS-building2-eco1"
         ]
     },
-    "R-NRS-BarbHUT-eco2": {
+    "R-NRS-arizonabush3-eco1": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "BarbHUT-eco"
+            "arizonabush3-eco"
         ],
-        "statID": "BarbHUT-eco",
-        "id": "R-NRS-BarbHUT-eco2",
-        "name": "[4\u20bdN-def]BarbHUT-eco2 #5",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "arizonabush3-eco",
+        "id": "R-NRS-arizonabush3-eco1",
+        "name": "[4\u20bdN-def]arizonabush3-eco1 #24",
+        "researchPoints": 52.49999999999999,
+        "researchPower": 5.427631578947369,
         "requiredResearch": [
-            "R-NRS-Powlab-eco2"
+            "R-NRS-Tree-eco1"
         ]
     },
-    "R-NRS-Park-eco2": {
-        "iconID": "IMAGE_CANNON",
+    "R-NRS-Pickup-eco2": {
+        "iconID": "IMAGE_RES_QUESTIONMARK",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "Park-eco"
+            "Pickup-eco"
         ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco2",
-        "name": "[4\u20bdN-def]Park-eco2 #6",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "Pickup-eco",
+        "id": "R-NRS-Pickup-eco2",
+        "name": "[4\u20bdN-def]Pickup-eco2 #1",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-BarbHUT-eco2"
-        ]
-    },
-    "R-NRS-A0ResourceExtractor-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "A0ResourceExtractor-eco"
-        ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco2",
-        "name": "[4\u20bdN-def]Oil Derrick-eco2 #7",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Park-eco2"
-        ]
-    },
-    "R-NRS-building12-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building12-eco"
-        ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco2",
-        "name": "[4\u20bdN-def]building12-eco2 #8",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco2"
-        ]
-    },
-    "R-NRS-Rotarywepslab-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Rotarywepslab-eco"
-        ],
-        "statID": "Rotarywepslab-eco",
-        "id": "R-NRS-Rotarywepslab-eco2",
-        "name": "[4\u20bdN-def]Rotarywepslab-eco2 #9",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-building12-eco2"
-        ]
-    },
-    "R-NRS-SolarPower-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "SolarPower-eco"
-        ],
-        "statID": "SolarPower-eco",
-        "id": "R-NRS-SolarPower-eco2",
-        "name": "[4\u20bdN-def]Solar panel-eco2 #10",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Rotarywepslab-eco2"
+            "R-Fac-start"
         ]
     },
     "R-NRS-CoolingTower-eco2": {
@@ -44822,11 +43790,26 @@
         ],
         "statID": "CoolingTower-eco",
         "id": "R-NRS-CoolingTower-eco2",
-        "name": "[4\u20bdN-def]*CoolingTower*-eco2 #11",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]*CoolingTower*-eco2 #2",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-SolarPower-eco2"
+            "R-NRS-Pickup-eco2"
+        ]
+    },
+    "R-NRS-Propaganda-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Propaganda-eco"
+        ],
+        "statID": "Propaganda-eco",
+        "id": "R-NRS-Propaganda-eco2",
+        "name": "[4\u20bdN-def]Propaganda Tower-eco2 #3",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-CoolingTower-eco2"
         ]
     },
     "R-NRS-road-eco2": {
@@ -44837,26 +43820,56 @@
         ],
         "statID": "road-eco",
         "id": "R-NRS-road-eco2",
-        "name": "[4\u20bdN-def]road-eco2 #12",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]road-eco2 #4",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-CoolingTower-eco2"
+            "R-NRS-Propaganda-eco2"
         ]
     },
-    "R-NRS-OilTower-eco2": {
+    "R-NRS-BarbWarehouse3-eco2": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "OilTower-eco"
+            "BarbWarehouse3-eco"
         ],
-        "statID": "OilTower-eco",
-        "id": "R-NRS-OilTower-eco2",
-        "name": "[4\u20bdN-def]OilTower-eco2 #13",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "statID": "BarbWarehouse3-eco",
+        "id": "R-NRS-BarbWarehouse3-eco2",
+        "name": "[4\u20bdN-def]BarbWarehouse3-eco2 #5",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
             "R-NRS-road-eco2"
+        ]
+    },
+    "R-NRS-building11-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building11-eco"
+        ],
+        "statID": "building11-eco",
+        "id": "R-NRS-building11-eco2",
+        "name": "[4\u20bdN-def]building11-eco2 #6",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse3-eco2"
+        ]
+    },
+    "R-NRS-Advmaterialslab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Advmaterialslab-eco"
+        ],
+        "statID": "Advmaterialslab-eco",
+        "id": "R-NRS-Advmaterialslab-eco2",
+        "name": "[4\u20bdN-def]Advmaterialslab-eco2 #7",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-building11-eco2"
         ]
     },
     "R-NRS-Ruin1-eco2": {
@@ -44867,11 +43880,41 @@
         ],
         "statID": "Ruin1-eco",
         "id": "R-NRS-Ruin1-eco2",
-        "name": "[4\u20bdN-def]Ruin1-eco2 #14",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]Ruin1-eco2 #8",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-OilTower-eco2"
+            "R-NRS-Advmaterialslab-eco2"
+        ]
+    },
+    "R-NRS-Forest-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Forest-eco"
+        ],
+        "statID": "Forest-eco",
+        "id": "R-NRS-Forest-eco2",
+        "name": "[4\u20bdN-def]Forest-eco2 #9",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-Ruin1-eco2"
+        ]
+    },
+    "R-NRS-Tree-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Tree-eco"
+        ],
+        "statID": "Tree-eco",
+        "id": "R-NRS-Tree-eco2",
+        "name": "[4\u20bdN-def]Tree-eco2 #10",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-Forest-eco2"
         ]
     },
     "R-NRS-NuclearReactor-eco2": {
@@ -44882,56 +43925,11 @@
         ],
         "statID": "NuclearReactor-eco",
         "id": "R-NRS-NuclearReactor-eco2",
-        "name": "[4\u20bdN-def]*NuclearReactor*-eco2 #15",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
+        "name": "[4\u20bdN-def]*NuclearReactor*-eco2 #11",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
-            "R-NRS-Ruin1-eco2"
-        ]
-    },
-    "R-NRS-Pickup-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Pickup-eco"
-        ],
-        "statID": "Pickup-eco",
-        "id": "R-NRS-Pickup-eco2",
-        "name": "[4\u20bdN-def]Pickup-eco2 #16",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-NuclearReactor-eco2"
-        ]
-    },
-    "R-NRS-Boulder2-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder2-eco"
-        ],
-        "statID": "Boulder2-eco",
-        "id": "R-NRS-Boulder2-eco2",
-        "name": "[4\u20bdN-def]Boulder2-eco2 #17",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Pickup-eco2"
-        ]
-    },
-    "R-NRS-Boulder1-eco2": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder1-eco"
-        ],
-        "statID": "Boulder1-eco",
-        "id": "R-NRS-Boulder1-eco2",
-        "name": "[4\u20bdN-def]Boulder1-eco2 #18",
-        "researchPoints": 132.63157894736844,
-        "researchPower": 13.711911357340725,
-        "requiredResearch": [
-            "R-NRS-Boulder2-eco2"
+            "R-NRS-Tree-eco2"
         ]
     },
     "R-NRS-arizonabush3-eco2": {
@@ -44942,11 +43940,71 @@
         ],
         "statID": "arizonabush3-eco",
         "id": "R-NRS-arizonabush3-eco2",
-        "name": "[4\u20bdN-def]arizonabush3-eco2 #19",
-        "researchPoints": 66.3157894736842,
-        "researchPower": 6.855955678670361,
+        "name": "[4\u20bdN-def]arizonabush3-eco2 #12",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-NuclearReactor-eco2"
+        ]
+    },
+    "R-NRS-Boulder1-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder1-eco"
+        ],
+        "statID": "Boulder1-eco",
+        "id": "R-NRS-Boulder1-eco2",
+        "name": "[4\u20bdN-def]Boulder1-eco2 #13",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-arizonabush3-eco2"
+        ]
+    },
+    "R-NRS-Powlab-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Powlab-eco"
+        ],
+        "statID": "Powlab-eco",
+        "id": "R-NRS-Powlab-eco2",
+        "name": "[4\u20bdN-def]Powlab-eco2 #14",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
         "requiredResearch": [
             "R-NRS-Boulder1-eco2"
+        ]
+    },
+    "R-NRS-SolarPower-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "SolarPower-eco"
+        ],
+        "statID": "SolarPower-eco",
+        "id": "R-NRS-SolarPower-eco2",
+        "name": "[4\u20bdN-def]Solar panel-eco2 #15",
+        "researchPoints": 157.5,
+        "researchPower": 16.28289473684211,
+        "requiredResearch": [
+            "R-NRS-Powlab-eco2"
+        ]
+    },
+    "R-NRS-building3-eco2": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "building3-eco"
+        ],
+        "statID": "building3-eco",
+        "id": "R-NRS-building3-eco2",
+        "name": "[4\u20bdN-def]building3-eco2 #16",
+        "researchPoints": 78.74999999999999,
+        "researchPower": 8.141447368421053,
+        "requiredResearch": [
+            "R-NRS-SolarPower-eco2"
         ]
     },
     "R-NRS-Aerodynamicslab-eco3": {
@@ -44958,115 +44016,10 @@
         "statID": "Aerodynamicslab-eco",
         "id": "R-NRS-Aerodynamicslab-eco3",
         "name": "[4\u20bdN-def]Aerodynamicslab-eco3 #1",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
             "R-Fac-start"
-        ]
-    },
-    "R-NRS-BarbWarehouse3-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse3-eco"
-        ],
-        "statID": "BarbWarehouse3-eco",
-        "id": "R-NRS-BarbWarehouse3-eco3",
-        "name": "[4\u20bdN-def]BarbWarehouse3-eco3 #2",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-Aerodynamicslab-eco3"
-        ]
-    },
-    "R-NRS-AirTrafficControl-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "AirTrafficControl-eco"
-        ],
-        "statID": "AirTrafficControl-eco",
-        "id": "R-NRS-AirTrafficControl-eco3",
-        "name": "[4\u20bdN-def]AirTrafficControl-eco3 #3",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-BarbWarehouse3-eco3"
-        ]
-    },
-    "R-NRS-building2-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building2-eco"
-        ],
-        "statID": "building2-eco",
-        "id": "R-NRS-building2-eco3",
-        "name": "[4\u20bdN-def]building2-eco3 #4",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-AirTrafficControl-eco3"
-        ]
-    },
-    "R-NRS-Park-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Park-eco"
-        ],
-        "statID": "Park-eco",
-        "id": "R-NRS-Park-eco3",
-        "name": "[4\u20bdN-def]Park-eco3 #5",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-building2-eco3"
-        ]
-    },
-    "R-NRS-Tree-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Tree-eco"
-        ],
-        "statID": "Tree-eco",
-        "id": "R-NRS-Tree-eco3",
-        "name": "[4\u20bdN-def]Tree-eco3 #6",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-Park-eco3"
-        ]
-    },
-    "R-NRS-Boulder3-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Boulder3-eco"
-        ],
-        "statID": "Boulder3-eco",
-        "id": "R-NRS-Boulder3-eco3",
-        "name": "[4\u20bdN-def]Boulder3-eco3 #7",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-Tree-eco3"
-        ]
-    },
-    "R-NRS-Propaganda-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "Propaganda-eco"
-        ],
-        "statID": "Propaganda-eco",
-        "id": "R-NRS-Propaganda-eco3",
-        "name": "[4\u20bdN-def]Propaganda Tower-eco3 #8",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-Boulder3-eco3"
         ]
     },
     "R-NRS-WaterTower-eco3": {
@@ -45077,56 +44030,26 @@
         ],
         "statID": "WaterTower-eco",
         "id": "R-NRS-WaterTower-eco3",
-        "name": "[4\u20bdN-def]WaterTower-eco3 #9",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[4\u20bdN-def]WaterTower-eco3 #2",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
-            "R-NRS-Propaganda-eco3"
+            "R-NRS-Aerodynamicslab-eco3"
         ]
     },
-    "R-NRS-building3-eco3": {
+    "R-NRS-Boulder2-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building3-eco"
+            "Boulder2-eco"
         ],
-        "statID": "building3-eco",
-        "id": "R-NRS-building3-eco3",
-        "name": "[4\u20bdN-def]building3-eco3 #10",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "Boulder2-eco",
+        "id": "R-NRS-Boulder2-eco3",
+        "name": "[4\u20bdN-def]Boulder2-eco3 #3",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
             "R-NRS-WaterTower-eco3"
-        ]
-    },
-    "R-NRS-building12-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "building12-eco"
-        ],
-        "statID": "building12-eco",
-        "id": "R-NRS-building12-eco3",
-        "name": "[4\u20bdN-def]building12-eco3 #11",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-building3-eco3"
-        ]
-    },
-    "R-NRS-A0ResourceExtractor-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "A0ResourceExtractor-eco"
-        ],
-        "statID": "A0ResourceExtractor-eco",
-        "id": "R-NRS-A0ResourceExtractor-eco3",
-        "name": "[4\u20bdN-def]Oil Derrick-eco3 #12",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-building12-eco3"
         ]
     },
     "R-NRS-Heavywepslab-eco3": {
@@ -45137,26 +44060,11 @@
         ],
         "statID": "Heavywepslab-eco",
         "id": "R-NRS-Heavywepslab-eco3",
-        "name": "[4\u20bdN-def]Heavywepslab-eco3 #13",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[4\u20bdN-def]Heavywepslab-eco3 #4",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
-            "R-NRS-A0ResourceExtractor-eco3"
-        ]
-    },
-    "R-NRS-BarbWarehouse1-eco3": {
-        "iconID": "IMAGE_CANNON",
-        "subgroupIconID": "IMAGE_PLASCRETE",
-        "resultStructures": [
-            "BarbWarehouse1-eco"
-        ],
-        "statID": "BarbWarehouse1-eco",
-        "id": "R-NRS-BarbWarehouse1-eco3",
-        "name": "[4\u20bdN-def]BarbWarehouse1-eco3 #14",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
-        "requiredResearch": [
-            "R-NRS-Heavywepslab-eco3"
+            "R-NRS-Boulder2-eco3"
         ]
     },
     "R-NRS-OilTower-eco3": {
@@ -45167,11 +44075,26 @@
         ],
         "statID": "OilTower-eco",
         "id": "R-NRS-OilTower-eco3",
-        "name": "[4\u20bdN-def]OilTower-eco3 #15",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[4\u20bdN-def]OilTower-eco3 #5",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
-            "R-NRS-BarbWarehouse1-eco3"
+            "R-NRS-Heavywepslab-eco3"
+        ]
+    },
+    "R-NRS-AirTrafficControl-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "AirTrafficControl-eco"
+        ],
+        "statID": "AirTrafficControl-eco",
+        "id": "R-NRS-AirTrafficControl-eco3",
+        "name": "[4\u20bdN-def]AirTrafficControl-eco3 #6",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
+        "requiredResearch": [
+            "R-NRS-OilTower-eco3"
         ]
     },
     "R-NRS-cabin-eco3": {
@@ -45182,11 +44105,11 @@
         ],
         "statID": "cabin-eco",
         "id": "R-NRS-cabin-eco3",
-        "name": "[4\u20bdN-def]cabin-eco3 #16",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[4\u20bdN-def]cabin-eco3 #7",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
-            "R-NRS-OilTower-eco3"
+            "R-NRS-AirTrafficControl-eco3"
         ]
     },
     "R-NRS-LogCabin3-eco3": {
@@ -45197,26 +44120,41 @@
         ],
         "statID": "LogCabin3-eco",
         "id": "R-NRS-LogCabin3-eco3",
-        "name": "[4\u20bdN-def]LogCabin3-eco3 #17",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[4\u20bdN-def]LogCabin3-eco3 #8",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
             "R-NRS-cabin-eco3"
         ]
     },
-    "R-NRS-building10-eco3": {
+    "R-NRS-building12-eco3": {
         "iconID": "IMAGE_CANNON",
         "subgroupIconID": "IMAGE_PLASCRETE",
         "resultStructures": [
-            "building10-eco"
+            "building12-eco"
         ],
-        "statID": "building10-eco",
-        "id": "R-NRS-building10-eco3",
-        "name": "[4\u20bdN-def]building10-eco3 #18",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "statID": "building12-eco",
+        "id": "R-NRS-building12-eco3",
+        "name": "[4\u20bdN-def]building12-eco3 #9",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
             "R-NRS-LogCabin3-eco3"
+        ]
+    },
+    "R-NRS-Park-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Park-eco"
+        ],
+        "statID": "Park-eco",
+        "id": "R-NRS-Park-eco3",
+        "name": "[4\u20bdN-def]Park-eco3 #10",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
+        "requiredResearch": [
+            "R-NRS-building12-eco3"
         ]
     },
     "R-NRS-Forest-eco3": {
@@ -45227,11 +44165,11 @@
         ],
         "statID": "Forest-eco",
         "id": "R-NRS-Forest-eco3",
-        "name": "[4\u20bdN-def]Forest-eco3 #19",
-        "researchPoints": 126,
-        "researchPower": 13.026315789473689,
+        "name": "[4\u20bdN-def]Forest-eco3 #11",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
-            "R-NRS-building10-eco3"
+            "R-NRS-Park-eco3"
         ]
     },
     "R-NRS-BigForest-eco3": {
@@ -45242,11 +44180,101 @@
         ],
         "statID": "BigForest-eco",
         "id": "R-NRS-BigForest-eco3",
-        "name": "[4\u20bdN-def]Big Forest-eco3 #20",
-        "researchPoints": 62.99999999999999,
-        "researchPower": 6.5131578947368425,
+        "name": "[4\u20bdN-def]Big Forest-eco3 #12",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
         "requiredResearch": [
             "R-NRS-Forest-eco3"
+        ]
+    },
+    "R-NRS-Boulder3-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Boulder3-eco"
+        ],
+        "statID": "Boulder3-eco",
+        "id": "R-NRS-Boulder3-eco3",
+        "name": "[4\u20bdN-def]Boulder3-eco3 #13",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
+        "requiredResearch": [
+            "R-NRS-BigForest-eco3"
+        ]
+    },
+    "R-NRS-Rotarywepslab-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Rotarywepslab-eco"
+        ],
+        "statID": "Rotarywepslab-eco",
+        "id": "R-NRS-Rotarywepslab-eco3",
+        "name": "[4\u20bdN-def]Rotarywepslab-eco3 #14",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
+        "requiredResearch": [
+            "R-NRS-Boulder3-eco3"
+        ]
+    },
+    "R-NRS-Propaganda-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "Propaganda-eco"
+        ],
+        "statID": "Propaganda-eco",
+        "id": "R-NRS-Propaganda-eco3",
+        "name": "[4\u20bdN-def]Propaganda Tower-eco3 #15",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
+        "requiredResearch": [
+            "R-NRS-Rotarywepslab-eco3"
+        ]
+    },
+    "R-NRS-BarbWarehouse2-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse2-eco"
+        ],
+        "statID": "BarbWarehouse2-eco",
+        "id": "R-NRS-BarbWarehouse2-eco3",
+        "name": "[4\u20bdN-def]BarbWarehouse2-eco3 #16",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
+        "requiredResearch": [
+            "R-NRS-Propaganda-eco3"
+        ]
+    },
+    "R-NRS-BarbWarehouse1-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbWarehouse1-eco"
+        ],
+        "statID": "BarbWarehouse1-eco",
+        "id": "R-NRS-BarbWarehouse1-eco3",
+        "name": "[4\u20bdN-def]BarbWarehouse1-eco3 #17",
+        "researchPoints": 140,
+        "researchPower": 14.473684210526322,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse2-eco3"
+        ]
+    },
+    "R-NRS-BarbHUT-eco3": {
+        "iconID": "IMAGE_CANNON",
+        "subgroupIconID": "IMAGE_PLASCRETE",
+        "resultStructures": [
+            "BarbHUT-eco"
+        ],
+        "statID": "BarbHUT-eco",
+        "id": "R-NRS-BarbHUT-eco3",
+        "name": "[4\u20bdN-def]BarbHUT-eco3 #18",
+        "researchPoints": 69.99999999999999,
+        "researchPower": 7.236842105263159,
+        "requiredResearch": [
+            "R-NRS-BarbWarehouse1-eco3"
         ]
     },
     "_config_": {

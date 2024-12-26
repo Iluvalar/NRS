@@ -454,7 +454,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("good", $val3['as'] )) {$quality=-1;$hooman2.='$';}
 					if (in_array("$", $val3['as'] )) {$quality=-1;$hooman2.='$';}
 					if($quality==0){ $hooman2.='₽'; }
-						
+					//¥₽$
 		
 					
 					$engineClass=0;
@@ -1283,7 +1283,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['constructPoints']=$pow*4*$power*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale'];
 							$item["buildPoints"]= $price*$sys['nrs']['produnit'];
 							$item["buildPower"]= $price;
-							$item['hitpoints']=50*$pow*$power*$wephp*$sys['nrs']['dmgunit'];
+							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
 							$item['weight']=1000*$wepweight;
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
@@ -1293,7 +1293,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['constructPoints']=$pow*4*$power*$sys['nrs']['dmgunit'];
 							$item["buildPoints"]= $price*$sys['nrs']['produnit'];
 							$item["buildPower"]= $price;
-							$item['hitpoints']=50*$pow*$power*$wephp*$sys['nrs']['dmgunit'];
+							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
 							$item['weight']=1000*$wepweight;
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							

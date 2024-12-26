@@ -157,19 +157,27 @@ function powerStuff(){
 		resources[playnum][9]+=powtoadd;
 		resources[0][9]+=powtoadd;
 		nbase+=powtoadd;
+		
+
+		
 	}
 
 
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		ncult+=culture[playnum];
-		totHonor+=honor[playnum];
+		tothonorPow+=honor[playnum];
 		
 		//honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
 		
 		if(playerData[playnum].difficulty>0){
 			ndiff+=playerData[playnum].difficulty;
 		}
-
+		
+		honorPow=0;
+		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
+		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
+		totHonor+=honorPow;
+		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-1.5)*500 )*5*1000;
 		
 		
 	}
@@ -189,7 +197,7 @@ function powerStuff(){
 		}
 		//playPow=playerPower(playnum);	
 		playPow=0;
-		honorPow=0;
+
 		basePow=0;
 
 		income=0;
@@ -198,8 +206,7 @@ function powerStuff(){
 		playPow+=(basebank-banks[playnum]+getMultiTechLevel())*basepower/5;
 		//console("3player:"+ playnum +"=="+ totPow +" house:"+ countStruct("Housing-nrs", playnum));
 		
-		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
-		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
+
 		
 		var p=playnum+1;
 		for (var j = 0; j < 10; j++){
@@ -245,7 +252,7 @@ function powerStuff(){
 		//income*=powertypefact;
 		
 		if(playerData[playnum].difficulty>0){
-			var aiFact=tothonorPow/(500)/(maxPlayers*4);
+			var aiFact=totHonor/(500)/(maxPlayers*4);
 			//var factordif=2**playerData[playnum].difficulty-.5;
 			var factordif=1.5;
 			if(playerData[playnum].difficulty==1){ factordif=1.0; }
@@ -254,13 +261,13 @@ function powerStuff(){
 			if(playerData[playnum].difficulty==4){ factordif=1.70; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);
-			income=income*(factordif+aiFact-1/fractprop+1);
+			income=income*(factordif+aiFact);
 		}
 		//var powerToSet=totPow+income-(basePow+totPow)*(1-tax);
 		var cultureToSet=culture[playnum]+cultPow*interest;
 		if(cultureToSet>100000){ income+=cultureToSet-100000; cultureToSet=100000; }
 		culture[playnum]=cultureToSet;
-		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-1.5)*500 )*5*1000;
+		
 		powerGen[playnum]= Math.floor(income/10+restInc[playnum]); //
 		restInc[playnum]= Math.floor((income/10+restInc[playnum]-powerGen[playnum])*1000)/1000;
 		//powerLast[playnum]+=income;
