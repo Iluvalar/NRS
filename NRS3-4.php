@@ -980,7 +980,7 @@ while($x++<18){
 }
 echo 'generate...';
 Fnrs_generate();
-Fwz_NRS_dist($sys['nrs']['file']['stat'], [0,$sys['nrs']['scaleDist'],1,1,1]);
+Fwz_NRS_dist($sys['nrs']['file']['stat'], [0,$sys['nrs']['scaleDist'],2,1,1]);
 
 
 /* More economic stuff, why do i generate in between ? */

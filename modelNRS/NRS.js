@@ -154,8 +154,10 @@ function powerStuff(){
 			//culture[playnum]*=.9;
 		}
 		var powtoadd=playerPower(playnum)-basepower/5-(nbank-getMultiTechLevel())*basepower/5;
-		resources[playnum][9]+=powtoadd;
-		resources[0][9]+=powtoadd;
+		//console("2player:"+ playnum +"=="+ powtoadd +"..."+ resources[playnum+1][9]);
+		resources[playnum+1][9]=(playnum+1 || 0)+powtoadd;
+		resources[0][9]=(resources[0][9] || 0)+powtoadd;
+		
 		nbase+=powtoadd;
 		
 
@@ -177,7 +179,7 @@ function powerStuff(){
 		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
 		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
 		totHonor+=honorPow;
-		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-1.5)*500 )*5*1000;
+		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-0.95)*500 )*5*1000;
 		
 		
 	}
@@ -233,8 +235,14 @@ function powerStuff(){
 		//}
 
 		
-		
-		var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
+		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
+		var expPower=(playPow+basePow)/(basepower*1.5);
+		var timetoscale=Math.log(expPower)/Math.log(interest);
+		var linearPower=(interest-1)*timetoscale+1;
+		//var expPower=interest**timetoscale;
+		//var equity=-((playPow+basePow)/(basepower*1.5))/expPower+1;
+		var equity=-Math.ceil(1000*linearPower/expPower+1)/1000;
+		//var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
 		//dumpText+=".9*(("+ playPow +"+"+ basePow +")**3)/("+ npow +"+"+ nbase +")**3 ="+ equity;
 		var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
 		//var foundsFact=3**(founds);
@@ -256,9 +264,9 @@ function powerStuff(){
 			//var factordif=2**playerData[playnum].difficulty-.5;
 			var factordif=1.5;
 			if(playerData[playnum].difficulty==1){ factordif=1.0; }
-			if(playerData[playnum].difficulty==2){ factordif=1.15; }
-			if(playerData[playnum].difficulty==3){ factordif=1.35; }
-			if(playerData[playnum].difficulty==4){ factordif=1.70; }
+			if(playerData[playnum].difficulty==2){ factordif=1.20; }
+			if(playerData[playnum].difficulty==3){ factordif=1.40; }
+			if(playerData[playnum].difficulty==4){ factordif=2.0; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);
 			income=income*(factordif+aiFact);
@@ -288,8 +296,8 @@ function powerStuff(){
 	var conText="";
 	//conDeb +="ndiff"+ ndiff;
 	if(tick%3==0){
-		conText+="richest"+  playerData[richestPlayer].name +"("+ richestPlayer +")@"+ Math.ceil(richestValue) +"$P cult:"+ playerData[cultPlayer].name +"("+ cultPlayer +")@"+ Math.ceil(cultValue) +" honor:"+ playerData[honorPlayer].name +"("+ honorPlayer +")@"+ Math.ceil(honorValue/gameTime);
-		conText+=" propaganda:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) founds:"+ Math.ceil(1/foundsFact*100) +"% equ:"+ conDeb;
+		conText+="richest"+  playerData[richestPlayer].name +"("+ richestPlayer +")@"+ Math.ceil(richestValue) +"$P honor:"+ playerData[honorPlayer].name +"("+ honorPlayer +")@"+ Math.ceil(honorValue/gameTime);
+		conText+=" propaganda:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) equ:"+ conDeb;
 	}if(tick%3==1){
 		if(tick==1){
 			conText+=" Welcome to NRS";

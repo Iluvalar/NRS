@@ -771,16 +771,18 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							}
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							//$sys['nrs']['nb'][$linename]['body'][]='{ res: "'. $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'.$nbweight.' }';
-							$sys['nrs']['nb']['body']['extras'][]='{ res: "'.  $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'.$nbweight2.' , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.'. $bodyclass .' }';
-							if(!$fake){
-								if($typeW=='E'){
-									$sys['nrs']['nb2']['bodyThermal'].="			\"$id\",
-";
-								}
-								else{
-								
-									$sys['nrs']['nb2']['bodyKinetic'].="			\"$id\",
-";
+							if($item['designable']){
+								$sys['nrs']['nb']['body']['extras'][]='{ res: "'.  $id .'", stat: "'. $item['id'] .'", weight: WEIGHT.'.$nbweight2.' , usage: BODYUSAGE.UNIVERSAL, armor: BODYCLASS.'. $bodyclass .' }';
+								if(!$fake){
+									if($typeW=='E'){
+										$sys['nrs']['nb2']['bodyThermal'].="			\"$id\",
+	";
+									}
+									else{
+									
+										$sys['nrs']['nb2']['bodyKinetic'].="			\"$id\",
+	";
+									}
 								}
 							}
 							
@@ -1103,7 +1105,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 										//if($classeName==$filtername){$factor=1;}				
 										
 										
-										echo '<br>upgrades:'. $classeName .' '. $subclass .' ' . 	$subclssesno .' '. $sys['nrs']['subclassesStrenght'][$no].'=?'. $engineClass;
+										//echo '<br>upgrades:'. $classeName .' '. $subclass .' ' . 	$subclssesno .' '. $sys['nrs']['subclassesStrenght'][$no].'=?'. $engineClass;
 									}
 								}
 								$r['filterParameter']='Effect';
@@ -1397,7 +1399,7 @@ function Fwz_NRS_dist(&$d,$var){ //scale distance of the whole mod.
 			Fwz_mult($d['propulsion'][$nom]['speed'],$var[1]*$var[2]);
 		}
 		foreach($d['propulsiontype'] as $nom => $val){
-			Fwz_mult($d['propulsiontype'][$nom]['multiplier'],$var[1]*$var[2]);
+			Fwz_mult($d['propulsiontype'][$nom]['multiplier'],$var[1]);
 		}
 	}
 	if($var[1]!=1 or $var[3]!=1){

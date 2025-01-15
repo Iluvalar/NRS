@@ -607,7 +607,9 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 		$range*=1.5;
 	}
 	elseif($obj['reloadTime']>0){
-		$obj['rof']=60*($rounds)/($obj['reloadTime'])*pow(1.10,$rounds-1);
+		//$obj['rof']=60*($rounds)/($obj['reloadTime'])*pow(1.10,$rounds-1);
+		//$obj['rof']=60*($rounds)/($obj['reloadTime'])*pow(1.10,$rounds-1);
+		$obj['rof']=60*($rounds)/($rounds*($obj['firePause']+5)+$obj['reloadTime']);
 	}
 	elseif($obj['firePause']>0){
 		#$obj['rof']=10/(($obj['firePause']+5)*($rounds)+$obj['reloadTime']/$rounds);
@@ -1521,7 +1523,7 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 		}
 		else{
 				
-			echo 'val:'. $val;
+			//echo 'val:'. $val;
 			$exp=explode('.',$val);
 			if(strtolower($exp[1])=='pie' or strtolower($exp[1])=='ogg'){
 				
@@ -1542,7 +1544,7 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 					}
 				}
 				//$filename='/'.$sys['wz']['pie'][$file] .'/'. strtolower($val);
-				echo '='. $filename .'</br>';;
+				//echo '='. $filename .'</br>';;
 				if(file_exists($load.$filename) and isset($filename)){
 					$data['piestats']['c']=1;
 					//echo 'OMGPMG';
@@ -1563,12 +1565,12 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 						if ($handle = opendir($load .'/texpages')) {
 							while (false !== ($file = readdir($handle))) {
 								if( strpos($file,$name)!==FALSE){
-									echo "<b>file tex: $nname $name =$file\n</b>";
+									//echo "<b>file tex: $nname $name =$file\n</b>";
 									$found=1;
 									$name=$file;
 								}
 								else{
-									echo "file tex: $nname $name .' '. $file\n";
+									//echo "file tex: $nname $name .' '. $file\n";
 								}
 							}				
 						closedir($handle);
@@ -1602,7 +1604,7 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 					}
 					file_put_contents($save.'/'. $folder .'/'. $nname ,$thatpie);
 					$comp[$id]=$nname;
-					echo 'omg '. $exp[1] .' '. $id .'='. $val .' nname:'. $nname;
+					//echo 'omg '. $exp[1] .' '. $id .'='. $val .' nname:'. $nname;
 					//echo 'file		IMD	"'.  strtolower($nname) .'"
 	//';
 				}

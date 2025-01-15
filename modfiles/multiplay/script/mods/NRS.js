@@ -14,40 +14,40 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,130,],
-	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,133,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,137,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,143,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,145,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,131,],
+	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,137,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,135,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,141,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,133,],
 	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,146,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,142,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,132,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,144,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,131,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,134,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,145,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,146,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,135,],
-	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,134,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,131,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,135,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,138,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,147,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,136,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,137,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,147,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,146,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,136,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,138,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,144,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,139,],
-	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,140,],
-	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,141,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,141,],
-	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,142,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,132,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,144,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,143,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,132,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,136,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,137,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,138,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,142,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,140,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,130,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,146,],
+	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,139,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,137,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,147,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,140,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,145,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,141,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,142,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,133,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,140,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,147,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,143,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,134,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,137,],
+	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,144,],
+	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,145,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,132,],
+	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,130,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,138,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,141,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,145,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -189,8 +189,10 @@ function powerStuff(){
 			//culture[playnum]*=.9;
 		}
 		var powtoadd=playerPower(playnum)-basepower/5-(nbank-getMultiTechLevel())*basepower/5;
-		resources[playnum][9]+=powtoadd;
-		resources[0][9]+=powtoadd;
+		//console("2player:"+ playnum +"=="+ powtoadd +"..."+ resources[playnum+1][9]);
+		resources[playnum+1][9]=(playnum+1 || 0)+powtoadd;
+		resources[0][9]=(resources[0][9] || 0)+powtoadd;
+		
 		nbase+=powtoadd;
 		
 
@@ -212,7 +214,7 @@ function powerStuff(){
 		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
 		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
 		totHonor+=honorPow;
-		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-1.5)*500 )*5*1000;
+		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-0.95)*500 )*5*1000;
 		
 		
 	}
@@ -268,8 +270,14 @@ function powerStuff(){
 		//}
 
 		
-		
-		var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
+		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
+		var expPower=(playPow+basePow)/(basepower*1.5);
+		var timetoscale=Math.log(expPower)/Math.log(interest);
+		var linearPower=(interest-1)*timetoscale+1;
+		//var expPower=interest**timetoscale;
+		//var equity=-((playPow+basePow)/(basepower*1.5))/expPower+1;
+		var equity=-Math.ceil(1000*linearPower/expPower+1)/1000;
+		//var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
 		//dumpText+=".9*(("+ playPow +"+"+ basePow +")**3)/("+ npow +"+"+ nbase +")**3 ="+ equity;
 		var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
 		//var foundsFact=3**(founds);
@@ -291,9 +299,9 @@ function powerStuff(){
 			//var factordif=2**playerData[playnum].difficulty-.5;
 			var factordif=1.5;
 			if(playerData[playnum].difficulty==1){ factordif=1.0; }
-			if(playerData[playnum].difficulty==2){ factordif=1.15; }
-			if(playerData[playnum].difficulty==3){ factordif=1.35; }
-			if(playerData[playnum].difficulty==4){ factordif=1.70; }
+			if(playerData[playnum].difficulty==2){ factordif=1.20; }
+			if(playerData[playnum].difficulty==3){ factordif=1.40; }
+			if(playerData[playnum].difficulty==4){ factordif=2.0; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);
 			income=income*(factordif+aiFact);
@@ -323,8 +331,8 @@ function powerStuff(){
 	var conText="";
 	//conDeb +="ndiff"+ ndiff;
 	if(tick%3==0){
-		conText+="richest"+  playerData[richestPlayer].name +"("+ richestPlayer +")@"+ Math.ceil(richestValue) +"$P cult:"+ playerData[cultPlayer].name +"("+ cultPlayer +")@"+ Math.ceil(cultValue) +" honor:"+ playerData[honorPlayer].name +"("+ honorPlayer +")@"+ Math.ceil(honorValue/gameTime);
-		conText+=" propaganda:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) founds:"+ Math.ceil(1/foundsFact*100) +"% equ:"+ conDeb;
+		conText+="richest"+  playerData[richestPlayer].name +"("+ richestPlayer +")@"+ Math.ceil(richestValue) +"$P honor:"+ playerData[honorPlayer].name +"("+ honorPlayer +")@"+ Math.ceil(honorValue/gameTime);
+		conText+=" propaganda:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) equ:"+ conDeb;
 	}if(tick%3==1){
 		if(tick==1){
 			conText+=" Welcome to NRS";
