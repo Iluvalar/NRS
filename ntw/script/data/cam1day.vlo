@@ -1,0 +1,19 @@
+// cam1day.vlo
+// Weather and day/night VLO for Cam1
+// set daytime
+
+script "cam1daynight.slo"
+run
+{
+//daytime colour for fog ARIZONA
+Rstart		int	1
+Gstart		int	1
+Bstart		int	1
+
+//night time colour for fog
+Rend		int	1
+Gend		int	1
+Bend		int	1
+
+Steps		int	1	//number of seconds for change
+}

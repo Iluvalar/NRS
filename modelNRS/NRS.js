@@ -18,12 +18,16 @@
 	setTimer("powerStuffAnim", 500);
 	// POWER STUFF
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
-		setPower(27*7*3, playnum);
+		setPower(27*7*3, playnum);		
+		makeComponentAvailable("BaBaLegs", playnum);
 		makeComponentAvailable("CyborgLegs", playnum);
+		makeComponentAvailable("B1BaBaPerson01-nrs", playnum);
 		makeComponentAvailable("CyborgLightBody", playnum);
 		makeComponentAvailable("CyborgHeavyBody", playnum);
 		makeComponentAvailable("CyborgHeavyBody-2120", playnum);
-
+		makeComponentAvailable("CyborgLightBody-mech", playnum);
+		makeComponentAvailable("CyborgSpade", playnum);
+		
 	}
 	var powertypefact=1;
 

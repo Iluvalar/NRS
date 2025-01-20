@@ -11,7 +11,7 @@
         "type": "Legged",
         "weight": 0,
         "buildPower": 100,
-        "hitpointPctOfBody": 100,
+        "hitpointPctOfBody": 12.60382054069455,
         "designable": false
     },
     "BaBaProp": {

@@ -2772,7 +2772,7 @@
         "weapons": [
             "Laser-AP1-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody"
+        "body": "B1BaBaPerson01-nrs"
     },
     "Laser-AP2-contingency-Cyb": {
         "type": "CYBORG",
@@ -2793,7 +2793,7 @@
         "weapons": [
             "Laser-AP3-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "B1BaBaPerson01-nrs",
         "available": "true"
     },
     "Laser-AP4-contingency-Cyb": {
@@ -2826,7 +2826,7 @@
         "weapons": [
             "Laser-Sonic-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Laser-AT1-contingency-Cyb": {
@@ -2837,7 +2837,7 @@
         "weapons": [
             "Laser-AT1-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "B1BaBaPerson01-nrs",
         "available": "true"
     },
     "Laser-AT2-contingency-Cyb": {
@@ -2859,7 +2859,7 @@
         "weapons": [
             "Laser-AT3-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "Laser-AT4-contingency-Cyb": {
@@ -2881,7 +2881,7 @@
         "weapons": [
             "Laser-TankDest2Lgt-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "Laser-TankDestLgt-contingency-Cyb": {
@@ -2892,7 +2892,7 @@
         "weapons": [
             "Laser-TankDestLgt-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "Mortar-Gauss-contingency-Cyb": {
@@ -3035,7 +3035,7 @@
         "weapons": [
             "Cannon-HPVGattling-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Cannon-Sniper-Bunker-contingency-Cyb": {
@@ -3057,7 +3057,7 @@
         "weapons": [
             "Cannon-HPVLgt-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "B1BaBaPerson01-nrs",
         "available": "true"
     },
     "Cannon-HPVHvy-contingency-Cyb": {
@@ -3079,7 +3079,7 @@
         "weapons": [
             "Cannon-HPVTankDestLgt-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "Cannon-HPVTwinAslt-contingency-Cyb": {
@@ -3145,7 +3145,7 @@
         "weapons": [
             "MG3Twin-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "MG-AntiTankGss-contingency-Cyb": {
@@ -3189,7 +3189,7 @@
         "weapons": [
             "Flame1Med-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody",
         "available": "true"
     },
     "Flame2Hvy-contingency-Cyb": {
@@ -3222,7 +3222,7 @@
         "weapons": [
             "Flamer-PlasCan-TankDest-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Flamer-PlasmaCannon-contingency-Cyb": {
@@ -3233,7 +3233,7 @@
         "weapons": [
             "Flamer-PlasmaCannon-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "MG3Inc-contingency-Cyb": {
@@ -3244,7 +3244,7 @@
         "weapons": [
             "MG3Inc-contingency-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "B1BaBaPerson01-nrs",
         "available": "true"
     },
     "MG3IncTwin-contingency-Cyb": {
@@ -3266,7 +3266,7 @@
         "weapons": [
             "MG4Inc-contingency-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "B1BaBaPerson01-nrs",
         "available": "true"
     },
     "MG4IncTwin-contingency-Cyb": {
@@ -3288,7 +3288,7 @@
         "weapons": [
             "MGPlasSuper-contingency-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "MG-AntiTank-contingency-Cyb": {
@@ -3310,7 +3310,7 @@
         "weapons": [
             "MG-AntiTankTwin-contingency-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "MG-AntiTank2-contingency-Cyb": {
@@ -3321,7 +3321,7 @@
         "weapons": [
             "MG-AntiTank2-contingency-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "MG-AntiTank2Twin-contingency-Cyb": {
@@ -3332,7 +3332,7 @@
         "weapons": [
             "MG-AntiTank2Twin-contingency-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Howitzer150Mk1-contingency-Cyb": {
@@ -3343,7 +3343,7 @@
         "weapons": [
             "Howitzer150Mk1-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGattling-contingency-Cyb": {
@@ -3365,7 +3365,7 @@
         "weapons": [
             "HowitzerGaussBB-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGattlingGauss-contingency-Cyb": {
@@ -3387,7 +3387,7 @@
         "weapons": [
             "HowitzerGauss-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussHvy-contingency-Cyb": {
@@ -3398,7 +3398,7 @@
         "weapons": [
             "HowitzerGaussHvy-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussRot-contingency-Cyb": {
@@ -3409,7 +3409,7 @@
         "weapons": [
             "HowitzerGaussRot-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerRamjet-contingency-Cyb": {
@@ -3420,7 +3420,7 @@
         "weapons": [
             "HowitzerRamjet-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerRamjetHvy-contingency-Cyb": {
@@ -3431,7 +3431,7 @@
         "weapons": [
             "HowitzerRamjetHvy-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerRamjetRot-contingency-Cyb": {
@@ -3442,7 +3442,7 @@
         "weapons": [
             "HowitzerRamjetRot-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussRamjet-contingency-Cyb": {
@@ -3453,7 +3453,7 @@
         "weapons": [
             "HowitzerGaussRamjet-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussRamjetHvy-contingency-Cyb": {
@@ -3464,7 +3464,7 @@
         "weapons": [
             "HowitzerGaussRamjetHvy-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussRamjetRot-contingency-Cyb": {
@@ -3475,7 +3475,7 @@
         "weapons": [
             "HowitzerGaussRamjetRot-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerHvyPlas-contingency-Cyb": {
@@ -3486,7 +3486,7 @@
         "weapons": [
             "HowitzerHvyPlas-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerRotPlas-contingency-Cyb": {
@@ -3497,7 +3497,7 @@
         "weapons": [
             "HowitzerRotPlas-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussInc-contingency-Cyb": {
@@ -3508,7 +3508,7 @@
         "weapons": [
             "HowitzerGaussInc-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussHvyPlas-contingency-Cyb": {
@@ -3519,7 +3519,7 @@
         "weapons": [
             "HowitzerGaussHvyPlas-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "HowitzerGaussRotPlas-contingency-Cyb": {
@@ -3530,7 +3530,7 @@
         "weapons": [
             "HowitzerGaussRotPlas-contingency-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Laser3BEAMMk1-Cyb": {
@@ -3541,7 +3541,7 @@
         "weapons": [
             "Laser3BEAMMk1-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cyb-Wpn-Laser-Cyb": {
@@ -3552,7 +3552,7 @@
         "weapons": [
             "Cyb-Wpn-Laser"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Laser2PULSEMk1-Cyb": {
@@ -3585,7 +3585,7 @@
         "weapons": [
             "Laser3BEAMMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Laser4-PlasmaCannon-Cyb": {
@@ -3596,7 +3596,7 @@
         "weapons": [
             "Laser4-PlasmaCannon-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "HeavyLaser-Cyb": {
@@ -3607,7 +3607,7 @@
         "weapons": [
             "HeavyLaser-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-PulseLsr-Cyb": {
@@ -3618,7 +3618,7 @@
         "weapons": [
             "Cyb-Hvywpn-PulseLsr"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "RailGun1Mk1-Cyb": {
@@ -3640,7 +3640,7 @@
         "weapons": [
             "Cyb-Wpn-Rail1"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "RailGun2Mk1-Cyb": {
@@ -3662,7 +3662,7 @@
         "weapons": [
             "RailGun3Mk1-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-RailGunner-Cyb": {
@@ -3684,7 +3684,7 @@
         "weapons": [
             "Cannon4AUTOMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "CyborgCannon-2120-Cyb": {
@@ -3695,7 +3695,7 @@
         "weapons": [
             "CyborgCannon-2120"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cannon5VulcanMk1-2120-Cyb": {
@@ -3706,7 +3706,7 @@
         "weapons": [
             "Cannon5VulcanMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-HPV-2120-Cyb": {
@@ -3728,7 +3728,7 @@
         "weapons": [
             "Cannon775mmMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-Lcannon-2120-Cyb": {
@@ -3750,7 +3750,7 @@
         "weapons": [
             "MG5TWINROTARY-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-Mcannon-2120-Cyb": {
@@ -3772,7 +3772,7 @@
         "weapons": [
             "Cannon6TwinAslt-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Wpn-RailHyp-2120-Cyb": {
@@ -3794,7 +3794,7 @@
         "weapons": [
             "Howitzer105Mk1-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Howitzer150Mk1-Cyb": {
@@ -3805,7 +3805,7 @@
         "weapons": [
             "Howitzer150Mk1-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Howitzer03-Rot-Cyb": {
@@ -3816,7 +3816,7 @@
         "weapons": [
             "Howitzer03-Rot-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Howitzer150Mk1-2120-Cyb": {
@@ -3827,7 +3827,7 @@
         "weapons": [
             "Howitzer150Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Mortar1Mk1-Cyb": {
@@ -3838,7 +3838,7 @@
         "weapons": [
             "Mortar1Mk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cyb-Wpn-Grenade-Cyb": {
@@ -3849,7 +3849,7 @@
         "weapons": [
             "Cyb-Wpn-Grenade"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Mortar0Mk1-2120-Cyb": {
@@ -3860,7 +3860,7 @@
         "weapons": [
             "Mortar0Mk1-2120-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Mortar2Mk1-Cyb": {
@@ -3871,7 +3871,7 @@
         "weapons": [
             "Mortar2Mk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Mortar3ROTARYMk1-Cyb": {
@@ -3882,7 +3882,7 @@
         "weapons": [
             "Mortar3ROTARYMk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "MG1Mk1-Cyb": {
@@ -3893,7 +3893,7 @@
         "weapons": [
             "MG1Mk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "B1BaBaPerson01-nrs",
         "available": "true"
     },
     "CyborgChaingun-Cyb": {
@@ -3904,7 +3904,7 @@
         "weapons": [
             "CyborgChaingun"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "MG2Mk1-Cyb": {
@@ -3926,7 +3926,7 @@
         "weapons": [
             "MG3Mk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "MG4ROTARYMk1-Cyb": {
@@ -3937,7 +3937,7 @@
         "weapons": [
             "MG4ROTARYMk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "MG5TWINROTARY-Cyb": {
@@ -3948,7 +3948,7 @@
         "weapons": [
             "MG5TWINROTARY-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "CyborgRotMG-Cyb": {
@@ -3959,7 +3959,7 @@
         "weapons": [
             "CyborgRotMG"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cannon1Mk1-Cyb": {
@@ -3970,7 +3970,7 @@
         "weapons": [
             "Cannon1Mk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cannon2A-TMk1-Cyb": {
@@ -3981,7 +3981,7 @@
         "weapons": [
             "Cannon2A-TMk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cyb-Hvywpn-Mcannon-Cyb": {
@@ -3992,7 +3992,7 @@
         "weapons": [
             "Cyb-Hvywpn-Mcannon"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cannon375mmMk1-Cyb": {
@@ -4003,7 +4003,7 @@
         "weapons": [
             "Cannon375mmMk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Flame1Mk1-Cyb": {
@@ -4014,7 +4014,7 @@
         "weapons": [
             "Flame1Mk1-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "CyborgFlamer01-Cyb": {
@@ -4025,7 +4025,7 @@
         "weapons": [
             "CyborgFlamer01"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Flame2-Cyb": {
@@ -4036,7 +4036,7 @@
         "weapons": [
             "Flame2-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cyb-Wpn-Thermite-Cyb": {
@@ -4047,7 +4047,7 @@
         "weapons": [
             "Cyb-Wpn-Thermite"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "PlasmiteFlamer-Cyb": {
@@ -4058,7 +4058,7 @@
         "weapons": [
             "PlasmiteFlamer-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cannon4AUTOMk1-Cyb": {
@@ -4069,7 +4069,7 @@
         "weapons": [
             "Cannon4AUTOMk1-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Cyb-Hvywpn-Acannon-Cyb": {
@@ -4091,7 +4091,7 @@
         "weapons": [
             "Cannon5VulcanMk1-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Cannon6TwinAslt-Cyb": {
@@ -4102,7 +4102,7 @@
         "weapons": [
             "Cannon6TwinAslt-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Cyb-Hvywpn-HPV-Cyb": {
@@ -4113,7 +4113,7 @@
         "weapons": [
             "Cyb-Hvywpn-HPV"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Flame1Mk1-2120-Cyb": {
@@ -4124,7 +4124,7 @@
         "weapons": [
             "Flame1Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "CyborgFlamer01-2120-Cyb": {
@@ -4146,7 +4146,7 @@
         "weapons": [
             "Flame2-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Flame3Mk1-2120-Cyb": {
@@ -4157,7 +4157,7 @@
         "weapons": [
             "Flame3Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Wpn-Thermite-2120-Cyb": {
@@ -4201,7 +4201,7 @@
         "weapons": [
             "Cyb-Wpn-Atmiss"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Rocket-Pod-2120-Cyb": {
@@ -4212,7 +4212,7 @@
         "weapons": [
             "Rocket-Pod-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Rocket-HvyA-T-Cyb": {
@@ -4223,7 +4223,7 @@
         "weapons": [
             "Rocket-HvyA-T-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Cyb-Hvywpn-TK-Cyb": {
@@ -4234,7 +4234,7 @@
         "weapons": [
             "Cyb-Hvywpn-TK"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Missile-A-T-2120-Cyb": {
@@ -4245,7 +4245,7 @@
         "weapons": [
             "Missile-A-T-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-TK-2120-Cyb": {
@@ -4256,7 +4256,7 @@
         "weapons": [
             "Cyb-Hvywpn-TK-2120"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "RailGun1Mk1-2120-Cyb": {
@@ -4267,7 +4267,7 @@
         "weapons": [
             "RailGun1Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Wpn-Rail1-2120-Cyb": {
@@ -4289,7 +4289,7 @@
         "weapons": [
             "RailGun2Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-RailGunner2-2120-Cyb": {
@@ -4300,7 +4300,7 @@
         "weapons": [
             "Cyb-Hvywpn-RailGunner2-2120"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "RailGun3Mk1-2120-Cyb": {
@@ -4311,7 +4311,7 @@
         "weapons": [
             "RailGun3Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-RailGunner-2120-Cyb": {
@@ -4322,7 +4322,7 @@
         "weapons": [
             "Cyb-Hvywpn-RailGunner-2120"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "RailGun4Mk1-2120-Cyb": {
@@ -4333,7 +4333,7 @@
         "weapons": [
             "RailGun4Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "RailGun5Mk1-2120-Cyb": {
@@ -4344,7 +4344,7 @@
         "weapons": [
             "RailGun5Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "RailGun6Mk1-2120-Cyb": {
@@ -4355,7 +4355,7 @@
         "weapons": [
             "RailGun6Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Rocket-BB-Cyb": {
@@ -4366,7 +4366,7 @@
         "weapons": [
             "Rocket-BB-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Rocket-Sunburst-Cyb": {
@@ -4377,7 +4377,7 @@
         "weapons": [
             "Rocket-Sunburst-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Rocket-BB-2120-Cyb": {
@@ -4388,7 +4388,7 @@
         "weapons": [
             "Rocket-BB-2120-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Missile-BB-2120-Cyb": {
@@ -4399,7 +4399,7 @@
         "weapons": [
             "Missile-BB-2120-Cyb"
         ],
-        "body": "CyborgLightBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Rocket-HvyA-T-2120-Cyb": {
@@ -4410,7 +4410,7 @@
         "weapons": [
             "Rocket-HvyA-T-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-A-T-2120-Cyb": {
@@ -4421,7 +4421,7 @@
         "weapons": [
             "Cyb-Hvywpn-A-T-2120"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Cyb-Hvywpn-Acannon-2120-Cyb": {
@@ -4432,7 +4432,7 @@
         "weapons": [
             "Cyb-Hvywpn-Acannon-2120"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Rocket-HvyA-T2-2120-Cyb": {
@@ -4454,7 +4454,7 @@
         "weapons": [
             "Cyb-Hvywpn-A-T2-2120"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "Rocket-MRL-2120-Cyb": {
@@ -4465,7 +4465,7 @@
         "weapons": [
             "Rocket-MRL-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "CyborgRocket-2120-Cyb": {
@@ -4487,7 +4487,7 @@
         "weapons": [
             "MG2Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "MG3Mk1-2120-Cyb": {
@@ -4498,7 +4498,7 @@
         "weapons": [
             "MG3Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "MG4ROTARYMk1-2120-Cyb": {
@@ -4509,7 +4509,7 @@
         "weapons": [
             "MG4ROTARYMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Wpn-Laser-2120-Cyb": {
@@ -4531,7 +4531,7 @@
         "weapons": [
             "Laser2PULSEMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Cyb-Hvywpn-PulseLsr-2120-Cyb": {
@@ -4575,7 +4575,7 @@
         "weapons": [
             "Rocket-LtA-T2-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Cyb-Wpn-Atmiss2-2120-Cyb": {
@@ -4597,7 +4597,7 @@
         "weapons": [
             "Rocket-MRL-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgHeavyBody",
         "available": "true"
     },
     "Missile-MdArt-Cyb": {
@@ -4608,7 +4608,7 @@
         "weapons": [
             "Missile-MdArt-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Rocket-IDF-2120-Cyb": {
@@ -4619,7 +4619,7 @@
         "weapons": [
             "Rocket-IDF-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Rocket-MRL-Hvy-Cyb": {
@@ -4641,7 +4641,7 @@
         "weapons": [
             "Missile-MdArt-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Rocket-IDF-Cyb": {
@@ -4663,7 +4663,7 @@
         "weapons": [
             "Missile-HvyArt-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "Missile-HvyArt-2120-Cyb": {
@@ -4674,7 +4674,7 @@
         "weapons": [
             "Missile-HvyArt-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "MG1Mk1-2120-Cyb": {
@@ -4685,7 +4685,7 @@
         "weapons": [
             "MG1Mk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgHeavyBody-2120",
         "available": "true"
     },
     "CyborgChaingun-2120-Cyb": {
@@ -4707,7 +4707,7 @@
         "weapons": [
             "MG7LGTGATTLINGMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "CyborgChaingunMed-2120-Cyb": {
@@ -4729,7 +4729,7 @@
         "weapons": [
             "MG7MEDGATTLINGMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     },
     "MG7GATTLINGMk1-2120-Cyb": {
@@ -4740,7 +4740,7 @@
         "weapons": [
             "MG7GATTLINGMk1-2120-Cyb"
         ],
-        "body": "CyborgHeavyBody",
+        "body": "CyborgLightBody-mech",
         "available": "true"
     }
 }

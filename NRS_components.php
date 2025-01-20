@@ -614,8 +614,4 @@ $t2["breadth"]= 3;
 $sys['nrs']['nrs']['structure'][$t2['id']]=$t2;
 */
 
-$t2=$sys['nrs']['base']['body']['B1BaBaPerson01'];
-$t2['id']='B1BaBaPerson01-nrs';
-$t2['droidType']='CYBORG';
-$sys['nrs']['base']['body'][$t2['id']]=$t2;
-print_r($sys['nrs']['base']['body']['B1BaBaPerson01-nrs']);
+

@@ -124,6 +124,8 @@ $dir2120='./2120/';
 $savedir='./modfiles/';
 $sys['nrs']['dir']['base']='./mp4.3.5/';
 $sys['nrs']['dir']['2120']='./2120/';
+$sys['nrs']['dir']['ntw']='./ntw/';
+$sys['nrs']['dir']['mech']='./mech/';
 $sys['nrs']['dir']['contingency']='./contingency/';
 $sys['nrs']['dir']['save']='./modfiles/';
 
@@ -137,6 +139,7 @@ $sys['nrs']['2120']['body']= json_decode(file_get_contents($dir2120 .'stats/body
 $sys['nrs']['contingency']['weapons']=  json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/weapons.json'), TRUE);
 $sys['nrs']['contingency']['research']=  json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/research.json'), TRUE);
 $sys['nrs']['contingency']['body']= json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/body.json'), TRUE);
+
 
 //print_r($sys['nrs']['2120-weapons']);
 
@@ -173,8 +176,51 @@ $sys['nrs']['base'][$nextfile]= json_decode(file_get_contents($realbasedir .'sta
 $sys['nrs']['file']['stat'][$nextfile]= $sys['nrs']['base'][$nextfile];
 
 
+/*	"Body1REC": {
+		"armourHeat": 4,
+		"armourKinetic": 10,
+		"buildPoints": 150,
+		"buildPower": 30,
+		"class": "Droids",
+		"designable": 1,
+		"hitpoints": 65,
+		"id": "Body1REC",
+		"model": "drlbod01.pie",
+		"name": "Viper",
+		"powerOutput": 5000,
+		"propulsionExtraModels": {
+		},
+		"size": "LIGHT",
+		"weaponSlots": 1,
+		"weight": 600
+	},
+	*/
+$bodycvsorder=explode(',','id,Unused,size,buildPower,buildPoints,weight,hitpoints,model,Unused,weaponSlots,powerOutput,armourKinetic,armourHeat,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,designable');
+$row = 1;
+if (($handle = fopen("./NTW/stats/body.txt", "r")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+        $num = count($data);
+       //echo "<p> $num fields in line $row: <br /></p>\n";
+        $row++;
+        for ($c=0; $c < $num; $c++) {
+			$temp[$bodycvsorder[$c]]=$data[$c];
+            //echo $data[$c] . "<br />\n";
+        }
+		$temp['name']=$temp['id'];
+		$temp['class']='Droids';
+		unset($temp['Unused']);
+		$temp['propulsionExtraModels']=$sys['nrs']['base']['body']['viper']['propulsionExtraModels'];
+		$sys['nrs']['ntw']['body'][$temp['id']]=$temp;
+		
+    }
+    fclose($handle);
+}
+
+unset($sys['nrs']['ntw']['body']['TruckBody']);
+unset($sys['nrs']['ntw']['body']['Body0REC']); //seems to have an error in the pie files.
+print_r($sys['nrs']['ntw']);
 //Setting default values for the mods.
-$mods=['base','2120','contingency'];
+$mods=['base','ntw','2120','contingency'];
 foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
@@ -426,9 +472,21 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "A1CommandCentre", 'in'=>'base', 'type'=> '
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A2CommandCentre", 'in'=>'base', 'type'=> 'structure', 'as' => ['hvy','AP','insta','exshort','','fake'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A3CommandCentre", 'in'=>'base', 'type'=> 'structure', 'as' => ['hvy','AP','insta','exshort','','fake'] ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgLightBody", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','AS','insta','exshort','Cyb','fake'] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'base', 'type'=> 'body', 'as' => ['med','AS','insta','exshort','Cyb','fake'] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'2120', 'type'=> 'body', 'as' => ['hvy','AS','insta','exshort','Cyb','fake'] ]);
+$t2=$sys['nrs']['base']['body']['B1BaBaPerson01'];
+$t2['id']='B1BaBaPerson01-nrs';
+$t2['droidType']='CYBORG';
+$sys['nrs']['base']['body'][$t2['id']]=$t2;
+
+$sys['nrs']['base']['body']['B1BaBaPerson01-nrs']['usageClass']="Cyborg";
+$sys['nrs']['base']['body']['B1BaBaPerson01-nrs']['class']="Cyborgs";
+print_r($sys['nrs']['base']['body']['B1BaBaPerson01-nrs']);
+
+$sys['nrs']['mech']['body']['CyborgLightBody']=$sys['nrs']['base']['body']['CyborgLightBody'];
+Fnrs_add([ 'faction'=> $fac, 'use'=> "B1BaBaPerson01-nrs,BaBaLegs", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AS','insta','exshort','Cyb','fake','class0'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgLightBody", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','AS','insta','exshort','Cyb','fake','class1'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'base', 'type'=> 'body', 'as' => ['med','AS','insta','exshort','Cyb','fake','class3'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'2120', 'type'=> 'body', 'as' => ['hvy','AS','insta','exshort','Cyb','fake','class5'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgLightBody", 'in'=>'mech', 'type'=> 'body', 'as' => ['shvy','AS','insta','exshort','Cyb','fake','class7'] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "CCSensor", 'in'=>'base', 'type'=> 'sensor', 'as' => ['med','AW','lowtech'] ]);
 
 
@@ -707,12 +765,11 @@ $sys['nrs']['file']['stat']['repair']['AutoRepair']['repairPoints']=10;
 $fac='BaBa';
 //"usageClass": "Cyborg",
 //"class": "Cyborgs",
-$sys['nrs']['base']['body']['B1BaBaPerson01-nrs']['usageClass']="Cyborg";
-$sys['nrs']['base']['body']['B1BaBaPerson01-nrs']['class']="Cyborgs";
+
 $sys['nrs']['file']['stat']['templates']['BaBaPeople']['available']=true;
 $sys['nrs']['base']['structure']['A0BaBaFactory']['productionPoints']=2*$sys['nrs']['powerunit'];
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "A0BaBaFactory,BaBaLegs,B1BaBaPerson01-nrs,scavCrane1,scavCrane2", 'in'=>'base', 'type'=> 'structure', 'as' => ['xlgt','insta','AS','baba'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "A0BaBaFactory,scavCrane2", 'in'=>'base', 'type'=> 'structure', 'as' => ['xlgt','insta','AS','baba'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "scavCrane1", 'in'=>'base', 'type'=> 'construction', 'as' => ['xlgt','AS','insta','exshort','designable'] ]);
 
 //

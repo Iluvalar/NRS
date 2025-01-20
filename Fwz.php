@@ -1519,7 +1519,10 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 	foreach($comp as $id => $val){
 		print_r($val);
 		if(is_array($val)){
-			Fwz_pieSweap($data,$from,$type,$comp[$id],$sufix,$save,$load,$prefix,$prefix2);
+			if($id=='propulsionExtraModels' && $sufix!='-ntw'){
+				Fwz_pieSweap($data,$from,$type,$comp[$id],$sufix,$save,$load,$prefix,$prefix2);
+			}
+
 		}
 		else{
 				
@@ -1531,10 +1534,10 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 				$folders=explode(',','components/prop,components/weapons,components/bodies,effects,structs,audio/sfx/weapons');
 				foreach($folders as $no => $val){
 					$filename='/'. $val .'/'. $piename;
-					//echo '--'. $load.$filename.'<br/>';
+					echo '--'. $load.$filename.'<br/>';
 					if(file_exists($load.$filename)){
 						$folder=$val;
-						//echo '??'. $filename.'<br/>';
+						echo '??'. $filename.'<br/>';
 						break;
 					}
 				}

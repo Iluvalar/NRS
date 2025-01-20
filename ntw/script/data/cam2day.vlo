@@ -1,0 +1,19 @@
+// cam2day.vlo
+// Weather and day/night VLO for Cam2
+// set daytime
+
+script "cam2daynight.slo"
+run
+{
+//dawn colour for fog URBAN
+Rstart		int	1
+Gstart		int	1
+Bstart		int	1
+
+//daytime time colour for fog
+Rend		int	1
+Gend		int	1
+Bend		int	1
+
+Steps		int	1	//number of seconds for change
+}

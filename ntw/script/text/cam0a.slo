@@ -1,0 +1,299 @@
+/* Script file for Cam0A (now start of Campaign 0)*/
+
+
+/* structure limit stuff */
+public	STRUCTURESTAT		factory, research, oilDerrick, powerGen;
+public	STRUCTURESTAT		command;
+//public	STRUCTURESTAT		powerModuleHack;
+public	INT			numDroids, numPow, numExt, numFac, numRes;
+public	int			startPower;	//initial power level
+public		DROID		droids[1];
+
+/* Starting Tech */
+public	BODY			viperBody;
+public	CONSTRUCT		spade;
+public	PROPULSION		wheeledProp;
+public	WEAPON			mg;
+
+/* Starting Tech now done as completed research */
+public	int			numTech;
+public	RESEARCHSTAT		tech[4];
+
+/* General Values */
+public		int		player;
+public		int		enemy1;
+public		int		enemy2;
+private		int		numart;	//keep track of number of artifacts collected
+//private		int		res1x,res1y;
+//public		STRUCTURE	commandCentre;
+private	int		temp;
+public	int		numSafe, safeX1[2], safeY1[2], safeX2[2], safeY2[2];
+
+/* Base Under Attack Stuff */
+private		STRUCTURE	hitStruc;
+private		BASEOBJ		attackerObj;
+private		int		t;
+public		SOUND		attackSnd1;
+
+/* Briefing stuff */
+public		INTMESSAGE	MissionBrief, MissionBrief2, MissionBrief3;
+public		INTMESSAGE		endMsg;	//, winMsg;
+
+//public		SOUND		briefSnd1, briefSnd2;
+
+/* Proximity: Enemy */
+public		INTMESSAGE	enm0Msg1;
+public		SOUND		enm0Snd1;
+public		INTMESSAGE	enm0Msg2;
+public		SOUND		enm0Snd2;
+
+/* Proximity: Resources */
+/*
+public		FEATURE		res1;
+public		INTMESSAGE	res1Msg;
+public		SOUND		res1Snd;
+public		STRUCTURESTAT	derrick;
+*/
+
+/* player Bonus Research topics given at end of mission */
+public	int			numResP0;
+public	RESEARCHSTAT		resP0[20];	//need to be declared with value >= numResP0, numResP1, etc.
+private	INT			count;
+
+/* Enemy Tactics */
+public		TEMPLATE	trike;
+public		TEMPLATE	buggy;
+public		TEMPLATE	bloke;
+public		TEMPLATE	jeep;
+
+/* Win or lose */
+public		SOUND		lostSnd;
+public		LEVEL		NextLev;
+public		INT		timeLimit;
+
+//group to stop players droids chsing too much!!
+private		GROUP		allPlayer, scavGroup;
+
+/* Triggers: Resource */
+/*
+trigger res1SeenTrig(droidHasSeen(res1, player), 10);	//resWait
+trigger res1UsedTrig(every, 10);			//resWait
+//trigger res1UsedTrig(CALL_RESEX_BUILT);			//until built function fixed
+*/
+
+/* Triggers: Enemy */
+trigger enm0SeenTrig(seenStructInArea(player, enemy1, FALSE, 5500, 5200, 8600, 8600), 10);
+trigger enm0DeadTrig((numStructsButNotWallsInArea(enemy1, 6555, 6444, 7300, 7525) == 0), 20);
+
+/* Triggers: Win or Lose */
+trigger winLoseTrig(every, 5);
+trigger gameLostTrig(every, 20);
+trigger checkValleyTrig(every, 55);
+
+/* initial scav attack */
+trigger	scavtrig(every, 100);	//better if checks for HQ built?
+trigger	scavtrig2(droidInArea(player, 2496, 6080, 4928, 7232), 5);
+trigger	scavtrig3(wait, 1);	//go immediately
+trigger obj1Trig(droidInRange(player, 4928, 6592, 5*128), 20);
+
+/* Events: Initialise */
+event wonYetEvnt;
+event scavAttack2;
+event timeUp;
+
+
+/* Events: Start */
+event startEvnt(CALL_GAMEINIT)
+{
+    //take over the selectedPlayer's units to avoid id number clashes on later levels
+    takeOverDroidsInArea(0,0, 0,0, mapWidth*67, mapHeight*67);
+
+//set scroll limits
+//	setScrollParams(0, 0, 67, 67);			//limit scroll
+	//centreView(commandCentre);
+	centreViewPos(1850, 2000);			//centre near transport
+//set zoom Level 64x64
+	setRadarZoom(1);
+//set starting power
+	setPowerLevel(startPower,player);
+//give player briefing
+	addMessage(MissionBrief, CAMP_MSG, player, false);
+//make sure all buttons available
+	addReticuleButton(OPTIONS);
+	addReticuleButton(CANCEL);
+	addReticuleButton(BUILD);
+	addReticuleButton(MANUFACTURE);
+	addReticuleButton(RESEARCH);
+	addReticuleButton(INTELMAP);
+	addReticuleButton(DESIGN);
+//stop players droids from chasing!
+	groupAddArea(allPlayer, player, 0, 30*128, 40*128, 70*128);
+	setGroupSecondary(allPlayer,DSO_HALTTYPE, DSS_HALT_HOLD);
+//set no time limits (can carry over from previous missions if not set!)
+	setReinforcementTime(-1);
+	setMissionTime(timeLimit);			//set Mission time limit
+///allow to build stuff
+	setStructureLimits (powerGen,numPow,0);
+	setStructureLimits (oilDerrick,numExt,0);
+	setStructureLimits (research,numRes,0); // numRes changed by Keith to set Research Facility Limits to 1, until.... 1C
+	setStructureLimits (factory,numFac,0);
+	setStructureLimits(command, 1, player);
+	enableStructure(command, player);
+	enableStructure(powerGen,0);
+	enableStructure(oilDerrick,0);
+	enableStructure(research,0);
+	enableStructure(factory,0);
+	//enableStructure(powerModuleHack, 0);
+//set up initial attack group
+	groupAddArea(scavGroup, enemy1, 4416, 6336, 5440, 7104);
+//set retreat point
+	setGroupRetreatPoint(scavGroup, 4416, 5440);	//retreat to crossroads
+	setGroupRetreatForce(scavGroup, 99);			//set morale to 1%
+	setGroupRetreatLeadership(scavGroup, 10);		//set leadership chance 10% (small=more likely)
+	setDroidKills(droids[count], random(1) + 10);
+	setEventTrigger(startEvnt, inactive);
+	addMessage(enm0Msg1, PROX_MSG, player, false);
+}
+
+/* Events: Win or Lose */
+
+event nextLevEvnt(inactive)		//assumes victory already checked
+{
+	//removeMessage(MissionBrief, MISS_MSG, player);
+	startMission(OFF_KEEP, NextLev);
+	setEventTrigger(nextLevEvnt, inactive);
+}
+
+event gameLost(inactive)
+{
+//	addMessage(endMsg, MISS_MSG, 0, true);
+//	pause(10);
+//	gameOver(false);
+	gameOverMessage(endMsg, MISS_MSG, 0, false);
+	setEventTrigger(gameLost, inactive);
+}
+
+event lostYetEvnt(winLoseTrig)
+{
+	if (not anyDroidsLeft(player))
+	{
+		setEventTrigger(wonYetEvnt,inactive);
+		setEventTrigger(gameLost, gameLostTrig);	//waits 2 seconds before ending
+		setEventTrigger(lostYetEvnt, inactive);
+		setEventTrigger(timeUp, inactive);
+	}
+}
+
+event wonYetEvnt(winLoseTrig) // have all enemies lost yet, and all artifacts picked up?
+{								
+	   	  	if (not anyDroidsLeft(enemy1))
+			{
+				if (not anyStructButWallsLeft(enemy1))
+					{
+						setEventTrigger(lostYetEvnt, inactive);
+						setEventTrigger(nextLevEvnt, winLoseTrig);
+						setEventTrigger(wonYetEvnt, inactive);
+						setEventTrigger(timeUp, inactive);
+					}
+			}
+}
+
+/* Base Under Attack */
+event baseHit(CALL_STRUCT_ATTACKED, selectedPlayer, ref hitStruc, ref attackerObj)
+{
+	if (t >= 20)
+	{
+		t=0;
+		if (hitStruc != NULLOBJECT)
+		{
+			playSoundPos(attackSnd1, selectedPlayer, hitStruc.x, hitStruc.y, hitStruc.z);	//show position if still alive
+		}
+		else
+		{
+			playSound(attackSnd1, selectedPlayer);
+		}
+	}
+}
+
+event everySec(every, 20)
+{
+	t=t+1;
+}
+
+event seeBaseHit(CALL_MISSION_END)
+{
+//go to where the structure being attacked is on CTRL B
+	if (hitStruc!=NULLOBJECT)
+	{
+		centreView(hitStruc);
+		t=0;			//flag known about!
+	}
+}
+
+/*
+event scavAttack(scavtrig)
+{
+	setEventTrigger(scavAttack2, inactive);
+	setEventTrigger(scavAttack, inactive);
+	//setEventTrigger(removeObj1, obj1Trig);
+	//orderGroupLoc(scavGroup, DORDER_SCOUT, 2100, 6700);
+}
+*/
+
+event scavAttack2(scavtrig2)
+{
+	//setEventTrigger(scavAttack, inactive);
+	pause(20);
+	setEventTrigger(scavAttack2, inactive);
+	orderGroupLoc(scavGroup, DORDER_SCOUT, 2100, 6700);
+}
+
+event timeUp(CALL_MISSION_TIME)
+{
+	setEventTrigger(wonYetEvnt, inactive);
+	setEventTrigger(lostYetEvnt, inactive);
+	setEventTrigger(gameLost, gameLostTrig);
+	setEventTrigger(timeUp, inactive);
+}
+
+event checkValley(inactive)
+{
+	//check to see if all players forces in valley for winning
+	temp = 0;
+	count = 0;
+	while (count < numSafe)
+	{
+		temp = temp + numDroidsInArea(player, safeX1[count], safeY1[count], safeX2[count],safeY2[count]);
+		count = count + 1;
+	}
+	if ((temp == getDroidCount(player)) and (getDroidCount(player) > 0))	//all units safe
+	{
+	setEventTrigger(nextLevEvnt, winLoseTrig);
+	}
+}
+
+/* Events: Enemies */
+event enm0DeadEvnt(inactive)
+{
+	killStructsInArea(enemy1, REF_WALL, 6555, 6444, 7300, 7525, TRUE, TRUE);	//remove walls and building features in base
+	removeMessage(enm0Msg2, PROX_MSG, player);
+	removeMessage(MissionBrief2, CAMP_MSG, player);
+	playSound(enm0Snd2, player);
+	setEventTrigger(checkValley, winLoseTrig);
+	setEventTrigger(enm0DeadEvnt, inactive);
+}
+
+event enm0SeenEvnt(enm0SeenTrig)
+{
+	addMessage(enm0Msg2, PROX_MSG, player, false);
+	addMessage(MissionBrief2, CAMP_MSG, player, false);
+	playSound(enm0Snd1, player);
+	setEventTrigger(enm0DeadEvnt, enm0DeadTrig);
+	setEventTrigger(enm0SeenEvnt, inactive);
+}
+
+event cheatEvnt(CALL_MISSION_START)	//cheat button ctrl M
+{
+	setEventTrigger(nextLevEvnt, winLoseTrig);
+	setEventTrigger(cheatEvnt, inactive);
+}
