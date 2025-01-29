@@ -995,7 +995,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$item['designable']=1;
 							}
 							$pos = strpos($item['id'],'Cyb');
-							
+							echo "<br>in:". $val3['in'];
 							if($pos===FALSE){
 								$item['designable']=1;
 							}
@@ -1011,7 +1011,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								echo '<br><b>CYBORG SHIT ! '. $vtolshit .'</b>';
 								$template['type']="CYBORG";
 								$template['propulsion']="CyborgLegs";
-								//$template['available']="true";
+								$template['available']="true";
 								$template['name']=$item['name'] ." Cyb-Mk". $no;
 								$template['id']=$item['id'] ."-Cyb";
 								$pos = strpos($item['id'],'Cyb');
@@ -1026,8 +1026,11 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								}
 								else{
 									$template['weapons']=[$item['id']];
-									unset($item['designable']);
-									$item['usageClass']="Cyborg";
+									#if($val3['in']!='mech'){
+										echo '<br>undesignable!';
+										unset($item['designable']);
+									#}
+									$item['usageClass']="Cyborg";	
 								}
 								$prop= "CyborgLegs";
 								if($priceclass<=-2){	$template['body']="B1BaBaPerson01-nrs"; }
@@ -1060,7 +1063,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$t2['breadth']=1;
 								$t2["buildPoints"]= $price*3*$sys['nrs']['produnit'];
 								$t2["buildPower"]= $price*3;
-								$t2["height"]= 1;
+								
 								$t2["hitpoints"]= $pow*300*$sys['nrs']['dmgunit'];
 								$t2["name"]=  $item['name'] .' walltower';
 								$t2["resistance"]= 150;
@@ -1070,7 +1073,19 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								//$t2["thermal"]= 0;
 								$t2["type"]= "DEFENSE";
 								$t2["weapons"]=[ $item['id']];
+								$t2['breadth']=1;
+								$t2["height"]= 1;
 								$t2["width"]= 1;
+								if($priceclass<=-2){	$t2['structureModel']=["BLGUARDM.PIE"];}
+								else if($priceclass<=-1){		$t2['structureModel']=["BLGUARDR.pie"];}
+								else if($priceclass<=1){		$t2['structureModel']=["BLGUARD1.pie"]; }
+								else if($priceclass<=2){		$t2['structureModel']=["BLGUARD3.pie"]; }
+								else {	$t2['structureModel']=["STWPFCAN.PIE"]; 
+									$t2['breadth']=2;
+									$t2["height"]= 1;
+									$t2["width"]= 2;
+								}
+								
 								$sys['nrs']['file']['stat']['structure'][$t2['id']]=$t2;
 								$temp['resultStructures'][]=$t2['id'];
 								$sys['nrs']['nb'][$linename]['defenses'][]='{ res: "'. $id .'", stat: "'. $t2['id'] .'", defrole: DEFROLE.STANDALONE }';

@@ -1599,6 +1599,41 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 						if($fix){
 							$thatpie[2]=$finalline; //effective line 
 						}
+						
+						//event...
+						$exp=explode('.pie',$thatpie[3]);
+						echo '<br>pie3:'. $thatpie[3];
+						if(count($exp)>1){
+							echo 'there is a pie on line 3';
+							$exp2=explode(' ',$exp[0]);
+							$countexp=count($exp2);
+							$found=0;
+							$name=$exp2[$countexp-1] .'.pie';
+							$texnewname=$exp2[$countexp-1] . $sufix .'.pie';
+							if ($handle = opendir($load .'/components/bodies')) {
+								while (false !== ($file = readdir($handle))) {
+									if( strpos($file,$name)!==FALSE){
+										echo "<b>file event: $nname $name =$file\n</b>";
+										$found=1;
+										$name=$file;
+									}
+									else{
+										echo "file event: $nname $name .' '. $file\n";
+									}
+								}				
+							closedir($handle);
+							}
+							if(!$found){
+								echo 'NOT FOUND! pie('. $load .'/components/bodies/'. $name .')';
+							}
+							else{
+								$thatpie[3]=str_replace($name, $texnewname, $thatpie[3]); 
+								echo '<br>'. $comp[$id] .' '. $sufix .' '. $load .'/components/bodies/'. $name . ' to '. $save .'/components/bodies/'. $texnewname .' ?';
+								//echo print_r($thatpie);
+								copy($load .'/components/bodies/'. $name,$save .'/components/bodies/'.$texnewname);
+							}
+						}
+						
 						//echo $exp2[$countexp-1] .' ||'. $finalline .'</br>';
 						$data['piestats'][]='directory	"'. $folder .'"
 	';

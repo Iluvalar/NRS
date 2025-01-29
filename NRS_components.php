@@ -387,6 +387,13 @@ $sys['nrs']['file']['stat']['structure']['WreckedTransporter']["buildPoints"]=12
 $sys['nrs']['file']['stat']['structure']['WreckedTransporter']["buildPower"]=$sys['nrs']['unitprice']*2*4;
 $sys['nrs']['file']['stat']['structure']['WreckedTransporter']["hitpoints"]=125*20*$sys['nrs']['structureHPScale'];
 
+$sys['nrs']['file']['stat']['structure']['A0MechFactory']=$sys['nrs']['base']['structure']['A0CyborgFactory'];
+$sys['nrs']['file']['stat']['structure']['A0MechFactory']['productionPoints']=40*$sys['nrs']['powerunit'];
+$sys['nrs']['file']['stat']['structure']['A0MechFactory']['name']='Mech factory';
+$sys['nrs']['file']['stat']['structure']['A0MechFactory']["buildPoints"]=125;
+$sys['nrs']['file']['stat']['structure']['A0MechFactory']["buildPower"]=$sys['nrs']['unitprice']*2*4;
+$sys['nrs']['file']['stat']['structure']['A0MechFactory']["hitpoints"]=125*20*$sys['nrs']['structureHPScale'];
+
 //$sys['nrs']['file']['stat']['structure']['A0LightFactory']['productionPoints']=8;
 
 // buildings
@@ -596,6 +603,10 @@ $sys['nrs']['2120']['structure']['A0ResearchFacility']['researchPoints']=14*3;
 $sys['nrs']['file']['stat']['structure']['A0ResearchFacility-2120']=$sys['nrs']['2120']['structure']['A0ResearchFacility'];
 $sys['nrs']['file']['stat']['structure']['A0ResearchFacility-2120']['id']='A0ResearchFacility-2120';
 $sys['nrs']['file']['stat']['structure']['A0ResearchFacility-nrs']['structureModel']=['nanolab.pie'];
+
+
+
+
 
 
 /*

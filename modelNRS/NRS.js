@@ -157,10 +157,11 @@ function powerStuff(){
 			banks[playnum]=nbank;
 			//culture[playnum]*=.9;
 		}
-		var powtoadd=playerPower(playnum)-basepower/5-(nbank-getMultiTechLevel())*basepower/5;
+		var powtoadd=basebank+playerPower(playnum)-basepower/5-(banks[playnum]-getMultiTechLevel())*basepower/5;
+		//playPow+=(basebank-banks[playnum]+getMultiTechLevel())*basepower/5;
 		//console("2player:"+ playnum +"=="+ powtoadd +"..."+ resources[playnum+1][9]);
 		resources[playnum+1][9]=(playnum+1 || 0)+powtoadd;
-		resources[0][9]=(resources[0][9] || 0)+powtoadd;
+		resources[0][9]=(resources[0][9] || 0)+powtoadd-basebank;
 		
 		nbase+=powtoadd;
 		
@@ -209,7 +210,7 @@ function powerStuff(){
 		income=0;
 		
 		//playPow+=(basebank-banks[playnum]-getMultiTechLevel())*basepower/5;
-		playPow+=(basebank-banks[playnum]+getMultiTechLevel())*basepower/5;
+		//playPow+=(basebank-banks[playnum]+getMultiTechLevel())*basepower/5;
 		//console("3player:"+ playnum +"=="+ totPow +" house:"+ countStruct("Housing-nrs", playnum));
 		
 
@@ -240,7 +241,7 @@ function powerStuff(){
 
 		
 		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
-		var expPower=(playPow+basePow)/(basepower*1.5);
+		var expPower=(playPow+basePow)/(basepower);
 		var timetoscale=Math.log(expPower)/Math.log(interest);
 		var linearPower=(interest-1)*timetoscale+1;
 		//var expPower=interest**timetoscale;
@@ -267,10 +268,10 @@ function powerStuff(){
 			var aiFact=totHonor/(500)/(maxPlayers*4);
 			//var factordif=2**playerData[playnum].difficulty-.5;
 			var factordif=1.5;
-			if(playerData[playnum].difficulty==1){ factordif=1.0; }
-			if(playerData[playnum].difficulty==2){ factordif=1.20; }
-			if(playerData[playnum].difficulty==3){ factordif=1.40; }
-			if(playerData[playnum].difficulty==4){ factordif=2.0; }
+			if(playerData[playnum].difficulty==1){ factordif=1.1; }
+			if(playerData[playnum].difficulty==2){ factordif=1.30; }
+			if(playerData[playnum].difficulty==3){ factordif=1.50; }
+			if(playerData[playnum].difficulty==4){ factordif=2; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);
 			income=income*(factordif+aiFact);

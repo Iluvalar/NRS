@@ -9,6 +9,7 @@ function setupStructure(player)	// inside hackNetOff()
 	enableStructure("A0PowerGenerator", player);
 	enableStructure("A0ResearchFacility", player);
 	enableStructure("A0CyborgFactory", player);
+	enableStructure("A0MechFactory", player);
 	enableStructure("A0ResearchFacility-nrs", player);
 	enableStructure("Indirectlab", player);
 	//enableStructure("Nanolab", player);

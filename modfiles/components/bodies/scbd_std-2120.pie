@@ -1,7 +1,7 @@
 PIE 2
 TYPE 10200
 TEXTURE 0 page-17-droid-weapons-2120.png 256 256
-EVENT 1 scbd_run.pie
+EVENT 1 scbd_run-2120.pie
 LEVELS 1
 LEVEL 1
 POINTS 180

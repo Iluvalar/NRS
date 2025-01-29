@@ -1,7 +1,7 @@
 PIE 2
 TYPE 200
 TEXTURE 1 page-16-droid-drives.png 256 256
-EVENT 1 cybd_run.pie
+EVENT 1 cybd_run-mech.pie
 LEVELS 1
 LEVEL 1
 POINTS 290

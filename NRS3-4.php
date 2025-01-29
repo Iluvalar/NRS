@@ -218,9 +218,74 @@ if (($handle = fopen("./NTW/stats/body.txt", "r")) !== FALSE) {
 
 unset($sys['nrs']['ntw']['body']['TruckBody']);
 unset($sys['nrs']['ntw']['body']['Body0REC']); //seems to have an error in the pie files.
-print_r($sys['nrs']['ntw']);
+
+
+$id='Chaingun';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyborg'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='Cannon';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyborg'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='Flamer01';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyborg'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='Rocket';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyborg'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='RotMG';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyborg'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+
+$id='Wpn-Thermite';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyb-'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='Wpn-Rail1';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyb-'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='Wpn-Laser';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyb-'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='Wpn-Grenade';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyb-'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+$id='Wpn-Atmiss';
+$sys['nrs']['mech']['weapons'][$id]=$sys['nrs']['base']['weapons']['Cyb-'. $id];
+$sys['nrs']['mech']['weapons'][$id]['designable']=1;
+$sys['nrs']['mech']['weapons'][$id]['id']=$id;
+
+
+
+
+#list of body to be shown first. To help people not to get lost.
+$sys['nrs']['basic']['body']['Body1REC']=$sys['nrs']['base']['body']['Body1REC'];
+$sys['nrs']['basic']['body']['Body5REC']=$sys['nrs']['base']['body']['Body5REC'];
+$sys['nrs']['basic']['body']['Body11ABT']=$sys['nrs']['base']['body']['Body11ABT'];
+#$sys['nrs']['basic']['body']['Body23SUP']=$sys['nrs']['contingency']['body']['Body23SUP']; //hard to find the pie file once the mode is changed...
+$sys['nrs']['basic']['body']['ScavIcevanBody']=$sys['nrs']['base']['body']['ScavIcevanBody'];
+$sys['nrs']['basic']['body']['FireBody']=$sys['nrs']['base']['body']['FireBody'];
+#$sys['nrs']['basic']['body']['Body14SUP']=$sys['nrs']['2120']['body']['Body14SUP'];
+
+//print_r($sys['nrs']['ntw']);
 //Setting default values for the mods.
-$mods=['base','ntw','2120','contingency'];
+$mods=['basic','base','ntw','2120','contingency'];
 foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
@@ -490,6 +555,9 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgLightBody", 'in'=>'mech', 'type'=> '
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "CCSensor", 'in'=>'base', 'type'=> 'sensor', 'as' => ['med','AW','lowtech'] ]);
 
 
+
+
+
 $fac='NRSP';
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP1', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','¥','typeE'], 'call'=>'extralasers' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser-AP2', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','longrange','weapon','NRSp','¥','typeE'], 'call'=>'extralasers' ]);
@@ -734,6 +802,64 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'base', 'type'=> 
 //	Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1,Cyb-Wpn-Grenade", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['med','AS','',''] ]);
 
+$fac="super";
+Fnrs_add([ 'faction'=> $fac, 'use'=>'HowitzerGaussPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','hightech','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'HowitzerGaussRamjetSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','hightech','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'HowitzerGaussSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','hightech','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'HowitzerPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','hightech','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'HowitzerRamjetSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','hightech','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'HowitzerSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AS','hightech','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MortarSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AS','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MortarGaussPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AS','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MortarGaussRamjetSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AS','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MortarGaussSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AS','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MortarPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AS','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MortarHvyPlas', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AS','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MortarRamjetSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AS','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'LaserSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','hightech','typeE','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'LaserSuper2', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','hightech','typeE','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+#Fnrs_add([ 'faction'=> $fac, 'use'=>'GattlinggunSuper', 'in'=>'2120','type'=> 'weapons', 'as' => ['medium','AP','hightech','typeE','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'LaserPlasmaSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AP','hightech','typeE','$','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'CannonSuper', 'in'=>'base','type'=> 'weapons', 'as' => ['medium','AW','typeA','heavy','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'CannonSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','typeA','heavy','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'CannonRotSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','typeA','heavy','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'RailgunGattlingPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','typeA','heavy','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'RailgunSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AW','typeA','heavy','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Superweapon2', 'in'=>'2120','type'=> 'weapons', 'as' => ['medium','AW','typeA','heavy','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'RocketSuper', 'in'=>'base','type'=> 'weapons', 'as' => ['medium','AT','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MissileSuper', 'in'=>'base','type'=> 'weapons', 'as' => ['medium','AT','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+#Fnrs_add([ 'faction'=> $fac, 'use'=>'RocketSuper', 'in'=>'2120','type'=> 'weapons', 'as' => ['medium','AT','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MissileSuper', 'in'=>'2120','type'=> 'weapons', 'as' => ['medium','AT','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MissileArraySuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AT','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MissileSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AT','','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'FlamerPlasmaSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AT','typeE','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'CannonPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AT','typeE','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MissileArrayPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['medium','AT','typeE','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
+#Fnrs_add([ 'faction'=> $fac, 'use'=>'MachinegunSuper', 'in'=>'2120','type'=> 'weapons', 'as' => ['lgt','AP','','','¥','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MGPlasSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AP','','','¥','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'MGSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AP','','','¥','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Superweapon', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AP','','','¥','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+#Fnrs_add([ 'faction'=> $fac, 'use'=>'RailgunGattlingSuper', 'in'=>'contingency','type'=> 'weapons', 'as' => ['lgt','AP','','','¥','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
+$fac="mech";
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Chaingun', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Flamer01', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Rocket', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'RotMG', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Grenade', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Thermite', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Atmiss', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Rail1', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Laser', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+
 /*
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body11ABT", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Body12SUP", 'in'=>'base', 'type'=> 'body', 'as' => ['MH','insta','NRSp',''] ]);
@@ -769,7 +895,7 @@ $fac='BaBa';
 $sys['nrs']['file']['stat']['templates']['BaBaPeople']['available']=true;
 $sys['nrs']['base']['structure']['A0BaBaFactory']['productionPoints']=2*$sys['nrs']['powerunit'];
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "A0BaBaFactory,scavCrane2", 'in'=>'base', 'type'=> 'structure', 'as' => ['xlgt','insta','AS','baba'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "A0BaBaFactory", 'in'=>'base', 'type'=> 'structure', 'as' => ['xlgt','insta','AS','baba'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "scavCrane1", 'in'=>'base', 'type'=> 'construction', 'as' => ['xlgt','AS','insta','exshort','designable'] ]);
 
 //
