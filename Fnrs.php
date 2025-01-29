@@ -1020,6 +1020,10 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 									unset($item2['designable']);
 									$item2['usageClass']="Cyborg";
 									$item2['id'].='-Cyb';
+									if($priceclass<=-2){
+										unset($item2['mountModel']); 
+										unset($item2['model']);
+									}
 									$sys['nrs']['file']['stat'][$val3['type']][$item2['id']]=$item2;
 									$template['weapons']=[$item2['id']];
 									$temp['resultComponents'][]=$item2['id'];
@@ -1033,7 +1037,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 									$item['usageClass']="Cyborg";	
 								}
 								$prop= "CyborgLegs";
-								if($priceclass<=-2){	$template['body']="B1BaBaPerson01-nrs"; }
+								if($priceclass<=-2){	$template['body']="B1BaBaPerson01-nrs";  }
 								else if($priceclass<=-1){	$template['body']="CyborgLightBody"; }
 								else if($priceclass<=1){	$template['body']="CyborgHeavyBody"; }
 								else if($priceclass<=2){	$template['body']="CyborgHeavyBody-2120"; }
