@@ -27,6 +27,7 @@
 		makeComponentAvailable("CyborgHeavyBody-2120", playnum);
 		makeComponentAvailable("CyborgLightBody-mech", playnum);
 		makeComponentAvailable("CyborgSpade", playnum);
+		//makeComponentAvailable("nowheeled01", playnum);
 		
 	}
 	var powertypefact=1;

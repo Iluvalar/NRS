@@ -8,6 +8,8 @@ include('Fnrs.php');
 include('mod.php'); //I think the distance mod might be in this one ?
 $modder="ilu";
 
+//Mod modifiers
+$sys['nrs']['mod']['instadeath']=1;
 
 $sys['nrs']['oilpf']=7;
 $sys['nrs']['derrickprice']=400; //not actually just the derrick 2/5 goes in baseinterest and 1/5 to derricks and 2/5 to powergens
@@ -20,7 +22,7 @@ $sys['nrs']['time']=30*60*($sys['nrs']['scaleTime']); //time to research the las
 $sys['nrs']['trtime']=120/$sys['nrs']['scaleDist']; //Truck time between bases
 $sys['nrs']['powerpersec']=300/100; //mean power per second
 $sys['nrs']['armysize']=35; //medium units;
-$sys['nrs']['dmgscale']=1.5;
+$sys['nrs']['dmgscale']=1.5*(1+2*$sys['nrs']['mod']['instadeath']);
 
 /*# Era mode. 
 $sys['nrs']['scaleDist']=.4;
@@ -58,7 +60,7 @@ $medprice=$sys['nrs']['ttpower']/2/$nfig;
 $sys['nrs']['produnit']=205/($medprice);
 $per=Fwz_fig($sys['nrs']['armysize']+$nfig)/Fwz_fig($sys['nrs']['armysize']);
 $startpow=$sys['nrs']['ttpower']*($sys['nrs']['wepmod']/($sys['nrs']['wepmod']-1));
-echo 'nfig:'. $nfig .' '.Fwz_fig($nfig) .'/'. Fwz_fig($nfig+1).' med:'. $medprice .' per:'.  $per .' truck time power:'. $sys['nrs']['ttpower'] .' suggStart:'. $startpow;
+echo 'nfig:'. $nfig .' '.Fwz_fig($nfig) .'/'. Fwz_fig($nfig+1).' med:'. $medprice .' per:'.  $per .' truck time power:'. $sys['nrs']['ttpower'] .' suggStart:'. $startpow .' armysize: '. $sys['nrs']['armysize'];
 $sys['nrs']['percent']=.2; //max 66 * .08 :( = 5.28 or 90 *.06 (633) ||now: .05 and 120
 $sys['nrs']['unitprice']=$medprice;
 $sys['nrs']['structureHPScale']=$sys['nrs']['dmgunit']*Fwz_fig($sys['nrs']['armysize'])/Fwz_fig(40)*1; //scale structures hp with army size.
@@ -353,7 +355,7 @@ foreach($mods as $no => $modname){
 			//$sys['nrs'][$modname][$listtype][$nom]['repairPoints']*=$sys['nrs']['dmgunit'];
 			
 			if( $sys['nrs'][$modname][$listtype][$nom]['type']!="DEFENSE"){
-				$sys['nrs'][$modname][$listtype][$nom]['hitpoints']*=$sys['nrs']['dmgscale']*$sys['nrs']['structureHPScale'];
+				$sys['nrs'][$modname][$listtype][$nom]['hitpoints']*=$sys['nrs']['structureHPScale'];
 			}
 			//$sys['nrs'][$modname][$listtype][$nom]['hitpoints']*=$sys['nrs']['dmgunit'];
 			
@@ -494,7 +496,8 @@ Fnrs_upgradeline("Sensor","",'','Range','Sensor',$sys['nrs']['startres'],1,'sens
 
 
 $fac='start';
-
+$sys['nrs']['base']['propulsion']['antiGravity']=$sys['nrs']['base']['propulsion']['wheeled01'];
+unset($sys['nrs']['base']['propulsion']['antiGravity']['model']);
 //Fnrs_genprop('BaBaLegs',$fac,'BaBaLegs',100);
 Fnrs_genprop('CyborgLegs',$fac,'CyborgLegs',100,"Legged");
 Fnrs_genprop('wheeled01',$fac,'wheeled01',100);
@@ -503,6 +506,7 @@ Fnrs_genprop('tracked01',$fac,'tracked01',130,"Tracked");
 //Fnrs_genprop('Helicopter',$fac,'Helicopter',115,"Lift");
 Fnrs_genprop('hover01',$fac,'hover01',85,"Hover");
 Fnrs_genprop('HalfTrack',$fac,'HalfTrack',115,"Tracked");
+Fnrs_genprop('antiGravity',$fac,'antiGravity',100);
 
 
 
@@ -530,7 +534,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "RadarDetector", 'in'=>'base', 'type'=> 'se
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Sensor-WideSpec", 'in'=>'base', 'type'=> 'sensor', 'as' => ['med','AW','lowtech'] ]);
 
 
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Spade1Mk1", 'in'=>'base', 'type'=> 'construction', 'as' => ['med','AP','insta','exshort','','fake'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Spade1Mk1", 'in'=>'base', 'type'=> 'construction', 'as' => ['med','AP','insta','exshort','heavy','fake'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgSpade", 'in'=>'base', 'type'=> 'construction', 'as' => ['lgt','AP','insta','exshort','','fake'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A0CommandCentre", 'in'=>'base', 'type'=> 'structure', 'as' => ['hvy','AP','insta','exshort','','fake'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A1CommandCentre", 'in'=>'base', 'type'=> 'structure', 'as' => ['hvy','AP','insta','exshort','','fake'] ]);

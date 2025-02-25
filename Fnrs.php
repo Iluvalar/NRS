@@ -29,7 +29,10 @@ function Fnrs_genprop( $propname,$fac,$usename,$pts,$type='Wheeled'){ //while x+
 		$item['hitpointPctOfBody']=(2*$pts)-100;
 		$item['type']=$type;
 		$sys['nrs']['base']['propulsion'][ $nname ]=$item;
+		
 		Fnrs_add([ 'faction'=> $fac, 'use'=>$nname, 'in'=>'base','type'=> 'propulsion', 'replacedComponents'=>$rep ,'as' => ['prop','insta','strong','exshort'] ]);
+		
+		
 		$lastname=$nname;
 		//print_r($item);
 	}
@@ -954,6 +957,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							//1.50 for a while. then structures were buffed What range mod ?
 							#$scale=1.5*$pow*$power/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
 							$scale=1.5*$pow/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
+							if( $typeW==0){ $item['minimumDamage']=100;}
+							else{ $item['minimumDamage']=100/$sys['nrs']['wepmod']; $scale*=$sys['nrs']['wepmod']**0.5;}
 							echo 'scale:'. $scale;
 							echo '<br>pv:'. $item2['Prevalue'] .'<br>';
 							$item['damage']*=$scale;
@@ -969,7 +974,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['weaponClass']=$wepclass;
 							$item['weaponEffect']=$weaponEffect;
 							$item['weaponSubClass']=$subclass;
-							$item['minimumDamage']=$wepmin*100;
+							
+							//$item['minimumDamage']=$wepmin*100;
 							if($braindetect){
 								echo 'changing name to commander';
 								$item['name']='commander '. $item['name'];
@@ -1314,7 +1320,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item["buildPoints"]= $price*$sys['nrs']['produnit'];
 							$item["buildPower"]= $price;
 							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
-							$item['weight']=1000*$wepweight;
+							//$item['weight']=1000*$wepweight;
+							$item['weight']=1000*1.3**$priceclass*(.5-.5*$engineClass);
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
 						}
