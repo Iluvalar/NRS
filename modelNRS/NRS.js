@@ -104,9 +104,9 @@ function powerStuff(){
 	//var techLevel = getMultiTechLevel();
 	//var list = enumStruct([player[, structure type[, looking player]]]);
 	for (var j = 0; j < 10; j++){
-		resources[0][j]=-(2-powerType)*basepower/5;
+		resources[0][j]=-(2-(powerType-powerMod))*basepower/5;
 	}
-	resources[0][2]+=(1-powerType)*3*basepower/5;
+	resources[0][2]+=(1-(powerType-powerMod))*3*basepower/5;
 	var startprop=(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0);
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		var list;

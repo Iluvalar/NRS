@@ -1321,7 +1321,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item["buildPower"]= $price;
 							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
 							//$item['weight']=1000*$wepweight;
-							$item['weight']=1000*1.3**$priceclass*(.5-.5*$engineClass);
+							$item['weight']=4000*1.3**$priceclass*(.5-.5*$engineClass);
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
 						}
@@ -1331,7 +1331,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item["buildPoints"]= $price*$sys['nrs']['produnit'];
 							$item["buildPower"]= $price;
 							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
-							$item['weight']=1000*$wepweight;
+							$item['weight']=4000*1.3**$priceclass*(.5-.5*$engineClass);
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
 						}

@@ -9,20 +9,21 @@ include('mod.php'); //I think the distance mod might be in this one ?
 $modder="ilu";
 
 //Mod modifiers
-$sys['nrs']['mod']['instadeath']=1;
+$sys['nrs']['mod']['instadeath']=0;
+$sys['nrs']['mod']['4x']=1;
 
 $sys['nrs']['oilpf']=7;
 $sys['nrs']['derrickprice']=400; //not actually just the derrick 2/5 goes in baseinterest and 1/5 to derricks and 2/5 to powergens
 //$sys['nrs']['wepmod']=1.25; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually)
 $sys['nrs']['wepmod']=1.33; //Approximation of the weap modifers bonus. (i still write weaponmodifier.json manually
 
-$sys['nrs']['scaleTime']=1; //?? //Fnrs line 91
-$sys['nrs']['scaleDist']=1.25; //Scale all distance in the mod.
+$sys['nrs']['scaleTime']=1*(1+3*$sys['nrs']['mod']['4x']); //?? //Fnrs line 91
+$sys['nrs']['scaleDist']=1.25/(1+3*$sys['nrs']['mod']['4x']); //Scale all distance in the mod.
 $sys['nrs']['time']=30*60*($sys['nrs']['scaleTime']); //time to research the last component.
 $sys['nrs']['trtime']=120/$sys['nrs']['scaleDist']; //Truck time between bases
 $sys['nrs']['powerpersec']=300/100; //mean power per second
-$sys['nrs']['armysize']=35; //medium units;
-$sys['nrs']['dmgscale']=1.5*(1+2*$sys['nrs']['mod']['instadeath']);
+$sys['nrs']['armysize']=35/(1+1*$sys['nrs']['mod']['4x']); //medium units;
+$sys['nrs']['dmgscale']=2*(1+2*$sys['nrs']['mod']['instadeath']);
 
 /*# Era mode. 
 $sys['nrs']['scaleDist']=.4;
@@ -1263,7 +1264,8 @@ foreach($sys['nrs']['file']['stat'] as $nom => $val){
 echo '<pre>';	
 $str=file_get_contents('./modelNRS/NRS.js');
 $str  = str_replace("//--NRSInterest", 'var interest='. floor( ($sys['nrs']['interest']-1)*100000)/100000 .'; //int',$str);
-$str  = str_replace("//--NRSbasepower", 'var basepower='. floor($sys['nrs']['basepower']) .';',$str);
+$str  = str_replace("//--NRSbasepower", 'var basepower='. floor($sys['nrs']['basepower']) .';
+var powerMod='. floor($sys['nrs']['mod']['4x']*3) .';',$str); 
 $str  = str_replace("//--NRSstructureData", $sys['nrs']['structureData'],$str);
 file_put_contents($savedir .'\\multiplay\\script\\mods\\NRS.js',$str);
 
