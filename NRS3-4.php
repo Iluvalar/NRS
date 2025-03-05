@@ -10,7 +10,7 @@ $modder="ilu";
 
 //Mod modifiers
 $sys['nrs']['mod']['instadeath']=0;
-$sys['nrs']['mod']['4x']=1;
+$sys['nrs']['mod']['4x']=0;
 
 $sys['nrs']['oilpf']=7;
 $sys['nrs']['derrickprice']=400; //not actually just the derrick 2/5 goes in baseinterest and 1/5 to derricks and 2/5 to powergens
@@ -130,6 +130,7 @@ $sys['nrs']['dir']['2120']='./2120/';
 $sys['nrs']['dir']['ntw']='./ntw/';
 $sys['nrs']['dir']['mech']='./mech/';
 $sys['nrs']['dir']['contingency']='./contingency/';
+$sys['nrs']['dir']['grok3']='./grok3/';
 $sys['nrs']['dir']['save']='./modfiles/';
 
 $str=file_get_contents($dir2120 .'stats/weapons.json');
@@ -142,6 +143,8 @@ $sys['nrs']['2120']['body']= json_decode(file_get_contents($dir2120 .'stats/body
 $sys['nrs']['contingency']['weapons']=  json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/weapons.json'), TRUE);
 $sys['nrs']['contingency']['research']=  json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/research.json'), TRUE);
 $sys['nrs']['contingency']['body']= json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/body.json'), TRUE);
+
+//$sys['nrs']['grok3']['structure']=  json_decode(file_get_contents($sys['nrs']['dir']['grok3'] .'stats/structure.json'), TRUE);
 
 
 //print_r($sys['nrs']['2120-weapons']);
@@ -419,6 +422,8 @@ foreach($bodySort as $priceclass =>$val){
 		}
 }
 echo '</pre>';
+//$sys['nrs']['base']['structure']['Farm']=$sys['nrs']['grok3']['structure']['Farm'];
+//$sys['nrs']['structsource']['Farm']='grok3';
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "Body1UPG", 'in'=>'2120', 'type'=> 'body', 'as' => ['lgt','strong','','insta','vshort'] ]);
 ///// Economic structure definition... could hide... 
 	$resourcesNames2=['Work','Service','Electric', 'Pop','density','rich', 'environement','War','F','B','C'];
@@ -1150,14 +1155,19 @@ $x=-1;
 while($x++<18){
 	$fac=$facs[$x%3];
 	foreach($structureData as $id=>$values){
+		$source='nrs';
+		if($sys['nrs']['structsource'][$id]!=''){
+			$source=$sys['nrs']['structsource'][$id];
+			echo 'found source:'. $source;
+		}
 		if($structureData2[$id]['fac1']==$x){
 				//$sys['nrs'][$facs[$x%6]]['structure'][$id]=$sys['nrs']['nrs']['structure'][$id];
 				echo '<br>'. $id .'in fac'. $facs[$x%3];
-				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>'nrs', 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
+				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>$source, 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
 		}
 		else if($structureData2[$id]['fac2']==$x && $facs[$x%3]!=$facs[$structureData2[$id]['fac1']%3]){
 				//$sys['nrs'][$facs[$x%6]]['structure'][$id]=$sys['nrs']['nrs']['structure'][$id];
-				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>'nrs', 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
+				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>$source, 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
 		}
 		/*
 		else if($structureData2[$id]['fac3']==$x){

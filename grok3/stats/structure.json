@@ -1,0 +1,23 @@
+{
+    "Farm": {
+		"id": "Farm",
+		"name": "Farm",
+		"type": "POWER GENERATOR",
+		"model": "farm.pie",
+		"breadth": 2,
+		"width": 2,
+		"height": 1,
+		"foundation": "MEDIUM",
+		"powercost": 200,
+		"strength": "MEDIUM",
+		"hitpoints": 500,
+		"powerOutput": 50,
+		"ecmID": "ZNULLECM",
+		"sensorID": "DefaultSensor1Mk1",
+		"weapons": []
+
+	},   
+    "_config_": {
+        "baseStructDamageExpLevel": "0"
+    }
+}

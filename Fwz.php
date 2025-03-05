@@ -1,4 +1,7 @@
 <?php
+function sign($n) {
+    return ($n > 0) - ($n < 0);
+}
 function Fwz_loader($basedir,$file,$data){
 	global $sys;
 	//echo 'load:'. $file;
@@ -1913,6 +1916,104 @@ function Fwz_setFuncVal(&$f,$value){
 		}
 	}
 }
+//By grok3
+// Helper function to scale and round coordinates
+function scale_coordinates($line, $scale) {
+    // Split the line into coordinates, removing extra whitespace
+    $coords = preg_split('/\s+/', trim($line));
+    // Check if the line has exactly 3 coordinates (x, y, z)
+    if (count($coords) == 3) {
+        $x = floatval($coords[0]) * $scale; // Scale X coordinate
+		//$x = floatval(sign($coords[0])*abs($coords[0])**(1+$coords[2]/200)) * $scale; // Scale X coordinate
+        $y = floatval($coords[1]) * $scale; // Scale Y coordinate
+        $z = floatval($coords[2]) * $scale; // Scale Z coordinate
+        // Format to 2 decimal places and return as a string
+        return sprintf("%.2f %.2f %.2f", $x, $y, $z);
+    } else {
+        // If not 3 coordinates, return the line unchanged
+        return $line;
+    }
+}
+
+// Main function to scale the PIE model
+function scale_pie_model($pie_string, $scale) {
+    // Split the input string into lines
+    $lines = explode("\n", $pie_string);
+    $output_lines = array();
+    $points_to_scale = 0;      // Counter for points
+    $connectors_to_scale = 0;  // Counter for connectors
+
+    foreach ($lines as $line) {
+        // Check if this line defines a POINTS section
+        if (preg_match('/^POINTS\s+(\d+)/', $line, $matches)) {
+            $points_to_scale = intval($matches[1]);
+            $output_lines[] = $line; // Keep the POINTS line unchanged
+        }
+        // Check if this line defines a CONNECTORS section
+        elseif (preg_match('/^CONNECTORS\s+(\d+)/', $line, $matches)) {
+            $connectors_to_scale = intval($matches[1]);
+            $output_lines[] = $line; // Keep the CONNECTORS line unchanged
+        }
+        // Process lines that are part of a POINTS section
+        elseif ($points_to_scale > 0) {
+            $output_lines[] = scale_coordinates($line, $scale);
+            $points_to_scale--;
+        }
+        // Process lines that are part of a CONNECTORS section
+        elseif ($connectors_to_scale > 0) {
+            $output_lines[] = scale_coordinates($line, $scale);
+            $connectors_to_scale--;
+        }
+        // For all other lines (e.g., LEVEL, POLYGONS, TEXTURE), copy as is
+        else {
+            $output_lines[] = $line;
+        }
+    }
+
+    // Join the lines back into a single string
+    return implode("\n", $output_lines);
+}
+/*
+function scale_pie_model($pie_string, $scale) {
+    // Split the PIE string into an array of lines
+    $lines = explode("\n", $pie_string);
+    $output_lines = array();
+    $points_to_scale = 0;
+
+    // Process each line
+    foreach ($lines as $line) {
+        // Check if this line defines a POINTS section
+        if (preg_match('/^POINTS\s+(\d+)/', $line, $matches)) {
+            $points_to_scale = intval($matches[1]);
+            $output_lines[] = $line; // Preserve the POINTS line
+        }
+        // If we’re in a points section, scale the vertex coordinates
+        elseif ($points_to_scale > 0) {
+            $coords = preg_split('/\s+/', trim($line));
+            if (count($coords) == 3) {
+                // Scale each coordinate
+                $x = floatval($coords[0]) * $scale;
+                $y = floatval($coords[1]) * $scale;
+                $z = floatval($coords[2]) * $scale;
+                // Format with 6 decimal places for consistency
+                $scaled_line = sprintf("%.6f %.6f %.6f", $x, $y, $z);
+                $output_lines[] = $scaled_line;
+            } else {
+                // If the line isn’t a valid vertex, copy it as is
+                $output_lines[] = $line;
+            }
+            $points_to_scale--;
+        }
+        // Copy all other lines unchanged
+        else {
+            $output_lines[] = $line;
+        }
+    }
+
+    // Reconstruct the modified PIE file string
+    return implode("\n", $output_lines);
+}
+*/
 $sys['wz']['eval']['currency']=1;
 $sys['wz']['eval']['skipexpect']=0;
 $sys['wz']['eval']['msSynch']=450;

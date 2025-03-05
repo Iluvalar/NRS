@@ -1,10 +1,10 @@
 {
     "scavCrane1": {
-        "buildPoints": 136.66666666666669,
-        "buildPower": 42.57287086679141,
+        "buildPoints": 136.66666666666666,
+        "buildPower": 84.00812940085468,
         "constructPoints": 27.267000000000003,
         "droidType": "DROID_CONSTRUCT",
-        "hitpoints": 130.93147865853658,
+        "hitpoints": 33.64211604420732,
         "id": "scavCrane1",
         "name": "Crane1",
         "sensorModel": "cranearm1.pie",
@@ -23,11 +23,11 @@
         "weight": 800
     },
     "CyborgSpade": {
-        "buildPoints": 136.66666666666669,
-        "buildPower": 42.57287086679141,
+        "buildPoints": 136.66666666666666,
+        "buildPower": 84.00812940085468,
         "constructPoints": 24,
         "droidType": "CYBORG_CONSTRUCT",
-        "hitpoints": 115.24390243902438,
+        "hitpoints": 29.61128048780488,
         "id": "CyborgSpade",
         "mountModel": "cybody.pie",
         "name": "*Combat Engineer*",
@@ -36,12 +36,12 @@
         "weight": 2000
     },
     "Spade1Mk1": {
-        "buildPoints": 123.00000000000001,
-        "buildPower": 38.31558378011227,
+        "buildPoints": 123,
+        "buildPower": 75.60731646076921,
         "constructPoints": 24,
         "designable": 1,
         "droidType": "DROID_CONSTRUCT",
-        "hitpoints": 115.24390243902438,
+        "hitpoints": 29.61128048780488,
         "id": "Spade1Mk1",
         "name": "Truck",
         "sensorModel": "TRLCON.PIE",

@@ -554,6 +554,9 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						}
 						
 						if($val3['type']=='structure'){
+							if($val3['in']!="base"){
+								Fwz_pieSweap($sys['nrs']['base'],$sys['nrs']['base'],'structure',$item,'-'. $val3['in'] ,$sys['nrs']['dir']['save'],$sys['nrs']['dir'][ $val3['in'] ],'','');
+							}
 							if($eco){
 								$temp['resultStructures'][]=$itemname .'-eco';
 							}
