@@ -16,7 +16,7 @@ $temp['rp']=0;
 $done[$temp['id']]=$temp['rp'];
 while(!$stop){
 	$phase++;
-	echo "<h3>phase: $phase </h3>";
+	//echo "<h3>phase: $phase </h3>";
 	$stop=1;
 	foreach ($data['research'] as $id =>$val){
 		//echo '<br>'. $id;
@@ -25,11 +25,13 @@ while(!$stop){
 			unset($countdone);
 			$pow=0;
 			$time=0;
+			$totRP=0;
 			foreach( $val['requiredResearch'] as $no2 => $id2){
 				$tot++;
 				if(isset($done[$id2])){
 					$time=max($done[$id2],$time);
 					$pow+=$donepow[$id2];
+					$totRP+=$donetotrp[$id2];
 					$countdone++;
 					//echo '<br>--<b>'. $id2 .'</b>';
 				}
@@ -42,17 +44,24 @@ while(!$stop){
 				$temp['id']=$id;
 				$temp['rp']=$time+$val['researchPoints'];
 				$temp['rpow']=$pow+$val['researchPower'];
+				$temp['totRP']=$totRP+$val['researchPoints'];
 				$done[$temp['id']]=$temp['rp'];
+				$donetotrp[$temp['id']]=$temp['totRP'];
 				$donepow[$temp['id']]=$temp['rpow'];
 				$resData[]=$temp;
-				echo '<br>'. $id .' is researchable with '. $temp['rp'] .' RP and '. $temp['rpow'] .'$';
+				//echo '<br>'. $id .' is researchable with '. $temp['rp'] .' RP and '. $temp['rpow'] .'$';
 				$stop=0;
 			}
 		}
 	}
 }
+echo '<h3> Research ordered by research points:</h3>';
 $done2=asort($done);
-print_r($done2);
+//print_r($done2);
 foreach($done as $id => $val){
-	echo '<br>'. $id .' is researchable with '. $val .'RP and '. $donepow[$id].'$';
+	$labs=0;
+	if($val>0){
+		$labs=floor($donetotrp[$id]/$val*1000)/1000;
+	}
+	echo '<br>'. $id .' is researchable with '. $val .'RP (total:'. $donetotrp[$id].'RP or ~'. $labs .' labs)and '. $donepow[$id].'$';
 }
