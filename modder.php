@@ -7,7 +7,7 @@ include('Fwz.php');
 include('Fnrs.php');
 include('mod.php'); //I think the distance mod might be in this one ?
 
-$basedir='./mp4.3.5/';
+$basedir='./mp454/';
 /* TA mod
 $savedir='./tinymods/ta/';
 $str=file_get_contents($basedir .'stats/research.json');
@@ -22,7 +22,7 @@ $dump=json_encode($sys['wz']['data']['research'],JSON_PRETTY_PRINT);
 file_put_contents($savedir .'\\stats\\research.json', $dump);
 print_r($sys['wz']['data']['research']);
 //*/
-//* Tiny mod
+/* Tiny mod
 $basedir='./base/';
 $savedir='./tinymods/mini/';
 $scale=.5;
@@ -72,3 +72,21 @@ $str=file_get_contents($basedir .'components/bodies/drlbod01.pie');
 $str=scale_pie_model($str, $scale);
 $str=file_put_contents($savedir .'components/bodies/drlbod01.pie',$str);
 */
+//*Test mod
+#mod designed to allow quick set skirmish fight at abritraty T level.
+$savedir='./tinymods/quicktest/';
+$str=file_get_contents($basedir .'stats/structure.json');
+$sys['wz']['data']['structure']= json_decode($str, TRUE);
+$sys['wz']['data']['structure']['A0CyborgFactory']['productionPoints']=1000000;
+$sys['wz']['data']['structure']['A0LightFactory']['productionPoints']=1000000;
+$sys['wz']['data']['structure']['A0PowerGenerator']['powerPoints']=0;
+$sys['wz']['data']['structure']['A0PowerGenerator']['modulePowerPoints']=0;
+$dump=json_encode($sys['wz']['data']['structure'],JSON_PRETTY_PRINT);
+file_put_contents($savedir .'\\stats\\structure.json', $dump);
+
+$str=file_get_contents($basedir .'stats/construction.json');
+$sys['wz']['data']['construction']= json_decode($str, TRUE);
+$sys['wz']['data']['construction']['Spade1Mk1']['constructPoints']=100000;
+$dump=json_encode($sys['wz']['data']['construction'],JSON_PRETTY_PRINT);
+file_put_contents($savedir .'\\stats\\construction.json', $dump);
+//*/
