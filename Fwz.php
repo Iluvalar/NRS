@@ -646,7 +646,7 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 		
 		if($range>$sensorrange){
 			$range=($range-$sensorrange)*.666+$sensorrange; //sensor range wall...
-			echo 'sensorrange:'. $sensorrange;
+			//echo 'sensorrange:'. $sensorrange;
 		}
 		//$obj['rangeMod']=(1-pow(.996,pow($range+3/$sys['nrs']['dmgscale'],2)))/(1-pow(.996,pow(6+3/$sys['nrs']['dmgscale'],2)));
 		$obj['rangeMod']=(1-pow(.997,pow($range+3/$sys['nrs']['dmgscale'],2)))/(1-pow(.997,pow(6+3/$sys['nrs']['dmgscale'],2)));

@@ -1,0 +1,780 @@
+<h3>phase: 1 </h3>
+<br>
+R-Defense-HardcreteWall is researchable with 600 RP and 18$<br>
+R-Defense-TankTrap01 is researchable with 300 RP and 9$<br>
+R-Defense-Tower01 is researchable with 600 RP and 18$<br>
+R-Defense-WallUpgrade01 is researchable with 1800 RP and 55$<br>
+R-Defense-WallUpgrade02 is researchable with 4200 RP and 130$<br>
+R-Defense-WallUpgrade03 is researchable with 7800 RP and 242$<br>
+R-Struc-Factory-Cyborg is researchable with 1800 RP and 56$<br>
+R-Struc-Materials01 is researchable with 4200 RP and 130$<br>
+R-Sys-MobileRepairTurret01 is researchable with 600 RP and 18$<br>
+R-Sys-Sensor-Tower01 is researchable with 900 RP and 28$<br>
+R-Sys-Sensor-Tower02 is researchable with 2100 RP and 83$<br>
+R-Sys-Spade1Mk1 is researchable with 10 RP and 0$<br>
+R-Vehicle-Body01 is researchable with 600 RP and 18$<br>
+R-Vehicle-Engine01 is researchable with 1200 RP and 37$<br>
+R-Vehicle-Engine02 is researchable with 3600 RP and 112$<br>
+R-Vehicle-Engine03 is researchable with 8400 RP and 262$<br>
+R-Vehicle-Prop-Halftracks is researchable with 1200 RP and 37$<br>
+R-Vehicle-Prop-Wheels is researchable with 1200 RP and 37$<br>
+R-Wpn-Flamer01Mk1 is researchable with 600 RP and 18$<br>
+R-Wpn-MG-Damage01 is researchable with 600 RP and 18$<br>
+R-Wpn-MG-Damage02 is researchable with 1800 RP and 55$<br>
+R-Wpn-MG2Mk1 is researchable with 3000 RP and 92$<br>
+R-Wpn-Rocket05-MiniPod is researchable with 2400 RP and 74$<h3>phase: 2 </h3>
+<br>
+R-Defense-HardcreteGate is researchable with 1500 RP and 46$<br>
+R-Defense-Pillbox01 is researchable with 1200 RP and 54$<br>
+R-Defense-Pillbox05 is researchable with 1350 RP and 59$<br>
+R-Defense-Tower06 is researchable with 3600 RP and 129$<br>
+R-Struc-CommandRelay is researchable with 2100 RP and 65$<br>
+R-Struc-PowerModuleMk1 is researchable with 2400 RP and 74$<br>
+R-Struc-Research-Module is researchable with 3300 RP and 102$<br>
+R-Struc-Research-Upgrade01 is researchable with 4500 RP and 139$<br>
+R-Struc-Research-Upgrade02 is researchable with 6900 RP and 214$<br>
+R-Struc-Research-Upgrade03 is researchable with 10500 RP and 326$<br>
+R-Struc-Research-Upgrade04 is researchable with 15300 RP and 476$<br>
+R-Struc-Research-Upgrade05 is researchable with 21300 RP and 663$<br>
+R-Struc-Research-Upgrade06 is researchable with 29300 RP and 913$<br>
+R-Struc-Research-Upgrade07 is researchable with 39300 RP and 1225$<br>
+R-Struc-Research-Upgrade08 is researchable with 51300 RP and 1600$<br>
+R-Struc-Research-Upgrade09 is researchable with 65300 RP and 2037$<br>
+R-Sys-Autorepair-General is researchable with 65700 RP and 2050$<br>
+R-Sys-Engineering02 is researchable with 20100 RP and 626$<br>
+R-Sys-Engineering03 is researchable with 60900 RP and 2526$<br>
+R-Sys-Sensor-Upgrade01 is researchable with 17100 RP and 532$<br>
+R-Sys-Sensor-Upgrade02 is researchable with 24900 RP and 1307$<br>
+R-Sys-Sensor-Upgrade03 is researchable with 46500 RP and 2757$<br>
+R-Vehicle-Engine04 is researchable with 22300 RP and 956$<br>
+R-Vehicle-Engine05 is researchable with 31300 RP and 1237$<br>
+R-Vehicle-Engine06 is researchable with 42300 RP and 1580$<br>
+R-Wpn-Cannon1Mk1 is researchable with 2400 RP and 74$<br>
+R-Wpn-Flamer-Damage01 is researchable with 1200 RP and 36$<br>
+R-Wpn-Flamer-Damage02 is researchable with 2400 RP and 73$<br>
+R-Wpn-Flamer-Damage03 is researchable with 4900 RP and 148$<br>
+R-Wpn-Flamer-Damage04 is researchable with 12100 RP and 373$<br>
+R-Wpn-Flamer-Damage05 is researchable with 21300 RP and 660$<br>
+R-Wpn-Flamer-Damage06 is researchable with 32500 RP and 1010$<br>
+R-Wpn-Flamer-ROF01 is researchable with 3300 RP and 101$<br>
+R-Wpn-Laser01 is researchable with 53700 RP and 2982$<br>
+R-Wpn-Laser02 is researchable with 82500 RP and 3432$<br>
+R-Wpn-MG-Damage03 is researchable with 5400 RP and 167$<br>
+R-Wpn-MG-Damage04 is researchable with 11400 RP and 392$<br>
+R-Wpn-MG-Damage05 is researchable with 18600 RP and 679$<br>
+R-Wpn-MG-Damage06 is researchable with 26400 RP and 1029$<br>
+R-Wpn-MG-Damage07 is researchable with 35200 RP and 1441$<br>
+R-Wpn-MG-Damage08 is researchable with 46000 RP and 2804$<br>
+R-Wpn-MG3Mk1 is researchable with 6600 RP and 204$<br>
+R-Wpn-Rocket-Damage01 is researchable with 3600 RP and 111$<br>
+R-Wpn-Rocket-Damage02 is researchable with 6000 RP and 186$<br>
+R-Wpn-Rocket-Damage03 is researchable with 8400 RP and 261$<br>
+R-Wpn-Rocket01-LtAT is researchable with 12000 RP and 373$<br>
+R-Wpn-Rocket02-MRL is researchable with 8400 RP and 261$<br>
+R-Wpn-Rocket03-HvAT is researchable with 16800 RP and 849$<br>
+R-Wpn-Sunburst is researchable with 18000 RP and 560$<h3>phase: 3 </h3>
+<br>
+R-Comp-CommandTurret01 is researchable with 2700 RP and 83$<br>
+R-Comp-CommandTurret02 is researchable with 41800 RP and 2693$<br>
+R-Defense-MRL is researchable with 9000 RP and 297$<br>
+R-Defense-Pillbox04 is researchable with 3150 RP and 115$<br>
+R-Defense-Pillbox06 is researchable with 12750 RP and 414$<br>
+R-Defense-PrisLas is researchable with 60900 RP and 3207$<br>
+R-Defense-PulseLas is researchable with 89700 RP and 3657$<br>
+R-Defense-Sunburst is researchable with 20400 RP and 635$<br>
+R-Defense-WallTower-PulseLas is researchable with 89700 RP and 3657$<br>
+R-Defense-WallTower01 is researchable with 7200 RP and 276$<br>
+R-Defense-WallTower02 is researchable with 3150 RP and 115$<br>
+R-Defense-WallTower06 is researchable with 12750 RP and 414$<br>
+R-Defense-WallUpgrade04 is researchable with 26100 RP and 1055$<br>
+R-Defense-WallUpgrade05 is researchable with 34100 RP and 1305$<br>
+R-Defense-WallUpgrade06 is researchable with 44100 RP and 1617$<br>
+R-Defense-WallUpgrade07 is researchable with 72900 RP and 4518$<br>
+R-Defense-WallUpgrade08 is researchable with 86900 RP and 4955$<br>
+R-Defense-WallUpgrade09 is researchable with 102900 RP and 5405$<br>
+R-Defense-WallUpgrade10 is researchable with 120900 RP and 5855$<br>
+R-Defense-WallUpgrade11 is researchable with 142900 RP and 6305$<br>
+R-Defense-WallUpgrade12 is researchable with 166900 RP and 6755$<br>
+R-Struc-Factory-Module is researchable with 4800 RP and 205$<br>
+R-Struc-Factory-Upgrade01 is researchable with 7200 RP and 280$<br>
+R-Struc-Factory-Upgrade04 is researchable with 19700 RP and 893$<br>
+R-Struc-Factory-Upgrade07 is researchable with 76100 RP and 3869$<br>
+R-Struc-Factory-Upgrade09 is researchable with 95300 RP and 4319$<br>
+R-Struc-Materials02 is researchable with 32100 RP and 1372$<br>
+R-Struc-Materials03 is researchable with 84900 RP and 6265$<br>
+R-Struc-Power-Upgrade01 is researchable with 21300 RP and 737$<br>
+R-Struc-Power-Upgrade01b is researchable with 27300 RP and 924$<br>
+R-Struc-Power-Upgrade01c is researchable with 33300 RP and 1111$<br>
+R-Struc-Power-Upgrade02 is researchable with 48300 RP and 2617$<br>
+R-Struc-Power-Upgrade03 is researchable with 60300 RP and 2992$<br>
+R-Struc-Power-Upgrade03a is researchable with 72300 RP and 3367$<br>
+R-Struc-RepairFacility is researchable with 7200 RP and 298$<br>
+R-Struc-RprFac-Upgrade01 is researchable with 9600 RP and 653$<br>
+R-Struc-RprFac-Upgrade04 is researchable with 25700 RP and 1733$<br>
+R-Struc-RprFac-Upgrade06 is researchable with 70900 RP and 4571$<br>
+R-Sys-MobileRepairTurretHvy is researchable with 7200 RP and 298$<br>
+R-Sys-RadarDetector01 is researchable with 19100 RP and 594$<br>
+R-Sys-SpyTurret is researchable with 58500 RP and 5825$<br>
+R-Vehicle-Body05 is researchable with 6000 RP and 242$<br>
+R-Vehicle-Metals01 is researchable with 6600 RP and 363$<br>
+R-Vehicle-Metals02 is researchable with 10200 RP and 475$<br>
+R-Vehicle-Metals03 is researchable with 15600 RP and 643$<br>
+R-Vehicle-Metals04 is researchable with 23200 RP and 1356$<br>
+R-Vehicle-Metals05 is researchable with 32800 RP and 1656$<br>
+R-Vehicle-Metals06 is researchable with 44400 RP and 2018$<br>
+R-Vehicle-Metals07 is researchable with 58000 RP and 3668$<br>
+R-Vehicle-Metals08 is researchable with 73600 RP and 4118$<br>
+R-Vehicle-Metals09 is researchable with 91200 RP and 4568$<br>
+R-Vehicle-Prop-Hover is researchable with 8400 RP and 429$<br>
+R-Vehicle-Prop-Tracks is researchable with 12600 RP and 587$<br>
+R-Wpn-Cannon-Damage01 is researchable with 3600 RP and 111$<br>
+R-Wpn-Cannon-Damage02 is researchable with 6050 RP and 187$<br>
+R-Wpn-Cannon-Damage03 is researchable with 9650 RP and 299$<br>
+R-Wpn-Cannon-Damage04 is researchable with 15650 RP and 486$<br>
+R-Wpn-Cannon-Damage05 is researchable with 22850 RP and 711$<br>
+R-Wpn-Cannon-Damage06 is researchable with 31250 RP and 973$<br>
+R-Wpn-Cannon-Damage07 is researchable with 40850 RP and 1273$<br>
+R-Wpn-Cannon-Damage08 is researchable with 51650 RP and 1610$<br>
+R-Wpn-Cannon-Damage09 is researchable with 63650 RP and 1985$<br>
+R-Wpn-Cannon-ROF01 is researchable with 19650 RP and 611$<br>
+R-Wpn-Cannon-ROF02 is researchable with 25700 RP and 1691$<br>
+R-Wpn-Cannon-ROF03 is researchable with 33700 RP and 1941$<br>
+R-Wpn-Cannon-ROF04 is researchable with 50850 RP and 3526$<br>
+R-Wpn-Cannon-ROF05 is researchable with 62850 RP and 3901$<br>
+R-Wpn-Cannon-ROF06 is researchable with 76850 RP and 4338$<br>
+R-Wpn-Cannon2Mk1 is researchable with 8400 RP and 428$<br>
+R-Wpn-Cannon3Mk1 is researchable with 31650 RP and 2057$<br>
+R-Wpn-Cannon5 is researchable with 24450 RP and 761$<br>
+R-Wpn-Cannon6TwinAslt is researchable with 36350 RP and 1899$<br>
+R-Wpn-EMPCannon is researchable with 65700 RP and 4743$<br>
+R-Wpn-Energy-Accuracy01 is researchable with 68100 RP and 3432$<br>
+R-Wpn-Energy-Damage01 is researchable with 82500 RP and 3882$<br>
+R-Wpn-Energy-Damage02 is researchable with 111300 RP and 4332$<br>
+R-Wpn-Energy-Damage03 is researchable with 154500 RP and 4782$<br>
+R-Wpn-Energy-ROF01 is researchable with 96900 RP and 4332$<br>
+R-Wpn-Energy-ROF02 is researchable with 125700 RP and 4782$<br>
+R-Wpn-Energy-ROF03 is researchable with 168900 RP and 5232$<br>
+R-Wpn-Flame2 is researchable with 19300 RP and 598$<br>
+R-Wpn-Flamer-ROF02 is researchable with 25300 RP and 886$<br>
+R-Wpn-Flamer-ROF03 is researchable with 33300 RP and 1136$<br>
+R-Wpn-HvyLaser is researchable with 118500 RP and 4332$<br>
+R-Wpn-MG-ROF01 is researchable with 10800 RP and 559$<br>
+R-Wpn-MG-ROF02 is researchable with 15600 RP and 709$<br>
+R-Wpn-MG4 is researchable with 21600 RP and 1100$<br>
+R-Wpn-MG5 is researchable with 36500 RP and 2238$<br>
+R-Wpn-Mortar01Lt is researchable with 6000 RP and 186$<br>
+R-Wpn-MortarEMP is researchable with 79700 RP and 7937$<br>
+R-Wpn-Plasmite-Flamer is researchable with 46500 RP and 2048$<br>
+R-Wpn-Rocket-Accuracy01 is researchable with 8400 RP and 400$<br>
+R-Wpn-Rocket-Damage04 is researchable with 16800 RP and 523$<br>
+R-Wpn-Rocket-Damage05 is researchable with 22800 RP and 710$<br>
+R-Wpn-Rocket-Damage06 is researchable with 30000 RP and 935$<br>
+R-Wpn-Rocket-Damage07 is researchable with 38400 RP and 1197$<br>
+R-Wpn-Rocket-Damage08 is researchable with 48000 RP and 1497$<br>
+R-Wpn-Rocket-Damage09 is researchable with 58800 RP and 1834$<br>
+R-Wpn-Rocket-ROF01 is researchable with 9600 RP and 541$<br>
+R-Wpn-Rocket-ROF02 is researchable with 14400 RP and 952$<br>
+R-Wpn-Rocket-ROF03 is researchable with 24000 RP and 1252$<br>
+R-Wpn-Rocket02-MRLHvy is researchable with 28800 RP and 1158$<h3>phase: 4 </h3>
+<br>
+R-Cyborg-Metals01 is researchable with 6000 RP and 344$<br>
+R-Cyborg-Metals02 is researchable with 8400 RP and 419$<br>
+R-Cyborg-Metals03 is researchable with 12000 RP and 531$<br>
+R-Cyborg-Metals04 is researchable with 20900 RP and 1182$<br>
+R-Cyborg-Metals05 is researchable with 28500 RP and 1419$<br>
+R-Cyborg-Metals06 is researchable with 38100 RP and 1719$<br>
+R-Cyborg-Metals07 is researchable with 49700 RP and 2081$<br>
+R-Cyborg-Metals08 is researchable with 63300 RP and 2506$<br>
+R-Cyborg-Metals09 is researchable with 78900 RP and 2956$<br>
+R-Defense-Cannon6 is researchable with 39550 RP and 3054$<br>
+R-Defense-EMPCannon is researchable with 69300 RP and 4855$<br>
+R-Defense-EMPMortar is researchable with 83300 RP and 8049$<br>
+R-Defense-HeavyLas is researchable with 128700 RP and 4650$<br>
+R-Defense-HvyFlamer is researchable with 21300 RP and 660$<br>
+R-Defense-MRLHvy is researchable with 30000 RP and 1213$<br>
+R-Defense-MortarPit is researchable with 6600 RP and 222$<br>
+R-Defense-PlasmiteFlamer is researchable with 48500 RP and 2110$<br>
+R-Defense-RotMG is researchable with 23400 RP and 1156$<br>
+R-Defense-Super-Cannon is researchable with 42500 RP and 2278$<br>
+R-Defense-Wall-RotMg is researchable with 25200 RP and 1212$<br>
+R-Defense-Wall-VulcanCan is researchable with 26850 RP and 836$<br>
+R-Defense-WallTower-TwinAGun is researchable with 38900 RP and 2313$<br>
+R-Defense-WallTower03 is researchable with 9300 RP and 571$<br>
+R-Defense-WallTower04 is researchable with 32850 RP and 2665$<br>
+R-Struc-VTOLFactory is researchable with 14400 RP and 1158$<br>
+R-Sys-Resistance-Circuits is researchable with 83300 RP and 8312$<br>
+R-Sys-SpyTower is researchable with 62100 RP and 5937$<br>
+R-Vehicle-Armor-Heat01 is researchable with 20400 RP and 793$<br>
+R-Vehicle-Armor-Heat02 is researchable with 27400 RP and 1011$<br>
+R-Vehicle-Armor-Heat03 is researchable with 36400 RP and 1292$<br>
+R-Vehicle-Armor-Heat04 is researchable with 55400 RP and 3653$<br>
+R-Vehicle-Armor-Heat05 is researchable with 68400 RP and 4059$<br>
+R-Vehicle-Armor-Heat06 is researchable with 83400 RP and 4509$<br>
+R-Vehicle-Armor-Heat07 is researchable with 100400 RP and 4959$<br>
+R-Vehicle-Armor-Heat08 is researchable with 119400 RP and 5409$<br>
+R-Vehicle-Armor-Heat09 is researchable with 140400 RP and 5859$<br>
+R-Vehicle-Body02 is researchable with 29200 RP and 1543$<br>
+R-Vehicle-Body03 is researchable with 65200 RP and 5130$<br>
+R-Vehicle-Body04 is researchable with 7800 RP and 400$<br>
+R-Vehicle-Body06 is researchable with 36400 RP and 2010$<br>
+R-Vehicle-Body07 is researchable with 88000 RP and 11278$<br>
+R-Vehicle-Body08 is researchable with 12600 RP and 950$<br>
+R-Vehicle-Body11 is researchable with 12600 RP and 792$<br>
+R-Vehicle-Body12 is researchable with 16200 RP and 1324$<br>
+R-Vehicle-Prop-VTOL is researchable with 20400 RP and 1345$<br>
+R-Wpn-AAGun03 is researchable with 19200 RP and 821$<br>
+R-Wpn-AALaser is researchable with 125700 RP and 4782$<br>
+R-Wpn-Bomb01 is researchable with 25900 RP and 1516$<br>
+R-Wpn-Bomb03 is researchable with 33100 RP and 1889$<br>
+R-Wpn-Bomb04 is researchable with 42300 RP and 2836$<br>
+R-Wpn-Bomb05 is researchable with 66500 RP and 5334$<br>
+R-Wpn-Cannon-Accuracy01 is researchable with 9650 RP and 438$<br>
+R-Wpn-Cannon-Accuracy02 is researchable with 20100 RP and 1064$<br>
+R-Wpn-Cannon4AMk1 is researchable with 14450 RP and 588$<br>
+R-Wpn-Flamer-Damage07 is researchable with 59700 RP and 3470$<br>
+R-Wpn-Flamer-Damage08 is researchable with 74900 RP and 3920$<br>
+R-Wpn-Flamer-Damage09 is researchable with 92100 RP and 4370$<br>
+R-Wpn-MG-ROF03 is researchable with 27600 RP and 1287$<br>
+R-Wpn-Mortar-Damage01 is researchable with 7800 RP and 242$<br>
+R-Wpn-Mortar-Damage02 is researchable with 11400 RP and 354$<br>
+R-Wpn-Mortar-Damage03 is researchable with 18600 RP and 579$<br>
+R-Wpn-Mortar-Damage04 is researchable with 27800 RP and 866$<br>
+R-Wpn-Mortar-Damage05 is researchable with 37100 RP and 1156$<br>
+R-Wpn-Mortar-Damage06 is researchable with 46500 RP and 1449$<br>
+R-Wpn-Mortar-Incendiary is researchable with 24100 RP and 1102$<br>
+R-Wpn-Mortar-ROF01 is researchable with 20400 RP and 635$<br>
+R-Wpn-Mortar-ROF02 is researchable with 26400 RP and 822$<br>
+R-Wpn-Mortar-ROF03 is researchable with 32700 RP and 1018$<br>
+R-Wpn-Mortar-ROF04 is researchable with 40300 RP and 3165$<br>
+R-Wpn-Mortar02Hvy is researchable with 18600 RP and 942$<br>
+R-Wpn-Mortar3 is researchable with 18600 RP and 942$<br>
+R-Wpn-PlasmaCannon is researchable with 41300 RP and 2474$<br>
+R-Wpn-RailGun01 is researchable with 55250 RP and 4600$<br>
+R-Wpn-Rocket-Accuracy02 is researchable with 21600 RP and 1073$<br>
+R-Wpn-RocketSlow-Accuracy01 is researchable with 27600 RP and 1260$<br>
+R-Wpn-RocketSlow-Accuracy02 is researchable with 34800 RP and 1961$<h3>phase: 5 </h3>
+<br>
+R-Cyborg-Armor-Heat01 is researchable with 15600 RP and 643$<br>
+R-Cyborg-Armor-Heat02 is researchable with 20400 RP and 793$<br>
+R-Cyborg-Armor-Heat03 is researchable with 26400 RP and 980$<br>
+R-Cyborg-Armor-Heat04 is researchable with 46100 RP and 2949$<br>
+R-Cyborg-Armor-Heat05 is researchable with 56100 RP and 3261$<br>
+R-Cyborg-Armor-Heat06 is researchable with 68100 RP and 3636$<br>
+R-Cyborg-Armor-Heat07 is researchable with 82100 RP and 4073$<br>
+R-Cyborg-Armor-Heat08 is researchable with 98100 RP and 4523$<br>
+R-Cyborg-Armor-Heat09 is researchable with 116100 RP and 4973$<br>
+R-Cyborg-Hvywpn-Mcannon is researchable with 24900 RP and 1735$<br>
+R-Cyborg-Hvywpn-PulseLsr is researchable with 87500 RP and 4770$<br>
+R-Cyborg-Transport is researchable with 18000 RP and 1270$<br>
+R-Defense-AA-Laser is researchable with 140100 RP and 5232$<br>
+R-Defense-AASite-QuadMg1 is researchable with 21600 RP and 896$<br>
+R-Defense-Emplacement-HPVcannon is researchable with 16050 RP and 638$<br>
+R-Defense-GuardTower-Rail1 is researchable with 58850 RP and 4712$<br>
+R-Defense-HvyMor is researchable with 19800 RP and 1201$<br>
+R-Defense-MortarPit-Incendiary is researchable with 25300 RP and 1361$<br>
+R-Defense-PlasmaCannon is researchable with 48500 RP and 2699$<br>
+R-Defense-RotMor is researchable with 19800 RP and 1201$<br>
+R-Defense-Super-Rocket is researchable with 60000 RP and 5138$<br>
+R-Defense-WallTower-HPVcannon is researchable with 16850 RP and 663$<br>
+R-Struc-VTOLPad is researchable with 24000 RP and 1457$<br>
+R-Struc-VTOLPad-Upgrade01 is researchable with 28800 RP and 1607$<br>
+R-Struc-VTOLPad-Upgrade02 is researchable with 34800 RP and 1794$<br>
+R-Struc-VTOLPad-Upgrade03 is researchable with 42800 RP and 2044$<br>
+R-Struc-VTOLPad-Upgrade04 is researchable with 52800 RP and 2982$<br>
+R-Struc-VTOLPad-Upgrade05 is researchable with 64800 RP and 3357$<br>
+R-Struc-VTOLPad-Upgrade06 is researchable with 78800 RP and 3794$<br>
+R-SuperTransport is researchable with 22000 RP and 1395$<br>
+R-Sys-VTOLStrike-Turret01 is researchable with 31200 RP and 2214$<br>
+R-Vehicle-Body09 is researchable with 44800 RP and 3064$<br>
+R-Vehicle-Engine07 is researchable with 71000 RP and 6999$<br>
+R-Vehicle-Engine08 is researchable with 103000 RP and 18727$<br>
+R-Wpn-AAGun01 is researchable with 20450 RP and 775$<br>
+R-Wpn-AAGun02 is researchable with 49300 RP and 4369$<br>
+R-Wpn-AAGun04 is researchable with 40100 RP and 3358$<br>
+R-Wpn-Bomb-Damage01 is researchable with 33100 RP and 2571$<br>
+R-Wpn-Bomb-Damage02 is researchable with 42300 RP and 2858$<br>
+R-Wpn-Bomb-Damage03 is researchable with 53500 RP and 3208$<br>
+R-Wpn-Bomb02 is researchable with 40300 RP and 2796$<br>
+R-Wpn-Bomb06 is researchable with 61500 RP and 6151$<br>
+R-Wpn-HeavyPlasmaLauncher is researchable with 103700 RP and 6844$<br>
+R-Wpn-HowitzerMk1 is researchable with 38940 RP and 2611$<br>
+R-Wpn-Mortar-Acc01 is researchable with 11400 RP and 568$<br>
+R-Wpn-Mortar-Acc02 is researchable with 16200 RP and 718$<br>
+R-Wpn-Mortar-Acc03 is researchable with 22200 RP and 905$<br>
+R-Wpn-Rail-Damage01 is researchable with 69650 RP and 5050$<br>
+R-Wpn-Rail-Damage02 is researchable with 98450 RP and 5500$<br>
+R-Wpn-RailGun02 is researchable with 127250 RP and 5950$<br>
+R-Wpn-Rocket07-Tank-Killer is researchable with 33600 RP and 2157$<h3>phase: 6 </h3>
+<br>
+R-Cyborg-Hvywpn-Acannon is researchable with 28900 RP and 2621$<br>
+R-Cyborg-Hvywpn-HPV is researchable with 28900 RP and 2448$<br>
+R-Cyborg-Hvywpn-RailGunner is researchable with 132750 RP and 7303$<br>
+R-Cyborg-Hvywpn-TK is researchable with 37600 RP and 3464$<br>
+R-Defense-AASite-QuadBof is researchable with 22850 RP and 850$<br>
+R-Defense-AASite-QuadBof02 is researchable with 54100 RP and 4519$<br>
+R-Defense-AASite-QuadRotMg is researchable with 44900 RP and 4404$<br>
+R-Defense-HeavyPlasmaLauncher is researchable with 132500 RP and 7294$<br>
+R-Defense-Howitzer is researchable with 43740 RP and 2761$<br>
+R-Defense-HvyA-Trocket is researchable with 34800 RP and 2194$<br>
+R-Defense-Rail2 is researchable with 132250 RP and 6106$<br>
+R-Defense-WallTower-DoubleAAgun is researchable with 25250 RP and 925$<br>
+R-Defense-WallTower-DoubleAAgun02 is researchable with 56500 RP and 4594$<br>
+R-Defense-WallTower-HvyA-Trocket is researchable with 34800 RP and 2194$<br>
+R-Defense-WallTower-QuadRotAA is researchable with 52100 RP and 4629$<br>
+R-Defense-WallTower-Rail2 is researchable with 134450 RP and 6175$<br>
+R-Sys-CBSensor-Turret01 is researchable with 21900 RP and 1250$<br>
+R-Sys-VTOLCBS-Turret01 is researchable with 39600 RP and 5033$<br>
+R-Sys-VTOLStrike-Tower01 is researchable with 38400 RP and 2522$<br>
+R-Vehicle-Body10 is researchable with 120000 RP and 23295$<br>
+R-Vehicle-Engine09 is researchable with 137000 RP and 42472$<br>
+R-Wpn-Howitzer-Accuracy01 is researchable with 46140 RP and 2836$<br>
+R-Wpn-Howitzer-Accuracy02 is researchable with 55340 RP and 3123$<br>
+R-Wpn-Howitzer-Accuracy03 is researchable with 66540 RP and 3473$<br>
+R-Wpn-Howitzer-Damage01 is researchable with 44940 RP and 2798$<br>
+R-Wpn-Howitzer-Damage02 is researchable with 52940 RP and 3048$<br>
+R-Wpn-Howitzer-Damage03 is researchable with 62940 RP and 3360$<br>
+R-Wpn-Howitzer-Damage04 is researchable with 81740 RP and 5083$<br>
+R-Wpn-Howitzer-Damage05 is researchable with 110540 RP and 5533$<br>
+R-Wpn-Howitzer-Damage06 is researchable with 153740 RP and 5983$<br>
+R-Wpn-Howitzer-Incendiary is researchable with 48940 RP and 4025$<br>
+R-Wpn-Howitzer-ROF01 is researchable with 81740 RP and 3810$<br>
+R-Wpn-Howitzer-ROF02 is researchable with 110540 RP and 4260$<br>
+R-Wpn-Howitzer-ROF03 is researchable with 153740 RP and 4710$<br>
+R-Wpn-Howitzer-ROF04 is researchable with 210340 RP and 5160$<br>
+R-Wpn-Howitzer03-Rot is researchable with 48940 RP and 3865$<br>
+R-Wpn-HvyHowitzer is researchable with 67340 RP and 4440$<br>
+R-Wpn-Missile2A-T is researchable with 55900 RP and 5793$<br>
+R-Wpn-Rail-Accuracy01 is researchable with 84050 RP and 5500$<br>
+R-Wpn-Rail-Damage03 is researchable with 170450 RP and 6400$<br>
+R-Wpn-Rail-ROF01 is researchable with 98450 RP and 5950$<br>
+R-Wpn-Rail-ROF02 is researchable with 127250 RP and 6400$<br>
+R-Wpn-Rail-ROF03 is researchable with 170450 RP and 6850$<br>
+R-Wpn-RailGun03 is researchable with 213650 RP and 6850$<br>
+R-Wpn-Rocket06-IDF is researchable with 29100 RP and 1736$<h3>phase: 7 </h3>
+<br>
+R-Cyborg-Hvywpn-A-T is researchable with 60900 RP and 7131$<br>
+R-Defense-GuardTower-ATMiss is researchable with 59500 RP and 5905$<br>
+R-Defense-Howitzer-Incendiary is researchable with 53740 RP and 6936$<br>
+R-Defense-HvyHowitzer is researchable with 73340 RP and 7388$<br>
+R-Defense-IDFRocket is researchable with 33900 RP and 2183$<br>
+R-Defense-MassDriver is researchable with 263650 RP and 20005$<br>
+R-Defense-Rail3 is researchable with 218650 RP and 7006$<br>
+R-Defense-RotHow is researchable with 53940 RP and 6782$<br>
+R-Defense-WallTower-A-Tmiss is researchable with 59500 RP and 5905$<br>
+R-Defense-WallTower-Rail3 is researchable with 220850 RP and 7075$<br>
+R-Sys-CBSensor-Tower01 is researchable with 25500 RP and 1445$<br>
+R-Sys-Sensor-WS is researchable with 54000 RP and 6708$<br>
+R-Sys-Sensor-WSTower is researchable with 70400 RP and 7241$<br>
+R-Sys-VTOLCBS-Tower01 is researchable with 46800 RP and 5341$<br>
+R-Vehicle-Body13 is researchable with 165800 RP and 47431$<br>
+R-Vehicle-Body14 is researchable with 209000 RP and 47881$<br>
+R-Wpn-MdArtMissile is researchable with 84700 RP and 6504$<br>
+R-Wpn-Missile-LtSAM is researchable with 70300 RP and 7550$<br>
+R-Wpn-Missile-ROF01 is researchable with 70300 RP and 6243$<br>
+R-Wpn-Missile-ROF02 is researchable with 99100 RP and 6693$<br>
+R-Wpn-Missile-ROF03 is researchable with 142300 RP and 7143$<h3>phase: 8 </h3>
+<br>
+R-Defense-MdArtMissile is researchable with 91900 RP and 6729$<br>
+R-Defense-SamSite1 is researchable with 77500 RP and 7775$<br>
+R-Defense-Super-Missile is researchable with 192300 RP and 13448$<br>
+R-Defense-WallTower-SamSite is researchable with 88300 RP and 12630$<br>
+R-Sys-Sensor-UpLink is researchable with 89700 RP and 9684$<br>
+R-Wpn-LasSat is researchable with 146300 RP and 12171$<br>
+R-Wpn-Missile-Damage01 is researchable with 84700 RP and 6693$<br>
+R-Wpn-Missile-Damage02 is researchable with 113500 RP and 7143$<br>
+R-Wpn-Missile-Damage03 is researchable with 156700 RP and 7593$<br>
+R-Wpn-Missile-HvSAM is researchable with 185500 RP and 15593$<h3>phase: 9 </h3>
+<br>
+R-Defense-SamSite2 is researchable with 199900 RP and 16043$<br>
+R-Defense-WallTower-SamHvy is researchable with 203500 RP and 20561$<br>
+R-Wpn-HvArtMissile is researchable with 142300 RP and 15833$<br>
+R-Wpn-Missile-Accuracy01 is researchable with 99100 RP and 7143$<br>
+R-Wpn-Missile-Accuracy02 is researchable with 127900 RP and 7593$<h3>phase: 10 </h3>
+<br>
+R-Defense-HvyArtMissile is researchable with 171100 RP and 16283$<h3>phase: 11 </h3>
+1<br>
+R-Sys-Sensor-Turret01 is researchable with 0RP and $<br>
+R-Wpn-MG1Mk1 is researchable with 0RP and $<br>
+R-Sys-Engineering01 is researchable with 0RP and $<br>
+R-Sys-Spade1Mk1 is researchable with 10RP and 0$<br>
+R-Defense-TankTrap01 is researchable with 300RP and 9$<br>
+R-Defense-HardcreteWall is researchable with 600RP and 18$<br>
+R-Defense-Tower01 is researchable with 600RP and 18$<br>
+R-Sys-MobileRepairTurret01 is researchable with 600RP and 18$<br>
+R-Vehicle-Body01 is researchable with 600RP and 18$<br>
+R-Wpn-Flamer01Mk1 is researchable with 600RP and 18$<br>
+R-Wpn-MG-Damage01 is researchable with 600RP and 18$<br>
+R-Sys-Sensor-Tower01 is researchable with 900RP and 28$<br>
+R-Vehicle-Engine01 is researchable with 1200RP and 37$<br>
+R-Vehicle-Prop-Halftracks is researchable with 1200RP and 37$<br>
+R-Vehicle-Prop-Wheels is researchable with 1200RP and 37$<br>
+R-Defense-Pillbox01 is researchable with 1200RP and 54$<br>
+R-Wpn-Flamer-Damage01 is researchable with 1200RP and 36$<br>
+R-Defense-Pillbox05 is researchable with 1350RP and 59$<br>
+R-Defense-HardcreteGate is researchable with 1500RP and 46$<br>
+R-Defense-WallUpgrade01 is researchable with 1800RP and 55$<br>
+R-Struc-Factory-Cyborg is researchable with 1800RP and 56$<br>
+R-Wpn-MG-Damage02 is researchable with 1800RP and 55$<br>
+R-Sys-Sensor-Tower02 is researchable with 2100RP and 83$<br>
+R-Struc-CommandRelay is researchable with 2100RP and 65$<br>
+R-Wpn-Rocket05-MiniPod is researchable with 2400RP and 74$<br>
+R-Struc-PowerModuleMk1 is researchable with 2400RP and 74$<br>
+R-Wpn-Cannon1Mk1 is researchable with 2400RP and 74$<br>
+R-Wpn-Flamer-Damage02 is researchable with 2400RP and 73$<br>
+R-Comp-CommandTurret01 is researchable with 2700RP and 83$<br>
+R-Wpn-MG2Mk1 is researchable with 3000RP and 92$<br>
+R-Defense-Pillbox04 is researchable with 3150RP and 115$<br>
+R-Defense-WallTower02 is researchable with 3150RP and 115$<br>
+R-Struc-Research-Module is researchable with 3300RP and 102$<br>
+R-Wpn-Flamer-ROF01 is researchable with 3300RP and 101$<br>
+R-Vehicle-Engine02 is researchable with 3600RP and 112$<br>
+R-Defense-Tower06 is researchable with 3600RP and 129$<br>
+R-Wpn-Rocket-Damage01 is researchable with 3600RP and 111$<br>
+R-Wpn-Cannon-Damage01 is researchable with 3600RP and 111$<br>
+R-Defense-WallUpgrade02 is researchable with 4200RP and 130$<br>
+R-Struc-Materials01 is researchable with 4200RP and 130$<br>
+R-Struc-Research-Upgrade01 is researchable with 4500RP and 139$<br>
+R-Struc-Factory-Module is researchable with 4800RP and 205$<br>
+R-Wpn-Flamer-Damage03 is researchable with 4900RP and 148$<br>
+R-Wpn-MG-Damage03 is researchable with 5400RP and 167$<br>
+R-Wpn-Rocket-Damage02 is researchable with 6000RP and 186$<br>
+R-Vehicle-Body05 is researchable with 6000RP and 242$<br>
+R-Wpn-Mortar01Lt is researchable with 6000RP and 186$<br>
+R-Cyborg-Metals01 is researchable with 6000RP and 344$<br>
+R-Wpn-Cannon-Damage02 is researchable with 6050RP and 187$<br>
+R-Wpn-MG3Mk1 is researchable with 6600RP and 204$<br>
+R-Vehicle-Metals01 is researchable with 6600RP and 363$<br>
+R-Defense-MortarPit is researchable with 6600RP and 222$<br>
+R-Struc-Research-Upgrade02 is researchable with 6900RP and 214$<br>
+R-Defense-WallTower01 is researchable with 7200RP and 276$<br>
+R-Struc-Factory-Upgrade01 is researchable with 7200RP and 280$<br>
+R-Struc-RepairFacility is researchable with 7200RP and 298$<br>
+R-Sys-MobileRepairTurretHvy is researchable with 7200RP and 298$<br>
+R-Defense-WallUpgrade03 is researchable with 7800RP and 242$<br>
+R-Vehicle-Body04 is researchable with 7800RP and 400$<br>
+R-Wpn-Mortar-Damage01 is researchable with 7800RP and 242$<br>
+R-Vehicle-Engine03 is researchable with 8400RP and 262$<br>
+R-Wpn-Rocket-Damage03 is researchable with 8400RP and 261$<br>
+R-Wpn-Rocket02-MRL is researchable with 8400RP and 261$<br>
+R-Vehicle-Prop-Hover is researchable with 8400RP and 429$<br>
+R-Wpn-Cannon2Mk1 is researchable with 8400RP and 428$<br>
+R-Wpn-Rocket-Accuracy01 is researchable with 8400RP and 400$<br>
+R-Cyborg-Metals02 is researchable with 8400RP and 419$<br>
+R-Defense-MRL is researchable with 9000RP and 297$<br>
+R-Defense-WallTower03 is researchable with 9300RP and 571$<br>
+R-Struc-RprFac-Upgrade01 is researchable with 9600RP and 653$<br>
+R-Wpn-Rocket-ROF01 is researchable with 9600RP and 541$<br>
+R-Wpn-Cannon-Damage03 is researchable with 9650RP and 299$<br>
+R-Wpn-Cannon-Accuracy01 is researchable with 9650RP and 438$<br>
+R-Vehicle-Metals02 is researchable with 10200RP and 475$<br>
+R-Struc-Research-Upgrade03 is researchable with 10500RP and 326$<br>
+R-Wpn-MG-ROF01 is researchable with 10800RP and 559$<br>
+R-Wpn-MG-Damage04 is researchable with 11400RP and 392$<br>
+R-Wpn-Mortar-Damage02 is researchable with 11400RP and 354$<br>
+R-Wpn-Mortar-Acc01 is researchable with 11400RP and 568$<br>
+R-Wpn-Rocket01-LtAT is researchable with 12000RP and 373$<br>
+R-Cyborg-Metals03 is researchable with 12000RP and 531$<br>
+R-Wpn-Flamer-Damage04 is researchable with 12100RP and 373$<br>
+R-Vehicle-Prop-Tracks is researchable with 12600RP and 587$<br>
+R-Vehicle-Body08 is researchable with 12600RP and 950$<br>
+R-Vehicle-Body11 is researchable with 12600RP and 792$<br>
+R-Defense-Pillbox06 is researchable with 12750RP and 414$<br>
+R-Defense-WallTower06 is researchable with 12750RP and 414$<br>
+R-Wpn-Rocket-ROF02 is researchable with 14400RP and 952$<br>
+R-Struc-VTOLFactory is researchable with 14400RP and 1158$<br>
+R-Wpn-Cannon4AMk1 is researchable with 14450RP and 588$<br>
+R-Struc-Research-Upgrade04 is researchable with 15300RP and 476$<br>
+R-Vehicle-Metals03 is researchable with 15600RP and 643$<br>
+R-Wpn-MG-ROF02 is researchable with 15600RP and 709$<br>
+R-Cyborg-Armor-Heat01 is researchable with 15600RP and 643$<br>
+R-Wpn-Cannon-Damage04 is researchable with 15650RP and 486$<br>
+R-Defense-Emplacement-HPVcannon is researchable with 16050RP and 638$<br>
+R-Vehicle-Body12 is researchable with 16200RP and 1324$<br>
+R-Wpn-Mortar-Acc02 is researchable with 16200RP and 718$<br>
+R-Wpn-Rocket03-HvAT is researchable with 16800RP and 849$<br>
+R-Wpn-Rocket-Damage04 is researchable with 16800RP and 523$<br>
+R-Defense-WallTower-HPVcannon is researchable with 16850RP and 663$<br>
+R-Sys-Sensor-Upgrade01 is researchable with 17100RP and 532$<br>
+R-Wpn-Sunburst is researchable with 18000RP and 560$<br>
+R-Cyborg-Transport is researchable with 18000RP and 1270$<br>
+R-Wpn-MG-Damage05 is researchable with 18600RP and 679$<br>
+R-Wpn-Mortar-Damage03 is researchable with 18600RP and 579$<br>
+R-Wpn-Mortar02Hvy is researchable with 18600RP and 942$<br>
+R-Wpn-Mortar3 is researchable with 18600RP and 942$<br>
+R-Sys-RadarDetector01 is researchable with 19100RP and 594$<br>
+R-Wpn-AAGun03 is researchable with 19200RP and 821$<br>
+R-Wpn-Flame2 is researchable with 19300RP and 598$<br>
+R-Wpn-Cannon-ROF01 is researchable with 19650RP and 611$<br>
+R-Struc-Factory-Upgrade04 is researchable with 19700RP and 893$<br>
+R-Defense-HvyMor is researchable with 19800RP and 1201$<br>
+R-Defense-RotMor is researchable with 19800RP and 1201$<br>
+R-Sys-Engineering02 is researchable with 20100RP and 626$<br>
+R-Wpn-Cannon-Accuracy02 is researchable with 20100RP and 1064$<br>
+R-Defense-Sunburst is researchable with 20400RP and 635$<br>
+R-Vehicle-Armor-Heat01 is researchable with 20400RP and 793$<br>
+R-Vehicle-Prop-VTOL is researchable with 20400RP and 1345$<br>
+R-Wpn-Mortar-ROF01 is researchable with 20400RP and 635$<br>
+R-Cyborg-Armor-Heat02 is researchable with 20400RP and 793$<br>
+R-Wpn-AAGun01 is researchable with 20450RP and 775$<br>
+R-Cyborg-Metals04 is researchable with 20900RP and 1182$<br>
+R-Struc-Research-Upgrade05 is researchable with 21300RP and 663$<br>
+R-Wpn-Flamer-Damage05 is researchable with 21300RP and 660$<br>
+R-Struc-Power-Upgrade01 is researchable with 21300RP and 737$<br>
+R-Defense-HvyFlamer is researchable with 21300RP and 660$<br>
+R-Wpn-MG4 is researchable with 21600RP and 1100$<br>
+R-Wpn-Rocket-Accuracy02 is researchable with 21600RP and 1073$<br>
+R-Defense-AASite-QuadMg1 is researchable with 21600RP and 896$<br>
+R-Sys-CBSensor-Turret01 is researchable with 21900RP and 1250$<br>
+R-SuperTransport is researchable with 22000RP and 1395$<br>
+R-Wpn-Mortar-Acc03 is researchable with 22200RP and 905$<br>
+R-Vehicle-Engine04 is researchable with 22300RP and 956$<br>
+R-Wpn-Rocket-Damage05 is researchable with 22800RP and 710$<br>
+R-Wpn-Cannon-Damage05 is researchable with 22850RP and 711$<br>
+R-Defense-AASite-QuadBof is researchable with 22850RP and 850$<br>
+R-Vehicle-Metals04 is researchable with 23200RP and 1356$<br>
+R-Defense-RotMG is researchable with 23400RP and 1156$<br>
+R-Wpn-Rocket-ROF03 is researchable with 24000RP and 1252$<br>
+R-Struc-VTOLPad is researchable with 24000RP and 1457$<br>
+R-Wpn-Mortar-Incendiary is researchable with 24100RP and 1102$<br>
+R-Wpn-Cannon5 is researchable with 24450RP and 761$<br>
+R-Sys-Sensor-Upgrade02 is researchable with 24900RP and 1307$<br>
+R-Cyborg-Hvywpn-Mcannon is researchable with 24900RP and 1735$<br>
+R-Defense-Wall-RotMg is researchable with 25200RP and 1212$<br>
+R-Defense-WallTower-DoubleAAgun is researchable with 25250RP and 925$<br>
+R-Wpn-Flamer-ROF02 is researchable with 25300RP and 886$<br>
+R-Defense-MortarPit-Incendiary is researchable with 25300RP and 1361$<br>
+R-Sys-CBSensor-Tower01 is researchable with 25500RP and 1445$<br>
+R-Struc-RprFac-Upgrade04 is researchable with 25700RP and 1733$<br>
+R-Wpn-Cannon-ROF02 is researchable with 25700RP and 1691$<br>
+R-Wpn-Bomb01 is researchable with 25900RP and 1516$<br>
+R-Defense-WallUpgrade04 is researchable with 26100RP and 1055$<br>
+R-Wpn-MG-Damage06 is researchable with 26400RP and 1029$<br>
+R-Wpn-Mortar-ROF02 is researchable with 26400RP and 822$<br>
+R-Cyborg-Armor-Heat03 is researchable with 26400RP and 980$<br>
+R-Defense-Wall-VulcanCan is researchable with 26850RP and 836$<br>
+R-Struc-Power-Upgrade01b is researchable with 27300RP and 924$<br>
+R-Vehicle-Armor-Heat02 is researchable with 27400RP and 1011$<br>
+R-Wpn-MG-ROF03 is researchable with 27600RP and 1287$<br>
+R-Wpn-RocketSlow-Accuracy01 is researchable with 27600RP and 1260$<br>
+R-Wpn-Mortar-Damage04 is researchable with 27800RP and 866$<br>
+R-Cyborg-Metals05 is researchable with 28500RP and 1419$<br>
+R-Wpn-Rocket02-MRLHvy is researchable with 28800RP and 1158$<br>
+R-Struc-VTOLPad-Upgrade01 is researchable with 28800RP and 1607$<br>
+R-Cyborg-Hvywpn-Acannon is researchable with 28900RP and 2621$<br>
+R-Cyborg-Hvywpn-HPV is researchable with 28900RP and 2448$<br>
+R-Wpn-Rocket06-IDF is researchable with 29100RP and 1736$<br>
+R-Vehicle-Body02 is researchable with 29200RP and 1543$<br>
+R-Struc-Research-Upgrade06 is researchable with 29300RP and 913$<br>
+R-Wpn-Rocket-Damage06 is researchable with 30000RP and 935$<br>
+R-Defense-MRLHvy is researchable with 30000RP and 1213$<br>
+R-Sys-VTOLStrike-Turret01 is researchable with 31200RP and 2214$<br>
+R-Wpn-Cannon-Damage06 is researchable with 31250RP and 973$<br>
+R-Vehicle-Engine05 is researchable with 31300RP and 1237$<br>
+R-Wpn-Cannon3Mk1 is researchable with 31650RP and 2057$<br>
+R-Struc-Materials02 is researchable with 32100RP and 1372$<br>
+R-Wpn-Flamer-Damage06 is researchable with 32500RP and 1010$<br>
+R-Wpn-Mortar-ROF03 is researchable with 32700RP and 1018$<br>
+R-Vehicle-Metals05 is researchable with 32800RP and 1656$<br>
+R-Defense-WallTower04 is researchable with 32850RP and 2665$<br>
+R-Wpn-Bomb03 is researchable with 33100RP and 1889$<br>
+R-Wpn-Bomb-Damage01 is researchable with 33100RP and 2571$<br>
+R-Struc-Power-Upgrade01c is researchable with 33300RP and 1111$<br>
+R-Wpn-Flamer-ROF03 is researchable with 33300RP and 1136$<br>
+R-Wpn-Rocket07-Tank-Killer is researchable with 33600RP and 2157$<br>
+R-Wpn-Cannon-ROF03 is researchable with 33700RP and 1941$<br>
+R-Defense-IDFRocket is researchable with 33900RP and 2183$<br>
+R-Defense-WallUpgrade05 is researchable with 34100RP and 1305$<br>
+R-Wpn-RocketSlow-Accuracy02 is researchable with 34800RP and 1961$<br>
+R-Struc-VTOLPad-Upgrade02 is researchable with 34800RP and 1794$<br>
+R-Defense-HvyA-Trocket is researchable with 34800RP and 2194$<br>
+R-Defense-WallTower-HvyA-Trocket is researchable with 34800RP and 2194$<br>
+R-Wpn-MG-Damage07 is researchable with 35200RP and 1441$<br>
+R-Wpn-Cannon6TwinAslt is researchable with 36350RP and 1899$<br>
+R-Vehicle-Armor-Heat03 is researchable with 36400RP and 1292$<br>
+R-Vehicle-Body06 is researchable with 36400RP and 2010$<br>
+R-Wpn-MG5 is researchable with 36500RP and 2238$<br>
+R-Wpn-Mortar-Damage05 is researchable with 37100RP and 1156$<br>
+R-Cyborg-Hvywpn-TK is researchable with 37600RP and 3464$<br>
+R-Cyborg-Metals06 is researchable with 38100RP and 1719$<br>
+R-Wpn-Rocket-Damage07 is researchable with 38400RP and 1197$<br>
+R-Sys-VTOLStrike-Tower01 is researchable with 38400RP and 2522$<br>
+R-Defense-WallTower-TwinAGun is researchable with 38900RP and 2313$<br>
+R-Wpn-HowitzerMk1 is researchable with 38940RP and 2611$<br>
+R-Struc-Research-Upgrade07 is researchable with 39300RP and 1225$<br>
+R-Defense-Cannon6 is researchable with 39550RP and 3054$<br>
+R-Sys-VTOLCBS-Turret01 is researchable with 39600RP and 5033$<br>
+R-Wpn-AAGun04 is researchable with 40100RP and 3358$<br>
+R-Wpn-Mortar-ROF04 is researchable with 40300RP and 3165$<br>
+R-Wpn-Bomb02 is researchable with 40300RP and 2796$<br>
+R-Wpn-Cannon-Damage07 is researchable with 40850RP and 1273$<br>
+R-Wpn-PlasmaCannon is researchable with 41300RP and 2474$<br>
+R-Comp-CommandTurret02 is researchable with 41800RP and 2693$<br>
+R-Vehicle-Engine06 is researchable with 42300RP and 1580$<br>
+R-Wpn-Bomb04 is researchable with 42300RP and 2836$<br>
+R-Wpn-Bomb-Damage02 is researchable with 42300RP and 2858$<br>
+R-Defense-Super-Cannon is researchable with 42500RP and 2278$<br>
+R-Struc-VTOLPad-Upgrade03 is researchable with 42800RP and 2044$<br>
+R-Defense-Howitzer is researchable with 43740RP and 2761$<br>
+R-Defense-WallUpgrade06 is researchable with 44100RP and 1617$<br>
+R-Vehicle-Metals06 is researchable with 44400RP and 2018$<br>
+R-Vehicle-Body09 is researchable with 44800RP and 3064$<br>
+R-Defense-AASite-QuadRotMg is researchable with 44900RP and 4404$<br>
+R-Wpn-Howitzer-Damage01 is researchable with 44940RP and 2798$<br>
+R-Wpn-MG-Damage08 is researchable with 46000RP and 2804$<br>
+R-Cyborg-Armor-Heat04 is researchable with 46100RP and 2949$<br>
+R-Wpn-Howitzer-Accuracy01 is researchable with 46140RP and 2836$<br>
+R-Sys-Sensor-Upgrade03 is researchable with 46500RP and 2757$<br>
+R-Wpn-Plasmite-Flamer is researchable with 46500RP and 2048$<br>
+R-Wpn-Mortar-Damage06 is researchable with 46500RP and 1449$<br>
+R-Sys-VTOLCBS-Tower01 is researchable with 46800RP and 5341$<br>
+R-Wpn-Rocket-Damage08 is researchable with 48000RP and 1497$<br>
+R-Struc-Power-Upgrade02 is researchable with 48300RP and 2617$<br>
+R-Defense-PlasmiteFlamer is researchable with 48500RP and 2110$<br>
+R-Defense-PlasmaCannon is researchable with 48500RP and 2699$<br>
+R-Wpn-Howitzer-Incendiary is researchable with 48940RP and 4025$<br>
+R-Wpn-Howitzer03-Rot is researchable with 48940RP and 3865$<br>
+R-Wpn-AAGun02 is researchable with 49300RP and 4369$<br>
+R-Cyborg-Metals07 is researchable with 49700RP and 2081$<br>
+R-Wpn-Cannon-ROF04 is researchable with 50850RP and 3526$<br>
+R-Struc-Research-Upgrade08 is researchable with 51300RP and 1600$<br>
+R-Wpn-Cannon-Damage08 is researchable with 51650RP and 1610$<br>
+R-Defense-WallTower-QuadRotAA is researchable with 52100RP and 4629$<br>
+R-Struc-VTOLPad-Upgrade04 is researchable with 52800RP and 2982$<br>
+R-Wpn-Howitzer-Damage02 is researchable with 52940RP and 3048$<br>
+R-Wpn-Bomb-Damage03 is researchable with 53500RP and 3208$<br>
+R-Wpn-Laser01 is researchable with 53700RP and 2982$<br>
+R-Defense-Howitzer-Incendiary is researchable with 53740RP and 6936$<br>
+R-Defense-RotHow is researchable with 53940RP and 6782$<br>
+R-Sys-Sensor-WS is researchable with 54000RP and 6708$<br>
+R-Defense-AASite-QuadBof02 is researchable with 54100RP and 4519$<br>
+R-Wpn-RailGun01 is researchable with 55250RP and 4600$<br>
+R-Wpn-Howitzer-Accuracy02 is researchable with 55340RP and 3123$<br>
+R-Vehicle-Armor-Heat04 is researchable with 55400RP and 3653$<br>
+R-Wpn-Missile2A-T is researchable with 55900RP and 5793$<br>
+R-Cyborg-Armor-Heat05 is researchable with 56100RP and 3261$<br>
+R-Defense-WallTower-DoubleAAgun02 is researchable with 56500RP and 4594$<br>
+R-Vehicle-Metals07 is researchable with 58000RP and 3668$<br>
+R-Sys-SpyTurret is researchable with 58500RP and 5825$<br>
+R-Wpn-Rocket-Damage09 is researchable with 58800RP and 1834$<br>
+R-Defense-GuardTower-Rail1 is researchable with 58850RP and 4712$<br>
+R-Defense-GuardTower-ATMiss is researchable with 59500RP and 5905$<br>
+R-Defense-WallTower-A-Tmiss is researchable with 59500RP and 5905$<br>
+R-Wpn-Flamer-Damage07 is researchable with 59700RP and 3470$<br>
+R-Defense-Super-Rocket is researchable with 60000RP and 5138$<br>
+R-Struc-Power-Upgrade03 is researchable with 60300RP and 2992$<br>
+R-Sys-Engineering03 is researchable with 60900RP and 2526$<br>
+R-Defense-PrisLas is researchable with 60900RP and 3207$<br>
+R-Cyborg-Hvywpn-A-T is researchable with 60900RP and 7131$<br>
+R-Wpn-Bomb06 is researchable with 61500RP and 6151$<br>
+R-Sys-SpyTower is researchable with 62100RP and 5937$<br>
+R-Wpn-Cannon-ROF05 is researchable with 62850RP and 3901$<br>
+R-Wpn-Howitzer-Damage03 is researchable with 62940RP and 3360$<br>
+R-Cyborg-Metals08 is researchable with 63300RP and 2506$<br>
+R-Wpn-Cannon-Damage09 is researchable with 63650RP and 1985$<br>
+R-Struc-VTOLPad-Upgrade05 is researchable with 64800RP and 3357$<br>
+R-Vehicle-Body03 is researchable with 65200RP and 5130$<br>
+R-Struc-Research-Upgrade09 is researchable with 65300RP and 2037$<br>
+R-Sys-Autorepair-General is researchable with 65700RP and 2050$<br>
+R-Wpn-EMPCannon is researchable with 65700RP and 4743$<br>
+R-Wpn-Bomb05 is researchable with 66500RP and 5334$<br>
+R-Wpn-Howitzer-Accuracy03 is researchable with 66540RP and 3473$<br>
+R-Wpn-HvyHowitzer is researchable with 67340RP and 4440$<br>
+R-Wpn-Energy-Accuracy01 is researchable with 68100RP and 3432$<br>
+R-Cyborg-Armor-Heat06 is researchable with 68100RP and 3636$<br>
+R-Vehicle-Armor-Heat05 is researchable with 68400RP and 4059$<br>
+R-Defense-EMPCannon is researchable with 69300RP and 4855$<br>
+R-Wpn-Rail-Damage01 is researchable with 69650RP and 5050$<br>
+R-Wpn-Missile-LtSAM is researchable with 70300RP and 7550$<br>
+R-Wpn-Missile-ROF01 is researchable with 70300RP and 6243$<br>
+R-Sys-Sensor-WSTower is researchable with 70400RP and 7241$<br>
+R-Struc-RprFac-Upgrade06 is researchable with 70900RP and 4571$<br>
+R-Vehicle-Engine07 is researchable with 71000RP and 6999$<br>
+R-Struc-Power-Upgrade03a is researchable with 72300RP and 3367$<br>
+R-Defense-WallUpgrade07 is researchable with 72900RP and 4518$<br>
+R-Defense-HvyHowitzer is researchable with 73340RP and 7388$<br>
+R-Vehicle-Metals08 is researchable with 73600RP and 4118$<br>
+R-Wpn-Flamer-Damage08 is researchable with 74900RP and 3920$<br>
+R-Struc-Factory-Upgrade07 is researchable with 76100RP and 3869$<br>
+R-Wpn-Cannon-ROF06 is researchable with 76850RP and 4338$<br>
+R-Defense-SamSite1 is researchable with 77500RP and 7775$<br>
+R-Struc-VTOLPad-Upgrade06 is researchable with 78800RP and 3794$<br>
+R-Cyborg-Metals09 is researchable with 78900RP and 2956$<br>
+R-Wpn-MortarEMP is researchable with 79700RP and 7937$<br>
+R-Wpn-Howitzer-Damage04 is researchable with 81740RP and 5083$<br>
+R-Wpn-Howitzer-ROF01 is researchable with 81740RP and 3810$<br>
+R-Cyborg-Armor-Heat07 is researchable with 82100RP and 4073$<br>
+R-Wpn-Laser02 is researchable with 82500RP and 3432$<br>
+R-Wpn-Energy-Damage01 is researchable with 82500RP and 3882$<br>
+R-Defense-EMPMortar is researchable with 83300RP and 8049$<br>
+R-Sys-Resistance-Circuits is researchable with 83300RP and 8312$<br>
+R-Vehicle-Armor-Heat06 is researchable with 83400RP and 4509$<br>
+R-Wpn-Rail-Accuracy01 is researchable with 84050RP and 5500$<br>
+R-Wpn-MdArtMissile is researchable with 84700RP and 6504$<br>
+R-Wpn-Missile-Damage01 is researchable with 84700RP and 6693$<br>
+R-Struc-Materials03 is researchable with 84900RP and 6265$<br>
+R-Defense-WallUpgrade08 is researchable with 86900RP and 4955$<br>
+R-Cyborg-Hvywpn-PulseLsr is researchable with 87500RP and 4770$<br>
+R-Vehicle-Body07 is researchable with 88000RP and 11278$<br>
+R-Defense-WallTower-SamSite is researchable with 88300RP and 12630$<br>
+R-Defense-PulseLas is researchable with 89700RP and 3657$<br>
+R-Defense-WallTower-PulseLas is researchable with 89700RP and 3657$<br>
+R-Sys-Sensor-UpLink is researchable with 89700RP and 9684$<br>
+R-Vehicle-Metals09 is researchable with 91200RP and 4568$<br>
+R-Defense-MdArtMissile is researchable with 91900RP and 6729$<br>
+R-Wpn-Flamer-Damage09 is researchable with 92100RP and 4370$<br>
+R-Struc-Factory-Upgrade09 is researchable with 95300RP and 4319$<br>
+R-Wpn-Energy-ROF01 is researchable with 96900RP and 4332$<br>
+R-Cyborg-Armor-Heat08 is researchable with 98100RP and 4523$<br>
+R-Wpn-Rail-Damage02 is researchable with 98450RP and 5500$<br>
+R-Wpn-Rail-ROF01 is researchable with 98450RP and 5950$<br>
+R-Wpn-Missile-ROF02 is researchable with 99100RP and 6693$<br>
+R-Wpn-Missile-Accuracy01 is researchable with 99100RP and 7143$<br>
+R-Vehicle-Armor-Heat07 is researchable with 100400RP and 4959$<br>
+R-Defense-WallUpgrade09 is researchable with 102900RP and 5405$<br>
+R-Vehicle-Engine08 is researchable with 103000RP and 18727$<br>
+R-Wpn-HeavyPlasmaLauncher is researchable with 103700RP and 6844$<br>
+R-Wpn-Howitzer-Damage05 is researchable with 110540RP and 5533$<br>
+R-Wpn-Howitzer-ROF02 is researchable with 110540RP and 4260$<br>
+R-Wpn-Energy-Damage02 is researchable with 111300RP and 4332$<br>
+R-Wpn-Missile-Damage02 is researchable with 113500RP and 7143$<br>
+R-Cyborg-Armor-Heat09 is researchable with 116100RP and 4973$<br>
+R-Wpn-HvyLaser is researchable with 118500RP and 4332$<br>
+R-Vehicle-Armor-Heat08 is researchable with 119400RP and 5409$<br>
+R-Vehicle-Body10 is researchable with 120000RP and 23295$<br>
+R-Defense-WallUpgrade10 is researchable with 120900RP and 5855$<br>
+R-Wpn-Energy-ROF02 is researchable with 125700RP and 4782$<br>
+R-Wpn-AALaser is researchable with 125700RP and 4782$<br>
+R-Wpn-RailGun02 is researchable with 127250RP and 5950$<br>
+R-Wpn-Rail-ROF02 is researchable with 127250RP and 6400$<br>
+R-Wpn-Missile-Accuracy02 is researchable with 127900RP and 7593$<br>
+R-Defense-HeavyLas is researchable with 128700RP and 4650$<br>
+R-Defense-Rail2 is researchable with 132250RP and 6106$<br>
+R-Defense-HeavyPlasmaLauncher is researchable with 132500RP and 7294$<br>
+R-Cyborg-Hvywpn-RailGunner is researchable with 132750RP and 7303$<br>
+R-Defense-WallTower-Rail2 is researchable with 134450RP and 6175$<br>
+R-Vehicle-Engine09 is researchable with 137000RP and 42472$<br>
+R-Defense-AA-Laser is researchable with 140100RP and 5232$<br>
+R-Vehicle-Armor-Heat09 is researchable with 140400RP and 5859$<br>
+R-Wpn-Missile-ROF03 is researchable with 142300RP and 7143$<br>
+R-Wpn-HvArtMissile is researchable with 142300RP and 15833$<br>
+R-Defense-WallUpgrade11 is researchable with 142900RP and 6305$<br>
+R-Wpn-LasSat is researchable with 146300RP and 12171$<br>
+R-Wpn-Howitzer-Damage06 is researchable with 153740RP and 5983$<br>
+R-Wpn-Howitzer-ROF03 is researchable with 153740RP and 4710$<br>
+R-Wpn-Energy-Damage03 is researchable with 154500RP and 4782$<br>
+R-Wpn-Missile-Damage03 is researchable with 156700RP and 7593$<br>
+R-Vehicle-Body13 is researchable with 165800RP and 47431$<br>
+R-Defense-WallUpgrade12 is researchable with 166900RP and 6755$<br>
+R-Wpn-Energy-ROF03 is researchable with 168900RP and 5232$<br>
+R-Wpn-Rail-Damage03 is researchable with 170450RP and 6400$<br>
+R-Wpn-Rail-ROF03 is researchable with 170450RP and 6850$<br>
+R-Defense-HvyArtMissile is researchable with 171100RP and 16283$<br>
+R-Wpn-Missile-HvSAM is researchable with 185500RP and 15593$<br>
+R-Defense-Super-Missile is researchable with 192300RP and 13448$<br>
+R-Defense-SamSite2 is researchable with 199900RP and 16043$<br>
+R-Defense-WallTower-SamHvy is researchable with 203500RP and 20561$<br>
+R-Vehicle-Body14 is researchable with 209000RP and 47881$<br>
+R-Wpn-Howitzer-ROF04 is researchable with 210340RP and 5160$<br>
+R-Wpn-RailGun03 is researchable with 213650RP and 6850$<br>
+R-Defense-Rail3 is researchable with 218650RP and 7006$<br>
+R-Defense-WallTower-Rail3 is researchable with 220850RP and 7075$<br>R-Defense-MassDriver is researchable with 263650RP and 20005$
