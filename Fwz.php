@@ -556,7 +556,7 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	if($obj['radiusDamage']>0){
 		//$obj['sdmg']=Fwz_armor($obj['splash damage'])*(pow($obj['splash radius']/128,1.41)-1/4)*$obj['splash chance']/100/2;
 		//$obj['sdmg']=Fwz_armor($obj['radiusDamage'])*(pow($obj['radius']/128,1.41)-1/4)*$obj['radiusLife']/100/2;
-		$obj['sdmg']=Fwz_armor($obj['radiusDamage'],0)*(pow($obj['radius']/128,1.41)-1/4);
+		$obj['sdmg']=Fwz_armor($obj['radiusDamage'],0)*(pow($obj['radius']/128,1.41)-1/4); //-1/4 is for the center radius
 	}
 	$totrange=$obj['shortRange']+$obj['longRange']+1; //+1 will never happen anyway (0+0/0[+1])
 	$obj['longHit']=min(100,$obj['longHit']);
@@ -1923,10 +1923,10 @@ function scale_coordinates($line, $scale) {
     $coords = preg_split('/\s+/', trim($line));
     // Check if the line has exactly 3 coordinates (x, y, z)
     if (count($coords) == 3) {
-        $x = floatval($coords[0]) * $scale; // Scale X coordinate
+        $x = floatval($coords[0]) * $scale['x']; // Scale X coordinate
 		//$x = floatval(sign($coords[0])*abs($coords[0])**(1+$coords[2]/200)) * $scale; // Scale X coordinate
-        $y = floatval($coords[1]) * $scale; // Scale Y coordinate
-        $z = floatval($coords[2]) * $scale; // Scale Z coordinate
+        $y = floatval($coords[1]) * $scale['y']; // Scale Y coordinate
+        $z = floatval($coords[2]) * $scale['z']; // Scale Z coordinate
         // Format to 2 decimal places and return as a string
         return sprintf("%.2f %.2f %.2f", $x, $y, $z);
     } else {

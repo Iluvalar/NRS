@@ -1702,6 +1702,131 @@
             }
         }
     },
+    "small_ScavNEXUStrack": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 100,
+        "buildPower": 14.5,
+        "class": "Babas",
+        "hitpoints": 225,
+        "id": "small_ScavNEXUStrack",
+        "model": "small_nextrack.pie",
+        "name": "small_*scavenger nexus track*",
+        "powerOutput": 15000,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 1500,
+        "propulsionExtraModels": {
+            "Naval": {
+                "left": "prhnaval1.pie"
+            }
+        }
+    },
+    "small_B1BaBaPerson01-Ultimate": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 10,
+        "buildPower": 5,
+        "class": "Babas",
+        "droidType": "PERSON",
+        "hitpoints": 50,
+        "id": "small_B1BaBaPerson01-Ultimate",
+        "model": "small_exbloke.pie",
+        "name": "small_*Ultimate BaBa Body*",
+        "powerOutput": 125,
+        "size": "LIGHT",
+        "weaponSlots": 1,
+        "weight": 100,
+        "propulsionExtraModels": {
+            "Naval": {
+                "left": "prhnaval1.pie"
+            }
+        }
+    },
+    "small_Body12SUP": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 350,
+        "buildPower": 26,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 180,
+        "id": "small_Body12SUP",
+        "model": "small_drhbod12.pie",
+        "name": "small_Mantis",
+        "powerOutput": 20000,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prhhtr3.pie"
+            },
+            "Helicopter": {
+                "left": "prhheli4.pie",
+                "still": "heavyheli_rotor_stationary.pie",
+                "moving": "fxheli12.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prhvtl4.pie",
+                "moving": "fxvtl12.pie"
+            },
+            "hover01": {
+                "left": "prhhov1.pie"
+            },
+            "tracked01": {
+                "left": "prhtrk3.pie"
+            },
+            "wheeled01": {
+                "left": "prhwhl1.pie"
+            }
+        },
+        "size": "HEAVY",
+        "weaponSlots": 1,
+        "weight": 2100
+    },
+    "small_Body7ABT": {
+        "armourHeat": 0,
+        "armourKinetic": 0,
+        "buildPoints": 330,
+        "buildPower": 32,
+        "class": "Droids",
+        "designable": 1,
+        "hitpoints": 200,
+        "id": "small_Body7ABT",
+        "model": "small_drmbod07.pie",
+        "name": "small_Retribution",
+        "powerOutput": 15000,
+        "propulsionExtraModels": {
+            "HalfTrack": {
+                "left": "prmhtr2.pie"
+            },
+            "Helicopter": {
+                "left": "prmheli1.pie",
+                "still": "mediumheli_rotor_stationary.pie",
+                "moving": "fxheli5to8.pie"
+            },
+            "Naval": {
+                "left": "prhnaval1.pie"
+            },
+            "V-Tol": {
+                "left": "prmvtl1.pie",
+                "moving": "fxvtl5to8.pie"
+            },
+            "hover01": {
+                "left": "prmhov2.pie"
+            },
+            "tracked01": {
+                "left": "prmtrk2.pie"
+            },
+            "wheeled01": {
+                "left": "prmwhl1.pie"
+            }
+        },
+        "size": "MEDIUM",
+        "weaponSlots": 1,
+        "weight": 1500
+    },
     "Body1REC-basic": {
         "armourHeat": 0,
         "armourKinetic": 0,

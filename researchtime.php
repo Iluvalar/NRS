@@ -64,4 +64,7 @@ foreach($done as $id => $val){
 		$labs=floor($donetotrp[$id]/$val*1000)/1000;
 	}
 	echo '<br>'. $id .' is researchable with '. $val .'RP (total:'. $donetotrp[$id].'RP or ~'. $labs .' labs)and '. $donepow[$id].'$';
+	$text.='"'. $id .'"=>'. floor($val/18) .',
+<br>	';
 }
+echo $text;
