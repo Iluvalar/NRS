@@ -409,6 +409,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 				foreach($val4 as $no => $val3){
 					unset($priceclassR);
 					unset($hooman2);
+					unset($hooman3);
 					//print_r($val3);
 					if($no==0){
 						$linename=$val3['call'];
@@ -416,7 +417,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					unset($temp);
 					unset($name);
 					$sufix='';
-					if( $val3['in'] !=='base'){
+					if( $val3['in'] !=='base' and $val3['in'] !=='basic' ){
 						$sufix='-'.  $val3['in'];
 					}
 
@@ -452,18 +453,18 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("typeE", $val3['as'] )) {$typeW='E';$wepclass='HEAT';}
 					
 					$quality=0;
-					if (in_array("cheap", $val3['as'] )) {$quality=1;$hooman2.='¥';}
-					if (in_array("¥", $val3['as'] )) {$quality=1;$hooman2.='¥';}
-					if (in_array("good", $val3['as'] )) {$quality=-1;$hooman2.='$';}
-					if (in_array("$", $val3['as'] )) {$quality=-1;$hooman2.='$';}
-					if($quality==0){ $hooman2.='₽'; }
+					if (in_array("cheap", $val3['as'] )) {$quality=1;$hooman2.='¥';$hooman3.='J';}
+					if (in_array("¥", $val3['as'] )) {$quality=1;$hooman2.='¥';$hooman3.='J';}
+					if (in_array("good", $val3['as'] )) {$quality=-1;$hooman2.='$';$hooman3.='A';}
+					if (in_array("$", $val3['as'] )) {$quality=-1;$hooman2.='$';$hooman3.='A';}
+					if($quality==0){ $hooman2.='₽';$hooman3.='R'; }
 					//¥₽$
 		
 					
 					$engineClass=0;
-					if (in_array("strong", $val3['as'] )) {$engineClass=1;$hooman2.='H';}
-					if (in_array("heavy", $val3['as'] )) {$engineClass=-1;$hooman2.='H';}
-					if($engineClass==0){ $hooman2.='N'; }
+					if (in_array("strong", $val3['as'] )) {$engineClass=1;$hooman2.='H'; $hooman3.='H';}
+					if (in_array("heavy", $val3['as'] )) {$engineClass=-1;$hooman2.='H'; $hooman3.='H';}
+					if($engineClass==0){ $hooman2.='N'; $hooman3.='N'; }
 
 					if (in_array("insta", $val3['as'] )) {$resstartfrac=0; }
 					if (in_array("joke", $val3['as'] )) {$resstartfrac=.1; }
@@ -619,6 +620,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						$priceclass=max(-4,$priceclass);
 						if(!$priceclassR){
 							$priceclassR=floor($priceclass+4).$hooman2; //for research, pick the first item.
+							$priceclassR2=floor($priceclass+4).$hooman3;
 							
 						}
 						$weightfact*=$fig**$priceclass;
@@ -660,6 +662,18 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 	HEAVY: 3,
 	ULTRAHEAVY: 4,
 	*/
+						
+						//$priceclassR ."-$hooman". $typeW
+						if($no2==0){
+							if(!$eco){ 
+								if($val3['type']=='body' or $val3['type']=='weapons'){
+									$id='R-NRS-'.  $priceclassR2.  $val3['id']. $sufix;}
+								else{
+									$id='R-NRS--'.  $val3['id']. $sufix;}
+								}
+							else{ $id='R-NRS-'. $val3['id'].'-'. $nomfac; }
+						}
+						
 						
 						echo '<br>priceclass:'.  $item['id'] .' '. $checkprice .'/'. $sys['nrs']['unitprice']/3 .'='. $priceclass .' pow:'. $pow .' n:'. $nbase*$fig**-$priceclass .'/'. $nbase;
 						/**/
@@ -1324,7 +1338,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item["buildPower"]= $price;
 							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
 							//$item['weight']=1000*$wepweight;
-							$item['weight']=4000*1.3**$priceclass*(.5-.5*$engineClass);
+							$item['weight']=450*1.3**$priceclass*(.5-.5*$engineClass);
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
 						}
@@ -1334,7 +1348,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item["buildPoints"]= $price*$sys['nrs']['produnit'];
 							$item["buildPower"]= $price;
 							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
-							$item['weight']=4000*1.3**$priceclass*(.5-.5*$engineClass);
+							$item['weight']=450*1.3**$priceclass*(.5-.5*$engineClass);
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
 						}

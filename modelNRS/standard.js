@@ -88,10 +88,10 @@ const sensorTurrets = [
 //"BigForest-eco","LogCabin3-eco","Heavywepslab-eco","Forest-eco","cabin-eco","OilTower-eco"]
 const fundamentalResearch = [
 	//"R-NRS-road-nrs",
-	"R-NRS-A0BaBaFactory",
-	"R-NRS-tracked01",
+	"R-NRS--A0BaBaFactory",
+	"R-NRS--tracked01",
 	//"R-NRS-CyborgHeavyBody-2120",
-	"R-NRS-A0RepairCentre3",
+	"R-NRS--A0RepairCentre3",
 	//"R-NRS-A0CyborgFactory",
 	//"R-NRS-NuclearReactor",
 	//"R-NRS-Park-nrs",
@@ -101,10 +101,10 @@ const fundamentalResearch = [
 	"R-NRS-LogCabin3-eco3",
 	"R--ResearchPoints--6",
 	"R--ProductionPoints--6",
+	"R-Sys--Autorepair-General",
+	"R-NRS-Heavywepslab-eco3",
 	"R--ResearchPoints--9",
 	"R--ProductionPoints--9",	
-	"R-Sys-Autorepair-General",
-	"R-NRS-Heavywepslab-eco3",
 	//"R-hover01-HitpointPctOfBody-9",
 	//"R-wheeled01-HitpointPctOfBody-9",
 	"R-NRS-Forest-eco3",
@@ -200,7 +200,7 @@ const truckTemplates = [
 	{ body: "CyborgLightBody", prop: "CyborgLegs", weapons: [ "CyborgSpade", ] } // engineer
 ];
 
-const fallbackWeapon = 'APO₽N';
+const fallbackWeapon = 'APO11';
 
 // Unlike bodies and propulsions, weapon lines don't have any specific meaning.
 // You can make as many weapon lines as you want for your ruleset.

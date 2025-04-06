@@ -96,17 +96,17 @@ class Player
 
 	finalizeGame(state)
 	{
-		var compHonor=honor[selectedPlayer]/totHonor;
+		var compHonor=honor[selectedPlayer]/meantotHonor;
 		var timeHonor=honor[selectedPlayer]/gameTime;
 		
 		const transformToSpectator = (state === STATE_loser && !isSpectator(this.playNum) && playerData[this.playNum].isHuman);
 		if (state === STATE_loser && this.playNum == selectedPlayer)
 		{
-			if(timeHonor<0){
+			if(timeHonor<15){
 				console("you lost in dishonor");
 				gameOverMessage(false);
 			}
-			else if(compHonor>.3){
+			else if(compHonor>1.1){
 				console("you lost with honor");
 			}
 			else{
@@ -115,10 +115,10 @@ class Player
 		}
 		if (state === STATE_winner && this.playNum == selectedPlayer)
 		{
-			if(compHonor<.1 || timeHonor<-100){
+			if(compHonor<.66 || timeHonor<9){
 				console("To conquer without risk is to triumph without glory");
 			}
-			else if(compHonor>.4 && timeHonor>150){
+			else if(compHonor>1.3 && timeHonor>18){
 				console("You won with honor");
 				gameOverMessage(true);
 				gameOverMessage(true);

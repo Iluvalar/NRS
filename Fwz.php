@@ -1973,6 +1973,42 @@ function scale_pie_model($pie_string, $scale) {
     // Join the lines back into a single string
     return implode("\n", $output_lines);
 }
+// Function to process the PIE file content
+function updatePieTexture($pieContent, $suffix = "-2120",$folder) {
+    // Split the content into lines
+    $lines = explode("\n", $pieContent);
+    $updatedLines = [];
+
+    foreach ($lines as $line) {
+        // Look for the TEXTURE line
+        if (preg_match('/^TEXTURE\s+\d+\s+([^\s]+\.png)\s+(\d+\s+\d+)$/', trim($line), $matches)) {
+            // Extract the filename and dimensions
+            $filename = $matches[1];
+			if($filename=='page-111-laboratories.png' or $filename=='page-10-labratories.png'){
+				$filename='page-10-laboratories.png'; //should be an array or somehting...
+				$fix=1;
+			}
+            $dimensions = $matches[2];
+            
+            // Split filename into name and extension
+            $fileParts = pathinfo($filename);
+            $newFilename = $fileParts['filename'] . $suffix . '.' . $fileParts['extension'];
+            // Reconstruct the TEXTURE line
+			if(file_exists($folder.$filename )){
+				echo '<br>updatePieTexture found';
+				$line = "TEXTURE 0 $newFilename $dimensions";
+			}
+			else{
+				echo '<br>updatePieTexture notfound'. $folder.$filename ;
+			}
+        }
+        // Add the line (modified or not) to the updated array
+        $updatedLines[] = $line;
+    }
+
+    // Join the lines back together
+    return implode("\n", $updatedLines);
+}
 /*
 function scale_pie_model($pie_string, $scale) {
     // Split the PIE string into an array of lines

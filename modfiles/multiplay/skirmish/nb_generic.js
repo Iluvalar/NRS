@@ -54,7 +54,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -98,7 +99,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -142,7 +144,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -186,7 +189,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -224,7 +228,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -261,7 +266,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -305,7 +311,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -349,7 +356,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -391,7 +399,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -436,7 +445,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -480,7 +490,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -519,7 +530,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -560,7 +572,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -601,7 +614,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -644,7 +658,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -687,7 +702,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -728,7 +744,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -769,7 +786,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -811,7 +829,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -855,7 +874,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -900,7 +920,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -944,7 +965,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -987,7 +1009,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -1033,7 +1056,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes
@@ -1077,7 +1101,8 @@ var subpersonalities = {
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes

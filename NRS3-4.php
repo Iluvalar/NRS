@@ -292,6 +292,7 @@ $sys['nrs']['basic']['body']['FireBody']=$sys['nrs']['base']['body']['FireBody']
 //print_r($sys['nrs']['ntw']);
 //Setting default values for the mods.
 $mods=['basic','base','ntw','2120','contingency'];
+$bannedbodies=['SuperTransportBody','GunshipBody','TransporterBody','HeavyChopper','ScavengerChopper','ZNULLBODY','ChinookBody','Body18REC','Body13ABT'];
 foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
@@ -326,9 +327,12 @@ foreach($mods as $no => $modname){
 			if($enginePow>1){
 				$engineClass='H';
 			}
-			$priceCheck=log($val['buildPower']/($sys['nrs']['unitprice']/3),2);
+			$bp=$sys['nrs'][$modname][$listtype][$nom]['buildPower'];
+			$bp*=2**($bp/($sys['nrs']['unitprice']/3*8));
+			$sys['nrs'][$modname][$listtype][$nom]['buildPower']=$bp;
+			$priceCheck=log($bp/($sys['nrs']['unitprice']/3),2);
 			$priceclass=floor($priceCheck/2);
-			if(!isset($bodyDone[$nom])){
+			if(!isset($bodyDone[$nom]) and !in_array($nom, $bannedbodies)){
 				unset($temp);
 				$temp['id']=$nom;
 				$temp['from']=$modname;
@@ -407,52 +411,101 @@ foreach($mods as $no => $modname){
 	}
 	
 	//$savedir='./tinymods/mini/';
+	$threshbody=9;
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
-		$pos = strpos($item['id'],'Cyb');
-		$pos2 = strpos($item['id'],'BaBa');
+		$pos = strpos($nom,'Cyb');
+		$pos2 = strpos($nom,'BaBa');
+		//$pos3	 = strpos($item['id'],'BaBa');
 		if($pos===FALSE && $pos2===FALSE){
-			$done=0;
-			echo '<br>'. $nom;
-			print_r($bodyDone[$nom]);
-			$newbod=$val;
-			$bs=$bodyDone[$nom]; //Body specs
-			if( $check=$bodySort[$bs['priceclass']-1][$bs['engineClass']][$bs['region']] and ($check ? count($check) : 0 )<3 and ($bs['priceclass']-1)>-4 ){
-				echo 'lower price';
-				$scale=array('x'=>2**-3,'y'=>2**-3,'z'=>2**-3);
-				$newbod['id']='small_'. $newbod['id'];
-				$newbod['name']='small_'. $newbod['name'];
-				$newbod['buildPower']/=2;
-				$bs['priceclass']-=1;
-				$done=1;
-				
-			}
-			elseif( $check=$bodySort[$bs['priceclass']+1][$bs['engineClass']][$bs['region']] and ($check ? count($check) : 0 )<3 and ($bs['priceclass']+1)<3 ){
-				echo 'higher price';
-			}
-			elseif( $check=$bodySort[$bs['priceclass']]['N'][$bs['region']] and ($check ? count($check) : 0 )<3 and ($bs['engineClass']!='N') ){
-				echo 'normal class';
-			}
-			elseif( $check=$bodySort[$bs['priceclass']]['H'][$bs['region']] and ($check ? count($check) : 0 )<3 and ($bs['engineClass']!='H') ){
-				echo 'heavy class';
-			}
-			elseif( $check=$bodySort[$bs['priceclass']][$bs['engineClass']]['$'] and ($check ? count($check) : 0 )<3 and ($bs['region']!='$') ){
-				echo '$ region';
-			}
-			elseif( $check=$bodySort[$bs['priceclass']][$bs['engineClass']]['₽'] and ($check ? count($check) : 0 )<3 and ($bs['region']!='₽') ){
-				echo '₽ region';
-			}
-			elseif( $check=$bodySort[$bs['priceclass']][$bs['engineClass']]['¥'] and ($check ? count($check) : 0 )<3 and ($bs['region']!='¥') ){
-				echo '¥ region';
-			}
-			if($done){
-				$str=file_get_contents($basedir .'components/bodies/'.$val['model']);
-				$str=scale_pie_model($str, $scale);
-				echo '<br>piefile:'. $basedir .'components/bodies/'.$val['model'] .':'. $str;
-				$newbod['model']='small_'. $newbod['model'];
-				$sys['nrs'][$modname][$listtype][$newbod['id']]=$newbod;
-				$bs['id']=$newbod['id'];
-				$bs['name']=$newbod['name'];
-				$bodySort[$bs['priceclass']][$bs['engineClass']][$bs['region']][]=$temp;
+			if(!isset($bodyDone2[$nom]) and !in_array($nom, $bannedbodies)){
+								$done=0;
+				echo '<br>'. $nom;
+				print_r($bodyDone[$nom]);
+				$newbod=$val;
+				$bs=$bodyDone[$nom]; //Body specs
+				if( ($check=$bodySort[$bs['priceclass']+1][$bs['engineClass']][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['priceclass']+1)<4 ){
+					echo 'higher price';
+					$newnamemod='big';
+					$scale=array('x'=>2**(1/3),'y'=>2**(1/3),'z'=>2**(1/3));			
+					$newbod['buildPower']*=2;
+					$bs['priceclass']+=1;
+					$done=1;
+				}
+				elseif( ($check=$bodySort[$bs['priceclass']-1][$bs['engineClass']][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['priceclass']-1)>-5 ){
+					echo 'lower price';
+					$newnamemod='small';
+					$scale=array('x'=>.5**(1/3),'y'=>.5**(1/3),'z'=>.5**(1/3));			
+					$newbod['buildPower']/=2;
+					$bs['priceclass']-=1;
+					$done=1;
+					
+				}
+				elseif( ($check=$bodySort[$bs['priceclass']]['N'][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['engineClass']!='N') ){
+					echo 'normal class';
+					$newnamemod='flat';
+					$scale=array('x'=>1,'y'=>.6,'z'=>1);			
+					$bs['engineClass']='N';
+					$done=1;
+				}
+				elseif( ($check=$bodySort[$bs['priceclass']]['H'][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['engineClass']!='H') ){
+					echo 'heavy class';
+					$newnamemod='tall';
+					$scale=array('x'=>1,'y'=>1.4,'z'=>1);			
+					$bs['engineClass']='H';
+					$done=1;
+				}
+				elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['$'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='$') ){
+					echo '$ region';
+					$newnamemod='long';
+					$scale=array('x'=>.75,'y'=>1,'z'=>1.5);			
+					$bs['region']='$';
+					$done=1;
+				}
+				elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['₽'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='₽') ){
+					echo '₽ region';
+					$newnamemod='slim';
+					$scale=array('x'=>.8,'y'=>.8,'z'=>1);			
+					$bs['region']='₽';
+					$done=1;
+				}
+				elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['¥'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='¥') ){
+					echo ' region';
+					$newnamemod='short';
+					$scale=array('x'=>1.2,'y'=>1,'z'=>.6);			
+					$bs['region']='¥';
+					$done=1;
+				}
+				if($done){
+					$file=$basedir .'components/bodies/'.$val['model'];
+					if(!file_exists($file)){
+						echo '<br>'. $file .' doesnt exist';
+						//$basedir='./mp454/';
+						$file='./mp454/' .'components/bodies/'.$val['model'];
+						if(!file_exists($file)){
+							echo '<br>'. $file .' still doesnt exist';
+						}
+					}
+					$str=file_get_contents($file);
+					$str=scale_pie_model($str, $scale);
+					if( $modname!="basic" and  $modname!="base"){
+						$str=updatePieTexture($str,'-'. $modname,'./'. $modname .'/texpages/' );
+					}
+					echo '<br>piefile:'. $file .':'. $str;
+					$newbod['id']=$newnamemod .'_'. $newbod['id'];
+					$newbod['name']=$newnamemod .'_'. $newbod['name'];
+					$newbod['model']=strtolower($newnamemod .'_'. $newbod['model']);
+					$file=$savedir .'components/bodies/' . $newbod['model'];
+					echo '<br> creating...'. $file;
+					file_put_contents(strtolower($file),$str);
+					$actual_path = realpath($file);
+					echo "Actual path: " . $actual_path;
+					$sys['nrs'][$modname][$listtype][$newbod['id']]=$newbod;
+					$bs['id']=$newbod['id'];
+					$bs['name']=$newbod['name'];
+					$bodySort[$bs['priceclass']][$bs['engineClass']][$bs['region']][]=$bs;
+					$bodyDone[$bs['id']]=$temp;
+					$bodyDone2[$nom]=$temp;
+				}
 			}
 		}
 		
@@ -1451,7 +1504,8 @@ foreach($sys['nrs']['nb'] as $nom =>$nb){
 		'. $perso[0].$perso[1].$perso[2].$perso[3].'
 				],
 				earlyResearch: [ // fixed research path for the early game
-					"R-NRS-MG1Mk1",
+					"R-NRS-1RNMG1Mk1",
+					"R-NRS-1RNB3body-sml-buggy01-Ultimate"
 				],
 				minTanks: 1, // minimal attack force at game start
 				becomeHarder: 1, // how much to increase attack force every 5 minutes

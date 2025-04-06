@@ -37,6 +37,8 @@ function chooseWeapon(forVtol) {
 }
 
 function chooseBodyWeaponPair(bodies, weapons) {
+	//dump("chooseBodyWeaponPair");
+	//console("chooseBodyWeaponPair");
 	if (!defined(bodies))
 		return undefined;
 	if (!defined(weapons))

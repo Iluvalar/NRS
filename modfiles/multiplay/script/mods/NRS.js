@@ -8,46 +8,47 @@
 	var resourcesNames=['W','S','E','P','Hi','$','Env','war','food','cash'];
 	var resourcesNames2=['Work','Service','Electric','Pop','density','rich','environement','F','P','B','C'];
 	var totHonor=0;
+	var meantotHonor=0;
 	//var powerLast=[0,0,0,0,0,0,0,0];
 	var totIncome=0;
 	var tick=0;
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,130,],
-	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,139,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,142,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,144,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,141,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,135,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,131,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,143,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,131,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,136,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,135,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,137,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,138,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,143,],
-	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,142,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,132,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,136,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,139,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,140,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,143,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,136,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,145,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,146,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,141,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,143,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,133,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,146,],
-	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,145,],
-	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,140,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,133,],
-	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,142,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,134,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,146,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,147,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,136,],
+	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,140,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,134,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,136,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,130,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,146,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,132,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,135,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,133,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,132,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,138,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,141,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,135,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,144,],
+	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,141,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,145,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,146,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,133,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,147,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,142,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,143,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,147,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,136,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,131,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,137,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,139,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,137,],
+	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,144,],
+	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,145,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,132,],
+	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,146,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,133,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,147,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,143,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -206,7 +207,7 @@ var powerMod=0;
 		
 	}
 
-
+	/*
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		ncult+=culture[playnum];
 		tothonorPow+=honor[playnum];
@@ -221,11 +222,40 @@ var powerMod=0;
 		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
 		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
 		totHonor+=honorPow;
-		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-0.95)*500 )*5*1000;
+		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-0.25)*500 )*5*1000;
 		
 		
 	}
+	*/
 	//totpropPow+=aiprop;
+	var currentDiff=0;
+	for (var playnum = 0; playnum < maxPlayers; playnum++){
+		ndiff=0;
+		for (var playnum2 = 0; playnum2 < maxPlayers; playnum2++){
+			if(playnum == playnum2){
+			}
+			else{
+				if(playerData[playnum2].isAI){
+					currentDiff=0.7+.30*playerData[playnum2].difficulty;
+				}
+				else{
+					currentDiff=1.6;
+				}
+				if(playerData[playnum2].team == playerData[playnum]){
+					ndiff-=currentDiff;
+				}
+				else{
+					ndiff+=currentDiff;
+				}
+			}
+		}
+		honorPow=0;
+		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
+		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
+		totHonor+=honorPow;
+		honor[playnum]+=(honorPow+ndiff*1000)/100*5*1000;
+		meantotHonor+=(honorPow+ndiff*1000)/100/maxPlayers*5*1000;
+	}
 
 	totpropPow+=-startprop+(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0);
 

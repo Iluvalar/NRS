@@ -8,6 +8,7 @@
 	var resourcesNames=['W','S','E','P','Hi','$','Env','war','food','cash'];
 	var resourcesNames2=['Work','Service','Electric','Pop','density','rich','environement','F','P','B','C'];
 	var totHonor=0;
+	var meantotHonor=0;
 	//var powerLast=[0,0,0,0,0,0,0,0];
 	var totIncome=0;
 	var tick=0;
@@ -170,7 +171,7 @@ function powerStuff(){
 		
 	}
 
-
+	/*
 	for (var playnum = 0; playnum < maxPlayers; playnum++){
 		ncult+=culture[playnum];
 		tothonorPow+=honor[playnum];
@@ -185,11 +186,40 @@ function powerStuff(){
 		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
 		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
 		totHonor+=honorPow;
-		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-0.95)*500 )*5*1000;
+		honor[playnum]+=(honorPow+( ndiff/(maxPlayers-0.99)-0.25)*500 )*5*1000;
 		
 		
 	}
+	*/
 	//totpropPow+=aiprop;
+	var currentDiff=0;
+	for (var playnum = 0; playnum < maxPlayers; playnum++){
+		ndiff=0;
+		for (var playnum2 = 0; playnum2 < maxPlayers; playnum2++){
+			if(playnum == playnum2){
+			}
+			else{
+				if(playerData[playnum2].isAI){
+					currentDiff=0.7+.30*playerData[playnum2].difficulty;
+				}
+				else{
+					currentDiff=1.6;
+				}
+				if(playerData[playnum2].team == playerData[playnum]){
+					ndiff-=currentDiff;
+				}
+				else{
+					ndiff+=currentDiff;
+				}
+			}
+		}
+		honorPow=0;
+		honorPow+=countStruct("A3CommandCentre", playnum)*500*1;
+		honorPow-=countStruct("A1CommandCentre", playnum)*500*1;
+		totHonor+=honorPow;
+		honor[playnum]+=(honorPow+ndiff*1000)/100*5*1000;
+		meantotHonor+=(honorPow+ndiff*1000)/100/maxPlayers*5*1000;
+	}
 
 	totpropPow+=-startprop+(resources[0][0] || 0)+(resources[0][3] || 0)-(resources[0][2] || 0);
 
