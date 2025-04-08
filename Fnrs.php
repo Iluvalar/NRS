@@ -791,6 +791,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							else { $item['propulsionExtraModels']=$sys['nrs']['base'][  $val3['type'] ]['Body11ABT']['propulsionExtraModels']; }
 							if (in_array("baba", $val3['as'] )) { unset($item['propulsionExtraModels']); }
 							$item['size']="LIGHT";
+							//$item['size']="SUPER HEAVY";
+							
 
 							if($val3['in']!="base"){
 								Fwz_pieSweap($sys['nrs']['base'],$sys['nrs']['base'],'body',$item,'-'. $val3['in'] ,$sys['nrs']['dir']['save'],$sys['nrs']['dir'][ $val3['in'] ],'','');
