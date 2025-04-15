@@ -249,7 +249,12 @@ function powerStuff(){
 		var p=playnum+1;
 		for (var j = 0; j < 10; j++){
 			if((resources[p][j] || 0)>0){
-				basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
+				if(j==9){
+					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(3*basepower/5));
+				}
+				else{
+					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
+				}
 			}
 		}
 		
@@ -272,7 +277,7 @@ function powerStuff(){
 
 		
 		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
-		var expPower=(playPow+basePow)/(basepower);
+		var expPower=(playPow+basePow+1)/(2/5*basepower);
 		var timetoscale=Math.log(expPower)/Math.log(interest);
 		var linearPower=(interest-1)*timetoscale+1;
 		//var expPower=interest**timetoscale;
@@ -356,7 +361,13 @@ function powerStuff(){
 	}if(tick%3==2){
 			//conText+="E W R:"+   Math.ceil(totresPow/basepower) +" C:"+  Math.ceil(totcultPow/basepower)  +" S:"+ Math.ceil(totserPow/basepower) +" E:"+  Math.ceil(totenergyPow/basepower-maxPlayers/2) +" W:"+  Math.ceil(totworkPow/basepower) +" R C";
 			for (var j = 0; j < 10; j++){
-				conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";
+				if(j==9){
+					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(3*basepower/5)))) +"%";
+				}
+				else{
+					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";
+				}
+				
 			}
 
 	}

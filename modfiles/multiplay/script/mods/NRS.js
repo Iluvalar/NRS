@@ -15,40 +15,40 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,132,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,131,],
 	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,138,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,136,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,134,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,146,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,134,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,137,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,131,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,142,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,143,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,143,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,139,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,132,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,134,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,132,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,133,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,134,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,144,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,138,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,144,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,132,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,136,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,140,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,145,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,141,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,139,],
 	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,140,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,146,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,138,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,135,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,144,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,141,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,142,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,147,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,147,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,139,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,142,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,133,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,140,],
-	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,143,],
-	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,144,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,147,],
-	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,141,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,131,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,141,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,145,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,145,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,142,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,137,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,131,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,140,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,141,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,146,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,142,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,133,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,135,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,146,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,134,],
+	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,144,],
+	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,147,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,146,],
+	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,139,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,143,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,143,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,135,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -92,7 +92,7 @@ function powerStuff(){
 	var conDeb="";
 	var dumpText="";
 	var interest=0.01496; //int
-	var basepower=2800;
+	var basepower=2100;
 var powerMod=0;
 
 	var resources = Array.from(Array(11), () => new Array(12))
@@ -285,7 +285,12 @@ var powerMod=0;
 		var p=playnum+1;
 		for (var j = 0; j < 10; j++){
 			if((resources[p][j] || 0)>0){
-				basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
+				if(j==9){
+					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(3*basepower/5));
+				}
+				else{
+					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
+				}
 			}
 		}
 		
@@ -308,7 +313,7 @@ var powerMod=0;
 
 		
 		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
-		var expPower=(playPow+basePow)/(basepower);
+		var expPower=(playPow+basePow+1)/(2/5*basepower);
 		var timetoscale=Math.log(expPower)/Math.log(interest);
 		var linearPower=(interest-1)*timetoscale+1;
 		//var expPower=interest**timetoscale;
@@ -392,7 +397,13 @@ var powerMod=0;
 	}if(tick%3==2){
 			//conText+="E W R:"+   Math.ceil(totresPow/basepower) +" C:"+  Math.ceil(totcultPow/basepower)  +" S:"+ Math.ceil(totserPow/basepower) +" E:"+  Math.ceil(totenergyPow/basepower-maxPlayers/2) +" W:"+  Math.ceil(totworkPow/basepower) +" R C";
 			for (var j = 0; j < 10; j++){
-				conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";
+				if(j==9){
+					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(3*basepower/5)))) +"%";
+				}
+				else{
+					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";
+				}
+				
 			}
 
 	}

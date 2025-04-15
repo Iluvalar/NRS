@@ -8,7 +8,7 @@
     },
     "CyborgRepair": {
         "buildPoints": 136.66666666666669,
-        "buildPower": 42.57287086679141,
+        "buildPower": 31.929653150093557,
         "id": "CyborgRepair",
         "droidType": "CYBORG_REPAIR",
         "location": "TURRET",
@@ -24,7 +24,7 @@
     },
     "HeavyRepair": {
         "buildPoints": 136.66666666666669,
-        "buildPower": 42.57287086679141,
+        "buildPower": 31.929653150093557,
         "designable": 1,
         "droidType": "DROID_REPAIR",
         "id": "HeavyRepair",
@@ -40,7 +40,7 @@
     },
     "LightRepair1": {
         "buildPoints": 136.66666666666669,
-        "buildPower": 42.57287086679141,
+        "buildPower": 31.929653150093557,
         "designable": 1,
         "droidType": "DROID_REPAIR",
         "id": "LightRepair1",

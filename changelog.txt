@@ -2,3 +2,14 @@ NRS504 is released!
 * Now containing 9 challenges that will both teach you how to play NRS in solo and provide an extra challenge for veteran player.
 * Weapon upgrades now give 60% to all weapons + 20% for all weapon of the same weapn effect + 20% for all weapon of the same weight-class. Now if the opponent is an heavy class and don't feel your light weapon, you can switch for the medium class weapon with the same weapon effect. for exemple, going from AT-light (cannon) to AT-med (rockets). And you only lose 20% of your upgrade. Likewise, if you opponent was using cyborgs, you could use the same wreight class, and switch for AP-light (machineguns). Not only your machine gun will benefit from 80% of previous cannons upgrades, but your cannon already in game will still get 80% upgrade from your future machine gun upgrades. Making design much less constraining.
 * All my maps also stored in the same folder. Some of the challenges require the extra map.
+
+NRS+412
+* Yes I know, these been a while between change logs. But so much changed in NRS+ that it's simpler to just assume everything is new.
+* To that effect, put some efforts to improve the readme and give better indication to new players.
+* Buffed all ranged weapon up to 20%
+* Spread the weapons line into more lines. To ensure every region and weight class are represented.
+* Lowered the overall power, so low oil feels like low oil again.
+* Fixed the AI not being able to send units until 10 minutes. Be Ready! They are not holding back now!
+* Moved legs later in the propulsion line. So people are less confused about where is the track research.
+* Tripled the stock of "cash" ressource compared to the others. This will cause less fluctuation in the interest rate.
+* Few bug fixes.

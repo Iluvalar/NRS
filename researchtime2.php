@@ -112,7 +112,7 @@ foreach ($resData as $temp) {
 	$currentUpgrade2=0;
 	$t = 0;          // Total time in seconds
     $id = $temp['id'];
-    $rp = $temp['totRP'] ; // RP for this research only
+    $rp = $temp['rp'] ; // RP for this research only
 	//echo '<br><b>'. $id .'RP:'. $rp .'</b>';
 	foreach($upgrade as $idup=>$timeup){
 		$speed=(100+$currentUpgrade)/100*(100+$currentUpgrade2)/100;
@@ -206,4 +206,8 @@ foreach ($done as $id => $val) {
     echo '<br>' . $id . ' is researchable with ' . $val . ' RP (total: ' . $donetotrp[$id] . ' RP or ~' . $labs . ' labs) and ' . $donepow[$id] . '$';
 }
 */
+asort($donetotrp);
+foreach($donetotrp as $id=>$totRP){
+	echo '<br>"'. $id .'"=>'. $totRP .',';
+}
 ?>
