@@ -13,3 +13,10 @@ NRS+412
 * Moved legs later in the propulsion line. So people are less confused about where is the track research.
 * Tripled the stock of "cash" ressource compared to the others. This will cause less fluctuation in the interest rate.
 * Few bug fixes.
+
+NRS+413
+* The Equity tax calculation was wrong. Players spending in economic structures had an exponential growth.
+* Adjusted power at start. It was too low and caused players to crash early game too often.
+* It's hard to say with the equity tax change, but I think I added more power in general.
+* The 40% of research in ALL weapon damage changed to a 40% ROF upgrade. This let weapon research be more competitive with bodies x propulsion upgrades. The 2 being multiplied together made HP grow over the course of a long game.
+* Made the AI more agressive. More DMG upgrade and less economic buildings. It's a valid stategy to research HP and grow more resistant, but it makes annoying game on the receiving end. It's just more fun to have agressive AI than ever researching turtling ones that become indestructible.

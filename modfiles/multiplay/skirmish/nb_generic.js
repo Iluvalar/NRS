@@ -2558,7 +2558,7 @@ function buildOrder() {
 	}
 	if (buildMinimum(structures.labs, 1+powerLimit/3)) return true;
 	if(withChance(25)){
-		if (buildMinimum(structures.extras, 5+powerLimit*2)) return true;
+		if (buildMinimum(structures.extras, 5+powerLimit*1.5)) return true;
 	}
 	//if (buildMinimum(structures.factories, 10)) return true;
 	//if (buildMinimum(structures.factories, 20)) return true;

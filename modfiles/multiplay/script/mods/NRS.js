@@ -15,40 +15,40 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,131,],
-	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,138,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,132,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,133,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,134,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,144,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,138,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,144,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,132,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,136,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,140,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,145,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,141,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,139,],
-	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,140,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,145,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,142,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,137,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,131,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,140,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,141,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,146,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,142,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,133,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,135,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,146,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,134,],
-	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,144,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,146,],
+	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,139,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,140,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,148,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,133,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,141,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,134,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,149,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,150,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,137,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,136,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,142,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,142,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,131,],
+	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,142,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,132,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,151,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,134,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,137,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,143,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,144,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,138,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,131,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,149,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,144,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,145,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,145,],
+	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,146,],
 	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,147,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,146,],
-	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,139,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,143,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,143,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,135,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,132,],
+	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,135,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,151,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,132,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,148,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -91,8 +91,8 @@ function powerStuff(){
 
 	var conDeb="";
 	var dumpText="";
-	var interest=0.01496; //int
-	var basepower=2100;
+	var interest=0.01798; //int
+	var basepower=2800;
 var powerMod=0;
 
 	var resources = Array.from(Array(11), () => new Array(12))
@@ -137,7 +137,7 @@ var powerMod=0;
 	var factories=0;
 	var droids =0;
 	//var basebank=1+getMultiTechLevel()
-	var basebank=5-getMultiTechLevel();
+	//var basebank=5-getMultiTechLevel();
 	//var techLevel = getMultiTechLevel();
 	//var list = enumStruct([player[, structure type[, looking player]]]);
 	for (var j = 0; j < 10; j++){
@@ -195,11 +195,11 @@ var powerMod=0;
 			banks[playnum]=nbank;
 			//culture[playnum]*=.9;
 		}
-		var powtoadd=basebank+playerPower(playnum)-basepower/5-(banks[playnum]-getMultiTechLevel())*basepower/5;
+		var powtoadd=playerPower(playnum)-(banks[playnum]-getMultiTechLevel()-1)*basepower/5;
 		//playPow+=(basebank-banks[playnum]+getMultiTechLevel())*basepower/5;
 		//console("2player:"+ playnum +"=="+ powtoadd +"..."+ resources[playnum+1][9]);
 		resources[playnum+1][9]=(playnum+1 || 0)+powtoadd;
-		resources[0][9]=(resources[0][9] || 0)+powtoadd-basebank;
+		resources[0][9]=(resources[0][9] || 0)+powtoadd;
 		
 		nbase+=powtoadd;
 		
@@ -286,7 +286,7 @@ var powerMod=0;
 		for (var j = 0; j < 10; j++){
 			if((resources[p][j] || 0)>0){
 				if(j==9){
-					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(3*basepower/5));
+					basePow+=resources[p][j]/1.1**Math.ceil(((resources[0][j] || 0)/(basepower/5)-maxPlayers)/3); //removing 1 bank worth per player... given as base.
 				}
 				else{
 					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
@@ -313,21 +313,21 @@ var powerMod=0;
 
 		
 		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
-		var expPower=(playPow+basePow+1)/(2/5*basepower);
-		var timetoscale=Math.log(expPower)/Math.log(interest);
-		var linearPower=(interest-1)*timetoscale+1;
+		var expPower=(playPow+basePow)/(2/5*basepower);
+		var timetoscale=Math.log(expPower)/Math.log(1+interest);
+		var linearPower=(interest)*timetoscale+1;
 		//var expPower=interest**timetoscale;
 		//var equity=-((playPow+basePow)/(basepower*1.5))/expPower+1;
-		var equity=-Math.ceil(1000*linearPower/expPower+1)/1000;
+		var equity=Math.ceil(1000*linearPower/(expPower+0.0001))/1000;
 		//var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
 		//dumpText+=".9*(("+ playPow +"+"+ basePow +")**3)/("+ npow +"+"+ nbase +")**3 ="+ equity;
-		var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
+		//var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
 		//var foundsFact=3**(founds);
 		var foundsFact=1;
 		
 		income=(playPow+basePow)*(interest);
 		if(income>0){
-			income*=(1-equity);
+			income*=(equity)*1.5; //and line 323 Not sure why i need that x1.5 but I believe it's needed to match the ttpower
 		}
 		
 
@@ -356,7 +356,7 @@ var powerMod=0;
 		powerGen[playnum]= Math.floor(income/10+restInc[playnum]); //
 		restInc[playnum]= Math.floor((income/10+restInc[playnum]-powerGen[playnum])*1000)/1000;
 		//powerLast[playnum]+=income;
-		var powMult=powertypefact/fractprop/foundsFact*(1-equity);
+		var powMult=powertypefact/fractprop/foundsFact*(equity)*1.5;
 		if(powMult<0){ powMult=0; }
 		setPowerModifier(powMult*100, playnum);
 		
@@ -398,7 +398,7 @@ var powerMod=0;
 			//conText+="E W R:"+   Math.ceil(totresPow/basepower) +" C:"+  Math.ceil(totcultPow/basepower)  +" S:"+ Math.ceil(totserPow/basepower) +" E:"+  Math.ceil(totenergyPow/basepower-maxPlayers/2) +" W:"+  Math.ceil(totworkPow/basepower) +" R C";
 			for (var j = 0; j < 10; j++){
 				if(j==9){
-					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(3*basepower/5)))) +"%";
+					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**Math.ceil(((resources[0][j] || 0)/(basepower/5)-maxPlayers)/3) )) +"%";
 				}
 				else{
 					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";

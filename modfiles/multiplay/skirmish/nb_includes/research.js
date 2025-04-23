@@ -52,12 +52,12 @@ function doResearch(lab) {
 	if(playerPower(me)>100 || countDroid(DROID_ANY,me)>40){
 		var objType = chooseObjectType();
 		ResearchCount++;
-		if (withChance(60) || ResearchCount==1) { // TODO: make a more thoughtful decision here
+		if (withChance(65) || ResearchCount==1) { // TODO: make a more thoughtful decision here
 			var list = weaponStatsToResList(chooseAvailableWeaponPathByRoleRatings(personality.weaponPaths, chooseWeaponRole()), objType);
 			if (pursueResearch(lab, list))
 				return true;
 		}
-		if (withChance(50) || ResearchCount<4) { // TODO: make a more thoughtful decision here
+		if (withChance(45) || ResearchCount<3) { // TODO: make a more thoughtful decision here
 			if (chooseBodyClass() === BODYCLASS.KINETIC) {
 				if (withChance(40))
 					if (pursueResearch(lab, classResearch.kinetic[objType]))

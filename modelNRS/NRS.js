@@ -101,7 +101,7 @@ function powerStuff(){
 	var factories=0;
 	var droids =0;
 	//var basebank=1+getMultiTechLevel()
-	var basebank=5-getMultiTechLevel();
+	//var basebank=5-getMultiTechLevel();
 	//var techLevel = getMultiTechLevel();
 	//var list = enumStruct([player[, structure type[, looking player]]]);
 	for (var j = 0; j < 10; j++){
@@ -159,11 +159,11 @@ function powerStuff(){
 			banks[playnum]=nbank;
 			//culture[playnum]*=.9;
 		}
-		var powtoadd=basebank+playerPower(playnum)-basepower/5-(banks[playnum]-getMultiTechLevel())*basepower/5;
+		var powtoadd=playerPower(playnum)-(banks[playnum]-getMultiTechLevel()-1)*basepower/5;
 		//playPow+=(basebank-banks[playnum]+getMultiTechLevel())*basepower/5;
 		//console("2player:"+ playnum +"=="+ powtoadd +"..."+ resources[playnum+1][9]);
 		resources[playnum+1][9]=(playnum+1 || 0)+powtoadd;
-		resources[0][9]=(resources[0][9] || 0)+powtoadd-basebank;
+		resources[0][9]=(resources[0][9] || 0)+powtoadd;
 		
 		nbase+=powtoadd;
 		
@@ -250,7 +250,7 @@ function powerStuff(){
 		for (var j = 0; j < 10; j++){
 			if((resources[p][j] || 0)>0){
 				if(j==9){
-					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(3*basepower/5));
+					basePow+=resources[p][j]/1.1**Math.ceil(((resources[0][j] || 0)/(basepower/5)-maxPlayers)/3); //removing 1 bank worth per player... given as base.
 				}
 				else{
 					basePow+=resources[p][j]/1.1**Math.ceil((resources[0][j] || 0)/(basepower/5));
@@ -277,21 +277,21 @@ function powerStuff(){
 
 		
 		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
-		var expPower=(playPow+basePow+1)/(2/5*basepower);
-		var timetoscale=Math.log(expPower)/Math.log(interest);
-		var linearPower=(interest-1)*timetoscale+1;
+		var expPower=(playPow+basePow)/(2/5*basepower);
+		var timetoscale=Math.log(expPower)/Math.log(1+interest);
+		var linearPower=(interest)*timetoscale+1;
 		//var expPower=interest**timetoscale;
 		//var equity=-((playPow+basePow)/(basepower*1.5))/expPower+1;
-		var equity=-Math.ceil(1000*linearPower/expPower+1)/1000;
+		var equity=Math.ceil(1000*linearPower/(expPower+0.0001))/1000;
 		//var equity=Math.ceil(1*(((playPow+basePow)/(npow+nbase))**2)*100)/100;
 		//dumpText+=".9*(("+ playPow +"+"+ basePow +")**3)/("+ npow +"+"+ nbase +")**3 ="+ equity;
-		var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
+		//var founds=(npow-basebank*maxPlayers*basepower/5)/(30000*maxPlayers*powertypefact)+nbase/(30000*maxPlayers*powertypefact);
 		//var foundsFact=3**(founds);
 		var foundsFact=1;
 		
 		income=(playPow+basePow)*(interest);
 		if(income>0){
-			income*=(1-equity);
+			income*=(equity)*1.5; //and line 323 Not sure why i need that x1.5 but I believe it's needed to match the ttpower
 		}
 		
 
@@ -320,7 +320,7 @@ function powerStuff(){
 		powerGen[playnum]= Math.floor(income/10+restInc[playnum]); //
 		restInc[playnum]= Math.floor((income/10+restInc[playnum]-powerGen[playnum])*1000)/1000;
 		//powerLast[playnum]+=income;
-		var powMult=powertypefact/fractprop/foundsFact*(1-equity);
+		var powMult=powertypefact/fractprop/foundsFact*(equity)*1.5;
 		if(powMult<0){ powMult=0; }
 		setPowerModifier(powMult*100, playnum);
 		
@@ -362,7 +362,7 @@ function powerStuff(){
 			//conText+="E W R:"+   Math.ceil(totresPow/basepower) +" C:"+  Math.ceil(totcultPow/basepower)  +" S:"+ Math.ceil(totserPow/basepower) +" E:"+  Math.ceil(totenergyPow/basepower-maxPlayers/2) +" W:"+  Math.ceil(totworkPow/basepower) +" R C";
 			for (var j = 0; j < 10; j++){
 				if(j==9){
-					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(3*basepower/5)))) +"%";
+					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**Math.ceil(((resources[0][j] || 0)/(basepower/5)-maxPlayers)/3) )) +"%";
 				}
 				else{
 					conText+=" "+  resourcesNames[j] +"="+   String(Math.ceil(100*1/1.1**((resources[0][j] || 0)/(basepower/5)))) +"%";
