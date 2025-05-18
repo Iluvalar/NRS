@@ -602,6 +602,7 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 		$range=250;
 		$obj['miscMod']*=1.5/2; //Target hability * limit constraint
 	}
+
 	if($obj['numAttackRuns']){
 		#echo $obj['ID'] .'='. $obj['numAttackRuns'];
 		//$slotmult*=pow( $obj['numAttackRuns'],.5);
@@ -708,7 +709,10 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 		$obj['weightMod']*=pow(($obj['powerOutput']/15000),.3);
 		if($obj['weightMod']>0.94){ $obj['weightMod']=0.94; } //appear to be the max?
 	}
-
+	$obj['crystalMod']=1;
+	if(isset($obj['spinAngle']) and $obj['spinAngle']<60){
+		$obj['crystalMod']=.7071;	
+	}
 
 
 	//$data['structureweapons'][$nolist]['w1'];
@@ -751,7 +755,7 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	if($obj['type']=='Hover'){
 		$obj['HPmod']*=1.25;
 	}
-	$obj['HPfin']=$obj['HPmod']*$obj['armMod'];
+	$obj['HPfin']=$obj['HPmod']*$obj['armMod']*$obj['crystalMod'];
 	$obj['Prevalue2']=$obj['FunctionVal']*$obj['HPfin'];
 	$obj['priceMod']=pow(Fwz_fig(150/((($obj2['buildPower']+.001)+$boost['buildPower'])*$sys['wz']['eval']['currency'])),1);
 	//echo $obj['ID'] .' price:'. (($obj2['buildPower']+$boost['buildPower'])*$sys['wz']['eval']['currency']);
@@ -781,6 +785,7 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	$obj['evalStr'].='=><i>'. floor(10*$obj['Prevalue'])/10;
 	$obj['evalStr'].='=><u>'. floor(10*$obj['FunctionVal'])/10 .'';
 	$obj['evalStr'].='*'. floor($obj['HPmod']*10)/10 .'</u>';
+	$obj['evalStr'].='*C'. floor($obj['crystalMod']*10)/10 .' A:'. $obj['spinAngle'] .'</u>';
 	$obj['evalStr'].='</i>×'. floor($hp2*10)/10;
 	//$obj['evalStr'].='</i>*'. floor($bodyval*10)/10;
 	$obj['evalStr'].='×'. floor($obj['bodyval']*100)/100;
@@ -1460,7 +1465,7 @@ function Fwz_template2($data,$weapid,$bodyid,$propid,$weapid2=NULL){
 	if($obj['res']==$weap['res']){	$obj['path']=$weap['path'];	}
 	if($obj['res']==$body['res']){	$obj['path']=$body['path'];	}
 	if($obj['res']==$prop['res']){	$obj['path']=$prop['path'];	}
-//print_r($obj);
+	//print_r($obj);
 	return $obj;
 }
 function Fwz_get($set,$by,$name){ //shortcut for non-saving datas
