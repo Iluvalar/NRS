@@ -95,21 +95,31 @@ const fundamentalResearch = [
 	//"R-NRS-A0CyborgFactory",
 	//"R-NRS-NuclearReactor",
 	//"R-NRS-Park-nrs",
-	"R-NRS-BigForest-eco3",
+	//"R-NRS-BigForest-eco3",
+	//--eco1
+	//--eco2
+	//--eco3
 	"R--ResearchPoints--3",
 	"R--ProductionPoints--3",
-	"R-NRS-LogCabin3-eco3",
+
+	//"R-NRS-LogCabin3-eco3",
 	"R--ResearchPoints--6",
 	"R--ProductionPoints--6",
 	"R-Sys--Autorepair-General",
-	"R-NRS-Heavywepslab-eco3",
+	//--eco4
+	//--eco5
+	//--eco6
+	//"R-NRS-Heavywepslab-eco3",
 	"R--ResearchPoints--9",
 	"R--ProductionPoints--9",	
 	//"R-hover01-HitpointPctOfBody-9",
 	//"R-wheeled01-HitpointPctOfBody-9",
-	"R-NRS-Forest-eco3",
+	//"R-NRS-Forest-eco3",
+	//--eco7
 	"R--Range--9",
-	"R-NRS-OilTower-eco3",
+	//--eco8
+	//--eco9
+	//"R-NRS-OilTower-eco3",
 	/*
 	"R-Struc-RprFac-Upgrade01",
 	"R-Sys-Sensor-Tower02",

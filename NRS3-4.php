@@ -1301,10 +1301,12 @@ while($x++<18){
 				//$sys['nrs'][$facs[$x%6]]['structure'][$id]=$sys['nrs']['nrs']['structure'][$id];
 				echo '<br>'. $id .'in fac'. $facs[$x%3];
 				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>$source, 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
+				$ecofac[$facs[$x%3]][]=$id;
 		}
 		else if($structureData2[$id]['fac2']==$x && $facs[$x%3]!=$facs[$structureData2[$id]['fac1']%3]){
 				//$sys['nrs'][$facs[$x%6]]['structure'][$id]=$sys['nrs']['nrs']['structure'][$id];
 				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>$source, 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
+				$ecofac[$facs[$x%3]][]=$id;
 		}
 		/*
 		else if($structureData2[$id]['fac3']==$x){
@@ -1549,6 +1551,18 @@ echo $persos;
 	$str  = str_replace("//--weaponstats", $msgtot,$str);
 	$str  = str_replace("//--bodyKinetic", $sys['nrs']['nb2']['bodyKinetic'],$str);
 	$str  = str_replace("//--bodyThermal", $sys['nrs']['nb2']['bodyThermal'],$str);
+	//R-NRS-Heavywepslab-eco3
+	echo '<br>ecofac';
+	print_r($ecofac);
+	$str  = str_replace("//--eco1", '"R-NRS-'. $ecofac['eco1'][2] .'-eco1",',$str);
+	$str  = str_replace("//--eco2", '"R-NRS-'. $ecofac['eco2'][2] .'-eco2",',$str);
+	$str  = str_replace("//--eco3", '"R-NRS-'. $ecofac['eco3'][2] .'-eco3",',$str);
+	$str  = str_replace("//--eco4", '"R-NRS-'. $ecofac['eco1'][6] .'-eco1",',$str);
+	$str  = str_replace("//--eco5", '"R-NRS-'. $ecofac['eco2'][6] .'-eco2",',$str);
+	$str  = str_replace("//--eco6", '"R-NRS-'. $ecofac['eco3'][6] .'-eco3",',$str);
+	$str  = str_replace("//--eco7", '"R-NRS-'. $ecofac['eco1'][count($ecofac['eco1'])-1] .'-eco1",',$str);
+	$str  = str_replace("//--eco8", '"R-NRS-'. $ecofac['eco2'][count($ecofac['eco2'])-1]  .'-eco2",',$str);
+	$str  = str_replace("//--eco9", '"R-NRS-'. $ecofac['eco3'][count($ecofac['eco3'])-1]  .'-eco3",',$str);
 	
 	file_put_contents($savedir .'\\multiplay\\skirmish\\nb_rulesets\\standard.js',$str);
 	

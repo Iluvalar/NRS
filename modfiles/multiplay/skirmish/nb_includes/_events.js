@@ -33,6 +33,9 @@ function eventStartLevel() {
 		// if teams are not sharing research, or there are no teams at all,
 		// initialize the subpersonality randomly and don't care
 		personality = randomItem(subpersonalities);
+		personality.ecofav1=Math.floor(Math.random() * 10);
+		personality.ecofav2=Math.floor(Math.random() * 10);
+		personality.ecofav3=Math.floor(Math.random() * 10);
 		//personality = subpersonalities[floor( Math.random()*5) ];
 		
 	//}
