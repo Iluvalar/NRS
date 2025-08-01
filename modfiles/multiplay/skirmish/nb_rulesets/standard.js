@@ -96,9 +96,9 @@ const fundamentalResearch = [
 	//"R-NRS-NuclearReactor",
 	//"R-NRS-Park-nrs",
 	//"R-NRS-BigForest-eco3",
-	"R-NRS-Advmaterialslab-eco1",
-	"R-NRS-Boulder1-eco2",
-	"R-NRS-BarbWarehouse1-eco3",
+	"R-NRS-Heavywepslab-eco1",
+	"R-NRS-Ruin1-eco2",
+	"R-NRS-Rotarywepslab-eco3",
 	"R--ResearchPoints--3",
 	"R--ProductionPoints--3",
 
@@ -106,9 +106,9 @@ const fundamentalResearch = [
 	"R--ResearchPoints--6",
 	"R--ProductionPoints--6",
 	"R-Sys--Autorepair-General",
-	"R-NRS-Boulder2-eco1",
-	"R-NRS-BarbWarehouse3-eco2",
-	"R-NRS-Rotarywepslab-eco3",
+	"R-NRS-Propaganda-eco1",
+	"R-NRS-building2-eco2",
+	"R-NRS-Tree-eco3",
 	//"R-NRS-Heavywepslab-eco3",
 	"R--ResearchPoints--9",
 	"R--ProductionPoints--9",	
@@ -117,8 +117,8 @@ const fundamentalResearch = [
 	//"R-NRS-Forest-eco3",
 	"R-NRS-Boulder3-eco1",
 	"R--Range--9",
-	"R-NRS-BarbWarehouse1-eco2",
-	"R-NRS-arizonabush3-eco3",
+	"R-NRS-Boulder2-eco2",
+	"R-NRS-Boulder1-eco3",
 	//"R-NRS-OilTower-eco3",
 	/*
 	"R-Struc-RprFac-Upgrade01",
@@ -931,10 +931,34 @@ const weaponStats = {
 		extras: [
 		],
 	},
+	APE20 : {
+		roles : [ 0.1, 0.5, 0.2, 0.2 ],
+		micro : MICRO.RANGED,
+		chatalias : 9,
+		weapons : [
+			{ res: "R-NRS-4JHLaser-AP4-contingency", stat: "Laser-AP4-contingency", weight: WEIGHT.HEAVY },
+			{ res: "R-NRS-4JHLaser-AA2-contingency", stat: "Laser-AA2-contingency", weight: WEIGHT.HEAVY },
+			{ res: "R-NRS-5JHLaser-Sonic-contingency", stat: "Laser-Sonic-contingency", weight: WEIGHT.HEAVY },
+		],
+		vtols : [
+		],
+		defenses : [
+			{ res: "R-NRS-4JHLaser-AP4-contingency", stat: "walltower-Laser-AP4-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-4JHLaser-AA2-contingency", stat: "walltower-Laser-AA2-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-5JHLaser-Sonic-contingency", stat: "walltower-Laser-Sonic-contingency", defrole: DEFROLE.STANDALONE },
+		],
+		templates: [
+			{ res: "R-NRS-4JHLaser-AP4-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Laser-AP4-contingency", ] },
+			{ res: "R-NRS-4JHLaser-AA2-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Laser-AA2-contingency", ] },
+			{ res: "R-NRS-5JHLaser-Sonic-contingency", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Laser-Sonic-contingency", ] },
+		],
+		extras: [
+		],
+	},
 	ATE20 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 9,
+		chatalias : 12,
 		weapons : [
 			{ res: "R-NRS-4JHLaser-AT4-contingency", stat: "Laser-AT4-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-2JHLaser-TankDest2Lgt-contingency", stat: "Laser-TankDest2Lgt-contingency", weight: WEIGHT.LIGHT },
@@ -958,7 +982,7 @@ const weaponStats = {
 	ASA20 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 13,
+		chatalias : 16,
 		weapons : [
 			{ res: "R-NRS-3JHMortar-GaussRamjet-contingency", stat: "Mortar-GaussRamjet-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-3JHMortar-Gauss-contingency", stat: "Mortar-Gauss-contingency", weight: WEIGHT.MEDIUM },
@@ -985,7 +1009,7 @@ const weaponStats = {
 	ASO21 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 122,
+		chatalias : 116,
 		weapons : [
 			{ res: "R-NRS-2JNMortar-Ramjet-contingency", stat: "Mortar-Ramjet-contingency", weight: WEIGHT.LIGHT },
 			{ res: "R-NRS-3JNMortar-RamjetRot-contingency", stat: "Mortar-RamjetRot-contingency", weight: WEIGHT.MEDIUM },
@@ -1027,7 +1051,7 @@ const weaponStats = {
 	AWO10 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 20,
+		chatalias : 23,
 		weapons : [
 			{ res: "R-NRS-3RHCannon-Shotgun-contingency", stat: "Cannon-Shotgun-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-3RHCannon-HPVAslt-contingency", stat: "Cannon-HPVAslt-contingency", weight: WEIGHT.MEDIUM },
@@ -1051,7 +1075,7 @@ const weaponStats = {
 	AWA10 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 79,
+		chatalias : 81,
 		weapons : [
 			{ res: "R-NRS-4RHCannon-Sniper-Bunker-contingency", stat: "Cannon-Sniper-Bunker-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5RHRailGun1Mk1", stat: "RailGun1Mk1", weight: WEIGHT.HEAVY },
@@ -1085,7 +1109,7 @@ const weaponStats = {
 	AWA20 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 25,
+		chatalias : 28,
 		weapons : [
 			{ res: "R-NRS-1JHCannon-HPVLgt-contingency", stat: "Cannon-HPVLgt-contingency", weight: WEIGHT.ULTRALIGHT },
 			{ res: "R-NRS-3JHCannon-HPVHvy-contingency", stat: "Cannon-HPVHvy-contingency", weight: WEIGHT.MEDIUM },
@@ -1105,30 +1129,6 @@ const weaponStats = {
 			{ res: "R-NRS-3JHCannon-HPVHvy-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Cannon-HPVHvy-contingency", ] },
 			{ res: "R-NRS-2JHCannon-HPVTankDestLgt-contingency", body: "CyborgLightBody", prop: "CyborgLegs", weapons: [ "Cannon-HPVTankDestLgt-contingency", ] },
 			{ res: "R-NRS-3JHCannon-HPVTwinAslt-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Cannon-HPVTwinAslt-contingency", ] },
-		],
-		extras: [
-		],
-	},
-	APE20 : {
-		roles : [ 0.1, 0.5, 0.2, 0.2 ],
-		micro : MICRO.RANGED,
-		chatalias : 28,
-		weapons : [
-			{ res: "R-NRS-4JHLaser-AP4-contingency", stat: "Laser-AP4-contingency", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-4JHLaser-AA2-contingency", stat: "Laser-AA2-contingency", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-5JHLaser-Sonic-contingency", stat: "Laser-Sonic-contingency", weight: WEIGHT.HEAVY },
-		],
-		vtols : [
-		],
-		defenses : [
-			{ res: "R-NRS-4JHLaser-AP4-contingency", stat: "walltower-Laser-AP4-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-4JHLaser-AA2-contingency", stat: "walltower-Laser-AA2-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-5JHLaser-Sonic-contingency", stat: "walltower-Laser-Sonic-contingency", defrole: DEFROLE.STANDALONE },
-		],
-		templates: [
-			{ res: "R-NRS-4JHLaser-AP4-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Laser-AP4-contingency", ] },
-			{ res: "R-NRS-4JHLaser-AA2-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Laser-AA2-contingency", ] },
-			{ res: "R-NRS-5JHLaser-Sonic-contingency", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Laser-Sonic-contingency", ] },
 		],
 		extras: [
 		],
@@ -1163,7 +1163,7 @@ const weaponStats = {
 	ATO01 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 51,
+		chatalias : 52,
 		weapons : [
 			{ res: "R-NRS-3ANMG-AntiTankGss-contingency", stat: "MG-AntiTankGss-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-4ANMG-AntiTankGssTwin-contingency", stat: "MG-AntiTankGssTwin-contingency", weight: WEIGHT.HEAVY },
@@ -1231,23 +1231,31 @@ const weaponStats = {
 		micro : MICRO.RANGED,
 		chatalias : 188,
 		weapons : [
+			{ res: "R-NRS-2ANMG2Mk1", stat: "MG2Mk1", weight: WEIGHT.LIGHT },
 			{ res: "R-NRS-2ANMG3Twin-contingency", stat: "MG3Twin-contingency", weight: WEIGHT.LIGHT },
+			{ res: "R-NRS-5ANMG5TWINROTARY", stat: "MG5TWINROTARY", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-4ANRocket-MRL", stat: "Rocket-MRL", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-6ANMG7LGTGATTLINGMk1-2120", stat: "MG7LGTGATTLINGMk1-2120", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-6ANMG7MEDGATTLINGMk1-2120", stat: "MG7MEDGATTLINGMk1-2120", weight: WEIGHT.ULTRAHEAVY },
 		],
 		vtols : [
+			{ res: "R-NRS-2ANMG2Mk1", stat: "MG2-VTOL", weight: WEIGHT.LIGHT },
 			{ res: "R-NRS-6ANMG7LGTGATTLINGMk1-2120", stat: "MG7LGTGATTLING-VTOL-2120", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-6ANMG7MEDGATTLINGMk1-2120", stat: "MG7MEDGATTLING-VTOL-2120", weight: WEIGHT.ULTRAHEAVY },
 		],
 		defenses : [
+			{ res: "R-NRS-2ANMG2Mk1", stat: "walltower-MG2Mk1", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-2ANMG3Twin-contingency", stat: "walltower-MG3Twin-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-5ANMG5TWINROTARY", stat: "walltower-MG5TWINROTARY", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-4ANRocket-MRL", stat: "walltower-Rocket-MRL", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-6ANMG7LGTGATTLINGMk1-2120", stat: "walltower-MG7LGTGATTLINGMk1-2120", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-6ANMG7MEDGATTLINGMk1-2120", stat: "walltower-MG7MEDGATTLINGMk1-2120", defrole: DEFROLE.STANDALONE },
 		],
 		templates: [
+			{ res: "R-NRS-2ANMG2Mk1", body: "CyborgLightBody", prop: "CyborgLegs", weapons: [ "MG2Mk1", ] },
 			{ res: "R-NRS-2ANMG3Twin-contingency", body: "CyborgLightBody", prop: "CyborgLegs", weapons: [ "MG3Twin-contingency", ] },
+			{ res: "R-NRS-5ANMG5TWINROTARY", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "MG5TWINROTARY", ] },
+			{ res: "R-NRS-5ANMG5TWINROTARY", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "CyborgRotMG", ] },
 			{ res: "R-NRS-4ANRocket-MRL", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Rocket-MRL", ] },
 			{ res: "R-NRS-6ANMG7LGTGATTLINGMk1-2120", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "MG7LGTGATTLINGMk1-2120", ] },
 			{ res: "R-NRS-6ANMG7LGTGATTLINGMk1-2120", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "CyborgChaingunMed-2120", ] },
@@ -1259,7 +1267,7 @@ const weaponStats = {
 	APE11 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 72,
+		chatalias : 74,
 		weapons : [
 			{ res: "R-NRS-1RNMG3Inc-contingency", stat: "MG3Inc-contingency", weight: WEIGHT.ULTRALIGHT },
 			{ res: "R-NRS-2RNMG3IncTwin-contingency", stat: "MG3IncTwin-contingency", weight: WEIGHT.LIGHT },
@@ -1302,7 +1310,7 @@ const weaponStats = {
 	ASO00 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 87,
+		chatalias : 89,
 		weapons : [
 			{ res: "R-NRS-4AHHowitzer150Mk1-contingency", stat: "Howitzer150Mk1-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5AHHowitzerGattling-contingency", stat: "HowitzerGattling-contingency", weight: WEIGHT.HEAVY },
@@ -1338,7 +1346,7 @@ const weaponStats = {
 	ASA00 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 58,
+		chatalias : 59,
 		weapons : [
 			{ res: "R-NRS-5AHHowitzerGattlingGauss-contingency", stat: "HowitzerGattlingGauss-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-3AHHowitzerGauss-contingency", stat: "HowitzerGauss-contingency", weight: WEIGHT.MEDIUM },
@@ -1362,55 +1370,10 @@ const weaponStats = {
 		extras: [
 		],
 	},
-	ASE20 : {
-		roles : [ 0.1, 0.2, 0.5, 0.2 ],
-		micro : MICRO.DUMB,
-		chatalias : 60,
-		weapons : [
-			{ res: "R-NRS-4JHHowitzerHvyPlas-contingency", stat: "HowitzerHvyPlas-contingency", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-4JHHowitzerRotPlas-contingency", stat: "HowitzerRotPlas-contingency", weight: WEIGHT.HEAVY },
-		],
-		vtols : [
-		],
-		defenses : [
-			{ res: "R-NRS-4JHHowitzerHvyPlas-contingency", stat: "walltower-HowitzerHvyPlas-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-4JHHowitzerRotPlas-contingency", stat: "walltower-HowitzerRotPlas-contingency", defrole: DEFROLE.STANDALONE },
-		],
-		templates: [
-			{ res: "R-NRS-4JHHowitzerHvyPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerHvyPlas-contingency", ] },
-			{ res: "R-NRS-4JHHowitzerRotPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerRotPlas-contingency", ] },
-		],
-		extras: [
-		],
-	},
-	ASE00 : {
-		roles : [ 0.1, 0.2, 0.5, 0.2 ],
-		micro : MICRO.DUMB,
-		chatalias : 63,
-		weapons : [
-			{ res: "R-NRS-3AHHowitzerGaussInc-contingency", stat: "HowitzerGaussInc-contingency", weight: WEIGHT.MEDIUM },
-			{ res: "R-NRS-4AHHowitzerGaussHvyPlas-contingency", stat: "HowitzerGaussHvyPlas-contingency", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-4AHHowitzerGaussRotPlas-contingency", stat: "HowitzerGaussRotPlas-contingency", weight: WEIGHT.HEAVY },
-		],
-		vtols : [
-		],
-		defenses : [
-			{ res: "R-NRS-3AHHowitzerGaussInc-contingency", stat: "walltower-HowitzerGaussInc-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-4AHHowitzerGaussHvyPlas-contingency", stat: "walltower-HowitzerGaussHvyPlas-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-4AHHowitzerGaussRotPlas-contingency", stat: "walltower-HowitzerGaussRotPlas-contingency", defrole: DEFROLE.STANDALONE },
-		],
-		templates: [
-			{ res: "R-NRS-3AHHowitzerGaussInc-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerGaussInc-contingency", ] },
-			{ res: "R-NRS-4AHHowitzerGaussHvyPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerGaussHvyPlas-contingency", ] },
-			{ res: "R-NRS-4AHHowitzerGaussRotPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerGaussRotPlas-contingency", ] },
-		],
-		extras: [
-		],
-	},
 	ATO20 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 66,
+		chatalias : 62,
 		weapons : [
 			{ res: "R-NRS-3JHHowitzerRamjet-contingency", stat: "HowitzerRamjet-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-4JHHowitzerRamjetHvy-contingency", stat: "HowitzerRamjetHvy-contingency", weight: WEIGHT.HEAVY },
@@ -1434,7 +1397,7 @@ const weaponStats = {
 	ATO00 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 69,
+		chatalias : 65,
 		weapons : [
 			{ res: "R-NRS-3AHHowitzerGaussRamjet-contingency", stat: "HowitzerGaussRamjet-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-4AHHowitzerGaussRamjetHvy-contingency", stat: "HowitzerGaussRamjetHvy-contingency", weight: WEIGHT.HEAVY },
@@ -1455,10 +1418,55 @@ const weaponStats = {
 		extras: [
 		],
 	},
+	ASE20 : {
+		roles : [ 0.1, 0.2, 0.5, 0.2 ],
+		micro : MICRO.DUMB,
+		chatalias : 67,
+		weapons : [
+			{ res: "R-NRS-4JHHowitzerHvyPlas-contingency", stat: "HowitzerHvyPlas-contingency", weight: WEIGHT.HEAVY },
+			{ res: "R-NRS-4JHHowitzerRotPlas-contingency", stat: "HowitzerRotPlas-contingency", weight: WEIGHT.HEAVY },
+		],
+		vtols : [
+		],
+		defenses : [
+			{ res: "R-NRS-4JHHowitzerHvyPlas-contingency", stat: "walltower-HowitzerHvyPlas-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-4JHHowitzerRotPlas-contingency", stat: "walltower-HowitzerRotPlas-contingency", defrole: DEFROLE.STANDALONE },
+		],
+		templates: [
+			{ res: "R-NRS-4JHHowitzerHvyPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerHvyPlas-contingency", ] },
+			{ res: "R-NRS-4JHHowitzerRotPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerRotPlas-contingency", ] },
+		],
+		extras: [
+		],
+	},
+	ASE00 : {
+		roles : [ 0.1, 0.2, 0.5, 0.2 ],
+		micro : MICRO.DUMB,
+		chatalias : 71,
+		weapons : [
+			{ res: "R-NRS-3AHHowitzerGaussInc-contingency", stat: "HowitzerGaussInc-contingency", weight: WEIGHT.MEDIUM },
+			{ res: "R-NRS-4AHHowitzerGaussHvyPlas-contingency", stat: "HowitzerGaussHvyPlas-contingency", weight: WEIGHT.HEAVY },
+			{ res: "R-NRS-4AHHowitzerGaussRotPlas-contingency", stat: "HowitzerGaussRotPlas-contingency", weight: WEIGHT.HEAVY },
+		],
+		vtols : [
+		],
+		defenses : [
+			{ res: "R-NRS-3AHHowitzerGaussInc-contingency", stat: "walltower-HowitzerGaussInc-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-4AHHowitzerGaussHvyPlas-contingency", stat: "walltower-HowitzerGaussHvyPlas-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-4AHHowitzerGaussRotPlas-contingency", stat: "walltower-HowitzerGaussRotPlas-contingency", defrole: DEFROLE.STANDALONE },
+		],
+		templates: [
+			{ res: "R-NRS-3AHHowitzerGaussInc-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerGaussInc-contingency", ] },
+			{ res: "R-NRS-4AHHowitzerGaussHvyPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerGaussHvyPlas-contingency", ] },
+			{ res: "R-NRS-4AHHowitzerGaussRotPlas-contingency", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "HowitzerGaussRotPlas-contingency", ] },
+		],
+		extras: [
+		],
+	},
 	APE10 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 75,
+		chatalias : 77,
 		weapons : [
 			{ res: "R-NRS-6RHHeavyLaser", stat: "HeavyLaser", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-6RHLaser4-PlasmaCannon", stat: "Laser4-PlasmaCannon", weight: WEIGHT.ULTRAHEAVY },
@@ -1484,7 +1492,7 @@ const weaponStats = {
 	AWA21 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 83,
+		chatalias : 85,
 		weapons : [
 			{ res: "R-NRS-6JNCannon5VulcanMk1-2120", stat: "Cannon5VulcanMk1-2120", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-6JNCannon775mmMk1-2120", stat: "Cannon775mmMk1-2120", weight: WEIGHT.ULTRAHEAVY },
@@ -1517,7 +1525,7 @@ const weaponStats = {
 	ASO10 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 91,
+		chatalias : 93,
 		weapons : [
 			{ res: "R-NRS-4RHMortar1Mk1", stat: "Mortar1Mk1", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5RHMortar0Mk1-2120", stat: "Mortar0Mk1-2120", weight: WEIGHT.HEAVY },
@@ -1547,28 +1555,28 @@ const weaponStats = {
 		micro : MICRO.DUMB,
 		chatalias : 186,
 		weapons : [
+			{ res: "R-NRS-7ANHowitzerGaussRamjetSuper-contingency", stat: "HowitzerGaussRamjetSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7ANHowitzerGaussPlasSuper-contingency", stat: "HowitzerGaussPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7ANHowitzerGaussSuper-contingency", stat: "HowitzerGaussSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7ANHowitzerPlasSuper-contingency", stat: "HowitzerPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
-			{ res: "R-NRS-7ANHowitzerGaussRamjetSuper-contingency", stat: "HowitzerGaussRamjetSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-6ANMissile-HvyArt", stat: "Missile-HvyArt", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7ANMissile-HvyArt-2120", stat: "Missile-HvyArt-2120", weight: WEIGHT.ULTRAHEAVY },
 		],
 		vtols : [
 		],
 		defenses : [
+			{ res: "R-NRS-7ANHowitzerGaussRamjetSuper-contingency", stat: "walltower-HowitzerGaussRamjetSuper-contingency", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-7ANHowitzerGaussPlasSuper-contingency", stat: "walltower-HowitzerGaussPlasSuper-contingency", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-7ANHowitzerGaussSuper-contingency", stat: "walltower-HowitzerGaussSuper-contingency", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-7ANHowitzerPlasSuper-contingency", stat: "walltower-HowitzerPlasSuper-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-7ANHowitzerGaussRamjetSuper-contingency", stat: "walltower-HowitzerGaussRamjetSuper-contingency", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-6ANMissile-HvyArt", stat: "walltower-Missile-HvyArt", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-7ANMissile-HvyArt-2120", stat: "walltower-Missile-HvyArt-2120", defrole: DEFROLE.STANDALONE },
 		],
 		templates: [
+			{ res: "R-NRS-7ANHowitzerGaussRamjetSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "HowitzerGaussRamjetSuper-contingency", ] },
 			{ res: "R-NRS-7ANHowitzerGaussPlasSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "HowitzerGaussPlasSuper-contingency", ] },
 			{ res: "R-NRS-7ANHowitzerGaussSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "HowitzerGaussSuper-contingency", ] },
 			{ res: "R-NRS-7ANHowitzerPlasSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "HowitzerPlasSuper-contingency", ] },
-			{ res: "R-NRS-7ANHowitzerGaussRamjetSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "HowitzerGaussRamjetSuper-contingency", ] },
 			{ res: "R-NRS-6ANMissile-HvyArt", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Missile-HvyArt", ] },
 			{ res: "R-NRS-7ANMissile-HvyArt-2120", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Missile-HvyArt-2120", ] },
 		],
@@ -1578,7 +1586,7 @@ const weaponStats = {
 	ASE11 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 120,
+		chatalias : 114,
 		weapons : [
 			{ res: "R-NRS-4RNMortar-GaussRotPlas-contingency", stat: "Mortar-GaussRotPlas-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-7RNMortarPlasSuper-contingency", stat: "MortarPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1602,7 +1610,7 @@ const weaponStats = {
 	APA00 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 101,
+		chatalias : 103,
 		weapons : [
 			{ res: "R-NRS-7AHLaserSuper-contingency", stat: "LaserSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7AHLaserSuper2-contingency", stat: "LaserSuper2-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1626,7 +1634,7 @@ const weaponStats = {
 	AWO00 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 104,
+		chatalias : 106,
 		weapons : [
 			{ res: "R-NRS-7AHCannonSuper", stat: "CannonSuper", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7AHCannonSuper-contingency", stat: "CannonSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1647,10 +1655,49 @@ const weaponStats = {
 		extras: [
 		],
 	},
+	ASO11 : {
+		roles : [ 0.1, 0.2, 0.5, 0.2 ],
+		micro : MICRO.DUMB,
+		chatalias : 184,
+		weapons : [
+			{ res: "R-NRS-7RNMortarSuper-contingency", stat: "MortarSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
+			{ res: "R-NRS-7RNMortarGaussPlasSuper-contingency", stat: "MortarGaussPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
+			{ res: "R-NRS-7RNMortarGaussSuper-contingency", stat: "MortarGaussSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
+			{ res: "R-NRS-4RNRocket-BB", stat: "Rocket-BB", weight: WEIGHT.HEAVY },
+			{ res: "R-NRS-5RNRocket-Sunburst", stat: "Rocket-Sunburst", weight: WEIGHT.HEAVY },
+			{ res: "R-NRS-6RNRocket-BB-2120", stat: "Rocket-BB-2120", weight: WEIGHT.ULTRAHEAVY },
+			{ res: "R-NRS-7RNMissile-BB-2120", stat: "Missile-BB-2120", weight: WEIGHT.ULTRAHEAVY },
+			{ res: "R-NRS-5RNRocket-IDF", stat: "Rocket-IDF", weight: WEIGHT.HEAVY },
+		],
+		vtols : [
+		],
+		defenses : [
+			{ res: "R-NRS-7RNMortarSuper-contingency", stat: "walltower-MortarSuper-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-7RNMortarGaussPlasSuper-contingency", stat: "walltower-MortarGaussPlasSuper-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-7RNMortarGaussSuper-contingency", stat: "walltower-MortarGaussSuper-contingency", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-4RNRocket-BB", stat: "walltower-Rocket-BB", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-5RNRocket-Sunburst", stat: "walltower-Rocket-Sunburst", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-6RNRocket-BB-2120", stat: "walltower-Rocket-BB-2120", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-7RNMissile-BB-2120", stat: "walltower-Missile-BB-2120", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-5RNRocket-IDF", stat: "walltower-Rocket-IDF", defrole: DEFROLE.STANDALONE },
+		],
+		templates: [
+			{ res: "R-NRS-7RNMortarSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "MortarSuper-contingency", ] },
+			{ res: "R-NRS-7RNMortarGaussPlasSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "MortarGaussPlasSuper-contingency", ] },
+			{ res: "R-NRS-7RNMortarGaussSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "MortarGaussSuper-contingency", ] },
+			{ res: "R-NRS-4RNRocket-BB", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Rocket-BB", ] },
+			{ res: "R-NRS-5RNRocket-Sunburst", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Rocket-Sunburst", ] },
+			{ res: "R-NRS-6RNRocket-BB-2120", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Rocket-BB-2120", ] },
+			{ res: "R-NRS-7RNMissile-BB-2120", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Missile-BB-2120", ] },
+			{ res: "R-NRS-5RNRocket-IDF", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Rocket-IDF", ] },
+		],
+		extras: [
+		],
+	},
 	AWA00 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 107,
+		chatalias : 119,
 		weapons : [
 			{ res: "R-NRS-7AHRailgunGattlingPlasSuper-contingency", stat: "RailgunGattlingPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7AHRailgunSuper-contingency", stat: "RailgunSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1763,49 +1810,10 @@ const weaponStats = {
 		extras: [
 		],
 	},
-	ASO11 : {
-		roles : [ 0.1, 0.2, 0.5, 0.2 ],
-		micro : MICRO.DUMB,
-		chatalias : 184,
-		weapons : [
-			{ res: "R-NRS-7RNMortarSuper-contingency", stat: "MortarSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
-			{ res: "R-NRS-7RNMortarGaussPlasSuper-contingency", stat: "MortarGaussPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
-			{ res: "R-NRS-7RNMortarGaussSuper-contingency", stat: "MortarGaussSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
-			{ res: "R-NRS-4RNRocket-BB", stat: "Rocket-BB", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-5RNRocket-Sunburst", stat: "Rocket-Sunburst", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-6RNRocket-BB-2120", stat: "Rocket-BB-2120", weight: WEIGHT.ULTRAHEAVY },
-			{ res: "R-NRS-7RNMissile-BB-2120", stat: "Missile-BB-2120", weight: WEIGHT.ULTRAHEAVY },
-			{ res: "R-NRS-5RNRocket-IDF", stat: "Rocket-IDF", weight: WEIGHT.HEAVY },
-		],
-		vtols : [
-		],
-		defenses : [
-			{ res: "R-NRS-7RNMortarSuper-contingency", stat: "walltower-MortarSuper-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-7RNMortarGaussPlasSuper-contingency", stat: "walltower-MortarGaussPlasSuper-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-7RNMortarGaussSuper-contingency", stat: "walltower-MortarGaussSuper-contingency", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-4RNRocket-BB", stat: "walltower-Rocket-BB", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-5RNRocket-Sunburst", stat: "walltower-Rocket-Sunburst", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-6RNRocket-BB-2120", stat: "walltower-Rocket-BB-2120", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-7RNMissile-BB-2120", stat: "walltower-Missile-BB-2120", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-5RNRocket-IDF", stat: "walltower-Rocket-IDF", defrole: DEFROLE.STANDALONE },
-		],
-		templates: [
-			{ res: "R-NRS-7RNMortarSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "MortarSuper-contingency", ] },
-			{ res: "R-NRS-7RNMortarGaussPlasSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "MortarGaussPlasSuper-contingency", ] },
-			{ res: "R-NRS-7RNMortarGaussSuper-contingency", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "MortarGaussSuper-contingency", ] },
-			{ res: "R-NRS-4RNRocket-BB", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Rocket-BB", ] },
-			{ res: "R-NRS-5RNRocket-Sunburst", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Rocket-Sunburst", ] },
-			{ res: "R-NRS-6RNRocket-BB-2120", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Rocket-BB-2120", ] },
-			{ res: "R-NRS-7RNMissile-BB-2120", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Missile-BB-2120", ] },
-			{ res: "R-NRS-5RNRocket-IDF", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Rocket-IDF", ] },
-		],
-		extras: [
-		],
-	},
 	APO21 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 125,
+		chatalias : 127,
 		weapons : [
 			{ res: "R-NRS-7JNMGPlasSuper-contingency", stat: "MGPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7JNMGSuper-contingency", stat: "MGSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1836,14 +1844,11 @@ const weaponStats = {
 			{ res: "R-NRS-7RNWpn-Grenade-mech", stat: "Wpn-Grenade-mech", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7RNWpn-Laser-mech", stat: "Wpn-Laser-mech", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-1RNMG1Mk1", stat: "MG1Mk1", weight: WEIGHT.ULTRALIGHT },
-			{ res: "R-NRS-2RNMG2Mk1", stat: "MG2Mk1", weight: WEIGHT.LIGHT },
 			{ res: "R-NRS-3RNMG3Mk1", stat: "MG3Mk1", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-4RNMG4ROTARYMk1", stat: "MG4ROTARYMk1", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-4RNMG5TWINROTARY", stat: "MG5TWINROTARY", weight: WEIGHT.HEAVY },
 		],
 		vtols : [
 			{ res: "R-NRS-1RNMG1Mk1", stat: "MG1-VTOL", weight: WEIGHT.ULTRALIGHT },
-			{ res: "R-NRS-2RNMG2Mk1", stat: "MG2-VTOL", weight: WEIGHT.LIGHT },
 			{ res: "R-NRS-3RNMG3Mk1", stat: "MG3-VTOL", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-4RNMG4ROTARYMk1", stat: "MG4ROTARY-VTOL", weight: WEIGHT.HEAVY },
 		],
@@ -1853,10 +1858,8 @@ const weaponStats = {
 			{ res: "R-NRS-7RNWpn-Grenade-mech", stat: "walltower-Wpn-Grenade-mech", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-7RNWpn-Laser-mech", stat: "walltower-Wpn-Laser-mech", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-1RNMG1Mk1", stat: "walltower-MG1Mk1", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-2RNMG2Mk1", stat: "walltower-MG2Mk1", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-3RNMG3Mk1", stat: "walltower-MG3Mk1", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-4RNMG4ROTARYMk1", stat: "walltower-MG4ROTARYMk1", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-4RNMG5TWINROTARY", stat: "walltower-MG5TWINROTARY", defrole: DEFROLE.STANDALONE },
 		],
 		templates: [
 			{ res: "R-NRS-7RNChaingun-mech", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Chaingun-mech", ] },
@@ -1865,11 +1868,8 @@ const weaponStats = {
 			{ res: "R-NRS-7RNWpn-Laser-mech", body: "CyborgLightBody-mech", prop: "CyborgLegs", weapons: [ "Wpn-Laser-mech", ] },
 			{ res: "R-NRS-1RNMG1Mk1", body: "B1BaBaPerson01-nrs", prop: "CyborgLegs", weapons: [ "MG1Mk1", ] },
 			{ res: "R-NRS-1RNMG1Mk1", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "CyborgChaingun", ] },
-			{ res: "R-NRS-2RNMG2Mk1", body: "CyborgLightBody", prop: "CyborgLegs", weapons: [ "MG2Mk1", ] },
 			{ res: "R-NRS-3RNMG3Mk1", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "MG3Mk1", ] },
 			{ res: "R-NRS-4RNMG4ROTARYMk1", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "MG4ROTARYMk1", ] },
-			{ res: "R-NRS-4RNMG5TWINROTARY", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "MG5TWINROTARY", ] },
-			{ res: "R-NRS-4RNMG5TWINROTARY", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "CyborgRotMG", ] },
 		],
 		extras: [
 		],
