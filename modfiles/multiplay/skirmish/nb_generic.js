@@ -2614,9 +2614,9 @@ function buildOrder() {
 		for (var j = 0; j < 10; j++) {
 			var add_unadjusted = data[j] / 100 * cost;
 			var add_adjusted = add_unadjusted;
-			//if (isAI) {
-			//	add_adjusted /= 2;
-			//}
+			if (isAI) {
+				add_adjusted /= 2;
+			}
 			var newRes0 = (currentResources[0][j] || 0) + add_adjusted;
 			var demandDiv = basepower / 5;
 			var demand;
@@ -2625,9 +2625,9 @@ function buildOrder() {
 			} else {
 				demand = Math.ceil(newRes0 / demandDiv);
 			}
-			if(personality.ecofav1==j){ demand-=2; }
-			if(personality.ecofav2==j){ demand-=1; }
-			if(personality.ecofav3==j){ demand-=1; }
+			if(personality.ecofav1==j){ demand-=1; }
+			if(personality.ecofav2==j){ demand-=.75; }
+			if(personality.ecofav3==j){ demand-=.5; }
 			if (data[j] > 0) {
 				deltaBasePow += add_unadjusted / Math.pow(1.1, demand);
 			}

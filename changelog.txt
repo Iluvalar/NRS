@@ -29,3 +29,9 @@ NRS+416
 * I found ~4 cases of weapon line hidding behind the last of another line instead of being a stand alone.
 * Twin mg and twin AG now join the twin hmg in it american line.
 * Increased Nullbot overall difficulty. I was crushing it on hard too easily. 
+
+NRS+417
+I tough it would be a good idea, since the bots use the economy like humans that they would impact the economy like humans. It was a mistake. there were games at 10% propaganda and others at 350%. A bit too extreme.
+* Halved the impact of bots on the economy.
+* Made economic personnalities more subtle
+* Made the AI much harder. The hard was easy to beat, and medium was a walk in the park.

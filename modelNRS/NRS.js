@@ -139,9 +139,9 @@ function powerStuff(){
 								
 							}
 						
-							//if(playerData[playnum].difficulty>0){
-							//	add=add/4;
-							//}
+							if(playerData[playnum].difficulty>0){
+								add=add/2;
+							}
 							resources[0][j]=(resources[0][j] || 0)+add;
 						}
 						//resources[1][j]+=data[j+1]/data[0]*list[i].cost;
