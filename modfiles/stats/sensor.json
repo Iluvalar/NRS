@@ -66,8 +66,8 @@
         "type": "STANDARD"
     },
     "RadarDetector": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "designable": 1,
         "hitpoints": 0,
         "id": "RadarDetector",
@@ -81,8 +81,8 @@
         "weight": 100
     },
     "Sensor-WideSpec": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "designable": 1,
         "droidType": "DROID_SENSOR",
         "hitpoints": 0,
@@ -97,8 +97,8 @@
         "weight": 100
     },
     "SensorTower2Mk1": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "hitpoints": 0,
         "id": "SensorTower2Mk1",
         "location": "TURRET",
@@ -142,8 +142,8 @@
         "weight": 100
     },
     "Sys-CBTurret01": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "designable": 1,
         "droidType": "DROID_SENSOR",
         "hitpoints": 0,
@@ -158,8 +158,8 @@
         "weight": 100
     },
     "Sys-VTOLCBTower01": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "hitpoints": 0,
         "id": "Sys-VTOLCBTower01",
         "location": "TURRET",
@@ -173,8 +173,8 @@
         "designable": 1
     },
     "Sys-VTOLCBTurret01": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "designable": 1,
         "droidType": "DROID_SENSOR",
         "hitpoints": 0,
@@ -189,8 +189,8 @@
         "weight": 100
     },
     "Sys-VTOLRadarTower01": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "hitpoints": 0,
         "id": "Sys-VTOLRadarTower01",
         "location": "TURRET",
@@ -204,8 +204,8 @@
         "designable": 1
     },
     "Sys-VstrikeTurret01": {
-        "buildPoints": 136,
-        "buildPower": 42,
+        "buildPoints": 205,
+        "buildPower": 57,
         "designable": 1,
         "droidType": "DROID_SENSOR",
         "id": "Sys-VstrikeTurret01",

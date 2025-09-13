@@ -35,3 +35,25 @@ I tough it would be a good idea, since the bots use the economy like humans that
 * Halved the impact of bots on the economy.
 * Made economic personnalities more subtle
 * Made the AI much harder. The hard was easy to beat, and medium was a walk in the park.
+
+NRS+418
+*Big oops! The price of bodies were 2x too expensive. I was not accounting the 100% propulsion participation. As a result, it was probably better to build a price class 4 weapon with a price class 3 body. My apologies.
+*I realized that heavy(H) bodies, could be used to carry a weapon a price class above. Specially if you mix regions together. Some of those designs are not bad at all as well priced glass cannon. Therefor I'm introducing the light(L) bodies (nothing to do with factories of priceclass), they just have sad pitiful engines. But they can carry easily a weapon from a price class under. To create a somewhat tankier, but decently priced unit.
+*In order to fill the now bigger variety of bodies, I had to resort in looping the body modification another time. Some bodies can have 2 mods. Get ready for the big_big_scorpion!
+*I also want to apologies, because When I heavily modify the bodies like that, Your favorite body might disapear completely or be reclassified. This WILL happen again no doubt. So don't get too attached to those bodies, Follow the letters you are given to find a decent match.
+*We are now using Warzone2100 4.6. And therfore you can find the particlegun, at the end of the flashlight laser line.
+*The "category" the extra research information are not fully implemented yet. But you'll find the weapons having a line already. It will take some time...
+
+NRS+419
+*After an in-game test with a poor victim, I'm fixing the price of the unit 50% higher. My intuition is that by giving cheaper units, I made the game hyper stable. The constant production of units were making both side of the map able to just resist the existing skill and stategy advantages of the opposite team. Causing the game to last too long.
+*Reduce by 20% the HP of economic building. Same reason; Even after breaking the stalemate and reaching the enemy side, I was unable to do enough damage to really make a dent in the economy. I mean, something need to break at some point.
+
+NRS+420
+*Something went horribly wrong in the previous version economy. After shuffling positions in the lobby a lot, and the construction of many banks in game, some players ended up with negative economy while others had explosive power. Something went wrong with the player positions.
+**I capped the equity at 100% preventing preventing division by 0 in the code
+**I spotted one instance of structure.player instead of "playnum" This could be the culprit, not 100% sure.
+**I also cancelled the banks for now. While it's a funny feature, it have ruined many game because of code issue. I don't really think this feature is useful.
+
+NRS+421
+*I decided to play machine guns in a game, and it was very under perfoming. If a groupd of n units could all shoot at the same time, their power would grow in n^2 , if they all do the conga line and wait their turn to battle, they grown in n^1. I had this factor to 2 but it's unrealistic as the front line have the time to die, before the back line make it. I did several test against AI, and I'm confident the right factor is between 1.8 and 1.85. I'm trying 1.825 now and I think it's good enoug for a release.
+**I'd love the opinion of anyone who try the price class 1 or 7 and wheter or not the under or over perform. We need to aknowledge that overkill is possible too. So very tiny units vs high damage output big units should be doing great. That's another level of design strategy to keep track of.

@@ -15,40 +15,40 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,131,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,151,],
 	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,141,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,132,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,136,],
-	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,143,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,131,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,143,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,139,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,144,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,132,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,145,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,141,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,133,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,137,],
-	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,144,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,133,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,142,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,146,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,147,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,145,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,147,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,138,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,149,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,135,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,140,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,137,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,140,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,142,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,137,],
+	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,138,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,133,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,138,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,148,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,139,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,134,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,135,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,139,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,131,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,130,],
+	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,143,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,145,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,146,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,142,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,141,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,144,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,145,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,145,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,146,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,136,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,147,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,149,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,137,],
 	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,148,],
 	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,149,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,151,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,139,],
 	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,150,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,141,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,142,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,151,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,140,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,131,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,136,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -153,7 +153,8 @@ var powerMod=0;
 				//dumpText+=i +" "+ list[i].name +"="+ list[i].cost +" is"+ list[i].status;
 				var data=structureData[list[i].name];
 				if(data){
-					var p=list[i].player+1;
+					//var p=list[i].player+1;
+					var p=playnum+1;
 					//dumpText+=i +" FOD "+ list[i].name +"="+ list[i].cost +" is"+ list[i].status +" p:"+ list[i].player  +" #"+ p +" "+ list[i];
 					for (var j = 0; j < 10; j++){
 
@@ -186,7 +187,8 @@ var powerMod=0;
 				
 			}
 		}
-		nbank=getMultiTechLevel()+countStruct("A2CommandCentre", playnum);
+		//nbank=getMultiTechLevel()+countStruct("A2CommandCentre", playnum);
+		nbank=getMultiTechLevel();
 		totpropPow-=countStruct("A1CommandCentre", playnum)*2500
 		//console("2player:"+ playnum +"=="+ totPow +" house:"+ countStruct("Housing-nrs", playnum));
 		if(nbank>banks[playnum]){
@@ -314,6 +316,7 @@ var powerMod=0;
 		
 		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
 		var expPower=(playPow+basePow)/(2/5*basepower);
+		expPower=Math.max(1,expPower);
 		var timetoscale=Math.log(expPower)/Math.log(1+interest);
 		var linearPower=(interest)*timetoscale+1;
 		//var expPower=interest**timetoscale;
@@ -374,10 +377,23 @@ var powerMod=0;
 	//conDeb +="ndiff"+ ndiff;
 	if(tick%3==0){
 		conText+="richest"+  playerData[richestPlayer].name +"("+ richestPlayer +")@"+ Math.ceil(richestValue) +"$P honor:"+ playerData[honorPlayer].name +"("+ honorPlayer +")@"+ Math.ceil(honorValue/gameTime);
-		conText+=" propaganda:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) equ:"+ conDeb;
+		conText+=" powerLevel:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) equ:"+ conDeb;
 	}if(tick%3==1){
-		if(tick==1){
-			conText+=" Welcome to NRS";
+		if(tick%12==1){
+			if(tick==1){
+				conText+=" Welcome to NRS";
+			}
+			else{
+				if(tick%36==1){
+					conText+=" Match the code of the bodies and weapons. Like Viper [3¥H-A*] with [3¥H] weapons.";
+				}
+				if(tick%36==13){
+					conText+=" New weapons automatically upgrade all weapons that share letters in their code";
+				}
+				else{
+					conText+=" New bodies upgrade hp for everything. We also have _good_ propulsion upgrades!";
+				}
+			}
 		}else if(tick%12==4){
 			//conText+=" Light outnumber Medium which outnumber Heavy which can't even feel Light";
 		}else if(tick%12==7){
@@ -388,7 +404,7 @@ var powerMod=0;
 				output += input[i].charCodeAt(0)*(26**i);
 			}
 			
-			conText+=" Structure <> Wheel , Track <> Personnal. H>L>M>H>L"+ output;
+			conText+=" Structure <> Wheel , Track <> Personnal. Type A bodies are good vs Type A weapons."+ output;
 		}else{
 			conText+=" Don't try anything ! This mod is made to be boring. Always Follow the rules !";
 		}

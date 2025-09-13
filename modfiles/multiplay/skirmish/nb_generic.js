@@ -42,8 +42,8 @@ var subpersonalities = {
 					weaponStats.AWE11, 
 					weaponStats.APO01, 
 					weaponStats.ASE20, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.ASE11, 
 					weaponStats.APO11, 
 					weaponStats.ATO21, 
@@ -85,8 +85,8 @@ var subpersonalities = {
 				weaponPaths: [ // weapons to use; put late-game paths below!
 					weaponStats.ATE11, 
 					weaponStats.AWE11, 
-					weaponStats.ATE10, 
 					weaponStats.APE11, 
+					weaponStats.ATE10, 
 					weaponStats.ASE11, 
 					weaponStats.ATO11, 
 					weaponStats.ATE21, 
@@ -143,8 +143,8 @@ var subpersonalities = {
 					weaponStats.APE10, 
 					weaponStats.ASA20, 
 					weaponStats.AWA20, 
-					weaponStats.ATE10, 
 					weaponStats.APE11, 
+					weaponStats.ATE10, 
 					weaponStats.ATO20, 
 					weaponStats.ASE00, 
 					weaponStats.APA00, 
@@ -378,8 +378,8 @@ var subpersonalities = {
 					weaponStats.ASA20, 
 					weaponStats.ASO21, 
 					weaponStats.ATO01, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
 					weaponStats.ASA00, 
 					weaponStats.ASE20, 
 					weaponStats.ASE00, 
@@ -420,8 +420,8 @@ var subpersonalities = {
 					weaponStats.AWE11, 
 					weaponStats.ATE10, 
 					weaponStats.ASA00, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.ASO10, 
 					weaponStats.APA00, 
 					weaponStats.AWO00, 
@@ -525,8 +525,8 @@ var subpersonalities = {
 					weaponStats.AWO10, 
 					weaponStats.AWA10, 
 					weaponStats.ATE10, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.ASO11, 
 					weaponStats.ATO11, 
 					weaponStats.APO11, 
@@ -593,8 +593,8 @@ var subpersonalities = {
 					weaponStats.ATE20, 
 					weaponStats.AWO10, 
 					weaponStats.AWE11, 
-					weaponStats.ATE10, 
 					weaponStats.APE11, 
+					weaponStats.ATE10, 
 					weaponStats.ASA00, 
 					weaponStats.ASE00, 
 					weaponStats.AWA21, 
@@ -605,6 +605,114 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			APE11: {
+				chatalias: "APE11",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.APE11, 
+					weaponStats.APE21, 
+					weaponStats.ATE11, 
+					weaponStats.AWE11, 
+					weaponStats.APE10, 
+					weaponStats.ASE11, 
+					weaponStats.APO11, 
+					weaponStats.APA11, 
+					weaponStats.APE20, 
+					weaponStats.APO01, 
+					weaponStats.ATE10, 
+					weaponStats.ASO11, 
+					weaponStats.ATO11, 
+					weaponStats.APO21, 
+					weaponStats.AWA11, 
+					weaponStats.ATE21, 
+					weaponStats.APO10, 
+					weaponStats.ATE20, 
+					weaponStats.ASO21, 
+					weaponStats.AWO10, 
+					weaponStats.AWA10, 
+					weaponStats.ATO01, 
+					weaponStats.ASE20, 
+					weaponStats.ASE00, 
+					weaponStats.AWA21, 
+					weaponStats.ASO10, 
+					weaponStats.ASO01, 
+					weaponStats.APA00, 
+					weaponStats.ATO10, 
+					weaponStats.AWA01, 
+					weaponStats.AWO01, 
+					weaponStats.ATO21, 
+					weaponStats.APO00, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			APO01: {
+				chatalias: "APO01",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.APO01, 
+					weaponStats.ATO01, 
+					weaponStats.ASO01, 
+					weaponStats.APO21, 
+					weaponStats.APO11, 
+					weaponStats.AWO01, 
+					weaponStats.APO00, 
+					weaponStats.APE21, 
+					weaponStats.ASO21, 
+					weaponStats.APE11, 
+					weaponStats.ASO00, 
+					weaponStats.ATO00, 
+					weaponStats.APA00, 
+					weaponStats.AWO00, 
+					weaponStats.ASO11, 
+					weaponStats.ATO11, 
+					weaponStats.AWA01, 
+					weaponStats.ATO21, 
+					weaponStats.APA11, 
+					weaponStats.APO10, 
+					weaponStats.ATE11, 
+					weaponStats.APE20, 
+					weaponStats.AWO10, 
+					weaponStats.AWE11, 
+					weaponStats.ASA00, 
+					weaponStats.ATO20, 
+					weaponStats.ASE00, 
+					weaponStats.AWA21, 
+					weaponStats.APE10, 
+					weaponStats.ASO10, 
+					weaponStats.ASE11, 
+					weaponStats.AWA00, 
+					weaponStats.ATO10, 
+					weaponStats.AWA11, 
+					weaponStats.ATE21, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -658,114 +766,6 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
-					weaponStats.APO00, 
-		
-				],
-				earlyResearch: [ // fixed research path for the early game
-				],
-				minTanks: 1, // minimal attack force at game start
-				becomeHarder: 1, // how much to increase attack force every 5 minutes
-				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
-				minTrucks: 2, // minimal number of trucks around
-				minHoverTrucks: 3, // minimal number of hover trucks around
-				maxSensors: 1, // number of mobile sensor cars to produce
-				minMiscTanks: 1, // number of tanks to start harassing enemy
-				maxMiscTanks: 10, // number of tanks used for defense and harass
-				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
-				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
-				maxPower: 700, // build expensive things if we have more than that
-				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
-			},
-			APO01: {
-				chatalias: "APO01",
-				weaponPaths: [ // weapons to use; put late-game paths below!
-					weaponStats.APO01, 
-					weaponStats.ATO01, 
-					weaponStats.ASO01, 
-					weaponStats.APO21, 
-					weaponStats.APO11, 
-					weaponStats.AWO01, 
-					weaponStats.APO00, 
-					weaponStats.APE21, 
-					weaponStats.ASO21, 
-					weaponStats.APE11, 
-					weaponStats.ASO00, 
-					weaponStats.ATO00, 
-					weaponStats.APA00, 
-					weaponStats.AWO00, 
-					weaponStats.ASO11, 
-					weaponStats.ATO11, 
-					weaponStats.AWA01, 
-					weaponStats.ATO21, 
-					weaponStats.APA11, 
-					weaponStats.APO10, 
-					weaponStats.ATE11, 
-					weaponStats.APE20, 
-					weaponStats.AWO10, 
-					weaponStats.AWE11, 
-					weaponStats.ASA00, 
-					weaponStats.ATO20, 
-					weaponStats.ASE00, 
-					weaponStats.APE10, 
-					weaponStats.AWA21, 
-					weaponStats.ASO10, 
-					weaponStats.ASE11, 
-					weaponStats.AWA00, 
-					weaponStats.ATO10, 
-					weaponStats.AWA11, 
-					weaponStats.ATE21, 
-		
-				],
-				earlyResearch: [ // fixed research path for the early game
-				],
-				minTanks: 1, // minimal attack force at game start
-				becomeHarder: 1, // how much to increase attack force every 5 minutes
-				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
-				minTrucks: 2, // minimal number of trucks around
-				minHoverTrucks: 3, // minimal number of hover trucks around
-				maxSensors: 1, // number of mobile sensor cars to produce
-				minMiscTanks: 1, // number of tanks to start harassing enemy
-				maxMiscTanks: 10, // number of tanks used for defense and harass
-				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
-				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
-				maxPower: 700, // build expensive things if we have more than that
-				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
-			},
-			APE11: {
-				chatalias: "APE11",
-				weaponPaths: [ // weapons to use; put late-game paths below!
-					weaponStats.APE11, 
-					weaponStats.APE21, 
-					weaponStats.ATE11, 
-					weaponStats.AWE11, 
-					weaponStats.APE10, 
-					weaponStats.ASE11, 
-					weaponStats.APO11, 
-					weaponStats.APA11, 
-					weaponStats.APE20, 
-					weaponStats.ATE10, 
-					weaponStats.APO01, 
-					weaponStats.ASO11, 
-					weaponStats.ATO11, 
-					weaponStats.APO21, 
-					weaponStats.AWA11, 
-					weaponStats.ATE21, 
-					weaponStats.APO10, 
-					weaponStats.ATE20, 
-					weaponStats.ASO21, 
-					weaponStats.AWO10, 
-					weaponStats.AWA10, 
-					weaponStats.ATO01, 
-					weaponStats.ASE20, 
-					weaponStats.ASE00, 
-					weaponStats.AWA21, 
-					weaponStats.ASO10, 
-					weaponStats.ASO01, 
-					weaponStats.APA00, 
-					weaponStats.ATO10, 
-					weaponStats.AWA01, 
-					weaponStats.AWO01, 
-					weaponStats.ATO21, 
 					weaponStats.APO00, 
 		
 				],
@@ -860,11 +860,11 @@ var subpersonalities = {
 					weaponStats.ASO21, 
 					weaponStats.AWO10, 
 					weaponStats.ATO01, 
-					weaponStats.ATE10, 
 					weaponStats.APO01, 
+					weaponStats.ATE10, 
 					weaponStats.ATO20, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.ASE11, 
 					weaponStats.ASO11, 
 					weaponStats.ATO10, 
@@ -919,8 +919,8 @@ var subpersonalities = {
 					weaponStats.APO01, 
 					weaponStats.ASA00, 
 					weaponStats.ASE00, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.ASO01, 
 					weaponStats.APA00, 
 					weaponStats.ASO11, 
@@ -956,8 +956,8 @@ var subpersonalities = {
 					weaponStats.APO00, 
 					weaponStats.ATE20, 
 					weaponStats.AWO10, 
-					weaponStats.ATE10, 
 					weaponStats.APO01, 
+					weaponStats.ATE10, 
 					weaponStats.ASA00, 
 					weaponStats.ASE00, 
 					weaponStats.ASO10, 
@@ -1079,8 +1079,8 @@ var subpersonalities = {
 					weaponStats.AWA20, 
 					weaponStats.AWE11, 
 					weaponStats.ATO01, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
 					weaponStats.ATO20, 
 					weaponStats.ASO11, 
 					weaponStats.ATO10, 
@@ -1088,60 +1088,6 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.AWO01, 
 					weaponStats.APO10, 
-		
-				],
-				earlyResearch: [ // fixed research path for the early game
-				],
-				minTanks: 1, // minimal attack force at game start
-				becomeHarder: 1, // how much to increase attack force every 5 minutes
-				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
-				minTrucks: 2, // minimal number of trucks around
-				minHoverTrucks: 3, // minimal number of hover trucks around
-				maxSensors: 1, // number of mobile sensor cars to produce
-				minMiscTanks: 1, // number of tanks to start harassing enemy
-				maxMiscTanks: 10, // number of tanks used for defense and harass
-				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
-				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
-				maxPower: 700, // build expensive things if we have more than that
-				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
-			},
-			APE10: {
-				chatalias: "APE10",
-				weaponPaths: [ // weapons to use; put late-game paths below!
-					weaponStats.APE10, 
-					weaponStats.APE20, 
-					weaponStats.ATE10, 
-					weaponStats.APE11, 
-					weaponStats.APO10, 
-					weaponStats.APE21, 
-					weaponStats.ATE11, 
-					weaponStats.ATE20, 
-					weaponStats.AWO10, 
-					weaponStats.AWA10, 
-					weaponStats.AWE11, 
-					weaponStats.ASE20, 
-					weaponStats.ASE00, 
-					weaponStats.ASO10, 
-					weaponStats.ASE11, 
-					weaponStats.APA00, 
-					weaponStats.ATO10, 
-					weaponStats.APO11, 
-					weaponStats.APA11, 
-					weaponStats.APO00, 
-					weaponStats.ASA20, 
-					weaponStats.AWA20, 
-					weaponStats.APO01, 
-					weaponStats.ASO00, 
-					weaponStats.ASA00, 
-					weaponStats.ATO20, 
-					weaponStats.ATO00, 
-					weaponStats.AWO00, 
-					weaponStats.ASO11, 
-					weaponStats.AWA00, 
-					weaponStats.ATO11, 
-					weaponStats.APO21, 
-					weaponStats.AWA11, 
-					weaponStats.ATE21, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1182,8 +1128,8 @@ var subpersonalities = {
 					weaponStats.ATE20, 
 					weaponStats.AWO10, 
 					weaponStats.ATO01, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
 					weaponStats.ASA00, 
 					weaponStats.ATO20, 
 					weaponStats.ASE20, 
@@ -1194,6 +1140,60 @@ var subpersonalities = {
 					weaponStats.ASO11, 
 					weaponStats.ATO11, 
 					weaponStats.APO11, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			APE10: {
+				chatalias: "APE10",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.APE10, 
+					weaponStats.APE20, 
+					weaponStats.APE11, 
+					weaponStats.ATE10, 
+					weaponStats.APO10, 
+					weaponStats.APE21, 
+					weaponStats.ATE11, 
+					weaponStats.ATE20, 
+					weaponStats.AWO10, 
+					weaponStats.AWA10, 
+					weaponStats.AWE11, 
+					weaponStats.ASE20, 
+					weaponStats.ASE00, 
+					weaponStats.ASO10, 
+					weaponStats.ASE11, 
+					weaponStats.APA00, 
+					weaponStats.ATO10, 
+					weaponStats.APO11, 
+					weaponStats.APA11, 
+					weaponStats.APO00, 
+					weaponStats.ASA20, 
+					weaponStats.AWA20, 
+					weaponStats.APO01, 
+					weaponStats.ASO00, 
+					weaponStats.ASA00, 
+					weaponStats.ATO20, 
+					weaponStats.ATO00, 
+					weaponStats.AWO00, 
+					weaponStats.ASO11, 
+					weaponStats.AWA00, 
+					weaponStats.ATO11, 
+					weaponStats.APO21, 
+					weaponStats.AWA11, 
+					weaponStats.ATE21, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1242,8 +1242,8 @@ var subpersonalities = {
 					weaponStats.AWA20, 
 					weaponStats.AWE11, 
 					weaponStats.ATO01, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
 					weaponStats.APA00, 
 					weaponStats.AWA00, 
 					weaponStats.APO21, 
@@ -1401,8 +1401,8 @@ var subpersonalities = {
 					weaponStats.ATE20, 
 					weaponStats.AWO10, 
 					weaponStats.ATO01, 
-					weaponStats.ATE10, 
 					weaponStats.APE11, 
+					weaponStats.ATE10, 
 					weaponStats.ATO20, 
 					weaponStats.ASE20, 
 					weaponStats.AWA21, 
@@ -1460,8 +1460,8 @@ var subpersonalities = {
 					weaponStats.AWE11, 
 					weaponStats.ATE10, 
 					weaponStats.ASE20, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.ASO11, 
 					weaponStats.ATO11, 
 					weaponStats.APO21, 
@@ -1499,8 +1499,8 @@ var subpersonalities = {
 					weaponStats.AWO10, 
 					weaponStats.AWE11, 
 					weaponStats.ATO01, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
 					weaponStats.ASO00, 
 					weaponStats.ATO10, 
 					weaponStats.APO21, 
@@ -1518,8 +1518,8 @@ var subpersonalities = {
 					weaponStats.ATO00, 
 					weaponStats.ASE20, 
 					weaponStats.ASE00, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.AWO00, 
 					weaponStats.AWA01, 
 					weaponStats.ATE21, 
@@ -1564,8 +1564,8 @@ var subpersonalities = {
 					weaponStats.ATE20, 
 					weaponStats.AWE11, 
 					weaponStats.ATO01, 
-					weaponStats.ATE10, 
 					weaponStats.APO01, 
+					weaponStats.ATE10, 
 					weaponStats.ATO20, 
 					weaponStats.ASE20, 
 					weaponStats.APE10, 
@@ -1618,8 +1618,8 @@ var subpersonalities = {
 					weaponStats.ASO21, 
 					weaponStats.AWA20, 
 					weaponStats.AWE11, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
 					weaponStats.ASA00, 
 					weaponStats.ASE20, 
 					weaponStats.ASE00, 
@@ -1662,9 +1662,9 @@ var subpersonalities = {
 					weaponStats.ASO21, 
 					weaponStats.AWO10, 
 					weaponStats.AWE11, 
-					weaponStats.ATE10, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
+					weaponStats.ATE10, 
 					weaponStats.ATO20, 
 					weaponStats.ATO00, 
 					weaponStats.ASO10, 
@@ -1680,8 +1680,8 @@ var subpersonalities = {
 					weaponStats.ATE20, 
 					weaponStats.AWA10, 
 					weaponStats.ASO00, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.AWO00, 
 					weaponStats.AWA01, 
 					weaponStats.APO00, 
@@ -1762,8 +1762,8 @@ var subpersonalities = {
 				chatalias: "APO11",
 				weaponPaths: [ // weapons to use; put late-game paths below!
 					weaponStats.APO11, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
 					weaponStats.ASO11, 
 					weaponStats.ATO11, 
 					weaponStats.APO21, 
@@ -1835,8 +1835,8 @@ var subpersonalities = {
 					weaponStats.ASA20, 
 					weaponStats.ASO21, 
 					weaponStats.ATO01, 
-					weaponStats.ATE10, 
 					weaponStats.APO01, 
+					weaponStats.ATE10, 
 					weaponStats.ASA00, 
 					weaponStats.APE10, 
 					weaponStats.ASO10, 
@@ -1929,8 +1929,8 @@ var subpersonalities = {
 					weaponStats.ASO21, 
 					weaponStats.AWE11, 
 					weaponStats.ATO01, 
-					weaponStats.ATE10, 
 					weaponStats.APE11, 
+					weaponStats.ATE10, 
 					weaponStats.ATO20, 
 					weaponStats.ASE20, 
 					weaponStats.AWA21, 
@@ -2049,8 +2049,8 @@ var subpersonalities = {
 					weaponStats.AWO10, 
 					weaponStats.AWA20, 
 					weaponStats.AWE11, 
-					weaponStats.ATE10, 
 					weaponStats.APE11, 
+					weaponStats.ATE10, 
 					weaponStats.ASO00, 
 					weaponStats.ASE20, 
 					weaponStats.ASO10, 
@@ -2090,8 +2090,8 @@ var subpersonalities = {
 					weaponStats.AWA10, 
 					weaponStats.AWE11, 
 					weaponStats.APO01, 
-					weaponStats.APE10, 
 					weaponStats.AWA21, 
+					weaponStats.APE10, 
 					weaponStats.ASE11, 
 					weaponStats.APA00, 
 					weaponStats.ASO11, 
@@ -2144,9 +2144,9 @@ var subpersonalities = {
 					weaponStats.APO00, 
 					weaponStats.APE20, 
 					weaponStats.AWA10, 
-					weaponStats.ATE10, 
-					weaponStats.APO01, 
 					weaponStats.APE11, 
+					weaponStats.APO01, 
+					weaponStats.ATE10, 
 					weaponStats.ASO00, 
 					weaponStats.ATO20, 
 					weaponStats.ATO00, 
@@ -2220,8 +2220,8 @@ var subpersonalities = {
 					weaponStats.ASO21, 
 					weaponStats.AWA10, 
 					weaponStats.AWA20, 
-					weaponStats.ATE10, 
 					weaponStats.APE11, 
+					weaponStats.ATE10, 
 					weaponStats.ASE20, 
 					weaponStats.ASO11, 
 					weaponStats.ATO11, 

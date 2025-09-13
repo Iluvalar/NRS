@@ -1325,7 +1325,7 @@ function Fwz_fig($fig,$sign=1){
 	if($sign>0){
 		//return pow($fig*($fig+1)/2,.5);
 		//return $fig*($fig+1)/2
-		return (pow($fig,2)+$fig)/2;
+		return (pow($fig,1.825)+$fig)/2;
 	}
 	else{
 		//$fig/=2;
@@ -1452,7 +1452,7 @@ function Fwz_template2($data,$weapid,$bodyid,$propid,$weapid2=NULL){
 	$body=$data['body'][$bodyid];
 	$prop=$data['propulsion'][$propid];
 	Fwz_propulsionSwitch($prop,1,$body);
-	$prop['hitpoints']=$prop['hitpointPctOfBody']*$body['hitpoints']/100;
+	$prop['hitpoints']=$prop['hitpointPctOfBody']*(1+$body['hitpoints']/100);
 //print_r($weap2);
 	$obj=array_merge($body,$prop);
 	$obj=array_merge($obj,$weap);
@@ -2013,6 +2013,14 @@ function updatePieTexture($pieContent, $suffix = "-2120",$folder) {
 
     // Join the lines back together
     return implode("\n", $updatedLines);
+}
+function Fwz_addcat(&$cat, $string){
+	if($cat==''){
+		$cat.=$string;
+	}
+	else{
+		$cat.=' & '. $string;
+	}
 }
 /*
 function scale_pie_model($pie_string, $scale) {

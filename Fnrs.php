@@ -453,18 +453,19 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("typeE", $val3['as'] )) {$typeW='E';$wepclass='HEAT';}
 					
 					$quality=0;
-					if (in_array("cheap", $val3['as'] )) {$quality=1;$hooman2.='¥';$hooman3.='J';}
-					if (in_array("¥", $val3['as'] )) {$quality=1;$hooman2.='¥';$hooman3.='J';}
-					if (in_array("good", $val3['as'] )) {$quality=-1;$hooman2.='$';$hooman3.='A';}
-					if (in_array("$", $val3['as'] )) {$quality=-1;$hooman2.='$';$hooman3.='A';}
-					if($quality==0){ $hooman2.='₽';$hooman3.='R'; }
+					if (in_array("cheap", $val3['as'] )) {$quality=1;$hooman2.='¥';$hooman3.='J'; $region='¥';}
+					if (in_array("¥", $val3['as'] )) {$quality=1;$hooman2.='¥';$hooman3.='J'; $region='¥';}
+					if (in_array("good", $val3['as'] )) {$quality=-1;$hooman2.='$';$hooman3.='A'; $region='$';}
+					if (in_array("$", $val3['as'] )) {$quality=-1;$hooman2.='$';$hooman3.='A'; $region='$';}
+					if($quality==0){ $hooman2.='₽';$hooman3.='R'; $region='₽'; }
 					//¥₽$
 		
 					
 					$engineClass=0;
-					if (in_array("strong", $val3['as'] )) {$engineClass=1;$hooman2.='H'; $hooman3.='H';}
-					if (in_array("heavy", $val3['as'] )) {$engineClass=-1;$hooman2.='H'; $hooman3.='H';}
-					if($engineClass==0){ $hooman2.='N'; $hooman3.='N'; }
+					if (in_array("strong", $val3['as'] )) {$engineClass=1;$hooman2.='H'; $hooman3.='H'; $engineStr='H';}
+					if (in_array("weak", $val3['as'] )) {$engineClass=-1;$hooman2.='L'; $hooman3.='L'; $engineStr='L';}
+					if (in_array("heavy", $val3['as'] )) {$engineClass=-1;$hooman2.='H'; $hooman3.='H'; $engineStr='H';}
+					if($engineClass==0){ $hooman2.='N'; $hooman3.='N'; $engineStr='N'; }
 
 					if (in_array("insta", $val3['as'] )) {$resstartfrac=0; }
 					if (in_array("joke", $val3['as'] )) {$resstartfrac=.1; }
@@ -584,9 +585,9 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						Fwz_eval34($item2,$val['type']);
 						print_r($item2);
 						$fig=2;
-						$price=$sys['nrs']['unitprice']/3/$fig; //(weapon + body) * 1.5x (wheel) = 3 things.
+						$price=$sys['nrs']['unitprice']/2/$fig; //(weapon + body) 
 						$pow=1;
-						$nbase=$sys['nrs']['armypower']/($price*3)/pow(2,1/3);
+						$nbase=$sys['nrs']['armypower']/($price*2)/pow(2,1/3);
 						$figbase=Fwz_fig($nbase);
 						//$fig=3.7320;
 						//$fig=2.26423;
@@ -625,7 +626,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						}
 						$weightfact*=$fig**$priceclass;
 						$pow*=$figbase/Fwz_fig($nbase  * $fig**-$priceclass);
-						$price=$sys['nrs']['unitprice']/3*2**($priceclass+1)*(1+$quality*.2+$engineClass*0.1);
+						$price=$sys['nrs']['unitprice']/2*2**($priceclass+1)*(1+$quality*.2+$engineClass*0.1);
 						#NEED A fix
 						//$nbweight='LIGHT';
 						//$nbweight2='LIGHT';
@@ -676,70 +677,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						
 						
 						echo '<br>priceclass:'.  $item['id'] .' '. $checkprice .'/'. $sys['nrs']['unitprice']/3 .'='. $priceclass .' pow:'. $pow .' n:'. $nbase*$fig**-$priceclass .'/'. $nbase .' EC'. $engineClass;
-						/**/
-						/*
-						if($weight=="xlgt"){
-							$weightfact/=$fig;
-							$price/=$fig;
-							$pow*=$figbase/Fwz_fig($nbase  * $fig**1);
-							$pow*=1.1; //shouldnt be here but scavs are week in game...
-							$nbweight='ULTRALIGHT';
-							$nbweight2='ULTRALIGHT';
-							//$wepweight=1/16;
-						}
-						if($weight=="lgt"){
-							$wepclass='HEAT';
-							$bodhp*=pow($bodyMod,2);
-							$wepmin/=pow($bodyMod,3);
-							$wepweight=1/4;
-							$nbweight='LIGHT';
-							$nbweight2='LIGHT';
-						}
-						if($weight=="LM"){
-							$weightfact*=$fig**.5;
-							$price*=$fig**.5;
-							$pow*=$figbase/Fwz_fig($nbase * $fig**-0.5);
-							$bodhp*=$bodyMod**1.5;
-							$wepweight=4/8;
-							$nbweight='MEDIUM';
-							$nbweight2='MEDIUM';
-						}
-						if($weight=="med"){
-							$weightfact*=$fig;
-							$price*=$fig;
-							$pow*=$figbase/Fwz_fig($nbase * $fig**-1);
-							$bodhp*=$bodyMod;
-							$wepweight=7/12;
-							$nbweight='MEDIUM';
-							$nbweight2='MEDIUM';
-						}
-						if($weight=="MH"){
-							$weightfact*=$fig**1.5;
-							$price*=$fig**1.5;
-							$pow*=$figbase/Fwz_fig($nbase * $fig**-1.5);
-							$bodhp*=$bodyMod**0.5;
-							$wepweight=5.5/8;
-							$wephp=1/6;
-							$nbweight='HEAVY';
-							$nbweight2='HEAVY';
-						}
-						if($weight=="hvy"){
-							$weightfact*=$fig*$fig;
-							$price*=$fig*$fig;
-							//$pow*=Fwz_fig($fig)*Fwz_fig($fig);
-							$pow*=$figbase/Fwz_fig($nbase  * $fig**-2);
-							$wepweight=3/4;
-							$wephp=1/3;
-							$nbweight='HEAVY';
-							$nbweight2='HEAVY';
-							$bodyclass='THERMAL';
-							$bodheat=1;
-						}
 						
-						$priceclass=$weight;
-						$priceclassR=$weight;
-						
-						/**/
 						
 						$pow=pow($pow,.5);
 						echo '<br/>'. $id .' '. $itemname .' '. $item['id'] .' '. $item['name'] .' '. $val3['type'] .' nbase'. $nbase .'pow:<b>'. $pow .'</b> power: '. $power .' price:'. $price .' restot:'. $totrestime .' '. $weight;
@@ -750,8 +688,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$temp['subgroupIconID']="IMAGE_RES_DROIDTECH";
 							$item['id'].=$sufix;
 							//$item['model']="cybd_std.pie";
-							$item['buildPower']=floor($price);
-							$item['buildPoints']=floor($price*$sys['nrs']['produnit']);
+							$item['buildPower']=floor($price/2); //Propulsions double the price.
+							$item['buildPoints']=floor($price/2*$sys['nrs']['produnit']);
 							#$item['hitpoints']=50*$pow*$power*(1-$wephp)*$sys['nrs']['dmgunit'];
 							$item['hitpoints']=50*$pow*(1-$wephp)*$sys['nrs']['dmgunit'];
 							if($typeW=='A' or $typeW=='AE'){
@@ -1161,6 +1099,10 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 										//echo '<br>upgrades:'. $classeName .' '. $subclass .' ' . 	$subclssesno .' '. $sys['nrs']['subclassesStrenght'][$no].'=?'. $engineClass;
 									}
 								}
+								Fwz_addcat($temp['category'],$sys['nrs']['subclssesEffect'][$subclssesno]);
+								Fwz_addcat($temp['category'],$engineStr);
+								Fwz_addcat($temp['category'],$region);
+								Fwz_addcat($temp['category'],$typeW);
 								$r['filterParameter']='Effect';
 								$r['filterValue']=$sys['nrs']['weaponEffect'][$sys['nrs']['subclssesEffect'][$subclssesno]];
 								$factor=.2;

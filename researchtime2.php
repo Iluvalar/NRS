@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ERROR | E_PARSE);
 
-$basedir = './mp454/';
+$basedir = './mp46/';
 $str = file_get_contents($basedir . 'stats/research.json');
 $data['research'] = json_decode($str, TRUE);
 

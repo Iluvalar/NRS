@@ -120,12 +120,13 @@ echo "test:".  "OL:". Fwz_fig(35+3)/Fwz_fig((35+3)*$unit1/$unit2);
 /// We load the stats files in to the $sys['nrs'] array.
 
 $realbasedir='./base/';
-$basedir='./mp4.3.5/';
+$basedir='./mp46/';
+//$basedir='./mp454/';
 $dir2120='./2120/';
 //$dirnrs='./8c-oligarchyNRSpV150/';
 //$savedir='C:\Users\patag\AppData\Roaming\Warzone 2100 Project\Warzone 2100 4.0\mods\multiplay\NRS';
 $savedir='./modfiles/';
-$sys['nrs']['dir']['base']='./mp4.3.5/';
+$sys['nrs']['dir']['base']='./mp454/';
 $sys['nrs']['dir']['2120']='./2120/';
 $sys['nrs']['dir']['ntw']='./ntw/';
 $sys['nrs']['dir']['mech']='./mech/';
@@ -293,7 +294,8 @@ $sys['nrs']['basic']['body']['FireBody']=$sys['nrs']['base']['body']['FireBody']
 //print_r($sys['nrs']['ntw']);
 //Setting default values for the mods.
 $mods=['basic','base','ntw','2120','contingency'];
-$bannedbodies=['SuperTransportBody','GunshipBody','TransporterBody','HeavyChopper','ScavengerChopper','ZNULLBODY','ChinookBody','Body18REC','Body13ABT'];
+$bannedbodies=['SuperTransportBody','GunshipBody','TransporterBody','HeavyChopper','ScavengerChopper','ZNULLBODY','ChinookBody','Body18REC','Body13ABT','B4body-sml-trike01'];
+$basebodies=['BusBody'];
 foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
@@ -325,11 +327,14 @@ foreach($mods as $no => $modname){
 				$type='AE';
 			}
 			$engineClass='N';
-			if($enginePow>1){
+			if($enginePow>1.1){
 				$engineClass='H';
 			}
+			if($enginePow<0.65){
+				$engineClass='L';
+			}
 			$bp=$sys['nrs'][$modname][$listtype][$nom]['buildPower'];
-			$bp*=2**($bp/($sys['nrs']['unitprice']/3*8));
+			$bp*=1.70**($bp/($sys['nrs']['unitprice']/3*8+3));
 			$sys['nrs'][$modname][$listtype][$nom]['buildPower']=$bp;
 			$priceCheck=log($bp/($sys['nrs']['unitprice']/3),2);
 			$priceclass=floor($priceCheck);
@@ -345,7 +350,7 @@ foreach($mods as $no => $modname){
 				$bodySort[$priceclass][$engineClass][$region][]=$temp;
 				$bodyDone[$nom]=$temp;
 			}
-			echo $nom .','. $val['name'] .' '.  $val['size'] .' '. $modname .' armor power:'. $armorPow .' ratio:'. $armorRatio .' engineClass:'. $engineClass.' hp:'.  $hpRatio . $region .' price class:'. $priceclass .'<br>';			
+			echo $nom .','. $val['name'] .' '.  $val['size'] .' '. $modname .' armor power:'. $armorPow .' ratio:'. $armorRatio .' engineClass:'. $engineClass.'('. $enginePow .') hp:'.  $hpRatio . $region .' price class:'. $priceclass .'<br>';			
 			$sys['nrs'][$modname][$listtype][$nom]['armourKinetic']=0;
 			$sys['nrs'][$modname][$listtype][$nom]['armourHeat']=0;
 			
@@ -402,144 +407,177 @@ foreach($mods as $no => $modname){
 	//}
 }
 $mods=['basic','base','ntw','2120','contingency'];
-foreach($mods as $no => $modname){
-	$listtype='body';
-	if($modname=='basic'){
-		$basedir='./base/';
-	}
-	else{
-		$basedir='./'. $modname .'/';
-	}
-	
-	//$savedir='./tinymods/mini/';
-	$threshbody=6;
-	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
-		$pos = strpos($nom,'Cyb');
-		$pos2 = strpos($nom,'BaBa');
-		//$pos3	 = strpos($item['id'],'BaBa');
-		if($pos===FALSE && $pos2===FALSE){
-			if(!isset($bodyDone2[$nom]) and !in_array($nom, $bannedbodies)){
-								$done=0;
-				echo '<br>'. $nom;
-				print_r($bodyDone[$nom]);
-				$newbod=$val;
-				$bs=$bodyDone[$nom]; //Body specs
-				if( ($check=$bodySort[$bs['priceclass']+1][$bs['engineClass']][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['priceclass']+1)<4 ){
-					echo 'higher price';
-					$newnamemod='big';
-					$scale=array('x'=>2**(1/3),'y'=>2**(1/3),'z'=>2**(1/3));			
-					$newbod['buildPower']*=2;
-					$bs['priceclass']+=1;
-					$done=1;
-				}
-				elseif( ($check=$bodySort[$bs['priceclass']-1][$bs['engineClass']][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['priceclass']-1)>-5 ){
-					echo 'lower price';
-					$newnamemod='small';
-					$scale=array('x'=>.5**(1/3),'y'=>.5**(1/3),'z'=>.5**(1/3));			
-					$newbod['buildPower']/=2;
-					$bs['priceclass']-=1;
-					$done=1;
-					
-				}
-				elseif( ($check=$bodySort[$bs['priceclass']]['N'][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['engineClass']!='N') ){
-					echo 'normal class';
-					$newnamemod='flat';
-					$scale=array('x'=>1,'y'=>.6,'z'=>1);			
-					$bs['engineClass']='N';
-					$done=1;
-				}
-				elseif( ($check=$bodySort[$bs['priceclass']]['H'][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['engineClass']!='H') ){
-					echo 'heavy class';
-					$newnamemod='tall';
-					$scale=array('x'=>1,'y'=>1.4,'z'=>1);			
-					$bs['engineClass']='H';
-					$done=1;
-				}
-				elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['$'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='$') ){
-					echo '$ region';
-					$newnamemod='long';
-					$scale=array('x'=>.75,'y'=>1,'z'=>1.5);			
-					$bs['region']='$';
-					$done=1;
-				}
-				elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['₽'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='₽') ){
-					echo '₽ region';
-					$newnamemod='slim';
-					$scale=array('x'=>.8,'y'=>.8,'z'=>1);			
-					$bs['region']='₽';
-					$done=1;
-				}
-				elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['¥'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='¥') ){
-					echo ' region';
-					$newnamemod='short';
-					$scale=array('x'=>1.2,'y'=>1,'z'=>.6);			
-					$bs['region']='¥';
-					$done=1;
-				}
-				if($done){
-					$file=$basedir .'components/bodies/'.$val['model'];
-					if(!file_exists($file)){
-						echo '<br>'. $file .' doesnt exist';
-						//$basedir='./mp454/';
-						$file='./mp454/' .'components/bodies/'.$val['model'];
-						if(!file_exists($file)){
-							echo '<br>'. $file .' still doesnt exist';
-						}
-					}
-					$str=file_get_contents($file);
-					$str=scale_pie_model($str, $scale);
-					if( $modname!="basic" and  $modname!="base"){
-						$str=updatePieTexture($str,'-'. $modname,'./'. $modname .'/texpages/' );
-					}
-					echo '<br>piefile:'. $file .':'. $str;
-					$newbod['id']=$newnamemod .'_'. $newbod['id'];
-					$newbod['name']=$newnamemod .'_'. $newbod['name'];
-					$newbod['model']=strtolower($newnamemod .'_'. $newbod['model']);
-					$file=$savedir .'components/bodies/' . $newbod['model'];
-					echo '<br> creating...'. $file;
-					file_put_contents(strtolower($file),$str);
-					$actual_path = realpath($file);
-					echo "Actual path: " . $actual_path;
-					$sys['nrs'][$modname][$listtype][$newbod['id']]=$newbod;
-					$bs['id']=$newbod['id'];
-					$bs['name']=$newbod['name'];
-					$bodySort[$bs['priceclass']][$bs['engineClass']][$bs['region']][]=$bs;
-					$bodyDone[$bs['id']]=$temp;
-					$bodyDone2[$nom]=$temp;
-				}
-			}
+while($xbod++<2){
+	unset($bodyDone2);
+	foreach($mods as $no => $modname){
+		$listtype='body';
+		if($modname=='basic'){
+			$basedir='./base/';
+		}
+		else{
+			$basedir='./'. $modname .'/';
 		}
 		
+		//$savedir='./tinymods/mini/';
+		$threshbody=4;
+
+		foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
+			$pos = strpos($nom,'Cyb');
+			$pos2 = strpos($nom,'BaBa');
+			//$pos3	 = strpos($item['id'],'BaBa');
+			if($pos===FALSE && $pos2===FALSE){
+				if(!isset($bodyDone2[$nom]) and !in_array($nom, $bannedbodies)){
+					$done=0;
+					echo '<br>'. $nom;
+					print_r($bodyDone[$nom]);
+					$newbod=$val;
+					$bs=$bodyDone[$nom]; //Body specs
+					if(0){} //lol dumb AF but allows everything below to be an "elseif"
+					elseif( ($check=$bodySort[$bs['priceclass']]['L'][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['engineClass']!='L') ){
+						echo 'light class';
+						$newnamemod='silly';
+						$scale=array('x'=>1.3,'y'=>1,'z'=>.7);			
+						$bs['engineClass']='L';
+						$done=1;
+					}
+					elseif( ($check=$bodySort[$bs['priceclass']+1][$bs['engineClass']][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['priceclass']+1)<5 ){
+						echo 'higher price';
+						$newnamemod='big';
+						$scale=array('x'=>2**(1/3),'y'=>2**(1/3),'z'=>2**(1/3));			
+						$newbod['buildPower']*=2;
+						$bs['priceclass']+=1;
+						$done=1;
+					}
+					elseif( ($check=$bodySort[$bs['priceclass']-1][$bs['engineClass']][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['priceclass']-1)>-1 ){
+						echo 'lower price';
+						$newnamemod='small';
+						$scale=array('x'=>.5**(1/3),'y'=>.5**(1/3),'z'=>.5**(1/3));			
+						$newbod['buildPower']/=2;
+						$bs['priceclass']-=1;
+						$done=1;
+						
+					}
+					elseif( ($check=$bodySort[$bs['priceclass']]['N'][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['engineClass']!='N') ){
+						echo 'normal class';
+						$newnamemod='flat';
+						$scale=array('x'=>1,'y'=>.6,'z'=>1);			
+						$bs['engineClass']='N';
+						$done=1;
+					}
+					elseif( ($check=$bodySort[$bs['priceclass']]['H'][$bs['region']] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['engineClass']!='H') ){
+						echo 'heavy class';
+						$newnamemod='tall';
+						$scale=array('x'=>1,'y'=>1.4,'z'=>1);			
+						$bs['engineClass']='H';
+						$done=1;
+					}
+					elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['$'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='$') ){
+						echo '$ region';
+						$newnamemod='long';
+						$scale=array('x'=>.75,'y'=>1,'z'=>1.5);			
+						$bs['region']='$';
+						$done=1;
+					}
+					elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['₽'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='₽') ){
+						echo '₽ region';
+						$newnamemod='slim';
+						$scale=array('x'=>.8,'y'=>.8,'z'=>1);			
+						$bs['region']='₽';
+						$done=1;
+					}
+					elseif( ($check=$bodySort[$bs['priceclass']][$bs['engineClass']]['¥'] or 1) and ($check ? count($check) : 0 )<$threshbody and ($bs['region']!='¥') ){
+						echo ' region';
+						$newnamemod='short';
+						$scale=array('x'=>1.2,'y'=>1,'z'=>.6);			
+						$bs['region']='¥';
+						$done=1;
+					}
+					$newid=$newnamemod .'_'. $newbod['id'];
+					if(isset($bodyDone[$newid])){
+						unset($done);
+					}
+					if($done){
+						$file=$basedir .'components/bodies/'.$val['model'];
+						if(!file_exists($file)){
+							echo '<br>'. $file .' doesnt exist';
+							//$basedir='./mp454/';
+							$file='./mp454/' .'components/bodies/'.$val['model'];
+							if(!file_exists($file)){
+								echo '<br>'. $file .' still doesnt exist';
+								$file='./modfiles/' .'components/bodies/'.$val['model'];
+								if(!file_exists($file)){
+									echo '<br>'. $file .' still yet doesnt exist';
+								}
+							}
+						}
+						$str=file_get_contents($file);
+						$str=scale_pie_model($str, $scale);
+						if( $modname!="basic" and  $modname!="base" and !in_array($nom, $basebodies)){
+							$str=updatePieTexture($str,'-'. $modname,'./'. $modname .'/texpages/' );
+						}
+						echo '<br>piefile:'. $file .':'. $str;
+						$newbod['id']=$newid;
+						$newbod['name']=$newnamemod .'_'. $newbod['name'];
+						$newbod['model']=strtolower($newnamemod .'_'. $newbod['model']);
+						$newbod['from']=$modname;
+						$file=$savedir .'components/bodies/' . $newbod['model'];
+						echo '<br> creating...'. $file;
+						file_put_contents(strtolower($file),$str);
+						$actual_path = realpath($file);
+						echo "Actual path: " . $actual_path .' mod'. $modname .'-'. $newid;
+						$sys['nrs'][$modname][$listtype][$newid]=$newbod;
+						$bs['id']=$newbod['id'];
+						$bs['name']=$newbod['name'];
+						$bs['from']=$modname;
+						$bodySort[$bs['priceclass']][$bs['engineClass']][$bs['region']][]=$bs;
+						$bodyDone[$bs['id']]=$bs;
+						$bodyDone2[$nom]=$bs;
+					}
+					else{
+						echo '<br>no mod for this body '. $nom;
+						print_r($bs);
+						print_r($val);
+					}
+				}
+			}
+			
+		}
 	}
 }
 echo '<pre>';
+//print_r($bodyDone);
 echo 'bodysort!';
 #print_r($bodySort);
 
 foreach($bodySort as $priceclass =>$val){
 	 
-		foreach($val as $engineClass =>$val2){
-			//print_r($val2);
-			foreach($val2 as $region =>$val3){
-				$fac=(($priceclass+2)) . $region . $engineClass;
-				echo '<br>' . $fac;
-				foreach($val3 as $no => $item){
-					
-					$pos = strpos($item['id'],'Cyb');
-					$pos2 = strpos($item['id'],'BaBa');
-					$strenght='normal';
-					if($engineClass=='H'){
-						$strenght='strong';
-					}
-					if($pos===FALSE && $pos2===FALSE){
-						echo '<br>'. $item['id'] .'('. $item['name']  .') from '. $item['from'] .' type'. $item['type'];
-						Fnrs_add([ 'faction'=> $fac, 'use'=>  $item['id'], 'in'=>$item['from'], 'type'=> 'body', 'as' => ['lgt',$strenght,'type'. $item['type'],$region,'insta','vshort'] ]);
-					}
+	foreach($val as $engineClass =>$val2){
+		//print_r($val2);
+		foreach($val2 as $region =>$val3){
+			$fac=(($priceclass+2)) . $region . $engineClass;
+			echo '<br>' . $fac;
+			foreach($val3 as $no => $item){
+				
+				$pos = strpos($item['id'],'Cyb');
+				$pos2 = strpos($item['id'],'BaBa');
+				$strenght='normal';
+				if($engineClass=='H'){
+					$strenght='strong';
 				}
-				//print_r($val3);
+				if($engineClass=='L'){
+					$strenght='weak';
+				}
+				if($pos===FALSE && $pos2===FALSE){
+					echo '<br>'. $item['id'] .'('. $item['name']  .') from '. $item['from'] .' type'. $item['type'];
+					Fnrs_add([ 'faction'=> $fac, 'use'=>  $item['id'], 'in'=>$item['from'], 'type'=> 'body', 'as' => ['lgt',$strenght,'type'. $item['type'],$region,'insta','vshort'] ]);
+					//print_r($sys['nrs'][$item['from']][$listtype][$item['id'] ]);
+				}
 			}
+			//print_r($val3);
 		}
+	}
 }
+
 echo '</pre>';
 //$sys['nrs']['base']['structure']['Farm']=$sys['nrs']['grok3']['structure']['Farm'];
 //$sys['nrs']['structsource']['Farm']='grok3';
@@ -626,12 +664,12 @@ unset($sys['nrs']['base']['propulsion']['antiGravity']['model']);
 //Fnrs_genprop('BaBaLegs',$fac,'BaBaLegs',100);
 Fnrs_genprop('wheeled01',$fac,'wheeled01',100);
 Fnrs_genprop('tracked01',$fac,'tracked01',130,"Tracked");
-//Fnrs_genprop('Naval',$fac,'Naval',115,"Propellor");
-//Fnrs_genprop('Helicopter',$fac,'Helicopter',115,"Lift");
 Fnrs_genprop('hover01',$fac,'hover01',85,"Hover");
 Fnrs_genprop('HalfTrack',$fac,'HalfTrack',115,"Tracked");
 Fnrs_genprop('CyborgLegs',$fac,'CyborgLegs',100,"Legged");
+Fnrs_genprop('Naval',$fac,'Naval',115,"Propellor");
 Fnrs_genprop('antiGravity',$fac,'antiGravity',100);
+//Fnrs_genprop('Helicopter',$fac,'Helicopter',115,"Lift");
 
 
 
@@ -749,11 +787,13 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "MGPlasSuper", 'in'=>'contingency', 'type'=
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG-AntiTank", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['lgt','AT','$','NRSp'], 'call'=>'machinegun$AT']);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG-AntiTankTwin", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['lgt','AT','$','NRSp'], 'call'=>'machinegun$AT']);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG-AntiTank2", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['lgt','AT','$','NRSp'], 'call'=>'machinegun$AT']);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "MG-AntiTank2Twin", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['lgt','AT','$','NRSp'], 'call'=>'machinegun$AT']);
+
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG-AntiTankGss", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['medium','AT','$','NRSp'], 'call'=>'machinegun$']);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "MG-AntiTank2Twin", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['medium','AT','$','NRSp'], 'call'=>'machinegun$AT']);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG-AntiTankGssTwin", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['medium','AT','$','NRSp'], 'call'=>'machinegun$']);
 
-//alone!!
+
+$fac='NRSPHMF';
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG2Mk1,MG2-VTOL", 'in'=>'base', 'type'=> 'weapons', 'as' => ['medium','AP','$','insta','NRSp'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG3Twin", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['medium','AP','$','NRSp'], 'call'=>'machinegun$']);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "MG5TWINROTARY,CyborgRotMG", 'in'=>'base', 'type'=> 'weapons', 'as' => ['medium','AP','$','insta','NRSp'] ]);
@@ -912,10 +952,12 @@ Fnrs_add([ 'faction'=> $fac, 'use'=>'Body28SUP', 'in'=>'contingency','type'=> 'b
 
 $fac='nexus';
 
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser3BEAMMk1,Laser3BEAM-VTOL,Cyb-Wpn-Laser', 'in'=>'base','type'=> 'weapons', 'as' => ['hvy','AP','hightech','longrange','weapon','typeE','NRSp'], 'call'=>'heavylaser' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>"Laser2PULSEMk1,Laser2PULSE-VTOL", 'in'=>'base','type'=> 'weapons', 'as' => ['hvy','AP','hightech','longrange','weapon','typeE','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Laser3BEAMMk1,Laser3BEAM-VTOL,Cyb-Wpn-Laser', 'in'=>'base','type'=> 'weapons', 'as' => ['','AP','hightech','longrange','weapon','typeE','NRSp'], 'call'=>'heavylaser' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>"Laser2PULSEMk1,Laser2PULSE-VTOL", 'in'=>'base','type'=> 'weapons', 'as' => ['','AP','hightech','longrange','weapon','typeE','NRSp'] ]);
 
-Fnrs_add([ 'faction'=> $fac, 'use'=>"Laser3BEAMMk1,Laser3BEAM-VTOL", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['hvy','AP','hightech','typeE','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>"Laser3BEAMMk1,Laser3BEAM-VTOL", 'in'=>'2120', 'type'=> 'weapons', 'as' => ['','AP','hightech','typeE','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>"ParticleGun", 'in'=>'base', 'type'=> 'weapons', 'as' => ['','AP','hightech','typeE','NRSp'] ]);
+
 
 Fnrs_add([ 'faction'=> $fac, 'use'=>"HeavyLaser,HeavyLaser-VTOL,Cyb-Hvywpn-PulseLsr", 'in'=>'base','type'=> 'weapons', 'as' => ['hvy','AP','hightech','longrange','weapon','typeE','NRSp','heavy'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>"Laser4-PlasmaCannon", 'in'=>'base','type'=> 'weapons', 'as' => ['hvy','AP','hightech','longrange','weapon','typeE','NRSp','heavy'] ]);

@@ -117,7 +117,8 @@ function powerStuff(){
 				//dumpText+=i +" "+ list[i].name +"="+ list[i].cost +" is"+ list[i].status;
 				var data=structureData[list[i].name];
 				if(data){
-					var p=list[i].player+1;
+					//var p=list[i].player+1;
+					var p=playnum+1;
 					//dumpText+=i +" FOD "+ list[i].name +"="+ list[i].cost +" is"+ list[i].status +" p:"+ list[i].player  +" #"+ p +" "+ list[i];
 					for (var j = 0; j < 10; j++){
 
@@ -150,7 +151,8 @@ function powerStuff(){
 				
 			}
 		}
-		nbank=getMultiTechLevel()+countStruct("A2CommandCentre", playnum);
+		//nbank=getMultiTechLevel()+countStruct("A2CommandCentre", playnum);
+		nbank=getMultiTechLevel();
 		totpropPow-=countStruct("A1CommandCentre", playnum)*2500
 		//console("2player:"+ playnum +"=="+ totPow +" house:"+ countStruct("Housing-nrs", playnum));
 		if(nbank>banks[playnum]){
@@ -278,6 +280,7 @@ function powerStuff(){
 		
 		//var timetoscale=((playPow+basePow)/(basepower*1.5)-1)/(interest-1);
 		var expPower=(playPow+basePow)/(2/5*basepower);
+		expPower=Math.max(1,expPower);
 		var timetoscale=Math.log(expPower)/Math.log(1+interest);
 		var linearPower=(interest)*timetoscale+1;
 		//var expPower=interest**timetoscale;
@@ -338,10 +341,23 @@ function powerStuff(){
 	//conDeb +="ndiff"+ ndiff;
 	if(tick%3==0){
 		conText+="richest"+  playerData[richestPlayer].name +"("+ richestPlayer +")@"+ Math.ceil(richestValue) +"$P honor:"+ playerData[honorPlayer].name +"("+ honorPlayer +")@"+ Math.ceil(honorValue/gameTime);
-		conText+=" propaganda:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) equ:"+ conDeb;
+		conText+=" powerLevel:"+  Math.ceil(totpropPow)  +"("+  Math.ceil(1/fractprop*100) +"%) equ:"+ conDeb;
 	}if(tick%3==1){
-		if(tick==1){
-			conText+=" Welcome to NRS";
+		if(tick%12==1){
+			if(tick==1){
+				conText+=" Welcome to NRS";
+			}
+			else{
+				if(tick%36==1){
+					conText+=" Match the code of the bodies and weapons. Like Viper [3¥H-A*] with [3¥H] weapons.";
+				}
+				if(tick%36==13){
+					conText+=" New weapons automatically upgrade all weapons that share letters in their code";
+				}
+				else{
+					conText+=" New bodies upgrade hp for everything. We also have _good_ propulsion upgrades!";
+				}
+			}
 		}else if(tick%12==4){
 			//conText+=" Light outnumber Medium which outnumber Heavy which can't even feel Light";
 		}else if(tick%12==7){
@@ -352,7 +368,7 @@ function powerStuff(){
 				output += input[i].charCodeAt(0)*(26**i);
 			}
 			
-			conText+=" Structure <> Wheel , Track <> Personnal. H>L>M>H>L"+ output;
+			conText+=" Structure <> Wheel , Track <> Personnal. Type A bodies are good vs Type A weapons."+ output;
 		}else{
 			conText+=" Don't try anything ! This mod is made to be boring. Always Follow the rules !";
 		}
