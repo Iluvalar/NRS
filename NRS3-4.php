@@ -295,7 +295,7 @@ $sys['nrs']['basic']['body']['FireBody']=$sys['nrs']['base']['body']['FireBody']
 //Setting default values for the mods.
 $mods=['basic','base','ntw','2120','contingency'];
 $bannedbodies=['SuperTransportBody','GunshipBody','TransporterBody','HeavyChopper','ScavengerChopper','ZNULLBODY','ChinookBody','Body18REC','Body13ABT','B4body-sml-trike01'];
-$basebodies=['BusBody'];
+$basebodies=['BusBody','FireBody'];
 foreach($mods as $no => $modname){
 	$listtype='body';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){

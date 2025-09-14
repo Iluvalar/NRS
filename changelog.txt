@@ -57,3 +57,6 @@ NRS+420
 NRS+421
 *I decided to play machine guns in a game, and it was very under perfoming. If a groupd of n units could all shoot at the same time, their power would grow in n^2 , if they all do the conga line and wait their turn to battle, they grown in n^1. I had this factor to 2 but it's unrealistic as the front line have the time to die, before the back line make it. I did several test against AI, and I'm confident the right factor is between 1.8 and 1.85. I'm trying 1.825 now and I think it's good enoug for a release.
 **I'd love the opinion of anyone who try the price class 1 or 7 and wheter or not the under or over perform. We need to aknowledge that overkill is possible too. So very tiny units vs high damage output big units should be doing great. That's another level of design strategy to keep track of.
+
+NRS+422
+*The game was yapping about the lack of a single texture file. No gameplay changes.
