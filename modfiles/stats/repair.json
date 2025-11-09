@@ -7,8 +7,8 @@
         "time": 75
     },
     "CyborgRepair": {
-        "buildPoints": 205,
-        "buildPower": 57.31957677367434,
+        "buildPoints": 204.99999999999997,
+        "buildPower": 49.720306774064774,
         "id": "CyborgRepair",
         "droidType": "CYBORG_REPAIR",
         "location": "TURRET",
@@ -20,11 +20,11 @@
         "usageClass": "Cyborg",
         "weight": 450,
         "constructPoints": 12.9801,
-        "hitpoints": 127.83456713177658
+        "hitpoints": 131.63301672161515
     },
     "HeavyRepair": {
-        "buildPoints": 205,
-        "buildPower": 57.31957677367434,
+        "buildPoints": 204.99999999999997,
+        "buildPower": 49.720306774064774,
         "designable": 1,
         "droidType": "DROID_REPAIR",
         "id": "HeavyRepair",
@@ -36,11 +36,11 @@
         "time": 7,
         "weight": 450,
         "constructPoints": 13.9602,
-        "hitpoints": 137.48708592946338
+        "hitpoints": 141.5723484439328
     },
     "LightRepair1": {
-        "buildPoints": 205,
-        "buildPower": 57.31957677367434,
+        "buildPoints": 204.99999999999997,
+        "buildPower": 49.720306774064774,
         "designable": 1,
         "droidType": "DROID_REPAIR",
         "id": "LightRepair1",
@@ -52,7 +52,7 @@
         "time": 7,
         "weight": 450,
         "constructPoints": 12.9801,
-        "hitpoints": 127.83456713177658
+        "hitpoints": 131.63301672161515
     },
     "NEXUSrepair": {
         "id": "NEXUSrepair",

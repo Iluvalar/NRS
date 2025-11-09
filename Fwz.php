@@ -1322,14 +1322,16 @@ function Fwz_resTime($data){
 }
 function Fwz_fig($fig,$sign=1){
 	//return ((pow($fig,2)+$fig)/2)/$fig;
+	$pow=1.625;
 	if($sign>0){
 		//return pow($fig*($fig+1)/2,.5);
 		//return $fig*($fig+1)/2
-		return (pow($fig,1.825)+$fig)/2;
+		#return (pow($fig,1.825)+$fig)/2; //This was perfect in 4.5.5 really curious
+		return (pow($fig,$pow)+$fig)/2;
 	}
 	else{
 		//$fig/=2;
-		return 1/2*(pow(8*$fig+1,.5)-1);
+		return 1/2*(pow(8*$fig+1,1/$pow)-1);
 	}
 }
 function Fwz_expect($restime,$type=''){
