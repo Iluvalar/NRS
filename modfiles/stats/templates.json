@@ -4337,22 +4337,11 @@
         ],
         "body": "CyborgLightBody-mech"
     },
-    "Flamer01-mech-Cyb": {
-        "type": "CYBORG",
-        "propulsion": "CyborgLegs",
-        "available": "true",
-        "name": "Cyborg Flamer [7\u20bdN-ATO] #2 Cyb-Mk1",
-        "id": "Flamer01-mech-Cyb",
-        "weapons": [
-            "Flamer01-mech-Cyb"
-        ],
-        "body": "CyborgLightBody-mech"
-    },
     "Rocket-mech-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "Cyborg Lancer [7\u20bdN-ATO] #3 Cyb-Mk2",
+        "name": "Cyborg Lancer [7\u20bdN-ATO] #2 Cyb-Mk1",
         "id": "Rocket-mech-Cyb",
         "weapons": [
             "Rocket-mech-Cyb"
@@ -4363,7 +4352,7 @@
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "*Cyborg Thermite Weapon* [7\u20bdN-ATO] #4 Cyb-Mk3",
+        "name": "*Cyborg Thermite Weapon* [7\u20bdN-ATO] #3 Cyb-Mk2",
         "id": "Wpn-Thermite-mech-Cyb",
         "weapons": [
             "Wpn-Thermite-mech-Cyb"
@@ -4374,7 +4363,7 @@
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "*Cyb-Wpn-Atmiss* [7\u20bdN-ATO] #5 Cyb-Mk4",
+        "name": "*Cyb-Wpn-Atmiss* [7\u20bdN-ATO] #4 Cyb-Mk3",
         "id": "Wpn-Atmiss-mech-Cyb",
         "weapons": [
             "Wpn-Atmiss-mech-Cyb"
@@ -4385,7 +4374,7 @@
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "*Cyb-Wpn-Rail1* [7\u20bdN-ATO] #6 Cyb-Mk5",
+        "name": "*Cyb-Wpn-Rail1* [7\u20bdN-ATO] #5 Cyb-Mk4",
         "id": "Wpn-Rail1-mech-Cyb",
         "weapons": [
             "Wpn-Rail1-mech-Cyb"

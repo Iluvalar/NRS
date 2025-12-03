@@ -4150,37 +4150,6 @@
         ],
         "turret": "Cannon-mech-command"
     },
-    "Flamer01-mech-brain": {
-        "designable": 1,
-        "droidType": "DROID_COMMAND",
-        "hitpoints": 500,
-        "id": "Flamer01-mech-brain",
-        "maxDroids": 2,
-        "maxDroidsMult": 1,
-        "name": "Flamer01-mech-brain",
-        "ranks": [
-            "Rookie",
-            "Green",
-            "Trained",
-            "Regular",
-            "Professional",
-            "Veteran",
-            "Elite",
-            "Special",
-            "Hero"
-        ],
-        "thresholds": [
-            0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
-        ],
-        "turret": "Flamer01-mech-command"
-    },
     "Rocket-mech-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",

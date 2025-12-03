@@ -1055,7 +1055,7 @@ Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Grenade', 'in'=>'mech','type'=> 'weapon
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Laser', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AP','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
 
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Cannon', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Flamer01', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
+//Fnrs_add([ 'faction'=> $fac, 'use'=>'Flamer01', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Rocket', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Thermite', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Wpn-Atmiss', 'in'=>'mech','type'=> 'weapons', 'as' => ['medium','AT','hightech','','weapon','NRSp','class7'], 'call'=>'mechWeapon' ]);
