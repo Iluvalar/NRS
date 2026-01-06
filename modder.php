@@ -7,7 +7,7 @@ include('Fwz.php');
 include('Fnrs.php');
 include('mod.php'); //I think the distance mod might be in this one ?
 
-$basedir='./mp454/';
+$basedir='./mp46/';
 /* TA mod
 $savedir='./tinymods/ta/';
 $str=file_get_contents($basedir .'stats/research.json');
@@ -22,12 +22,13 @@ $dump=json_encode($sys['wz']['data']['research'],JSON_PRETTY_PRINT);
 file_put_contents($savedir .'\\stats\\research.json', $dump);
 print_r($sys['wz']['data']['research']);
 //*/
-/* Tiny mod
+//* Tiny mod
 $basedir='./base/';
 $savedir='./tinymods/mini/';
-$scale=.5;
-$folders2=explode(',','./base/,./mp4.3.5/');
-$folders=explode(',','components/prop,components/weapons,components/bodies,effects,structs,audio/sfx/weapons');
+$scale=array('x'=>.5,'y'=>.5,'z'=>.5);	
+$folders2=explode(',','./base/,./mp46/');
+//$folders=explode(',','components/prop,components/weapons,components/bodies,effects,structs,audio/sfx/weapons');
+$folders=explode(',','components/prop,components/weapons,components/bodies,effects,audio/sfx/weapons');
 foreach($folders2 as $no2 => $basedir){
 	foreach($folders as $no => $val){
 		$filename='/'. $val .'/';
@@ -53,6 +54,21 @@ foreach($folders2 as $no2 => $basedir){
 }
 $str=file_get_contents($basedir .'stats/body.json');
 $sys['wz']['data']['body']= json_decode($str, TRUE);
+
+//weapons,sensor,propulsiontype,propulsion
+$str=file_get_contents($basedir .'stats/weapons.json');
+$sys['wz']['data']['weapons']= json_decode($str, TRUE);
+
+$str=file_get_contents($basedir .'stats/sensor.json');
+$sys['wz']['data']['sensor']= json_decode($str, TRUE);
+
+$str=file_get_contents($basedir .'stats/propulsiontype.json');
+$sys['wz']['data']['propulsiontype']= json_decode($str, TRUE);
+
+$str=file_get_contents($basedir .'stats/propulsion.json');
+$sys['wz']['data']['propulsion']= json_decode($str, TRUE);
+
+/*
 foreach($sys['wz']['data']['body'] as $nom=>$val){
 	echo '<br>'. $nom;
 	foreach($val['propulsionExtraModels'] as $nomodel=>$val2){
@@ -65,14 +81,20 @@ foreach($sys['wz']['data']['body'] as $nom=>$val){
 		}
 	}
 }
-$dump=json_encode($sys['wz']['data']['body'],JSON_PRETTY_PRINT);
+*/
+Fwz_mod_distV2($sys['wz']['data'],[1,$scale['x'],1,1,1]);
+foreach($sys['wz']['data'] as $name => $val){
+	$dump=json_encode($sys['wz']['data'][$name],JSON_PRETTY_PRINT);
+	file_put_contents($savedir .'\\stats\\'. $name .'.json', $dump);
+}
+
 //file_put_contents($savedir .'\\stats\\body.json', $dump);
 /*			
 $str=file_get_contents($basedir .'components/bodies/drlbod01.pie');
 $str=scale_pie_model($str, $scale);
 $str=file_put_contents($savedir .'components/bodies/drlbod01.pie',$str);
 */
-//*Test mod
+/*Test mod
 #mod designed to allow quick set skirmish fight at abritraty T level.
 $savedir='./tinymods/quicktest/';
 $str=file_get_contents($basedir .'stats/structure.json');

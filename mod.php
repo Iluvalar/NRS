@@ -356,6 +356,39 @@ function Fwz_mod_dist(&$d,$var){
 	}
 
 }
+function Fwz_mod_distV2(&$d,$var){
+	echo 'dist modding...';
+	if($var[1]!=1 or $var[2]!=1){
+		//$d['propulsion']['c']=1;
+		//$d['propulsiontype']['c']=1;
+		foreach($d['propulsion'] as $x => $val){
+			print_r($val);
+			Fwz_mult($d['propulsion'][$x]['maxSpeed'],$var[1]*$var[2]);
+		}
+		foreach($d['propulsiontype'] as $x => $val){
+			Fwz_mult($d['propulsiontype'][$x]['multiplier'],$var[1]*$var[2]);
+		}
+	}
+	if($var[1]!=1 or $var[3]!=1){
+		//$d['sensor']['c']=1;
+		foreach($d['sensor'] as $x => $val){
+			Fwz_mult($d['sensor'][$x]['range'],$var[1]*$var[3]);
+		}
+	}
+	if($var[1]!=1 or $var[4]!=1){
+		//$d['weapons']['c']=1;
+		foreach($d['weapons'] as $x => $val){
+			Fwz_mult($d['weapons'][$x]['shortRange'],$var[1]*$var[4]);
+			Fwz_mult($d['weapons'][$x]['longRange'],$var[1]*$var[4]);
+			Fwz_mult($d['weapons'][$x]['radius'],$var[1]*$var[4]);
+			Fwz_mult($d['weapons'][$x]['periodicalDamageRadius'],$var[1]*$var[4]);
+			Fwz_mult($d['weapons'][$x]['flightSpeed'],$var[1]*$var[4]);
+			//Fwz_mult($d['weapons'][$x]['indirectHeight'],$var[1]*$var[4]);
+			//Fwz_mult($d['weapons'][$x]['minRange'],$var[1]*$var[4]);
+		}
+	}
+
+}
 function Fwz_TechTree(&$data,$var){
 	$r=0;
 	//$d['weapons']['c']=1;
