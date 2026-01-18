@@ -22,7 +22,7 @@ $sys['nrs']['scaleDist']=1.25/(1+3*$sys['nrs']['mod']['4x']); //Scale all distan
 $sys['nrs']['time']=30*60*($sys['nrs']['scaleTime']); //time to research the last component.
 $sys['nrs']['trtime']=100/$sys['nrs']['scaleDist']; //Truck time between bases
 $sys['nrs']['powerpersec']=300/100; //mean power per second
-$sys['nrs']['armysize']=35/(1+1*$sys['nrs']['mod']['4x']); //medium units;
+$sys['nrs']['armysize']=30/(1+1*$sys['nrs']['mod']['4x']); //medium units;
 $sys['nrs']['dmgscale']=2*(1+2*$sys['nrs']['mod']['instadeath']);
 
 /*# Era mode. 
@@ -132,6 +132,7 @@ $sys['nrs']['dir']['ntw']='./ntw/';
 $sys['nrs']['dir']['mech']='./mech/';
 $sys['nrs']['dir']['cr2']='./cr2/'; //To be continued...
 $sys['nrs']['dir']['contingency']='./contingency/';
+$sys['nrs']['dir']['reclamation']='./reclamation2/';
 $sys['nrs']['dir']['grok3']='./grok3/';
 $sys['nrs']['dir']['save']='./modfiles/';
 
@@ -145,6 +146,10 @@ $sys['nrs']['2120']['body']= json_decode(file_get_contents($dir2120 .'stats/body
 $sys['nrs']['contingency']['weapons']=  json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/weapons.json'), TRUE);
 $sys['nrs']['contingency']['research']=  json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/research.json'), TRUE);
 $sys['nrs']['contingency']['body']= json_decode(file_get_contents($sys['nrs']['dir']['contingency'] .'stats/body.json'), TRUE);
+
+$sys['nrs']['reclamation']['weapons']=  json_decode(file_get_contents($sys['nrs']['dir']['reclamation'] .'stats/weapons.json'), TRUE);
+$sys['nrs']['reclamation']['body']= json_decode(file_get_contents($sys['nrs']['dir']['reclamation'] .'stats/body.json'), TRUE);
+$sys['nrs']['reclamation']['propulsion']= json_decode(file_get_contents($sys['nrs']['dir']['reclamation'] .'stats/propulsion.json'), TRUE);
 
 //$sys['nrs']['grok3']['structure']=  json_decode(file_get_contents($sys['nrs']['dir']['grok3'] .'stats/structure.json'), TRUE);
 
@@ -293,7 +298,7 @@ $sys['nrs']['basic']['body']['FireBody']=$sys['nrs']['base']['body']['FireBody']
 
 //print_r($sys['nrs']['ntw']);
 //Setting default values for the mods.
-$mods=['basic','base','ntw','2120','contingency'];
+$mods=['basic','base','ntw','2120','contingency','reclamation'];
 $bannedbodies=['SuperTransportBody','GunshipBody','TransporterBody','HeavyChopper','ScavengerChopper','ZNULLBODY','ChinookBody','Body18REC','Body13ABT','B4body-sml-trike01'];
 $basebodies=['BusBody','FireBody'];
 foreach($mods as $no => $modname){
@@ -347,6 +352,8 @@ foreach($mods as $no => $modname){
 				$temp['priceclass']=$priceclass;
 				$temp['engineClass']=$engineClass;
 				$temp['region']=$region;
+				$temp['class']=$val['class'];
+				$temp['droidType']=$val['droidType'];
 				$bodySort[$priceclass][$engineClass][$region][]=$temp;
 				$bodyDone[$nom]=$temp;
 			}
@@ -424,8 +431,9 @@ while($xbod++<2){
 		foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
 			$pos = strpos($nom,'Cyb');
 			$pos2 = strpos($nom,'BaBa');
+			
 			//$pos3	 = strpos($item['id'],'BaBa');
-			if($pos===FALSE && $pos2===FALSE){
+			if($pos===FALSE && $pos2===FALSE && $val['class']!="Cyborgs"){
 				if(!isset($bodyDone2[$nom]) and !in_array($nom, $bannedbodies)){
 					$done=0;
 					echo '<br>'. $nom;
@@ -529,6 +537,8 @@ while($xbod++<2){
 						$bs['id']=$newbod['id'];
 						$bs['name']=$newbod['name'];
 						$bs['from']=$modname;
+						$bs['class']=$newbod['class'];
+						$bs['droidType']=$newbod['droidType'];
 						$bodySort[$bs['priceclass']][$bs['engineClass']][$bs['region']][]=$bs;
 						$bodyDone[$bs['id']]=$bs;
 						$bodyDone2[$nom]=$bs;
@@ -567,8 +577,9 @@ foreach($bodySort as $priceclass =>$val){
 				if($engineClass=='L'){
 					$strenght='weak';
 				}
-				if($pos===FALSE && $pos2===FALSE){
-					echo '<br>'. $item['id'] .'('. $item['name']  .') from '. $item['from'] .' type'. $item['type'];
+				//				
+				if($pos===FALSE && $pos2===FALSE && $item['class']!="Cyborgs" && $item['droidType']!="PERSON"){
+					echo '<br>'. $item['id'] .'('. $item['name']  .') from '. $item['from'] .' type'. $item['type'] .'class:'. $item['class'] ;
 					Fnrs_add([ 'faction'=> $fac, 'use'=>  $item['id'], 'in'=>$item['from'], 'type'=> 'body', 'as' => ['lgt',$strenght,'type'. $item['type'],$region,'insta','vshort'] ]);
 					//print_r($sys['nrs'][$item['from']][$listtype][$item['id'] ]);
 				}
@@ -643,6 +654,42 @@ $sys['nrs']['file']['stat']['body']= $sys['nrs']['base']['body'];
 $sys['nrs']['file']['stat']['construction']['Spade1Mk1']['weight']=350;
 
 include('NRS_components.php'); //Buildings and stuff added in NRS
+//reclamation2
+echo '<hr>giant crawler';
+$val=$sys['nrs']['reclamation']['body']['CrawlerBody'];
+$newbod=$val;
+$file='./reclamation2/components/bodies/'.$val['model'];
+$newnamemod='giant';
+
+$scale=array('x'=>2.5,'y'=>2.5,'z'=>2.5);			
+$str=file_get_contents($file);
+$str=scale_pie_model($str, $scale);
+
+$newid=$newnamemod .'_'. $newbod['id'];
+$newbod['id']=$newid;
+$newbod['name']=$newnamemod .'_'. $newbod['name'];
+$newbod['model']=strtolower($newnamemod .'_'. $newbod['model']);
+$newbod['from']=$modname;
+
+$file=$savedir .'components/bodies/' . $newbod['model'];
+echo '<br> creating...'. $file;
+$str  = str_replace('spiderrun.pie','giant_spiderrun.pie',$str); //this whole process is so cursed...
+echo '<br>piefile:'. $file .':'. $str;
+file_put_contents(strtolower($file),$str);
+
+
+
+
+$file='./reclamation2/components/bodies/spiderrun.pie';
+$str=file_get_contents($file);
+$str=scale_pie_model($str, $scale);
+$file=$savedir .'components/bodies/giant_spiderrun.pie';
+file_put_contents(strtolower($file),$str);
+
+$sys['nrs']['reclamation']['body'][$newid]=$newbod;
+
+//$sys['nrs']['file']['stat']['body']['CrawlerBody'][]=
+//$sys['nrs']['file']['stat']['body']['CrawlerBody']=$sys['nrs']['reclamation']['body']['CrawlerBody']; //CrawlerBody
 
 //generating upgrades
 Fnrs_upgradeline("Building","",'','PowerPoints','power',$sys['nrs']['startres'],0.7,'Power upgrade');
@@ -716,11 +763,25 @@ print_r($sys['nrs']['base']['body']['B1BaBaPerson01-nrs']);
 $sys['nrs']['mech']['body']['CyborgLightBody']=$sys['nrs']['base']['body']['CyborgLightBody'];
 Fnrs_add([ 'faction'=> $fac, 'use'=> "B1BaBaPerson01-nrs,BaBaLegs", 'in'=>'base', 'type'=> 'body', 'as' => ['xlgt','AS','insta','exshort','Cyb','fake','class0'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgLightBody", 'in'=>'base', 'type'=> 'body', 'as' => ['lgt','AS','insta','exshort','Cyb','fake','class1'] ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'base', 'type'=> 'body', 'as' => ['med','AS','insta','exshort','Cyb','fake','class3'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'base', 'type'=> 'body', 'as' => ['med','AS','insta','exshort','Cyb','fake','class4'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgHeavyBody", 'in'=>'2120', 'type'=> 'body', 'as' => ['hvy','AS','insta','exshort','Cyb','fake','class5'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "CyborgLightBody", 'in'=>'mech', 'type'=> 'body', 'as' => ['shvy','AS','insta','exshort','Cyb','fake','class7'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "CrawlerBody", 'in'=>'reclamation', 'type'=> 'body', 'as' => ['shvy','AS','insta','exshort','Cyb','fake','class3'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "giant_CrawlerBody", 'in'=>'reclamation', 'type'=> 'body', 'as' => ['shvy','AS','insta','exshort','Cyb','fake','class6'] ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=> "CCSensor", 'in'=>'base', 'type'=> 'sensor', 'as' => ['med','AW','lowtech'] ]);
 
+
+
+
+
+$fac='reclamation';
+Fnrs_add([ 'faction'=> $fac, 'use'=>'StingerTail', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA','class3'], 'call'=>'stingers' ]);
+$fac='reclamation';
+Fnrs_add([ 'faction'=> $fac, 'use'=>'VileStingerTail', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA','class3'], 'call'=>'stingers' ]);
+//Fnrs_add([ 'faction'=> $fac, 'use'=>'BoomTickSac', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'BabaMiniMortar', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA','class3'], 'call'=>'stingers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Rocket-Ballista', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'BabaLance', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
 
 
 
@@ -1126,8 +1187,8 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "BJeepMG", 'in'=>'base', 'type'=> 'weapons'
 Fnrs_add([ 'faction'=> $fac, 'use'=> "BabaFlame", 'in'=>'base', 'type'=> 'weapons', 'as' => ['xlgt','AP','designable','FOM','¥','NRSp'] ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "ScavNEXUSlink", 'in'=>'base', 'type'=> 'weapons', 'as' => ['xlgt','AP','designable','FOM','¥','NRSp'] ]);
 */
-
-
+$fac='infected';
+Fnrs_add([ 'faction'=> $fac, 'use'=> "InfCannon1Mk1", 'in'=>'reclamation', 'type'=> 'weapons', 'as' => ['lgt','AW','lowtech','typeA','NRSp'], 'call'=>'cannon' ]);
 $fac='project';
 
 

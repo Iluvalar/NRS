@@ -58,12 +58,167 @@
         ],
         "turret": "ZNULLWEAPON"
     },
+    "StingerTail-reclamation-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "StingerTail-reclamation-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 4,
+        "name": "StingerTail-reclamation-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.770562748477138,
+            27.882250993908553,
+            80.44675298172567,
+            210.25800795126844,
+            519.2450198781711,
+            1235.9480477076106,
+            2866.8121113177576
+        ],
+        "turret": "StingerTail-reclamation-command"
+    },
+    "VileStingerTail-reclamation-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "VileStingerTail-reclamation-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 4,
+        "name": "VileStingerTail-reclamation-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.770562748477138,
+            27.882250993908553,
+            80.44675298172567,
+            210.25800795126844,
+            519.2450198781711,
+            1235.9480477076106,
+            2866.8121113177576
+        ],
+        "turret": "VileStingerTail-reclamation-command"
+    },
+    "BabaMiniMortar-reclamation-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "BabaMiniMortar-reclamation-brain",
+        "maxDroids": 16,
+        "maxDroidsMult": 4,
+        "name": "BabaMiniMortar-reclamation-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            7.770562748477138,
+            27.882250993908553,
+            80.44675298172567,
+            210.25800795126844,
+            519.2450198781711,
+            1235.9480477076106,
+            2866.8121113177576
+        ],
+        "turret": "BabaMiniMortar-reclamation-command"
+    },
+    "Rocket-Ballista-reclamation-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Rocket-Ballista-reclamation-brain",
+        "maxDroids": 11,
+        "maxDroidsMult": 3,
+        "name": "Rocket-Ballista-reclamation-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
+        ],
+        "turret": "Rocket-Ballista-reclamation-command"
+    },
+    "BabaLance-reclamation-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "BabaLance-reclamation-brain",
+        "maxDroids": 11,
+        "maxDroidsMult": 3,
+        "name": "BabaLance-reclamation-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
+        ],
+        "turret": "BabaLance-reclamation-command"
+    },
     "Laser-AP1-contingency-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AP1-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AP1-contingency-brain",
         "ranks": [
@@ -79,13 +234,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AP1-contingency-command"
     },
@@ -94,7 +249,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AP2-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AP2-contingency-brain",
         "ranks": [
@@ -110,13 +265,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AP2-contingency-command"
     },
@@ -125,7 +280,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AP3-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AP3-contingency-brain",
         "ranks": [
@@ -141,13 +296,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AP3-contingency-command"
     },
@@ -156,7 +311,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AT1-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AT1-contingency-brain",
         "ranks": [
@@ -172,13 +327,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AT1-contingency-command"
     },
@@ -187,7 +342,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AT2-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AT2-contingency-brain",
         "ranks": [
@@ -203,13 +358,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AT2-contingency-command"
     },
@@ -218,7 +373,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AT3-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AT3-contingency-brain",
         "ranks": [
@@ -234,13 +389,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AT3-contingency-command"
     },
@@ -249,7 +404,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AP4-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AP4-contingency-brain",
         "ranks": [
@@ -265,13 +420,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AP4-contingency-command"
     },
@@ -280,7 +435,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AA2-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AA2-contingency-brain",
         "ranks": [
@@ -296,13 +451,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AA2-contingency-command"
     },
@@ -311,7 +466,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-Sonic-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-Sonic-contingency-brain",
         "ranks": [
@@ -327,13 +482,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-Sonic-contingency-command"
     },
@@ -342,7 +497,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-AT4-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-AT4-contingency-brain",
         "ranks": [
@@ -358,13 +513,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-AT4-contingency-command"
     },
@@ -373,7 +528,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-TankDest2Lgt-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-TankDest2Lgt-contingency-brain",
         "ranks": [
@@ -389,13 +544,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-TankDest2Lgt-contingency-command"
     },
@@ -404,7 +559,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser-TankDestLgt-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser-TankDestLgt-contingency-brain",
         "ranks": [
@@ -420,13 +575,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser-TankDestLgt-contingency-command"
     },
@@ -435,7 +590,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-GaussRamjet-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-GaussRamjet-contingency-brain",
         "ranks": [
@@ -451,13 +606,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-GaussRamjet-contingency-command"
     },
@@ -466,7 +621,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-Gauss-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-Gauss-contingency-brain",
         "ranks": [
@@ -482,13 +637,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-Gauss-contingency-command"
     },
@@ -497,7 +652,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-GaussHvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-GaussHvy-contingency-brain",
         "ranks": [
@@ -513,13 +668,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-GaussHvy-contingency-command"
     },
@@ -528,7 +683,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-GaussRot-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-GaussRot-contingency-brain",
         "ranks": [
@@ -544,13 +699,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-GaussRot-contingency-command"
     },
@@ -559,7 +714,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-Ramjet-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-Ramjet-contingency-brain",
         "ranks": [
@@ -575,13 +730,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-Ramjet-contingency-command"
     },
@@ -590,7 +745,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-RamjetRot-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-RamjetRot-contingency-brain",
         "ranks": [
@@ -606,13 +761,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-RamjetRot-contingency-command"
     },
@@ -621,7 +776,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-RamjetHvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-RamjetHvy-contingency-brain",
         "ranks": [
@@ -637,13 +792,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-RamjetHvy-contingency-command"
     },
@@ -652,7 +807,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-GaussRamjetHvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-GaussRamjetHvy-contingency-brain",
         "ranks": [
@@ -668,13 +823,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-GaussRamjetHvy-contingency-command"
     },
@@ -683,7 +838,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-Shotgun-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-Shotgun-contingency-brain",
         "ranks": [
@@ -699,13 +854,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-Shotgun-contingency-command"
     },
@@ -714,7 +869,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-HPVAslt-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-HPVAslt-contingency-brain",
         "ranks": [
@@ -730,13 +885,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-HPVAslt-contingency-command"
     },
@@ -745,7 +900,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-HPVGattling-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-HPVGattling-contingency-brain",
         "ranks": [
@@ -761,13 +916,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-HPVGattling-contingency-command"
     },
@@ -776,7 +931,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-Sniper-Bunker-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-Sniper-Bunker-contingency-brain",
         "ranks": [
@@ -792,13 +947,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-Sniper-Bunker-contingency-command"
     },
@@ -807,7 +962,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-HPVLgt-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-HPVLgt-contingency-brain",
         "ranks": [
@@ -823,13 +978,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-HPVLgt-contingency-command"
     },
@@ -838,7 +993,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-HPVHvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-HPVHvy-contingency-brain",
         "ranks": [
@@ -854,13 +1009,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-HPVHvy-contingency-command"
     },
@@ -869,7 +1024,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-HPVTankDestLgt-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-HPVTankDestLgt-contingency-brain",
         "ranks": [
@@ -885,13 +1040,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-HPVTankDestLgt-contingency-command"
     },
@@ -900,7 +1055,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-HPVTwinAslt-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-HPVTwinAslt-contingency-brain",
         "ranks": [
@@ -916,13 +1071,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-HPVTwinAslt-contingency-command"
     },
@@ -931,7 +1086,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-Inc-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-Inc-contingency-brain",
         "ranks": [
@@ -947,13 +1102,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-Inc-contingency-command"
     },
@@ -962,7 +1117,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-IncTankDest-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-IncTankDest-contingency-brain",
         "ranks": [
@@ -978,13 +1133,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-IncTankDest-contingency-command"
     },
@@ -993,7 +1148,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-Plas-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-Plas-contingency-brain",
         "ranks": [
@@ -1009,13 +1164,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-Plas-contingency-command"
     },
@@ -1024,7 +1179,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-PlasTankDest-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon-PlasTankDest-contingency-brain",
         "ranks": [
@@ -1040,13 +1195,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon-PlasTankDest-contingency-command"
     },
@@ -1055,7 +1210,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG-AntiTankGss-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG-AntiTankGss-contingency-brain",
         "ranks": [
@@ -1071,13 +1226,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG-AntiTankGss-contingency-command"
     },
@@ -1086,7 +1241,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG-AntiTank2Twin-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG-AntiTank2Twin-contingency-brain",
         "ranks": [
@@ -1102,13 +1257,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG-AntiTank2Twin-contingency-command"
     },
@@ -1117,7 +1272,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG-AntiTankGssTwin-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG-AntiTankGssTwin-contingency-brain",
         "ranks": [
@@ -1133,13 +1288,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG-AntiTankGssTwin-contingency-command"
     },
@@ -1148,7 +1303,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG3Inc-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG3Inc-contingency-brain",
         "ranks": [
@@ -1164,13 +1319,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG3Inc-contingency-command"
     },
@@ -1179,7 +1334,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG3IncTwin-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG3IncTwin-contingency-brain",
         "ranks": [
@@ -1195,13 +1350,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG3IncTwin-contingency-command"
     },
@@ -1210,7 +1365,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG4Inc-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG4Inc-contingency-brain",
         "ranks": [
@@ -1226,13 +1381,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG4Inc-contingency-command"
     },
@@ -1241,7 +1396,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG4IncTwin-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG4IncTwin-contingency-brain",
         "ranks": [
@@ -1257,13 +1412,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG4IncTwin-contingency-command"
     },
@@ -1272,7 +1427,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MGPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MGPlasSuper-contingency-brain",
         "ranks": [
@@ -1288,13 +1443,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MGPlasSuper-contingency-command"
     },
@@ -1303,7 +1458,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG-AntiTank-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG-AntiTank-contingency-brain",
         "ranks": [
@@ -1319,13 +1474,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG-AntiTank-contingency-command"
     },
@@ -1334,7 +1489,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG-AntiTankTwin-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG-AntiTankTwin-contingency-brain",
         "ranks": [
@@ -1350,13 +1505,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG-AntiTankTwin-contingency-command"
     },
@@ -1365,7 +1520,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG-AntiTank2-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG-AntiTank2-contingency-brain",
         "ranks": [
@@ -1381,13 +1536,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG-AntiTank2-contingency-command"
     },
@@ -1396,7 +1551,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG2Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG2Mk1-brain",
         "ranks": [
@@ -1412,13 +1567,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG2Mk1-command"
     },
@@ -1427,7 +1582,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG3Twin-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG3Twin-contingency-brain",
         "ranks": [
@@ -1443,13 +1598,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG3Twin-contingency-command"
     },
@@ -1458,7 +1613,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG5TWINROTARY-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG5TWINROTARY-brain",
         "ranks": [
@@ -1474,13 +1629,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG5TWINROTARY-command"
     },
@@ -1489,7 +1644,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame1Hvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame1Hvy-contingency-brain",
         "ranks": [
@@ -1505,13 +1660,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame1Hvy-contingency-command"
     },
@@ -1520,7 +1675,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame1Med-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame1Med-contingency-brain",
         "ranks": [
@@ -1536,13 +1691,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame1Med-contingency-command"
     },
@@ -1551,7 +1706,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame2Hvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame2Hvy-contingency-brain",
         "ranks": [
@@ -1567,13 +1722,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame2Hvy-contingency-command"
     },
@@ -1582,7 +1737,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame2Med-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame2Med-contingency-brain",
         "ranks": [
@@ -1598,13 +1753,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame2Med-contingency-command"
     },
@@ -1613,7 +1768,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flamer-PlasCan-TankDest-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flamer-PlasCan-TankDest-contingency-brain",
         "ranks": [
@@ -1629,13 +1784,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flamer-PlasCan-TankDest-contingency-command"
     },
@@ -1644,7 +1799,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flamer-PlasmaCannon-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flamer-PlasmaCannon-contingency-brain",
         "ranks": [
@@ -1660,13 +1815,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flamer-PlasmaCannon-contingency-command"
     },
@@ -1675,7 +1830,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Howitzer150Mk1-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Howitzer150Mk1-contingency-brain",
         "ranks": [
@@ -1691,13 +1846,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Howitzer150Mk1-contingency-command"
     },
@@ -1706,7 +1861,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGattling-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGattling-contingency-brain",
         "ranks": [
@@ -1722,13 +1877,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGattling-contingency-command"
     },
@@ -1737,7 +1892,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussBB-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussBB-contingency-brain",
         "ranks": [
@@ -1753,13 +1908,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussBB-contingency-command"
     },
@@ -1768,7 +1923,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGattlingGauss-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGattlingGauss-contingency-brain",
         "ranks": [
@@ -1784,13 +1939,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGattlingGauss-contingency-command"
     },
@@ -1799,7 +1954,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGauss-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGauss-contingency-brain",
         "ranks": [
@@ -1815,13 +1970,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGauss-contingency-command"
     },
@@ -1830,7 +1985,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussHvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussHvy-contingency-brain",
         "ranks": [
@@ -1846,13 +2001,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussHvy-contingency-command"
     },
@@ -1861,7 +2016,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussRot-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussRot-contingency-brain",
         "ranks": [
@@ -1877,13 +2032,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussRot-contingency-command"
     },
@@ -1892,7 +2047,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerRamjet-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerRamjet-contingency-brain",
         "ranks": [
@@ -1908,13 +2063,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerRamjet-contingency-command"
     },
@@ -1923,7 +2078,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerRamjetHvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerRamjetHvy-contingency-brain",
         "ranks": [
@@ -1939,13 +2094,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerRamjetHvy-contingency-command"
     },
@@ -1954,7 +2109,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerRamjetRot-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerRamjetRot-contingency-brain",
         "ranks": [
@@ -1970,13 +2125,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerRamjetRot-contingency-command"
     },
@@ -1985,7 +2140,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussRamjet-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussRamjet-contingency-brain",
         "ranks": [
@@ -2001,13 +2156,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussRamjet-contingency-command"
     },
@@ -2016,7 +2171,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussRamjetHvy-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussRamjetHvy-contingency-brain",
         "ranks": [
@@ -2032,13 +2187,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussRamjetHvy-contingency-command"
     },
@@ -2047,7 +2202,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussRamjetRot-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussRamjetRot-contingency-brain",
         "ranks": [
@@ -2063,13 +2218,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussRamjetRot-contingency-command"
     },
@@ -2078,7 +2233,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerHvyPlas-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerHvyPlas-contingency-brain",
         "ranks": [
@@ -2094,13 +2249,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerHvyPlas-contingency-command"
     },
@@ -2109,7 +2264,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerRotPlas-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerRotPlas-contingency-brain",
         "ranks": [
@@ -2125,13 +2280,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerRotPlas-contingency-command"
     },
@@ -2140,7 +2295,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-GaussHvyPlas-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-GaussHvyPlas-contingency-brain",
         "ranks": [
@@ -2156,13 +2311,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-GaussHvyPlas-contingency-command"
     },
@@ -2171,7 +2326,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussInc-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussInc-contingency-brain",
         "ranks": [
@@ -2187,13 +2342,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussInc-contingency-command"
     },
@@ -2202,7 +2357,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussHvyPlas-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussHvyPlas-contingency-brain",
         "ranks": [
@@ -2218,13 +2373,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussHvyPlas-contingency-command"
     },
@@ -2233,7 +2388,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussRotPlas-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HowitzerGaussRotPlas-contingency-brain",
         "ranks": [
@@ -2249,13 +2404,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HowitzerGaussRotPlas-contingency-command"
     },
@@ -2264,7 +2419,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser3BEAMMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser3BEAMMk1-brain",
         "ranks": [
@@ -2280,13 +2435,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser3BEAMMk1-command"
     },
@@ -2295,7 +2450,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser2PULSEMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser2PULSEMk1-brain",
         "ranks": [
@@ -2311,13 +2466,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser2PULSEMk1-command"
     },
@@ -2326,7 +2481,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser3BEAMMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser3BEAMMk1-2120-brain",
         "ranks": [
@@ -2342,13 +2497,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser3BEAMMk1-2120-command"
     },
@@ -2357,7 +2512,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "ParticleGun-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "ParticleGun-brain",
         "ranks": [
@@ -2373,13 +2528,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "ParticleGun-command"
     },
@@ -2388,7 +2543,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon5VulcanMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon5VulcanMk1-2120-brain",
         "ranks": [
@@ -2404,13 +2559,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon5VulcanMk1-2120-command"
     },
@@ -2419,7 +2574,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon775mmMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon775mmMk1-2120-brain",
         "ranks": [
@@ -2435,13 +2590,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon775mmMk1-2120-command"
     },
@@ -2450,7 +2605,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG5TWINROTARY-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG5TWINROTARY-2120-brain",
         "ranks": [
@@ -2466,13 +2621,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG5TWINROTARY-2120-command"
     },
@@ -2481,7 +2636,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon6TwinAslt-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon6TwinAslt-2120-brain",
         "ranks": [
@@ -2497,13 +2652,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon6TwinAslt-2120-command"
     },
@@ -2512,7 +2667,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Howitzer105Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Howitzer105Mk1-brain",
         "ranks": [
@@ -2528,13 +2683,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Howitzer105Mk1-command"
     },
@@ -2543,7 +2698,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Howitzer150Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Howitzer150Mk1-brain",
         "ranks": [
@@ -2559,13 +2714,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Howitzer150Mk1-command"
     },
@@ -2574,7 +2729,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Howitzer03-Rot-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Howitzer03-Rot-brain",
         "ranks": [
@@ -2590,13 +2745,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Howitzer03-Rot-command"
     },
@@ -2605,7 +2760,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Howitzer150Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Howitzer150Mk1-2120-brain",
         "ranks": [
@@ -2621,13 +2776,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Howitzer150Mk1-2120-command"
     },
@@ -2636,7 +2791,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HeavyLaser-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "HeavyLaser-brain",
         "ranks": [
@@ -2652,13 +2807,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "HeavyLaser-command"
     },
@@ -2667,7 +2822,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser4-PlasmaCannon-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser4-PlasmaCannon-brain",
         "ranks": [
@@ -2683,13 +2838,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser4-PlasmaCannon-command"
     },
@@ -2698,7 +2853,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "AAGunLaser-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "AAGunLaser-brain",
         "ranks": [
@@ -2714,13 +2869,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "AAGunLaser-command"
     },
@@ -2729,7 +2884,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun1Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun1Mk1-brain",
         "ranks": [
@@ -2745,13 +2900,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun1Mk1-command"
     },
@@ -2760,7 +2915,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun2Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun2Mk1-brain",
         "ranks": [
@@ -2776,13 +2931,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun2Mk1-command"
     },
@@ -2791,7 +2946,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun3Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun3Mk1-brain",
         "ranks": [
@@ -2807,13 +2962,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun3Mk1-command"
     },
@@ -2822,7 +2977,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon4AUTOMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon4AUTOMk1-2120-brain",
         "ranks": [
@@ -2838,13 +2993,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon4AUTOMk1-2120-command"
     },
@@ -2853,7 +3008,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar1Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar1Mk1-brain",
         "ranks": [
@@ -2869,13 +3024,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar1Mk1-command"
     },
@@ -2884,7 +3039,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar0Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar0Mk1-2120-brain",
         "ranks": [
@@ -2900,13 +3055,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar0Mk1-2120-command"
     },
@@ -2915,7 +3070,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar2Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar2Mk1-brain",
         "ranks": [
@@ -2931,13 +3086,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar2Mk1-command"
     },
@@ -2946,7 +3101,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar3ROTARYMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar3ROTARYMk1-brain",
         "ranks": [
@@ -2962,13 +3117,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar3ROTARYMk1-command"
     },
@@ -2977,7 +3132,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerRamjetSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "HowitzerRamjetSuper-contingency-brain",
         "ranks": [
@@ -2993,13 +3148,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "HowitzerRamjetSuper-contingency-command"
     },
@@ -3008,7 +3163,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "HowitzerSuper-contingency-brain",
         "ranks": [
@@ -3024,13 +3179,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "HowitzerSuper-contingency-command"
     },
@@ -3039,7 +3194,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussRamjetSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "HowitzerGaussRamjetSuper-contingency-brain",
         "ranks": [
@@ -3055,13 +3210,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "HowitzerGaussRamjetSuper-contingency-command"
     },
@@ -3070,7 +3225,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "HowitzerGaussPlasSuper-contingency-brain",
         "ranks": [
@@ -3086,13 +3241,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "HowitzerGaussPlasSuper-contingency-command"
     },
@@ -3101,7 +3256,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerGaussSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "HowitzerGaussSuper-contingency-brain",
         "ranks": [
@@ -3117,13 +3272,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "HowitzerGaussSuper-contingency-command"
     },
@@ -3132,7 +3287,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "HowitzerPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "HowitzerPlasSuper-contingency-brain",
         "ranks": [
@@ -3148,13 +3303,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "HowitzerPlasSuper-contingency-command"
     },
@@ -3163,7 +3318,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Mortar-GaussRotPlas-contingency-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Mortar-GaussRotPlas-contingency-brain",
         "ranks": [
@@ -3179,13 +3334,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Mortar-GaussRotPlas-contingency-command"
     },
@@ -3194,7 +3349,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "LaserSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "LaserSuper-contingency-brain",
         "ranks": [
@@ -3210,13 +3365,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "LaserSuper-contingency-command"
     },
@@ -3225,7 +3380,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "LaserSuper2-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "LaserSuper2-contingency-brain",
         "ranks": [
@@ -3241,13 +3396,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "LaserSuper2-contingency-command"
     },
@@ -3256,7 +3411,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "LaserPlasmaSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "LaserPlasmaSuper-contingency-brain",
         "ranks": [
@@ -3272,13 +3427,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "LaserPlasmaSuper-contingency-command"
     },
@@ -3287,7 +3442,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "CannonSuper-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "CannonSuper-brain",
         "ranks": [
@@ -3303,13 +3458,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "CannonSuper-command"
     },
@@ -3318,7 +3473,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "CannonSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "CannonSuper-contingency-brain",
         "ranks": [
@@ -3334,13 +3489,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "CannonSuper-contingency-command"
     },
@@ -3349,7 +3504,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "CannonRotSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "CannonRotSuper-contingency-brain",
         "ranks": [
@@ -3365,13 +3520,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "CannonRotSuper-contingency-command"
     },
@@ -3380,7 +3535,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "FlamerPlasmaSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "FlamerPlasmaSuper-contingency-brain",
         "ranks": [
@@ -3396,13 +3551,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "FlamerPlasmaSuper-contingency-command"
     },
@@ -3411,7 +3566,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "CannonPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "CannonPlasSuper-contingency-brain",
         "ranks": [
@@ -3427,13 +3582,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "CannonPlasSuper-contingency-command"
     },
@@ -3442,7 +3597,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MissileArrayPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MissileArrayPlasSuper-contingency-brain",
         "ranks": [
@@ -3458,13 +3613,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MissileArrayPlasSuper-contingency-command"
     },
@@ -3473,7 +3628,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MortarSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MortarSuper-contingency-brain",
         "ranks": [
@@ -3489,13 +3644,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MortarSuper-contingency-command"
     },
@@ -3504,7 +3659,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MortarGaussPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MortarGaussPlasSuper-contingency-brain",
         "ranks": [
@@ -3520,13 +3675,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MortarGaussPlasSuper-contingency-command"
     },
@@ -3535,7 +3690,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MortarGaussSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MortarGaussSuper-contingency-brain",
         "ranks": [
@@ -3551,13 +3706,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MortarGaussSuper-contingency-command"
     },
@@ -3566,7 +3721,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MortarPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MortarPlasSuper-contingency-brain",
         "ranks": [
@@ -3582,13 +3737,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MortarPlasSuper-contingency-command"
     },
@@ -3597,7 +3752,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MortarHvyPlas-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MortarHvyPlas-contingency-brain",
         "ranks": [
@@ -3613,13 +3768,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MortarHvyPlas-contingency-command"
     },
@@ -3628,7 +3783,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MortarRamjetSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MortarRamjetSuper-contingency-brain",
         "ranks": [
@@ -3644,13 +3799,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MortarRamjetSuper-contingency-command"
     },
@@ -3659,7 +3814,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MortarGaussRamjetSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MortarGaussRamjetSuper-contingency-brain",
         "ranks": [
@@ -3675,13 +3830,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MortarGaussRamjetSuper-contingency-command"
     },
@@ -3690,7 +3845,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailgunGattlingPlasSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "RailgunGattlingPlasSuper-contingency-brain",
         "ranks": [
@@ -3706,13 +3861,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "RailgunGattlingPlasSuper-contingency-command"
     },
@@ -3721,7 +3876,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailgunSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "RailgunSuper-contingency-brain",
         "ranks": [
@@ -3737,13 +3892,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "RailgunSuper-contingency-command"
     },
@@ -3752,7 +3907,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Superweapon2-2120-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Superweapon2-2120-brain",
         "ranks": [
@@ -3768,13 +3923,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Superweapon2-2120-command"
     },
@@ -3783,7 +3938,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RocketSuper-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "RocketSuper-brain",
         "ranks": [
@@ -3799,13 +3954,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "RocketSuper-command"
     },
@@ -3814,7 +3969,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MissileArraySuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MissileArraySuper-contingency-brain",
         "ranks": [
@@ -3830,13 +3985,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MissileArraySuper-contingency-command"
     },
@@ -3845,7 +4000,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MissileSuper-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MissileSuper-brain",
         "ranks": [
@@ -3861,13 +4016,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MissileSuper-command"
     },
@@ -3876,7 +4031,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MissileSuper-2120-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MissileSuper-2120-brain",
         "ranks": [
@@ -3892,13 +4047,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MissileSuper-2120-command"
     },
@@ -3907,7 +4062,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MissileSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MissileSuper-contingency-brain",
         "ranks": [
@@ -3923,13 +4078,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MissileSuper-contingency-command"
     },
@@ -3938,7 +4093,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MGSuper-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "MGSuper-contingency-brain",
         "ranks": [
@@ -3954,13 +4109,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "MGSuper-contingency-command"
     },
@@ -3969,7 +4124,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Superweapon-contingency-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Superweapon-contingency-brain",
         "ranks": [
@@ -3985,13 +4140,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Superweapon-contingency-command"
     },
@@ -4000,7 +4155,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Chaingun-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Chaingun-mech-brain",
         "ranks": [
@@ -4016,13 +4171,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Chaingun-mech-command"
     },
@@ -4031,7 +4186,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RotMG-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "RotMG-mech-brain",
         "ranks": [
@@ -4047,13 +4202,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "RotMG-mech-command"
     },
@@ -4062,7 +4217,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Wpn-Grenade-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Wpn-Grenade-mech-brain",
         "ranks": [
@@ -4078,13 +4233,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Wpn-Grenade-mech-command"
     },
@@ -4093,7 +4248,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Wpn-Laser-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Wpn-Laser-mech-brain",
         "ranks": [
@@ -4109,13 +4264,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Wpn-Laser-mech-command"
     },
@@ -4124,7 +4279,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Cannon-mech-brain",
         "ranks": [
@@ -4140,13 +4295,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Cannon-mech-command"
     },
@@ -4155,7 +4310,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Rocket-mech-brain",
         "ranks": [
@@ -4171,13 +4326,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Rocket-mech-command"
     },
@@ -4186,7 +4341,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Wpn-Thermite-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Wpn-Thermite-mech-brain",
         "ranks": [
@@ -4202,13 +4357,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Wpn-Thermite-mech-command"
     },
@@ -4217,7 +4372,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Wpn-Atmiss-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Wpn-Atmiss-mech-brain",
         "ranks": [
@@ -4233,13 +4388,13 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Wpn-Atmiss-mech-command"
     },
@@ -4248,7 +4403,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Wpn-Rail1-mech-brain",
-        "maxDroids": 2,
+        "maxDroids": -0,
         "maxDroidsMult": 1,
         "name": "Wpn-Rail1-mech-brain",
         "ranks": [
@@ -4264,22 +4419,53 @@
         ],
         "thresholds": [
             0,
-            0.95,
-            3,
-            8.2,
-            20.8,
-            50.4,
-            118.4,
-            272
+            0.2606601717798213,
+            0.2426406871192853,
+            -0.0720779386421441,
+            -1.2588745030457176,
+            -4.747186257614294,
+            -13.953247018274306,
+            -36.82424304264005
         ],
         "turret": "Wpn-Rail1-mech-command"
+    },
+    "InfCannon1Mk1-reclamation-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "InfCannon1Mk1-reclamation-brain",
+        "maxDroids": 11,
+        "maxDroidsMult": 3,
+        "name": "InfCannon1Mk1-reclamation-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
+        ],
+        "turret": "InfCannon1Mk1-reclamation-command"
     },
     "MG1Mk1-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG1Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG1Mk1-brain",
         "ranks": [
@@ -4295,13 +4481,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG1Mk1-command"
     },
@@ -4310,7 +4496,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG3Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG3Mk1-brain",
         "ranks": [
@@ -4326,13 +4512,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG3Mk1-command"
     },
@@ -4341,7 +4527,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG4ROTARYMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG4ROTARYMk1-brain",
         "ranks": [
@@ -4357,13 +4543,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG4ROTARYMk1-command"
     },
@@ -4372,7 +4558,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon1Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon1Mk1-brain",
         "ranks": [
@@ -4388,13 +4574,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon1Mk1-command"
     },
@@ -4403,7 +4589,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon2A-TMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon2A-TMk1-brain",
         "ranks": [
@@ -4419,13 +4605,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon2A-TMk1-command"
     },
@@ -4434,7 +4620,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon375mmMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon375mmMk1-brain",
         "ranks": [
@@ -4450,13 +4636,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon375mmMk1-command"
     },
@@ -4465,7 +4651,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame1Mk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame1Mk1-brain",
         "ranks": [
@@ -4481,13 +4667,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame1Mk1-command"
     },
@@ -4496,7 +4682,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame2-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame2-brain",
         "ranks": [
@@ -4512,13 +4698,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame2-command"
     },
@@ -4527,7 +4713,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "PlasmiteFlamer-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "PlasmiteFlamer-brain",
         "ranks": [
@@ -4543,13 +4729,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "PlasmiteFlamer-command"
     },
@@ -4558,7 +4744,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon4AUTOMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon4AUTOMk1-brain",
         "ranks": [
@@ -4574,13 +4760,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon4AUTOMk1-command"
     },
@@ -4589,7 +4775,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon5VulcanMk1-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon5VulcanMk1-brain",
         "ranks": [
@@ -4605,13 +4791,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon5VulcanMk1-command"
     },
@@ -4620,7 +4806,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Cannon6TwinAslt-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Cannon6TwinAslt-brain",
         "ranks": [
@@ -4636,13 +4822,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Cannon6TwinAslt-command"
     },
@@ -4651,7 +4837,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame1Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame1Mk1-2120-brain",
         "ranks": [
@@ -4667,13 +4853,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame1Mk1-2120-command"
     },
@@ -4682,7 +4868,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame2-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame2-2120-brain",
         "ranks": [
@@ -4698,13 +4884,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame2-2120-command"
     },
@@ -4713,7 +4899,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Flame3Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Flame3Mk1-2120-brain",
         "ranks": [
@@ -4729,13 +4915,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Flame3Mk1-2120-command"
     },
@@ -4744,7 +4930,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-Pod-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-Pod-brain",
         "ranks": [
@@ -4760,13 +4946,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-Pod-command"
     },
@@ -4775,7 +4961,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-LtA-T-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-LtA-T-brain",
         "ranks": [
@@ -4791,13 +4977,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-LtA-T-command"
     },
@@ -4806,7 +4992,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-Pod-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-Pod-2120-brain",
         "ranks": [
@@ -4822,13 +5008,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-Pod-2120-command"
     },
@@ -4837,7 +5023,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-HvyA-T-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-HvyA-T-brain",
         "ranks": [
@@ -4853,13 +5039,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-HvyA-T-command"
     },
@@ -4868,7 +5054,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Missile-A-T-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Missile-A-T-2120-brain",
         "ranks": [
@@ -4884,13 +5070,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Missile-A-T-2120-command"
     },
@@ -4899,7 +5085,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun1Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun1Mk1-2120-brain",
         "ranks": [
@@ -4915,13 +5101,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun1Mk1-2120-command"
     },
@@ -4930,7 +5116,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun2Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun2Mk1-2120-brain",
         "ranks": [
@@ -4946,13 +5132,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun2Mk1-2120-command"
     },
@@ -4961,7 +5147,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun3Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun3Mk1-2120-brain",
         "ranks": [
@@ -4977,13 +5163,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun3Mk1-2120-command"
     },
@@ -4992,7 +5178,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun4Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun4Mk1-2120-brain",
         "ranks": [
@@ -5008,13 +5194,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun4Mk1-2120-command"
     },
@@ -5023,7 +5209,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun5Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun5Mk1-2120-brain",
         "ranks": [
@@ -5039,13 +5225,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun5Mk1-2120-command"
     },
@@ -5054,7 +5240,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "RailGun6Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "RailGun6Mk1-2120-brain",
         "ranks": [
@@ -5070,13 +5256,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "RailGun6Mk1-2120-command"
     },
@@ -5085,7 +5271,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-BB-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-BB-brain",
         "ranks": [
@@ -5101,13 +5287,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-BB-command"
     },
@@ -5116,7 +5302,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-Sunburst-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-Sunburst-brain",
         "ranks": [
@@ -5132,13 +5318,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-Sunburst-command"
     },
@@ -5147,7 +5333,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-BB-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-BB-2120-brain",
         "ranks": [
@@ -5163,13 +5349,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-BB-2120-command"
     },
@@ -5178,7 +5364,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Missile-BB-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Missile-BB-2120-brain",
         "ranks": [
@@ -5194,13 +5380,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Missile-BB-2120-command"
     },
@@ -5209,7 +5395,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-HvyA-T-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-HvyA-T-2120-brain",
         "ranks": [
@@ -5225,13 +5411,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-HvyA-T-2120-command"
     },
@@ -5240,7 +5426,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-HvyA-T2-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-HvyA-T2-2120-brain",
         "ranks": [
@@ -5256,13 +5442,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-HvyA-T2-2120-command"
     },
@@ -5271,7 +5457,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-MRL-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-MRL-2120-brain",
         "ranks": [
@@ -5287,13 +5473,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-MRL-2120-command"
     },
@@ -5302,7 +5488,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG1Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG1Mk1-2120-brain",
         "ranks": [
@@ -5318,13 +5504,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG1Mk1-2120-command"
     },
@@ -5333,7 +5519,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG2Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG2Mk1-2120-brain",
         "ranks": [
@@ -5349,13 +5535,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG2Mk1-2120-command"
     },
@@ -5364,7 +5550,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG3Mk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG3Mk1-2120-brain",
         "ranks": [
@@ -5380,13 +5566,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG3Mk1-2120-command"
     },
@@ -5395,7 +5581,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG4ROTARYMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG4ROTARYMk1-2120-brain",
         "ranks": [
@@ -5411,13 +5597,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG4ROTARYMk1-2120-command"
     },
@@ -5426,7 +5612,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Laser2PULSEMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Laser2PULSEMk1-2120-brain",
         "ranks": [
@@ -5442,13 +5628,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Laser2PULSEMk1-2120-command"
     },
@@ -5457,7 +5643,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-LtA-T-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-LtA-T-2120-brain",
         "ranks": [
@@ -5473,13 +5659,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-LtA-T-2120-command"
     },
@@ -5488,7 +5674,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-LtA-T2-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-LtA-T2-2120-brain",
         "ranks": [
@@ -5504,13 +5690,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-LtA-T2-2120-command"
     },
@@ -5519,7 +5705,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-MRL-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-MRL-brain",
         "ranks": [
@@ -5535,13 +5721,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-MRL-command"
     },
@@ -5550,7 +5736,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Missile-MdArt-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Missile-MdArt-brain",
         "ranks": [
@@ -5566,13 +5752,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Missile-MdArt-command"
     },
@@ -5581,7 +5767,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-IDF-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-IDF-2120-brain",
         "ranks": [
@@ -5597,13 +5783,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-IDF-2120-command"
     },
@@ -5612,7 +5798,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-MRL-Hvy-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-MRL-Hvy-brain",
         "ranks": [
@@ -5628,13 +5814,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-MRL-Hvy-command"
     },
@@ -5643,7 +5829,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Missile-MdArt-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Missile-MdArt-2120-brain",
         "ranks": [
@@ -5659,13 +5845,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Missile-MdArt-2120-command"
     },
@@ -5674,7 +5860,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Rocket-IDF-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Rocket-IDF-brain",
         "ranks": [
@@ -5690,13 +5876,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Rocket-IDF-command"
     },
@@ -5705,7 +5891,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Missile-HvyArt-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Missile-HvyArt-brain",
         "ranks": [
@@ -5721,13 +5907,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Missile-HvyArt-command"
     },
@@ -5736,7 +5922,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "Missile-HvyArt-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "Missile-HvyArt-2120-brain",
         "ranks": [
@@ -5752,13 +5938,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "Missile-HvyArt-2120-command"
     },
@@ -5767,7 +5953,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG7LGTGATTLINGMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG7LGTGATTLINGMk1-2120-brain",
         "ranks": [
@@ -5783,13 +5969,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG7LGTGATTLINGMk1-2120-command"
     },
@@ -5798,7 +5984,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG7MEDGATTLINGMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG7MEDGATTLINGMk1-2120-brain",
         "ranks": [
@@ -5814,13 +6000,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG7MEDGATTLINGMk1-2120-command"
     },
@@ -5829,7 +6015,7 @@
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
         "id": "MG7GATTLINGMk1-2120-brain",
-        "maxDroids": 16,
+        "maxDroids": 11,
         "maxDroidsMult": 3,
         "name": "MG7GATTLINGMk1-2120-brain",
         "ranks": [
@@ -5845,13 +6031,13 @@
         ],
         "thresholds": [
             0,
-            7.6,
-            28,
-            81.6,
-            214.4,
-            531.2,
-            1267.2,
-            2944
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
         ],
         "turret": "MG7GATTLINGMk1-2120-command"
     }

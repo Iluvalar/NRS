@@ -28,6 +28,10 @@
 		makeComponentAvailable("CyborgHeavyBody-2120", playnum);
 		makeComponentAvailable("CyborgLightBody-mech", playnum);
 		makeComponentAvailable("CyborgSpade", playnum);
+		makeComponentAvailable("CrawlerBody-reclamation", playnum);
+		makeComponentAvailable("giant_CrawlerBody-reclamation", playnum);
+		
+		
 		//makeComponentAvailable("nowheeled01", playnum);
 		
 	}
@@ -306,10 +310,10 @@ function powerStuff(){
 		if(playerData[playnum].difficulty>0){
 			var aiFact=totHonor/(500)/(maxPlayers*4);
 			//var factordif=2**playerData[playnum].difficulty-.5;
-			var factordif=1.5;
-			if(playerData[playnum].difficulty==1){ factordif=1.3; }
-			if(playerData[playnum].difficulty==2){ factordif=1.40; }
-			if(playerData[playnum].difficulty==3){ factordif=1.50; }
+			var factordif=1.25;
+			if(playerData[playnum].difficulty==1){ factordif=1.25; }
+			if(playerData[playnum].difficulty==2){ factordif=1.35; }
+			if(playerData[playnum].difficulty==3){ factordif=1.45; }
 			if(playerData[playnum].difficulty==4){ factordif=2; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);

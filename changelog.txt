@@ -60,3 +60,10 @@ NRS+421
 
 NRS+422
 *The game was yapping about the lack of a single texture file. No gameplay changes.
+
+NRS+426
+*added reclamation2 bodies
+*added crawlers cyborgs
+*added a few weapons from reclamation
+*Slight reduction in difficulty
+*Optimal unit counts from 35->30 I felt there was too many units even in very low oil.

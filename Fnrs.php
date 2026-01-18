@@ -613,11 +613,13 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$priceclass=log($checkprice/($sys['nrs']['unitprice']/3),2);
 						}
 
-						if (in_array("class0", $val3['as'] )) {$priceclass=-3; } //this will confuse me later lol, meant to match at best the cyborgs
+						if (in_array("class0", $val3['as'] )) {$priceclass=-2.5; } //this will confuse me later lol, meant to match at best the cyborgs
 						if (in_array("class1", $val3['as'] )) {$priceclass=-1.5; }
-						if (in_array("class3", $val3['as'] )) {$priceclass=0; }
+						if (in_array("class3", $val3['as'] )) {$priceclass=-0.5; }
+						if (in_array("class4", $val3['as'] )) {$priceclass=.5; }
 						if (in_array("class5", $val3['as'] )) {$priceclass=1.5; }
-						if (in_array("class7", $val3['as'] )) {$priceclass=3; }
+						if (in_array("class6", $val3['as'] )) {$priceclass=2.5; }
+						if (in_array("class7", $val3['as'] )) {$priceclass=3.5; }
 						$priceclass=max(-4,$priceclass);
 						if(!$priceclassR){
 							$priceclassR=floor($priceclass+4).$hooman2; //for research, pick the first item.
@@ -1002,8 +1004,10 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 								$prop= "CyborgLegs";
 								if($priceclass<=-2){	$template['body']="B1BaBaPerson01-nrs";  }
 								else if($priceclass<=-1){	$template['body']="CyborgLightBody"; }
-								else if($priceclass<=1){	$template['body']="CyborgHeavyBody"; }
+								else if($priceclass<=0){	$template['body']="CrawlerBody-reclamation"; $template['type']="CYBORG_SUPER";}
+								else if($priceclass<=1){	$template['body']="CyborgHeavyBody";  }
 								else if($priceclass<=2){	$template['body']="CyborgHeavyBody-2120"; }
+								else if($priceclass<=3){	$template['body']="giant_CrawlerBody-reclamation"; $template['type']="CYBORG_SUPER";}
 								else {	$template['body']="CyborgLightBody-mech"; }
 								//else if($weight=='xlgt'){	$template['body']="B1BaBaPerson01-nrs"; /*$prop= "BaBaLegs";*/ }
 								//else {	$template['body']="CyborgHeavyBody"; }
@@ -1380,6 +1384,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					}else{
 						$temp['requiredResearch']=[$lastres];
 					}
+					//$temp['lastres']=$lastres;
 					$sys['nrs']['file']['stat']['research'][$id]=$temp;
 					$lastres=$id;
 

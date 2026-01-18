@@ -1566,9 +1566,13 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 					$thatpie=@file($load.$filename);
 					if(strtolower($exp[1])=='pie'){
 						$exp=explode('.png',$thatpie[2]);
+						if(!isset($exp[1])){
+							$exp=explode('.png',$thatpie[3]); //some reclamation bodies have different structure, this is kinda dumb..
+						}
 						$exp2=explode(' ',$exp[0]);
 						$countexp=count($exp2);
 						$found=0;
+						print_r($exp);
 						$name=$exp2[$countexp-1] .'.png';
 						$texnewname=$exp2[$countexp-1] . $sufix .'.png';
 						if($name=='page-111-laboratories.png' or $name=='page-10-labratories.png'){
@@ -1593,9 +1597,21 @@ function Fwz_pieSweap(&$data,$from,$type,&$comp,$sufix,$save,$load,$prefix='',$p
 						}
 						else{
 							$thatpie[2]=str_replace($name, $texnewname, $thatpie[2]); 
+							$thatpie[3]=str_replace($name, $texnewname, $thatpie[3]);  //reclamation
 							//echo '<br>'. $comp[$id] .' '. $sufix .' '. $load .'/texpages/'. $name . ' to '. $save .'/texpages/'. $nname .' ?';
 							//echo print_r($thatpie);
 							copy($load .'/texpages/'. $name,$save .'/texpages/'.$texnewname);
+							//echo 'checking for a tcmask';
+							$expmask=explode('-',$exp2[$countexp-1]);
+							$maskname=$expmask[0].'-'. $expmask[1] .'_tcmask.png';
+							if(file_exists($load .'/texpages/'. $maskname) and isset($maskname)){
+								$deb['mask']='exists';
+								if(!file_exists($save .'/texpages/'. $maskname) and isset($maskname)){
+									copy($load .'/texpages/'. $maskname,$save .'/texpages/'.$maskname);
+								}
+								
+							}
+							echo '[endof]checking for a tcmask '. $load.$maskname .' '. $deb['mask'];
 						}
 						foreach($exp2 as $no=> $val){
 							if($no==$countexp-1){

@@ -15,40 +15,40 @@
 	var structureData = {
 	
 	"Oil Derrick":[0,20,60,-37,0,20,-74,0,0,0,0,130,],
-	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,148,],
-	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,141,],
-	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,130,],
-	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,137,],
+	"Aerodynamicslab":[50,0,-110,0,0,0,25,25,0,0,0,131,],
+	"Heavywepslab":[33,0,-110,0,0,0,16,50,0,0,0,140,],
+	"Advmaterialslab":[100,0,-110,0,0,0,0,0,0,0,0,136,],
+	"Rotarywepslab":[33,0,-55,0,0,0,-55,66,0,0,0,146,],
 	"Powlab":[0,25,50,0,25,0,-37,-74,0,0,0,137,],
-	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,151,],
-	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,140,],
-	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,138,],
-	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,149,],
-	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,144,],
-	"road":[0,75,0,0,-55,25,-55,0,0,0,0,135,],
-	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,146,],
-	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,131,],
-	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,139,],
+	"Solar panel":[-55,0,66,0,-55,0,33,0,0,0,0,131,],
+	"*NuclearReactor*":[-37,0,50,0,25,0,25,-74,0,0,0,149,],
+	"*CoolingTower*":[-37,50,50,0,0,0,0,-74,0,0,0,139,],
+	"Propaganda Tower":[0,33,-37,0,-37,-37,0,66,0,0,0,138,],
+	"Pickup":[0,66,0,33,-37,-37,-37,0,0,0,0,146,],
+	"road":[0,75,0,0,-55,25,-55,0,0,0,0,148,],
+	"BarbWarehouse2":[25,50,0,-55,25,0,-55,0,0,0,0,136,],
+	"BarbWarehouse1":[50,50,-55,-55,0,0,0,0,0,0,0,139,],
+	"BarbWarehouse3":[25,50,0,-55,0,25,-55,0,0,0,0,140,],
 	"OilTower":[33,33,-44,0,0,33,-22,-44,0,0,0,142,],
-	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,140,],
-	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,132,],
-	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,150,],
-	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,147,],
-	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,142,],
-	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,143,],
-	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,133,],
-	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,133,],
-	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,147,],
-	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,144,],
-	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,148,],
-	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,136,],
+	"WaterTower":[0,50,0,-110,0,0,50,0,0,0,0,131,],
+	"AirTrafficControl":[0,33,-44,-44,0,33,-22,33,0,0,0,143,],
+	"Ruin1":[-55,0,0,100,-28,-28,0,0,0,0,0,133,],
+	"BarbHUT":[-28,-28,0,100,-28,-28,0,0,0,0,0,142,],
+	"cabin":[0,-74,0,66,-37,33,0,0,0,0,0,143,],
+	"LogCabin3":[-55,-55,0,33,0,66,0,0,0,0,0,144,],
+	"building3":[-44,-44,0,100,0,-22,0,0,0,0,0,132,],
+	"building2":[-55,-55,0,50,25,25,0,0,0,0,0,138,],
+	"building11":[-44,-44,0,60,40,-22,0,0,0,0,0,133,],
+	"building12":[-37,-37,0,40,40,20,-37,0,0,0,0,150,],
+	"building10":[-37,-74,0,40,40,20,0,0,0,0,0,145,],
+	"Park":[0,-37,0,-74,0,33,66,0,0,0,0,142,],
 	"Forest":[0,0,0,-55,-55,0,100,0,0,0,0,145,],
-	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,146,],
-	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,147,],
-	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,149,],
-	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,141,],
-	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,151,],
-	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,134,],
+	"Big Forest":[0,0,0,0,-110,0,100,0,0,0,0,145,],
+	"Tree":[0,0,0,0,33,0,66,-110,0,0,0,151,],
+	"Boulder3":[0,0,0,0,33,0,66,0,-110,0,0,134,],
+	"Boulder2":[0,0,0,0,0,0,100,0,-110,0,0,143,],
+	"Boulder1":[0,0,0,0,33,0,66,0,-110,0,0,137,],
+	"arizonabush3":[0,33,0,-55,0,0,66,-55,0,0,0,151,],
 	};
 	setTimer("powerStuff", 5000);
 	setTimer("powerStuffAnim", 500);
@@ -63,6 +63,10 @@
 		makeComponentAvailable("CyborgHeavyBody-2120", playnum);
 		makeComponentAvailable("CyborgLightBody-mech", playnum);
 		makeComponentAvailable("CyborgSpade", playnum);
+		makeComponentAvailable("CrawlerBody-reclamation", playnum);
+		makeComponentAvailable("giant_CrawlerBody-reclamation", playnum);
+		
+		
 		//makeComponentAvailable("nowheeled01", playnum);
 		
 	}
@@ -342,10 +346,10 @@ var powerMod=0;
 		if(playerData[playnum].difficulty>0){
 			var aiFact=totHonor/(500)/(maxPlayers*4);
 			//var factordif=2**playerData[playnum].difficulty-.5;
-			var factordif=1.5;
-			if(playerData[playnum].difficulty==1){ factordif=1.3; }
-			if(playerData[playnum].difficulty==2){ factordif=1.40; }
-			if(playerData[playnum].difficulty==3){ factordif=1.50; }
+			var factordif=1.25;
+			if(playerData[playnum].difficulty==1){ factordif=1.25; }
+			if(playerData[playnum].difficulty==2){ factordif=1.35; }
+			if(playerData[playnum].difficulty==3){ factordif=1.45; }
 			if(playerData[playnum].difficulty==4){ factordif=2; }
 			//propPow=playerData[playnum].difficulty*basepower;
 			//income=income*(2**playerData[playnum].difficulty-1);
