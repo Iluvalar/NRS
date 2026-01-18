@@ -151,14 +151,14 @@
         ],
         "turret": "BabaMiniMortar-reclamation-command"
     },
-    "Rocket-Ballista-reclamation-brain": {
+    "Rocket-LtA-TMk1-reclamation-brain": {
         "designable": 1,
         "droidType": "DROID_COMMAND",
         "hitpoints": 500,
-        "id": "Rocket-Ballista-reclamation-brain",
+        "id": "Rocket-LtA-TMk1-reclamation-brain",
         "maxDroids": 11,
         "maxDroidsMult": 3,
-        "name": "Rocket-Ballista-reclamation-brain",
+        "name": "Rocket-LtA-TMk1-reclamation-brain",
         "ranks": [
             "Rookie",
             "Green",
@@ -180,7 +180,7 @@
             883.2,
             2048
         ],
-        "turret": "Rocket-Ballista-reclamation-command"
+        "turret": "Rocket-LtA-TMk1-reclamation-command"
     },
     "BabaLance-reclamation-brain": {
         "designable": 1,
@@ -212,6 +212,37 @@
             2048
         ],
         "turret": "BabaLance-reclamation-command"
+    },
+    "Rocket-Ballista-reclamation-brain": {
+        "designable": 1,
+        "droidType": "DROID_COMMAND",
+        "hitpoints": 500,
+        "id": "Rocket-Ballista-reclamation-brain",
+        "maxDroids": 11,
+        "maxDroidsMult": 3,
+        "name": "Rocket-Ballista-reclamation-brain",
+        "ranks": [
+            "Rookie",
+            "Green",
+            "Trained",
+            "Regular",
+            "Professional",
+            "Veteran",
+            "Elite",
+            "Special",
+            "Hero"
+        ],
+        "thresholds": [
+            0,
+            5.6,
+            20,
+            57.6,
+            150.4,
+            371.2,
+            883.2,
+            2048
+        ],
+        "turret": "Rocket-Ballista-reclamation-command"
     },
     "Laser-AP1-contingency-brain": {
         "designable": 1,

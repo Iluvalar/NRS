@@ -780,8 +780,11 @@ $fac='reclamation';
 Fnrs_add([ 'faction'=> $fac, 'use'=>'VileStingerTail', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA','class3'], 'call'=>'stingers' ]);
 //Fnrs_add([ 'faction'=> $fac, 'use'=>'BoomTickSac', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'BabaMiniMortar', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA','class3'], 'call'=>'stingers' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'Rocket-Ballista', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
-Fnrs_add([ 'faction'=> $fac, 'use'=>'BabaLance', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AP','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Rocket-LtA-TMk1', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AT','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'BabaLance', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AT','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=>'Rocket-Ballista', 'in'=>'reclamation','type'=> 'weapons', 'as' => ['medium','AT','','weapon','NRSp','¥','typeA'], 'call'=>'stingers' ]);
+
 
 
 

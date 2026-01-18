@@ -96,9 +96,9 @@ const fundamentalResearch = [
 	//"R-NRS-NuclearReactor",
 	//"R-NRS-Park-nrs",
 	//"R-NRS-BigForest-eco3",
-	"R-NRS-building10-eco1",
-	"R-NRS-A0ResourceExtractor-eco2",
-	"R-NRS-building3-eco3",
+	"R-NRS-OilTower-eco1",
+	"R-NRS-road-eco2",
+	"R-NRS-Aerodynamicslab-eco3",
 	"R--ResearchPoints--3",
 	"R--ProductionPoints--3",
 
@@ -106,8 +106,8 @@ const fundamentalResearch = [
 	"R--ResearchPoints--6",
 	"R--ProductionPoints--6",
 	"R-Sys--Autorepair-General",
-	"R-NRS-Ruin1-eco1",
-	"R-NRS-BarbWarehouse3-eco2",
+	"R-NRS-Park-eco1",
+	"R-NRS-Heavywepslab-eco2",
 	"R-NRS-BarbWarehouse2-eco3",
 	//"R-NRS-Heavywepslab-eco3",
 	"R--ResearchPoints--9",
@@ -115,10 +115,10 @@ const fundamentalResearch = [
 	//"R-hover01-HitpointPctOfBody-9",
 	//"R-wheeled01-HitpointPctOfBody-9",
 	//"R-NRS-Forest-eco3",
-	"R-NRS-arizonabush3-eco1",
+	"R-NRS-Boulder1-eco1",
 	"R--Range--9",
-	"R-NRS-arizonabush3-eco2",
-	"R-NRS-Tree-eco3",
+	"R-NRS-Park-eco2",
+	"R-NRS-BarbHUT-eco3",
 	//"R-NRS-OilTower-eco3",
 	/*
 	"R-Struc-RprFac-Upgrade01",
@@ -1170,13 +1170,11 @@ const weaponStats = {
 	APA21 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 5,
+		chatalias : 3,
 		weapons : [
 			{ res: "R-NRS-3JNStingerTail-reclamation", stat: "StingerTail-reclamation", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-3JNVileStingerTail-reclamation", stat: "VileStingerTail-reclamation", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-3JNBabaMiniMortar-reclamation", stat: "BabaMiniMortar-reclamation", weight: WEIGHT.MEDIUM },
-			{ res: "R-NRS-5JNRocket-Ballista-reclamation", stat: "Rocket-Ballista-reclamation", weight: WEIGHT.HEAVY },
-			{ res: "R-NRS-0JNBabaLance-reclamation", stat: "BabaLance-reclamation", weight: WEIGHT.ULTRALIGHT },
 		],
 		vtols : [
 		],
@@ -1184,15 +1182,35 @@ const weaponStats = {
 			{ res: "R-NRS-3JNStingerTail-reclamation", stat: "walltower-StingerTail-reclamation", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-3JNVileStingerTail-reclamation", stat: "walltower-VileStingerTail-reclamation", defrole: DEFROLE.STANDALONE },
 			{ res: "R-NRS-3JNBabaMiniMortar-reclamation", stat: "walltower-BabaMiniMortar-reclamation", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-5JNRocket-Ballista-reclamation", stat: "walltower-Rocket-Ballista-reclamation", defrole: DEFROLE.STANDALONE },
-			{ res: "R-NRS-0JNBabaLance-reclamation", stat: "walltower-BabaLance-reclamation", defrole: DEFROLE.STANDALONE },
 		],
 		templates: [
 			{ res: "R-NRS-3JNStingerTail-reclamation", body: "CrawlerBody-reclamation", prop: "CyborgLegs", weapons: [ "StingerTail-reclamation", ] },
 			{ res: "R-NRS-3JNVileStingerTail-reclamation", body: "CrawlerBody-reclamation", prop: "CyborgLegs", weapons: [ "VileStingerTail-reclamation", ] },
 			{ res: "R-NRS-3JNBabaMiniMortar-reclamation", body: "CrawlerBody-reclamation", prop: "CyborgLegs", weapons: [ "BabaMiniMortar-reclamation", ] },
-			{ res: "R-NRS-5JNRocket-Ballista-reclamation", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Rocket-Ballista-reclamation", ] },
+		],
+		extras: [
+		],
+	},
+	ATA21 : {
+		roles : [ 0.5, 0.1, 0.2, 0.2 ],
+		micro : MICRO.DUMB,
+		chatalias : 6,
+		weapons : [
+			{ res: "R-NRS-4JNRocket-LtA-TMk1-reclamation", stat: "Rocket-LtA-TMk1-reclamation", weight: WEIGHT.HEAVY },
+			{ res: "R-NRS-0JNBabaLance-reclamation", stat: "BabaLance-reclamation", weight: WEIGHT.ULTRALIGHT },
+			{ res: "R-NRS-5JNRocket-Ballista-reclamation", stat: "Rocket-Ballista-reclamation", weight: WEIGHT.HEAVY },
+		],
+		vtols : [
+		],
+		defenses : [
+			{ res: "R-NRS-4JNRocket-LtA-TMk1-reclamation", stat: "walltower-Rocket-LtA-TMk1-reclamation", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-0JNBabaLance-reclamation", stat: "walltower-BabaLance-reclamation", defrole: DEFROLE.STANDALONE },
+			{ res: "R-NRS-5JNRocket-Ballista-reclamation", stat: "walltower-Rocket-Ballista-reclamation", defrole: DEFROLE.STANDALONE },
+		],
+		templates: [
+			{ res: "R-NRS-4JNRocket-LtA-TMk1-reclamation", body: "CyborgHeavyBody", prop: "CyborgLegs", weapons: [ "Rocket-LtA-TMk1-reclamation", ] },
 			{ res: "R-NRS-0JNBabaLance-reclamation", body: "B1BaBaPerson01-nrs", prop: "CyborgLegs", weapons: [ "BabaLance-reclamation", ] },
+			{ res: "R-NRS-5JNRocket-Ballista-reclamation", body: "CyborgHeavyBody-2120", prop: "CyborgLegs", weapons: [ "Rocket-Ballista-reclamation", ] },
 		],
 		extras: [
 		],
@@ -1200,7 +1218,7 @@ const weaponStats = {
 	APE21 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 8,
+		chatalias : 9,
 		weapons : [
 			{ res: "R-NRS-1JNLaser-AP1-contingency", stat: "Laser-AP1-contingency", weight: WEIGHT.ULTRALIGHT },
 			{ res: "R-NRS-3JNLaser-AP2-contingency", stat: "Laser-AP2-contingency", weight: WEIGHT.MEDIUM },
@@ -1224,7 +1242,7 @@ const weaponStats = {
 	ATE11 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 152,
+		chatalias : 153,
 		weapons : [
 			{ res: "R-NRS-2RNLaser-AT1-contingency", stat: "Laser-AT1-contingency", weight: WEIGHT.LIGHT },
 			{ res: "R-NRS-4RNLaser-AT2-contingency", stat: "Laser-AT2-contingency", weight: WEIGHT.HEAVY },
@@ -1268,7 +1286,7 @@ const weaponStats = {
 	APE20 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 14,
+		chatalias : 15,
 		weapons : [
 			{ res: "R-NRS-4JHLaser-AP4-contingency", stat: "Laser-AP4-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-4JHLaser-AA2-contingency", stat: "Laser-AA2-contingency", weight: WEIGHT.HEAVY },
@@ -1292,7 +1310,7 @@ const weaponStats = {
 	ATE20 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 17,
+		chatalias : 18,
 		weapons : [
 			{ res: "R-NRS-4JHLaser-AT4-contingency", stat: "Laser-AT4-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-3JHLaser-TankDest2Lgt-contingency", stat: "Laser-TankDest2Lgt-contingency", weight: WEIGHT.MEDIUM },
@@ -1316,7 +1334,7 @@ const weaponStats = {
 	ASA20 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 21,
+		chatalias : 22,
 		weapons : [
 			{ res: "R-NRS-3JHMortar-GaussRamjet-contingency", stat: "Mortar-GaussRamjet-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-3JHMortar-Gauss-contingency", stat: "Mortar-Gauss-contingency", weight: WEIGHT.MEDIUM },
@@ -1343,7 +1361,7 @@ const weaponStats = {
 	ASO21 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 122,
+		chatalias : 123,
 		weapons : [
 			{ res: "R-NRS-2JNMortar-Ramjet-contingency", stat: "Mortar-Ramjet-contingency", weight: WEIGHT.LIGHT },
 			{ res: "R-NRS-3JNMortar-RamjetRot-contingency", stat: "Mortar-RamjetRot-contingency", weight: WEIGHT.MEDIUM },
@@ -1385,7 +1403,7 @@ const weaponStats = {
 	AWO10 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 28,
+		chatalias : 29,
 		weapons : [
 			{ res: "R-NRS-3RHCannon-Shotgun-contingency", stat: "Cannon-Shotgun-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-3RHCannon-HPVAslt-contingency", stat: "Cannon-HPVAslt-contingency", weight: WEIGHT.MEDIUM },
@@ -1409,7 +1427,7 @@ const weaponStats = {
 	AWA10 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 95,
+		chatalias : 96,
 		weapons : [
 			{ res: "R-NRS-4RHCannon-Sniper-Bunker-contingency", stat: "Cannon-Sniper-Bunker-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5RHRailGun1Mk1", stat: "RailGun1Mk1", weight: WEIGHT.HEAVY },
@@ -1443,7 +1461,7 @@ const weaponStats = {
 	AWA20 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 33,
+		chatalias : 34,
 		weapons : [
 			{ res: "R-NRS-1JHCannon-HPVLgt-contingency", stat: "Cannon-HPVLgt-contingency", weight: WEIGHT.ULTRALIGHT },
 			{ res: "R-NRS-3JHCannon-HPVHvy-contingency", stat: "Cannon-HPVHvy-contingency", weight: WEIGHT.MEDIUM },
@@ -1470,7 +1488,7 @@ const weaponStats = {
 	AWE11 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 37,
+		chatalias : 38,
 		weapons : [
 			{ res: "R-NRS-3RNCannon-Inc-contingency", stat: "Cannon-Inc-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-3RNCannon-IncTankDest-contingency", stat: "Cannon-IncTankDest-contingency", weight: WEIGHT.MEDIUM },
@@ -1497,7 +1515,7 @@ const weaponStats = {
 	ATO01 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 48,
+		chatalias : 49,
 		weapons : [
 			{ res: "R-NRS-3ANMG-AntiTankGss-contingency", stat: "MG-AntiTankGss-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-4ANMG-AntiTank2Twin-contingency", stat: "MG-AntiTank2Twin-contingency", weight: WEIGHT.HEAVY },
@@ -1530,7 +1548,7 @@ const weaponStats = {
 	APE11 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 80,
+		chatalias : 81,
 		weapons : [
 			{ res: "R-NRS-1RNMG3Inc-contingency", stat: "MG3Inc-contingency", weight: WEIGHT.ULTRALIGHT },
 			{ res: "R-NRS-2RNMG3IncTwin-contingency", stat: "MG3IncTwin-contingency", weight: WEIGHT.LIGHT },
@@ -1576,7 +1594,7 @@ const weaponStats = {
 	APO01 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 194,
+		chatalias : 195,
 		weapons : [
 			{ res: "R-NRS-3ANMG2Mk1", stat: "MG2Mk1", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-2ANMG3Twin-contingency", stat: "MG3Twin-contingency", weight: WEIGHT.LIGHT },
@@ -1614,7 +1632,7 @@ const weaponStats = {
 	ATE10 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 57,
+		chatalias : 58,
 		weapons : [
 			{ res: "R-NRS-3RHFlame1Hvy-contingency", stat: "Flame1Hvy-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-2RHFlame1Med-contingency", stat: "Flame1Med-contingency", weight: WEIGHT.LIGHT },
@@ -1647,7 +1665,7 @@ const weaponStats = {
 	ASO00 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 88,
+		chatalias : 89,
 		weapons : [
 			{ res: "R-NRS-4AHHowitzer150Mk1-contingency", stat: "Howitzer150Mk1-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5AHHowitzerGattling-contingency", stat: "HowitzerGattling-contingency", weight: WEIGHT.HEAVY },
@@ -1683,7 +1701,7 @@ const weaponStats = {
 	ASA00 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 64,
+		chatalias : 65,
 		weapons : [
 			{ res: "R-NRS-6AHHowitzerGattlingGauss-contingency", stat: "HowitzerGattlingGauss-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-4AHHowitzerGauss-contingency", stat: "HowitzerGauss-contingency", weight: WEIGHT.HEAVY },
@@ -1710,7 +1728,7 @@ const weaponStats = {
 	ATO20 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 67,
+		chatalias : 68,
 		weapons : [
 			{ res: "R-NRS-3JHHowitzerRamjet-contingency", stat: "HowitzerRamjet-contingency", weight: WEIGHT.MEDIUM },
 			{ res: "R-NRS-4JHHowitzerRamjetHvy-contingency", stat: "HowitzerRamjetHvy-contingency", weight: WEIGHT.HEAVY },
@@ -1734,7 +1752,7 @@ const weaponStats = {
 	ATO00 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 70,
+		chatalias : 71,
 		weapons : [
 			{ res: "R-NRS-4AHHowitzerGaussRamjet-contingency", stat: "HowitzerGaussRamjet-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5AHHowitzerGaussRamjetHvy-contingency", stat: "HowitzerGaussRamjetHvy-contingency", weight: WEIGHT.HEAVY },
@@ -1758,7 +1776,7 @@ const weaponStats = {
 	ASE20 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 72,
+		chatalias : 73,
 		weapons : [
 			{ res: "R-NRS-4JHHowitzerHvyPlas-contingency", stat: "HowitzerHvyPlas-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-4JHHowitzerRotPlas-contingency", stat: "HowitzerRotPlas-contingency", weight: WEIGHT.HEAVY },
@@ -1779,7 +1797,7 @@ const weaponStats = {
 	ASE00 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 76,
+		chatalias : 77,
 		weapons : [
 			{ res: "R-NRS-4AHHowitzerGaussInc-contingency", stat: "HowitzerGaussInc-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5AHHowitzerGaussHvyPlas-contingency", stat: "HowitzerGaussHvyPlas-contingency", weight: WEIGHT.HEAVY },
@@ -1803,7 +1821,7 @@ const weaponStats = {
 	AWA21 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 84,
+		chatalias : 85,
 		weapons : [
 			{ res: "R-NRS-6JNCannon5VulcanMk1-2120", stat: "Cannon5VulcanMk1-2120", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-6JNCannon775mmMk1-2120", stat: "Cannon775mmMk1-2120", weight: WEIGHT.ULTRAHEAVY },
@@ -1836,7 +1854,7 @@ const weaponStats = {
 	APE10 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 91,
+		chatalias : 92,
 		weapons : [
 			{ res: "R-NRS-6RHHeavyLaser", stat: "HeavyLaser", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-6RHLaser4-PlasmaCannon", stat: "Laser4-PlasmaCannon", weight: WEIGHT.ULTRAHEAVY },
@@ -1862,7 +1880,7 @@ const weaponStats = {
 	ASO10 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 99,
+		chatalias : 100,
 		weapons : [
 			{ res: "R-NRS-4RHMortar1Mk1", stat: "Mortar1Mk1", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5RHMortar0Mk1-2120", stat: "Mortar0Mk1-2120", weight: WEIGHT.HEAVY },
@@ -1890,7 +1908,7 @@ const weaponStats = {
 	ASO01 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 192,
+		chatalias : 193,
 		weapons : [
 			{ res: "R-NRS-7ANHowitzerGaussRamjetSuper-contingency", stat: "HowitzerGaussRamjetSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7ANHowitzerGaussPlasSuper-contingency", stat: "HowitzerGaussPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1923,7 +1941,7 @@ const weaponStats = {
 	ASE11 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 120,
+		chatalias : 121,
 		weapons : [
 			{ res: "R-NRS-4RNMortar-GaussRotPlas-contingency", stat: "Mortar-GaussRotPlas-contingency", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-7RNMortarPlasSuper-contingency", stat: "MortarPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1947,7 +1965,7 @@ const weaponStats = {
 	APA00 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 109,
+		chatalias : 110,
 		weapons : [
 			{ res: "R-NRS-7AHLaserSuper-contingency", stat: "LaserSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7AHLaserSuper2-contingency", stat: "LaserSuper2-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1971,7 +1989,7 @@ const weaponStats = {
 	AWO00 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 112,
+		chatalias : 113,
 		weapons : [
 			{ res: "R-NRS-7AHCannonSuper", stat: "CannonSuper", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7AHCannonSuper-contingency", stat: "CannonSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -1995,7 +2013,7 @@ const weaponStats = {
 	ASO11 : {
 		roles : [ 0.1, 0.2, 0.5, 0.2 ],
 		micro : MICRO.DUMB,
-		chatalias : 190,
+		chatalias : 191,
 		weapons : [
 			{ res: "R-NRS-7RNMortarSuper-contingency", stat: "MortarSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7RNMortarGaussPlasSuper-contingency", stat: "MortarGaussPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -2034,7 +2052,7 @@ const weaponStats = {
 	AWA00 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 125,
+		chatalias : 126,
 		weapons : [
 			{ res: "R-NRS-7AHRailgunGattlingPlasSuper-contingency", stat: "RailgunGattlingPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7AHRailgunSuper-contingency", stat: "RailgunSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -2058,7 +2076,7 @@ const weaponStats = {
 	ATO10 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 184,
+		chatalias : 185,
 		weapons : [
 			{ res: "R-NRS-7RHRocketSuper", stat: "RocketSuper", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7RHMissileArraySuper-contingency", stat: "MissileArraySuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -2090,7 +2108,7 @@ const weaponStats = {
 	ATO11 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 163,
+		chatalias : 164,
 		weapons : [
 			{ res: "R-NRS-7RNMissileSuper", stat: "MissileSuper", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7RNMissileSuper-2120", stat: "MissileSuper-2120", weight: WEIGHT.ULTRAHEAVY },
@@ -2147,7 +2165,7 @@ const weaponStats = {
 	APO21 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 133,
+		chatalias : 134,
 		weapons : [
 			{ res: "R-NRS-7JNMGPlasSuper-contingency", stat: "MGPlasSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7JNMGSuper-contingency", stat: "MGSuper-contingency", weight: WEIGHT.ULTRAHEAVY },
@@ -2171,7 +2189,7 @@ const weaponStats = {
 	APO11 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 146,
+		chatalias : 147,
 		weapons : [
 			{ res: "R-NRS-7RNChaingun-mech", stat: "Chaingun-mech", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7RNRotMG-mech", stat: "RotMG-mech", weight: WEIGHT.ULTRAHEAVY },
@@ -2211,7 +2229,7 @@ const weaponStats = {
 	AWA11 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 149,
+		chatalias : 150,
 		weapons : [
 			{ res: "R-NRS-4RNInfCannon1Mk1-reclamation", stat: "InfCannon1Mk1-reclamation", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-4RNCannon1Mk1", stat: "Cannon1Mk1", weight: WEIGHT.HEAVY },
@@ -2241,7 +2259,7 @@ const weaponStats = {
 	AWA01 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 166,
+		chatalias : 167,
 		weapons : [
 			{ res: "R-NRS-5ANCannon4AUTOMk1", stat: "Cannon4AUTOMk1", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5ANCannon5VulcanMk1", stat: "Cannon5VulcanMk1", weight: WEIGHT.HEAVY },
@@ -2284,7 +2302,7 @@ const weaponStats = {
 	ATE21 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 158,
+		chatalias : 159,
 		weapons : [
 			{ res: "R-NRS-5JNFlame1Mk1-2120", stat: "Flame1Mk1-2120", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-6JNFlame2-2120", stat: "Flame2-2120", weight: WEIGHT.ULTRAHEAVY },
@@ -2310,7 +2328,7 @@ const weaponStats = {
 	AWO01 : {
 		roles : [ 0.4, 0.3, 0.1, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 169,
+		chatalias : 170,
 		weapons : [
 			{ res: "R-NRS-7ANRailGun4Mk1-2120", stat: "RailGun4Mk1-2120", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7ANRailGun5Mk1-2120", stat: "RailGun5Mk1-2120", weight: WEIGHT.ULTRAHEAVY },
@@ -2338,7 +2356,7 @@ const weaponStats = {
 	ATO21 : {
 		roles : [ 0.5, 0.1, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 176,
+		chatalias : 177,
 		weapons : [
 			{ res: "R-NRS-6JNRocket-HvyA-T-2120", stat: "Rocket-HvyA-T-2120", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-3JNRocket-HvyA-T2-2120", stat: "Rocket-HvyA-T2-2120", weight: WEIGHT.MEDIUM },
@@ -2366,7 +2384,7 @@ const weaponStats = {
 	APA11 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 179,
+		chatalias : 180,
 		weapons : [
 			{ res: "R-NRS-5RNMG1Mk1-2120", stat: "MG1Mk1-2120", weight: WEIGHT.HEAVY },
 			{ res: "R-NRS-5RNMG2Mk1-2120", stat: "MG2Mk1-2120", weight: WEIGHT.HEAVY },
@@ -2394,7 +2412,7 @@ const weaponStats = {
 	APO10 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 189,
+		chatalias : 190,
 		weapons : [
 			{ res: "R-NRS-6RHMG4ROTARYMk1-2120", stat: "MG4ROTARYMk1-2120", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7RHLaser2PULSEMk1-2120", stat: "Laser2PULSEMk1-2120", weight: WEIGHT.ULTRAHEAVY },
@@ -2422,7 +2440,7 @@ const weaponStats = {
 	APO00 : {
 		roles : [ 0.1, 0.5, 0.2, 0.2 ],
 		micro : MICRO.RANGED,
-		chatalias : 195,
+		chatalias : 196,
 		weapons : [
 			{ res: "R-NRS-6AHMissile-MdArt", stat: "Missile-MdArt", weight: WEIGHT.ULTRAHEAVY },
 			{ res: "R-NRS-7AHRocket-IDF-2120", stat: "Rocket-IDF-2120", weight: WEIGHT.ULTRAHEAVY },

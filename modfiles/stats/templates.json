@@ -2797,27 +2797,38 @@
         ],
         "body": "CrawlerBody-reclamation"
     },
-    "Rocket-Ballista-reclamation-Cyb": {
+    "Rocket-LtA-TMk1-reclamation-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "Ballista [5\u00a5N-APA] #4 Cyb-Mk3",
-        "id": "Rocket-Ballista-reclamation-Cyb",
+        "name": "Sarissa [4\u00a5N-ATA] #1 Cyb-Mk0",
+        "id": "Rocket-LtA-TMk1-reclamation-Cyb",
         "weapons": [
-            "Rocket-Ballista-reclamation-Cyb"
+            "Rocket-LtA-TMk1-reclamation-Cyb"
         ],
-        "body": "CyborgHeavyBody-2120"
+        "body": "CyborgHeavyBody"
     },
     "BabaLance-reclamation-Cyb": {
         "type": "CYBORG",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "Scavenger Lance [0\u00a5N-APA] #5 Cyb-Mk4",
+        "name": "Scavenger Lance [0\u00a5N-ATA] #2 Cyb-Mk1",
         "id": "BabaLance-reclamation-Cyb",
         "weapons": [
             "BabaLance-reclamation-Cyb"
         ],
         "body": "B1BaBaPerson01-nrs"
+    },
+    "Rocket-Ballista-reclamation-Cyb": {
+        "type": "CYBORG",
+        "propulsion": "CyborgLegs",
+        "available": "true",
+        "name": "Ballista [5\u00a5N-ATA] #3 Cyb-Mk2",
+        "id": "Rocket-Ballista-reclamation-Cyb",
+        "weapons": [
+            "Rocket-Ballista-reclamation-Cyb"
+        ],
+        "body": "CyborgHeavyBody-2120"
     },
     "Laser-AP1-contingency-Cyb": {
         "type": "CYBORG",
