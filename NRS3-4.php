@@ -365,7 +365,7 @@ foreach($mods as $no => $modname){
 	$listtype='propulsion';
 	foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
 			//echo $nom .','. $val['name'] .' '.  $val['size'] .'<br>';
-			$sys['nrs'][$modname][$listtype][$nom]['speed']*=10;
+			$sys['nrs'][$modname][$listtype][$nom]['speed']*=100;
 			
 	}
 	$listtype='structure';
@@ -707,6 +707,7 @@ Fnrs_upgradeline("Sensor","",'','Range','Sensor',$sys['nrs']['startres'],1,'sens
 
 $fac='start';
 $sys['nrs']['base']['propulsion']['antiGravity']=$sys['nrs']['base']['propulsion']['wheeled01'];
+//$sys['nrs']['base']['propulsion']['antiGravity']['type']="Half-Tracked";
 unset($sys['nrs']['base']['propulsion']['antiGravity']['model']);
 //Fnrs_genprop('BaBaLegs',$fac,'BaBaLegs',100);
 Fnrs_genprop('wheeled01',$fac,'wheeled01',100);
@@ -715,7 +716,7 @@ Fnrs_genprop('hover01',$fac,'hover01',85,"Hover");
 Fnrs_genprop('HalfTrack',$fac,'HalfTrack',115,"Tracked");
 Fnrs_genprop('CyborgLegs',$fac,'CyborgLegs',100,"Legged");
 Fnrs_genprop('Naval',$fac,'Naval',115,"Propellor");
-Fnrs_genprop('antiGravity',$fac,'antiGravity',100);
+Fnrs_genprop('antiGravity',$fac,'antiGravity',100,"Half-Tracked");
 //Fnrs_genprop('Helicopter',$fac,'Helicopter',115,"Lift");
 
 

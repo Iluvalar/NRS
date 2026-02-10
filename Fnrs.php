@@ -710,7 +710,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							//if($weight=='xlgt'){ $item['designable']=0;}
 							
 							//$item['weight']=1000*(1-$wepweight);
-							$item['weight']=1000*1.3**$priceclass*(1.68**$engineClass);
+							//$item['weight']=1000*1.3**$priceclass*(1.68**$engineClass);
+							$item['weight']=0;
 							$item['powerOutput']=2625*1.3**$priceclass*(1.68**$engineClass);
 							if( $item['class']=='Cyborgs'){
 								$item['designable']=0;
@@ -924,7 +925,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['radiusDamage']*=$scale;
 							$item['periodicalDamage']*=$scale;
 							#$item['weight']=1000*$wepweight;
-							$item['weight']=1000*1.3**$priceclass*(1.68**-$engineClass);
+							$item['weight']=2000*1.3**$priceclass*(1.68**-$engineClass);
 							$item['recoilValue']=min(150,$item['recoilValue']);
 							
 							$item['periodicalDamageWeaponClass']=$wepclass;
@@ -1286,7 +1287,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item["buildPower"]= $price;
 							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
 							//$item['weight']=1000*$wepweight;
-							$item['weight']=450*1.3**$priceclass*(1.68**-$engineClass);
+							$item['weight']=2000*1.3**$priceclass*(1.68**-$engineClass);
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
 						}
@@ -1296,7 +1297,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item["buildPoints"]= $price*$sys['nrs']['produnit'];
 							$item["buildPower"]= $price;
 							$item['hitpoints']=50*$pow*$power*$sys['nrs']['structureHPScale'];
-							$item['weight']=450*1.3**$priceclass*(1.68**-$engineClass);
+							$item['weight']=2000*1.3**$priceclass*(1.68**-$engineClass);
 							$sys['nrs']['file']['stat'][$val3['type']][$item['id']]=$item;
 							
 						}

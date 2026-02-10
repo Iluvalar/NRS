@@ -8,7 +8,7 @@
         "id": "scavCrane1",
         "name": "Crane1",
         "sensorModel": "cranearm1.pie",
-        "weight": 450,
+        "weight": 2000,
         "designable": 1
     },
     "scavCrane2": {
@@ -33,7 +33,7 @@
         "name": "*Combat Engineer*",
         "sensorModel": "cy_con.pie",
         "usageClass": "Cyborg",
-        "weight": 450
+        "weight": 2000
     },
     "Spade1Mk1": {
         "buildPoints": 184.49999999999997,
@@ -45,7 +45,7 @@
         "id": "Spade1Mk1",
         "name": "Truck",
         "sensorModel": "TRLCON.PIE",
-        "weight": 756
+        "weight": 3360
     },
     "ZNULLCONSTRUCT": {
         "id": "ZNULLCONSTRUCT",

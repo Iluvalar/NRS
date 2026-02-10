@@ -18,7 +18,7 @@
         "repairPoints": 30,
         "time": 7,
         "usageClass": "Cyborg",
-        "weight": 450,
+        "weight": 2000,
         "constructPoints": 12.9801,
         "hitpoints": 103.47852646286698
     },
@@ -34,7 +34,7 @@
         "name": "Heavy Repair Turret",
         "repairPoints": 90,
         "time": 7,
-        "weight": 450,
+        "weight": 2000,
         "constructPoints": 13.9602,
         "hitpoints": 111.29197195144228
     },
@@ -50,7 +50,7 @@
         "name": "Repair Turret",
         "repairPoints": 45,
         "time": 7,
-        "weight": 450,
+        "weight": 2000,
         "constructPoints": 12.9801,
         "hitpoints": 103.47852646286698
     },

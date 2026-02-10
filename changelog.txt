@@ -67,3 +67,12 @@ NRS+426
 *added a few weapons from reclamation
 *Slight reduction in difficulty
 *Optimal unit counts from 35->30 I felt there was too many units even in very low oil.
+
+NRS+428
+*Remove the weight of the bodies and moved it into the weapons. This allows oversized units to go much much faster.
+*Anti-gravity, if not mistaken, should be classified as structure for weapon modifier purpose. (strong against Anti-wheel)
+*I'm dropping support for high oil (30+ oil maps). Not because I'm evil. But simply because, I'm adding more units to low and medium oil. The gameplay is just optimised for those maps. The AI stuggle managing 15 research lab and factories and moving 400 units around. And it's laggy!
+**If you are an highoil player and want to replicate it in low oil maps: Build a financial center and energy economics, focus on low price class units to have more of them and build slower research labs so you feel happy about your 5 labs being constantly saturated. 
+**If you are a low oil player and don't like low oil atm, build residential and service buildings, focus on high price class units like mechs and build a x3 lab so you can make all your research in a single lab, invest in high tech units instead of power generation. 
+**Because all of these economical situations are possible from within the game, there is absolutely no reason to set the game in an highoil map.
+**I'm not banning anyone from trying and play with 500 units stuck in a choke point as you click on 15 research per minute. I'm just done pretending this is intended gameplay. XD

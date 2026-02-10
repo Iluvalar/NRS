@@ -1,6 +1,6 @@
 {
     "ALL ROUNDER": {
-        "Half-Tracked": 100,
+        "Half-Tracked": 86,
         "Hover": 115,
         "Legged": 100,
         "Lift": 100,
@@ -24,7 +24,7 @@
         "Wheeled": 100
     },
     "ARTILLERY ROUND": {
-        "Half-Tracked": 100,
+        "Half-Tracked": 115,
         "Hover": 86,
         "Legged": 100,
         "Lift": 100,

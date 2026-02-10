@@ -4,7 +4,7 @@
         "deceleration": 450,
         "id": "BaBaLegs",
         "name": "BaBaLegs",
-        "speed": 5000,
+        "speed": 50000,
         "spinAngle": 45,
         "spinSpeed": 450,
         "turnSpeed": 225,
@@ -30,7 +30,7 @@
         "id": "CyborgLegs",
         "model": "cybd_std.pie",
         "name": "CyborgLegs",
-        "speed": 10000,
+        "speed": 100000,
         "spinAngle": 45,
         "spinSpeed": 450,
         "turnSpeed": 225,
@@ -48,7 +48,7 @@
         "model": "prlhtr1.pie",
         "name": "HalfTrack",
         "skidDeceleration": 500,
-        "speed": 3750,
+        "speed": 37500,
         "type": "Tracked",
         "weight": 0
     },
@@ -75,7 +75,7 @@
         "id": "Naval",
         "model": "prhnaval1.pie",
         "name": "Naval",
-        "speed": 7500,
+        "speed": 75000,
         "type": "Propellor",
         "weight": 0
     },
@@ -111,7 +111,7 @@
         "model": "PRLHOV1.PIE",
         "name": "hover01",
         "skidDeceleration": 120,
-        "speed": 7500,
+        "speed": 75000,
         "type": "Hover",
         "weight": 0
     },
@@ -123,7 +123,7 @@
         "id": "tracked01",
         "model": "prltrk1.pie",
         "name": "tracked01",
-        "speed": 3125,
+        "speed": 31250,
         "spinAngle": 65,
         "type": "Tracked",
         "weight": 0
@@ -137,7 +137,7 @@
         "model": "prlwhl1.pie",
         "name": "wheeled01",
         "skidDeceleration": 350,
-        "speed": 4375,
+        "speed": 43750,
         "type": "Wheeled",
         "weight": 0
     },
@@ -149,8 +149,8 @@
         "id": "antiGravity",
         "name": "antiGravity",
         "skidDeceleration": 350,
-        "speed": 4375,
-        "type": "Wheeled",
+        "speed": 43750,
+        "type": "Half-Tracked",
         "weight": 0
     }
 }
