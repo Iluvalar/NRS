@@ -477,6 +477,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					if (in_array("weak", $val3['as'] )) {$resmult=0.7; }
 					$nrsp=0;
 					if (in_array("NRSp", $val3['as'] )) {$resstartfrac=0.25;$nrsp=1;}
+					$resstartfrac/=$sys['nrs']['scaleTime']; //time scale? To make sure the first research are decently timed.
 					
 					if (in_array("fake", $val3['as'] )) {$fake=1; }
 					if (in_array("eco", $val3['as'] )) {$eco=1; }
