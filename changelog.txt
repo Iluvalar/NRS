@@ -76,3 +76,9 @@ NRS+428
 **If you are a low oil player and don't like low oil atm, build residential and service buildings, focus on high price class units like mechs and build a x3 lab so you can make all your research in a single lab, invest in high tech units instead of power generation. 
 **Because all of these economical situations are possible from within the game, there is absolutely no reason to set the game in an highoil map.
 **I'm not banning anyone from trying and play with 500 units stuck in a choke point as you click on 15 research per minute. I'm just done pretending this is intended gameplay. XD
+
+NRS+429
+*Japonese and american cyborgs +20%
+*Heavy cyborgs +20%
+*Bonus CAN be multiplicative and is distributed evenly between hp and damage.
+*Explanation: Cyborgs do not have dedicated bodies.

@@ -10,7 +10,7 @@ $modder="ilu";
 
 //Mod modifiers
 $sys['nrs']['mod']['instadeath']=0;
-$sys['nrs']['mod']['4x']=1;
+$sys['nrs']['mod']['4x']=0;
 
 $sys['nrs']['oilpf']=7;
 $sys['nrs']['derrickprice']=400; //not actually just the derrick 2/5 goes in baseinterest and 1/5 to derricks and 2/5 to powergens

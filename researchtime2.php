@@ -2,6 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 
 $basedir = './mp46/';
+$basedir = './wz2100mp_LRF_Parity/';
 $str = file_get_contents($basedir . 'stats/research.json');
 $data['research'] = json_decode($str, TRUE);
 

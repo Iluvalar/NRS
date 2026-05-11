@@ -410,6 +410,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 					unset($priceclassR);
 					unset($hooman2);
 					unset($hooman3);
+					unset($base);
 					//print_r($val3);
 					if($no==0){
 						$linename=$val3['call'];
@@ -629,7 +630,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 						}
 						$weightfact*=$fig**$priceclass;
 						$pow*=$figbase/Fwz_fig($nbase  * $fig**-$priceclass);
-						$price=$sys['nrs']['unitprice']/2*2**($priceclass+1)*(1+$quality*.2+$engineClass*0.1);
+						$base['price']=$sys['nrs']['unitprice']/2*2**($priceclass+1);
+						$price=$base['price']*(1+$quality*.2+$engineClass*0.1);
 						#NEED A fix
 						//$nbweight='LIGHT';
 						//$nbweight2='LIGHT';
@@ -694,7 +696,8 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							$item['buildPower']=floor($price/2); //Propulsions double the price.
 							$item['buildPoints']=floor($price/2*$sys['nrs']['produnit']);
 							#$item['hitpoints']=50*$pow*$power*(1-$wephp)*$sys['nrs']['dmgunit'];
-							$item['hitpoints']=50*$pow*(1-$wephp)*$sys['nrs']['dmgunit'];
+							$base['hitpoints']=50*$pow*$sys['nrs']['dmgunit'];
+							$item['hitpoints']=$base['hitpoints']*(1-$wephp);
 							if($typeW=='A' or $typeW=='AE'){
 								$item['armourHeat']=10000*$bodheat;
 							}
@@ -987,6 +990,16 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 									unset($item2['designable']);
 									$item2['usageClass']="Cyborg";
 									$item2['id'].='-Cyb';
+									//regionnal balance...
+									$buffFactor=1;
+									if($priceclass<=-3){$buffFactor*=1.4; echo 'low price class scavenger'; }
+									if($quality!=0){$buffFactor*=1.2; echo 'regionnal borg'; }
+									if($engineClass==-1){$buffFactor*=1.2; echo 'heavy borg'; }
+									$buffFactor=$buffFactor**.5; //dmg and hp split.
+									$bonus=$buffFactor-1;
+									$item2['hitpoints']=50*$pow*($wephp+$bonus)*$sys['nrs']['dmgunit'];
+									$item2['damage']*=$buffFactor;
+									//$item2=$base+$item2;
 									if($priceclass<=-2){
 										unset($item2['mountModel']); 
 										unset($item2['model']);
