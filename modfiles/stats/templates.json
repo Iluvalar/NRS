@@ -2941,15 +2941,15 @@
         "body": "CyborgHeavyBody"
     },
     "Laser-TankDest2Lgt-contingency-Cyb": {
-        "type": "CYBORG_SUPER",
+        "type": "CYBORG",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "Tankbuster Laser [3\u00a5H-ATE] #2 Cyb-Mk1",
+        "name": "Tankbuster Laser [2\u00a5H-ATE] #2 Cyb-Mk1",
         "id": "Laser-TankDest2Lgt-contingency-Cyb",
         "weapons": [
             "Laser-TankDest2Lgt-contingency-Cyb"
         ],
-        "body": "CrawlerBody-reclamation"
+        "body": "CyborgLightBody"
     },
     "Laser-TankDestLgt-contingency-Cyb": {
         "type": "CYBORG",
@@ -3920,7 +3920,7 @@
         "body": "giant_CrawlerBody-reclamation"
     },
     "CyborgCannon-2120-Cyb": {
-        "type": "CYBORG",
+        "type": "CYBORG_SUPER",
         "propulsion": "CyborgLegs",
         "available": "true",
         "name": "Lgt Rail Gunner [6\u20bdH-AWA] #4 Cyb-Mk3",
@@ -3928,7 +3928,7 @@
         "weapons": [
             "CyborgCannon-2120"
         ],
-        "body": "CyborgHeavyBody"
+        "body": "CrawlerBody-reclamation"
     },
     "Mortar1Mk1-Cyb": {
         "type": "CYBORG",
@@ -4921,15 +4921,15 @@
         "body": "CyborgHeavyBody-2120"
     },
     "Rocket-BB-2120-Cyb": {
-        "type": "CYBORG",
+        "type": "CYBORG_SUPER",
         "propulsion": "CyborgLegs",
         "available": "true",
-        "name": "Devastator ASGM [7\u20bdN-ASO] #3 Cyb-Mk2",
+        "name": "Devastator ASGM [6\u20bdN-ASO] #3 Cyb-Mk2",
         "id": "Rocket-BB-2120-Cyb",
         "weapons": [
             "Rocket-BB-2120-Cyb"
         ],
-        "body": "CyborgLightBody-mech"
+        "body": "giant_CrawlerBody-reclamation"
     },
     "Missile-BB-2120-Cyb": {
         "type": "CYBORG",
