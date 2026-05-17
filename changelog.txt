@@ -82,3 +82,6 @@ NRS+429
 *Heavy cyborgs +20%
 *Bonus CAN be multiplicative and is distributed evenly between hp and damage.
 *Explanation: Cyborgs do not have dedicated bodies.
+
+NRS+431
+*There was a bug in the ROF calculation, which lead the script to underestimate the weapons with very low fire pause. It affect most the hyperion I believe, but I might have balanced a bunch of other things in the process.

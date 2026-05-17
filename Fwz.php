@@ -613,11 +613,11 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	elseif($obj['reloadTime']>0){
 		//$obj['rof']=60*($rounds)/($obj['reloadTime'])*pow(1.10,$rounds-1);
 		//$obj['rof']=60*($rounds)/($obj['reloadTime'])*pow(1.10,$rounds-1);
-		$obj['rof']=60*($rounds)/($rounds*($obj['firePause']+5)+$obj['reloadTime']);
+		$obj['rof']=60*($rounds)/($rounds*($obj['firePause']+.1)+$obj['reloadTime']);
 	}
 	elseif($obj['firePause']>0){
 		#$obj['rof']=10/(($obj['firePause']+5)*($rounds)+$obj['reloadTime']/$rounds);
-		$obj['rof']=60/($obj['firePause']+5);
+		$obj['rof']=60/($obj['firePause']+.1);
 	}
 	elseif($obj['time']>0){
 		$obj['rof']=60/$obj['time'];
