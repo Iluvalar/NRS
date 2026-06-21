@@ -99,26 +99,27 @@ const fundamentalResearch = [
 	//--eco1
 	//--eco2
 	//--eco3
+	//--eco4
 	"R--ResearchPoints--3",
 	"R--ProductionPoints--3",
-
+	//--eco5
+	//--eco6
 	//"R-NRS-LogCabin3-eco3",
 	"R--ResearchPoints--6",
 	"R--ProductionPoints--6",
 	"R-Sys--Autorepair-General",
-	//--eco4
-	//--eco5
-	//--eco6
+	//--eco7
+	//--eco8
 	//"R-NRS-Heavywepslab-eco3",
 	"R--ResearchPoints--9",
 	"R--ProductionPoints--9",	
 	//"R-hover01-HitpointPctOfBody-9",
 	//"R-wheeled01-HitpointPctOfBody-9",
 	//"R-NRS-Forest-eco3",
-	//--eco7
-	"R--Range--9",
-	//--eco8
 	//--eco9
+	"R--Range--9",
+	//--eco10
+
 	//"R-NRS-OilTower-eco3",
 	/*
 	"R-Struc-RprFac-Upgrade01",

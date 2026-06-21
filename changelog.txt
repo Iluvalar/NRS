@@ -85,3 +85,8 @@ NRS+429
 
 NRS+431
 *There was a bug in the ROF calculation, which lead the script to underestimate the weapons with very low fire pause. It affect most the hyperion I believe, but I might have balanced a bunch of other things in the process.
+
+NRS+432
+*10% more damage.
+*Changed the way range is estimated. Mortars, got a buff, flammers a nerf. Please send feedback!
+*Economics buildings are now in 5 thematic groups instead of 3 randomized one.

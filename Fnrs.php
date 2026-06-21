@@ -920,7 +920,7 @@ function Fnrs_generate(){ //interpret the Fnrs_add array, fetch the component in
 							//$scale=2.09*$pow*$power/$item2['Prevalue'];
 							//1.50 for a while. then structures were buffed What range mod ?
 							#$scale=1.5*$pow*$power/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
-							$scale=1.5*$pow/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
+							$scale=$pow/$item2['Prevalue']*$sys['nrs']['dmgunit']*$sys['nrs']['dmgscale']; //this affect the range mod !
 							if( $typeW==0){ $item['minimumDamage']=100;}
 							else{ $item['minimumDamage']=100/$sys['nrs']['wepmod']; $scale*=$sys['nrs']['wepmod']**0.5;}
 							echo 'scale:'. $scale;

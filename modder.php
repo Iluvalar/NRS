@@ -26,7 +26,9 @@ print_r($sys['wz']['data']['research']);
 $basedir='./base/';
 $savedir='./tinymods/mini/';
 $scale=array('x'=>.5,'y'=>.5,'z'=>.5);	
-$folders2=explode(',','./base/,./mp46/');
+
+
+$folders2=explode(',','./base/,./mp46/,./modfiles');
 //$folders=explode(',','components/prop,components/weapons,components/bodies,effects,structs,audio/sfx/weapons');
 $folders=explode(',','components/prop,components/weapons,components/bodies,effects,audio/sfx/weapons');
 foreach($folders2 as $no2 => $basedir){
@@ -52,6 +54,10 @@ foreach($folders2 as $no2 => $basedir){
 		
 	}
 }
+
+
+
+/*
 $str=file_get_contents($basedir .'stats/body.json');
 $sys['wz']['data']['body']= json_decode($str, TRUE);
 
@@ -67,7 +73,7 @@ $sys['wz']['data']['propulsiontype']= json_decode($str, TRUE);
 
 $str=file_get_contents($basedir .'stats/propulsion.json');
 $sys['wz']['data']['propulsion']= json_decode($str, TRUE);
-
+*/
 /*
 foreach($sys['wz']['data']['body'] as $nom=>$val){
 	echo '<br>'. $nom;
@@ -82,12 +88,14 @@ foreach($sys['wz']['data']['body'] as $nom=>$val){
 	}
 }
 */
+
+/*dist mod?
 Fwz_mod_distV2($sys['wz']['data'],[1,$scale['x'],1,1,1]);
 foreach($sys['wz']['data'] as $name => $val){
 	$dump=json_encode($sys['wz']['data'][$name],JSON_PRETTY_PRINT);
 	file_put_contents($savedir .'\\stats\\'. $name .'.json', $dump);
 }
-
+//*/
 //file_put_contents($savedir .'\\stats\\body.json', $dump);
 /*			
 $str=file_get_contents($basedir .'components/bodies/drlbod01.pie');

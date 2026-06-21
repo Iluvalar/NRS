@@ -11,6 +11,7 @@ $modder="ilu";
 //Mod modifiers
 $sys['nrs']['mod']['instadeath']=0;
 $sys['nrs']['mod']['4x']=0;
+$sys['nrs']['mod']['mini']=0; //journee map
 
 $sys['nrs']['oilpf']=7;
 $sys['nrs']['derrickprice']=400; //not actually just the derrick 2/5 goes in baseinterest and 1/5 to derricks and 2/5 to powergens
@@ -20,10 +21,10 @@ $sys['nrs']['wepmod']=1.30; //Approximation of the weap modifers bonus. (i still
 $sys['nrs']['scaleTime']=1*(1+2*$sys['nrs']['mod']['4x']); //?? //Fnrs line 91
 $sys['nrs']['scaleDist']=1.25/(1+1*$sys['nrs']['mod']['4x']); //Scale all distance in the mod.
 $sys['nrs']['time']=30*60*($sys['nrs']['scaleTime']); //time to research the last component.
-$sys['nrs']['trtime']=100/$sys['nrs']['scaleDist']; //Truck time between bases
+$sys['nrs']['trtime']=100/($sys['nrs']['scaleDist']*(2**$sys['nrs']['mod']['mini'])); //Truck time between bases
 $sys['nrs']['powerpersec']=300/100; //mean power per second
 $sys['nrs']['armysize']=30/(1+1*$sys['nrs']['mod']['4x']); //medium units;
-$sys['nrs']['dmgscale']=2*(1+2*$sys['nrs']['mod']['instadeath']);
+$sys['nrs']['dmgscale']=3.3*(1+2*$sys['nrs']['mod']['instadeath']);
 
 /*# Era mode. 
 $sys['nrs']['scaleDist']=.4;
@@ -1394,7 +1395,7 @@ $sys['nrs']['base']['structure']['A0ComDroidControl']['buildPower']=50;
 $sys['nrs']['base']['structure']['A0ComDroidControl']["hitpoints"]=(50)*3*20*$sys['nrs']['structureHPScale'];
 Fnrs_add([ 'faction'=> $fac, 'use'=> "A0ComDroidControl", 'in'=>'base', 'type'=> 'structure', 'as' => ['hvy','AT','insta','exshort','',''] ]);
 
-
+/*
 //This part set the economic buildings into 3 randomized lines
 foreach($structureData as $id=>$values){
 	//$aibuild=['BarbHUT','building10','building3','Park','AirTrafficControl'];
@@ -1430,13 +1431,80 @@ while($x++<18){
 				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>$source, 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
 				$ecofac[$facs[$x%3]][]=$id;
 		}
-		/*
-		else if($structureData2[$id]['fac3']==$x){
-				Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>'nrs', 'type'=> 'structure', 'as' => ['short','','',''] ]);
-		}
-		*/
+		
+		//else if($structureData2[$id]['fac3']==$x){
+		//		Fnrs_add([ 'faction'=> $facs[$x%3], 'use'=> $id, 'in'=>'nrs', 'type'=> 'structure', 'as' => ['short','','',''] ]);
+		//}
+	
 	}
 }
+*/
+
+function Fnrs_addeco($faction,$id){
+	$source='nrs';
+	if($sys['nrs']['structsource'][$id]!=''){
+		$source=$sys['nrs']['structsource'][$id];
+		echo 'found source:'. $source;
+	}
+	Fnrs_add([ 'faction'=> $faction, 'use'=> $id, 'in'=>$source, 'type'=> 'structure', 'as' => ['exshort','eco','',''] ]);
+}
+Fnrs_addeco('eco1','BarbHUT');
+Fnrs_addeco('eco1','Pickup');
+$aieco[1]='Pickup';
+$aiecofact[1]='1'; //this feels so stupid. Oh well...
+Fnrs_addeco('eco1','BarbWarehouse2');
+Fnrs_addeco('eco1','Boulder1');
+Fnrs_addeco('eco1','Ruin1');
+Fnrs_addeco('eco1','OilTower');
+Fnrs_addeco('eco1','Propaganda');
+Fnrs_addeco('eco1','LogCabin3');
+$aieco[7]='LogCabin3';
+$aiecofact[7]='1';
+Fnrs_addeco('eco1','A0ResourceExtractor');
+Fnrs_addeco('eco2','building3');
+Fnrs_addeco('eco2','building2');
+$aieco[5]='BarbWarehouse1';
+$aiecofact[5]='2';
+Fnrs_addeco('eco2','building11');
+Fnrs_addeco('eco2','Park');
+Fnrs_addeco('eco2','BarbWarehouse1');
+$aieco[6]='BarbWarehouse1';
+$aiecofact[6]='2';
+Fnrs_addeco('eco2','road');
+Fnrs_addeco('eco2','AirTrafficControl');
+Fnrs_addeco('eco3','NuclearReactor');
+Fnrs_addeco('eco3','CoolingTower');
+$aieco[2]='CoolingTower';
+$aiecofact[2]='3';
+Fnrs_addeco('eco3','Heavywepslab');
+Fnrs_addeco('eco3','SolarPower');
+Fnrs_addeco('eco3','Powlab');
+Fnrs_addeco('eco3','BarbWarehouse3');
+$aieco[10]='BarbWarehouse3';
+$aiecofact[10]='3';
+Fnrs_addeco('eco4','Rotarywepslab');
+Fnrs_addeco('eco4','Aerodynamicslab');
+$aieco[3]='Aerodynamicslab';
+$aiecofact[3]='4';
+Fnrs_addeco('eco4','building12');
+Fnrs_addeco('eco4','Advmaterialslab');
+Fnrs_addeco('eco4','Boulder2');
+Fnrs_addeco('eco4','building10');
+$aieco[9]='Aerodynamicslab';
+$aiecofact[9]='4';
+Fnrs_addeco('eco5','Forest');
+Fnrs_addeco('eco5','BigForest');
+Fnrs_addeco('eco5','Boulder3');
+$aieco[4]='Boulder3';
+$aiecofact[4]='5';
+Fnrs_addeco('eco5','Tree');
+Fnrs_addeco('eco5','cabin');
+Fnrs_addeco('eco5','arizonabush3');
+Fnrs_addeco('eco5','WaterTower');
+$aieco[8]='WaterTower';
+$aiecofact[8]='5';
+
+
 echo 'generate...';
 Fnrs_generate();
 Fwz_NRS_dist($sys['nrs']['file']['stat'], [0,$sys['nrs']['scaleDist'],2,1,1]);
@@ -1676,7 +1744,17 @@ echo $persos;
 	//R-NRS-Heavywepslab-eco3
 	echo '<br>ecofac';
 	print_r($ecofac);
-	$str  = str_replace("//--eco1", '"R-NRS-'. $ecofac['eco1'][2] .'-eco1",',$str);
+	$str  = str_replace("//--eco1", '"R-NRS-'. $aieco[1] .'-eco'. $aiecofact[1] .'",',$str);
+	$str  = str_replace("//--eco2", '"R-NRS-'. $aieco[2] .'-eco'. $aiecofact[2] .'",',$str);
+	$str  = str_replace("//--eco3", '"R-NRS-'. $aieco[3] .'-eco'. $aiecofact[3] .'",',$str);
+	$str  = str_replace("//--eco4", '"R-NRS-'. $aieco[4] .'-eco'. $aiecofact[4] .'",',$str);
+	$str  = str_replace("//--eco5", '"R-NRS-'. $aieco[5] .'-eco'. $aiecofact[5] .'",',$str);
+	$str  = str_replace("//--eco6", '"R-NRS-'. $aieco[6] .'-eco'. $aiecofact[6] .'",',$str);
+	$str  = str_replace("//--eco7", '"R-NRS-'. $aieco[7] .'-eco'. $aiecofact[7] .'",',$str);
+	$str  = str_replace("//--eco8", '"R-NRS-'. $aieco[8] .'-eco'. $aiecofact[8] .'",',$str);
+	$str  = str_replace("//--eco9", '"R-NRS-'. $aieco[9] .'-eco'. $aiecofact[9] .'",',$str); 
+	$str  = str_replace("//--eco10", '"R-NRS-'. $aieco[10] .'-eco'. $aiecofact[10] .'",',$str); //It is what it is...
+	/*
 	$str  = str_replace("//--eco2", '"R-NRS-'. $ecofac['eco2'][2] .'-eco2",',$str);
 	$str  = str_replace("//--eco3", '"R-NRS-'. $ecofac['eco3'][2] .'-eco3",',$str);
 	$str  = str_replace("//--eco4", '"R-NRS-'. $ecofac['eco1'][6] .'-eco1",',$str);
@@ -1685,7 +1763,7 @@ echo $persos;
 	$str  = str_replace("//--eco7", '"R-NRS-'. $ecofac['eco1'][count($ecofac['eco1'])-1] .'-eco1",',$str);
 	$str  = str_replace("//--eco8", '"R-NRS-'. $ecofac['eco2'][count($ecofac['eco2'])-1]  .'-eco2",',$str);
 	$str  = str_replace("//--eco9", '"R-NRS-'. $ecofac['eco3'][count($ecofac['eco3'])-1]  .'-eco3",',$str);
-	
+	*/
 	file_put_contents($savedir .'\\multiplay\\skirmish\\nb_rulesets\\standard.js',$str);
 	
 	$str=file_get_contents('./modelNRS/nb_generic.js');

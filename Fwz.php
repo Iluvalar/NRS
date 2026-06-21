@@ -646,11 +646,24 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 		}
 		
 		if($range>$sensorrange){
-			$range=($range-$sensorrange)*.666+$sensorrange; //sensor range wall...
+			$range=($range-$sensorrange)*.333+$sensorrange; //sensor range wall...
 			//echo 'sensorrange:'. $sensorrange;
 		}
+		$speed=6;
+		if($obj['fireOnMove']===0){
+			$speed=1;
+		}
+		$movesec=6-$range; //time it take to close the gap
+		$movesec2=(6-$range)*$speed; //time it take to close the gap if the enemy keep his distance (estimate)
+		$ttk=165/$sys['nrs']['dmgscale'];
+		$rangeFract=($ttk-$movesec2)/$ttk; //Fraction of units left alive once you get there
+		$rangeFig=Fwz_fig($sys['nrs']['armysize']*$rangeFract)/Fwz_fig($sys['nrs']['armysize']); //Proportion of power left after closing the gap
+		echo '<br>'. $obj['id'] .' rangeFig:'. $rangeFig .'F:'. $rangeFract .' s:'. $speed .' m2'. $movesec2;
 		//$obj['rangeMod']=(1-pow(.996,pow($range+3/$sys['nrs']['dmgscale'],2)))/(1-pow(.996,pow(6+3/$sys['nrs']['dmgscale'],2)));
-		$obj['rangeMod']=(1-pow(.997,pow($range+6/$sys['nrs']['dmgscale'],2)))/(1-pow(.997,pow(6+6/$sys['nrs']['dmgscale'],2)));
+		
+		//$obj['rangeMod']=(1-pow(.997,(8**2)/$sys['nrs']['dmgscale']+pow($range,1.5)))/(1-pow(.997,(8**2)/$sys['nrs']['dmgscale']+pow(6,1.5)));
+		//$obj['rangeMod']=(1-pow(.997,pow($range+6/$sys['nrs']['dmgscale'],2)))/(1-pow(.996,pow(6+6/$sys['nrs']['dmgscale'],2)));
+		$obj['rangeMod']=$rangeFig;
 	}
 	else{
 		$obj['rangeMod']=1;
@@ -659,7 +672,9 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	elseif($obj['surfaceToAir']<50){ $obj['miscMod']*=pow(1/6*3/4,.5); }
 	else{ $obj['miscMod']*=pow((1+1/6)*3/4,.5); }
 	$obj['miscMod']*=$obj['penetrate']*0.5+1;
-	$obj['miscMod2']=-($obj['fireOnMove']=="NO")*.4+1;
+	$obj['miscMod2']=1;
+	//$obj['miscMod2']=-($obj['fireOnMove']=="NO")*.4+1;
+	//$obj['miscMod2']=-($obj['fireOnMove']===0)*.4+1; //<- newest version.
 	#$obj['HPmod']=($obj['hitpoints']*$bodyval+$boost['hitpoints'])/($basehp=250)*4;
 	$hp2=$obj['hitpoints'];
 	if($type=='body'){
@@ -2438,3 +2453,4 @@ $sys['wz']['file'][$nom]['pos']='/multiplay/skirmish/player7.vlo';
 $sys['wz']['file'][$nom]['type']='sfile';
 
 $sys['nrs']['dmgscale']=1; //should be wz but compatibility... this is used in NRS
+$sys['nrs']['armysize']=30;
