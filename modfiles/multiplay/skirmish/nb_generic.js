@@ -2808,7 +2808,7 @@ function buildOrder() {
 				deltaBasePow += add_unadjusted / Math.pow(1.1, demand);
 			}
 		}
-		deltaBasePow*=Math.Floor(80+ Math.random() * 40)/100;
+		deltaBasePow*=Math.floor(80+ Math.random() * 40)/100;
 		return deltaBasePow;
 	}
 	

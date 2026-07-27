@@ -1,10 +1,6 @@
+
 /*
  * This file is responsible for moving combat unit around.
- *
- * Modified version with:
- *  - Weighted target selection (cost + distance)
- *  - Player strength estimation (battlefield value + research spent + bank power)
- *  - Preference weighting: prefer weak players and the current leader, avoid peers
  *
  */
 
@@ -110,181 +106,6 @@ function vtolTargetLabel() {
 	return "NullBot_" + me + "_VtolTarget";
 }
 
-// ---------------------------------------------------------------------------
-// Weighted target selection (cost + distance) + player strength preference
-// ---------------------------------------------------------------------------
-
-/**
- * Approximate economic / military value of a target.
- * Structures & Droids use the real .cost property.
- * Features get hand-tuned values because they have no .cost.
- */
-function getTargetValue(obj) {
-	if (defined(obj.cost) && obj.cost > 0)
-		return obj.cost;
-
-	if (obj.type === FEATURE) {
-		// OIL_DRUM and ARTIFACT are the usual power-ups
-		if (obj.stattype === OIL_DRUM)
-			return 600;
-		if (obj.stattype === ARTIFACT)
-			return 400;
-		return 50;
-	}
-	return 100; // safe fallback
-}
-
-/**
- * Combined score: high value + low distance preferred, then multiplied
- * by playerAttackPreference so we favour weak players and the current leader.
- */
-function scoreTarget(obj) {
-	var dist = distanceToBase(obj);
-	var value = getTargetValue(obj);
-	// baseScale/4 dampens the distance term
-	var distPenalty = dist + (baseScale / 4);
-	var baseScore = value / distPenalty;
-
-	var pref = 1.0;
-	if (defined(obj.player) && isEnemy(obj.player))
-		pref = playerAttackPreference(obj.player);
-
-	return baseScore * pref;
-}
-
-/**
- * Pick from a list using the score. Still keeps a little randomness
- * among the top candidates (same spirit as the original top-3 random).
- */
-function pickWeightedTarget(list) {
-	if (!list || list.length === 0)
-		return undefined;
-
-	// Sort descending by score (copy so we don't mutate the caller's array)
-	var ranked = list.slice().sort(function(a, b) {
-		return scoreTarget(b) - scoreTarget(a);
-	});
-
-	// Strong bias toward the best, but allow variation among the top few
-	var topN = Math.min(3, ranked.length);
-	return ranked[random(topN)];
-}
-
-// ---------------------------------------------------------------------------
-// Player strength estimation
-// Battlefield value + research power spent + current bank power
-// ---------------------------------------------------------------------------
-
-var playerStrength = [];
-var playerResearchSpent = [];		// cached research component
-var lastBattlefieldUpdate = 0;
-var lastResearchUpdate = 0;
-
-function isPlayerAlive(p) {
-	return enumLivingPlayers().indexOf(p) !== -1;
-}
-
-/**
- * Sum of all structure + droid costs currently alive.
- */
-function computeBattlefieldValue(player) {
-	var total = 0;
-	enumStruct(player).forEach(function(s) {
-		if (defined(s.cost)) total += s.cost;
-	});
-	enumDroid(player).forEach(function(d) {
-		if (defined(d.cost)) total += d.cost;
-	});
-	return total;
-}
-
-/**
- * Total power spent on research by this player.
- * NRS makes researches roughly equal in value, so we simply
- * sum .power of every completed research.
- * Throttled heavily because iterating Stats.Research is not free.
- */
-function estimateResearchSpent(player) {
-	var total = 0;
-	if (!defined(Stats) || !defined(Stats.Research))
-		return 0;
-
-	for (var resId in Stats.Research) {
-		if (!Stats.Research.hasOwnProperty(resId))
-			continue;
-		var res = getResearch(resId, player);
-		if (res && res.done && defined(res.power))
-			total += res.power;
-	}
-	return total;
-}
-
-function updatePlayerStrengths() {
-	var now = gameTime;
-
-	// Battlefield value + bank power – update fairly often
-	if (now - lastBattlefieldUpdate > 8000) {
-		for (var p = 0; p < maxPlayers; ++p) {
-			if (!isPlayerAlive(p)) {
-				playerStrength[p] = 0;
-				continue;
-			}
-			var battle = computeBattlefieldValue(p);
-			var research = playerResearchSpent[p] || 0;
-			var bank = playerPower(p) || 0;
-			playerStrength[p] = battle + research + bank;
-		}
-		lastBattlefieldUpdate = now;
-	}
-
-	// Full research scan – more expensive, do it less often
-	if (now - lastResearchUpdate > 30000) {
-		for (var p = 0; p < maxPlayers; ++p) {
-			if (isPlayerAlive(p))
-				playerResearchSpent[p] = estimateResearchSpent(p);
-			else
-				playerResearchSpent[p] = 0;
-		}
-		lastResearchUpdate = now;
-		// Force a battlefield refresh on the next call so totals stay consistent
-		lastBattlefieldUpdate = 0;
-	}
-}
-
-/**
- * How much we *want* to attack this player right now.
- * Returns a multiplier for the target score.
- *
- * Prefer very weak players and the current strongest enemy;
- * strongly avoid peers of similar strength.
- */
-function playerAttackPreference(enemy) {
-	if (!defined(playerStrength[me]) || playerStrength[me] < 1)
-		return 1.0;
-
-	var myStr = playerStrength[me];
-	var theirStr = playerStrength[enemy] || 1;
-	var ratio = theirStr / myStr;
-
-	// Is this the strongest living enemy right now?
-	var isLeader = true;
-	var livingEnemies = enumLivingPlayers().filter(isEnemy);
-	for (var i = 0; i < livingEnemies.length; ++i) {
-		var e = livingEnemies[i];
-		if (e !== enemy && (playerStrength[e] || 0) > theirStr) {
-			isLeader = false;
-			break;
-		}
-	}
-
-	if (ratio < 0.55)               return 2.6;   // very weak → farm
-	if (isLeader)                   return 2.1;   // current leader → pile on
-	if (ratio > 0.80 && ratio < 1.30) return 0.35; // peer → avoid
-	return 1.0;
-}
-
-// ---------------------------------------------------------------------------
-
 function findTarget(gr) {
 	if (enumLivingPlayers().filter(isEnemy).length === 0)
 		return undefined;
@@ -319,9 +140,10 @@ function findTarget(gr) {
 				if (canReachFromBase(getPropulsionStatsComponents(PROPULSIONUSAGE.HOVER)[0], feature))
 					return true;
 			return canReachFromBase(getPropulsionStatsComponents(PROPULSIONUSAGE.GROUND)[0], feature);
+		}).sort(function(one, two) {
+			return distanceToBase(one) - distanceToBase(two);
 		});
-		// Weighted selection instead of pure distance sort + random top-3
-		obj = pickWeightedTarget(list);
+		obj = list[random(Math.min(3, list.length))];
 		if (obj) {
 			addLabel(obj, groupTargetLabel(gr));
 			return obj;
@@ -335,12 +157,12 @@ function findTarget(gr) {
 	//}
 	//list = list.concat(enumStructList(targets, gr));
 	if (list.length > 0)
-		obj = pickWeightedTarget(list);
+		obj = list.random();
 	else {
 		// find remaining droids
 		list = enumDroid(gr);
 		if (list.length > 0)
-			obj = pickWeightedTarget(list);
+			obj = list.random();
 	}
 	if (defined(obj)) {
 		addLabel(obj, groupTargetLabel(gr));
@@ -610,8 +432,6 @@ _global.dangerLevel = function(loc) {
 }
 
 _global.checkAttack = function() {
-	updatePlayerStrengths();		// keep strength estimates fresh
-
 	if (enumLivingPlayers().filter(isEnemy).length === 0)
 		return;
 	for (var i = 0; i < MAX_GROUPS; ++i)

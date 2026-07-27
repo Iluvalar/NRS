@@ -90,3 +90,7 @@ NRS+432
 *10% more damage.
 *Changed the way range is estimated. Mortars, got a buff, flammers a nerf. Please send feedback!
 *Economics buildings are now in 5 thematic groups instead of 3 randomized one.
+
+NRS+433
+*Bug fix: Ai were not building economics.
+*Major AI tactics improvement: Will consider distance, power value value of the target (they used to randomly cross the entire map just to take down a 10$ thingy) and comparative strenght with the enemy player when deciding what to attack. They will both eleminate weak players and resist the leading players while avoiding unneccessary feud with players of same strenght.

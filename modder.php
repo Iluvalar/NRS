@@ -28,7 +28,7 @@ $savedir='./tinymods/mini/';
 $scale=array('x'=>.5,'y'=>.5,'z'=>.5);	
 
 
-$folders2=explode(',','./base/,./mp46/,./modfiles');
+$folders2=explode(',','./base,./mp46,./modfiles');
 //$folders=explode(',','components/prop,components/weapons,components/bodies,effects,structs,audio/sfx/weapons');
 $folders=explode(',','components/prop,components/weapons,components/bodies,effects,audio/sfx/weapons');
 foreach($folders2 as $no2 => $basedir){
