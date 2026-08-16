@@ -94,3 +94,6 @@ NRS+432
 NRS+433
 *Bug fix: Ai were not building economics.
 *Major AI tactics improvement: Will consider distance, power value value of the target (they used to randomly cross the entire map just to take down a 10$ thingy) and comparative strenght with the enemy player when deciding what to attack. They will both eleminate weak players and resist the leading players while avoiding unneccessary feud with players of same strenght.
+
+NRS+434
+*small update. AI 5% stronger. Medium AI should be a challenge to new players to NRS and hard for veteran. Insane AI is still insane.
