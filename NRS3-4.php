@@ -129,7 +129,7 @@ $dir2120='./2120/';
 $savedir='./modfiles/';
 $sys['nrs']['dir']['base']='./mp454/';
 $sys['nrs']['dir']['2120']='./2120/';
-$sys['nrs']['dir']['ntw']='./ntw/';
+$sys['nrs']['dir']['ntw']='./NTW4/';
 $sys['nrs']['dir']['mech']='./mech/';
 $sys['nrs']['dir']['cr2']='./cr2/'; //To be continued...
 $sys['nrs']['dir']['contingency']='./contingency/';
@@ -190,48 +190,21 @@ $sys['nrs']['base'][$nextfile]= json_decode(file_get_contents($realbasedir .'sta
 $sys['nrs']['file']['stat'][$nextfile]= $sys['nrs']['base'][$nextfile];
 
 
-/*	"Body1REC": {
-		"armourHeat": 4,
-		"armourKinetic": 10,
-		"buildPoints": 150,
-		"buildPower": 30,
-		"class": "Droids",
-		"designable": 1,
-		"hitpoints": 65,
-		"id": "Body1REC",
-		"model": "drlbod01.pie",
-		"name": "Viper",
-		"powerOutput": 5000,
-		"propulsionExtraModels": {
-		},
-		"size": "LIGHT",
-		"weaponSlots": 1,
-		"weight": 600
-	},
-	*/
-$bodycvsorder=explode(',','id,Unused,size,buildPower,buildPoints,weight,hitpoints,model,Unused,weaponSlots,powerOutput,armourKinetic,armourHeat,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,Unused,designable');
-$row = 1;
-if (($handle = fopen("./NTW/stats/body.txt", "r")) !== FALSE) {
-    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        $num = count($data);
-       //echo "<p> $num fields in line $row: <br /></p>\n";
-        $row++;
-        for ($c=0; $c < $num; $c++) {
-			$temp[$bodycvsorder[$c]]=$data[$c];
-            //echo $data[$c] . "<br />\n";
-        }
-		$temp['name']=$temp['id'];
-		$temp['class']='Droids';
-		unset($temp['Unused']);
-		$temp['propulsionExtraModels']=$sys['nrs']['base']['body']['viper']['propulsionExtraModels'];
-		$sys['nrs']['ntw']['body'][$temp['id']]=$temp;
-		
-    }
-    fclose($handle);
+$sys['nrs']['ntw']['body']= json_decode(file_get_contents($sys['nrs']['dir']['ntw'] .'stats/body.json'), TRUE);
+$sys['nrs']['ntw']['weapons']= json_decode(file_get_contents($sys['nrs']['dir']['ntw'] .'stats/weapons.json'), TRUE);
+foreach(['propulsion','structure','sensor','construction','repair'] as $empty){
+	$sys['nrs']['ntw'][$empty]=[];
 }
-
 unset($sys['nrs']['ntw']['body']['TruckBody']);
 unset($sys['nrs']['ntw']['body']['Body0REC']); //seems to have an error in the pie files.
+unset($sys['nrs']['ntw']['body']['Superbody']);
+foreach(['Body1REC','Body5REC','Body11ABT','Body2SUP','Body6SUPP','Body9REC'] as $id){
+	$b=$sys['nrs']['ntw']['body'][$id];
+	$new=$id .'_NTW';
+	$b['id']=$new;
+	$b['name']=$b['name'] .'_NTW';
+	$sys['nrs']['ntw']['body'][$new]=$b;
+}
 
 
 $id='Chaingun';
@@ -300,7 +273,7 @@ $sys['nrs']['basic']['body']['FireBody']=$sys['nrs']['base']['body']['FireBody']
 //print_r($sys['nrs']['ntw']);
 //Setting default values for the mods.
 $mods=['basic','base','ntw','2120','contingency','reclamation'];
-$bannedbodies=['SuperTransportBody','GunshipBody','TransporterBody','HeavyChopper','ScavengerChopper','ZNULLBODY','ChinookBody','Body18REC','Body13ABT','B4body-sml-trike01'];
+$bannedbodies=['SuperTransportBody','GunshipBody','TransporterBody','HeavyChopper','ScavengerChopper','ZNULLBODY','ChinookBody','Body18REC','Body13ABT','B4body-sml-trike01','Superbody','TruckBody','Body0REC'];
 $basebodies=['BusBody','FireBody'];
 foreach($mods as $no => $modname){
 	$listtype='body';
@@ -414,6 +387,20 @@ foreach($mods as $no => $modname){
 	//foreach($sys['nrs'][$modname][$listtype] as $nom=>$val){
 	//}
 }
+function nrs_find_body_pie($model, $basedir=''){
+	$names=array_unique([strtolower($model), $model]);
+	$dirs=[];
+	if($basedir!==''){ $dirs[]=rtrim($basedir,'/'); }
+	foreach(['./mp46','./base','./2120','./NTW4','./modfiles'] as $d){ $dirs[]=$d; }
+	$dirs=array_unique($dirs);
+	foreach($dirs as $d){
+		foreach($names as $n){
+			$f=$d.'/components/bodies/'.$n;
+			if(is_file($f) && filesize($f)>20){ return $f; }
+		}
+	}
+	return '';
+}
 $mods=['basic','base','ntw','2120','contingency'];
 while($xbod++<2){
 	unset($bodyDone2);
@@ -421,6 +408,9 @@ while($xbod++<2){
 		$listtype='body';
 		if($modname=='basic'){
 			$basedir='./base/';
+		}
+		elseif($modname=='ntw'){
+			$basedir=$sys['nrs']['dir']['ntw'];
 		}
 		else{
 			$basedir='./'. $modname .'/';
@@ -506,23 +496,20 @@ while($xbod++<2){
 						unset($done);
 					}
 					if($done){
-						$file=$basedir .'components/bodies/'.$val['model'];
-						if(!file_exists($file)){
-							echo '<br>'. $file .' doesnt exist';
-							//$basedir='./mp454/';
-							$file='./mp454/' .'components/bodies/'.$val['model'];
-							if(!file_exists($file)){
-								echo '<br>'. $file .' still doesnt exist';
-								$file='./modfiles/' .'components/bodies/'.$val['model'];
-								if(!file_exists($file)){
-									echo '<br>'. $file .' still yet doesnt exist';
-								}
-							}
+						$file=nrs_find_body_pie($val['model'], $basedir);
+						if($file===''){
+							echo '<br>no source pie for '. $nom .' '. $val['model'];
+							continue;
 						}
 						$str=file_get_contents($file);
+						if(stripos(ltrim($str),'PIE')!==0){
+							echo '<br>bad pie '. $file;
+							continue;
+						}
 						$str=scale_pie_model($str, $scale);
 						if( $modname!="basic" and  $modname!="base" and !in_array($nom, $basebodies)){
-							$str=updatePieTexture($str,'-'. $modname,'./'. $modname .'/texpages/' );
+							$texdir=$basedir .'texpages/';
+							$str=updatePieTexture($str,'-'. $modname,$texdir );
 						}
 						echo '<br>piefile:'. $file .':'. $str;
 						$newbod['id']=$newid;
@@ -869,8 +856,6 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Flame1Hvy", 'in'=>'contingency', 'type'=> 
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Flame1Med", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['med','AT','typeE','NRSp','heavy'], 'call'=>'machinegunInc']);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Flame2Hvy", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['med','AT','typeE','NRSp','heavy'], 'call'=>'machinegunInc']);
 Fnrs_add([ 'faction'=> $fac, 'use'=> "Flame2Med", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['med','AT','typeE','NRSp','heavy'], 'call'=>'machinegunInc']);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Flamer-PlasCan-TankDest", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['med','AT','typeE','NRSp','heavy'], 'call'=>'machinegunInc']);
-Fnrs_add([ 'faction'=> $fac, 'use'=> "Flamer-PlasmaCannon", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['med','AT','typeE','NRSp','heavy'], 'call'=>'machinegunInc']);
 
 Fnrs_add([ 'faction'=> $fac, 'use'=>'Howitzer150Mk1', 'in'=>'contingency','type'=> 'weapons', 'as' => ['hvy','AS','longrange','weapon','NRSp','$','heavy'], 'call'=>'conthowi' ]);
 Fnrs_add([ 'faction'=> $fac, 'use'=>'HowitzerGattling', 'in'=>'contingency','type'=> 'weapons', 'as' => ['hvy','AS','longrange','weapon','NRSp','$','heavy'], 'call'=>'conthowi' ]);
@@ -1356,6 +1341,49 @@ Fnrs_add([ 'faction'=> $fac, 'use'=> "Body27SUP", 'in'=>'2120', 'type'=> 'body',
 //$sys['nrs']['base']['structure']['A0ResearchFacility']['buildPoints']=0;
 
 
+$fac='ntw';
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Cannon1Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['lgt','AW','typeO','¥','NRSp'], 'call'=>'ntwcannonO' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Cannon5VulcanMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['lgt','AW','typeO','¥','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Cannon6TwinAslt", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['lgt','AW','typeO','¥','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Cannon2A-TMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['LM','AW','typeA','$','NRSp'], 'call'=>'ntwcannonA' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Cannon375mmMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['LM','AW','typeA','$','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Cannon4AUTOMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['LM','AW','typeA','$','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar-Incenediary", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['LM','AW','typeA','$','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "RailGun1Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AW','typeA','¥','NRSp'], 'call'=>'ntwgauss' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "RailGun2Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AW','typeA','¥','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "RailGun3Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AW','typeA','¥','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "RailGun4Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AW','typeA','¥','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-Pod", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AT','typeA','NRSp'], 'call'=>'ntwrocketAT' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-LtA-T", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AT','typeA','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-HvyA-T", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AT','typeA','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar1Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AS','typeA','NRSp'], 'call'=>'ntwmortar' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar2Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AS','typeA','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Mortar3ROTARYMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AS','typeA','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Laser3BEAMMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AP','typeE','$','NRSp'], 'call'=>'ntwlaser' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Laser2PULSEMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AP','typeE','$','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "HeavyLaser", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AP','typeE','$','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Laser4-PlasmaCannon", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AP','typeE','$','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "AAGunLaser", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['med','AP','typeE','$','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "MG4ROTARYMk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['lgt','AP','NRSp'], 'call'=>'ntwmg' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "MG3HERO", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['lgt','AP','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "AAGun2Mk1", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['lgt','AP','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-MRL", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AP','NRSp'], 'call'=>'ntwrack' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-MRL-Hvy", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AP','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Missile-MdArt", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AP','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Rocket-IDF", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AP','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "PlasmaHeavy", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['hvy','AP','typeE','NRSp'] ]);
+
+Fnrs_add([ 'faction'=> $fac, 'use'=> "PlasmiteFlamer", 'in'=>'ntw', 'type'=> 'weapons', 'as' => ['lgt','AT','typeE','$','NRSp'], 'call'=>'ntwmelt' ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Flamer-PlasmaCannon", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['lgt','AT','typeE','$','NRSp'] ]);
+Fnrs_add([ 'faction'=> $fac, 'use'=> "Flamer-PlasCan-TankDest", 'in'=>'contingency', 'type'=> 'weapons', 'as' => ['lgt','AT','typeE','$','NRSp'] ]);
+
 $fac='stingers';
 //Fnrs_add([ 'faction'=> $fac, 'use'=> 'QuadMg1AAGun', 'in'=>'base', 'type'=> 'weapons', 'as' => ['med','AW','',''] ]);
 
@@ -1596,7 +1624,7 @@ foreach($sys['nrs']['file']['stat'] as $nom => $val){
 		unset($val['']); //propulsion bug ?
 		$dump=json_encode($val,JSON_PRETTY_PRINT);
 		echo 'saving: '. $nom  .' ';
-		file_put_contents($savedir .'\\stats\\'. $nom .'.json', $dump);
+		file_put_contents($savedir .'stats/'. $nom .'.json', $dump);
 }
 
 //Generating scripts bits
@@ -1606,7 +1634,7 @@ $str  = str_replace("//--NRSInterest", 'var interest='. floor( ($sys['nrs']['int
 $str  = str_replace("//--NRSbasepower", 'var basepower='. floor($sys['nrs']['basepower']) .';
 var powerMod='. floor($sys['nrs']['mod']['4x']*3) .';',$str); 
 $str  = str_replace("//--NRSstructureData", $sys['nrs']['structureData'],$str);
-file_put_contents($savedir .'\\multiplay\\script\\mods\\NRS.js',$str);
+file_put_contents($savedir .'multiplay/script/mods/NRS.js',$str);
 
 echo print_r($sys['nrs']['nrs']['structure']);
 //--NRSInterest
@@ -1764,11 +1792,11 @@ echo $persos;
 	$str  = str_replace("//--eco8", '"R-NRS-'. $ecofac['eco2'][count($ecofac['eco2'])-1]  .'-eco2",',$str);
 	$str  = str_replace("//--eco9", '"R-NRS-'. $ecofac['eco3'][count($ecofac['eco3'])-1]  .'-eco3",',$str);
 	*/
-	file_put_contents($savedir .'\\multiplay\\skirmish\\nb_rulesets\\standard.js',$str);
+	file_put_contents($savedir .'multiplay/skirmish/nb_rulesets/standard.js',$str);
 	
 	$str=file_get_contents('./modelNRS/nb_generic.js');
 	$str  = str_replace("//--persos", $persos,$str);
-	file_put_contents($savedir .'\\multiplay\\skirmish\\nb_generic.js',$str);
+	file_put_contents($savedir .'multiplay/skirmish/nb_generic.js',$str);
 
 //Just for debug purpose
 foreach($sys['nrs']['file']['stat']['weapons'] as $nom=>$item){
@@ -1826,37 +1854,32 @@ while($x1++<count($l1)){
 	echo '<hr>';
 }
 
-//Attempts to zip automatically failed so far...
-/*
-///zip code
-// Get real path for our folder
 $rootPath = realpath($savedir);
-
-// Initialize archive object
-$zip = new ZipArchive();
-$zip->open('C:\Users\patag\AppData\Local\Packages\48148WZ2100Project.Warzone2100forWindows_qsk72963svc8a\LocalState\Warzone 2100 Project\Warzone 2100\mods\4.2.4\autoload\NRS.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
-
-// Create recursive directory iterator
-$files = new RecursiveIteratorIterator(
-    new RecursiveDirectoryIterator($rootPath),
-    RecursiveIteratorIterator::LEAVES_ONLY
-);
-
-foreach ($files as $name => $file)
-{
-    // Skip directories (they would be added automatically)
-    if (!$file->isDir())
-    {
-        // Get real and relative path for current file
-        $filePath = $file->getRealPath();
-        $relativePath = substr($filePath, strlen($rootPath) + 1);
-
-        // Add current file to archive
-        $zip->addFile($filePath, $relativePath);
-    }
+$zipPath = $rootPath . '/modfiles.zip';
+if (is_file($zipPath)) unlink($zipPath);
+$skipName = ['modfiles.zip' => 1];
+$zipped = 0;
+if (class_exists('ZipArchive')) {
+	$zip = new ZipArchive();
+	if ($zip->open($zipPath, ZipArchive::CREATE) === true) {
+		$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($rootPath, FilesystemIterator::SKIP_DOTS));
+		foreach ($it as $file) {
+			$rel = substr($file->getPathname(), strlen($rootPath) + 1);
+			$base = basename($rel);
+			if (isset($skipName[$base])) continue;
+			if ($file->isDir()) continue;
+			$zip->addFile($file->getPathname(), $rel);
+			$zipped++;
+		}
+		$zip->close();
+	}
+} else {
+	$old = getcwd();
+	chdir($rootPath);
+	passthru('zip -r -q modfiles.zip . -x modfiles.zip');
+	chdir($old);
+	$zipped = -1;
 }
-
-// Zip archive will be created only after closing object
-$zip->close();
-*/
+$sz = is_file($zipPath) ? round(filesize($zipPath) / 1048576, 1) : 0;
+echo '<br>modfiles.zip '. $sz .' MiB ('. $zipped .' files)';
 echo  json_last_error() ;

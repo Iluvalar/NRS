@@ -658,7 +658,9 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 		$ttk=165/$sys['nrs']['dmgscale'];
 		$rangeFract=($ttk-$movesec2)/$ttk; //Fraction of units left alive once you get there
 		$rangeFig=Fwz_fig($sys['nrs']['armysize']*$rangeFract)/Fwz_fig($sys['nrs']['armysize']); //Proportion of power left after closing the gap
-		echo '<br>'. $obj['id'] .' rangeFig:'. $rangeFig .'F:'. $rangeFract .' s:'. $speed .' m2'. $movesec2;
+		if(empty($sys['wz']['eval']['quiet'])){
+			echo '<br>'. $obj['id'] .' rangeFig:'. $rangeFig .'F:'. $rangeFract .' s:'. $speed .' m2'. $movesec2;
+		}
 		//$obj['rangeMod']=(1-pow(.996,pow($range+3/$sys['nrs']['dmgscale'],2)))/(1-pow(.996,pow(6+3/$sys['nrs']['dmgscale'],2)));
 		
 		//$obj['rangeMod']=(1-pow(.997,(8**2)/$sys['nrs']['dmgscale']+pow($range,1.5)))/(1-pow(.997,(8**2)/$sys['nrs']['dmgscale']+pow(6,1.5)));
@@ -772,7 +774,11 @@ function Fwz_eval34(&$obj,$type,$calibrate=1){
 	}
 	$obj['HPfin']=$obj['HPmod']*$obj['armMod']*$obj['crystalMod'];
 	$obj['Prevalue2']=$obj['FunctionVal']*$obj['HPfin'];
-	$obj['priceMod']=pow(Fwz_fig(150/((($obj2['buildPower']+.001)+$boost['buildPower'])*$sys['wz']['eval']['currency'])),1);
+	$pricePow=$sys['wz']['eval']['pricePow'];
+	if($pricePow==='' or $pricePow===NULL){
+		$pricePow=1;
+	}
+	$obj['priceMod']=pow(Fwz_fig(150/((($obj2['buildPower']+.001)+$boost['buildPower'])*$sys['wz']['eval']['currency'])),$pricePow);
 	//echo $obj['ID'] .' price:'. (($obj2['buildPower']+$boost['buildPower'])*$sys['wz']['eval']['currency']);
 	$obj['prodMod']=pow(Fwz_fig(600/($obj2['buildPoints']+$boost['buildPoints']+.0001)),.1);
 	//$obj['value']=$obj['Prevalue2']*pow(600/($obj['buildPoints']+$boost['buildPoints']),.2)*200/($obj['buildPower']*$sys['wz']['eval']['currency']+$boost['buildPower'])*$obj['weightMod']*$calibrate;
@@ -2097,6 +2103,7 @@ function scale_pie_model($pie_string, $scale) {
 }
 */
 $sys['wz']['eval']['currency']=1;
+$sys['wz']['eval']['pricePow']=1;
 $sys['wz']['eval']['skipexpect']=0;
 $sys['wz']['eval']['msSynch']=450;
 

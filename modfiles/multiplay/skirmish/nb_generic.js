@@ -49,6 +49,10 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.ATE21, 
 					weaponStats.ATO21, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 					weaponStats.ATE11, 
 					weaponStats.ATE20, 
 					weaponStats.AWA10, 
@@ -66,6 +70,7 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.ATE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -91,6 +96,7 @@ var subpersonalities = {
 					weaponStats.AWA21, 
 					weaponStats.ATE21, 
 					weaponStats.ATO21, 
+					weaponStats.ATA11, 
 					weaponStats.APE21, 
 					weaponStats.ATE11, 
 					weaponStats.ATE20, 
@@ -104,6 +110,9 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.AWA01, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ASA11, 
 					weaponStats.APE20, 
 					weaponStats.AWA10, 
 					weaponStats.AWE11, 
@@ -121,6 +130,7 @@ var subpersonalities = {
 					weaponStats.ATO10, 
 					weaponStats.APO11, 
 					weaponStats.AWO01, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -147,6 +157,7 @@ var subpersonalities = {
 					weaponStats.APE11, 
 					weaponStats.APO21, 
 					weaponStats.ATE21, 
+					weaponStats.APE01, 
 					weaponStats.ATA21, 
 					weaponStats.ATE11, 
 					weaponStats.ATE20, 
@@ -160,6 +171,8 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
 					weaponStats.ASA20, 
 					weaponStats.AWA20, 
 					weaponStats.ATO01, 
@@ -175,6 +188,8 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -202,6 +217,8 @@ var subpersonalities = {
 					weaponStats.ASE11, 
 					weaponStats.ATO11, 
 					weaponStats.ATE21, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE20, 
@@ -213,6 +230,8 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.APE20, 
 					weaponStats.ASO21, 
@@ -230,6 +249,7 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.AWO01, 
 					weaponStats.APO10, 
+					weaponStats.AWO21, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -267,6 +287,7 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.APE01, 
 					weaponStats.ATA21, 
 					weaponStats.ATE11, 
 					weaponStats.ASO21, 
@@ -286,6 +307,8 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -322,6 +345,7 @@ var subpersonalities = {
 					weaponStats.APE10, 
 					weaponStats.ATO10, 
 					weaponStats.ATO21, 
+					weaponStats.ATE01, 
 					weaponStats.APA21, 
 					weaponStats.ASO21, 
 					weaponStats.AWO10, 
@@ -341,6 +365,9 @@ var subpersonalities = {
 					weaponStats.APO21, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -378,6 +405,7 @@ var subpersonalities = {
 					weaponStats.ASO10, 
 					weaponStats.APA00, 
 					weaponStats.AWA00, 
+					weaponStats.ASA11, 
 					weaponStats.APE21, 
 					weaponStats.AWO10, 
 					weaponStats.ATE10, 
@@ -396,6 +424,8 @@ var subpersonalities = {
 					weaponStats.APA11, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -421,6 +451,7 @@ var subpersonalities = {
 					weaponStats.ASO11, 
 					weaponStats.APO21, 
 					weaponStats.ATO21, 
+					weaponStats.AWO21, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
@@ -437,6 +468,7 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.ATE21, 
 					weaponStats.AWO01, 
+					weaponStats.ASA11, 
 					weaponStats.ATE11, 
 					weaponStats.APE20, 
 					weaponStats.ATE20, 
@@ -454,6 +486,9 @@ var subpersonalities = {
 					weaponStats.APA11, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -494,6 +529,7 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.AWO01, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
 					weaponStats.ATE11, 
 					weaponStats.APE20, 
 					weaponStats.ATE20, 
@@ -513,6 +549,8 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -551,6 +589,8 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.ATE11, 
@@ -568,6 +608,7 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.AWO01, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -605,6 +646,7 @@ var subpersonalities = {
 					weaponStats.AWO00, 
 					weaponStats.AWA11, 
 					weaponStats.AWA01, 
+					weaponStats.AWO21, 
 					weaponStats.APE21, 
 					weaponStats.ASO21, 
 					weaponStats.AWE11, 
@@ -622,6 +664,8 @@ var subpersonalities = {
 					weaponStats.APA11, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -660,6 +704,11 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.AWO01, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.APE20, 
@@ -705,6 +754,7 @@ var subpersonalities = {
 					weaponStats.ATO11, 
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
+					weaponStats.ATE01, 
 					weaponStats.ATA21, 
 					weaponStats.ATE11, 
 					weaponStats.ASO21, 
@@ -718,6 +768,9 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.ATE21, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE20, 
@@ -735,6 +788,7 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -763,6 +817,7 @@ var subpersonalities = {
 					weaponStats.ASE11, 
 					weaponStats.APO11, 
 					weaponStats.APA11, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.APE20, 
 					weaponStats.APO01, 
@@ -773,6 +828,9 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.ATE21, 
 					weaponStats.APO10, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 					weaponStats.ATA21, 
 					weaponStats.ATE20, 
 					weaponStats.ASO21, 
@@ -790,6 +848,7 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -817,6 +876,7 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.AWO01, 
 					weaponStats.APO00, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.APE21, 
 					weaponStats.ASO21, 
@@ -831,6 +891,8 @@ var subpersonalities = {
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
 					weaponStats.ATA21, 
 					weaponStats.ATE11, 
 					weaponStats.APE20, 
@@ -847,6 +909,8 @@ var subpersonalities = {
 					weaponStats.ATO10, 
 					weaponStats.AWA11, 
 					weaponStats.ATE21, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -886,6 +950,8 @@ var subpersonalities = {
 					weaponStats.ATO11, 
 					weaponStats.ATE21, 
 					weaponStats.APO10, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
 					weaponStats.ASA20, 
@@ -902,6 +968,8 @@ var subpersonalities = {
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
 					weaponStats.APO00, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -955,6 +1023,10 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.AWA01, 
 					weaponStats.ATO21, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -990,6 +1062,7 @@ var subpersonalities = {
 					weaponStats.AWO00, 
 					weaponStats.AWA01, 
 					weaponStats.APO00, 
+					weaponStats.ASA11, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.APE20, 
@@ -1009,6 +1082,9 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1051,6 +1127,7 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
 					weaponStats.APA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE11, 
@@ -1066,6 +1143,8 @@ var subpersonalities = {
 					weaponStats.AWA00, 
 					weaponStats.APO11, 
 					weaponStats.AWO01, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1107,6 +1186,7 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
 					weaponStats.APO10, 
+					weaponStats.ATE01, 
 					weaponStats.ATA21, 
 					weaponStats.ATE11, 
 					weaponStats.APE20, 
@@ -1121,6 +1201,9 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.AWA01, 
 					weaponStats.ATE21, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1176,6 +1259,10 @@ var subpersonalities = {
 					weaponStats.ATO21, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1213,6 +1300,8 @@ var subpersonalities = {
 					weaponStats.AWO00, 
 					weaponStats.AWA00, 
 					weaponStats.APO00, 
+					weaponStats.ATE01, 
+					weaponStats.APE01, 
 					weaponStats.APE21, 
 					weaponStats.ATE11, 
 					weaponStats.ASO21, 
@@ -1230,6 +1319,7 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.AWO01, 
 					weaponStats.APO10, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1256,6 +1346,7 @@ var subpersonalities = {
 					weaponStats.AWA20, 
 					weaponStats.AWA11, 
 					weaponStats.AWA01, 
+					weaponStats.AWO21, 
 					weaponStats.APE21, 
 					weaponStats.ASA20, 
 					weaponStats.ASO21, 
@@ -1267,6 +1358,8 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 					weaponStats.ATE11, 
 					weaponStats.APE20, 
 					weaponStats.ATE20, 
@@ -1284,6 +1377,8 @@ var subpersonalities = {
 					weaponStats.ASO11, 
 					weaponStats.ATO11, 
 					weaponStats.APO11, 
+					weaponStats.ATE01, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1324,6 +1419,7 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.APA11, 
 					weaponStats.APO00, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.ASA20, 
 					weaponStats.AWA20, 
@@ -1339,6 +1435,9 @@ var subpersonalities = {
 					weaponStats.APO21, 
 					weaponStats.AWA11, 
 					weaponStats.ATE21, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1381,6 +1480,7 @@ var subpersonalities = {
 					weaponStats.ATO11, 
 					weaponStats.APO11, 
 					weaponStats.APO00, 
+					weaponStats.ASA11, 
 					weaponStats.ATE11, 
 					weaponStats.APE20, 
 					weaponStats.ATE20, 
@@ -1396,6 +1496,8 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1435,6 +1537,10 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.ATO21, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
@@ -1453,6 +1559,7 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.ATA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1478,6 +1585,7 @@ var subpersonalities = {
 					weaponStats.AWE11, 
 					weaponStats.APE11, 
 					weaponStats.ASO11, 
+					weaponStats.ASA11, 
 					weaponStats.APE21, 
 					weaponStats.ASO21, 
 					weaponStats.ATE10, 
@@ -1491,6 +1599,9 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.ATE21, 
 					weaponStats.APA11, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.APE20, 
@@ -1509,6 +1620,7 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
 					weaponStats.APO10, 
+					weaponStats.AWO21, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1547,6 +1659,7 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.APE01, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE20, 
@@ -1564,6 +1677,9 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.AWA11, 
 					weaponStats.AWO01, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1604,6 +1720,7 @@ var subpersonalities = {
 					weaponStats.ATO10, 
 					weaponStats.AWA01, 
 					weaponStats.APO10, 
+					weaponStats.AWO21, 
 					weaponStats.APE20, 
 					weaponStats.ATE20, 
 					weaponStats.ASA20, 
@@ -1619,6 +1736,8 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.AWA11, 
 					weaponStats.ATO21, 
+					weaponStats.ATE01, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1646,6 +1765,7 @@ var subpersonalities = {
 					weaponStats.ASE11, 
 					weaponStats.ATO11, 
 					weaponStats.APO11, 
+					weaponStats.ASA11, 
 					weaponStats.ATE11, 
 					weaponStats.AWO10, 
 					weaponStats.AWE11, 
@@ -1660,6 +1780,8 @@ var subpersonalities = {
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
@@ -1677,6 +1799,8 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.ATE21, 
 					weaponStats.APO00, 
+					weaponStats.ATE01, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1729,6 +1853,11 @@ var subpersonalities = {
 					weaponStats.ATO10, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1768,6 +1897,7 @@ var subpersonalities = {
 					weaponStats.APO11, 
 					weaponStats.ATO21, 
 					weaponStats.APO00, 
+					weaponStats.ATA11, 
 					weaponStats.ATA21, 
 					weaponStats.APE20, 
 					weaponStats.ASA20, 
@@ -1788,6 +1918,9 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.AWO01, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1815,6 +1948,7 @@ var subpersonalities = {
 					weaponStats.ATO10, 
 					weaponStats.APO11, 
 					weaponStats.ATO21, 
+					weaponStats.ATA11, 
 					weaponStats.ATA21, 
 					weaponStats.ASO21, 
 					weaponStats.AWO10, 
@@ -1833,6 +1967,9 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ASA11, 
 					weaponStats.APA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE20, 
@@ -1843,6 +1980,7 @@ var subpersonalities = {
 					weaponStats.AWO00, 
 					weaponStats.AWA01, 
 					weaponStats.APO00, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1870,6 +2008,7 @@ var subpersonalities = {
 					weaponStats.APO01, 
 					weaponStats.APO11, 
 					weaponStats.ATO21, 
+					weaponStats.AWO21, 
 					weaponStats.ATA21, 
 					weaponStats.APE20, 
 					weaponStats.ATO01, 
@@ -1884,6 +2023,7 @@ var subpersonalities = {
 					weaponStats.APA11, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.APE01, 
 					weaponStats.ATE11, 
 					weaponStats.ATE20, 
 					weaponStats.ASA20, 
@@ -1901,6 +2041,9 @@ var subpersonalities = {
 					weaponStats.ATO10, 
 					weaponStats.AWA11, 
 					weaponStats.AWA01, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1945,6 +2088,10 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 					weaponStats.ATA21, 
 					weaponStats.APE20, 
 					weaponStats.AWA10, 
@@ -1957,6 +2104,7 @@ var subpersonalities = {
 					weaponStats.AWO00, 
 					weaponStats.AWA01, 
 					weaponStats.ATE21, 
+					weaponStats.ATE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -1983,6 +2131,8 @@ var subpersonalities = {
 					weaponStats.AWA21, 
 					weaponStats.AWA01, 
 					weaponStats.APA11, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.ATE11, 
@@ -1995,6 +2145,7 @@ var subpersonalities = {
 					weaponStats.ATO11, 
 					weaponStats.APO11, 
 					weaponStats.AWO01, 
+					weaponStats.AWO21, 
 					weaponStats.APE21, 
 					weaponStats.ASA20, 
 					weaponStats.ASO21, 
@@ -2012,6 +2163,8 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.ATO21, 
 					weaponStats.APO10, 
+					weaponStats.ATE01, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -2049,6 +2202,11 @@ var subpersonalities = {
 					weaponStats.APA00, 
 					weaponStats.AWO00, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 					weaponStats.APE21, 
 					weaponStats.ATE11, 
 					weaponStats.ASA20, 
@@ -2092,6 +2250,7 @@ var subpersonalities = {
 					weaponStats.ATE11, 
 					weaponStats.ATE20, 
 					weaponStats.ATO21, 
+					weaponStats.ATE01, 
 					weaponStats.APA21, 
 					weaponStats.APE20, 
 					weaponStats.ASO21, 
@@ -2105,6 +2264,9 @@ var subpersonalities = {
 					weaponStats.ASE11, 
 					weaponStats.ATO11, 
 					weaponStats.APO21, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.APE01, 
 					weaponStats.ASA20, 
 					weaponStats.AWA20, 
 					weaponStats.APO01, 
@@ -2119,6 +2281,7 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.AWO01, 
 					weaponStats.APA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -2145,6 +2308,7 @@ var subpersonalities = {
 					weaponStats.ASO01, 
 					weaponStats.AWO00, 
 					weaponStats.AWA01, 
+					weaponStats.AWO21, 
 					weaponStats.ASO21, 
 					weaponStats.AWO10, 
 					weaponStats.AWE11, 
@@ -2159,6 +2323,8 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.ATO21, 
 					weaponStats.APO00, 
+					weaponStats.ATE01, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
@@ -2176,6 +2342,8 @@ var subpersonalities = {
 					weaponStats.ATE21, 
 					weaponStats.APA11, 
 					weaponStats.APO10, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -2204,6 +2372,7 @@ var subpersonalities = {
 					weaponStats.ATO11, 
 					weaponStats.APO21, 
 					weaponStats.ATE21, 
+					weaponStats.AWO21, 
 					weaponStats.APA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE11, 
@@ -2216,6 +2385,8 @@ var subpersonalities = {
 					weaponStats.ATO10, 
 					weaponStats.APO11, 
 					weaponStats.AWO01, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
 					weaponStats.APE20, 
 					weaponStats.ASA20, 
 					weaponStats.AWO10, 
@@ -2233,6 +2404,8 @@ var subpersonalities = {
 					weaponStats.APA11, 
 					weaponStats.APO10, 
 					weaponStats.APO00, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -2258,6 +2431,8 @@ var subpersonalities = {
 					weaponStats.APE11, 
 					weaponStats.APO11, 
 					weaponStats.AWA11, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 					weaponStats.ATA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE11, 
@@ -2273,6 +2448,7 @@ var subpersonalities = {
 					weaponStats.APO21, 
 					weaponStats.AWA01, 
 					weaponStats.APO10, 
+					weaponStats.APE01, 
 					weaponStats.APE20, 
 					weaponStats.ASA20, 
 					weaponStats.ASO21, 
@@ -2289,6 +2465,8 @@ var subpersonalities = {
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
 					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -2348,6 +2526,10 @@ var subpersonalities = {
 					weaponStats.AWA11, 
 					weaponStats.AWO01, 
 					weaponStats.ATO21, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game
@@ -2389,6 +2571,7 @@ var subpersonalities = {
 					weaponStats.APO21, 
 					weaponStats.APO11, 
 					weaponStats.AWO01, 
+					weaponStats.APE01, 
 					weaponStats.APA21, 
 					weaponStats.APE21, 
 					weaponStats.ATE20, 
@@ -2404,6 +2587,318 @@ var subpersonalities = {
 					weaponStats.AWA01, 
 					weaponStats.ATO21, 
 					weaponStats.APA11, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			AWO21: {
+				chatalias: "AWO21",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.AWO21, 
+					weaponStats.ASO21, 
+					weaponStats.AWA21, 
+					weaponStats.APO21, 
+					weaponStats.AWO01, 
+					weaponStats.ATO21, 
+					weaponStats.APA21, 
+					weaponStats.ATA21, 
+					weaponStats.APE21, 
+					weaponStats.AWO10, 
+					weaponStats.AWA20, 
+					weaponStats.AWE11, 
+					weaponStats.ATO01, 
+					weaponStats.APO01, 
+					weaponStats.ATO20, 
+					weaponStats.ASO01, 
+					weaponStats.AWO00, 
+					weaponStats.ASO11, 
+					weaponStats.ATO11, 
+					weaponStats.APO11, 
+					weaponStats.AWA11, 
+					weaponStats.AWA01, 
+					weaponStats.ATE21, 
+					weaponStats.ATE11, 
+					weaponStats.APE20, 
+					weaponStats.ATE20, 
+					weaponStats.ASA20, 
+					weaponStats.AWA10, 
+					weaponStats.APE11, 
+					weaponStats.ASO00, 
+					weaponStats.ATO00, 
+					weaponStats.ASE20, 
+					weaponStats.ASO10, 
+					weaponStats.ASE11, 
+					weaponStats.AWA00, 
+					weaponStats.ATO10, 
+					weaponStats.APA11, 
+					weaponStats.APO10, 
+					weaponStats.APO00, 
+					weaponStats.ATE01, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
+					weaponStats.APE01, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			ATE01: {
+				chatalias: "ATE01",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.ATE01, 
+					weaponStats.ATE11, 
+					weaponStats.ATO01, 
+					weaponStats.ATE21, 
+					weaponStats.APE01, 
+					weaponStats.ATA21, 
+					weaponStats.APE21, 
+					weaponStats.ATE20, 
+					weaponStats.AWE11, 
+					weaponStats.APE11, 
+					weaponStats.APO01, 
+					weaponStats.ATE10, 
+					weaponStats.ATO00, 
+					weaponStats.ASE00, 
+					weaponStats.ASO01, 
+					weaponStats.ASE11, 
+					weaponStats.ATO11, 
+					weaponStats.AWA01, 
+					weaponStats.AWO01, 
+					weaponStats.ATO21, 
+					weaponStats.ATA11, 
+					weaponStats.APA21, 
+					weaponStats.APE20, 
+					weaponStats.ASO21, 
+					weaponStats.ASO00, 
+					weaponStats.ASA00, 
+					weaponStats.ATO20, 
+					weaponStats.ASE20, 
+					weaponStats.AWA21, 
+					weaponStats.APE10, 
+					weaponStats.APA00, 
+					weaponStats.AWO00, 
+					weaponStats.ASO11, 
+					weaponStats.AWA00, 
+					weaponStats.ATO10, 
+					weaponStats.APO21, 
+					weaponStats.APO11, 
+					weaponStats.AWA11, 
+					weaponStats.APA11, 
+					weaponStats.APO00, 
+					weaponStats.AWO21, 
+					weaponStats.ASA11, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			ATA11: {
+				chatalias: "ATA11",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.ATA11, 
+					weaponStats.ATA21, 
+					weaponStats.ATE11, 
+					weaponStats.ATO11, 
+					weaponStats.AWA11, 
+					weaponStats.APA11, 
+					weaponStats.ASA11, 
+					weaponStats.APA21, 
+					weaponStats.AWA10, 
+					weaponStats.AWE11, 
+					weaponStats.ATO01, 
+					weaponStats.APE11, 
+					weaponStats.ATE10, 
+					weaponStats.AWA21, 
+					weaponStats.ASE11, 
+					weaponStats.ASO11, 
+					weaponStats.ATO10, 
+					weaponStats.APO11, 
+					weaponStats.AWA01, 
+					weaponStats.ATE21, 
+					weaponStats.ATO21, 
+					weaponStats.ATE01, 
+					weaponStats.APE21, 
+					weaponStats.ATE20, 
+					weaponStats.ASA20, 
+					weaponStats.ASO21, 
+					weaponStats.AWO10, 
+					weaponStats.AWA20, 
+					weaponStats.APO01, 
+					weaponStats.ASA00, 
+					weaponStats.ATO20, 
+					weaponStats.ATO00, 
+					weaponStats.APE10, 
+					weaponStats.ASO10, 
+					weaponStats.ASO01, 
+					weaponStats.APA00, 
+					weaponStats.AWA00, 
+					weaponStats.APO21, 
+					weaponStats.AWO01, 
+					weaponStats.APO10, 
+					weaponStats.AWO21, 
+					weaponStats.APE01, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			ASA11: {
+				chatalias: "ASA11",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.ASA11, 
+					weaponStats.ASE11, 
+					weaponStats.ASO11, 
+					weaponStats.AWA11, 
+					weaponStats.APA11, 
+					weaponStats.ATA11, 
+					weaponStats.APA21, 
+					weaponStats.ATA21, 
+					weaponStats.ATE11, 
+					weaponStats.ASA20, 
+					weaponStats.ASO21, 
+					weaponStats.AWA10, 
+					weaponStats.AWE11, 
+					weaponStats.APE11, 
+					weaponStats.ASA00, 
+					weaponStats.AWA21, 
+					weaponStats.ASO10, 
+					weaponStats.ASO01, 
+					weaponStats.ATO11, 
+					weaponStats.APO11, 
+					weaponStats.AWA01, 
+					weaponStats.APE21, 
+					weaponStats.AWO10, 
+					weaponStats.AWA20, 
+					weaponStats.ATO01, 
+					weaponStats.APO01, 
+					weaponStats.ATE10, 
+					weaponStats.ASO00, 
+					weaponStats.ASE20, 
+					weaponStats.ASE00, 
+					weaponStats.APE10, 
+					weaponStats.APA00, 
+					weaponStats.AWA00, 
+					weaponStats.ATO10, 
+					weaponStats.APO21, 
+					weaponStats.ATE21, 
+					weaponStats.AWO01, 
+					weaponStats.ATO21, 
+					weaponStats.APO10, 
+					weaponStats.AWO21, 
+					weaponStats.ATE01, 
+					weaponStats.APE01, 
+		
+				],
+				earlyResearch: [ // fixed research path for the early game
+				],
+				minTanks: 1, // minimal attack force at game start
+				becomeHarder: 1, // how much to increase attack force every 5 minutes
+				maxTanks: 10, // maximum for the minTanks value (since it grows at becomeHarder rate)
+				minTrucks: 2, // minimal number of trucks around
+				minHoverTrucks: 3, // minimal number of hover trucks around
+				maxSensors: 1, // number of mobile sensor cars to produce
+				minMiscTanks: 1, // number of tanks to start harassing enemy
+				maxMiscTanks: 10, // number of tanks used for defense and harass
+				vtolness: 0, // the chance % of not making droids when adaptation mechanism chooses vtols
+				defensiveness: 65, // same thing for defenses; set this to 100 to enable turtle AI specific code
+				maxPower: 700, // build expensive things if we have more than that
+				repairAt: 50, // how much % healthy should droid be to join the attack group instead of repairing
+			},
+			APE01: {
+				chatalias: "APE01",
+				weaponPaths: [ // weapons to use; put late-game paths below!
+					weaponStats.APE01, 
+					weaponStats.APE21, 
+					weaponStats.APE11, 
+					weaponStats.APO01, 
+					weaponStats.ATE01, 
+					weaponStats.APA21, 
+					weaponStats.ATE11, 
+					weaponStats.APE20, 
+					weaponStats.AWE11, 
+					weaponStats.ATO01, 
+					weaponStats.ASE00, 
+					weaponStats.APE10, 
+					weaponStats.ASO01, 
+					weaponStats.ASE11, 
+					weaponStats.APA00, 
+					weaponStats.APO21, 
+					weaponStats.APO11, 
+					weaponStats.AWA01, 
+					weaponStats.ATE21, 
+					weaponStats.AWO01, 
+					weaponStats.APA11, 
+					weaponStats.APO00, 
+					weaponStats.ATA21, 
+					weaponStats.ATE20, 
+					weaponStats.ASO21, 
+					weaponStats.ATE10, 
+					weaponStats.ASO00, 
+					weaponStats.ASA00, 
+					weaponStats.ATO00, 
+					weaponStats.ASE20, 
+					weaponStats.AWA21, 
+					weaponStats.AWO00, 
+					weaponStats.ASO11, 
+					weaponStats.AWA00, 
+					weaponStats.ATO11, 
+					weaponStats.AWA11, 
+					weaponStats.ATO21, 
+					weaponStats.APO10, 
+					weaponStats.AWO21, 
+					weaponStats.ATA11, 
+					weaponStats.ASA11, 
 		
 				],
 				earlyResearch: [ // fixed research path for the early game

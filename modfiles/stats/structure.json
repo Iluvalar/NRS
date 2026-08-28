@@ -5238,50 +5238,6 @@
             "Flame2Med-contingency"
         ]
     },
-    "walltower-Flamer-PlasCan-TankDest-contingency": {
-        "id": "walltower-Flamer-PlasCan-TankDest-contingency",
-        "armour": 0,
-        "breadth": 1,
-        "buildPoints": 1164.423278952032,
-        "buildPower": 385.3363672669549,
-        "height": 1,
-        "hitpoints": 1800.3175316249926,
-        "name": "Fixed-Mounted Plasma Cannon [5\u20bdH-ATE] #5 walltower",
-        "resistance": 150,
-        "sensorID": "DefaultSensor1Mk1",
-        "strength": "HARD",
-        "structureModel": [
-            "BLGUARD3.pie"
-        ],
-        "thermal": 0,
-        "type": "DEFENSE",
-        "width": 1,
-        "weapons": [
-            "Flamer-PlasCan-TankDest-contingency"
-        ]
-    },
-    "walltower-Flamer-PlasmaCannon-contingency": {
-        "id": "walltower-Flamer-PlasmaCannon-contingency",
-        "armour": 0,
-        "breadth": 1,
-        "buildPoints": 1345.1279133859819,
-        "buildPower": 464.42540433399586,
-        "height": 1,
-        "hitpoints": 2079.70538593697,
-        "name": "Plasma Cannon [5\u20bdH-ATE] #6 walltower",
-        "resistance": 150,
-        "sensorID": "DefaultSensor1Mk1",
-        "strength": "HARD",
-        "structureModel": [
-            "BLGUARD3.pie"
-        ],
-        "thermal": 0,
-        "type": "DEFENSE",
-        "width": 1,
-        "weapons": [
-            "Flamer-PlasmaCannon-contingency"
-        ]
-    },
     "walltower-Howitzer150Mk1-contingency": {
         "id": "walltower-Howitzer150Mk1-contingency",
         "armour": 0,
@@ -8272,6 +8228,732 @@
         "width": 2,
         "weapons": [
             "MG7GATTLINGMk1-2120"
+        ]
+    },
+    "walltower-Cannon1Mk1-ntw": {
+        "id": "walltower-Cannon1Mk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 544.0895342632905,
+        "buildPower": 194.52562618476625,
+        "height": 1,
+        "hitpoints": 841.2180905464622,
+        "name": "Light Cannon [3\u00a5N-AWO] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Cannon1Mk1-ntw"
+        ]
+    },
+    "walltower-Cannon5VulcanMk1-ntw": {
+        "id": "walltower-Cannon5VulcanMk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 864.8464789711531,
+        "buildPower": 350.63262117736394,
+        "height": 1,
+        "hitpoints": 1337.1411465229326,
+        "name": "Assault Cannon [4\u00a5N-AWO] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Cannon5VulcanMk1-ntw"
+        ]
+    },
+    "walltower-Cannon6TwinAslt-ntw": {
+        "id": "walltower-Cannon6TwinAslt-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1366.470150867564,
+        "buildPower": 632.0156240850945,
+        "height": 1,
+        "hitpoints": 2112.702668795121,
+        "name": "Twin Assault Cannon [5\u00a5N-AWO] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Cannon6TwinAslt-ntw"
+        ]
+    },
+    "walltower-MG4ROTARYMk1-ntw": {
+        "id": "walltower-MG4ROTARYMk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 864.8464789711531,
+        "buildPower": 292.1938509811366,
+        "height": 1,
+        "hitpoints": 1337.1411465229326,
+        "name": "Assault Gun [4\u20bdN-APO] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "MG4ROTARYMk1-ntw"
+        ]
+    },
+    "walltower-MG3HERO-ntw": {
+        "id": "walltower-MG3HERO-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 481.2673652709963,
+        "buildPower": 138.83261911200216,
+        "height": 1,
+        "hitpoints": 744.0885893969115,
+        "name": "Commander MG [3\u20bdN-APO] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "MG3HERO-ntw"
+        ]
+    },
+    "walltower-AAGun2Mk1-ntw": {
+        "id": "walltower-AAGun2Mk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1002.8034180131168,
+        "buildPower": 353.21942833998094,
+        "height": 1,
+        "hitpoints": 1550.4366898670114,
+        "name": "Cyclone Flak Turret [5\u20bdN-APO] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "AAGun2Mk1-ntw"
+        ]
+    },
+    "walltower-PlasmiteFlamer-ntw": {
+        "id": "walltower-PlasmiteFlamer-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1580.7552320409143,
+        "buildPower": 509.3426771112652,
+        "height": 1,
+        "hitpoints": 2444.009329676434,
+        "name": "Plasmite Flamer [5$N-ATE] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "PlasmiteFlamer-ntw"
+        ]
+    },
+    "walltower-Flamer-PlasmaCannon-contingency": {
+        "id": "walltower-Flamer-PlasmaCannon-contingency",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1423.9407619820636,
+        "buildPower": 444.5122380179925,
+        "height": 1,
+        "hitpoints": 2201.5581139007477,
+        "name": "Plasma Cannon [5$N-ATE] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Flamer-PlasmaCannon-contingency"
+        ]
+    },
+    "walltower-Flamer-PlasCan-TankDest-contingency": {
+        "id": "walltower-Flamer-PlasCan-TankDest-contingency",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1233.023728696515,
+        "buildPower": 368.8143012960048,
+        "height": 1,
+        "hitpoints": 1906.380846044044,
+        "name": "Fixed-Mounted Plasma Cannon [5$N-ATE] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Flamer-PlasCan-TankDest-contingency"
+        ]
+    },
+    "walltower-Cannon2A-TMk1-ntw": {
+        "id": "walltower-Cannon2A-TMk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1002.8034180131168,
+        "buildPower": 282.57554267198475,
+        "height": 1,
+        "hitpoints": 1550.4366898670114,
+        "name": "Medium Cannon [5$N-AWA] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Cannon2A-TMk1-ntw"
+        ]
+    },
+    "walltower-Cannon375mmMk1-ntw": {
+        "id": "walltower-Cannon375mmMk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1366.470150867564,
+        "buildPower": 421.34374939006307,
+        "height": 1,
+        "hitpoints": 2112.702668795121,
+        "name": "Heavy Cannon [5$N-AWA] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Cannon375mmMk1-ntw"
+        ]
+    },
+    "walltower-Cannon4AUTOMk1-ntw": {
+        "id": "walltower-Cannon4AUTOMk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1681.7829607657816,
+        "buildPower": 552.323916173943,
+        "height": 1,
+        "hitpoints": 2600.208535318668,
+        "name": "Twin Heavy Cannon [5$N-AWA] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Cannon4AUTOMk1-ntw"
+        ]
+    },
+    "walltower-Mortar-Incenediary-ntw": {
+        "id": "walltower-Mortar-Incenediary-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 1873.9129179746524,
+        "buildPower": 636.5930839853766,
+        "height": 1,
+        "hitpoints": 2897.2611076657195,
+        "name": "Super Twin Cannon [6$N-AWA] #4 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "Mortar-Incenediary-ntw"
+        ]
+    },
+    "walltower-RailGun1Mk1-ntw": {
+        "id": "walltower-RailGun1Mk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1212.3917452847832,
+        "buildPower": 541.2822123174542,
+        "height": 1,
+        "hitpoints": 1874.4816886502083,
+        "name": "Needle Gun [5\u00a5N-AWA] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "RailGun1Mk1-ntw"
+        ]
+    },
+    "walltower-RailGun2Mk1-ntw": {
+        "id": "walltower-RailGun2Mk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1366.470150867564,
+        "buildPower": 632.0156240850945,
+        "height": 1,
+        "hitpoints": 2112.702668795121,
+        "name": "Rail Gun [5\u00a5N-AWA] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "RailGun2Mk1-ntw"
+        ]
+    },
+    "walltower-RailGun3Mk1-ntw": {
+        "id": "walltower-RailGun3Mk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1648.5087185853984,
+        "buildPower": 807.0970143397176,
+        "height": 1,
+        "hitpoints": 2548.763152328049,
+        "name": "Gauss Cannon [5\u00a5N-AWA] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "RailGun3Mk1-ntw"
+        ]
+    },
+    "walltower-RailGun4Mk1-ntw": {
+        "id": "walltower-RailGun4Mk1-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 1779.3794130457977,
+        "buildPower": 892.0832496122708,
+        "height": 1,
+        "hitpoints": 2751.102636493154,
+        "name": "Heavy Gauss Cannon [6\u00a5N-AWA] #4 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "RailGun4Mk1-ntw"
+        ]
+    },
+    "walltower-Rocket-MRL-ntw": {
+        "id": "walltower-Rocket-MRL-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 765.9849963158317,
+        "buildPower": 250.2459244003303,
+        "height": 1,
+        "hitpoints": 1184.291178951864,
+        "name": "Pod Rockets Artillery [4\u20bdN-APO] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Rocket-MRL-ntw"
+        ]
+    },
+    "walltower-Rocket-MRL-Hvy-ntw": {
+        "id": "walltower-Rocket-MRL-Hvy-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 765.9849963158317,
+        "buildPower": 250.2459244003303,
+        "height": 1,
+        "hitpoints": 1184.291178951864,
+        "name": "Heavy Mini-Rocket Battery [4\u20bdN-APO] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Rocket-MRL-Hvy-ntw"
+        ]
+    },
+    "walltower-Missile-MdArt-ntw": {
+        "id": "walltower-Missile-MdArt-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 2198.7474889448745,
+        "buildPower": 982.8596743535063,
+        "height": 1,
+        "hitpoints": 3399.488591061528,
+        "name": "Condor Missile Artillery [6\u20bdN-APO] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "Missile-MdArt-ntw"
+        ]
+    },
+    "walltower-Rocket-IDF-ntw": {
+        "id": "walltower-Rocket-IDF-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1580.7552320409143,
+        "buildPower": 636.6783463890814,
+        "height": 1,
+        "hitpoints": 2444.009329676434,
+        "name": "Ripple Rocket Artillery [5\u20bdN-APO] #4 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Rocket-IDF-ntw"
+        ]
+    },
+    "walltower-PlasmaHeavy-ntw": {
+        "id": "walltower-PlasmaHeavy-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 2054.957364878581,
+        "buildPower": 898.6646319491417,
+        "height": 1,
+        "hitpoints": 3177.1743468254795,
+        "name": "Plasma Artillery [6\u20bdN-APE] #5 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "PlasmaHeavy-ntw"
+        ]
+    },
+    "walltower-Rocket-Pod-ntw": {
+        "id": "walltower-Rocket-Pod-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 631.9806843867945,
+        "buildPower": 195.96074731364922,
+        "height": 1,
+        "hitpoints": 977.1068015523394,
+        "name": "Pod Rockets [4\u20bdN-ATA] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Rocket-Pod-ntw"
+        ]
+    },
+    "walltower-Rocket-LtA-T-ntw": {
+        "id": "walltower-Rocket-LtA-T-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 765.9849963158317,
+        "buildPower": 250.2459244003303,
+        "height": 1,
+        "hitpoints": 1184.291178951864,
+        "name": "Lancer [4\u20bdN-ATA] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Rocket-LtA-T-ntw"
+        ]
+    },
+    "walltower-Rocket-HvyA-T-ntw": {
+        "id": "walltower-Rocket-HvyA-T-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1403.464305868848,
+        "buildPower": 545.275544994597,
+        "height": 1,
+        "hitpoints": 2169.899417623781,
+        "name": "Tank Killer [5\u20bdN-ATA] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Rocket-HvyA-T-ntw"
+        ]
+    },
+    "walltower-Mortar1Mk1-ntw": {
+        "id": "walltower-Mortar1Mk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 765.9849963158317,
+        "buildPower": 250.2459244003303,
+        "height": 1,
+        "hitpoints": 1184.291178951864,
+        "name": "Mortar [4\u20bdN-ASA] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD1.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Mortar1Mk1-ntw"
+        ]
+    },
+    "walltower-Mortar2Mk1-ntw": {
+        "id": "walltower-Mortar2Mk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1212.3917452847832,
+        "buildPower": 451.0685102645452,
+        "height": 1,
+        "hitpoints": 1874.4816886502083,
+        "name": "Bombard [5\u20bdN-ASA] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Mortar2Mk1-ntw"
+        ]
+    },
+    "walltower-Mortar3ROTARYMk1-ntw": {
+        "id": "walltower-Mortar3ROTARYMk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1580.7552320409143,
+        "buildPower": 636.6783463890814,
+        "height": 1,
+        "hitpoints": 2444.009329676434,
+        "name": "Pepperpot [5\u20bdN-ASA] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Mortar3ROTARYMk1-ntw"
+        ]
+    },
+    "walltower-Laser3BEAMMk1-ntw": {
+        "id": "walltower-Laser3BEAMMk1-ntw",
+        "armour": 0,
+        "breadth": 1,
+        "buildPoints": 1131.1381996537789,
+        "buildPower": 329.942780104285,
+        "height": 1,
+        "hitpoints": 1748.855393341306,
+        "name": "Light Pulse Laser [5$N-APE] #1 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "BLGUARD3.pie"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 1,
+        "weapons": [
+            "Laser3BEAMMk1-ntw"
+        ]
+    },
+    "walltower-Laser2PULSEMk1-ntw": {
+        "id": "walltower-Laser2PULSEMk1-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 1779.3794130457977,
+        "buildPower": 594.7221664081806,
+        "height": 1,
+        "hitpoints": 2751.102636493154,
+        "name": "Twin Pulse Laser [6$N-APE] #2 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "Laser2PULSEMk1-ntw"
+        ]
+    },
+    "walltower-HeavyLaser-ntw": {
+        "id": "walltower-HeavyLaser-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 1779.3794130457977,
+        "buildPower": 594.7221664081806,
+        "height": 1,
+        "hitpoints": 2751.102636493154,
+        "name": "Heavy Pulse Laser [6$N-APE] #3 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "HeavyLaser-ntw"
+        ]
+    },
+    "walltower-Laser4-PlasmaCannon-ntw": {
+        "id": "walltower-Laser4-PlasmaCannon-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 2141.938773545995,
+        "buildPower": 759.4724981119522,
+        "height": 1,
+        "hitpoints": 3311.6565044566096,
+        "name": "Plasma Cannon [6$N-APE] #4 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "Laser4-PlasmaCannon-ntw"
+        ]
+    },
+    "walltower-AAGunLaser-ntw": {
+        "id": "walltower-AAGunLaser-ntw",
+        "armour": 0,
+        "breadth": 2,
+        "buildPoints": 2210.0014648276347,
+        "buildPower": 791.6312978532519,
+        "height": 1,
+        "hitpoints": 3416.8883892693166,
+        "name": "Hyper Fire Laser [6$N-APE] #5 walltower",
+        "resistance": 150,
+        "sensorID": "DefaultSensor1Mk1",
+        "strength": "HARD",
+        "structureModel": [
+            "STWPFCAN.PIE"
+        ],
+        "thermal": 0,
+        "type": "DEFENSE",
+        "width": 2,
+        "weapons": [
+            "AAGunLaser-ntw"
         ]
     },
     "BarbHUT-eco": {
