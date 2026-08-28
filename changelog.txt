@@ -97,3 +97,7 @@ NRS+433
 
 NRS+434
 *small update. AI 5% stronger. Medium AI should be a challenge to new players to NRS and hard for veteran. Insane AI is still insane.
+
+NRS+435
+*more NTW bodies.
+*NTW weapons finally coming in. Say hello to the condor artillery!
